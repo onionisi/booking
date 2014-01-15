@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/0/0/A001352909607_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/0/0/A001352909607_1.jpg">
+        <h2>3D打印：从想象到现实</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥35.00元</b> <del>¥49.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1"  type="number" value='1' disabled="disabled">
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+            <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' disabled="disabled">暂时缺货</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/0/A001352909607_1.jpg','3D打印：从想象到现实-全球第一本全面讲述3D打印的著作（分享自 @快书包）','','utf-8'));"><i></i></button>
+    </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】[美]胡迪•利普森（Hod Lipson）,梅尔芭•库曼（Melba Kurman)<br />
+【译者】赛迪研究院专家组<br />
+【出版社】中信出版社；2013年4月第1版<br />
+【装订】大32开；平装<br />
+【页数】320页<br />
+【印刷】彩色<br />
+<span style="color:#666666;white-space:normal;">【ISBN】9787508638584</span><br />
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		你需要一把功能强大的锤子？你需要一双精致无比的鞋子？你需要给孩子准备奇异的玩具？你需要一顿精美的晚餐？只管打印出来就行了。这本书带你走进3D打印的世界，认识一下当下这个最酷的东西——它将从想象变成现实，并带来一场深刻的社会革命。<br />
+<strong></strong> 
+	</p>
+	<p style="display:inline !important;">
+		<strong><strong>《3D打印：从想象到现实》，全球第一本全面讲述3D打印的作品。</strong></strong> 
+	</p>
+<strong><br />
+	<p style="color:#333333;white-space:normal;">
+		<strong><strong style="color:#333333;white-space:normal;">《3D打印：从想象到现实》，</strong>中英文同步出版。<br />
+3D打印风靡全球，第三次工业革命的序幕拉开了！<br />
+<strong style="color:#333333;white-space:normal;">揭开3D打印神秘面纱：让传统制造瞬间过时，规模经济的铁律从此被打破跨越虚拟世界与实体世界的鸿沟，一场产品制造和设计的革命即将开始，它将颠覆我们的物理世界。</strong></strong> 
+	</p>
+</strong><br />
+在中国：3D打印概念股横空出世，万众瞩目；各大媒体集中、热烈报道；工信部、科技部纷纷制定政策推动3D打印产业化。<br />
+<br style="color:#333333;white-space:normal;" />
+<span style="color:#333333;white-space:normal;">3D打印机与当今发达的数字技术相结合，再加上互联网的普及以及微小而成本低廉的电子电路的广泛使用，技术和社会革新由此爆发。<br />
+</span> 
+	<div class="goods-content-title">
+		内容看点
+	</div>
+	<p style="color:#333333;white-space:normal;">
+		<strong>《3D打印：从想象到现实》</strong>讲述了3D打印技术的突破性发展，以及3D打印技术将如何应用在学校、厨房、医院等场所的。<br />
+<br />
+这本书预测，不远的未来，我们完全可以用电脑把自己想要的东西设计出来，然后进行三维打印，就像我们现在可以在线编辑文档一样。通过电子设计文件或设计蓝图，3D打印技术将会把数字信息转化为实体物品。<br />
+<br />
+当然，这还不是3D打印的全部，3D打印最具魔力的地方是，它将给材料科学、生物科学带来翻天覆地的变化，最终的结果是科学技术和创新呈现爆发式的变革。<br />
+<br />
+3D打印机本是一种相对粗陋的制造机器，从工厂诞生，然后走进了家庭、企业、学校、厨房、医院、甚至时尚T台。但是一旦将3D打印机与当今发达的数字技术相结合，奇迹就发生了。再加上互联网的普及以及微小而成本低廉的电子电路的广泛使用，在材料科学和生物技术取得日新月异进步的今天，简直不敢想象！技术和社会革新由此爆发。<br />
+<br />
+作为全球3D打印研究的权威专家，作者经过长期卓有成效的研究，并走访了多位来自各个行业的专家，这部生动而有趣的书带给你的不仅仅是极大的震撼，还有更多的观察与思考——3D打印这个全新的世界将给你带来什么？
+	</p>
+	<div class="goods-content-title">
+		名人推荐
+	</div>
+美国总统奥巴马：3D打印将给几乎所有产品的制造方式带来革命性变化一场产品制造的革命、设计的革命、材料的革命、生物的革命、知识产权的革命即将由3D打印引爆3D打印技术的远大前景即将展开：跨越虚拟世界与实体世界的鸿沟；规模经济的铁律从此被打破；3D打印将把人工智能从计算机拓展到现实世界，机器人将成为过去时……
+	<div class="goods-content-title">
+		媒体集中报道
+	</div>
+《人民日报》：3D打印成第三次工业革命重大标志<br />
+《光明日报》：3D打印开启第三次工业革命大门<br />
+《中央电视台》：3D打印技术兴起，行业人士看好市场<br />
+《新华网》：英设计师用生物塑料制造首个3D打印房屋模型<br />
+《中国网》：人类探月迎新跨越，3D打印技术助力月球基地建设<br />
+《21世纪网》：3D打印概念太疯狂：“打印”建筑或将抑制高房价<br />
+《广州日报》：3D打印房子、器官不远了<br />
+《上海证券报》：3D打印走进美国小学，英国首创打印房屋概念<br />
+《网易》：中国在航空领域商业化3D打印技术<br />
+《中关村在线》：忘了钢琴？王力宏关注3D打印电吉他。<br />
+《中国证券网》：万亿3D打印蛋糕全面铺开，12股盛宴开席。<br />
+《腾讯》：未来3D打印汽车将成新宠，地面和空中当快车道<br />
+《网易》科技：奥巴马称3D打印技术将推动美国经济增长<br />
+《中国时刻网》：3D打印“智”造美好未来<br />
+《慧聪机械工业网》：奥巴马演讲强调3D打印重要性，3D打印业前景广阔<br />
+……
+	<p>
+		<br />
+	</p>
+	<p>
+		<span style="color:#333333;white-space:normal;"></span> 
+	</p>
+</div>
+<!-- 作者简介 -->
+<div class="goods-content-title">
+	作者介绍
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<span style="font-family:verdana, arial, helvetica, sans-serif;font-size:14px;line-height:19px;white-space:normal;background-color:#FFFFFF;"><strong>（美国）胡迪•利普森（Hod Lipson） （美国）梅尔芭•库曼（Melba Kurman） 译者：赛迪研究院专家组</strong></span><span style="font-size:14px;"><strong></strong></span><br />
+胡迪·利普森，康奈尔大学机械工程与计算机科学技术教授，他还是一家创造机器实验室的负责人，专注于自动化设计和机器制造。他出版过200多本读物，发表过100多场演讲。他在3D打印领域的研究成果，发表在了《自然》、《科学》、《纽约时报》、《发现》等多家杂志和其他媒体上。
+	</p>
+	<p>
+		<br />
+梅尔芭·库曼，在微软和康奈尔大学有着15年的产品和研发经历，她现在是一家创新公司的总裁。
+	</p>
+</div>
+<!-- 目录 -->
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		推荐序一<br />
+推荐序二<br />
+推荐序三
+	</p>
+	<p>
+		<br />
+<strong>前言</strong><br />
+<br />
+<strong>第1章 这是科幻吗，不，它将成为现实 <br />
+</strong> <br />
+<strong>第2章 一台几乎可造万物的机器 </strong><br />
+打印三维物体：哈利?波特的魔杖复活了<br />
+走向数字化和模拟化：跨越虚拟世界和实体世界的鸿沟<br />
+“请把我的鞋子传真过来”：3D打印机能做到<br />
+3D打印的十大优势<br />
+<br />
+<strong>第3章 &nbsp;灵活制造：既好，又快，还省</strong><br />
+兼具大规模生产和手工生产的特征<br />
+更快：从设计到产品交付的时间缩短了<br />
+更便宜：降低产品开发成本<br />
+更好：生产出最佳的定制部件<br />
+按大小对市场进行排列：中国仅占8.5%<br />
+21世纪的空白画布<br />
+研究杀手级应用程序<br />
+轮胎也可以打印了<br />
+<br />
+<strong>第4章 &nbsp;3D打印的赚钱之道</strong><br />
+云制造：像蚂蚁工厂<br />
+创客运动<br />
+体验经济<br />
+MakerBot公司<br />
+Shapeways公司<br />
+100kGarages公司<br />
+打印产品有经济效益吗<br />
+从零起点到规模化生产：3D打印兼职也可做到<br />
+FabApp：就像Phone应用程序一样<br />
+连续定制和产品多样性<br />
+性和娱乐<br />
+微型金融和微型工厂<br />
+<br />
+<strong>第5章 &nbsp;3D打印机是如何打印的</strong><br />
+基本打印制造过程<br />
+3D打印机的两大家族<br />
+喷射、挤压或喷雾打印机<br />
+融合、凝固、黏合式打印机<br />
+整理设计文件<br />
+后处理：3D打印的最后工序<br />
+3D打印催生原材料革命<br />
+<br />
+<strong>第6章 &nbsp;设计软件：只要你能想到，就能设计和打印</strong><br />
+从绘图文字处理器到AutoCAD<br />
+设计软件：以数字化的方式呈现物理世界<br />
+让一切皆为可能：设计软件与3D打印的结合<br />
+设计机器零件：实体建模CAD<br />
+绘制屏幕上的字符：3D计算机图形软件<br />
+编辑物理世界就像编辑照片一样<br />
+设计软件的未来<br />
+把设计的东西完美打印出来<br />
+STL：目前的标准<br />
+增材制造：新标准<br />
+下一代的设计软件：数字化捕捉<br />
+<br />
+<strong>第7章 &nbsp;“活墨”生物打印：人体器官可以打印了</strong><br />
+3D打印：让你一夜之间年轻20岁<br />
+3D打印生命阶梯<br />
+组织工程学：3D打印干细胞<br />
+干细胞、生物墨与生物纸：3D打印活细胞<br />
+打印活性软骨<br />
+打印心脏瓣膜<br />
+我们能设计、打印自己的身体吗<br />
+打印人造身体部位<br />
+生物打印的未来<br />
+<br />
+<strong>第8章 &nbsp;3D打印时代的数字厨房</strong><br />
+数字烹饪：一场烹饪革命<br />
+打印汉堡包、肉饼和番茄酱<br />
+食品打印关键在分辨率<br />
+打印的饼干里面竟然有图案<br />
+疯狂科学家公司：他们成功了<br />
+自身量化饮食：你再也不用担心糖尿病和肥胖症了<br />
+打印的食品不仅仅是加工食品<br />
+从加工食品到合成食品<br />
+3D打印杀手级应用程序<br />
+<br />
+<strong>第9章 &nbsp;教室里的工厂：3D打印颠覆传统教育方式</strong><br />
+边做边学：孩子们的工程学<br />
+从高中阶段说开去<br />
+学习应该是令人愉快的<br />
+考试分数与动手能力<br />
+忘记学习方式<br />
+3D打印让学生不再遗忘<br />
+触觉教学：课堂教育的新革命<br />
+课堂教育如何应用3D打印<br />
+3D打印未来的课堂<br />
+<br />
+<strong>第10章 &nbsp;美好的世界：3D打印时代的审美标准</strong><br />
+计算机：如同大自然造物者<br />
+3D打印：让你脚上的鞋子舒适无比<br />
+获取生物数据：打印最优化产品<br />
+响应智能设计<br />
+用3D打印机打印建筑物<br />
+机器人设计师<br />
+<br />
+<strong>第11章 &nbsp;3D打印：让制造业不再有污染</strong><br />
+两个塑料玩具的故事<br />
+更绿色环保的制造<br />
+低碳制造：3D打印能做到<br />
+高效能零部件打印：喷气式客机也能打印<br />
+制造过程清洁化<br />
+3D打印的垃圾站更清洁、更美妙<br />
+变废为宝：绿色环保打印<br />
+3D打印如何既环保又不浪费<br />
+<br />
+<strong>第12章 &nbsp;当武器和毒品也能打印、知识产权彻底失效时</strong><br />
+打印武器、毒品和假冒伪劣产品<br />
+打印特制药物<br />
+3D打印时代消费者如何保护自身安全<br />
+3D打印时代的知识产权<br />
+商标<br />
+著作权<br />
+专利<br />
+数字版权<br />
+难道知识产权和专利保护过时了<br />
+RepRap打印机：改变商业模式<br />
+开源硬件：21世纪的专利制度<br />
+微专利<br />
+3D打印迫切需要法律保护<br />
+<br />
+<strong>第13章 &nbsp;用3D打印设计你的未来</strong><br />
+格雷伯爵茶<br />
+史蒂夫·乔布斯：“计算机是我们大脑中的自行车”<br />
+3D打印视觉设计：从游戏中获得灵感<br />
+物质编译器：让3D打印设计变得如此简单<br />
+交互式设计：和计算机交流设计想法<br />
+形式语言：设计师与计算机无缝协同工作<br />
+食谱式设计<br />
+生长式设计<br />
+反应蓝图：复杂形状的自动化生产<br />
+一种设计生产多种定制产品<br />
+会思考的打印机<br />
+改变设计工具的形状<br />
+<br />
+<strong>第14章 &nbsp;3D打印的下一篇章</strong><br />
+3D打印的三个篇章<br />
+多元材料的混合制造<br />
+活性系统打印：打印完整的机器人<br />
+最后的篇章：从模拟到数字<br />
+模拟—数字混合打印<br />
+机器制造机器的时代<br />
+译后记
+	</p>
+</div>
+<!-- 书评 -->
+<div class="goods-content-title">
+	书评
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		3D打印从表面上看是颠覆了产品的制造方式，但从本质上看却是传统产业面对的挑战和机遇。从某种意义上说，3D打印对现有企业而言，要么是天使，要么是魔鬼。<span style="color:#777777;">——张瑞敏 海尔集团董事局主席、首席执行官</span><br />
+<br />
+《3D打印：从想象到现实》是3D打印该领域难得的佳作之一，这本书不拘泥于3D打印工艺技术的细节描述，而是向读者介绍3D打印的理念，重在以发展的眼光、创新的视野，用通俗的语言，从材料、制造、生活、健康、教育、法律、伦理等多种角度，激情而不失科学地展望3D打印技术对未来制造业、未来社会生产模式与人类生活方式可能带来的深刻影响和变革。<span style="color:#777777;">——王华明 北京航空航天大学教授、中国3D打印技术产业联盟理事长</span><br />
+<br />
+3D打印实质上是制造业向智能化不断演进的历程，这一技术的阶段性成功，为中国智能制造业的实践展现了光明的前景。<span style="color:#777777;">——罗文 中国电子信息产业发展研究院院长　</span> 
+	</p>
+</div>
+<!-- 在线试读 -->
+<div class="goods-content-title">
+	在线试读
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		&nbsp;3D（Three Dimensions）打印是一种通过材料逐层添加制造三维物体的变革性、数字化增材制造技术，它将信息、材料、生物、控制等技术融合渗透，将对未来制造业生产模式与人类生活方式产生重要影响。
+	</p>
+	<p>
+		<br />
+该书是3D打印领域难得的佳作之一，其突出特点是，不拘泥于3D打印工艺技术的细节描述，而是向读者介绍3D打印的理念，重在以发展的眼光、创新的视野，用通俗的语言，从材料、制造、生活、健康、教育、法律和伦理等多种角度，激情而不失科学地展望3D打印技术可能给未来制造业、未来社会生产模式与人类生活方式带来的深刻影响和变革。<br />
+<br />
+该书在介绍3D打印制造部件复杂外形和内部结构的超常能力的同时，特别展望了3D打印技术与多材料复合、新材料合成技术的深度融合，由超常特殊功能新材料或超材料制成的部件甚至具备感知、执行和反馈控制等系统主动综合能力，而且还敏锐地察觉到我们进入“机器制造机器”的时代已经不远了。制造—材料—控制的高度融合使人印象深刻，是3D打印技术的重要发展方向，也是该书的一大特点。<br />
+<br />
+该书作者是3D打印领域资深专家，对3D打印技术及其发展的研究充满激情，又不失客观和冷静，而且极具前瞻性，该书还提出了3D打印技术发展可能带来的知识产权及保护、制造者和消费者责任与权益保障、资源浪费、环保污染、毒品及枪支管理、犯罪治安、法律和伦理等一系列社会问题，这也是本书的可贵之处之一。<br />
+<br />
+<span style="color:#777777;">王华明<br />
+北京航空航天大学、教育部长江学者特聘教授<br />
+北京市大型金属关键构件激光直接制造工程技术研究中心主任<br />
+中国3D打印技术产业联盟理事长</span><br />
+<br />
+人猿相揖别，是因为古人能够手工制造工具。今人区别于古人，是因为能够使用机器制造工具。人类进化至今，一个崭新的文明标志就是能够用机器制造机器。从狭义上说，当前被赋予无限想象力的3D打印机就是这种能够制造机器的机器。<br />
+<br />
+科幻作家科利·多克托罗说过，科幻小说家不擅长预测未来，人们大多是在未来的外衣下描绘现在。那么3D打印技术的未来外衣是什么？<br />
+<br />
+“在未来（或是在星际纪年的未来），机器可以制造机器。3D打印机就是第一波新一代智能机器，它们能设计、制造、修理、回收其他机器，甚至能够调整和改进其他机器，包括它们自己。”<br />
+<br />
+《3D打印：从想象到现实》的作者胡迪?利普森先生和梅尔芭?库曼女士的定义校正了目前媒体对3D打印技术的过度解读，把梦幻般的3D打印落地到了智能制造。两位作者历时9个月，采访一线的科技工作者，现场考察3D打印实验室和产品设计生产过程，捕捉到了这种智能制造的逻辑轨迹，即控制三篇章：控制物质的形状、控制物质的构成和控制行为，也就是实现物体在结构、材料和活性上的有机统一。<br />
+<br />
+手工控制的局限性很大，后来出现了机械控制；得益于信息技术的发展，机械控制搭上了智能的翅膀。于是，人们逐渐可以控制探测器抵达数十万公里外的月球和火星，小小的支架可以准确放到心脏主动脉的末端，激光打印机可以用红黄蓝自动调兑出万紫千红的色彩。如果把3D打印机看作机器的话，人们所追求的就是有效控制它，让它打印出我们所需要的任何物体。从这种意义上讲，3D打印是对人类控制能力极限的挑战和展示。我们与作者一样，不能预测何时才能真正彻底实现这三种控制，然而可以预见的是，这三种控制能力的阶段性实现都足以引发制造业的巨大变革。目前，3D打印的第一篇章基本谱就，已经给传统的模具工业带来冲击，3D打印的牙齿和助听器已经占据80%的市场。那么同样可以设想在不远的将来：“3D打印机可以通过新的方式将原材料加以混合，新型材料就会出现。有了混合材料打印，多元结构的部件将会被同时制造、同时组装出来。在一个较小的范围内，我们将会以纳米级的精度将多种材料嵌入和编排到复杂的微观结构中。”<br />
+<br />
+很难想象在第二篇章的控制实现时，制造行业的格局将产生怎样天翻地覆的变化，那就让我们发挥想象力，憧憬3D打印控制能力的最高境界，比如可以打印三明治、打印身体器官、打印智能机器人……<br />
+<br />
+“所谓控制行为是指将程序编写进材料，使其具备我们所需要的功能。换句话说，我们不再打印被动的零部件和材料，而是打印能够感知、反应、计算和行为的综合的主动系统。”<br />
+<br />
+面对现实，我们还是要收回驰骋的想象。掩卷而思，其实我们不必知道3D打印机是喷墨的还是激光的，3D打印的模式是堆积的、添加的还是增材的，真正需要了解的是人们对物质结构、材料和活性上的智能控制水平，真正需要不懈探索的是充分把握其中的规律，高度实现三者的有机统一。当我们有一天真正能控制万物的内外结构、材料构成和活性系统时，即使没有3D或4D打印机，我们同样可以智能控制别的机器制造出精彩的世界。
+	</p>
+	<p>
+		由此说开，当我们剥去3D打印神话般的外衣，就会发现，3D打印实质上是制造业向智能化不断演进的历程。当前我国制造业正面临转型升级挑战，信息化和工业化的深度融合为这一进程提供了前所未有的机遇。3D打印技术的阶段性成功为我国智能制造业的实践展现了光明的前景，坚定了必胜的信念。我想这就是《3D打印：从想象到现实》一书给我们的最大启示，也是我推荐这本书的理由。<br />
+<br />
+<span style="color:#777777;">罗文<br />
+中国电子信息产业发展研究院院长</span><br />
+<br />
+3D打印，造物新纪元<br />
+<br />
+在过去的一年多时间里，3D打印业界进入了高度活跃期，与3D打印相关的新闻和概念频频出现在公众视野中，越来越多的中国民众开始了解3D打印。事实上，3D打印技术和3D打印机在一些欧美发达国家的应用已经相当普遍。<br />
+<br />
+2008年9月，我作为国家公派博士研究生在美国纽约州康奈尔大学胡迪?利普森教授的实验室求学时就第一次看到并使用了3D打印机。那是一台和家用冰箱外形相似的神奇机器，它只用了两个小时就将计算机中一个三维模型变为我手中实实在在的零件，我当时的惊奇与感叹可想而知。在那时，利普森教授和学生们已经在频繁使用实验室中昂贵的工业级3D打印机制造各种机器人零部件了，虽然那时3D打印机所用的材料价格并不便宜。与此同时，利普森教授团队的开源桌面3D打印机Fab@Home、生物材料3D打印机以及多材料混合3D打印等项目也成果颇丰。<br />
+<br />
+我的导师利普森教授为人幽默风趣，经常会和大家讨论一些非常有创意的新点子。他的主要研究领域包括进化计算、3D打印和机器人技术三个方向，而他的成名之作正是一个关于智能机器人利用3D打印机进行自我制造的创新研究项目，其成果文章最终发表在2000年的《自然》杂志上。正是基于多年来对3D打印领域的专注和热爱，利普森教授一直期望出版一本全面介绍3D打印及相关技术的著作。非常令人高兴的是，由利普森教授和库曼女士合著的关于3D打印的新书《3D打印：从想象到现实》终于在2013年年初大功告成，并由美国威立出版社出版发行。在与利普森教授的邮件沟通中得知，该书中文版将由中信出版社出版发行，这对于广大中国读者和关注3D打印技术的朋友来说，是一件令人十分期待的好事。<br />
+<br />
+我十分荣幸在第一时间就得到了威立出版社赠予的英文原稿，以及中信出版社蒋永军主编分享的中文译稿。这是全球第一本全面讲述3D打印技术及其应用的图书，书中展现了利普森教授和库曼女士两位作者多年来对3D打印技术及其产业发展的研究成果，整理了来自于3D打印相关的工业界、学术界和教育界众多人士的不同见解和案例，并且加入了作者对3D打印技术本身的独到分析和大胆预测。<br />
+<br />
+作者从不同层面和角度为读者描述了3D打印的技术原理、历史和现状、广泛应用、未来前景以及困难与挑战。对于中国读者来说，可从以下几个方面全面了解这本书所涵盖的内容：<br />
+<br />
+<br />
+1. 3D打印已蔓延至日常生活的每个角落<br />
+越来越多的事实表明，3D打印机已不再是设计师和科学家的专属机器，它已经从实验室和工厂逐渐走出来，并且走进学校和家庭，与我们每个普通人的生活息息相关。3D打印的衣服和鞋子已经多次出现在全球各大时装展，3D打印的饼干和蛋糕已经成为一些家庭餐桌上最受欢迎的小点心，3D打印的咖啡桌和个性家具颇受年轻人的喜爱，而在自行车和汽车等交通工具的设计中也越来越多地体现出3D打印元素。从小朋友的“喜羊羊”牙刷和定制玩具，到父母的立体婚纱照，再到爷爷奶奶的助听器和义齿，3D打印让家庭中的每个成员都感到惊喜并从中受益。正如书中所描绘的，3D打印技术正在遵循三步走的发展路线，逐渐从打印物体外形过渡到打印物体内部构成，最终发展到可以打印物体的高级功能和行为的阶段，因此我们相信：在不远的将来，每个人都可以在家中打印可通话的手机、爬来爬去的迷你机器人，以及其他新奇好玩的电子产品。<br />
+<br />
+2. 3D打印将波及各行各业<br />
+3D打印这种新式制造方法将使你的工作方式发生巨大改变，也许变得更有效率，也许变得更困难，作者针对这一趋势在书中列举了很多有代表性的案例。如果你是一位中学老师，当你带着花费数小时用3D打印制作的恐龙化石或者喜马拉雅山模型来到教室，这堂课一定会令你的学生们印象深刻；如果你是一位资深医者，当你将带着使用3D打印机制造的与患者身体完美匹配的骨骼或者心脏瓣膜走进手术室时，整个医疗界必定为之振奋；如果你是一位考古工作者，利用3D扫描和3D打印技术快速复制那些脆弱、不可触碰的珍贵文物，那么繁冗细致的考古研究工作必将事半功倍；如果你是一位艺术品设计师，使用3D打印技术实现你的设计，此时自然界中那些美妙复杂的曲线和外形都不再遥不可及，人们的审美标准也会大幅提升。然而，如果你是一位立体雕刻大师，那么3D打印出的作品会使你自叹不如；如果你拥有一间模型制作工厂，3D打印技术极有可能使你的业务量大幅缩水。诸如此类，3D打印必将波及和影响各行各业的工作模式，或者增强很多行业的生命力，也或者导致某些行业走向消亡。<br />
+<br />
+3. 3D打印催生众多新机会，同时也带来很多新挑战<br />
+如前文所述，一些传统行业将受到3D打印技术的冲击而逐渐萎缩，然而我们必须意识到3D打印同样会催生大量前所未有的行业和巨大机遇。最显而易见的机会就是，随着廉价家用3D打印机需求的增长，其相关产业链（包括零配件制造、打印材料等行业）也会进入高速发展期。更重要的机会在互联网领域，围绕3D打印会出现越来越多的电子商务模式，例如在线3D打印服务、个人定制设计制造服务、共享3D打印模型社区以及面向云制造的3D打印网络。与互联网类似，如书中所预言，移动信息平台和智能手机的普及也为某些简单易用却十分有趣的3D打印增值服务提供了理想的应用推广平台。还有就是基于3D打印的实体商业模式将迅速成长，例如遍布大街小巷和旅游景点的3D打印店与3D打印照相馆。<br />
+<br />
+然而，正如作者在书中提到的，我们必须认识到在3D打印创造无数新机会的同时，它也带来了许多前所未有的挑战：3D打印行业的人才培养问题，现有设计软件与3D打印的不匹配问题，3D打印物品的版权和知识产权纠纷问题，以及3D打印设备和3D打印产品的质量安全问题，还有就是3D打印产品对公共安全和环境构成的威胁，等等。这些问题迫切需要3D打印业界人士、产业经济研究者、法律工作者以及公共事务管理者通过共同努力来解决。<br />
+<br />
+4. 3D打印将改变现有产业结构，冲击中国经济模式<br />
+毋庸置疑，3D打印将创造新的商业模式，改变现有的产业结构，对世界经济产生巨大影响。最近一段时间，主要发达国家纷纷开始布局，陆续出台了相关政策和投资发展计划，大力发展3D打印产业，旨在占领新工业革命的前沿阵地。一方面，美国总统奥巴马在“国情咨文”中多次提及3D打印，并筹划建立3D打印国家创新中心，旨在提升美国制造业的竞争力；另一方面，从欧美各国最新的太空探索计划中，也可以看到对3D打印技术相关项目的巨额资助。<br />
+<br />
+坦白地讲， 3D打印技术将会给中国产业经济带来一些直接的负面影响。首先，正如作者在书中提到的，随着中国制造业劳动力成本上涨，基于3D打印技术和互联网平台的全球云制造模式将体现出更廉价、更快捷并且更绿色环保的优势，这将极有可能取代现有的中国制造模式。其次，3D打印的广泛应用使得整个产品研发过程都可以在企业内部进行，这将使研发周期缩短并且很好地保护了设计方案。然而，对于大量依靠模仿而生存且缺乏原创设计力量的中国微小企业来说，这无疑是一个沉重的打击。令人欣慰的是，在中国北京、西安、成都和武汉等城市，政府已经陆续开始着手对3D打印相关产业进行布局和规划，从设备研发、软件设计、材料制备和技术服务等众多环节全面鼓励发展3D打印产业。希望中国能够把握此次制造业转型改革机遇，成为世界3D打印产业强国。<br />
+<br />
+总的来看，利普森教授和库曼女士的这本新书非常及时、全面地总结和分析了3D打印领域的主要话题，并且描绘了众多非常引人入胜的应用前景和产业机会，使我们相信3D打印时代已经到来，我们的生活、工作以及思考方式都会为之改变，世界经济产业格局也将受其影响。作者和译者努力使这本书的语言浅显易懂、叙事简单风趣，因此对于来自各行各业、不同背景的读者来说，如果你对3D打印感兴趣，此书可谓上佳之选。<br />
+<br />
+<span style="color:#777777;">李曙光<br />
+西北工业大学博士后研究员<br />
+中国首家3D打印照相馆、3D打印体验馆总策划<br />
+利普森教授和库曼女士的学生与好友</span> 
+	</p>
+</div>
+<!-- 温馨提示 -->
+<div class="goods-content-title">
+	快书包服务承诺与说明
+</div>
+<div class="Goods-Content-Box">
+	1.快书包所售商品均为品牌正品，请您放心购买。欢迎您选择快书包精选、低价的高品质商品和1小时到货的用心服务。 <br />
+2.因商品包装升级等原因，您收到的商品可能与图片不完全一致，请以实物为准。快书包也将尽量及时更新网站信息。 <br />
+<a href="http://item.taobao.com/item.htm?spm=686.1000925.1000774.6.qidNJr&id=19797291382" target="_blank"><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301151333222457.jpg "><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301151333222457.jpg "></a></a>
+</div>
+<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A001352909607', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A001352909607', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A001352909607', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A001352909607', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A001352909607'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../hzh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../hzh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_1.jpg">
+        <h2><font style="color:red;">【原装进口，立省5元】</font>迪恩拓D&TALK 泡沫牙膏-薄荷味（买即赠可利友舒敏牙刷一支）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥44.00元</b> <del>¥58.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：件</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_1.jpg','【原装进口，立省5元】迪恩拓D&TALK 泡沫牙膏-薄荷味（买即赠可利友舒敏牙刷一支）-原售价：49.00元，现价：44.00元，立省5元。适合在办公室、社交和商旅使用的泡沫牙膏；可随时随地清洁牙齿 无需使用牙刷（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b>快书包推荐：</b><span style="color:#FF0000;font-family:Arial, sans-serif;font-size:14px;line-height:21px;white-space:normal;background-color:#FFFFE5;">适合在办公室、社交和商旅使用的泡沫牙膏；可随时随地清洁牙齿 无需使用牙刷也可以<span style="color:#FF0000;font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;">清洁</span>彻底<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="white-space:normal;">D&amp;talk 泡沫牙膏不含研磨剂、酒精成分，孕产妇可放心使用</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 还有日本狮王ZACT去烟渍冰爽牙膏可选包，链接：<a href="http://bj.kuaishubao.com/g/A720023016729.html" target="_blank"><span style="color:#666666;"><u>日本狮王ZACT去烟渍冰爽牙膏130g</u></span></a><span style="color:#666666;"><u> &nbsp; &nbsp;</u></span></span><span style="color:#FF0000;font-family:Arial, sans-serif;font-size:14px;line-height:21px;white-space:normal;background-color:#FFFFE5;"></span></span> 
+</div>
+<div class="goods-content-title">
+	赠品展示
+</div>
+<br />
+<strong>现在在购买迪恩拓D&amp;TALK 泡沫牙膏-薄荷味一瓶，即可获赠可利友舒敏牙刷一支（赠品颜色随机）<br />
+</strong><br />
+可利友舒敏牙刷超细刷毛比纤细刷毛再细一倍，刷毛根部只有0.01mm以下。非常柔软的超细刷毛，不仅柔软，而且非常有韧性，刷得很干净，许多细碎的脏东西都能刷到，而且比普通毛牙刷用起来更舒服。<br />
+<div style="text-align:center;">
+	&nbsp;&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_13.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_13.jpg"></a> 
+</div>
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【名称】迪恩拓泡沫牙膏-薄荷味<br />
+【品牌】D&amp;talk<span style="color:#666666;white-space:normal;">迪恩拓</span><br />
+【成份】HAP（羟基磷灰石）、尿囊素、氟化钠、木糖醇、绿茶提取物、芦荟凝胶等<br />
+【使用方法】每天使用1~数回，将泡沫挤入口腔内轻漱，使泡沫充盈口腔，再以牙刷刷洗牙齿或直接漱口30秒。不可吞服，用后请以清水漱口。<br />
+【生产商】<br />
+【贮藏方法】置于阴凉干燥处，密封防潮<br />
+</div>
+<div class="goods-content-title">
+	商品特点
+</div>
+<strong>迪恩拓D&amp;TALK 泡沫牙膏是一款全新概念的牙膏，尤其适合办公室、社交和商旅使用</strong><br />
+&nbsp;<br />
+在办公室吃过中饭，想要刷牙，怎么办？使用普通的牙膏和牙刷显然不太现实，但使用迪恩拓D&amp;TALK 泡沫牙膏就非常方便。<br />
+同样，个人约会或商务约会前，用瓶迪恩拓D&amp;TALK 泡沫牙膏身清洁牙齿，会比简单嚼嚼口香糖清洁得更彻底。<br />
+出差在外，入住酒店前，很难用普通的牙膏刷刷牙，随身携带迪恩拓D&amp;TALK 泡沫牙膏，就可以随时随地清洁牙齿、保持口气清新。<br />
+<br />
+<strong>小巧精致，携带方便<br />
+<br />
+</strong>迪恩拓D&amp;TALK 泡沫牙膏 小巧精致，携带方便，可以随时放在包中，而且符合乘机要求。<br />
+<br />
+<strong>使用方便，可直接漱口，也可配合牙刷使用</strong><br />
+<br />
+使用时只要轻压瓶口，将适量泡沫喷入口中，即可轻松漱口（不使用牙刷）或刷牙（配合牙刷使用），随时帮助你保持清新口气和良好形象。<br />
+牙齿种植手术后，随时用D&amp;talk泡沫牙膏刷牙漱口的方式，还可以预防可能产生的PLUG细菌。<br />
+<br />
+<strong>健康配方，彻底清洁、美白</strong><br />
+<br />
+不含研磨剂，绿色天然植物成分与韩方技术配方相结合， 泡沫的渗透性强，轻轻漱口或轻一刷即可达到口腔清洁效果，柔软的泡沫使口腔护理更加彻底。羟基磷灰石成分使牙齿美白，更加透亮。<br />
+&nbsp;<br />
+<strong>也可用于孕产妇的敏感的口腔护理和牙齿酸痛的护理<br />
+</strong><br />
+D&amp;talk 泡沫牙膏适合孕产妇敏感的牙齿和牙龈管理，不含研磨剂、酒精成分，会让孕产妇更加放心。D&amp;talk &nbsp;泡沫牙膏中所含有的羟基磷灰石成分，可修补引发牙齿酸痛的被损伤的牙釉表面，解除酸痛症状。<br />
+&nbsp;&nbsp;<br />
+<div style="text-align:center;">
+	&nbsp;&nbsp;
+</div>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_8.jpg"></a> 
+</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_5.jpg"></a><br />
+<br />
+&nbsp;<br />
+<div style="text-align:center;">
+	&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_10.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_10.jpg"></a><br />
+<br />
+</div>
+<strong> 
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_6.jpg"></a> 
+</div>
+</strong><br />
+<strong><span style="color:#000000;">泡沫牙膏的使用方法</span></strong><br />
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_7.jpg"></a><br />
+<br />
+</div>
+<div class="goods-content-title">
+	商品实拍图
+</div>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_2.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_4.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_9.jpg"></a> 
+</div>
+<div class="goods-content-title">
+	D&amp;talk迪恩拓品牌
+</div>
+<div style="text-align:center;">
+	&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_11.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_11.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/d/1/B620019321235_xt_12.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/B620019321235_xt_12.jpg"></a> 
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('B620019321235', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('B620019321235', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('B620019321235', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('B620019321235', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'B620019321235'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../hzh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../hzh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

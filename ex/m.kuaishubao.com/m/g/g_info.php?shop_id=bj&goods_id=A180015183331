@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/2/e/A180015183331_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/2/e/A180015183331_1.jpg">
+        <h2>无微不至：微博营销实战指南</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥29.30元</b> <del>¥48.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/2/e/A180015183331_1.jpg','无微不至：微博营销实战指南-一线名家齐聚，慷慨分享实战经验（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】杜子健，申音，尹光旭　等讲授，优米网　编著<br />
+【译者】<br />
+【出版】<span class="c1"><span class="ws1"></span><a href="http://search.dangdang.com/book/search_pub.php?category=01&key3=%B0%B2%BB%D5%C8%CB%C3%F1%B3%F6%B0%E6%C9%E7&order=sort_xtime_desc" name="__infodetail_pub" target="_blank">安徽人民出版社</a></span><br />
+【出版时间】2013-05-01 00:00:00<br />
+【品牌】时代书局<br />
+【ISBN】<span class="c3">9787212062477</span><br />
+【开本】32开<br />
+【页数】288<br />
+【字数】275千字<br />
+【装订】平装<br />
+【印刷】黑白<br />
+</div>
+<div class="goods-content-title">
+	内容简介<br />
+<span style="line-height:1.5;"><br />
+</span>
+</div>
+<br />
+<b>企业如何利用微博进行营销？<br />
+如何了解消费者的购买心理？<br />
+如何把握微博的传播机制，发现用户的行为模式，找到有价值的客户？<br />
+如何挖掘数据价值，制定营销方案，实现营销的最佳效果？<br />
+</b><br />
+本书从如何搭建企业微博营销平台、构建微博体系、塑造企业微形象、选择微博营销模式，以及微博营销的技能、微博写作技巧等方面详尽地讲述微博营销的方法、技巧，具有实操性强，案例经典，拿来就能用的特点。<br />
+在本书中，读者还会学到以下经典内容：<br />
+微博营销已不是简单开个账户，发发帖子。<br />
+微博传播永远是内容为王，无论是重口味，还是小清新，一定要与草根文化血脉相通。<br />
+写微博和说相声是一样的，要善于抖包袱，要在140字中写出跌宕起伏。<br />
+10% 的人影响了90%的人的购买行为，微博是影响他人购买决策的一个有效工具。<br />
+社交广告即将或者已经成为最主流的社会化营销解决方案。<br />
+高质量的内容和互动永远是提高粉丝转发率、留住粉丝的不二法宝。<br />
+中国移动、中国电信应该如何做微博营销？<br />
+《独唱团》爆单，快书包如何转危机为商机？<br />
+如何打造企业官微？<br />
+1000个真实的粉丝意味着什么？<br />
+如何用微博编织人脉？<br />
+微博内容写作十大技巧是什么<br />
+<br />
+<div class="goods-content-title">
+	作者：<br />
+</div>
+<p>
+	优米网<br />
+北京优视米网络科技有限公司成由著名制片人王利芬女士创办的。优米公司面向创业者提供多维度的服务，优米网为创业者提供有价值视频的服务平台。<br />
+杜子建（@杜子建）华艺传媒首席顾问，快媒体传播研究者，独创“破拆&amp;答案”的新营销理论，并形成独有的“华艺营销哲学”。<br />
+申音（@申音）NTA创新传播机构创始人 ，《创业家》杂志前主编和联合创始人。《商业的常识》一书作者。<br />
+伊光旭（@冷笑话精选）“飞博共创”公司创始人兼CEO，新浪名博“冷笑话精选”的博主，粉丝超过1000万。<br />
+晏涛（@晏涛三寿）社会化媒体营销实战专家，2011年派代网干货达人，原知名电商梦芭莎社会化营销负责人。<br />
+唐兴通（@唐兴通）携手互动CEO，中国电子商务协会网络整合营销研究中心专家委员。<br />
+杨亚天（@杨亚天）奇才互联CEO，有近十年企业培训咨询管理经历，长期致力于传统行业与新媒体的结合。<br />
+沈浩（@沈浩老师）中国传媒大学电视与新闻学院，教授，博士，数据化整合营销学术派代表人物。<br />
+刘东明（@刘东明）中国电子商务协会PCEM网络整合营销研究中心主任，清华大学总裁班特聘网络营销专家。<br />
+徐智明（@徐智明）江湖人称“老徐”，带领快书包拿订单、拿投资，在微博上扎扎实实忙生意。<br />
+王飞（@蛮子文摘）《蛮子文摘》运营主管，曾做过电商口的记者和门户编辑。<br />
+张俊良（@黑马良驹）国内第一个社会化营销网站Socialmouths创始人，擅长微博内容营销与事件营销。
+</p>
+<br />
+<div class="goods-content-title">
+	目录
+</div>
+第一章 “微”风来袭，微”营销带来“大”变革<br />
+<br />
+微博时代来临，你准备好了吗<br />
+微博的本质是什么<br />
+中小企业为什么要重视企业微博<br />
+微博对传统营销有什么影响<br />
+<br />
+第二章 正确定位，搭建企业“微”平台<br />
+<br />
+企业官微如何正确定位<br />
+企业官微如何进行内容建设<br />
+如何利用官微开展平台活动<br />
+<br />
+第三章 善用资源，构建战略“微”体系<br />
+<br />
+战略营销如何在微博落地<br />
+企业官微成功的关键要素<br />
+如何让企业在微博飞<br />
+<br />
+第四章 提升品牌，塑造企业“微”形象<br />
+<br />
+微博的传播路径有哪些<br />
+微博传播的四个要素<br />
+做一个受欢迎的微博<br />
+如何维护官方微博<br />
+<br />
+第五章 “微”利必争，选择营销“微”模式<br />
+<br />
+微博有哪些营销模式<br />
+微博营销的“4I原则”<br />
+企业如何利用微博进行营销<br />
+<br />
+第六章 有备而战，掌握营销“微”技能<br />
+<br />
+微博运营的必备常识<br />
+微博运营必备的八种技能<br />
+如何用数据分析法制定营销策略<br />
+<br />
+第七章 能说会道，写好营销“微”故事<br />
+<br />
+微博写作十大技巧<br />
+微博如何进行内容运营<br />
+如何打造微博的爆点<br />
+微博如何用故事营销<br />
+@蛮子文摘运营的八点心得<br />
+<br />
+第八章 正本清源，走出营销“微”误区<br />
+<br />
+谁是我们信息大餐的烹调者<br />
+1000个真实粉丝意味着什么<br />
+微博的传播机制与营销方案<br />
+<br />
+第九章 展望未来，“微”世界带来大天地<br />
+<br />
+社会化媒体营销大趋势<br />
+谁是下一代的超级媒体<br />
+新媒体将会迎来什么时代<br />
+编后记<br />
+<br />
+<p>
+	<div class="goods-content-title">
+		在线试读
+	</div>
+<br />
+中小企业为什么要重视企业微博<br />
+<br />
+我基本是电脑盲，以前就是看看新闻发发信息的水平。微博出来之后，原来不怎么用电脑的，像潘石屹、任志强这些人也都能玩微博；我这个一开始对微博不懂的人，也能把微博玩好了，很多五六十岁的人都能把<br />
+微博玩得非常好。这就证明，微博门槛是非常低的。马云说过，人必须亲自做的三件事，其中之一，就是玩微博不能让秘书代劳。大家知道，很多企业家的博客原来都是秘书代劳，自己不敲字的，但到了微博时期，都自己玩了。其实，我们快书包使用微博也是机缘巧合。快书包是2010年6月上线的，正是新浪微博开始蓬勃发展的时候，我们就借势用微博做快书包的营销，后来做快书包的客服，等等，做了很多事情。<br />
+我们为什么要重视微博呢？我们6月份上线，到7月份的时候就出了小麻烦——《独唱团》上市，快书包“爆单”，就是送不过来了。当时我们的配送能力一天只能送五六百单，但是有一天我们就接了《独唱团》1300单，结果微博里铺天盖地全是骂快书包的：你们骗人，还号称什么一小时送达，这根本是不可能的事情。那时候我就很高兴，为什么呢？因为我的顾客、我的潜在顾客跟微博的使用者之间重复度非常高，这就意味着在微博方面如果多做些努力，可能会有比较好的收效。这也就意味着，快书包用微博用得不错。那么，其他企业是否也适合用微博呢？<br />
+首先，要分析定位顾客，是不是跟微博使用者重合度比较高。如果一个产品全是卖给老年人的，虽然有老年人在用微博，但毕竟还是少数，那么重合度就低，使用微博成效就低。所以一个企业，还是要区分自己的顾客是谁，想达到什么目的，是否需要在微博上下一些功夫。这个问题，每个企业都不同。另外，是不是学了快书包的方法，或者学了凡客的方法，就一定能达到想要的效果呢？也未必。每个企业所处的阶段不同，所要达成的传播目的不同，因此每个企业所用的手段应该是有所区分的。在细枝末节上，一定要适合企业的情况。所以大家在接受任何一条资讯，或任何一个其他企业的方法的时候，都还是要区别对待的。在大家的印象中快书包是一家网上书店或者卖书的，实际上我们的定位是一家网上精选便利店。我们目前销售的商品，除了图书杂志，已经扩展到食品、饮品、酒、下午茶、日用品、演出票务、礼品券，等等。比较形象的比喻是，快书包是一家网上的7-11，这是我们的一句话的广告。<br />
+<br />
+用微博能做什么<br />
+<br />
+微博里有一句话，就是：“用微博能做什么？关键是你想做什么。”大家说，电子商务是什么？电子商务无外乎就是一个企业，在不同阶段满足了人们的某种其他商业业态不能满足的一个商业需求，所以出现了电子商务。其实，微博也一样。<br />
+我们现在经常看到一个词：微博营销。其实营销也好，微博建设品牌也好，或者说微博客服也好，关键是微博只是一个工具，一个人或一个企业想达成什么，用这个工具想做什么。而且，微博是新的网络工具一定比过去的网络工具从功能上更加综合，所能完成的任务更加丰富多彩。技术的进步能带来各种可能。这种可能由不同的人用它，就会达成不同的效果。其实微博也是一样。关键的就是，自己的企业处于哪个阶段，想用微博来完成什么事情。<br />
+微博躲不起越来越多的人，甚至可以说是全民，都在认识到的一个现实，就是微博是躲不起的。它的传播效果非常巨大，而且瞬间传播无法挽回。想删帖都是来不及的。这跟过去的传播形态和传播路径相比，已经发生了根本性的改变。<br />
+过去在大众传播时代，我们有所谓权威媒体，或发行量大或受众多，有大小之分，但现在不一样。在微博这个路径里，一个草根或一个粉丝不多的人的声音就有可能扩散成全网尽人皆知，甚至从微博这个渠道再扩充到大众媒体，再变成报纸的话题，变成电视的话题，等等。从这个意义上来讲，微博是躲不起的。企业可以不用微博来做营销，但生死存亡有可能就取决于一条微博。<br />
+所以说，用微博来做营销，可以扩大企业的销售能力或顾客群。我觉得一个企业没有意识地运用微博，或者说不用它，都可能造成致命打击。所有的企业都应该来重视微博，是否开官微或者是否使用官微来做营销，且放下不谈，但必须重视微博。首先要意识到的一个问题就是，企业想当鸵鸟藏起来，不理会那些声音，这是不行的。“不管你看不看，骂你的声音总在那里”，所以从这个意义上来讲，必须重视微博。<br />
+现阶段微博已经如此兴盛，微博对于舆论的引导性、影响力已经非常大。对于企业来讲，已经不用再讨论用不用的问题，关键是怎么用。我只是给大家展现快书包作为电子商务的一个小分子是怎么用的，基本上是毫无保留地呈现给大家，看对大家是否有益处。<br />
+<br />
+为什么重视微博<br />
+<br />
+我们之所以重视微博，一个根本原因就在于快书包没钱。我是100万起家的，加上200万天使投资，我用300万做了一家电子商务公司。在这样一个资金体量下，根本没有所谓的营销投放能力。在这种时候，我一定要去寻找不花钱的营销方式，所以恰好选了微博。<br />
+对于投入来讲，投入说高也高，说低也低。如果把我在微博上投入的时间换算成金钱，应该说投入了很多金钱。很多企业用外包营销公司来做微博的时候，需要付的费用是很高的。但是对于我自己来讲，可以和顾客直接互动，我把自己的时间成本忽略不计，所以叫低成本。对于一家网店来讲，这些直接接触顾客的机会，实在是太少了。微博提供了一个非常大的可能，就是无论多大的企业，都可以直接跟顾客对话，包括像潘石屹这样的大企业家，他也可以直接跟顾客对话。我在微博上经常看到，当当网的李国庆在那里做客服。微博主可以直接跟顾客互动，这个特性是微博带来的。使用其他工具，确实是比较难以实现的。另外，微博主可以随时灵活反应。通过“3•15”事件，我们已经体会到微博比过去所有的传播工具都更直接、快速的灵活反应。对于企业来讲，在处理危机公关的时候，微博尤其能起到非常关键的作用。<br />
+大家现在都这么重视微博，会不会很快出现一个替代微博的东西？我觉得这个完全没必要去纠结，因为随着技术的进步，一定会是这样的。无论谷歌也好，微软也好，任何情况下技术的进步，一定出现的趋势就是，新功能一定替代老功能，新技术一定比过去的技术更加综合和强大。但是最关键的一点，企业运营或者企业营销，这个本质并不会发生改变，定位理论已经提出三十多年也没有改变。新技术只不过带来一种可能，关键就是如何去认识它、运用它。<br />
+<br />
+微博对传统营销有什么影响<br />
+<br />
+如今我们在从无形资产到社会化资产的路上，我们的消费者不在社交网络上，就在去往社交网络的路上。无形资产是指我们的品牌、知识专利，等等，在过去这些都是不可量化的，但是如今所有的东西都可以量化。我们的真实粉丝数量、我们的粉丝质量、我们的社交关系，我们的转发数、评论数，都能显现出来，我们的无形资产已经被社会化了。<br />
+优衣库在人人网做的一个排队迎大奖的活动，在Facebook上也做了同样的活动，优衣库每在线下开一家新店，都会在主页上做这样一个活动。只要是优衣库的粉丝，就可以去做虚拟的排队，每排一次队，都可以获得一个优惠券，优惠券可以到实体店消费。每次活动都有几十万人参加，所以优衣库新店开张不用担心人流量的问题。<br />
+<br />
+微博改变了危机管理的原则<br />
+<br />
+微博的出现改变了危机管理的原则。五年前，许多人奉为黄金24小时的响应定律被刷新到黄金4小时乃至1小时甚至5分钟。1976年唐山大地震，直到6个小时以后，唐山当地才有一辆救护车开到了中南海，告诉中南海的领导，唐山地震了。北京离唐山很近，但是因为交通工具、通讯工具被地震阻断，导致6小时以后中南海才知道唐山发生了大地震，直到3个月以后政府才向全世界宣告，当时的死亡人数到现在还是个谜。时隔数十年，日本大地震，当天10分钟以内，微博上已经出现了关于地震的上万条信息。日本大地震前后15分钟内的全球信息流动图，日本地震的信息通过推特、Facebook、微博这些现代化的社交媒体工具，达到一个快速的传播。<br />
+微博使经典的营销理论遭遇撞击微博的出现，冲击了传统的营销理论。1889年美国的一个广告学家丁马发明了一个营销理论：营销主要靠大量的广告宣传，人们才会知道，但是广告费用很昂贵。例如央视打标王时候的脑白金每次要说三遍：“今年过节不收礼，收礼只收脑白金。”每天都在重复，消费者才有认知，认知了以后只有一部分人形成偏好，才会有购买的意愿并形成购买行动。这个过程就像漏斗一样，剩下的会越来越少。<br />
+现在的营销比过去难多了，因为我们营销的过程变了。现在信息大量存在，广告无处不在，在地铁里面、在马桶旁边、在写字楼的电梯间里面等等很多地方，随处都能看到广告。但我们看到太多的广告未必能够记住。如今要买一部手机、买一部电话、买一台电视机、买一辆汽车，大多数人会上网搜，看评论，问好友，消费者越来越主动。所以如今的营销一定要像传播故事一样推销你的产品或者服务，而不是简单的广告。<br />
+过去我们会花20%的时间和金钱用在做内容上面，然后用80%的时间和金钱，买最好最贵的渠道及媒介。但是，现在20%和80%可能需要倒过来，现在我们可能需要用80%的时间和金钱来做最好的内容，就像凡客或李宇春那样的内容。我们只需要用20%的时间和金钱就能形成这种扩散。我们不再需要自己去扩散，有很多人会帮我们扩散，成员之间在互相传播信息。<br />
+<br />
+微博能做什么<br />
+<br />
+微博能做很多事情，像客户服务、互动、硬广、公关服务。如今微博看起来无所不能，就像庄子说过的一句话“人皆知有用之用，而莫知无用之用也”。我们不要把微博当成一个可以及时兑现短期利益的平台。微博实际上是一个对话、交流、沟通的平台，现在营销就是对话、沟通、交流，甚至营销后面的电子商务也需要这些东西。如果我们拔苗助长、急功近利，太早用微博做一些让消费者厌恶的事情，短期可能会哄骗我们那些粉丝、用户，但是长期来看一定会伤害到我们的品牌和用户。所以我们需要好好呵护微博这个平台，不要定一个多高的指标，不要现实地说要在微博上卖多少货。微博就是建立一个企业和用户之间沟通、互动、达成互相信任的平台。今天的微博，或者明天的社会化媒体，一定会带来一批新的品牌，而这些新的品牌，不是生产者定义的，是用户和粉丝定义的。这样的品牌才是最有魅力的品牌。
+	<p>
+		<br />
+	</p>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A180015183331', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A180015183331', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A180015183331', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A180015183331', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A180015183331'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

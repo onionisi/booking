@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/1/9/B390033646318_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/1/9/B390033646318_1.jpg">
+        <h2>Manstory（盟狮图）绅士御寒款商务男袜礼盒-买即赠Manstory（盟狮图）商务男袜四季款</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥168.00元</b> <del>¥168.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：件</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/1/9/B390033646318_1.jpg','Manstory（盟狮图）绅士御寒款商务男袜礼盒-买即赠Manstory（盟狮图）商务男袜四季款-Manstory绅士御寒款的主料，是真正的羊绒与多种高级面料纤维进行合理搭配而成的；大大提高了其保暖性、舒适性、弹性与耐磨性，其保暖性是其他面料的3-5倍，是男士必备的冬季御寒品。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b><strong>快书包推荐：</strong></b></span><span style="color:#E53333;">华尔街谚语有言：“袜子反映了一个男人的品味”；</span><span style="font-family:Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:25px;white-space:normal;color:#E53333;">&nbsp;男人辛勤路上的汗水，汇成了男人的故事，袜 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 子最能体会。袜子属于内在的物品，一个男人对袜子的关注程度反映了他的内涵，他的深度，这 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;正是一个男人的魅力所在。<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 另有Manstory四季款男袜礼盒，链接：<a href="http://bj.kuaishubao.com/g/A450022864626.html" target="_blank"><u>Manstory（盟狮图）商务男袜</u></a></span> 
+</div>
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【名称】Manstory（盟狮图）绅士御寒款商务男袜礼盒（三双装）<br />
+【品牌】Manstory 盟狮图<br />
+【类型】<span style="color:#666666;white-space:normal;">绅士御寒款</span>商务男袜<br />
+【颜色】黑色&nbsp;<br />
+<span style="font-size:14px;line-height:21px;">【款式】中筒 纯色&nbsp;<span style="color:#666666;white-space:normal;">厚</span> <span style="color:#666666;white-space:normal;">冬</span>季款</span><br />
+【尺码】均码<br />
+<span style="font-size:14px;line-height:21px;">【</span><span style="font-size:14px;line-height:21px;">面料</span><span style="font-size:14px;line-height:21px;">材质】5%羊绒 48%聚酯纤维 24%锦纶 23%腈纶&nbsp;</span> 
+	<div>
+		<div class="goods-content-title">
+			商品实拍图
+		</div>
+<b><b style="color:#666666;white-space:normal;"><span style="color:#000000;">男人的袜子重在品质，就像我们评价男人时更看重他的才气。<br />
+</span><br />
+</b><b style="color:#666666;font-size:14px;line-height:21px;white-space:normal;"><b><span style="color:#000000;"><span style="white-space:normal;">Manstory绅士御寒款的主料，是真正的羊绒与多种高级面料纤维进行合理搭配而成的；大大提高了其保暖性、舒适性、弹性与耐磨性，其保暖性是其他面料的3-5倍<span style="white-space:normal;">，是男士冬季御寒<b style="color:#666666;white-space:normal;"><b><b><span style="color:#000000;">的</span></b></b></b><b style="color:#666666;white-space:normal;"><b><b><span style="color:#000000;">必备</span></b></b></b>品。</span></span></span></b><span style="color:#000000;"></span><br />
+</b><br />
+<span style="color:#000000;"> 图一：</span><span style="color:#000000;white-space:normal;">Manstory（盟狮图）绅士御寒款商务男袜礼盒（三双装）</span><span style="color:#000000;white-space:normal;"></span><span style="color:#000000;">包装图</span></b><br />
+		<div style="text-align:center;">
+			<b style="color:#666666;white-space:normal;"><b><span style="color:#000000;"><a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_xj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_xj_1.jpg"></a></span></b></b><br />
+		</div>
+<br />
+<b><span style="color:#000000;">图二：</span><b style="color:#666666;white-space:normal;"><span style="color:#000000;">Manstory（盟狮图）绅士御寒款商务男袜礼盒（三双装）拆包图</span></b></b><br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_xj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_xj_2.jpg"></a><br />
+<br />
+		</div>
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_xj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_xj_3.jpg"></a><br />
+		</div>
+<br />
+<b><span style="color:#000000;">图三：</span><b style="color:#666666;white-space:normal;"><span style="color:#000000;">Manstory（盟狮图）绅士御寒款商务男袜礼盒（三双装） 细节图</span></b></b><br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_xj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_xj_4.jpg"></a><br />
+<span style="color:#000000;"><strong><br />
+<span style="color:#E53333;">现在买Manstory（盟狮图）绅士御寒款商务男袜礼盒，即赠Manstory（盟狮图）商务男袜四季款礼盒（三双装）。</span></strong></span><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/8/a/A450022864626_xt_xj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/8/a/A450022864626_xt_xj_2.jpg"></a><br />
+		</div>
+		<div class="goods-content-title" style="white-space:normal;">
+			商品特点
+		</div>
+<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;"><b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">Manstory认为，世界上最尊贵的商务色，是纯色系黑色。<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">&nbsp; <br />
+黑色恰似古希腊神话中的男子一般，散发着自信、智慧、深沉的气质，那是有故事男人独具的沉着与稳重，</span></span></b></span></span></b>犹似男人的形象。</span><span style="color:#000000;white-space:normal;">在喧嚣纷繁世界里，它<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">蕴含</span><span style="color:#000000;">着优雅、深藏着力量。</span></span></b><br />
+<br />
+<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">Manstory采用</span></span></b><b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">奢雅高贵的顶级面料；<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">简洁大气、独具美学魅力的创意<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">设计；</span></span></b></span></span></b>巧匠的精湛手工艺，为世界每一个有故事的男人，献上最极致的“艺术品”。</span></span></b><br />
+<br />
+与其他品牌有很多款式不同 ，Manstory认为真正纯正的商务男袜，不能有印花和图案 ，而要以<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">大气、简洁、自然为根本。</span></span></b>材质和款式的品质感是商务场合的重中之重。<br />
+<br />
+【真正的品位男人】<br />
+</span></span></b><span style="color:#333333;"><span style="color:#000000;white-space:normal;">一个懂得穿衣的男人，是可以赢得女性喜爱的。<br />
+如果你还想让自己更上一层楼，就要知道：一个男人的品味如何，看他的袜子。<br />
+盟狮图根据收集的数据，为亚洲人脚型设计出黄金比例的筒高，让你可以在各种商务场合，杜绝“露肉”现象，彰显绅士气质。&nbsp;<br />
+一年四季，商务正装休闲，应对自如。</span></span><b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;white-space:normal;"><br />
+<br />
+【最迷人的是有故事的男人】<br />
+</span></span></b><span style="color:#333333;"><span style="color:#000000;white-space:normal;">有魅力的男人，他们神通广大，<span style="white-space:normal;">他们立足于社会，吸引着女人们深情的目光</span>；但更吸引女人的，是有故事的男人。<br />
+男人的故事 ，Manstory懂。 <br />
+<br />
+辛勤拼搏的汗水，汇成了男人的故事，袜子最能体会。<br />
+袜子属于内在物品，一个男人对袜子的关注程度不仅反映他对质朴物品的关注程度，更反映了他的内涵，他的深度，这正是一个男人的魅力所在。<br />
+<br />
+<b style="color:#666666;white-space:normal;"><span style="color:#333333;"><span style="color:#000000;">【极致色彩<b style="color:#666666;"><span style="color:#333333;"><b style="color:#666666;"><span style="color:#333333;"><span style="color:#000000;">·</span></span></b></span></b>黑色魅力】<br />
+</span></span></b><span style="color:#333333;"> 
+		<div style="display:inline !important;">
+			<span style="color:#000000;text-align:center;"><span style="color:#333333;"><span style="color:#000000;"><span style="white-space:normal;"><span style="color:#333333;"><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;">Manstory认为，世界上最尊贵的商务色，是纯色系黑色。<span style="color:#333333;"><span style="color:#000000;">&nbsp;&nbsp;<br />
+黑色恰似古希腊神话中的男子一般，散发着自信、智慧、深沉的气质，那是有故事男人独具的沉着与稳重，</span></span></span></span>犹似男人的形象。</span><span style="color:#000000;">在喧嚣纷繁世界里，它<span style="color:#333333;"><span style="color:#000000;">蕴含</span><span style="color:#000000;">着优雅、深藏着力量。</span></span></span></span></span></span></span></span><span style="color:#000000;text-align:center;"><b style="color:#666666;"><span style="color:#333333;"> 
+			<div style="display:inline !important;">
+				<span style="color:#000000;"><span style="color:#333333;"> 
+				<div style="display:inline !important;">
+					<span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"></span></span></span></span></span></span></span></span></span><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"><span style="color:#333333;"><span style="color:#000000;"><br />
+</span></span></span></span></span><span style="color:#000000;"></span><span style="color:#000000;"></span></span></span></span></span> 
+				</div>
+</span></span> <br />
+			</div>
+</span></b></span> 
+		</div>
+</span></span></span><b style="color:#666666;white-space:normal;"><span style="color:#333333;"><br />
+		<div style="text-align:center;">
+			<b style="color:#666666;"><span style="color:#333333;"><a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_xj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_xj_7.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_xj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_xj_5.jpg"></a></span></b> 
+		</div>
+<br />
+		<div style="text-align:left;">
+			<b style="color:#666666;"><span style="color:#333333;"><span style="color:#000000;">【极致款型·唯一</span></span></b><span style="font-weight:normal;color:#000000;text-align:center;">】<br />
+<span style="white-space:normal;">Manstory认为纯正的商务男袜，都不可以有印花或其他图案。走进商场，看着有着无数款式凌乱的商品，在那里我们的选择已被繁杂绑架。</span><br style="color:#333333;white-space:normal;" />
+<br style="color:#333333;white-space:normal;" />
+<span style="white-space:normal;">我们真的需要那么多款式吗？<br />
+与所有品牌都不同，Manstory始终坚持最简洁的设计理念，科学的筒高高度，采用极致的高品质面料。<br />
+每一件Manstory男袜均为一件“艺术品”。唯一的款型，可确保男士们在每一个商务场合应对自如。内心深信以“不变应万变”，深信“1”即为全部，超越一切。</span><br style="color:#333333;white-space:normal;" />
+</span><span style="color:#000000;text-align:center;"><span style="white-space:normal;"><br />
+</span> 
+			<div style="text-align:left;">
+				<b style="color:#666666;"><span style="color:#333333;"> 
+				<div style="text-align:left;display:inline !important;">
+					<span style="font-weight:normal;color:#000000;text-align:center;"></span><a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_pp_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_pp_1.jpg"></a> 
+				</div>
+</span></b> 
+			</div>
+</span> 
+		</div>
+</span></b><br style="color:#666666;white-space:normal;" />
+<br style="color:#666666;white-space:normal;" />
+<b style="color:#666666;white-space:normal;"><span style="color:#000000;">【极致用料·顶级】<br />
+</span></b><span style="color:#000000;"><span style="white-space:normal;">Manstory研发的MS2绅士御寒款产品，经过Manstory专家团队独家研发技术，用真正的羊绒打造。<br />
+Manstory绅士御寒款的主料，是用真正的羊绒与多种高级面料纤维进行合理搭配<span style="white-space:normal;">制造的</span>，大大提高了其保暖性、舒适性、弹性与耐磨性，其保暖性是其他面料的3-5倍。<br />
+以与众不同的品牌格调和独具简洁大气的美学设计魅力、独享尊华的奢雅高贵的面料和能工巧匠精湛工艺，为世界上有故事的男人 ，献上最顶级的“艺术品”</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;">羊绒是生长在山羊外表皮层，掩在山羊粗毛根部的一层</span><span style="white-space:normal;">薄薄的细绒，入冬寒冷时长出，抵御风寒，开春转暖后脱落，属</span><span style="white-space:normal;">于稀有的特种动物纤维。</span><span style="white-space:normal;">羊绒十分珍贵，不仅产量稀少（仅占世界动物纤维总产量的0.2%），更重要的是其优良的品质和特性，交易中以克论价，被人们认为是“纤维宝石”、“纤维皇后”是人类能够利用的所有纺织原料都无法比拟的，因而又被称为“软黄金”。世界上约70%的羊绒产自中国，其质量上也优于其它国家。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;">Manstory研发出来的男袜，纤细，柔软、保暖，色泽自然柔和，柔韧有弹性，是男士必备的冬季御寒奢侈品。<br />
+</span><br />
+</span> 
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_pp_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_pp_2.jpg"></a><br />
+<b style="color:#666666;white-space:normal;"><span style="color:#333333;"> 
+			<div style="text-align:center;">
+				<b style="color:#666666;"><span style="color:#333333;"><a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_xj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_xj_6.jpg"></a></span></b> 
+			</div>
+</span></b> 
+		</div>
+<span style="color:#333333;white-space:normal;"><span style="color:#000000;"><br />
+</span></span><br style="color:#666666;white-space:normal;" />
+<b style="color:#666666;white-space:normal;"><span style="color:#000000;">【极致工艺·用心】<br />
+</span></b><span style="color:#000000;"> 
+		<div style="color:#666666;text-align:center;display:inline !important;">
+			<div style="text-align:left;display:inline !important;">
+				<span style="color:#000000;">为了给工艺制作过程提供最优的面料，Manstory挑选师要从已经足够称得上“艺术品”的面料经过初选、复选、终选三步骤，精挑细选挑选出最优面料。</span> 
+			</div>
+		</div>
+</span><span style="color:#000000;"><br />
+<span style="white-space:normal;color:#333333;"><span style="color:#000000;"><br />
+为了保证材质<span style="white-space:normal;">的</span>柔软性、吸湿性、染色性、染色牢度能更好地在产品中体现出来。<span style="white-space:normal;">Manstory男袜</span>的每一制作工序，Manstory都在用心去做。<br />
+<br />
+</span></span></span> 
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/1/7/A310033328258_xt_pp_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/7/A310033328258_xt_pp_3.jpg"></a><br />
+			<div style="text-align:left;">
+				<br />
+<span style="color:#000000;"></span> 
+			</div>
+		</div>
+<span style="color:#333333;white-space:normal;"> 
+		<div class="goods-content-title" style="white-space:normal;">
+			礼物解读
+		</div>
+<span style="color:#000000;"><strong>【可能你也知道？】</strong></span></span><span style="color:#000000;"><br />
+<span style="color:#000000;"> 足，即是人的第二心脏。 犹如草木有根、楼房有基。脚底有八大穴位，24个反射区直接影响健康。 人生有三分之二的时间离不开袜子。 做大事的男人，怎能没有一双足够好的袜子来呵护你的第二心脏？</span></span><br />
+<br />
+<span style="color:#000000;"> <strong>送自己：</strong><br />
+“Manstory盟狮图，有故事男人的象征”；穿上Manstory（盟狮图）商务男袜，不仅让自己在事业上更自信，更彰显有故事男人的品位，是给自己最好的关爱。<br />
+</span><br />
+	</div>
+</div>
+<span style="color:#000000;"><strong>给爱人：</strong></span> <span style="color:#000000;"> 他的故事，你懂！让辛勤奋斗的他得到最好的呵护。这也是一个习俗，有“成双成对”、我要跟你一辈子”“一生一世”的寓意。</span><br />
+<br />
+<span style="color:#000000;"> <b>给家人：</b></span><br />
+<span style="color:#000000;"> 这份深深的情谊，通过Manstory(盟狮图)商务男袜来传递。更亲切，更贴心。这是一份无言的关心，情感和祝福。</span><span style="color:#000000;"></span><br />
+<br />
+<span style="color:#000000;"> <b>给兄弟：</b></span><br />
+<span style="color:#000000;"> 和自己一起奋斗的人，献上这份送得出手的高品质情谊，是他与您一起前进的更大动力。</span> 
+<div class="goods-content-title">
+	<span style="white-space:normal;">Manstory</span>品牌介绍
+</div>
+<span style="color:#000000;"> 
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/8/a/A450022864626_xt_pp_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/8/a/A450022864626_xt_pp_1.jpg"></a> 
+</div>
+<span style="color:#000000;">Manstory是盟狮图国际集团旗下唯一奢侈品品牌，盟狮图国际集团是一家只专注打造顶级商务男袜的企业，从建立开始就决心永远只专注商务男袜。 历经了时代的洗礼，Manstory正以雍容儒雅的品牌格调与专注极致的实业精神将铸造经久不衰的品牌神话，一步一步地在全球袜业中，坚定了其与众不同的品牌形象，屹立于世界品牌之林。</span><br />
+</span><br />
+<span style="color:#000000;"><span style="color:#000000;">“男人的袜子很少有人看到，就犹如他的故事” —— Manstory。 Manstory(中文名：盟狮图)，世界级商务男袜第一品牌。 享誉国际的Manstory，是第一个专注极致的顶级商务男袜品牌，世界品牌中对男袜的理解最深刻独到，更将其视为男人的“艺术品”。 在环球金融中心美国华尔街有句谚语，“袜子的选择往往反映了一个男袜的品味”；“男人的袜子很少有人看到，就犹如他的故事。”说的就是Manstory的品牌格言。Manstory在国际服饰品中，已成为有故事男人的标志，顶级商务男士们一说到商务男袜，自然第一个就想到了Manstory。</span><br />
+</span><br />
+<span style="color:#000000;"><span style="color:#000000;">品牌故事：Manstory，男人，故事。辛勤路上的汗水，汇成了男人的故事，袜子最能体会。男人的故事，Manstory它懂。袜子属于内在的物品，一个男人对袜子的关注程度不仅反映他对实在事物的关注程度，更反映了他的内涵，他的深度，这正是一个男人的魅力所在。Manstory是盟狮图国际集团旗下唯一奢侈品品牌，盟狮图国际集团是一家只专注打造顶级商务男袜的企业，从建立开始就决心永远只做商务男袜。</span><br />
+<br />
+<span style="color:#000000;"> 源自国际时尚之都香港的Manstory，第一个专注极致的顶级商务男袜品牌，以与众不同的品牌格调和独具简洁大气的美学设计魅力、独享尊华的奢雅高贵的面料和能工巧匠精湛工艺，为世界上有故事的男人，献上最顶级的“艺术品”。</span><br />
+</span><br />
+<span style="color:#000000;">国内媒体报道：·中央电视台CCTV-央视·时尚：“世界级商务男袜第一品牌”、“有故事男人的象征”、“最纯正血统商务男袜国际品牌” ·环球时装：“环球商务男袜第一品牌” 中国报道·时尚：“奢侈品商务男袜第一品牌” ·中国经济·世界品牌：“世界级商务男袜第一心智品牌” ·世界华人报·国际品牌：“ 世界级商务男士首选时尚品牌” ·人民日报（海外）·时尚：“海内外高端商务男士奢侈品男袜第一品牌”。</span><br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('B390033646318', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('B390033646318', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('B390033646318', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('B390033646318', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'B390033646318'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

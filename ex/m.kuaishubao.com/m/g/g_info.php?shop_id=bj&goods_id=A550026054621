@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/3/e/A550026054621_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/3/e/A550026054621_1.jpg">
+        <h2>衡荣有机冷榨亚麻籽油500ml</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥150.00元</b> <del>¥150.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：瓶</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/3/e/A550026054621_1.jpg','衡荣有机冷榨亚麻籽油500ml-纯净自然、健康有机的好油；可增强皮肤弹性、降低胆固醇、减轻过敏反应。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【产地】山西<br />
+【品牌】衡荣<br />
+【产品名称】衡荣有机冷榨亚麻籽油<strong></strong><br />
+【配料表】有机亚麻籽<br />
+【净含量】500ml&nbsp;瓶装<br />
+【保质期】24个月<br />
+【食用方法】即食<br />
+【贮藏方式】阴凉 避光 干燥<br />
+【出品商与制造商】山西衡荣科技股份有限公司，山西省繁峙县憨山冷榨食用油专业合作社<br />
+</div>
+<div class="goods-content-title">
+	产品详图
+</div>
+<b>图一：产品特点<br />
+<br />
+</b>100%优质亚麻籽，高品质原料<b><br />
+</b>100%冷压榨工艺，原始醇香<br />
+100%天然无污染，纯净自然<br />
+<br />
+亚麻籽油中的α-亚麻酸含量高达51.9%，亚麻酸是人体必需的不饱和脂肪酸，人体无法自行合成，只能通过食物摄取。<br />
+<span style="white-space:normal;">α-亚麻酸是“脑黄金”DHA和“血液清道夫”EPA的母体。</span><b><br />
+<b style="white-space:normal;"></b><br />
+<div style="text-align:center;">
+	<b><a href="http://pic.kuaishubao.com/picdata/goods/3/e/A550026054621_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/3/e/A550026054621_xt_cj_4.jpg"></a><br />
+</b> 
+</div>
+</b> 
+<div style="text-align:center;">
+	<br />
+</div>
+<b>图二：产品细节图</b><br />
+<div style="text-align:center;">
+	&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/3/e/A550026054621_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/3/e/A550026054621_xt_cj_3.jpg"></a> 
+</div>
+<div class="goods-content-title">
+	商品特点及功效
+</div>
+<strong><strong><strong><br />
+富含亚麻酸的亚麻籽油</strong></strong></strong><strong><br />
+</strong><span style="white-space:normal;"><span style="white-space:normal;"><span style="white-space:normal;">衡荣有机冷榨<span style="white-space:normal;">亚麻籽油含有丰富的a－亚麻酸，是补充亚麻酸的好方法。<span style="white-space:normal;">亚麻籽在中国属于传统的油料作物，</span></span>经过压榨制取。</span><span style="white-space:normal;"><br />
+</span>亚麻酸简称LNA，属ω-3系列多烯脂肪酸（简写PUFA），为全顺式9、12、15十八碳三烯酸，它以甘油酯的形式存在于深绿色植物中，是构成人体组织细胞的主要成分，在体内不能合成、代谢，转化为机体必需的生命活性因子DHA和EPA。<br />
+<br />
+然而，亚麻酸在人体内不能合成，必须从体外摄取。人体一旦缺乏，即会引导起机体脂质代谢紊乱，导致免疫力降低、健忘、疲劳、视力减退、动脉粥样硬化等症状的发生。尤其是婴幼儿、青少年如果缺乏亚麻酸，就会严重影响其智力正常发育，这一点已经被国内外科学家所证实，并被世界营养学界所公认。</span></span><strong><span style="white-space:normal;"><span style="white-space:normal;"><br />
+<br />
+</span></span></strong><strong>亚麻籽油功用</strong><br />
+<strong>肌肤娇柔亮泽：</strong>改善皮肤脂肪含量，使肌肤更幼滑、滋润、柔软有弹性，同时令皮肤呼吸及排汗正常，减轻种种皮肤问题。<br />
+<strong>减肥：</strong>亚麻籽油可消耗身体多余脂肪，是健康减肥法。<br />
+<strong>改善女性经前综合症：</strong>有许多女性经前综合症的例子，例如痛经等，症状都在每天吃了新鲜的亚麻籽油后完全消失，当然需要配合维他命及矿物质。<br />
+<strong>提升抗压力：</strong><span style="white-space:normal;">亚麻籽油</span>可减少身体受压力时所产生的有害生化学物质的影响，稳定情绪，保持平静心态，减少忧郁症及失眠症。<br />
+<strong>减轻过敏反应：</strong><span style="white-space:normal;">亚麻籽油</span>有助减轻过敏反应，但由于整个身体要重新组织，要将过敏彻底消除需一段较长时间，更要全面性的营养辅助。<br />
+<br />
+<div style="text-align:center;">
+	&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/3/e/A550026054621_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/3/e/A550026054621_xt_cj_2.jpg"></a><br />
+</div>
+<strong>降低胆固醇：</strong><span style="white-space:normal;">亚麻籽油</span>可降低血液中高胆固醇25%及三酸甘油脂65%，将多余的低密度胆固醇(LDL)转变成胆酸排出体外。<br />
+<strong>减低心脏负荷：</strong>可降低高血压，减少血脂含量，同时提高不饱和脂肪酸的水平，改善血液浓度，减低血液的黏性，保持血液的流动性，预防血管阻塞及有关疾病。此外，亦能阻止血液凝结，预防中风(心脑动脉堵塞)、心脏病(心脏动脉堵塞)、肺脉栓塞(肺部动脉堵塞)及血管表面病症(即疸疮)。<br />
+<strong>促进细胞健康：</strong>改善细胞膜的水份和弹性，增加细胞呼吸和营养交换功能，并加强身体细胞修补及愈合能力，使细胞健康，减低癌病机会。<br />
+<strong>促进脑筋灵活：</strong>增加脑部传递介质(Neurotransmitter)，加强脑部活动功能，令脑部运作更有效，学习思考能力更佳。<br />
+<span style="white-space:normal;"><strong>补充</strong></span><strong>精力：</strong>平衡及改善身体血糖量，令你更有活力。也能增加肌肉的持久力，更可令运动后疲劳肌肉更快复元。<br />
+<div class="goods-content-title">
+	品牌故事
+</div>
+<div style="text-align:center;">
+	<div style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/3/e/A550026054621_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/3/e/A550026054621_xt_cj_6.jpg"></a> 
+	</div>
+	<div style="text-align:left;">
+		衡荣生态农场成立于2005年初，包括山西衡荣科技股份有限公司、北京衡荣科技有限公司、原平市崞阳镇衡荣种植专业合作社，致力于有机生态产业链建设，集科研、种植、养殖、加工、销售于一体全产业链运作，为客户提供有机食品从田间到厨房的一站式服务。
+	</div>
+</div>
+<br />
+衡荣生态农场与山西农业大学、北京农学院、北京林业大学、中国农业大学、中国农科院、山西省农科院等高校和科研院所合作，探索出衡荣有机生态产业链模式，开发出植物源有机农药、生物有机肥、防治奶牛乳腺炎的功能饲料、预防和治疗感冒的金花茶，培育出了多个多倍体新品种，并研制出根茎类药用植物全机械化栽培技术等多项国内及世界领先的技术成果。衡荣有机生态产业链生态恢复模式在平朔煤矿的复垦土地上已经成功实施，实现了经济效益、社会效益、生态效益的完美结合。<br />
+<br />
+衡荣生态农场为客户提供有机食品从田间到厨房的一站式服务，面对面服务，提供给衡荣的客户真正可以信任的有机产品，涵盖主食（十几中杂粮与小麦面粉）、熟菜、水果、亚麻油、手工酿造醋、保健茶饮、有机猪肉、羊肉、鸡肉、鸡蛋等全系列产品。<br />
+<br />
+2010年，衡荣生态农场是上海世博会“有机农耕，让生活更健康”主题日活动主办方，是世博会唯一参展的有机农业企业，展示人类农耕文明的发展历程，感受化学农业带给地球和人类的污染与危害，体验“有机农耕、有机生活”的温暖与时尚。<br />
+<br />
+衡荣的净土文化滋养着衡荣人创新拼搏，衡荣人用真诚和行动提供给客户真正可以信任的有机产品，让每一位衡荣的客户享受真正健康、有机的乐活人生。&nbsp;<br />
+<div class="goods-content-title">
+	<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A550026054621', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A550026054621', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A550026054621', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A550026054621', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A550026054621'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

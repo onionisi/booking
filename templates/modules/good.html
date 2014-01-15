@@ -1,0 +1,22 @@
+<li>
+<!-- <a href="/m/g/g_info.php?shop_id=chd&goods_id=A001352909121"> -->
+<a href="good_mask">
+	<div class='u-box m-proitem f-clr'>
+		<img src="{{ static_url("pic/empty.png") }}" data-url="{{ each.get('size1', '') }}">
+		<h2>
+            {% if 'subname' in each %}
+                <font style="color:red;">{{ each.get('subname', '') }}</font>
+            {% end %}
+                {{ each.get('name', '') }}
+        </h2>
+		<div class='price'>
+            {% if 'discount' in each %}
+                <span>¥{{ each.get('discount', '') }}</span>
+                <del>¥{{ each.get('price', '') }}</del>
+            {% else %}
+                <span>¥{{ each.get('price', '') }}</span>
+            {% end %}
+		</div>
+	</div>
+</a>
+</li>

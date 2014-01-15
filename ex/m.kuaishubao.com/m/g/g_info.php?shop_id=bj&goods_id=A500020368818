@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/0/9/A500020368818_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/0/9/A500020368818_1.jpg">
+        <h2><font style="color:red;">【原装进口，立省3元】</font>爽健（Scholl）除鞋臭清新喷雾150ml</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥39.00元</b> <del>¥59.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：个</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/9/A500020368818_1.jpg','【原装进口，立省3元】爽健（Scholl）除鞋臭清新喷雾150ml-原售价：42.00元，现价：39.00元，立省3元。来自世界足部护理产品第一品牌，内含抗菌与抗真菌成分，清除异味，保持鞋履清新，鞋柜旁必备。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b>快书包推荐：</b><span style="color:#FF0000;font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;">此品牌产品另有”足跟硬皮柔化霜“、”特强止汗除臭鞋垫“、”足跟修护霜K+“可选择。</span><br style="color:#FF0000;font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;" />
+<span style="color:#FF0000;font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;链接：</span><span style="font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;color:#999999;"><span style="color:#666666;"><span style="color:#666666;"><a href="http://m.kuaishubao.com/g/A310020368586.html" target="_blank"><span style="color:#666666;"><u>爽健（Scholl）足部硬皮柔化霜</u></span></a></span></span></span><span style="color:#FF0000;font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;">、</span><span style="font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;color:#999999;"><span style="color:#666666;"><span style="color:#666666;"><a href="http://m.kuaishubao.com/g/A250020368420.html" target="_blank"><span style="color:#666666;"><u>爽健（Scholl）特强止汗除臭鞋垫</u></span></a></span></span></span><span style="color:#FF0000;font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;">、</span><span style="font-family:Arial, sans-serif;white-space:normal;background-color:#FFFFE5;color:#999999;"><span style="color:#666666;background-color:#FFFFFF;"><a href="http://m.kuaishubao.com/g/A560020368496.html" target="_blank"><span style="color:#666666;"><u>爽健（Scoll）足跟修护霜K+</u></span></a></span></span></span> 
+</div>
+<div class="goods-content-title" style="white-space:normal;outline-width:0px;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="font-family:Arial, sans-serif;white-space:normal;outline-width:0px;">
+	【名称】爽健（Scholl）除鞋臭清新喷雾150ml<br />
+【品牌】爽健（Scholl）<br />
+【成份】 变性酒精，丁烷，异丁烷，丙烷，三氯生，香精，双氯酚，十一烯酸爽健（Scholl）爽健（Scholl）<br />
+【使用方法】&nbsp;使用前充分摇动，在穿鞋前后喷于鞋内，待干燥后再行穿着。本品亦可祛除鞋箱内的异味。<br />
+【生产商】爽健（Scholl）<br />
+【贮藏方法】常温储存，避光<br />
+【包装尺寸】130*35*45MM<br />
+【保质期】1095天
+</div>
+<div class="goods-content-title" style="white-space:normal;outline-width:0px;">
+	商品实拍图
+</div>
+<div style="text-align:center;font-family:Arial, sans-serif;white-space:normal;outline-width:0px;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/0/9/A500020368818_xt_3_02.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/9/A500020368818_xt_3_02.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/0/9/MS5qcGc=.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/9/MS5qcGc=.jpg"></a> 
+</div>
+<div class="goods-content-title" style="white-space:normal;outline-width:0px;">
+	商品特点
+</div>
+<div style="text-align:center;font-family:Arial, sans-serif;white-space:normal;outline-width:0px;">
+	<div style="text-align:left;">
+		<b>来自世界足部护理第一品牌<br />
+<br />
+</b>英国“爽健”“Scholl“（Dr. Scholl）为世界足部护理产品第一品牌。由William M. Scholl 博士于1904年正式创立。爽健目前隶属于世界五百强之一的英国利洁时公司（Reckitt &amp; Benckiser, 简称RB），今天，在全世界70多个国家，“爽健”“Scholl”已成为足部健康护理产品的代名词。 <br />
+<br />
+<b>含抗菌与抗真菌成分，科学证明能更有效去除鞋内异味</b><br />
+<br />
+爽健（Scholl）除鞋臭清新喷雾是专业的足部护理产品，先进的双效配方含独特的&nbsp; Neutra-ActiveTM成分，科学证明能更有效的去除鞋内的异味，含抗菌与抗真菌成分，杀灭引起异味的细菌和真菌。经常使用还能有助护鞋。<br />
+<br />
+<strong>鞋柜旁必备</strong><br />
+<br />
+1.保持鞋履清新消除异味<br />
+2.无论是雨天或脚汗都能乾爽芳香，您鞋柜旁边必备的除臭工具；<br />
+3.穿鞋前使用，消灭酵母菌可预防香港脚,有效提供24小时防臭抗菌效果；<br />
+<br />
+<br />
+使用方便，轻轻一喷，立即去除足部及鞋内异味！犹如香水味更加时尚便携，能够消除您很多场合的尴尬，恢复您充分的自信。含有独特配方Neutra-Activ?特强杀菌配方，有效提供24小时防臭抗菌效果，长效驱除异味并可维持鞋履清爽乾燥，对於时常下雨的夏季更是足部芳香的必备品。<br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/0/9/Mi5qcGc=.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/9/Mi5qcGc=.jpg"></a>&nbsp;
+	</div>
+</div>
+<div class="goods-content-title" style="white-space:normal;outline-width:0px;">
+	<strong>爽健（Scholl）品牌故事</strong> 
+</div>
+英国“爽健”“Scholl“(Dr. Scholl)为世界足部护理产品第一品牌。由William M. Scholl 博士于1904年正式创立。爽健目前隶属于世界五百强之一的英国利洁时公司(Reckitt &amp; Benckiser, 简称RB)，今天，在全世界70多个国家，“爽健”“Scholl”已成为足部健康护理产品的代名词。<br />
+<br />
+品牌创始人Doctor William Mathias Scholl的父亲和祖父都是出色的鞋匠，因此他从小即领悟到鞋履舒适对于人类健康重要性。在完成医学博士学位后，Scholl博士开始了健康鞋履及足部护理产品的研发和生产，并于1904年正式推出Scholl品牌。 1911年，Dr. Scholl在伦敦注册；1928年，Dr. Scholl在美国的第一家零售店开业。<br />
+<br />
+一百多年来，爽健团队聚集了众多的医学和科学专家，他们以Scholl博士同样的热情去了解足部结构和生理力学与整个人体的关系。爽健团队一直致力于发现问题，研发创新产品，这一切与Scholl博士最初的理念完全吻合，即通过服务人们的双足进而提高人们整体的舒适康乐。<br />
+<br />
+“爽健”“Scholl”拥有近整个世纪以来的专业鞋履生产和足部护理的知识和技术，领先的设计使它深受世界各地消费者的欢迎。爽健所提供的是久经考验的舒适感受，使美丽与健康交融，独特舒适科技与时尚风格、精工细作完美结合，接近自然行走的人体结构，保护身体的健康。实验证明，不论是在忙碌的工作天、外出奔走的洽公日、周末狂欢的派对夜、还是逛街血拼压马路之时，爽健都能有效帮助舒缓足部不适。<br />
+<br />
+<strong><strong><a href="http://pic.kuaishubao.com/picdata/goods/7/b/A250020368420_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/b/A250020368420_xt_cj_1.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/0/9/A500020368818_xt_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/9/A500020368818_xt_6.jpg"></a>&nbsp;</strong> </strong>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A500020368818', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A500020368818', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A500020368818', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A500020368818', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A500020368818'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

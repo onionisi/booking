@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/8/4/A370033671142_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/8/4/A370033671142_1.jpg">
+        <h2>麦肯锡教我的思考武器：从逻辑思考到真正解决问题</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥21.70元</b> <del>¥29.80元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/8/4/A370033671142_1.jpg','麦肯锡教我的思考武器：从逻辑思考到真正解决问题-思考不要用蛮力！工作，不要只靠体力！从议题出发，创造有价值的工作。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】安宅和人<br />
+【译者】郭菀琪<br />
+【出版社】北京联合出版社；2014年2月第1版<br />
+【装订】16开；平装<br />
+【页数】152页<br />
+【印刷】单色<br />
+【ISBN】9787550222076 <br />
+【品牌】后浪
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<b>推荐一：从议题出发，创造有价值的工作</b><br />
+高效能人士是如何完成工作的？<br />
+事半功倍解决问题的秘诀是什么？<br />
+思考，不要用蛮力！工作，不只靠体力！<br />
+<br />
+<b>推荐二： 摆脱“没有功劳也有苦劳”的败者思维</b><br />
+有时间烦恼，不如花时间思考<br />
+解决问题之前，要先找到好问题<br />
+知道越多越聪明？其实知道太多会变笨<br />
+纠结能提供多少页资料，不如思考究竟有没有答案<br />
+还在拼工作时间谁最长？交出有价值的成果才是赢家！<br />
+<br />
+<b>推荐三：事半功倍！四步完成工作的思考流程！</b><br />
+【议题思考】从个人专属智囊团获取支持，查明问题方向，搜集恰当信息，五步确立高品质议题。<br />
+【假说思考】分解议题，确定课题全貌及处理次序，设立假说，组建故事线，制作连环图，将你的思想实体化。<br />
+【成果思考】着手进行实际分析，明确所需答案的界限，多渠道、结构化整合有用信息，交出有价值的成果。<br />
+【信息思考】掌握流程，推敲故事线与图表，整理成论文和报告，准备电梯演讲，30秒精确传达工作信息。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+大多数人在面对工作和问题时，总是还没想清楚“真正的问题究竟是什么”，就急忙动手去处理、去解决。然而，像这样一味求“快”、忙得团团转的结果，往往是白费力气，最后步入事倍功半的“败者之路”。<br />
+<br />
+《麦肯锡教我的思考武器：从逻辑思考到真正解决问题》告诉你，遇到问题时，先慢一点动手！因为有一件事比急着动手更重要——先判断：“这个问题重要吗？”<br />
+<br />
+《麦肯锡教我的思考武器：从逻辑思考到真正解决问题》作者根据自己在麦肯锡公司工作时积累的丰富经验以及脑神经学的专业背景，设计出一套极具逻辑性的问题解决思维模式——先找到真正的问题，想清楚目的再动手，搜集个性化信息，组建故事线，划定答案界限，整合有用材料，最后交出完美成果。<br />
+<br />
+还在欺骗自己“没有功劳也有苦劳”吗？NO！交出有价值的成果才是好工作！
+<div class="goods-content-title">
+	作者：安宅和人
+</div>
+安宅和人，1968年出生于日本富山县。获得东京大学研究所生物化学系硕士学位后，进入麦肯锡咨询公司（McKinsey&amp;Company）；工作四年后，进入美国耶鲁大学攻读脑神经科学课程，仅用3年9个月时间就获得了平均费时7年多的博士学位。回日本之后，成为麦肯锡研究小组亚太地区核心成员之一，在饮料、零售、高科技等领域从事品牌经营、商品与业务开发工作；并负责东京分公司的新人培训，负责问题解决、分析、图表制作等课程。2008年，担任日本雅虎公司首席运营官（COO）。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<b>前言交出有价值成果的生产技术，有何共通点？</b><br />
+<br />
+<b>导论本书的思维</b><br />
+抛弃常识<br />
+什么是有价值的工作？<br />
+千万不能踏上白忙的“败者之路”<br />
+如何具备事半功倍的高效生产力？<br />
+思考，不要用蛮力；工作，不只靠劳力<br />
+作者的提醒：细嚼慢咽，切莫狼吞虎咽<br />
+<br />
+<b>第1章议题思考</b><br />
+1.1查明议题<br />
+你有没有个人专属的智囊团？<br />
+1.2试拟假说<br />
+重要的是“自己的立场是什么？”<br />
+凡事都化为“语言、文字”<br />
+用语言或文字表达时的重点<br />
+1.3成为好议题的三要素<br />
+要素①：属于本质性的选项<br />
+要素②：含有深入的假说<br />
+要素③：可以找到答案<br />
+1.4用于确立议题的信息搜集<br />
+取得用于思考的材料<br />
+技巧①：接触一手信息<br />
+技巧②：掌握基本信息<br />
+技巧③：不要搜集过头或知道过头<br />
+1.5确立议题的五个方法<br />
+运用一般的做法无法找到议题时<br />
+方法①：删减变量<br />
+方法②：可视化<br />
+方法③：从最终情形倒推<br />
+方法④：反复问“Sowhat?（所以呢？）”<br />
+方法⑤：思考极端的实例<br />
+<br />
+<b>第2章假说思考一</b><br />
+2.1何谓议题分析？<br />
+2.2在议题的起点组建故事线<br />
+2.3步骤一：分解议题<br />
+有意义的分解<br />
+“业务理念”的分解<br />
+分解议题的“模板”<br />
+缺乏模板时就“倒推”<br />
+分解议题的功用<br />
+分解后各自设立假说<br />
+作者的提醒：MECE与架构<br />
+2.4步骤二：编辑与组建故事线业务理念的故事线<br />
+类似脚本分镜图、漫画分格图故事线的功能<br />
+故事线的两个模板<br />
+<br />
+<b>第3章假说思考二</b><br />
+3.1什么是连环图？<br />
+制作连环图的意象<br />
+3.2步骤一：找出“轴”<br />
+分析的本质<br />
+定量分析的三个模板<br />
+表达分析的多样化<br />
+由原因与结果思考“轴”<br />
+找出分析的“轴”的方法<br />
+3.3步骤二：意象具体化<br />
+填入数值建立意象<br />
+表达涵义<br />
+3.4步骤三：清楚指出获得数据的方法<br />
+该如何获得数据？<br />
+作者的提醒：从知觉的特征看到分析的本质<br />
+<br />
+<b>第4章成果思考</b><br />
+4.1什么是产生成果的输出（Output）？<br />
+不要贸然纵身跳入<br />
+不要“先有答案”<br />
+4.2剖析难题<br />
+交出成果的两个难题<br />
+难题①：无法得出想要的数值或证明<br />
+难题②：以自身的知识或技巧无法让界线明确<br />
+4.3明快找出答案<br />
+拥有多个办法<br />
+重视循环次数及速度<br />
+<br />
+<b>第5章信息思考</b><br />
+5.1实现本质性和简单化<br />
+一鼓作气<br />
+5.2推敲故事线<br />
+三个确认程序<br />
+程序①：确认逻辑结构<br />
+程序②：琢磨流程<br />
+程序③：准备好“电梯测验”<br />
+5.3琢磨图表<br />
+这样图解就对了！<br />
+技巧①：彻底落实“一图表一信息”原则<br />
+技巧②：推敲纵向与横向的比较轴<br />
+技巧③：整合信息与分析的表达<br />
+作者的提醒：“完成工作”吧！<br />
+<br />
+<b>后记：从累积小成功开始</b><br />
+致谢<br />
+出版后记<br />
+<br />
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<b>本书的思维——脱离事倍功半的“失败者之路”</b><br />
+<br />
+《麦肯锡教我的思考武器：从逻辑思考到真正解决问题》所介绍的“从议题开始”的思维，与世间一般的想法有很大差别。最重要的就是首先要“抛弃一般常识”。下面我会举出本书中有代表性的几个思维。现在也许会让你觉得：“咦？”但是当你读完本书并亲自实践之后，相信我，你一定会点头赞同这些思考方式。<br />
+<br />
+“解决问题 ”之前，要先 “查明问题”。<br />
+<br />
+“提升答案的质量 ”并不够，“提升议题的质量 ”更重要。<br />
+<br />
+不是 “知道越多越聪明”，而是 “知道太多会变笨”。<br />
+<br />
+与其 “快速做完每一件事”，不如 “删减要做的事”。<br />
+<br />
+与其计较 “数字多寡”，不如计较 “到底有没有答案”。<br />
+　　<br />
+前半句是一般的想法，后半句就是本书要介绍的“从议题开始”的思维。各位读者只要先了解，这与单纯“为了提升生产力而重视效率”这个解决方式——也就是所谓的“提升效率的技术”——有所不同即可。<br />
+<br />
+什么是有价值的工作？<br />
+为了提升生产力，最先应该思考的是所谓的“生产力”究竟是什么。我从维基百科（Wikipedia）查到的结果是：“在经济学中，生产要素（劳动力及资本等）对于生产活动的贡献度，或是由资源产生附加价值时的效率。”但这个说法还是让人摸不着头脑。<br />
+<br />
+《麦肯锡教我的思考武器：从逻辑思考到真正解决问题》所说的“生产力”的定义很简单，就是以多少的输入（Input，投入的劳力及时间），产生多少的输出（Output，成果）。以公式表示，则如图0-1所示。<br />
+<br />
+若想提高生产力，就必须事半功倍——删减劳力和时间但交出相同的成果，或者以相同的劳力和时间产出更多的成果。到此为止，相信各位读者都可以一目了然。<br />
+<br />
+那么，究竟什么是“更多的输出”呢？换句话说，就是让企业人能够确实产生的报酬关系、让研究者可以收到研究费的那份“有意义的工作”，究竟是什么呢？<br />
+<br />
+我曾经任职的麦肯锡咨询公司，将这种“有意义的工作”称为“有价值的工作”。对于专业工作者来说，清楚地意识到这一点是很重要的。所谓专业工作者，就是指不仅要具备特别的技能，更要运用该技能从顾客一方获得报酬，同时提供有意义的输出（成果）。也就是说，如果不知道“究竟什么是有价值的工作”，就根本无法提高生产力。<br />
+<br />
+请各位花一分钟左右的时间，冷静下来仔细地思考。<br />
+<br />
+对于专业工作者而言，所谓的有价值的工作是什么？<br />
+　　<br />
+怎么样？<br />
+<br />
+我向许多人问过这个问题，但是，能给我明确答案的人并不多。我时常听到的是类似以下的答案：<br />
+高质量的工作。<br />
+<br />
+仔细的工作。<br />
+<br />
+没有其他人能够胜任、无人能取代的工作。<br />
+　　<br />
+这些答案虽然也算部分答对，但都无法切中本质。<br />
+<br />
+所谓“高质量的工作”，只是将“价值”换成“质量”而已。一旦问起“质量是什么？”就回到原来的老问题。对于“仔细的工作”也是一样，若说“只要是仔细的工作，无论什么工作都是有价值的”，恐怕会有很多人会不赞同吧？最后一个，“没有其他人可以胜任的工作”，乍看之下似乎很正确，但请再仔细想想。所谓“没有其他人可以胜任”，通常都是些几乎不具价值的工作，正因为没有价值，所以才没有人来做。<br />
+<br />
+“高质量、仔细、没有其他人能够胜任”这些答案，其实连问题本质的边缘都没沾上。<br />
+<br />
+有价值的工作究竟是什么？<br />
+<br />
+就我的认知，“有价值的工作”是由两条轴构成。<br />
+<br />
+第一条轴是“议题度”，第二条轴是“解答质”。以“议题度”为横轴、以“解答质”为纵轴所展开的矩阵，如图0-2。<br />
+<br />
+“议题”（issue）这个词，在本书的前言中也曾提到，但也许有些人并不熟悉。以“issue”的日文片假名为关键词进行搜索时，可以找到的说明并不多，但用英文“issue”搜索，则会找出许多定义。我在此所说的“issue”符合图0-3的定义。<br />
+<br />
+在同时满足 A与 B的条件下才是issue。<br />
+<br />
+因此，我认为“议题度”是指“在目前的情况下，找出该问题的答案的必要性有多高”；“解答质”是指“对于该议题度，目前可以提供明确答案的程度”。<br />
+<br />
+图0-2价值矩阵的右上方象限属于“有价值的工作”，越靠近右上方价值就越高。如果想从事有价值的工作，所处理的主题的“议题度”与“解答质”都必须双双提高。如果想要成为解决问题的专业工作者，一定要时常思考价值矩阵。<br />
+<br />
+大部分人都会认为，工作的价值取决于矩阵中的纵轴“解答质”；而对横轴的“议题度”，也就是“课题质”不大重视。然而，如果真的想从事有价值的工作、给一般人留下有意义的印象，或者是真的想赚钱的话，“议题度”才是更重要的。<br />
+<br />
+原因在于，对于“议题度”低的工作，无论如何提高其“解答质”，从受益者（即顾客、客户、评价者）的角度来看，价值仍然等于零。<br />
+<br />
+千万不能踏上白忙的“败者之路”<br />
+<br />
+那么，如何才能完成“有价值的工作”，也就是矩阵右上方区域的工作呢？无论是谁，工作或研究都是从左下方区域开始。<br />
+在这里绝对不可以犯的大忌就是“打定主意进行大量工作，朝右上方前进”。这条“借着劳力、蛮力往上，沿左边走以到达右上方”的解决问题方式，我称之为事倍功半的“败者之路”（详见图0-4）。<br />
+<br />
+下面这段话很重要，请各位仔细研读。<br />
+<br />
+世上大部分被称为 “可能是问题 ”的“问题”，事实上几乎都不是商业或研究上真正有必要处理的问题。如果全世界被称为 “可能是问题”的“问题 ”共有一百个，那么在当下需要清楚判断出是非黑白的问题顶多只有两三个而已。<br />
+<br />
+对于矩阵中横轴“议题度”低的问题，无论多么努力拼命地挤出答案，终究也不能提高其价值，只算是白忙而已。这种“以为只要靠努力（劳力）和耐力（蛮力）就能得到回报”的工作方式（自认为“没功劳也有苦劳”），将永远无法到达右上方“有价值”的区域。<br />
+<br />
+另一个变量是纵轴“解答质”，我们也来思考一下。在工作刚开始的时候，“解答质”一般也都在较低的区域。到目前为止，以我所见过的很多人的职场成长历程，大多数人在初入职场的一百件工作中，只有一两件开花结果。<br />
+<br />
+以前的我也是一样，现在想起刚进麦肯锡工作时的第一个项目，每天都做一大堆分析，然后画出十几二十张的图表。在项目进行的几个月之内，我就画了五百张左右的图表，但是，最后放进报告里的却仅仅只有五张而已。如果计算“最终输出（Output）的产出率”，结果只有1%；横轴“议题度”由上司严格评估，这么一来，我所处理的纵轴“解答质”的产出率就只有1%。<br />
+<br />
+因此，不经思考就闷着头工作，至少肯定不可能到达“议题度”和“解答质”都很高的境界。用图0-5表示这个概念，右上方象限中，横轴“议题度”和纵轴“解答质”交集之处，就是所谓“有价值的工作”。由于这只有1%左右的成功率，所以算起来要完全符合的概率只有 0.01%，也就是说一万次工作中，只有一次像样的工作。<br />
+<br />
+这么一来，将永远无法产生“有价值的工作”，也无法造成改变，只会留下白忙一场的感觉罢了。而且当大部分工作都以低质量的输出含糊带过时，工作会很粗糙，很可能将变得无法产生高质量的工作。也就是一旦走上“败者之路”，将来极有可能成为“失败者”。<br />
+<br />
+虽然你可能拥有超乎常人的体力与耐力，即使通过“败者之路”也能成长；然而，充其量也只能如此。当你成为主管后，也会教导下属同样以努力和蛮力工作，然而你终究无法胜任领导者的角色，毕竟只靠努力与蛮力，几乎不可能到达右上方“有价值的工作”区域。而且，一旦踏上“败者之路”，等于宣告你根本不可能成为领导者。<br />
+<br />
+如果真的想要接近右上方区域，应该采取的解决方式极其简单明快：先提升横轴“议题度”，再提升纵轴“解答质”。也就是采取与“败者之路”相反的沿右边走的解决方式：一开始就锁定商业与研究活动的对象是特别有意义的内容，也就是“议题度”高的问题。<br />
+<br />
+即使无法在一时之间立刻直接锁定核心问题，也应该将范围缩小到整体的十分之一左右。如果是初入职场的社会新人或是研究所新生，还没办法进行这项判断，可以请教自己的上司或研究室的指导老师：“我所想到的问题中，在当下真正具有找出答案的价值的问题是什么？”一般可以进行这项判断的应该是上司或指导老师。借由这个步骤，我们可以锁定真正的问题，轻松地将聚焦于一个最重要问题的时间节省至5%~10%。<br />
+<br />
+然后，在缩小后的范围中，从“议题度”特别高的问题开始着手。这时候，千万不能被“解答难易度”或“处理难易度”这些因素所左右，一定要从“议题度”高的问题开始。<br />
+<br />
+由于在未经训练的状态下，输出会如图 0-5一般分布，因此，为了提高“解答质”，必须先针对各个议题确保充分的讨论时间。<br />
+<br />
+我以前也是这样，一开始被批评“质量太低”“没有达到需要的水平”时，也无法切实体会其中的意思。可是，经过针对缩小范围后的议题反复检讨与分析后，大约数十次当中就会有一次左右表现得还不错。一个人想做“好的工作”，就必须从旁人处得到“好的反馈”，才能学到什么是“好的解答质”。累积成功经验，逐渐抓到技巧，进而超越固定水平、做出“好的解答”的概率，将会从十次中有一次，变成五次中有一次，逐渐提高成功率。<br />
+<br />
+到这里，读者们应该已经知道，为了实现这个解决方式，一开始的步骤，也就是将范围缩小至“议题度”高的问题，就算要多花费时间也势在必行。如果贸然地“这也做，那也做”，根本无法成功。即使抱着必死的决心工作，最终也无法因此学会工作。“反正先做到死再说”的想法，在“从议题开始”的世界中是无用的，甚至是有害的。中断没有意义的工作，才是重要的。<br />
+<br />
+即使每天练习兔子跳，也无法成为棒球选手铃木一朗，因此，集中处理“正确的问题”的这种“正确的训练”，才是迈向成功的关键（详见图0-6）。<br />
+<br />
+如何具备事半功倍的高效生产力？<br />
+在了解“有价值的工作”的本质之后，接着就来思考一下它的产生流程，换句话说，就是思考具有高生产力的人都是如何工作的。首先，先试想未经思索就进行工作或研究的话，究竟会如何。假设从星期一至星期五，用五天时间，针对某项主题的需要，统一整理出一些内容。各位读者是不是时常会出现以下状况呢？<br />
+星期一 因为不知道方法而一筹莫展。<br />
+星期二 仍然焦头烂额。<br />
+星期三 暂且先到处搜集可能有用的信息及数据。<br />
+星期四 继续搜集。<br />
+星期五 淹没在堆积如山的资料中，再次陷入一筹莫展、焦头烂额的困境。<br />
+　　<br />
+那么，实现产出高价值、高效能成果的高生产力，也就是“从议题开始”的解决方式，究竟是怎么做的呢？如果是必须在一星期之内就要有输出（交出成果）的案件，分配流程如图0-7（图中括号内是本书对应说明的章节）。<br />
+<br />
+话虽如此，无论积累多少经验，也很难只尝试一次就突然产出高水平的输出。重要的是将这个循环“迅速绕完，并重复多次”，这才是提高生产力的关键。绕完一次循环后，可以看出更深一层的论点，再以其为基础进行下一个循环。<br />
+<br />
+思考，不要用蛮力；工作，不只靠劳力<br />
+<br />
+根据自身的经验，对于一起工作的年轻人，我时常建议的还有另一件事，那就是“千万不要用蛮力”。<br />
+<br />
+工时长短根本不是重点，重点在于只要交出有价值的输出（成果）就好。例如，就算一整天只工作五分钟，只要按照预定时间，甚至比预定早一点交出约定的成果，就没有任何问题了。那些所谓“我正在拼命工作”“我昨天又熬夜了”的努力方式，在这个追求“有价值工作”的世界里，根本没有必要。最惨的类型是明明时常加班甚至连假日也上班，却被周围人认为：“交出这种程度的成果，应该用正常的上班时间就够了吧？”<br />
+<br />
+连我也是一样，二十多岁刚进入职场时，总要工作到头昏眼花，才有做了工作的感觉，着实白费了相当多的时间。虽说年轻时体力充沛，像那样的工作方式，也算有助于心情愉快。然而说穿了，其实那也不过是自我陶醉而已，所谓的收获可能也只是了解到自己体力的极限，只有在确实产生出有意义的成果（输出）之后才能获得成长。若能持续有价值的工作，并保持其质量，就算“偷工减料”也完全不成问题。如果是问人就可以解决的事，那么问人就好；如果有更简单的完成工作的方法，就该换个方式处理。<br />
+<br />
+像这样该以时间还是以输出（成果）作为衡量标准，就是“劳动者”与“工作者”的区别，以现在的话来说则是“工薪族”与“企业人”的区别，甚至可说是“上班族”与“专业人士”的区别。<br />
+<br />
+原本主要指以体力谋生的“劳动者”，其原意是指按进行特定作业的有限时间发工资的劳工。现代词语用法中，“工薪族”是指以时间为计算基础领薪水的人，其含义与劳动者很相似。工薪族这个词汇的概念中含有“加班与加薪的谈判”，而这也几乎都与劳动者相同。<br />
+<br />
+“企业人”虽是受雇于公司，但其本意是指经营者、管理者或掌舵者。就算有考勤管理，但其本质上不是以劳动时间为基础，而是基于对管理活动与日常商业活动的输出（成果）责任为基础，并以此获得评价。<br />
+<br />
+而所谓的“专业人士”，是指通过专门训练而获得相关技能，并负责运用该技能提供特定价值，从特定顾客处获得报酬的人。由于他们提供的价值是针对顾客而言的，因此即使是以时薪计费的律师或顾问，其报酬仍依各自的技能水平而异，也就是说，他们各自产生的价值大小因技能水平的高低有很大差异。<br />
+<br />
+“工作到极限为止”“以劳动时间取胜”属于《麦肯锡教我的思考武器：从逻辑思考到真正解决问题》所谓的“劳动者”的思维，如果抱持这种想法，就无法成为“高价值、高效能的生产者”。如本书开头所述“以相同的劳力与时间工作，能增加多少输出”，这才是生产力的定义。<br />
+<br />
+专业工作者的工作方式，与“劳动时间越长，赚的钱越多”这种劳动者或工薪族的想法形成对比：不以劳动的时间，而是凭借“造成变化的程度”获取报酬或评价；或者可以说，存在的意义取决于“可产生多少有意义的输出”。像这样开启专业工作者生存之道的开关，正是打下产生高生产力的基础。<br />
+<br />
+……<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A370033671142', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A370033671142', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A370033671142', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A370033671142', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A370033671142'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

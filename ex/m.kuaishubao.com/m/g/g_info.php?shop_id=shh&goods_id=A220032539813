@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/a/0/A220032539813_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/a/0/A220032539813_1.jpg">
+        <h2>社会化生存——社会化媒体十大定律 / 丁正洪（ @围脖老丁）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥25.10元</b> <del>¥35.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/a/0/A220032539813_1.jpg','社会化生存——社会化媒体十大定律 / 丁正洪（ @围脖老丁）-作者是新浪微博的早期团队成员，参与了微博这个中国最大的社会化媒体平台的创立，看着微博一步步地发展壮大；在离开新浪微博，投身社会化媒体创业之际，作者将自己对社会化媒体的感悟凝结成了此书。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】丁正洪<br />
+【出版社】中信出版社；2014年1月第1版<br />
+【装订】32开；平装（精装选一）<br />
+【页数】199页<br />
+【印刷】单色<br />
+【ISBN】9787508642697<br />
+【品牌】中信出版社
+</div>
+<br />
+<div class="goods-content-title">
+	编辑推荐
+</div>
+第一本内部人基于社会化媒体平台新浪微博的总结作品。<br />
+<br />
+想迅速获得关注、影响和用户？必须尊奉社会化媒体十大定律。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+《社会化生存——社会化媒体十大定律》作者丁正洪是新浪微博的早期团队成员，参与了微博这个中国最大的社会化媒体平台的创立，看着微博一步步地发展壮大；在离开新浪微博，投身社会化媒体创业之际，作者将自己对社会化媒体的感悟凝结成了此书。<br />
+<br />
+如果说社会化媒体是一大片森林，作者写作本书的目的不是指出如何让某种植物长得更快之类的小问题，而是试图总结整个生态系统的生长特点和繁衍规律。基于在新浪微博内部的前沿运营经验，作者用一个个具体的案例展开，精辟提炼了社会化媒体的运行之道。<br />
+<br />
+《社会化生存》总结了社会化媒体的十大定律：1. 社会化媒体的一切信息流都是基于一个个真实的人所产生的；2.社会化媒体内所有表现形式的信息流都是按照时间轴串联成一条流动的数字洪流；3.社会化媒体上一切信息传递的前提都是基于关系，传递的路径分别是传播广度和传播深度……10.数以亿计的用户，通过社会化媒体记录自己的生活，最终汇集在时间这条叙事洪流之中，成为每个人留在地球上的故事。
+<div class="goods-content-title">
+	作者：<span style="white-space:normal;">丁正洪</span> 
+</div>
+政务微博运营专家、新浪微博金牌讲师。在新浪负责全国政务微博的培训和运营工作，微博昵称@围脖老丁，熟知微博运营事务并深度了解社会化媒体运营机制，对微博舆情应对有丰富经验，在业界被称为新浪微博的首席布道师。现任云相科技首席运营官。<br />
+<br />
+插图：赵 &nbsp;佩 &nbsp;爱笑，爱遗忘，有女侠气质的神经质画家。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	自序... IX<br />
+前言.少有人走过的路... XV<br />
+<br />
+<strong></strong><strong>社会化媒体第一定律：</strong><br />
+社会化媒体的一切信息流都是基于一个个真实的人所产生的<br />
+<br />
+个体信息制造时代到来<br />
+看我发现了什么有趣的<br />
+看我做了什么好玩的<br />
+社会化媒体让现实与网络身份第一次重叠<br />
+社会化媒体用户的分类<br />
+<br />
+<strong></strong><strong>社会化媒体第二定律：</strong><br />
+社会化媒体内所有表现形式的信息流都是按照时间轴串联成一条流动的数字洪流<br />
+<br />
+原创流、推荐流都有时间刻度，而且固定不变<br />
+信息流和时间轴之间具有有意思的关系<br />
+信息流是流动的，像时间一样<br />
+<br />
+<strong></strong><strong>社会化媒体第三定律：</strong><br />
+社会化媒体上的一切信息传递的前提都是基于关系，传递的路径分别是传播广度和传播深度<br />
+<br />
+微博信息传递的前提都是基于关系<br />
+传递信息的路径分别是传播广度和传播深度<br />
+社会化媒体关系四维度<br />
+<br />
+<strong></strong><strong>社会化媒体第四定律：</strong><br />
+社会化媒体的内容可搜索并可追踪到个体的人<br />
+<br />
+社会化媒体的内容可搜索<br />
+&nbsp;“信息”和“人”匹配<br />
+社会化媒体第五定律：<br />
+社会化媒体的信息传递和人际互动过程中，有影响力的人产生的传播能量和对方的社会身份不一定成正比<br />
+&nbsp;加入微博的两个观点<br />
+社会化媒体的信任体系<br />
+价值观信任<br />
+身份信任<br />
+专业信任<br />
+朋友信任<br />
+信息源信任<br />
+情感信任<br />
+<br />
+<strong></strong><strong>社会化媒体第六定律：</strong><br />
+社会化媒体将会变成每一个用户最重要的数据中心<br />
+<br />
+大数据时代的交流方式<br />
+微博成为用户创造和消费信息的数据中心<br />
+<br />
+<strong></strong><strong>社会化媒体第七定律：</strong><br />
+社会化媒体可以传递最为及时的信息，同时在极短的时间内让更多的人获知此条信息<br />
+<br />
+分享3个在新浪微博中发生的故事<br />
+故事一<br />
+故事二<br />
+故事三<br />
+<br />
+<strong></strong><strong>社会化媒体第八定律：</strong><br />
+时间结构的社会化媒体追踪信息的方式有别于传统搜索引擎模式<br />
+<br />
+社会化媒体的信息追踪<br />
+单条微博内容产生的具体时间<br />
+单条微博内容的发布来源<br />
+单条微博内容产生的地理位置信息<br />
+单条微博内容发布者的粉丝数量和用户身份<br />
+单条微博内容是否包含了图片、视频、音乐等多媒体表现形式<br />
+单条微博内容被转发、评论和点赞的次数<br />
+单条微博发布者的用户年龄、性别、注册地点等一些相对隐性的“根信息”<br />
+<br />
+<strong></strong><strong>社会化媒体第九定律：</strong><br />
+社会化媒体就像磁铁一样把所有的传统网站都从既有的空间中吸进数字洪流，使其成为其中的一部分<br />
+<br />
+社会化媒体就像磁铁吸引铁皮一样吸附所有互联网信息<br />
+传统网站的信息被吸进社会化媒体装置时从空间结构的布置直接转化成了时间结构的呈现<br />
+<br />
+<strong></strong><strong>社会化媒体第十定律：</strong><br />
+数以亿计的用户，通过社会化媒体记录自己的生活，最终汇集在时间这条叙事洪流之中，成为每个人留在地球上的故事<br />
+<br />
+相片在岁月的洗礼中，总会出现沧桑时光的泛黄<br />
+日记在时间的流逝中，总会莫名其妙地全部遗失<br />
+记忆在似水的流年中，总会消散在喧嚣的尘世中<br />
+<strong><br />
+后记</strong><br />
+</div>
+<div class="goods-content-title">
+	媒体评论
+</div>
+中国在微博这里拐了个弯。微博是全新社会的的身份证。当大炮任志强因微博全新蜕变为野心优雅的@任志强，这本书要告诉你的是张三李四如何取得@张三和@李四的身份证。&nbsp;&nbsp;——封新城 《新周刊》执行主编<br />
+<br />
+本书以贴近生活的文字，结合作者自身丰富实务经验，生动地讲述社会化媒体的运作规律，纪录了这一代网民的共同记忆，是一本值得阅读的书籍！——陈威如 中欧国际工商学院战略学教授，《平台战略》作者<br />
+<div class="goods-content-title">
+	在线试读
+</div>
+<strong>&nbsp;社会化媒体第二定律：</strong><br />
+社会化媒体内所有表现形式的信息流都是按照时间轴串联成一条流动的数字洪流<br />
+<br />
+这时候我们需要换一个身份来感受社会化群体的奥妙。假设我们的面前出现了一口古井，深不见底，现在我手头只有一根绳子，上面绑着水桶。把绳子一端从井口放下，过程中不断重复绳子放下的动作并保持匀速，同时没有人拿着电子计时器喊“停”，绳子也足够长。在绳子缓慢向下滑动的过程中，我安排了100位漂亮的姑娘，按照一定的时间间隔轮流在绳子上面系上红色、蓝色、黑色等多种颜色的布条。每个布条上都记录着一段包含丰富信息的内容，有的写着数字，有的画着图画，有的写着文字，有的画着几何图形，所有的信息都由参与本次活动的这100位美丽姑娘提供。<br />
+<br />
+社会化媒体就是把我们这个实验的100人扩大100倍、1 000倍、10000倍的地方，当然这里面不都是漂亮姑娘，还有像我这样有才华的帅小伙子……<br />
+<br />
+&nbsp;嗨，别光顾着想我，我们再回过头来想想这件事情，马上就能体会到，整个社会化网络的信息，就是被时间之线紧密串联在一起，永远都不分离。这个定律要是在正在闹分手的男女朋友身上产生效果，那该多好啊。<br />
+<br />
+但是上面所描述的仅仅是常规状态下表现出的形式，就像水在常态下是液体，但是温度发生变化的时候，它就有可能变成冰或者水蒸气。比如在空中看长江，你会看到一条主干道两侧会有很多的支流，支流上面又分成很多小河流，就像一张水网铺设在大地上。你想要看缩小的版本，可以到吴江同里或者昆山周庄古镇的上空看看，呈现在你眼前的就是纵横交错的水网。<br />
+&nbsp;看到这里，你们是否还记得上一章讲到的小溪和河流、湖泊和大海的故事？载着各式船只的水默默地流动着，船只不紧不慢地前行着。运气好的话，碰上顺风，扬起的风帆就可以加快行进速度。所以我们要弄懂这个世界的规律，比如天气的变化、水流的规律、风向的判断，当然还要有一个合适的风帆，这样我们才能远航，达成我们对远方的向往。当我们每一次经过支流和主流汇合处的时候，都能看到那种规律性流动的力量。信息流和水流一样，被赋予了特定的指令，支流汇入主流，就像江水终究是要流向大海一样，各种个体信息流最终也会汇入群体洪流，以时间轴为主干道流向最终归属——服务器。不管我们愿不愿意，时间对于信息和生命都是无情且彻底的。<br />
+<br />
+信息流在这个拥有5亿用户且无比庞大的社会化媒体中的传播也是分主干道和支流的，这种看不见但是能够想象的信息像大树一样，延伸分叉再延伸再分叉。用户发布的每一条信息，只要转发达到一定的量级，就会像显微镜下的雪花呈现各种不同的样子。我们怎样不用想象，通过观察就可以看出来呢？只要平台提供足够的数据，只要用户关系、时间、微博内容等数据条件完整，通过技术手段，我们很容易分析任何一条微博的传播路径，而通过传播节点的分析，我们可以轻而易举地得出一幅完整的基于时间维度的传播路径图。在图中，你的那条微博就像一个太阳（如果此条微博转发量足够大的话），身边围绕看无数的行星和卫星。它们通过特有的方式，彼此之间连着时间和关系两条线。有的星球和星球之间是并列关系，有的是串列关系。所谓的并列就是同一时间两个或者两个以上的人同时转发了你的微博，而串列就是在单位时间内，随着时间的流逝，这条微博被转发后再次被转发，如此反复几次。以上的解读仅仅是针对个体的，对于整个群体而言，时间具有唯一性，所有的信息只能在时间匀速流逝的过程中依次排列，然后串起一条绑满各色布条通往井下的绳子。<br />
+&nbsp;这条定律里面有几个元素很重要，要理清以下三种关系：第一，原创流、推荐流都有时间刻度，而且固定不变；第二，信息流和时间轴之间具有有意思的关系；第三，信息流是流动的，像时间一样。<br />
+<br />
+原创流、推荐流都有时间刻度，而且固定不变<br />
+&nbsp;<br />
+信息的发布时间永远不会固定，但是在裂变式的传播过程中，单条源信息会被复制无数次，分发到不同发行渠道，每一个发行方转发发行时，这条信息就会附带出现一个新的时间，这就是信息在流动过程中出现的有意思的变化。在此过程中信息流的变化和时间是一样的，打一个比方，随着时间的流动，我们在不断长大，长到你会爬的那一天我们把它记录下来，长到你会走路的那一天我们继续记录，长到你上幼儿园我们仍然可以记录；这就是在信息被传播的过程中，时间和当初发出的时间的变化关系，但无论如何你的生日还是出生的那一天。<br />
+<br />
+社会化媒体的这种即时性的时间记录发布体系，一开始就对于记录本身具有非常特殊的意义。<br />
+&nbsp;我记得20岁时有一次从外地回家，看到卧室门后画着10岁生日时的身高刻度，白色粉笔的印记还是那么清晰。但是我知道，再也不可能回到那时候了，20岁就应该过20岁的生活，10岁就是10岁的生活，不管那时候多美好。时间总是在无情地流逝，我们不能用文字打败时间，好在我们现在不用再在门后画上一条30岁时的身高，到40岁时再去看了。我们现在可以把生活信息（情绪、态度、新鲜事）数据化，然后就像扔一根枯树枝到流淌的小河里一样，扔进社会化媒体这条大河里。<br />
+&nbsp;在“7·23”甬温线动车事故后，网友们通过微博找到很多遇难者的微博，其中就包括牵动人心的小伊伊父母的微博。小伊伊的父亲项余岸在温州任岩松中学任语文老师，微博昵称是“闲坐不谈语文”。他的微博记录着一个普通家庭的正常生活：“深夜看微博玩手机。哈哈，身边躺着两个女的。”这让我们意识到生命的精彩和可贵。小伊伊的母亲施李虹（@一一成长回忆录）的微博使用时间并不是太长，总共发了10条微博。她在使用期间努力找回密码：“注册微博许久，竟然忘了账号和密码。今天才登录成功。”然后写了开始使用微博的原因：“从今天起，勤写微博，以后对伊伊有个交代。”最后一条微博就是在出事前的动车上用手机发布的：“人小脾气大，小宝贝，你什么时候才能长大懂事啊。”时间停留在2011年7月23日晚上8点30分。对于她而言，生命在动车追尾的那一刻戛然而止，在这之前的所有微博，都成了面对公众的唯一遗言。时间停在那里，永远都不会出现变化。2012年在事故发生一周年的时候，还有好多网友转发这条微博，以示怀念。<br />
+&nbsp;在南京读大学的网友@走饭，要独自面对日益严重的抑郁症，是微博陪伴她经受了整个挣扎的过程。在微博的记录下，我看到了一种叫作才华的东西，比如她说：“上微博的后遗症是现实中别人跟我说话我总要顿一下，心里选个说法、组织好语言修饰一番，再拉动脸部肌肉、部署好脑海中选中的表情，然后还没等我点‘发送’，那个人就扭过头去了。”她说：“觉得孤单的时候，可以在床上躺一个小时，然后爬下去撒尿回来钻进被窝，跟自己说‘好温暖好温暖，谁帮我暖的被子？’”她还说：“躲了一辈子的雨，雨会不会很伤心？”她写过：“要是我生活中碰到了和我性格一模一样的人，可能最终的结果就是擦肩而过吧，因为我压根儿不想认识这种人。”她还写道：“出书的会不会讨厌我这种人，每次都是摸摸封面摸摸封底看看价格然后放回去……”@走饭＃临走的时候，在微博个人简介里写下了这一行文字：“↓↓↓↓↓遗言：我有抑郁症，所以就去死一死，没什么重要的原因，大家不必在意我的离开。拜拜啦。”这一条微博是通过时间定制应用发布的，那天刚好是我的生日，所以我记得特别清楚，是2012年3月18日上午10点54分。高晓松在3月22日深夜看完@走饭＃的微博后发了这样一条微博：“彻底睡不着了，刚关注了@走饭＃的微博，一个卡夫卡般的女诗人。希望新浪不要关闭她（微博），她还活着，因那句‘心是被什么拽住的，为什么感受不到它的重量’。这是我第88个关注的人，数字吉祥，不增加了，需要的话换换人，但这个会保留。因为，看了好多好多人，有时候，想看看灵魂。”我们都知道@走饭＃已经离我们而去了，但是那条代表遗言的微博发布时间孤零零地在那里显示着，仿佛映射了她的孤独。<br />
+<br />
+&nbsp;“我走了，来生再见！很多朋友送我，我没遗憾！”2011年1月29日凌晨5点25分，一位昵称“今年我四十”的微博用户在微博上留下这条信息后离开了人世。“记得回来找我！我很爱你，我知道你撑得很辛苦！你很棒！老公我永远等你！”2011年6点22分，他的妻子@君nora＃在他临终的那条微博上写下了这句令人断肠的评论。我们都知道，肝癌晚期、癌细胞转移，这样的病情除了等待奇迹，没有更好的办法。但@今年我四十＃并没有放弃，他仍然要“坚决干掉癌症”，并且开通微博“记录我和癌症拼搏的日子”。56天，34条微博，记录了一个40岁男人与癌症抗争的故事。虽然最终没能出现奇迹，但所有人一起见证了@今年我四十＃这个坚强男人最后的人生旅程。<br />
+<br />
+社会化媒体的任何信息一旦进入这个数字洪流，便被打上永久的时间定位标识。就像一个孩子在哪一天出生，那一天就是他的生日，那一天将伴随着他的一生；我们前面看到的这些让人感动的微博内容，最后发布时间都是最后更新的时间，那些账号永远也不会发布新的微博了，那些数字代表的时间就像一座座孤零零的石碑，倔强而坚强地立在那里。<br />
+&nbsp;<br />
+信息流和时间轴之间具有有意思的关系<br />
+&nbsp;编年体是我国传统史书的一种体裁，它以时间为轴心，按年、月、日铺设开来，描述史实，是撰写历史最早也是最简便的方法。从架构上看，这种叙事方式是把静态的事件性信息串在宽泛的时间轴上，虽然时间跨度很大，但还是在时间这根绳子上连接了起来。书面信息就是历史事件，时间轴就是年、月、日。<br />
+<br />
+我曾经在某个周五的下午发过一条关于全国各地周末天气情况及假期安排的微博，微博发出后，粉丝纷纷在第一时间转发反馈当地的天气情况及假期安排。我发布的微博原文是：“我们玩个游戏吧，写下你的城市、此时此刻天气、周末怎么度过……如：北京，阴，睡觉。”24小时内这条微博转发量超过了2800次，取得了非常不错的互动和传播效果。来自奥克兰、温哥华、伦敦、东京、悉尼、爱丁堡、新加坡等地的境外用户和来自全国几乎所有省份的朋友们，在这条微博内容的基础上进行转发并标记类似“新加坡，晴转阵雨，望天发呆”、“深圳，多云，相亲”的内容，在单位时间内，来自不同地理位置的微博用户，对于这个统一话题进行转发热议后形成了微博事件，这就是一个相对完整的事件时间轴。从这条微博发布之始到被各地网友共同传播，再到整个事件形成，我们想想前面谈到的井口的那条绳子和布条，现在是不是已经很清楚了？但是你会发现，这里面还有一个问题，就是“新加坡”的用户也许是看到“深圳”的用户转发了这条微博后跟进转发的。这也很好解释，这就意味着绳子上的布条上又系了另一个布条。因为社会化媒体用户和用户关系的开放性，这里面没有一个人是可以置身事外的，所以我们总能在这个或者那个时间线上找到你的内容，这种事情看上去非常有意思吧。<br />
+<br />
+作为多源头的信息流，无论是“看我发现了什么有趣的”还是“看我做了什么好玩的”，这两条数字洪流中流淌的每一条信息均是实时的，我们看到的都是能看到的部分，有天然的局限性。因为每一个人关注的信息源（人）和看到的时间不一样，呈现在他们Feed流（微博首页按照时间倒序排列的信息流）里的信息也就不一样，每个人看到的都是冰山一角，并不是事情的全貌。其实这个很好理解，你的电视频道停留在浙江卫视，我的停留在中央电视台，我们看到的内容当然不一样。浙江卫视的主持人口才再好，也不会让我在7点15分看到中央电视台的天气预报。同时，一切信息形式都是以时间排序的，不管是状态、评论还是私信。这个也比较好了解，因为这是目前最好的实时信息的排列方式。<br />
+<br />
+新浪曾在2011、2012年新旧交替的时刻，在所有微博用户的个人页面上加上了一道2011和2012的分隔符，让我们知道那一年过去了，接下来是一个全新、未知、充满希望的一年，这让很多微博用户感动不已。2012年也过去了，这条分隔符在年末最后一刻又一次出现在了我的页面，我知道以后的每一年都会出现，也依然会被这个简单的线条所感动。这里面除了体现浓浓的人文关怀外，还有一个重要作用就在于提醒我们对那些曾经的种种过往，那些似水流年的美好时光的追忆，让我们知道在单位时间内，生活发生了变化，并且有据可查。当我们晚年躺在摇椅上和孩子们忆苦思甜，分享当年那些辛苦创业的艰难岁月，讲述那些特定年代重要事件的经历以及吹嘘刻骨铭心的爱情时，都有据可查。<br />
+<br />
+这个世界上有创意的人不少，更何况创意可以产生商业价值，所以微博上出现了一种照片打印服务，就是把你曾经发过的微博，主要是带有原创照片的微博按照时间顺序给你导出来，然后印刷成精美的手册，可以收藏，也可以送人，甚至还可以帮你的好友印刷后作为特别礼物寄出。如果你看到这里，除了悄悄关注心爱姑娘以外，正苦于找不到浪漫的表达方式追求她，不如试一试。但是我要告诉你，现在的姑娘都有些奇怪的想法，这些想法会给你带来四种可能：第一，礼物收到，没有反馈，实际拒绝；第二，礼物收到，非常感动；第三，礼物收到，非常感动，然后你懂的；第四，快递公司把快递丢了，然后就没有然后了。阿弥陀佛，她要是真喜欢你，其他都是浮云，施主随缘吧。<br />
+&nbsp;<br />
+<br />
+信息流是流动的，像时间一样<br />
+&nbsp;传统的互联网模式信息呈现的方式几乎都是空间结构。因为基于现有的技术，通过网络重建传统媒体模式，难度最小，条件也最为成熟。传统的定位均以空间坐标为参照。比如中国人为了定位具体的位置，很早就发明了前后左右、上中下的方位词汇。美国人在电子表和智能手机还没有流行的年代，是通过描述“两点钟方向有个辣妹”来实现目标定位的。中西方文化，有时候的差别是很有意思的，你想想“哈利路亚”和“阿弥陀佛”是不是很像前面对于定位的描述呢？<br />
+&nbsp;现在互联网领域发生的变革不仅仅是从站方提供内容转变成用户提供内容同时消费他们创造的内容，更是从整体的架构开始变化。耶鲁大学计算机科学教授戴维·格勒恩特认为网络、搜索、计算机终将作古，基于时间的生活流才是未来。社会化媒体与传统互联网最重要的区别就是空间定位发生了变化，从空间结构直接过渡到了时间结构。我们拿新浪网和新浪微博分别举例。假设我要告诉互联网另一头的人，新浪网上的一张具体的图片在哪个位置。我一般的描述是，在新浪首页右上角的顶部导航区，从上往下数第二行最右边一个图标点击进去，再到这个二级页面左侧的焦点图区域，找到第二张焦点图就是了。而如果我要告诉互联网另一头的人，我在新浪微博上发布的一条微博的内容，我会告诉他在我的个人首页高级搜索框内，输入某某关键词搭配具体时间段，立刻就能找到他想要的内容。因为单独的搜索关键词有可能会有重复信息，设定一个时间段内的关键词会更为精确。<br />
+<br />
+其实微博有点儿像电视机和收音机，当我调到一个固定的频道或者频率时，那些我想要接收的频道或频率的内容就会自动传递过来。如果我只关注姚晨一个人，那么我的微博里面出现的一定只有姚晨一个人的微博内容。这里的内容分为两个部分，一个就是前面说到的原创部分，这个部分最像收音机。还有一个部分就是姚晨推荐的微博，也许是优酷上的一段视频、新浪上的一篇新闻，抑或是另一个微博用户的一条原创微博。也就是说，你也许仅仅关注一个或者有限的几个用户的微博，但大部分微博的热闹你几乎都能赶上，因为那些看上去非常热闹的微博内容会被那些特别喜欢推荐的用户发现并源源不断地流向你。在微博上你只要关注有限的那么一批人，如果你不是做媒体记者或者网站编辑的话，一个普通人的日常信息需求基本就可以满足了。<br />
+&nbsp;我们第一次使用微博的时候，会小心翼翼在发布框里敲出一行文字，然后按下发布按钮，一条微博内容就这么简单地发出去了。然后你就会发现，这条微博的内容自动流向了所有关注你的粉丝的Feed流里，并规规矩矩地按照时间排序。信息发布后，随着传播模式的辐射，你不知道这条微博在下一秒将会出现在谁的Feed流里。你会发现这条信息是流动的，因为时间是匀速流动的，所以按照不同频率进入的微博内容就像涂上了502胶水一样粘贴在时间上并跟着流动。所以说信息流是动态的，像时间一样流动。<br />
+<br />
+有一段时间很多朋友都说遇到了微博使用以来的瓶颈期，无论怎么刷新微博，总是不能带来新鲜好玩的内容，也没有刚开始玩微博时的那种刺激。这就像我们对于呼吸的感觉一样，因为习惯的原因，我们很少感觉到自己在呼吸，但是不能说我们没有在呼吸，只是有时候我们忘记了呼吸带给我们的那种感觉。只有偶尔的深呼吸能够让我们真切地体会到什么是呼吸。那么我们怎样能再次感觉自己在玩微博呢？通过观察我发现，我们在微博里关注什么样的人会决定看到什么样的内容。不管你愿不愿意，只要你关注了他们，他们产生的信息就会源源不断地向你流动。但是当你试着把不能带你给价值的人取消关注后，再关注一批帅哥美女、文艺中年后，是不是感觉生活又瞬间变得美好了？不要笑，去试试看。<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A220032539813', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A220032539813', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A220032539813', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A220032539813', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A220032539813'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

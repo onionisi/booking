@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascript/login.js") }}"></script>
+<script language="javascript">var referer = "{{ referer }}";</script>
+{% end %}
+
+{% block header %}
+<section>
+	<a href="javascript:history.go(-1);">
+		<span class="return">返回</span>
+	</a>
+</section>
+<section>登录本店</section>
+<section></section>
+{% end %}
+
+{% block body %}
+<div class='u-box m-ipt-group2'>
+	<input type="hidden" name="type" id="type" value="">
+	<ul id="login_ul">
+		<li class='first'>
+		<input type="text" placeholder='登录账号或手机号' name="login_name" id="login_name" value="">
+		</li>
+
+		<li>
+		<input type="password" placeholder='密码' name="password" id="password" value="">
+		</li>
+	</ul>
+</div>
+
+<div class='m-login'>
+	<button class='u-btn-blue u-btn-fullwd u-txt-white18' id="login_form_submit_btn">登录</button>
+
+	<!-- <div class='f-mt20 login-weibo'> -->
+	<!-- 	<p class='f-lh2em'>使用合作网站账号登录快书包：</p> -->
+	<!-- 	<button class='u-btn-red u-btn-fullwd u-txt-white18' url_to="/member/other_login.php?from=1&client=1&src=http%3A%2F%2Fm.kuaishubao.com">用微博账号登录</button> -->
+	<!-- </div> -->
+
+	<div class='reg-div'>
+		<div>
+			还不是本店会员？
+			<button class='u-btnbox40' url_to="/register">
+				立即注册
+			</button>
+		</div>
+	</div>
+</div>
+
+{% end %}

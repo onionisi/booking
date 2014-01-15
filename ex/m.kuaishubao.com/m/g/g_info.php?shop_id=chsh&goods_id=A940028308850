@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/b/2/A940028308850_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/b/2/A940028308850_1.jpg">
+        <h2>哈佛商业评论（2013年第10期）-突破性创新攻略</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥45.00元</b> <del>¥50.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/b/2/A940028308850_1.jpg','哈佛商业评论（2013年第10期）-突破性创新攻略-教你如何跳出平庸，启动重大突破式创新的办法。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	【出版】《哈佛商业评论》杂志社<br />
+【出版时间】2013-10-01<br />
+【品牌】哈佛商业评论<br />
+【刊号】ISSN1672-2582<br />
+【开本】16开<br />
+【页数】160<br />
+【印刷】彩色<br />
+<br />
+	<div class="goods-content-title" style="outline-width:0px;">
+		哈佛商业评论（2013年第10期）-突破性创新攻略
+	</div>
+<strong><br />
+<span style="color:#000000;">卷首语 From the Editor</span></strong><br />
+<strong><br />
+<span style="color:#000000;">向最优者学习</span><br />
+</strong><br />
+<span style="color:#000000;">在《哈佛商业评论》90 年的历史上，我们发现，任何理念只要与魅力四射的人物发生关联，往往都会辐射出更大的影响力。本期好几篇文章都聚焦于某个显要个人的理念与成就。<br />
+<br />
+亚历克斯·弗格森是其中之一，他被很多人认为是人类运动史上最伟大的教练。1999 年被授以爵位的埃里克斯几个月前刚刚退休，此前他曾在英超执教曼联长达26 个赛季。在他与哈佛商学院教授埃尔贝斯合作的文章中，两人将弗格森的整套思路和做法提炼成8 堂领导力课程，为其他诸多机构的管理者提供普适借鉴。这8堂课包括：如何保持对一支高强度团队的控制力；如何运用被忽视的观察能力以及如何应对那些在所难免的变数。<br />
+<br />
+“颠覆性创新之父”克莱顿·克里斯坦森也在本期杂志撰写文章。他和两位合著者将目光转向咨询业。他们认为继出版业和钢铁业后，管理咨询业即将面临颠覆。克里斯坦森以同样为专业服务类的律师事务所为例，为我们生动描绘了咨询公司面临的变革和风险。作者建议，要摆脱被颠覆的命运，咨询机构要加快服务的产品化以及大数据分析的学习和应用。<br />
+<br />
+本期另一位显要人物和文章，来自目前全球战略与竞争领域最受尊重的管理思想家迈克尔·波特，他与最近不幸刚过世的美国医疗联盟社区主席托马斯·李合作，设计了一个既可行又乐观的美国医疗保障体系改革方案。作者说，美国医改，必须基于一个全新且宽泛的目标，在改善患者处境的同时降低成本。<br />
+<br />
+我们期待本期这些卓越作者的理念能带给你灵感火花，我们尤其期待来自中国管理者们的积极建议和反馈。<br />
+<br />
+殷阿笛（Adi Ignatius）<br />
+作者为《哈佛商业评论》英文版总编辑<br />
+</span><br />
+<br />
+<strong><span style="color:#000000;"></span></strong><strong><span style="color:#000000;">众说 INTERACTION<br />
+博客 @HBR</span></strong><br />
+<span style="color:#000000;">追忆科斯</span><br />
+<span style="color:#000000;">新兴市场需要“钢铁侠”吗</span><br />
+<span style="color:#000000;">轻松几步，享誉全球</span><br />
+<br />
+<strong><span style="color:#000000;">前沿 Idea Watch</span></strong><br />
+<br />
+<strong><span style="color:#000000;">人力 People</span></strong><br />
+<span style="color:#000000;">一线经理的人才管理课</span><br />
+<span style="color:#000000;">一线经理正承担着曾经属于人力资源部门的职责。本文总结了一线管理者必须了解的人才管理的五大关键问题。了解这些问题将帮助企业留住人才，降低对外部招聘的依赖，并让员工看到，他们的工作通向美好未来。</span><br />
+<br />
+<strong><span style="color:#000000;">数据控 STAT WATCH</span></strong><br />
+<span style="color:#000000;">午后电话会议的风险</span><br />
+<br />
+<strong><span style="color:#000000;">研究控 RESEARCH WATCH</span></strong><br />
+<span style="color:#000000;">健康警示刺激销售？！</span><br />
+<br />
+<strong><span style="color:#000000;"></span></strong><strong><span style="color:#000000;">奇思辩 DEFEND YOUR RESEARCH</span></strong><br />
+<span style="color:#000000;">创业者离上帝更近？</span><br />
+<br />
+<strong><span style="color:#000000;">新视界 VISION STATEMENT</span></strong><br />
+<span style="color:#000000;">非洲崛起的七大原因</span><br />
+<span style="color:#000000;">非洲经济发展速度快于其他大洲。这不只是钻石和石油贸易的功劳：从2000年到2008年，非洲仅有24%的经济增长归功于自然资源。是什么启动了这块纷繁复杂大陆的经济发展引擎？非洲2万亿美元经济背后的七大事实会让你感到惊讶。</span><br />
+<br />
+<b><span style="color:#000000;">聚光灯 SPOTLIGHT</span></b><br />
+<br />
+<b><span style="color:#000000;">解码创新“特种部队”</span></b><span style="color:#000000;"><br />
+DARPA是历史上持续进行突破性发明时间最长的机构。但其仿效者多以失败告终。原因就在于仿效者们没有理解DARPA模式是各种重要元素之间互为支撑的整体，只吸收了模式中的部分元素。DARPA的突破性创新之道，是传统模式之外的一种切实可行、充满魅力的选择。</span><br />
+<br />
+<strong><span style="color:#000000;"></span></strong><strong><span style="color:#000000;">六步拥有自己的企业风投</span></strong><br />
+<span style="color:#000000;">当内部研究的成果无法带来有价值的、反映市场发展方向的洞见，无法满足研发突破性技术的要求时，企业风投基金则能够带来改变现状的突破性思维，这正是很多公司高层梦寐以求的。</span><br />
+	<div style="white-space:nowrap;">
+		<span style="white-space:normal;"><br />
+<b><span style="color:#000000;"> 对话 HBRC DIALOGUE</span></b><br />
+<b><span style="color:#000000;"> 青啤董事长孙明波：追求有质量的增长</span><br />
+</b> <span style="color:#000000;"> 如何在产量上超过华润雪花，进而如何与跨国大鳄短兵相接？新掌门孙明波提出的“整合+扩张”战略能否奏效？</span><br />
+<br />
+<b><span style="color:#000000;"> 实战复盘 How I Did It</span><br />
+</b> <b><span style="color:#000000;"> 华住酒店CEO：变革再造竞争力</span><br />
+</b> <span style="color:#000000;"> 初创企业向成熟企业转型的过程中，很容易遭遇迷失。华住酒店在创始人放权后，明显失去方向感。季琦再次执掌帅印后，从战略、结构以及文化等三个方向同时推动变革，很快让企业重获竞争力并回归正轨。</span><br />
+<br />
+<b><span style="color:#000000;"> 全球 THE GLOBE&gt;<br />
+<b><span style="color:#000000;"> 侨民营销：国际化新策略</span></b><br />
+</span></b><span style="color:#000000;"><span style="color:#000000;">通过瞄准国外侨民群体，新兴市场的公司正悄然铸造全球品牌。<span></span></span></span><span style="color:#000000;"><span style="color:#000000;"></span></span><b><span style="color:#000000;"><br />
+<br />
+<b><span style="color:#000000;"> 大思路 BIG IDEA</span></b><br />
+</span></b></span><span style="white-space:normal;font-size:14px;line-height:21px;color:#000000;">就医成本居高不下、医疗水平参差不齐一直是全球医疗界的两大顽疾。波特教授认为，是必须改变的时候了，美国医改新战略的核心是患者价值的最大化，以最低的成本实现最佳的治疗效果。医界建立新系统需要整体战略——“价值议程”，它包含6大要素，只有同时推动这6大要素，转型才能顺利进行。</span><span style="white-space:normal;font-size:14px;line-height:21px;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span><b><span style="color:#000000;"> <br />
+<b><span style="color:#000000;"> 洞见 Insight</span><br />
+<b><span style="color:#000000;"> 中国企业转型：源创新以客户为中心<br />
+</span></b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">流创新战略是“时势造英雄”，源创新战略则是“英雄造时势”，它以客户为中心。中国企业应该以本身的资源、能力及市场地位为支点，推动一个与之相配合的源创新理念，然后通过两面市场模型的运作，建立一个强大的生态系统。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 大数据 Big Data</span></b><br />
+<b><span style="color:#000000;"> 大数据时代博弈新规</span></b><br />
+</b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">大数据是正在发生的未来，大数据分析与洞察深刻地影响着体育和商业中的博弈，企业有可能以前所未有的精准度从数据中提取洞察力，从而构建博弈优势。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 中国案例·宝洁经验 China Case</span></b><br />
+<b><span style="color:#000000;"> 消费者洞察：发掘人性需求</span></b><br />
+</b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">消费者洞察是企业成功的基础，宝洁公司认为，只有深入了解消费者，挖掘有价值的消费者洞察并把这些洞察转换为成功的产品，才有可能在激烈竞争的市场取胜。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 特写 Feature</span></b><br />
+<b><span style="color:#000000;"> 克里斯坦森：颠覆咨询业</span></b><br />
+</b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">颠覆性创新已经席卷了从钢铁到出版的众多行业，现在它正在重塑咨询业。传统咨询机构长期以来依靠不透明性和灵活性来保持其行业领导地位；但目前的商业环境正变得越来越透明和成熟，这两项优势正快速消失。为避免被颠覆的命运，传统咨询机构需要重新思考服务模式，实验新的咨询模式，从而对核心业务进行自我颠覆。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 弗爵爷之领导力密码</span></b><br />
+</b></b></span></b><span style="color:#000000;"><span style="color:#000000;">弗格森爵士执掌曼联26年，共赢得38项桂冠，把曼联打造成体育界最具价值的品牌。哈佛商学院教授和弗格森一起总结出八条领</span></span><span style="color:#000000;"><span style="color:#000000;">导力法则，这些经验无论对商界还是人生都大有裨益。</span></span><b><span style="color:#000000;"><b><b><br />
+<br />
+<b><span style="color:#000000;"> 海尔：中国式堂吉诃德</span></b><br />
+</b></b></span></b></span><span style="white-space:normal;font-size:14px;line-height:21px;color:#000000;">张瑞敏与詹姆斯·马奇在斯坦福大学商学院有关战略决策、组织变革的对话，既是一场东西方文化的交锋，也是两位智者关于管理中“平衡之道”的一次探讨。</span><span style="white-space:normal;font-size:14px;line-height:21px;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 经典重读 HBR Classic</span></b><br />
+<b><span style="color:#000000;"> 新兴市场人才争夺战<br />
+</span></b></b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">新兴市场发展迅猛，人才争夺异常激烈。真正的赢家必须学会做出承诺和兑现承诺。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 经验 Experience</span></b><br />
+<b><span style="color:#000000;"> 自管理 MANAGING YOURSELF</span></b><br />
+<b><span style="color:#000000;"> “自我爆料”要谨慎</span></b><br />
+</b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">在职场中，很多高管会通过分享自己的想法、感受和经历来拉近与他人的关系。然而，不当的“自我爆料”往往会适得其反。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<span style="color:#000000;"> 案例研究 Case Study</span><br />
+<span style="color:#000000;"> 该你在家带孩子了！</span><br />
+</b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">一对夫妇既是生活伴侣，又是生意伙伴。为了同时兼顾公司和家庭，两人约定，一人主外，一人主内，在必要时角色互换。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 杂谈 SYNTHESIS</span></b><br />
+<b><span style="color:#000000;"> 打开咨询公司的“黑匣子”</span></b><br />
+</b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">通过一部Showtime频道连续剧和一本最新的麦肯锡公司简史，我们能否了解咨询业鲜为人知的秘密？</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b> <br />
+<b><span style="color:#000000;"> 英文摘要 EXECUTIVE SUMMARIES</span></b><br />
+<br />
+<b><span style="color:#000000;"> 跨界人生 LIFE'S WORK</span><br />
+<b><span style="color:#000000;"> 松久信幸</span><br />
+</b></b></b></b></span></b></span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;">松久信幸在母国日本学会了如何做寿司。其后，在秘鲁和阿根廷，作为餐厅年轻的主厨，他将南美风味融入其中。在美国比佛利山“松久”（Matsuhisa）餐厅以及纽约“信”（Nobu）餐厅大获成功之前，目前，“信”在餐饮界迅速扩张，已在全球13个国家拥有26家分店。</span><span style="font-size:14px;line-height:21px;white-space:normal;color:#000000;"></span><span style="white-space:normal;"><span style="color:#000000;"><br />
+</span></span><span style="white-space:normal;"><b><span style="color:#000000;"><b><b><b><b> <br />
+<b><span style="color:#000000;"> 幽商一默 Stategic Humor</span></b><br />
+</b></b></b></b></span></b></span> 
+	</div>
+	<div class="goods-content-title" style="outline-width:0px;">
+		<b><b>哈佛商业评论</b></b>
+	</div>
+<span style="color:#000000;">《哈佛商业评论》——90年享誉全球的“管理圣经”Harvard Business Review, World’s Management Bible Spanning&nbsp;90Years <span style="color:#000000;">Harvard Business Review(简称HBR) 创刊于1922年，是哈佛商学院的标志性刊物，也是全球顶尖的管理杂志。HBR90多年来，一直致力于创造和传播最新的管理思想和方法，帮助商界领袖不断更新理念、领导变革。如今，被业界誉为“管理圣经”的HBR已成为一个全球性的高层管理平台，其权威地位是任何一家同类杂志所难以企及的。The Economist（《经济学人》杂志）如是评价HBR：“引领全球管理实践”。</span></span><b><b><span style="color:#000000;"> </span> </b></b> 
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A940028308850', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A940028308850', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A940028308850', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A940028308850', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A940028308850'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chsh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chsh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

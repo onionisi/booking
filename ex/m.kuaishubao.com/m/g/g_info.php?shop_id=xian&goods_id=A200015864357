@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_1.jpg">
+        <h2>快书包&莲子南通手工蓝印花布托特包</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥188.00元</b> <del>¥208.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：个</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_1.jpg','快书包&莲子南通手工蓝印花布托特包-蓝印花布系列新品，纯手工染制蓝印花布，蜻蜓盘旋纹，雅致安静，别有风格。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!--提示信息 Begin-->
+<div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><strong>快书包推荐：</strong>蓝印花布包系列另有”<span style="display:none;" id="__kindeditor_bookmark_start_21__"></span>叶底藏花书包<span style="display:none;" id="__kindeditor_bookmark_end_22__"></span>“和”拼素麻自然风布包可供选择<br />
+&nbsp; &nbsp; &nbsp;&nbsp;链接：<span style="color:#999999;"><a href="http://bj.kuaishubao.com/g/A610014230307.html" target="_blank"><span style="color:#999999;"><u>蓝印花布叶底藏花书包</u></span></a></span><span style="color:#999999;">、</span><span style="color:#999999;"><a href="http://bj.kuaishubao.com/g/A001352909223.html" target="_blank"><span style="color:#999999;"><u>蓝印花布拼素麻自然风布包</u></span></a></span></span> 
+</div>
+<div style="outline-width:0px;white-space:normal;" class="goods-content-title">
+	<a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/heniantang_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/heniantang_conte.jpg"></a></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"><a href="http://www.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/yangshengdiary_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/yangshengdiary_conte.jpg"></a></a></a><br />
+<a href="http://bj.kuaishubao.com/c/105106-1-1.html" target="_blank"><a href="http://www.kuaishubao.com/c/105106-1-1.html" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/lianzi_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/lianzi_conte.jpg"></a></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"><a href="http://www.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/zhengan_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/zhengan_conte.jpg"></a></a></a><br />
+</div>
+<!--提示信息 end-->
+<div class="goods-content-title">
+	商品参数<br />
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【设计师】@莲子清如许<br />
+【质地】蓝印花布<br />
+【外包装尺寸为】40×30×6cm<br />
+【包包主体尺寸】（手工制品 大约尺寸）<br />
+【底宽】35cm<br />
+【上宽】45cm<br />
+【不含提手高度】36cm<br />
+【连提手高度】52cm<br />
+【底边拼纯棉宽布带】宽5cm<br />
+	<div class="goods-content-title">
+		商品实拍图<br />
+	</div>
+<b>图一：快书包&amp;莲子南通手工蓝印花布托特包整体效果</b><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_xt_cj_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_xt_cj_9.jpg"></a><br />
+<b>图二：单肩和手拎效果</b><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_xt_cj_15.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_xt_cj_15.jpg"></a><br />
+<br />
+<b>图三：拉链封口</b><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_xt_cj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_xt_cj_7.jpg"></a><br />
+<br />
+<b>图四：包装和拉链细节</b><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_xt_cj_11.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_xt_cj_11.jpg"></a><br />
+	<div class="goods-content-title">
+		商品特点<br />
+	</div>
+<b>快书包第一款蓝印花布托特包包上线！——“快书包&amp;莲子 南通手工蓝印花布女款托特包”</b><br />
+<br />
+快书包&amp;莲子 南通手工蓝印花布托特包，由快书包向 @莲子清如许（新浪微博） 特别定制了这款集自然素材、使用舒适度、超大容量于一身的蓝印花布手提包。<br />
+<br />
+@莲子清如许 是一位自由设计师和手工爱好者，尤其热爱使用自然素材和中国元素的设计。她同时是一位超级书虫，更是一直陪伴快书包成长的超级顾客。<br />
+<br />
+布包外包装纸盒钤印、织唛上的“快书包”及“莲子清如许”徽标，由著名设计师胡颖友情设计，感谢 @胡颖设计（新浪微博）。<br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_xt_cj_5.jpg"></a><br />
+<br />
+托特包（TOTE BAG）是一种容量很大能装很多东西的手提包。样子是长方型或是横向长方的这种包包，是逛街、上学、上班族的首选。<br />
+本款托特包主体采用“国家级非物质遗产保护项目南通蓝印花布展示基地”南通王振兴老爷爷家纯手工植物染制的蜻蜓盘旋纹蓝印花布，纹样简洁大方，拼配设计师精心挑选，自然纯棉宽布带加固包底部，并做成同色同材质布提手，让包包更立体有型，素朴、自然、典雅而富有禅意，应和现代都市的自然乐活风尚。<br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/2/a/A200015864357_xt_cj_10.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_xt_cj_10.jpg"></a><br />
+<br />
+<b>【大尺寸，大容量，轻松大气】</b><br />
+这款布包外包装采用优质飞机盒，外面牛皮纸盒朴素，里面的衬雪梨纸防潮防压防皱。<br />
+<br />
+外包装尺寸为：40×30×6cm<br />
+包包主体尺寸：（手工制品 大约尺寸）<br />
+底宽：35cm<br />
+上宽：45cm<br />
+不含提手高度：52cm<br />
+连提手高度：36cm<br />
+底边拼纯棉宽布带：宽5cm<br />
+<br />
+这样大的尺寸，可以轻松装入多本大16开的杂志，容纳多本书及手机、钱包等小物更是轻松自如。<br />
+装入笔记本电脑或是ipad也没问题哦！而且布包本身很轻，不会增加负重。<br />
+<br />
+<b>【拉链封口，内有小袋，大小物件安全、轻松存放】</b><br />
+包包以拉链封口，背起来更安全，更规整。拉链长度为45cm。<br />
+包包内部前后各有一个小内袋，一面内袋有拉链封口，可安全收纳钱包及贵重物件；另一面内袋无封口，可放置手机、钥匙、纸巾等随手取用的小物。<br />
+包包内衬为素雅的纯棉蓝白碎花布料，规整服帖，使得包包手感更扎实。<br />
+	<div class="goods-content-title">
+		关于蓝印花布<br />
+	</div>
+蓝印花布的特色：用蓼蓝草（板蓝根的茎叶）染色，有一定药用价值，纯天然无害。布料厚实非常耐洗，越洗越柔软耐看；蓝白两色，清新自然，朴拙幽雅，颜色虽简单，但图样千变万化，寓意丰富，本款书包采用甲骨文图案，追古抚今，意蕴悠长，充满传统文化气息。<br />
+<br />
+蓝印花布纯手工制作过程： 纹样设计——花稿刻制——印布——刷浆——染蓝色——刮浆——晒干（至少要晒足4-5个晴天）——清洗（反复漂洗以去浮色）除去过于寒冷的冬天、江南梅雨季节及阴雨天，一年只有9-10个月的有效的生产时间。 主要是家庭作坊的生产模式，制作周期长，产量小，会有很明显的忙时与闲时之分。<br />
+<br />
+下图为蓝印花布的制作过程，图3/4/5中的白发老者，即为王振兴老爷爷。 <br />
+<a href="http://pic.kuaishubao.com/picdata/publish/13/04/A610014230307_pp_hj.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/04/A610014230307_pp_hj.jpg"></a><br />
+<br />
+<b>【小贴士：这款托特包掉色吗？】</b><br />
+☆ 南通王爷爷家制作的蓝印花布，在制作过程中已经做过反复漂洗，不会出现普通蓝印花布浮色很重，容易掉色的问题。<br />
+☆ 我们在制作过程中也反复测试，要在比较大力揉搓摩擦的情况下，手上才会出现很轻的蓝色。<br />
+☆ 您也可以在使用前用淡盐水浸泡半小时左右，进一步减轻大力揉搓摩擦下出现轻微浮色的情况。（因为是纯棉和纯麻布料，洗过之后可能有轻微褶皱，您稍微熨烫一下，会更显平整；如果没有熨斗，洗后用手抻平再晾干也可以。）<br />
+☆ 另外，如果您习惯在包中放比较多的东西，包包较重的情况下，和衣服长时间摩擦，也可能有极轻微的浮色沾染到浅色衣服上，所以您在最初使用时搭配较深色的衣服会更加安全。
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A200015864357', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A200015864357', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A200015864357', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A200015864357', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A200015864357'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

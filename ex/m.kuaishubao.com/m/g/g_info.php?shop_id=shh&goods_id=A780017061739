@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/1/0/A780017061739_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/1/0/A780017061739_1.jpg">
+        <h2>知日·犬</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥22.80元</b> <del>¥35.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1"  type="number" value='1' disabled="disabled">
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+            <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' disabled="disabled">暂时缺货</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/1/0/A780017061739_1.jpg','知日·犬-超人气品牌“知日”系列图书第11弹！满载义气与感动的日本犬物语！（分享自 @快书包）','','utf-8'));"><i></i></button>
+    </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!--提示信息 Begin-->
+<div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b>快书包推荐：</b>热爱汪星人的读者不可错过的一期《知日》，大量照片、感人文字，充满义气与感动。</span> 
+</div>
+<!--提示信息 end--><!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】苏静等<br />
+【出版社】中信出版社；<br />
+【装订】16开；平装<br />
+【页数】-<br />
+【印刷】彩色<br />
+【ISBN】9787508639819<br />
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+专注日本文化，国内最高人气连续出版品牌《知日》最新弹——《知日·犬》特集，满载义气与感动的日本犬物语！<br />
+《知日·犬》特集，由日本犬的历史出发，从宠物犬、辅助犬、流浪犬、广告犬到电子犬，书中关于犬的各类照片和感人文字，瞬间把喜爱汪星人的读者带入日本国身临其境感受狗狗世界的可爱。<br />
+另有 “摄影师”、“书刊”、“告诉我吧！日语老师”以及毛丹青、施小炜的精彩人气专栏带你走入犬的世界。<br />
+知日特集，全新改版，每月一本。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+内容看点下内文《知日·犬》是“知日”系列图书的第11本特集，着重介绍日本文化中的“犬”。<br />
+犬，和猫一样，备受日本人宠爱，在日本人的生活、文化中扮演不可忽视的角色。自几千年前，犬随着大陆移民来到日本岛，不仅迅速在人们的日常生活中占据了重要位置，影响了社会政治、文化发展的诸多方面，并与人类建立起深厚的情感和精神连接。<br />
+本期《知日·犬》捕捉日本各个层面关于犬的文化风景，深入介绍日本犬的相关知识，为你立体展示日本文化背景下的狗狗世界。
+<div class="goods-content-title">
+	作者：苏静等
+</div>
+毛丹青 |外号“阿毛”，中国国籍。北京大学毕业后进入中国社会科学院哲学所，1987 年留日定居，做过鱼虾生意，当过商人，游历过许多国家。2000 年弃商从文，中日文著书多部。现任神户国际大学教授，专攻日本文化论。<br />
+<br />
+姚远 | 西安人，毕业于厦门大学中文系。后在《青春潮》杂志社任记者、编辑。1988年赴日，从师于摄影大师森山大道。2000年起，创办电子杂志《日本流行资讯报》（后改名为《东京流行通讯》），十年来坚持不懈地传播日本流行文化。为多家陆、港、台杂志撰稿，并助力日文书籍的中文版引介工作。<br />
+<br />
+吴东龙 | 从事设计观察的作家、讲师、设计师，也是课程与书籍的规划者。再多面向的<br />
+设计工作里，长期关注日本的设计场域，著有《设计东京》系列书籍，作品见于两岸三地。现在是“东喜设计工作室”、创意聚落“地下连云企业社”负责人。<br />
+<br />
+金鱼屋 | ACG 爱好者。有日版漫画收集癖。<br />
+云飞扬| 山东省日照市人，现居北京。电影《老那》的策划人，著名影评人，同时也是一名民间诗人，也做编剧、写小说。喜欢网络创作，曾担任过网易之我爱电影、天涯社区之影视评论等论坛的斑竹，门户网站设有专栏、博客等。他常年为媒体撰稿，也曾担任过《电影双周刊》《银幕内外》《明星BIGSTAR》等杂志编辑，也曾供职于“海岩工作室”。<br />
+<br />
+任知| 70 后代表诗人，作家、影评人。南开大学毕业，现居天津，独立写作。曾为《假日100 天》人文版编辑、昆明《生活新报》、广州《信息时报》专栏作家，有影评、乐评、书评多见于《北京青年报》《南方都市报》《钱江晚报》《城市画报》《上海时代报》等，著有诗集《孤屿心》和日本文化随笔集《完全治愈系》各一部。<br />
+<br />
+罗越| 毕业于南京大学中文系，自称“日剧爱好家”，撰稿人。有剧必看，并固定在新浪微博撰写日剧评论，每季度同时收看的剧集多达 20 部以上。在文学艺术、日本文化等领域也有独到见解。<br />
+<br />
+柳具足| 作家，著有《比爱更喧嚣》、《隐姿梦咄》、《西湖六吊桥心中未遂》、《不堪抄》等。
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	犬の近世风景<br />
+漫话东瀛犬<br />
+永不缺席的守候 忠犬八公资料室<br />
+又见可鲁 专访秋元良平<br />
+不只是眼睛、耳朵和拐杖<br />
+喜欢洛洛的查理和喜欢查理的洛洛<br />
+松下纯之 我亲爱的Bolt与Sunny<br />
+藤代冥砂 在一起，分秒都是好时光<br />
+dapple dapple 和港口的流浪犬叙叙旧<br />
+离开主人的那一天起……<br />
+拿“汉字”开刀的艺术家<br />
+作家与爱犬<br />
+最简单的快乐 《任天狗》<br />
+百变战士与黄金配角<br />
+CM大明星 白户家的お父さん<br />
+小狗当家 犬类专属杂志<br />
+Architecture for Dogs 为汪星人设计住宅<br />
+狗狗观察家的童话王国<br />
+日本最强犬武士《八犬传》及其浮世绘<br />
+Regulars<br />
+摄影师HAL:100%纯净的情侣&amp;100%纯粹的爱情<br />
+《CM NOW》舞动创意之美的广告书<br />
+专栏<br />
+虫眼蟲语 蓝色<br />
+堀田善卫与复旦大学<br />
+告诉我吧！日语老师 即使结束了也要＼(^o^)/ <br />
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<b>又见可鲁——专访秋元良平（节选）</b><br />
+<br />
+有一只叫做可鲁（小Q）的导盲犬感动了我们整整十年，这样说一点都不过分。中国的好多读者或观众都是通过导盲犬可鲁的一生来了解到有那么一种狗狗像眼睛一样珍贵、像天使般纯洁可爱。我们喜欢它不仅仅因为它直接服务于人类的特殊的“职业”，而是它用一生的努力诠释了执着、坦率、忠诚、付出、友爱…这些美好的品质。看到它纯洁的眸子，就像看到黑暗中一束明亮的光线，不刺眼却给人温暖和方向。<br />
+<br />
+有人说，人类在狗的眼中就是上帝；也有人说，狗的英语“dog”是“god”的拼写颠倒过来。不管人类和狗谁是谁的上帝，借用米兰昆德拉的说法“在美丽的黄昏，和狗儿并肩坐在河边，有如重回伊甸园。即使什么事不做也不觉得无聊——只有幸福和平和。”<br />
+<br />
+1986年6月25日到1998年7月20日，这是可鲁人间户口本上的生平年月。从出生起，身上带有的海鸥型的胎记似乎就预示了它不平凡的一生。在养父母仁井夫妇家度过无忧无虑的童年，在培训中心跟随多和田先生刻苦训练，与渡边先生日夜相伴履行职责，渡边先生去世后成为面向公众的示范犬，再回到养父母身边安度晚年……短暂却又精彩的一生。<br />
+<br />
+转眼间可鲁离开人世将近十五年了，人们没有忘记它，反而愈发的怀念。我们应该感谢给予可鲁满满的爱的教养父母们，感谢因关注可鲁继而关心导盲犬事业的人们，也感谢用摄像机用笔墨把可鲁的故事分享给我们的人们。<br />
+<br />
+这次'“知日”有幸得到了拍摄可鲁一生的著名摄影师秋元良平先生的授权，想再次通过珍贵的黑白相片把可鲁的一生浓缩在短短的篇幅之间。希望可鲁在天堂里也能跟渡边先生相见，继续履行他们之间的约定；也希望人间有更多的可鲁继续带给我们帮助和抚慰；希望大家再次得到满满的感动，满满的幸福…<br />
+<br />
+<b>采访节选：</b><br />
+Q:秋元先生对拍摄动物有什么的建议？<br />
+A:狗是感情相当丰富的动物，与人类一样，高兴的时候会露出笑脸，悲伤、恐惧的时候会流露出寂寞的表情。当可鲁病重倒下的时候，芳达（仁井夫妇养的另外一只金毛）成为仁井夫妇的心灵支撑，这能从芳达的表情感觉到。虽然没有语言，但是心灵相通。也或许是正因为没有语言，而产生“羁绊”和“信赖”的深沉的感情。<br />
+我给狗拍照之前，先跟狗打招呼。把手握起来用手背轻轻接近狗的鼻子，这样的话狗就能熟悉我的气味。等狗熟悉我之后，边和狗聊天边捕捉狗的表情。<br />
+千万不要摸初次见面的狗的脑袋。人类被不熟悉的人突然摸了脑袋也是非常不高兴的。<br />
+要把焦点对到狗的眼睛上。眼睛里会映出自己的头像。确认这一点然后再按快门，或许能拍出精彩的照片来。&nbsp;<br />
+<br />
+<br />
+<br />
+<div>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A780017061739', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A780017061739', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A780017061739', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A780017061739', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A780017061739'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

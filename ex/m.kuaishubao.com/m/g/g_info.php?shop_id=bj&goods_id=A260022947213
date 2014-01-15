@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/4/7/A260022947213_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/4/7/A260022947213_1.jpg">
+        <h2>哈佛商业评论（2013年第8期）-CEO有话说</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥45.00元</b> <del>¥50.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/4/7/A260022947213_1.jpg','哈佛商业评论（2013年第8期）-CEO有话说-CEO有话说（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="outline-width:0px;white-space:normal;font-family:Arial, sans-serif;">
+	【出版】《哈佛商业评论》杂志社<br />
+【出版时间】2013-08-01 00:00:00<br />
+【品牌】哈佛商业评论<br />
+【刊号】ISSN1672-2582<br />
+【开本】16开<br />
+【页数】160<br />
+【印刷】彩色<br />
+<br />
+	<div class="goods-content-title" style="outline-width:0px;">
+		哈佛商业评论（2013年第8期）-CEO有话说
+	</div>
+<strong><br />
+卷首语 From the Editor</strong><br />
+<strong><br />
+CEO与公司治理<br />
+</strong><br />
+整整12 期之前，也就是去年7 月初《哈佛商业评论》中文新版的第一期，我们在《大思路》栏目中刊发了《股东做不到》一文。该文以一种新的思考维度探讨公司治理结构改革，核心是重新思考股东在公司中的地位，并最终赋予那些着眼于公司长期健康发展的股东以更多的影响力。一年之后，我们在本期《聚光灯》栏目中，推出又一期公司治理的专题——《CEO 有话说》。<br />
+在商业管理领域，公司治理结构是一个永恒话题，此前的诸多研究卓有成效，令无数管理者受益其中。不过，长期以来，相关研究独独缺少了对CEO——这一重要的利益相关者的深入关注，《CEO 有话说》则弥补了这一缺失。该文中的CEO 对<br />
+欧美现行的公司治理结构提出了五点建议，其中关于对董事会及董事成员构成的建议，不仅对欧美国家的公司治理结构改革颇有启发，对中国企业正在进行公司治理结构改革也极具参考意义。<br />
+考虑到中国读者就此问题可能的兴趣，我们重新翻译了宝洁公司CEO 雷富礼的一篇旧作，即他在2009 年5 月发表的《CEO 专属之职》，该文在中国已有流传，这次我们决定重新刊发的关键原因是，该文和《CEO 有话说》一文可谓“双子座”，它强调了CEO 在公司治理以及公司运作中独一无二的作用；两篇文章相得益彰，有利于我们对公司治理结构有更全面的认识。<br />
+此外，我们还刊发了由甫瀚咨询公司撰写的关于中国公司、特别是上市公司治理现状的分析文章，它清晰地告诉我们，中国企业的公司治理挑战和改进之路。三篇文章互为补充，相信读者能够对公司治理结构有一个全新的认识。<br />
+正如公司治理结构的话题一样，所有的管理难题都没有终极答案。本期正值《哈佛商业评论》中文版新刊一周年，我们想借此机会向所有读者重申：《哈佛商业评论》中文版将致力于管理实践与理论在中国的探索和发展，我们望与所有关心中国发展的同仁们一起，在中文世界传播管理的福音，推动中国的商业文明和社会进步。<br />
+<br />
+<b>聚光灯 SPOTLIGHT</b><br />
+<br />
+<b>强化公司治理，CEO有话说</b><br />
+<br />
+理想状态的公司治理结构是，董事会以审慎的全局观、明智的建议以及鼓励的态度，为公司必要的冒险提供支援。<br />
+<br />
+<b>CEO专属之责</b><br />
+<br />
+2000年，雷富礼出任宝洁公司的全球CEO，让宝洁公司摆脱了困境。他将自己对于CEO职责的见解汇集在《CEO专属之责》一文，发表于2009年5月的《哈佛商业评论》英文版。其对CEO四项基本职责的阐述与《CEO有话说》相得益彰。<br />
+<br />
+<b>“双保险”缘何失灵</b><br />
+<br />
+调查显示，公司治理中的董事会职责和监事会职责得分都不到60分，这说明“两会”在企业管理中的缺位情况严重。<br />
+<br />
+<b>众说 INTERACTION</b><br />
+<br />
+<b>博客 @HBR</b><br />
+<br />
+辨别面试中的“职场跳蚤”<br />
+小细节整垮大收购<br />
+数字化VS人性化<br />
+高科技初创公司的逆向创新<br />
+物联网如何改变一切<br />
+<br />
+<b>前沿 Idea Watch<br />
+</b><br />
+<b>营销 MARKETING<br />
+</b><br />
+互联时代：三招抓住顾客！
+通过全新的方式衡量和分析数据，更准确地理解顾客购物旅程中的每一时刻。<br />
+数据控 STAT WATCH<br />
+为什么男人总加班？<br />
+<br />
+<b>研究控 RESEARCH WATCH<br />
+</b><br />
+睡眠不足，道德受损<br />
+<br />
+<b>对话 HBRC DIALOGUE<br />
+</b><br />
+徐乐江：淬炼领导力<br />
+大型企业如何逆袭青春，从优秀走向卓越？美国GE公司的答案是：持续推进、改进企业领导力。<br />
+<b><br />
+中国案例 China Case<br />
+</b><br />
+寻找中国的颠覆性创新<br />
+不创新，企业不能跟上快速变化的市场环境；不创新，企业不能满足千奇百怪的顾客需求；不创新，企业不能保持持续长久的竞争力；不创新，企业不能打造基业长青的百年老店。<br />
+<br />
+<b>实战复盘 How I Did It</b><br />
+观澜湖集团主席朱鼎健：偶然接班2007年，年仅32岁的他开始全面接手父亲的事业。接班有些偶然，但整个过程又很自然顺畅。7年以后，他将家族产业的版图不断拓展。<br />
+<br />
+<b>大思路BIG IDEA</b><br />
+<br />
+<b>规避风险 明智创新</b><br />
+<br />
+创新也会带来风险，因为创新会改变人们的选择，对此必须予以高度重视，并作出明智的选择。<br />
+<br />
+<b>大趋势 Trends</b><br />
+<br />
+<b>工业互联网：让机器更智慧</b><br />
+<br />
+如果所有物体都做到24/7/365，相互连接、交流和控制，那么企业最迫切实现的目标——降成本、提能效——将成为可能。<br />
+<br />
+<b>洞见 · 大数据 Insight</b><br />
+<br />
+<b>回归传统的大数据营销</b><br />
+<br />
+这两年，大数据被越炒越热，许多人把它视为信息技术革命的新浪潮。本文作者却认为，大数据只是回归传统的营销理念。<br />
+<br />
+<b>管理工具·战略执行 Tools</b><br />
+<br />
+<b>高管最青睐的管理工具</b><br />
+<br />
+从全球看，高管们最常用的管理工具是：战略规划、客户关系管理、员工敬业度调查、对标和平衡记分卡。公司从中领悟到的一点是，技术和用户满意度的持续改进最终会提升绩效。<br />
+<br />
+<b>特写 Feature</b><br />
+<br />
+<b>董事会需要更多女性</b><br />
+<br />
+女性董事只占一成多，这不是理想的董事会。董事会需要更合理的男女比例，以便发挥最佳作用。<br />
+<br />
+<b>情景规划备战未来</b><br />
+<br />
+情景规划可以帮助公司开展充分客观的讨论，使战略更具弹性。荷兰皇家壳牌石油公司运用它成功预测到石油危机，情景规划因此第一次为世人所知。<br />
+<br />
+<b>大脑中的管理秘密</b><br />
+<br />
+那些神经科学成果教给我们的管理新知识<br />
+<br />
+<b>让价值流向听你指挥</b><br />
+<br />
+通过汽车产业的视角，我们看到地位稳固的品牌是如何在各自的领域中捍卫自身价值的，以及新兴品牌是如何改变竞争格局，使价值向自身转移的。<br />
+<br />
+<b>经典重读 HBR Classic</b><br />
+<br />
+<b>教优等生如何学习</b><br />
+<br />
+人们并不清楚什么是真正的学习以及怎样才能开始学习。在尝试成为学习型组织过程中，公司很容易犯两个错误。<br />
+<br />
+<b>经验EXPERIENCE</b><br />
+<br />
+自管理 MANAGING YOURSELF<br />
+<br />
+<b>优化时间 告别加班</b><br />
+<br />
+<b>跨界人生LIFE'S WORK</b><br />
+<br />
+拉塞尔·西蒙<br />
+西蒙是嘻哈界大腕，也热衷于探索音乐之外的广阔天地。这位严格素食者精力过人。<br />
+<br />
+<b>杂谈 SYNTHESIS</b><br />
+<br />
+<b>穿上“管理的鞋子”</b><br />
+<br />
+“管理”不是企业的附属或束缚，而是其核心竞争力和长久生命力的基础。好管理不仅帮助企业家实现基业常青的梦想，更能为整个社会进步调动资源、贡献力量。<br />
+<br />
+<br />
+	<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+		哈佛商业评论（2013年第8期）-CEO有话说
+	</div>
+<span style="font-family:Arial, sans-serif;white-space:normal;color:#333333;">《哈佛商业评论》——90年享誉全球的“管理圣经”</span><br style="font-family:Arial, sans-serif;white-space:normal;color:#333333;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;color:#333333;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;color:#333333;">Harvard Business Review, World’s Management Bible Spanning&nbsp;90Years</span><br style="font-family:Arial, sans-serif;white-space:normal;color:#333333;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;color:#333333;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;color:#333333;">Harvard Business Review(简称HBR) 创刊于1922年，是哈佛商学院的标志性刊物，也是全球顶尖的管理杂志。HBR90多年来，一直致力于创造和传播最新的管理思想和方法，帮助商界领袖不断更新理念、领导变革。如今，被业界誉为“管理圣经”的HBR已成为一个全球性的高层管理平台，其权威地位是任何一家同类杂志所难以企及的。The Economist（《经济学人》杂志）如是评价HBR：“引领全球管理实践”。</span><br />
+<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A260022947213', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A260022947213', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A260022947213', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A260022947213', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A260022947213'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

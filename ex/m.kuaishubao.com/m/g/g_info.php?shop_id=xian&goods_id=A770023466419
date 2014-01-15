@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/7/7/A770023466419_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/7/7/A770023466419_1.jpg">
+        <h2>朱镕基上海讲话实录（平装）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥56.00元</b> <del>¥66.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/7/7/A770023466419_1.jpg','朱镕基上海讲话实录（平装）-再现朱镕基总理主政上海期间的重要讲话、谈话、信件等106篇，首次公开珍贵照片和手迹影印件！（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】《朱镕基上海讲话实录》编辑组<br />
+【出版社】人民出版社；2013年8月第1版<br />
+【装订】16开；平装<br />
+【页数】610页<br />
+【印刷】双色<br />
+【ISBN】9787010124025<br />
+【品牌】人民出版社发行部
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+《朱镕基上海讲话实录》再现朱镕基总理主政上海期间的重要讲话、谈话、信件等106篇，首次公开珍贵照片和手迹影印件！
+<div class="goods-content-title">
+	内容看点
+</div>
+《朱镕基上海讲话实录》一书收录了朱镕基同志在1987年12月至1991年4月在上海市工作、主政期间的重要讲话、谈话、信件等106篇，并配有珍贵照片和手迹影印件，绝大部分为首次公开发表。<br />
+<br />
+《朱镕基上海讲话实录》真实地记录了朱镕基同志在上海改革开放的关键时期大刀阔斧的改革思想和施政措施。朱镕基同志在上海工作期间，正值我国经济改革重心从农村转向城市、经济体制转轨的关键时期。当时的上海，财政收入滑坡、工业不景气；市政基础设施陈旧，交通拥挤、住房困难，士气不振；政府部门官场气息犹存，开拓精神缺乏；等等，其困难和考验尤为艰巨复杂。面对如此局面，朱镕基从建立廉洁高效的政府入手，推进经济体制改革，采取了一系列改革开放的重大举措，同时着力解决关系民生的“菜篮子”、交通、住房问题，为上海国际金融都市地位的确立奠定了基础，足可见朱镕基改革思想的前瞻性。这段时间的工作经历，为朱镕基同志后来担任党和国家领导人积累下宝贵的实践经验，也成为他治国理政思想的重要组成部分。 <br />
+<br />
+《朱镕基上海讲话实录》保留了朱镕基同志一贯语言风格，讲实话、讲真话，语言直率犀利，直指问题实质。朱镕基坚决反对奢侈浪费，反对讲排场，反对形式主义，对不关心百姓疾苦的官僚作风痛心疾首，批评人不留情面，为了百姓的利益为了国家的利益，不给自己留后路，充分反映了他忘我为公的高贵品质。本书内涵丰富，富有哲理，读来使人掩卷沉思，产生共鸣。其执政理念、改革魄力、办事风格、说话艺术和人格魅力，实为各级官员的楷模。从这个意义上说，本书是一部怎样当好省长、市长、书记，乃至企业管理者的教科书，值得为政一方的官员、企业界人士好好研读，同时普通读者也可从中领会为人之道。
+<div class="goods-content-title">
+	媒体集中报道
+</div>
+<strong>新华社通稿：</strong>《朱镕基上海讲话实录》由人民出版社和上海人民出版社联合出版，自8月12日起向全国发行。朱镕基同志于1987年12月至1991年4月先后担任中共上海市委副书记、市长和中共上海市委书记兼市长，《朱镕基上海讲话实录》收录了他在这一时期的部分讲话、谈话、信件、批语等106篇，照片83幅，批语及书信影印件9幅。编入的文稿是根据朱镕基同志当年讲话的音像资料和文字记录编辑而成的，绝大部分为首次公开发表。<br />
+<br />
+朱镕基同志在上海工作期间，正值我国经济改革重心从农村转向城市，经济体制转轨处于关键时期。上海作为中国最大的工业城市，这时遇到的困难和考验尤为艰巨复杂。按照党中央、国务院的统一部署，在江泽民同志领导下，朱镕基同志和中共上海市委、市政府的领导班子成员一起，带领1200多万上海党政干部和人民群众振奋精神，艰苦奋斗，齐心协力，大力推动改革开放，着力改善民生，稳定和发展上海经济，在较短时间内，使上海的经济社会面貌发生了重大变化，为后来上海的改革开放和发展打下了坚实的基础。<br />
+<br />
+《朱镕基上海讲话实录》翔实反映了朱镕基同志在上海的工作历程，记录了上海的这段改革开放历史，内容丰富，语言生动，图文并茂，可读性强。
+ 《朱镕基上海讲话实录》的出版发行，对于全面、深刻地了解我国改革开放和现代化建设的历程，对于广大党员干部更好地把握建设中国特色社会主义的理论和实践，对于正在全党深入开展的党的群众路线教育实践活动，都具有重要意义。
+<div class="goods-content-title">
+	作者：朱镕基
+</div>
+1947年至1951年在清华大学电机系电机制造专业学习并参加“新民主主义青年联盟”。<br />
+1951年至1952年任东北工业部计划处生产计划室副主任。<br />
+1952年至1958年在国家计委燃动局、综合局任组长，国家计委主任办公室副处长，国家计委机械局综合处副处长。<br />
+1958年至1969年任国家计委干部业余学校教员、国民经济综合局工程师。<br />
+1970年至1975年下放国家计委“五七”干校劳动。<br />
+1975年至1979年任石油工业部管道局电力通讯工程公司办公室副主任、副主任工程师，中国社会科学院工业经济研究所室主任。<br />
+1979年至1982年任国家经委燃动局处长、综合局副局长。<br />
+1982年至1983年任国家经委技改局局长，国家经委委员。<br />
+1983年至1985年任国家经委副主任、党组成员。<br />
+1985年至1987年任国家经委副主任、党组副书记。<br />
+1987年至1991年任中共上海市委副书记、市长、市委书记。<br />
+1991年至1992年任国务院副总理兼国务院生产办公室主任、党组书记，兼国务院经济贸易办公室主任、党组书记。<br />
+1992年10月当选为第十四届中共中央政治局委员、常委。<br />
+1993年3月在全国人大第八届一次会议上被任命为国务院副总理。<br />
+1993年6月至1995年6月兼任中国人民银行行长。<br />
+1997年9月19日在中共第十五届一中全会上当选为中央政治局委员、常委。<br />
+1998年兼任国家科技教育领导小组组长。<br />
+1998年3月至2003年3月任国务院总理。<br />
+1998年4月兼任国家经济体制改革委员会主任，5月兼任国务院三峡工程建设委员会主任。<br />
+酷爱京剧。
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	把“桑塔纳 “轿车国产化搞上去<br />
+把解决市民副食品供应作为工作的突破口<br />
+关于利用外资和发展外贸的意见<br />
+转变思想观念，上海就大有希望<br />
+搞活上海金融，支持经济振兴<br />
+加快实现大规模集成电路国产化<br />
+团结一致，齐心协力抓好经济工作<br />
+在上海市九届人大一次会议上的讲话<br />
+以改革和求实精神抓好副食品生产供应工作<br />
+外经贸系统是上海发展外向型经济的先锋队<br />
+在上海市政府第一次常务会议上的讲话<br />
+发挥科技优势，打好重点工业项目会战<br />
+成立上海市外国投资工作委员会的几项原则<br />
+关于权力下放的几点意见<br />
+在上海市外国投资工作委员会成立新闻发布会上的答问<br />
+会见美国作家索尔兹伯里时的谈话<br />
+市政府研究室要成为市长的智囊<br />
+在复旦大学的讲话<br />
+对全市局级以上干部的三点要求<br />
+接受香港《英文虎报》记者辛格莱采访时的谈话<br />
+让企业自己到市场中去游泳<br />
+会见联邦德国经济合作部国务秘书冷格尔时的谈话<br />
+开展优质服务，改善投资环境<br />
+对浦东开发的几点具体意见<br />
+引入竞争，放开经营，搞活国营大中型企业<br />
+必须解决上海的脏乱问题<br />
+对领导批办事项要一抓到底<br />
+在三次市委常委民主生活会上的发言<br />
+要大胆利用外资<br />
+促进科技和生产紧密结合<br />
+奖金要起到奖勤罚懒的作用<br />
+法制工作要讲求实效<br />
+要牢记我们是人民公仆<br />
+信访工作是联系人民群众的重要方式<br />
+下定决心把出租车整顿好<br />
+会见香港仲量行董事梁振英时的谈话<br />
+接受日本驻沪记者联合采访时的谈话<br />
+会见世界银行中国局局长伯基等人时的谈话<br />
+会见联邦德国专家格里希时的谈话<br />
+质量是上海的生命<br />
+对几个经济热点问题的说明<br />
+一九八九年要重点研究和抓好的工作<br />
+取消 “小金库 “<br />
+给上海教育工会的信<br />
+进一步促进农村经济稳定发展<br />
+怎样稳定市场<br />
+在上海市监察工作会议上的讲话<br />
+上海产业结构调整要冲出新路<br />
+下决心整治市内道路交通<br />
+开展 “双增双节 “，稳定上海经济<br />
+稳定上海，稳定大局<br />
+组织起来，维护上海稳定<br />
+上海不能乱<br />
+进一步巩固上海的稳定<br />
+社会主义企业家必备的基本素质<br />
+稳住经济，很重要的是稳住物价<br />
+清理公司是惩治腐败的重要措施<br />
+关于引进外资的几个问题<br />
+关于质量管理问题的批语<br />
+集中力量办好几件取信于民的事<br />
+下决心整治黄浦江上游水源污染<br />
+领导干部不能脱离群众<br />
+企业技术改造要走新路<br />
+纪检干部要敢于碰硬<br />
+农村干部廉政建设的五件实事<br />
+把困难讲清楚，把劲鼓起来<br />
+关于上海工业三年调整和长远发展的一些意见<br />
+借鉴外国经验，加速发展外向型经济<br />
+振兴和发展上海的文艺事业<br />
+上海的机电产品出口是极有前途的<br />
+克服困难，要全心全意依靠工人阶级<br />
+开发浦东是上海的希望<br />
+坚决落实治理整顿的各项措施<br />
+关于上海金融业发展和开放问题<br />
+新闻宣传要实事求是<br />
+向杨尚昆同志汇报时的发言<br />
+对《中共中央关于加强党同人民群众联系的决定<br />
+（征求意见稿）》的几点意见<br />
+（1990年 2月 26日）<br />
+向乔石同志汇报时的发言<br />
+为上海人民办三件实事<br />
+会见香港仲量行董事梁振英时的谈话<br />
+给上海市环卫工人的信<br />
+搞好浦东新区的规划设计<br />
+会见世界银行副行长阿蒂拉<br />
+谈上海市十年规划和 “八五 “计划<br />
+一定要保护好崇明这块净土<br />
+重视和做好信息工作<br />
+对发展证券市场的几点意见<br />
+十年内基本解决上海人民的住房问题<br />
+让国营企业走出困境<br />
+关于上海旧城区改造的几点意见<br />
+在中共上海市纪委全体扩大会议上的讲话<br />
+不克服官僚主义，上海没有前途<br />
+关于做好干部工作的四点意见<br />
+改革开放是上海发展的动力<br />
+开创街道工作新局<br />
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<strong>朱镕基在上海市九届人大一次会议上的讲话（1988 年4 月25 日）</strong><br />
+<br />
+同志们：<br />
+根据大会的安排，现在我向大家做一个自我介绍，也许要超过大会规定的时间，因为如果我不讲的话，也许过不了这个关，一会儿还得提问题，还不如我主动“交代”为好。<br />
+<br />
+第一，我的简历。我参加革命的时间比较晚，经历比较简单。我1928年10月出生于长沙，中学都是在湖南省念的，1947年毕业于湖南省立一中，同年在上海考取清华大学，念电机系。入大学后就参加了学生运动，1948年冬天参加中共地下党领导的中国新民主主义青年联盟，1949年加入中国共产党。1951年从清华大学毕业分配到东北人民政府工业部计划处，担任生产计划室副主任。当时的计划处处长先是柴树藩同志，后是袁宝华同志。1952年东北人民政府撤销后，我随马洪〔1〕、安志文〔2〕等同志到了国家计委，这时是1952年11月。在国家计委一开始是管电，1954年到工业综合局负责综合处工作，之后我担任国家计委副主任张玺同志的秘书。后来由于张玺同志患癌症，我同时就兼任了国家计委机械工业计划局综合处负责人，直到1957年，赶上了“大鸣大放”、反右派。在“大鸣大放”的时候，同志们说，你是党组领导的秘书，你不跟党组提意见那谁提啊？一定要我提。我就在局里面讲了3分钟，但出言不慎。在10月份以前大家都觉得我的意见提得不错，到10月份以后就说你这个意见要重新考虑，到1958年1月就把我划为右派了。但是对我的处理还是非常宽的，我想是因为国家计委的领导和同志们对我都十分了解吧。因此，我被撤销副处长职务、行政降两级、开除党籍之后，还继续留在国家计委工作。在开始的一两年，我担任国家计委老干部的业余教员，教数理化，后来恢复我的工作，在国家计委国民经济综合局工业处工作。我非常感谢国家计委党组织对我的关怀，始终没有把我下放，使我有继续为党工作的机会。“文化大革命”时期，我在国家计委农场劳动了五年，这五年对我是极大的教育。尽管我们还是国家计委的干部，在一个集体农场，但终究是在农村，所以对农村的了解、对劳动的体会还是不少的。这五年，我什么都干过，种过小麦、水稻、棉花，放过牛、放过羊、养过猪，当过炊事员。1975年后，我回到了北京，当时我的关系还在国家计委，但被分配到石化部管道局电力通信工程公司工作。我就带了一支徒工队伍，从爬电线杆开始培训，一直到能安装22万伏的高压线和11万伏的变电站。这一段有两年多一点的时间，对我也是极大的教育，使我有一点基层工作的经验。到1978年，马洪〔3〕同志要我到中国社会科学院工业经济研究所担任研究室主任。不久，在党的十一届三中全会前夕，纠正了错划我右派的问题，同时恢复了我的党籍，恢复了我的职务。这个时候是袁宝华同志担任国家经委副主任，康世恩同志担任主任，要我回国家经委，因为国家经委实际上是从国家计委分出去的。1982年新的国家经委成立后，我开始担任经委委员兼技术改造局局长，1983年担任经委副主任，1985年担任党组副书记、常务副主任，一直到今年年初，就到上海来了。这就是我简单的经历。<br />
+<br />
+第二，同志们要求我说说政绩。这个是难以启齿，不好说啊！当然，在我30多年的工作期间，尽管在1957年以后遭受很多挫折，但在工作方面组织上对我的评价还是不错的。我自己的特点、我的信条就是独立思考，我心里是怎么想的，我认为就应该怎么讲。我是一个孤儿，我的父母很早就死了，我没有见过我的父亲，我也没有兄弟姐妹。我1947年找到了党，觉得党就是我的母亲，我是全心全意地把党当作我的母亲的。所以我讲什么话都没有顾忌，只要是认为有利于党的事情我就要讲，即使错误地处理了我，我也不计较。党的十一届三中全会前夕恢复了我的政治生命，同时也可以说是焕发了我的政治青春，我始终相信我会得到我们党的正确对待。我就是有这么一个特点，或者说我是力求这么做的。<br />
+<br />
+第三，自我评价。我觉得作为上海市长我不是最佳人选，我有很多缺点，在很多方面比我的几位前任，特别是比江泽民同志差得很远。我讲三条：<br />
+<br />
+第一条，我只有领导机关的工作经验，没有基层工作的经验。刚才讲了我25年在国家计委、10年在国家经委工作，基层工作经验就是在管道局很短的一段时间，既没有当过厂长，也没有当过区县的领导。江泽民同志很早就当厂长，而且是大厂的厂长。我也不是从农村基层上来的，对人民的疾苦了解不多。这是我很大的一个弱点，今后恐怕在这些方面还要犯一些决策的错误。<br />
+<br />
+第二条，我只有中央工作的经验，没有地方工作的经验。我没有在地方工作过，一直坐在北京，所以到上海来了后，这三个月的白头发比什么时候都多。江泽民同志预言一年之内我的头发全部变白，这是他的体会，我已经感受到了。工作确实是复杂，确实是难做，所以江泽民同志经常讲他的神经处于紧张状态，我现在也体会到了。<br />
+<br />
+第三条，我性情很急躁，缺乏领导者的涵养，干工作急于求成，对下面干部要求过急、批评过严。这一点我应该向江泽民同志好好学习。宋平同志在我来上海工作之前和我谈话，他说你要求干部严格不是你的缺点，但是你批评人家的时候不要伤人，说话不要太尖刻。这些都是语重心长的话。说到我的缺点时，他说你应该学习周总理，批评同志后让人感到你应该批评，觉得是你对人家的关心。我确实是缺少领导者这样的一种品质，但我希望同志们监督我改正。说老实话，江山易改，禀性难移啊，不是很容易的，但是我一定要很好地改正自己的缺点。<br />
+〔1〕马洪，1952年任中央人民政府国家计划委员会秘书长。<br />
+〔2〕安志文，1952年任中央人民政府国家计划委员会委员。<br />
+〔3〕马洪，1978年任中国社会科学院工业经济研究所所长。<br />
+<br />
+<strong>为上海人民办三件实事</strong><br />
+朱镕基<br />
+我希望在上海工作的时间里，至少为上海人民办三件事：第一件大事情，是把“菜篮子”建立在牢固、可靠、稳定的基础上。报上发表了我在全市蔬菜工作会议上讲的一点意见，没有讲全。<br />
+<br />
+副食品生产现代化，销售超级化，经营管理一条龙真正把上海的副食品供应建立在现代化的生产体系上，真正是净菜加工、小包装、现代化的运输管理体系，效益很高，这才能最终解决我们一年几十亿元的补贴问题。我提的目标是一年试点，两年推广，三年普及。下面的同志说我是不是要求太高了，但我有信心，上海有这个能力，这是个根本的问题。今天我去看你们的集市贸易市场，好多人把我围住提意见，说蔬菜太贵了，国营菜场不起作用，全部都是集市贸易，这是一个问题。现在我们市政府每年补贴几十亿元，就像一个很长的竹筒子，上面都是眼，补贴都从眼里流掉了，好多是流到个体户的腰包里去了，内外勾结。菜场好多人“宰”顾客，短斤少两，卖大户，弄虚作假。从根本上说是要抓党风，促廉政，端正社会风气，这需要一定的时间，但也要从经营管理上下功夫。副食品生产是现代化的，销售是超级化的，经营管理是一条龙的。这是我们要办的一件大事情。<br />
+基础设施建设要有规划、有目标，不能再乱来<br />
+第二件大事情，是要解决上海以道路交通为中心的各项基础设施建设问题。这要有一个规划，当然几年完成不了，需要几十年，现在先开个头，要有个规划、有个目标，不能再乱来。上海没有两条环线，交通问题解决不了。现在至少要修成一条环线，规划要做出来。<br />
+<br />
+黄浦江的越江交通问题要解决。将来上海条是条、块是块，要有一个目标。解决住房问题，要制定国家、企业、个人一起上的办法.<br />
+<br />
+第三件大事情，是要解决上海的住房问题。这个太迫切了。前一段时间，停工待业的职工很多，我去访问过一些家庭，看望过一些市民。我走到他们宿舍，楼道里面都堆满了乱七八糟的东西，不要说自行车过不去，人走都困难。每家人都挤得不得了。上海的住房问题比北京要严重得多。要解决上海的住房问题，靠国家、企业来建房，几年也解决不了。现在我请天增同志组织了很大一批人在研究，拿出一个办法，拿出个大政策来。香港、新加坡解决房子问题，基本的方法都是国家、企业、个人一起来。我想，上海一定要制定一个国家、企业、个人一起上的办法来解决住房问题。我们有条件盖房子的地方就在浦东，过江的交通问题一解决，基础设施一解决，学校、医院、商店配套，房子一片一片地盖。把基础设施搞好，减少中间盘剥，房子的价钱可以便宜些，我想上海的住房问题是可以逐步解决的。棚户区苦得很，将来都把那些地方推掉，然后把它们变成绿化用地，不能再在浦西盖高楼了，否则我们的交通问题还是解决不了。要盖房子都到浦东去，浦西那些地方要绿化，增加城市的绿化面积，把整个上海都改造过来，那就漂亮了。那是一个远景，我们要有一个方案让全体市民来讨论，大家都认为这个办法合理、公平，这样才能解决上海的住房问题。我看5年就会见效，10年面貌就会有相当大的改变，20年就差不多了，我这个估计是不是太乐观了？<br />
+<br />
+<strong>上海要进一步向世界开放</strong><br />
+<br />
+衷心感谢各位接受我的邀请，光临这次研讨会。上海经济代表团这次到香港来，第一是考察和借鉴香港的发展经验、城市建设和管理的经验；第二是为了增进上海和香港相互之间的了解，寻求发展沪港之间的合作。几天来，我们看望了许多老朋友，对他们曾经为沪港之间的经济合作做出的卓越贡献登门致谢；也结交了许多新朋友，和他们一见如故，坦率交谈，我从中获益良多。到港那天，香港某家报纸发表了一篇评论，这个评论的最后一句话是：“市长不远千里而来，亦将有利吾港乎？”我想我的回答可以是：“君何必单曰利？以友谊合作互利而已矣。”只有增进了解，才能导致友谊，友谊才能导致信任，信任才能合作，合作必须两利。上海经济代表团抱着真诚的愿望，到香港来寻求了解、友谊和合作。这就是我们在这里举行研讨会的目的。我的发言稿已经发给大家了，我想没有必要再宣读了。根据几天的接触，我想就大家所关心的几个问题做一点补充。<br />
+<br />
+第一个问题。很多朋友都问我，在当前国际国内的形势有很多不利的情况下，提出这么一个雄心勃勃开发浦东的计划，是否能够实现，或者只是黄浦江上的“南柯一梦”？对于这个问题，我想做三点分析：<br />
+<br />
+第一，所谓国际不利形势，就是指对我们实行的经济“制裁”，这确实有一些影响。比方说，世界银行跟上海有很多合作关系，对上海的基础设施建设有很大的支持，但是，已经达成协议的几亿美元贷款现在暂时被推迟了。但大家都会看到，经济“制裁”终将结束，国际间的经济合作总要发展，因为这是有利于合作双方的，有利于世界和平的。同时，我们从来是把本国的发展和建设建立在自力更生的基础之上，我们完全有信心用自己的双手把浦东开发起来，把上海振兴起来。国际合作能够加速我们的发展，如果这个条件差一点，也无非是延缓几年。我对于前景是非常乐观的。至于国内的不利因素，无非就是现在正在治理整顿，抽紧了银根，产生了一些暂时困难。但是，中国的经济，包括上海的经济正在逐步好转，虽然这种好转是缓慢的。上海正在进行扎扎实实的产业结构调整、产品的更新换代、企业的技术改造以及管理工作的加强。我相信经过一段时期，经济会从根本上好转起来。还有很多朋友关心国内的政治局势能不能稳定，能不能保证投资者的利益。我想，经过去年的政治风波之后，全国绝大多数人都已经认识到，中国不能够再乱了，中国只有安定团结才能发展。中国要乱起来，那就不像东欧，世界就会大乱。根据我对上海人民的了解，我经常接触上海的大学生，根据对他们的了解，绝大多数的学生、知识分子是希望稳定的。所以我可以说，到上海来投资，政治局势保证稳定，不会发生什么大问题，而且这种稳定的局势会继续发展下去。<br />
+<br />
+第二，中央给了上海一个政策，这个政策将会释放上海所蕴藏的巨大能量。中央做出开发浦东、开放浦东的决定是一个战略性的决策。有些朋友问，中国已经有很多经济特区和经济技术开发区，包括上海已经有20个了，在这种情况下，浦东究竟有什么特点或突出的地方能够保证这个计划的实现？和现有的经济特区和经济技术开发区相比较，浦东开发开放有四个特点：第一个特点，我们以建立一个“自由港”为目的，建立一个保证商品、人员、商船关税豁免，自由出入的自由贸易工业区。在这个区内，可以允许外商来进行转口贸易，发展批发业。这一点在其他经济特区是没有的。第二个特点，我们要以引进外资银行、搞活金融为先导，开放和发展各种配套的服务性行业。当然，设立外资银行不仅上海有，深圳、厦门等经济特区内也有设立。我们正在一家一家地审查外资银行的申请，力求很快根据业务进展情况一个个批准。我深刻体会到：银行金融、资讯信息、会计等各方面的服务行业是经济发展的润滑油，应该说香港在这方面是做得非常出色的，有许多值得学习借鉴的地方。我们要致力于这方面的发展。第三个特点，我们将要在土地的使用权转让，或者叫作土地批租和发展房地产市场方面，做一些新的探索。香港在这方面也有很多成功的经验。我们将对此制定一些灵活的政策来加速开发浦东。第四个特点，我们要进一步改进吸收外商直接投资的办法，准备采取股份制的办法，包括在基础设施建设方面也可以吸收私人投资。这是世界银行高级副行长库莱希先生到上海时向我建议的。他说世界银行到上海来贷款支持上海的基础设施建设，但是你们也应该采取一些办法吸收外国的私人投资。在这方面，我们将会保证他们投资回收并允许他们参加管理。此外，我们将要改变单纯的地区倾斜政策，实行一种产业倾斜政策，将允许所有的现有企业出让他们的股权，或发行股票来吸引外商参加企业的改造和发展。关于这四个特点和一系列政策，我们正在制定实施细则和政策法规，如果抓紧的话，将于今年8月份公布。我已经和一些香港朋友商量，准备邀请香港工商界的一些头面人物，如香港总商会、香港中华总商会、香港厂商联合会、香港工业总会等团体组织的一些高层人士到上海座谈。我将热烈地欢迎他们对制定这一类法规发表意见，使这些法规?够适合各方面的投资者。<br />
+<br />
+第三，上海所特有的优势。与其他经济特区和经济技术开发区比较，对上海的劣势，大家都很清楚。但是，我们也有自己的优势，包括三个方面：一是工业配套的优势，二是科技人才的优势，三是服务配套的优势。所谓工业配套的优势，上海除了没有煤矿、铁矿因而没有采矿业之外，中国所有的工业，上海都有；而且有相当一部分工业，技术是领先的。这个条件在中国其他任何一个城市是找不到的。所以在上海要搞一个大项目，只要谈成了，建设将会很快，许多配套协作和服务都可以就地解决。所谓科技人才的优势，上海有51所大学、15万在读大学生，还有500多所职业专科学校、大量的成人教育；有1100多个科研院所，中科院10家最有名的研究所设在上海，包括电子、原子能、生物科学等；有140万技工，占现有400万工人的很大部分。这个优势可以保证项目建设获得成功。关于服务配套的优势，上海是中国最早和国际经济社会进行交往的城市之一，他有大量的适应和熟悉市场运行机制的人才。我们要发挥这些人才的优势。<br />
+<br />
+根据以上三点分析，我相信尽管当前有种种不利因素，但对浦东的开发开放、上海的进一步振兴，我们是完全有信心的。梦想也好，理想也好，最终都会实现的。<br />
+<br />
+第二个问题，大家都很关心，上海的投资环境和其他经济特区比起来，名声不大好。跟上海人谈生意十谈九不成，所以一直到现在，很多朋友都说上海人保守，我们上海人头上戴着的保守的帽子至今还没有摘掉。投资环境包括两方面的内容：一是硬件，二是软件。硬件指基础设施方面的建设，我认为，这方面在汪道涵、江泽民前后两任市长主持工作时就已经打下良好基础，使现在能够大规模地进行基础设施建设，并且已初具规模。和其他城市比较，我们的硬件并不存在明显劣势。浦东现在并非一块荒地，沿黄浦江岸已经建设了上千家工厂、发电厂、煤气厂、自来水厂等等，电信、公路也都建设起来了。我预计在三年内，浦东的基础设施就比较完备了，包括建成现在正在建设的两座跨越黄浦江的大桥和一个快速的环形公路系统。明年7月，浦东外高桥的现代化港口打桩，28个月建成。同时，外高桥的大型发电厂和其他基础设施也在加紧建设。三年左右，浦东一定会成为发展工业和各种产业比较理想的地区。如果有兴趣把大项目放进浦东，现在正是时候，从谈判到建成总要两三年时间，完全可以同步进行。最重要的是软件，很多朋友抱怨上海这方面很不理想。之所以造成这种现象，第一是历史的原因。大家知道上海过去是吃“大锅饭”的，中央给原材料、能源，然后把产品调走，上海的财政收入80％上缴中央。因此，上海人对于是否要搞对外合作、合作后有什么好处兴趣不大，不像江苏、浙江，特别是广东、福建，对外合作的好处可以明显地看出来。因此，推动力就小一些。中央从1987年年底对上海实行财政包干后，情况有所改善，这方面的动力机制比以前好得多。第二是上海人心态的原因。上海一直是中国最大的工业技术中心，从来是朝南而坐、老大自居。现在地位下降，但架子仍然不小。大家都说上海人精明，其实我看并不见得。上海人论精明不如广东人，更不如香港人，也就是缺乏商业意识。几十年搞计划经济，导致上海人的市场观念、商业意识、开放意识都比较差，往往见小失大，盘算很精，却疏于深谋远虑。我常讲：“决千金者不计锱铢。”〔1〕没有这种气魄，如何同别人合作呢？这种情况，我认为正在改变。第三是体制方面的原因。在实行了几十年的计划经济体制下，上海的管理非常集中，市政府一个命令一下子就可以到企业，管得很死。很多问题在广东，村长一个图章就解决了，在上海就要跑到市政府来。现在情况也有所改变。我们设立了市外资工作委员会，“一个图章”解决问题，尽管两年来执行得还不甚理想，但我认为已有很大改进，今后会越来越好。在这一方面，我特别希望香港朋友多提意见，因为你们对上海已经看透了。你们提的意见，我们一定会非常重视。诸位是否注意到上海《解放日报》开辟了专门刊登批评上海意见的专栏？现在已有两篇，都是转载香港《南华早报》的。我是非常注意看的，但光我一个人看不行，要上海1000多万人都来看才行。尽管存在种种投资环境上的弱点，但香港在沪投资企业的成功率在内地数第一。十谈九不成，但一谈成就能成功，经营运作都是好的。全国评选十大优秀合资企业，上海占了一大半，这一点也是不可忽视的。<br />
+<br />
+所以，我认为上海的投资环境正在改善，我们会迎头赶上，有信心、有决心不断改善，使之满足国际惯例的要求，让境外企业家、投资者在上海能够获得一个公平发展的机会。<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A770023466419', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A770023466419', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A770023466419', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A770023466419', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A770023466419'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

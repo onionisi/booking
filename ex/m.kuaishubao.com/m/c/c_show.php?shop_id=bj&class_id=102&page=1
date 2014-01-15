@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">杂志</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+<style>
+    .u-boxlist-w300 li a div img{height: 94px;width: 94px;}
+</style>
+  <div class="g-bd">
+    <div class='u-boxlist-w300' style="margin-top: 20px;">
+      <ul>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A800030024586">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/d/b/A800030024586_2.jpg">
+                <h2>知日-太喜欢漫画了</h2>
+                <div class='price'>
+                  <span>¥28.50</span>
+                  <del>¥39.80</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A250026149516">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/5/3/A250026149516_2.jpg">
+                <h2>知日-家宅</h2>
+                <div class='price'>
+                  <span>¥22.80</span>
+                  <del>¥35.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A500025879242">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_2.jpg">
+                <h2>文景Lens（2013年第9期 总第101期）-听叶锦添讲电影故事</h2>
+                <div class='price'>
+                  <span>¥18.00</span>
+                  <del>¥20.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A780023648120">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_2.jpg">
+                <h2>知日-暴走</h2>
+                <div class='price'>
+                  <span>¥22.80</span>
+                  <del>¥35.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A200022945290">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/4/9/A200022945290_2.jpg">
+                <h2>信睿002：另一半中国梦</h2>
+                <div class='price'>
+                  <span>¥25.40</span>
+                  <del>¥30.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A260022947213">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/4/7/A260022947213_2.jpg">
+                <h2>哈佛商业评论（2013年第8期）-CEO有话说</h2>
+                <div class='price'>
+                  <span>¥45.00</span>
+                  <del>¥50.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A690020961848">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/6/A690020961848_2.jpg">
+                <h2>知日断舍离（日本整理与收纳的最高哲学）</h2>
+                <div class='price'>
+                  <span>¥22.80</span>
+                  <del>¥35.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A001352909515">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/e/7/A001352909515_2.jpg">
+                <h2>文景Lens2012年限量版合集（上下）</h2>
+                <div class='price'>
+                  <span>¥288.00</span>
+                  <del>¥360.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A780017061739">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/1/0/A780017061739_2.jpg">
+                <h2>知日·犬</h2>
+                <div class='price'>
+                  <span>¥22.80</span>
+                  <del>¥35.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A001352909562">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/6/3/A001352909562_2.jpg">
+                <h2>知日-森女</h2>
+                <div class='price'>
+                  <span>¥22.80</span>
+                  <del>¥35.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A450034262893">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/b/f/A450034262893_2.jpg">
+                <h2><font style="color:red;">【预售】</font>知日-写真</h2>
+                <div class='price'>
+                  <span>¥22.80</span>
+                  <del>¥35.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A450033836290">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/0/3/A450033836290_2.jpg">
+                <h2>城市画报（2013年第23总第341期）-吃痴台湾</h2>
+                <div class='price'>
+                  <span>¥10.00</span>
+                  <del>¥12.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A670033757688">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_2.jpg">
+                <h2>文景Lens（2013年第12期 总第104期）-我用最笨的方式了解着这片土地</h2>
+                <div class='price'>
+                  <span>¥18.00</span>
+                  <del>¥20.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A770033743696">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A770033743696_2.jpg">
+                <h2>中国国家地理（2013年12月 总第638期）-中国最后的完整森林</h2>
+                <div class='price'>
+                  <span>¥18.00</span>
+                  <del>¥20.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A990033746415">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/5/a/A990033746415_2.jpg">
+                <h2>哈佛商业评论（2013年第12期）-专注造就卓越领导</h2>
+                <div class='price'>
+                  <span>¥45.00</span>
+                  <del>¥50.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A120033658031">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/6/e/A120033658031_2.jpg">
+                <h2>生活（2013年第12期 总第97期）-大师之路</h2>
+                <div class='price'>
+                  <span>¥45.00</span>
+                  <del>¥50.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A520033305041">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/8/4/A520033305041_2.jpg">
+                <h2>新视线（2013年第12 总第139）-花花兔子</h2>
+                <div class='price'>
+                  <span>¥18.00</span>
+                  <del>¥20.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A400033131028">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/d/3/A400033131028_2.jpg">
+                <h2>中华遗产（2013年第12期 总第98期）-最中国的家族（下）</h2>
+                <div class='price'>
+                  <span>¥18.00</span>
+                  <del>¥20.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A100033043856">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/5/b/A100033043856_2.jpg">
+                <h2>乐活LOHAS健康时尚（2013年第12期 总第71期）-便当幸福力</h2>
+                <div class='price'>
+                  <span>¥13.50</span>
+                  <del>¥15.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=A320032709184">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/8/A320032709184_2.jpg">
+                <h2>明日风尚（2013年第12期 总第362期）-绿色东京交响曲</h2>
+                <div class='price'>
+                  <span>¥17.00</span>
+                  <del>¥20.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                </ul>
+    </div>
+      <script>
+          $("img[data-url]").imglazyload();
+      </script>
+    <div class='m-page-m1'>
+      <span class='prev-disable'>上一页</span>&nbsp;&nbsp;1/5&nbsp;&nbsp;<a class="next" href="javascript:mksbhref('/m/c/c_show.php?shop_id=bj&class_id=102&page=2'); ">下一页</a>
+    </div>
+      <script>
+          function mksbhref(url){
+              location.href=url;
+          }
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

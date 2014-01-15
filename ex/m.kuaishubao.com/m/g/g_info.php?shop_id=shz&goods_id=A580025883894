@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/d/8/A580025883894_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/d/8/A580025883894_1.jpg">
+        <h2>信号与噪声</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥49.20元</b> <del>¥69.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/d/8/A580025883894_1.jpg','信号与噪声-大数据时代预测的科学与艺术（从海量数据中筛选出真正的信号，“黑天鹅”事件也可提前预知，媲美《思考，快与慢》，未来十年最重要的书籍之一。）（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】纳特·西尔弗<br />
+【译者】胡晓姣 张新 朱辰辰<br />
+【出版社】中信出版社；2013年9月第1版<br />
+【装订】16开；精装<br />
+【页数】432页<br />
+【印刷】单色<br />
+【ISBN】978750864114<br />
+【品牌】中信出版社
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+从海量的大数据中筛选出真正的信号，“黑天鹅”事件也可提前预知！<br />
+<br />
+统计学或预测是让很多人望而却步的话题，而本书就是关于这个话题的一本有趣的普及读物，棒球比赛、职业扑克牌手、政治选举等例子足以勾起读者的好奇心，甚至会让他们废寝忘食地阅读，而且其中潜藏着帮你做出正确预测的能量。<br />
+<br />
+在大数据时代作预测可能跟你想象的完全不同。这本观点新鲜且原创的书，为我们区分关于未来的预测中哪些是主观现实、哪些是客观现实，哪些是干扰预测的噪声、哪些是有价值的信号，提供了意想不到的启发性视角。作者还指出，只要我们明智地从糟糕的预测中吸取教训，那我们一定会在科学、技术和政治的预测方面取得进步。<br />
+<br />
+这本书与畅销书《黑天鹅》的观点有异曲同工之妙。西尔弗认为，人类对自己的预测能力往往过度自信，以至于他们排斥用概率的方法思考问题，也不允许自己的预测模型中存在不确定性。<br />
+<br />
+本书将带给我们一场睿智的、优雅的、科学与艺术交叉的预测之旅，它将是未来10年最重要的书籍之一。对于每一个关心下一刻可能会发生什么的人来说，这都是本必读书。<br />
+<br />
+海报：<br />
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/d/8/A580025883894_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/8/A580025883894_xt_cj_1.jpg"></a> 
+</div>
+<div class="goods-content-title">
+	内容看点
+</div>
+《信号与噪声》中涉及如下有趣又值得研究的问题：天气预报说降水概率为60%，你出门会带伞吗？被雷电击中的概率到底有多大？地震发生之前，我们真的无法预测吗？中情局为什么会忽略“9.11”恐怖袭击发生的信号？禽流感为何会突然爆发，又突然消失？为什么大数据时代的预测更容易失败？“信号”是我们想要和需要的事实，比如能帮助我们侦破早期鞋子炸弹案的信号。“噪声”则是另一回事，通常是不相干的信息，它阻碍或误导我们搜索信号。<br />
+<br />
+人类每时每刻都需要对未来进行预测并制定相应的策略，如此国家、企业乃至个体才能持续发展，因此我们对于“下一刻会发生什么”倍加关注。<br />
+<br />
+在信息爆炸的大数据时代，随着我们的生活节奏变得越来越快，我们所要做出的预测的速度和数量都在不断增加。一个不容忽视的事实是，现实世界中的很多预测都失败了，由此付出了巨大的社会代价。“9.11”恐怖袭击事件、2008年金融危机、卡特里娜飓风、2011年日本大地震、禽流感肆虐，这些“黑天鹅”事件的发生在很大程度上应归咎于糟糕的预测，也就是说预测者们被众多信息中的噪声干扰，而忽视了其中真正的信号。<br />
+<br />
+作者最为美国最具影响力的预测专家之一，检视了从飓风到地震、从经济到股市、从NBA到政治选举在内的众多领域的预测事例，旨在回答一个问题：如何才能从繁杂的海量数据中筛选出真正的信号，摒弃噪声的干扰，从而做出接近真相的预测。<br />
+<br />
+真正优秀的预测者会用概率的方法思考问题，他们谦虚而且勤恳，他们能清楚地区分什么是不可预测的、什么是可预测的，他们注重能带领他们接近真相的成千上百个小细节，他们能辨识出什么是噪声、什么是信号。<br />
+<br />
+从全球经济的健康到战胜恐怖主义，都依靠预测的质量。《信号与噪声》可以给你想要的答案。<br />
+<div class="goods-content-title">
+	名人推荐
+</div>
+<span style="white-space:normal;">如果说信息稀缺制约着预测，西尔弗的《信号与噪声》则告诉我们，信息大爆炸时代，过多的信息同样也干扰正确的预测。</span><br style="white-space:normal;" />
+<span style="white-space:normal;">在金融行业流行的一句与预测相关的名言是：重要的不仅是预测下雨，还要建造诺亚方舟，从这个意义上说，本书提供了面对海量数据预测时建造用于预测的“诺亚方舟”的一些思路和方法，值得推荐。</span><span style="color:#666666;">——巴曙松，国务院发展研究中心金融研究所研究员及副所长、博士生导师、中国银行业协会首席经济学家</span><strong style="white-space:normal;"><br />
+<br />
+</strong><span style="white-space:normal;">本书是大数据时代的敲门砖，专业而有趣的统计学家去除噪声，获得有价值的信息。</span><br style="white-space:normal;" />
+<span style="white-space:normal;">中国需要借鉴类似经验，当理论压力预测与实际市场反应常常天差地别，我们得知道为什么，才能知道怎么办。</span><span style="color:#666666;">——叶檀，财经评论家</span> <br />
+<span style="white-space:normal;">预测很难，特别是对于未来的预测。在这本重要的著作中，西尔弗解释了为什么专家的预测有时正确，有时却一无是处；也分析了为什么我们必须未雨绸缪。对于每一个关心下一刻可能会发生什么的人来说，这都是本必读书。</span><span style="color:#666666;">——理查德·泰勒，《助推》作者</span> <br />
+<span style="white-space:normal;">在大数据时代做预测可能跟你想象的完全不同。这本观点新鲜且原创的书，为我们区分关于未来的预测中哪些是主观现实、哪些是客观现实，提供了意想不到的启发性视角。作者还指出，只要我们明智地从糟糕的预测中吸取教训，那我们一定会在科学、技术和政治的预测方面取得进步。</span><span style="color:#666666;">——洪博培，前美国驻华大使</span><strong style="white-space:normal;"><br />
+<br />
+</strong><span style="white-space:normal;">在你读完这本书后，你一定会更了解为什么有些预测模型有效，而有些毫无用处。你也会更加注意接下来一周的天气预报，而对一周以后的天气预报则毫不在意。西尔弗将一个复杂的、艰涩的话题变成了有趣的、轻松的和亲切的。</span><span style="color:#666666;">——皮特·奥斯扎格，前美国国家管理及预算办公室主任</span> <br />
+<span style="white-space:normal;">西尔弗并没有提出一个如何做出好预测的综合性理论，但他的这本著作的确有利于帮助人们在诡谲多变的商业世界中做出正确的预测。</span><span style="color:#666666;">——克里斯·威尔逊，谷歌公司开发大使</span><br />
+<br />
+<span style="white-space:normal;">非常棒的一本书，而且充满阅</span><span style="white-space:normal;">读的乐趣。西尔弗用这本书给我们制造了一个愉悦的信号。</span><span style="color:#666666;">——蒂姆·哈福德，《金融时报》专栏作家</span> 
+<div class="goods-content-title">
+	媒体集中报道
+</div>
+人们喜爱统计学，但统计学并不总能回馈给人们同样的爱。西尔弗的这本书带给我们一场睿智的、优雅的、科学与艺术交叉的预测之旅，从中我们可以领略到当大数据遇到人类本性时将会发生什么。在棒球比赛、天气预报、地震预测、经济预测和竞选投票等领域，西尔弗发现，糟糕的预测往往源自偏见、既定的利益和过度自信。在今天这样一个指标泛滥的世界，这本书给了<br />
+我们一记及时的提醒：只有正确运用统计学工具的人，才能做出好的预测。<span style="color:#666666;">——网站</span> <br />
+<br />
+这本书对大众的精神启迪意义不亚于像约翰·肯尼斯·加尔布雷斯（曾引发对经济政策的讨论）这样的公共知识分子和像沃尔特·克朗凯特（曾改变对越南战争的看法）这样的社会名人，它将会成为未来十年内最重要的书籍之一。<span style="color:#666666;">——《纽约时报》书评版</span> <br />
+<br />
+西尔弗轻松随性的语言风格让哪怕是最艰涩的统计资料都变得简单易懂。更重要的是，他的论据和案例都来自于费尽苦心的研究。<span style="color:#666666;">——《华尔街日报》</span> <br />
+<br />
+西尔弗是统计学界的科特·柯本（美国已故著名摇滚歌手），他写作的这本新书既是一本实践指南，也是一部哲学宣言，通过一系列案例研究——从飓风到职业扑克牌手到恐怖主义，集中论述了一个主题：预测。对于那些想对未来做出更好预测的人和想验证他人预测正确与否的人来说，这本书都极具价值。<span style="color:#666666;">——《波士顿环球报》</span> <br />
+<br />
+西尔弗以令人难以置信的轻松语言，写了一本关于如何做预测的入门读物，每个人都应该读一读。<span style="color:#666666;">——《华盛顿邮报》</span> <br />
+<br />
+这本书就像一座宝库，里面有数不尽的宝藏：贝叶斯定理与概率论，运气和性格，扑克牌手对生活的看法，等等。然而最重要的是，它是帮助我们区分繁杂数据中哪些是噪声、哪些是信号的“测试仪”，是我们当下最需要的基本工具；它有时还能帮助我们正确评估那些我们不熟悉却必须了解的信息的价值。<span style="color:#666666;">——《时尚先生》</span> <br />
+<br />
+统计学或预测是让很多人望而却步的话题，而本书就是关于这个话题的一本有趣的普及读物，棒球比赛、职业扑克牌手、政治选举等例子足以勾起读者的好奇心，甚至会让他们废寝忘食地阅读，而且其中潜藏着帮你做出正确预测的能量。<span style="color:#666666;">——《石板》杂志</span> <br />
+<br />
+这本书与畅销书《黑天鹅》的观点有异曲同工之妙。西尔弗认为，人类对自己的预测能力往往过度自信，以至于他们排斥用概率的方法思考问题，也不允许自己的预测模型中存在不确定性。<span style="color:#666666;">——《经济学人》</span> <br />
+<br />
+西尔弗剖析了我们对股市、风暴、体育等并非一成不变的事物所做的预测。<span style="color:#666666;">——《连线》杂志</span> <br />
+<br />
+对于身处大数据时代的每一个企业、每一场运动赛事和每一个政策制定者来说，这本书都不可不读。<span style="color:#666666;">——《福布斯》</span> 
+<div class="goods-content-title">
+	作者：<span style="white-space:normal;">纳特·西尔弗</span> 
+</div>
+<b>作者简介</b><br />
+纳特·西尔弗，统计学家、作家和《纽约时报》政治性网站538.com的创始人。2008年美国大选期间他成功预测出49个州的选举结果，2012年大选期间更是成功预测出全部50个州的选举结果，被称为“神奇小子”。2009年，《时代》周刊将他评选为全球100位最具影响力的人物之一。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	引 言<br />
+<br />
+<strong>第一章 预测失败的灾难性后果</strong>&nbsp;<br />
+一场错误预测引发的悲剧&nbsp;<br />
+他们只是不想让“音乐”停下来罢了&nbsp;<br />
+评级机构为什么会犯下致命的错误？&nbsp;<br />
+<br />
+第一幕：房地产泡沫&nbsp;<br />
+<br />
+第二幕：负债经营&nbsp;<br />
+幕间休息：从贪婪到恐惧&nbsp;<br />
+<br />
+第三幕：这次还是犯了同样的错误&nbsp;<br />
+失败的预测都是非样本预测&nbsp;<br />
+失败预测的公式--非样本，无思考&nbsp;<br />
+前事不忘，后事之师&nbsp;<br />
+<br />
+<strong>第二章 政治选举预测：狐狸和刺猬，谁更聪明？</strong>&nbsp;<br />
+政治学家是名副其实还是徒有虚名·&nbsp;<br />
+狐狸型专家：善于变通，更善于做出准确的预测&nbsp;<br />
+刺猬型专家更适合做电视节目嘉宾&nbsp;<br />
+政治预测为什么常常失败？&nbsp;<br />
+狐狸型预测方法&nbsp;<br />
+原则一：用概率的方法思考问题&nbsp;<br />
+原则二：今天的预测是你以后人生的<br />
+第一个预测&nbsp;<br />
+原则三：寻求共识&nbsp;<br />
+定性信息与定量信息同等重要&nbsp;<br />
+做出客观的预测并非易事&nbsp;<br />
+<br />
+<strong>第三章 棒球比赛预测：球探和数据怪才，谁更胜一筹？&nbsp;</strong><br />
+构建棒球比赛的预测系统&nbsp;<br />
+全世界最丰富的统计数据库&nbsp;<br />
+老化曲线与相似分数&nbsp;<br />
+球探与数据怪才的矛盾冲突&nbsp;<br />
+系统与球探的对决：球探赢了&nbsp;<br />
+球探和数据怪才的偏见&nbsp;<br />
+生理指标与心理指标&nbsp;<br />
+信息是决定预测成败的关键&nbsp;<br />
+并不是信息越多，预测就越成功&nbsp;<br />
+《点球成金》的真正意义&nbsp;<br />
+<br />
+<strong>第四章 天气预测：蝴蝶扇动翅膀，有可能引起龙卷风&nbsp;</strong><br />
+我们真能准确地预测天气吗？&nbsp;<br />
+气象预报简史&nbsp;<br />
+用矩阵来预测天气&nbsp;<br />
+混沌理论与蝴蝶效应&nbsp;<br />
+视觉化预测与抽象化预测&nbsp;<br />
+被雷电击中的概率越来越小了&nbsp;<br />
+什么样的预测才算是好预测？&nbsp;<br />
+商业竞争如何使预测变得更糟糕？&nbsp;<br />
+天气预报说降水概率为60%，你出门会带伞吗？&nbsp;<br />
+尽可能地做出准确预测&nbsp;<br />
+<br />
+<strong>第五章 地震预测：一个困惑了人类1 000 年的难题&nbsp;</strong><br />
+地震可以预测吗？&nbsp;<br />
+“圣杯”根本就不存在&nbsp;<br />
+我们对于地震的了解&nbsp;<br />
+究竟是信号还是噪声？&nbsp;<br />
+那些以失败收场的地震预测&nbsp;<br />
+过度拟合模型：将噪声误认为信号&nbsp;<br />
+2011 年日本大地震引发的思考&nbsp;<br />
+地震震级的上限是多少？&nbsp;<br />
+被审判的预测科学&nbsp;<br />
+<br />
+<strong>第六章 经济预测： 经济学家为什么没有预测到2008 年经济危机？</strong>&nbsp;<br />
+不可忽视预测中的不确定性&nbsp;<br />
+经济学家都是理性的吗？&nbsp;<br />
+相关的两个经济变量未必互为因果&nbsp;<br />
+变化莫测的经济&nbsp;<br />
+经济数据中充满噪声&nbsp;<br />
+经济是一个动态系统，不是一个方程式&nbsp;<br />
+经济预测中不可避免地会存在偏见&nbsp;<br />
+克服预测偏见的两种选择&nbsp;<br />
+<br />
+<strong>第七章 传染性疾病预测：禽流感为何会突然爆发，又突然消失？&nbsp;</strong><br />
+人们又一次高估了H1N1 的致命率&nbsp;<br />
+外推法的危害--艾滋病感染人数被低估了一半&nbsp;<br />
+为什么2009 年的流感预测会失败？&nbsp;<br />
+自我实现预测与自我否定预测&nbsp;<br />
+预测模型越简单越好，还是越复杂越好？&nbsp;<br />
+所有的预测都失败了&nbsp;<br />
+预测是为了让损失最小化&nbsp;<br />
+<br />
+<strong>第八章 贝叶斯定理：只有正确的预测才能让我们更接近真相&nbsp;</strong><br />
+成功的赌客是如何思考问题的？&nbsp;<br />
+贝叶斯留下的宝贵遗产&nbsp;<br />
+概率、预测与科学进步&nbsp;<br />
+简单的运算推导出重大的预测&nbsp;<br />
+为什么大数据时代的预测更容易失败？&nbsp;<br />
+当统计数据偏离了贝叶斯定理&nbsp;<br />
+成功践行贝叶斯定理的体育赌客&nbsp;<br />
+通往真理的贝叶斯之路&nbsp;<br />
+<br />
+<strong>第九章 国际象棋大战：计算机与人类的智能博弈&nbsp;</strong><br />
+国际象棋的人机大战&nbsp;<br />
+国际象棋比赛预测和启发法&nbsp;<br />
+开局阶段：独立思考能力更重要&nbsp;<br />
+中局阶段：宽度与深度的两难选择&nbsp;<br />
+残局阶段：计算机能力方面的较量&nbsp;<br />
+计算机战胜了人类&nbsp;<br />
+国际象棋大师为何败给了“深蓝”计算机？&nbsp;<br />
+计算机擅长做什么？&nbsp;<br />
+用试错法提高计算机的预测能力&nbsp;<br />
+克服人类的技术盲点&nbsp;<br />
+<br />
+<strong>第十章 扑克牌游戏：如何从1 326 种组合中猜出对手的底牌？</strong>&nbsp;<br />
+是心理游戏，也是数学游戏&nbsp;<br />
+出色的扑克牌玩家如何读出对手的牌？&nbsp;<br />
+是弃牌还是跟注，如何选择？&nbsp;<br />
+虚张声势，让对手猜不出你的底牌&nbsp;<br />
+学习曲线与二八原则亦适用于预测领域&nbsp;<br />
+扑克牌经济的繁荣&nbsp;<br />
+扑克牌经济泡沫的破灭&nbsp;<br />
+既靠运气也拼技能&nbsp;<br />
+我们对于扑克牌游戏的妄想&nbsp;<br />
+以过程而不是结果为导向&nbsp;<br />
+<br />
+<strong>第十一章 股票市场：非理性交易者的存在让价格泡沫不可避免</strong>&nbsp;<br />
+贝叶斯定理世界中的价码牌&nbsp;<br />
+预测市场中的“无形的手”&nbsp;<br />
+群体预测往往优于个体预测&nbsp;<br />
+有效市场假说理论的缘起&nbsp;<br />
+过去的表现不代表未来的结果&nbsp;<br />
+技术分析法并不能预测股市&nbsp;<br />
+有效市场假说的3 种形式&nbsp;<br />
+追涨杀跌的股市投资策略真能获利吗？&nbsp;<br />
+当有效市场假说遇到非理性繁荣&nbsp;<br />
+羊群效应催生股市泡沫&nbsp;<br />
+过度自信的投资者逃不开“赢家的诅咒”&nbsp;<br />
+股市泡沫需要很长时间才能被挤出&nbsp;<br />
+有时，价格的确是错误的！&nbsp;<br />
+金融市场中的噪声&nbsp;<br />
+直觉判断让投资者深陷“高买低卖”的误区&nbsp;<br />
+有没有可能预测到市场泡沫的出现？&nbsp;<br />
+<br />
+<strong>第十二章 温室效应：未来10 年，全球气温会上升还是下降？&nbsp;</strong><br />
+温室效应真会导致全球气温变暖吗？&nbsp;<br />
+温室效应假说的3 种怀疑论&nbsp;<br />
+对“全球气温会持续升高”预测的批判&nbsp;<br />
+达成共识的预测结果&nbsp;<br />
+不能把所有鸡蛋都放在一个篮子里&nbsp;<br />
+气候科学不是“火箭科学”&nbsp;<br />
+模型越复杂，预测越糟糕&nbsp;<br />
+气候预测中的3 类不确定性&nbsp;<br />
+评判气候预测准确性的时刻到了&nbsp;<br />
+“全球变冷”事件的教训&nbsp;<br />
+正确的预测绝对离不开科学的方法&nbsp;<br />
+气温变化趋势的真相&nbsp;<br />
+政治与科学的针锋相对&nbsp;<br />
+<br />
+<strong>第十三章 恐怖主义： 比“9·11”更严重的恐怖袭击事件会发生吗？&nbsp;</strong><br />
+信号无处不在&nbsp;<br />
+你不知道的不代表不会发生&nbsp;<br />
+“9·11”恐怖袭击事件是“已知的未知”？&nbsp;<br />
+用数学的方法研究恐怖主义&nbsp;<br />
+用统计学的方法测量恐怖主义&nbsp;<br />
+9 级恐怖袭击很可能会发生&nbsp;<br />
+为什么恐怖分子不去炸购物中心？&nbsp;<br />
+如何辨识恐怖袭击的信号？&nbsp;<br />
+结束语&nbsp;<br />
+致 谢
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+经济预测中不可避免地会存在偏见<br />
+<br />
+如果你想进行经济预测，最好的选择就是查看平均预测或群体预测，而不是求助于某个经济学家。我对“调查”的研究显示，群体预测总是比个体预测更准确，在预测GDP增长、失业率和通货膨胀这三个方面，群体预测比个体预测的准确率分别高出20%、10%和30%。通过研究许多领域的预测结果，人们发现几乎所有的群体预测都优于个体预测。<br />
+<br />
+然而，虽说群体预测优于个体预测这一观念已成为重要的经验性规律，可是当预测与事实有很大的出入时，这一观念有时就会成为蹩脚的借口。群体预测是由个体预测组成的，如果个体预测的质量提高了，群体预测的质量也会提高。另外，在现实生活中，经济群体预测的质量也很差劲儿，所以还有很大的提升空间。<br />
+<br />
+大多数经济学家作预测时，会在一定程度上依赖自己的判断，而不是依据统计模型输出的信息进行预测。考虑到数据是那么杂乱，这种做法或许是有益的。波士顿联储前副总裁斯蒂芬•K• 麦克内斯曾经进行过一项研究，他发现根据统计学预测方法对人为的判断进行调整会使预测的准确率提高约15%。20 世纪七八十年代计算机开始广泛使用时，人们普遍认为统计模型能够“解决”经济预测问题。但是，改进的技术无法掩盖对经济领域理论认识的缺乏，只会让经济学家更加快速、更加煞费苦心地将噪声误认为是信号。看似前景不错的预测模型在某些方面一败涂地，最后惨遭淘汰。在其他领域，比如那一时期的地震预测，也会遭遇这样的状况。<br />
+<br />
+援引某个人为判断也会带来潜在的偏见。人们在进行预测时，会倾向于使预测满足自己的经济动机或政治信仰。人们或许太过自负，即使事实和环境要求他做出改变，他也不愿对自己的预测进行修正。哈祖斯告诉我：“我认为人们绝对有这样的倾向，急切地希望事情能按照自己希望的方式发展下去。”<br />
+<br />
+是否有经济学家更擅长把握这种权衡的度？预测出上一次经济衰退的经济学家是不是也可以预测出下一次经济衰退？这个问题有一个非常有趣的答案。<br />
+<br />
+用于评判预测技能的统计测试，在应用于“调查”时给出了否定的结果。也就是说，从这份调查中，人们似乎找不到证据证明某些经济学家总是比其他同行出色。然而，对另一个小组——“蓝筹经济调查报告”——的研究却总能给出肯定的结果。经济预测中显然少不了运气的成分，暴躁或是顽固的经济学家偶尔也会做出正确预测。但是对“蓝筹经济调查报告”的多项研究发现，长期来看，某些经济学家似乎确实要比其他同行略胜一筹。<br />
+<br />
+这两份调查有什么不同呢？“专业预测人员情况调查”是匿名操作的：每位经济学家随机分配一个身份标识号码，他们在不同的调查中会一直使用这个号码，但是不会暴露自己的身份和职业。而在 “蓝筹预测调查报告”中，每个人的预测都标有其姓名和曾经获得的荣誉。<br />
+<br />
+当预测结果标有自己的名字时，你的动机就会发生改变。比如，如果你在一家名不见经传的小公司工作，你的那些大胆预测就会备受重视，不管这个预测是准确的还是离谱的，你都会受人关注，这是合情合理的。而像高盛这样的大公司，为了能达成一致意见，预测反而会比较保守。<br />
+<br />
+事实上，在“蓝筹经济调查报告”中，已经发现了这个特点：名气越小，作预测时就越不怕冒险。一项研究把这一现象称为“合理偏见”。即使知道这个预测十分冒险，你还是会为“大比分”放手一搏，这样做是可以理解的。反过来，如果你已经声名鹊起，即便自己手头的数据要求你做出大胆的预测，你可能也不愿意做出过于大胆的预测。<br />
+这两种对声誉的关注都有可能使你远离做出最诚实、最准确的预测这一目标，甚至还会使群体预测更加糟糕。整体来看，在对GDP增长率和失业率的预测上，“专业预测人员情况调查”的匿名参与者略优于参与“蓝筹经济调查”的那些名誉至上的受访者。<br />
+<br />
+2011 年日本大地震引发的思考<br />
+<br />
+将噪声误认为信号的倾向，有时会给现实世界带来极可怕的后果。在日本，尽管地震活动极其频繁，但2011 年那次灾难性的地震还是让这个国家措手不及。福岛核反应堆是按照可抵御8.6 级地震的标准设计的，无法承受震级高达9.1 级的地震。考古资料表明，2011 年由地震引发的约40 米高的海浪在历史上曾经引发过多次海啸，但这次人们明显忘记了或者根本无视这些惨痛的案例。<br />
+<br />
+9.1 级地震在全世界都很少见，没人能确切地预测到这样的地震会发生在哪个10 年里，更不用说具体的日期了。而在日本，一些科学家和中央计划员却排除了近期发生地震的可能性。这一点就反映了日本的地震预测模型是过度拟合模型。<br />
+<br />
+在图5–6A中，我画出了2011 年日本福岛地震震中附近发生地震的历史频率。这些数据中的地震级别逐渐加大，却没有达到3 月11 日的9.1 级。通过看图你会发现，数据几乎遵循着古登堡– 里克特法则的那种直线预测模型，然而，在7.5 级处出现了一个拐点，而且，该地区自从1964 年发生了一场震级达8.0 级的地震后，再没有发生过震级更大的地震，于是，这条线似乎开始向下弯曲了。<br />
+<br />
+究竟该如何连接这些数据点呢？如果严格依据古登堡– 里克特法则，就要忽略图像中的拐点，沿直线将数据点连接起来，如图5–6B所示。若是按地震学家口中的“特性拟合”法（见图5–6C），即描述这一地区地震发生的历史频率，那么，就会把那个拐点当成是真实情况，十分肯定这一地区发生7.6 级以上地震的可能性不大。<br />
+<br />
+看似无害的决定，却会导致大相径庭的结果，从日本福岛的例子来看，不同的选择会关系到是否认为这一地区会发生9.1 级大地震。特性拟合模型暗示9.1 级地震需要约13 000 年才可能发生一次，这样看来，这一地区几乎就不可能发生这样大级别的地震。另外，古登堡– 里克特法则却预测，9.1 级地震平均每300 年才可以预见一次，确实不常见，但也不是绝无可能，风险还是存在的，而像日本这样富有的国家，是能够为此作好准备的。<br />
+<br />
+最近，特性拟合模型和日本东北部地区的地震记录拟合得更加紧密了。但是正如我们所知，完全吻合未必就是一件好事，很有可能会变成过度拟合模型，而且，在匹配真实关系时，这种模型会表现得更糟。<br />
+<br />
+在这种情况下，过度拟合的模型会严重低估这一地区发生灾难性大地震的可能性。特性拟合的问题就在于它依靠的是十分微弱的信号。之前提到，日本福岛地震发生前的45 年内，日本东北部地区从未发生过8 级及以上的地震。然而，这些都还只是以稀有事件为开端的事例：古登堡– 里克特法则预测日本东北部地区约30 年才会发生一次稀有事件，而30 年一遇的事件拖到45 年的时候发生也没什么稀奇，就算没有发生，也不奇怪。就好比一个击球率达0.300 的击球手，某天状态不好，输赢比达到了5 ∶ 0，这也不足为奇。另外，日本东北部地区发生过好几次中等级别达到7.0 级的地震，当世界其他地区出现类似情况时，常预示着会有更大级别的地震发生，那又有什么理由认为日本东北部地区会是个特例呢？<br />
+<br />
+实际上，日本以及其他地区的地震学家为此做出了合理解释。比如，他们表明该区域的海底构造特殊、年代久远、温度相对较低且密度较大，能够阻止这样的大地震形成。另一些地震学家则观察到2004 年以前，这种类型的海底从来没有发生过9 级地震。<br />
+<br />
+这类结论有点儿像认定了某个来自宾夕法尼亚的家伙不可能会中彩票的头等奖，因为过去的3 周无人获此大奖。9 级地震就像彩票头奖，中奖人数少，时间间隔长。实际上，2004 年之前，全世界有记载的9 级地震总共才发生3 次。9 级地震究竟在何种情形下才会发生，关于这个问题，没有足够的数据来支撑高度具体的结论。日本不是这一模型失败的首例，苏门答腊岛也遇到过相似的问题。有一段时间，苏门答腊岛发生了一系列震级达到7 级的地震，随后却并没有发生更大级别的地震。但在2004 年12 月，一场震级达9.2 级的特大地震袭击了苏门答腊岛。<br />
+<br />
+古登堡– 里克特法则并不能预测地震的具体时间，无论是苏门答腊岛地震还日本福岛地震都是这样，但是这一法则考虑到了发生地震的概率。目前，许多更精细的地震预测活动都失败了，古登堡– 里克特法则的表现都还不错。<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A580025883894', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A580025883894', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A580025883894', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A580025883894', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A580025883894'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shz" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shz"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

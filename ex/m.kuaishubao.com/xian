@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="apple-touch-icon" href="img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="img/m/touchicon.png"/>
+<link rel="stylesheet" href="css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="css/m/gmu-min.css" />
+
+<script type="text/javascript" src="js/m/zepto-min.js"></script>
+<script language="javascript" src="js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="js/m/public.js?t=2"></script>
+<script type="text/javascript" src="js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<body>
+
+<div class="g-doc"><div class='w'>
+<header class="g-hd" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+    <div class="m-hd">
+        <section>
+            <a href="m/ccity.php"><span class="city">西安</span></a>
+        </section>
+        <section>
+            <h1 class="u-logo">快书包</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+    <style>
+        .m-slider ul,.m-slider li {height: 132px;display: block;overflow: hidden;}
+    </style>
+  <div class="g-bd">
+    <div class="m-slider">
+      <ul id="slider" style="width: 300px;margin: 0 auto;">
+          <li><a title="2014养生日记" href="s/search.php?wd=2014" target="_blank"><img alt="2014养生日记" src="http://pic.kuaishubao.com/m/picdata/publish/13/11/all_dt_ad_1130.jpg"></a> 
+</li>
+
+<li><a title="轻松搞定大姨妈" href="subject/123495.html" target="_blank"><img alt="轻松搞定大姨妈" src="http://pic.kuaishubao.com/m/picdata/publish/13/11/all_ad_dt_1130.jpg"></a> 
+</li>
+
+<li><a title="原装进口商品特卖" href="subject/123496.html"><img alt="原装进口商品特卖" src="
+http://pic.kuaishubao.com/picdata/publish/13/12/all_ad_dt_1209yuanzhaung.jpg"></a> 
+</li>
+
+<li><a title="3M n95 口罩" href="m/g/g_info.php?shop_id=bj&amp;goods_id=B510014555407" target="_blank"><img alt="3M n95 口罩" src="http://pic.kuaishubao.com/m/picdata/publish/13/11/kouzhao1101.jpg"></a> 
+</li>
+
+<li><a title="蓝印花布新品" href="http://m.kuaishubao.com/c/105106-1-1.html" target="_blank"><img alt="蓝印花布新品" src="http://pic.kuaishubao.com/m/picdata/publish/13/05/all_dl_05.jpg"></a>
+</li>
+
+
+<!--banner图
+<li><a title="开学季" href="subject/123477.html"><img alt="开学季" src="http://pic.kuaishubao.com/m/picdata/publish/13/08/all_dt_0815_kaixueji.jpg"></a> 
+</li>
+
+<li><a title="夏日快乐购，双份更划算" href="/subject/123468.html"><img alt="夏日快乐购，双份更划算" src="http://pic.kuaishubao.com/m/picdata/publish/13/06/all_zt_619.jpg"></a> 
+</li>
+
+
+<li><a href="/c/105106-1-1.html" target="_blank"><img src="http://pic.kuaishubao.com/m/picdata/publish/13/05/all_dl_05.jpg" alt="蓝印花布新品"></a> 
+</li>
+
+
+<li><a href="/g/B860014546950.html" title="传家（礼品收藏版）"><img src="http://pic.kuaishubao.com/m/picdata/publish//13/04/B_ad_dl_02.jpg" alt="传家（礼品收藏版）"></a> 
+</li>
+-->
+      </ul>
+    </div>
+    <script>
+        $('#slider').slider({loop:true,showArr:false});
+    </script>
+
+    <div class="m-box m-search u-w300 f-clr" style="margin-top: 15px;">
+        <form id="searchfrom" method="get" action="http://m.kuaishubao.com/s/search.php">
+        <input type="text" name="wd" class="ipt f-fl" placeholder="请输入您想搜索的商品名称">
+        <input type="hidden" name="shop_id" value="xian">
+        <button type="submit" class="f-fr u-btn-orange u-btn-w70s14">搜索</button>
+        </form>
+    </div>
+
+    
+
+    <ul class="m-navicon2 f-clr f-mt10">
+      <li><a href='m/member/my.php'><button class="my-menu-my"></button>我的快书包</a></li>
+      <li><a href="m/class.php"><button class="my-menu-cls"></button>商品分类</a></li>
+      <li><a href="m/buy/cart.php"><button class="my-menu-cart"></button>购物车</a></li>
+      <li><a href="m/member/my_order_fav.php"><button class="my-menu-fav"></button>我的收藏</a></li>
+    </ul>
+
+    <div class='m-clsgroup f-clr'>
+      <ul class='f-clr'>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=109&amp;page=1"><li>营养健康</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=103&amp;page=1"><li>休闲食品</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=104&amp;page=1"><li>酒水饮品</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=110&amp;page=1"><li>食材</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=105&amp;page=1"><li>生活日用</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=113&amp;page=1"><li>蓝印花布</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=111&amp;page=1"><li>GoPro及周边</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=112&amp;page=1"><li>数码文具</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=101&amp;page=1"><li>图书</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=102&amp;page=1"><li>杂志</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=106&amp;page=1"><li>演出票</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=107&amp;page=1"><li>鲜花</li></a>
+                  <a href="m/c/c_show.php?shop_id=xian&amp;class_id=108&amp;page=1"><li>礼品卡/礼品册</li></a>
+                </ul>
+    </div>
+            <div class="u-box u-w300">
+          <div style="padding: 5px 5px;"><div class="slogan"><a title="今日限时低价 素玛哥西梅干" href="http:/m/g/g_info.php?shop_id=bj&goods_id=A610017412948">【今日限时低价】素玛哥西梅干  限时价36元 立减9元</a></div></div>
+      </div>
+          
+        <div class='m-list3c m-list3c-pro f-clr'>
+      <a href="m/xinpin.php"><h2>最新上架</h2></a>
+      <ul>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=B330029081336">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/3/c/B330029081336_2.jpg" width='85' height='85'>
+                      <h3><font style="color:red;">【欢乐下午茶】</font>美颜独享包A（1袋芝麻味苏打饼+1袋蔬果干+1袋薏米茶）</h3>
+                      <p class='u-price-red'>¥58.60</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A230028462908">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/1/8/A230028462908_2.jpg" width='85' height='85'>
+                      <h3><font style="color:red;">【原装进口，立省15元】</font>韩国777指甲刀套装（金色八件套）DS-636G</h3>
+                      <p class='u-price-red'>¥113.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A970024939476">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/5/f/A970024939476_2.jpg" width='85' height='85'>
+                      <h3>Aji尼西亚惊奇脆片饼干起士味200g-2袋起售</h3>
+                      <p class='u-price-red'>¥8.90</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A950025975321">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/6/2/A950025975321_2.jpg" width='85' height='85'>
+                      <h3>好维乐基础型泡腾片柠檬味20片装（82g）</h3>
+                      <p class='u-price-red'>¥28.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=B450026406725">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/3/1/B450026406725_2.jpg" width='85' height='85'>
+                      <h3><font style="color:red;">【双份更划算】</font>茶人岭薏米茶180g</h3>
+                      <p class='u-price-red'>¥52.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A560020368496">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/4/9/A560020368496_2.jpg" width='85' height='85'>
+                      <h3><font style="color:red;">【原装进口，立省3元】</font>爽健（Scholl）足跟修护霜K+ 60ml</h3>
+                      <p class='u-price-red'>¥66.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=B780018634521">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/f/B780018634521_2.jpg" width='85' height='85'>
+                      <h3><font style="color:red;">【双份更划算】</font>有机厨坊天然红薏仁粉500g</h3>
+                      <p class='u-price-red'>¥166.60</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A001352909213">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/e/A001352909213_2.jpg" width='85' height='85'>
+                      <h3>益昌老街白咖啡1000g</h3>
+                      <p class='u-price-red'>¥63.90</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A330029426670">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/6/5/A330029426670_2.jpg" width='85' height='85'>
+                      <h3>芳香疗法配方宝典（上、下)</h3>
+                      <p class='u-price-red'>¥83.60</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A260019836169">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/6/1/A260019836169_2.jpg" width='85' height='85'>
+                      <h3>稻盛和夫的人生哲学 活法全集（套装共五册）</h3>
+                      <p class='u-price-red'>¥85.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A390031233645">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/8/c/A390031233645_2.jpg" width='85' height='85'>
+                      <h3>最好金龟换酒</h3>
+                      <p class='u-price-red'>¥28.60</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A310031314192">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/8/e/A310031314192_2.jpg" width='85' height='85'>
+                      <h3>走出电商困局</h3>
+                      <p class='u-price-red'>¥27.30</p>
+                  </div>
+              </li>
+          </a>
+                </ul>
+    </div>
+    
+        <div class='m-list3c m-list3c-pro f-clr'>
+      <h2 class="noarrow">热销商品</h2>
+      <ul>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A460022952697">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/0/4/A460022952697_2.jpg" width='85' height='85'>
+                      <h3>维吉达尼新疆大粒无花果500g</h3>
+                      <p class='u-price-red'>¥49.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A730019488846">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/b/6/A730019488846_2.jpg" width='85' height='85'>
+                      <h3>OnTrip宝利莱旅行睡袋舒适版紫色</h3>
+                      <p class='u-price-red'>¥99.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=B780025793836">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/d/6/B780025793836_2.jpg" width='85' height='85'>
+                      <h3><font style="color:red;">【10-99本】</font>2014养生日记本（16开大字版）</h3>
+                      <p class='u-price-red'>¥30.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A200017429630">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/8/A200017429630_2.jpg" width='85' height='85'>
+                      <h3>乐扣乐扣保温杯LHC560红色300ML</h3>
+                      <p class='u-price-red'>¥89.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A610017412948">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/d/4/A610017412948_2.jpg" width='85' height='85'>
+                      <h3>素玛哥西梅干 400g/罐</h3>
+                      <p class='u-price-red'>¥45.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A001352911568">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/5/A001352911568_2.jpg" width='85' height='85'>
+                      <h3>快书包&莲子南通手工蓝印花布拼素麻自然风iPad mini套</h3>
+                      <p class='u-price-red'>¥68.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A720023016729">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/8/A720023016729_2.jpg" width='85' height='85'>
+                      <h3><font style="color:red;">【原装进口，立省3元】</font>LION狮王ZACT去烟渍冰爽牙膏130g</h3>
+                      <p class='u-price-red'>¥39.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A570020620778">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/8/5/A570020620778_2.jpg" width='85' height='85'>
+                      <h3>喜达牌原味捞面（方便面）91g*5袋</h3>
+                      <p class='u-price-red'>¥16.90</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A350023728971">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/1/8/A350023728971_2.jpg" width='85' height='85'>
+                      <h3>无印良品生活研究所</h3>
+                      <p class='u-price-red'>¥44.10</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A770023466419">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/7/A770023466419_2.jpg" width='85' height='85'>
+                      <h3>朱镕基上海讲话实录（平装）</h3>
+                      <p class='u-price-red'>¥56.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A230028899621">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/1/A230028899621_2.jpg" width='85' height='85'>
+                      <h3>我承认我不曾历经沧桑（蒋方舟限量签名版）</h3>
+                      <p class='u-price-red'>¥32.00</p>
+                  </div>
+              </li>
+          </a>
+                    <a href="m/g/g_info.php?shop_id=xian&amp;goods_id=A290023390943">
+              <li>
+                  <div>
+                      <img src="img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/f/1/A290023390943_2.jpg" width='85' height='85'>
+                      <h3>断舍离</h3>
+                      <p class='u-price-red'>¥22.00</p>
+                  </div>
+              </li>
+          </a>
+                </ul>
+    </div>
+      </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="m/member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="m/member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="m/member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="xian"><li class="home">首页</li></a>
+            <a href="m/member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="m/buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="m/class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+    <script>
+        $("img[data-url]").imglazyload();
+        cctiy = {
+            'bj':'北京市',
+            'shh':'上海市',
+            'chd':'成都市',
+            'chsh':'长沙市',
+            'xian':'西安市',
+            'hzh':'杭州市',
+            'shz':'深圳市'
+        };
+        if ($.cookie("auto_city") == '' || $.cookie("auto_city") == null ){
+            $(window).location(function(rs){
+                        //console.log(rs)
+                        //alert(rs.address)
+                        for(i in cctiy){
+                            if(rs.addressComponents.city == cctiy[i] && i != $.cookie("cookie_shop_id")){
+                                if(confirm("是否切换到"+cctiy[i])){
+                                    location.href = "/"+i;
+                                }
+                            }else{
+                                $.cookie("auto_city", '1');
+                            }
+                        }
+                    },
+                    function(){},
+                    {timeout:10000, maximumAge:60}
+            );
+        }
+    </script>
+</div> </div>
+</body>
+</html>

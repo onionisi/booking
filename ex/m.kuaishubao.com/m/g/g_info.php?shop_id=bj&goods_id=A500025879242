@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_1.jpg">
+        <h2>文景Lens（2013年第9期 总第101期）-听叶锦添讲电影故事</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥18.00元</b> <del>¥20.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_1.jpg','文景Lens（2013年第9期 总第101期）-听叶锦添讲电影故事-张国荣、周润发、张曼玉、王祖贤、章子怡、徐静蕾、周迅、林志玲等幕后影像（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【出版】财讯传媒集团出品<br />
+【出版时间】2013-09-06<br />
+【品牌】文景Lens<br />
+【刊号】9771672879133<br />
+【开本】大16开<br />
+【页数】168<br />
+	<div align="left">
+		【印刷】彩色<br />
+	</div>
+</div>
+<div class="goods-content-title">
+	本期要目
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<strong>资讯</strong><br />
+<br />
+<span style="color:#8b4513;">角色／声音／世相／新知／数字／灵感／日历</span> 
+	</p>
+	<div align="center">
+		<br />
+	</div>
+<strong>城市 City</strong><br />
+<br />
+<span style="color:#8b4513;">斯德哥尔摩：混搭的趣味</span><br />
+瑞典首都斯德哥尔摩，曾经的被隔绝和孤立之地，如今已是一座魅力之城。这里有多少对冬天的恐惧，就有多少对烈酒的热爱。与之相随的，还有人们对社会问题的关切，自省和忍耐。对平等的追求，甚至影响到其在文化、美学领域的特点。它是一个整体的浓缩世界，是一个中立且在国际框架内的北欧国家的集合。这组30p的图文报道带来了很多线索。
+	<p align="center">
+		<a href="http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_xt_cj_6.jpg"></a> 
+	</p>
+	<p>
+		<br />
+<strong>专题 Special Topic</strong><br />
+<br />
+<span style="color:#8b4513;">听叶锦添讲电影故事 </span><br />
+从叶锦添入题，是观察华语电影的有趣视角。自《英雄本色》出道、《卧虎藏龙》获奖，他已是华人世界最重要的艺术家之一。这组52p的专题中，许多往事细节正是对今天一些问题的预示和回答。更重要的是，通过叶锦添的镜头，我们得以看到这些影人在幕后和平常生活里的状态——这是一个依赖幻梦和包装存活的行业，它自己主动朝外释放的真实实在少得可怜。叶锦添对合作过的众多影人做出了有趣而坦率的评价。但他说，这不是他的兴趣所在。他更愿意看到的是种种“启示”、“养分”。
+	</p>
+	<div align="center">
+		<a href="http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_xt_cj_1.jpg"></a><br />
+	</div>
+	<p>
+		<span style="color:#8b4513;">蔡澜：曾经有恐龙的香港电影圈</span><br />
+香港九龙城腹地一间菜市场的食坊，蔡澜指着身边的菜档摊贩说：“这里是最能代表香港的地方，几十年没变，盛着香港人的生老病死：从婴儿用品到小学中学的文具，再到养老院用的东西，还有棺材店，都有。”周润发也喜欢逛这个菜市场。“这些小摊子，小菜贩都是我们的老朋友。周润发业余时间会给他们拍照，我则给他们题字。”蔡澜说。“我离开电影圈的直接原因是1998 年何冠昌先生心脏病突发去世……我们那个年代香港电影圈里有恐龙，有大鱼，非仙即寿，现在看看台下坐的，只剩下豺狼虎豹，我不干了。”<br />
+<br />
+<strong>瞬间The Moment</strong><br />
+<br />
+<span style="color:#8b4513;">“人们总是不知道他们将永远失去的究竟是什么”</span><br />
+底特律的衰败早已不是新闻，类似“鬼城”的命运，也不是只有一地。这组报道在社会和经济议题之外，将焦点对准了废弃的酒店房间。摄影师萨曼莎认为拍照是一种“挽留”，是让人们去察觉旧事旧物里的美，而非一再往前。“我希望人们对失去变得敏感，而不是不加节制地挥霍。
+	</p>
+	<div align="center">
+		<a href="http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_xt_cj_4.jpg"></a><br />
+	</div>
+	<p>
+		<strong>人物 People</strong><br />
+<br />
+<span style="color:#8b4513;">了不起的“迪卡普里奥·盖茨比”</span><br />
+尽管迪卡普里奥始终被配着长焦镜头的狗仔队包围着，我们却对他究竟是个怎样的人一无所知。这个在片场长大、没上过什么学的人精心设计了自己的生活，让自己处于绝对优势中，同时保持神秘。他得到并一直维持着名气、尊敬、金钱、事业和人们的赞扬，这种情况在童星出身的明星身上并不常见。
+	</p>
+	<div align="center">
+		<a href="http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_xt_cj_5.jpg"></a><br />
+	</div>
+	<p>
+		<strong> 万象 Panorama</strong><br />
+<br />
+<span style="color:#8b4513;">“这是个患了肥胖症的消费世界”</span><br />
+马丁·帕尔已经来过中国八次了，但“拍到的大多数照片都不怎么好”。这个庞大复杂的国家让玛格南最昂贵的摄影师犯难，而且，中国人无时无刻不在拍照，在泛滥的影像中，他更有点看不清楚。在他看来，“这是个患了肥胖症的消费世界，你能看到的大部分照片都“太甜了”。他拍的比较多是中国人围绕汽车和婚纱照的疯狂。他还让中国的婚纱摄影师给自己拍摄了一系列“婚纱照”。
+	</p>
+	<div align="center">
+		<a href="http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_xt_cj_3.jpg"></a><br />
+	</div>
+	<p>
+		<strong>艺术 Art</strong><br />
+<br />
+<span style="color:#8b4513;">2000中国人在威尼斯双年展做了什么？</span><br />
+薇薇安·迈尔，一个终生以保姆为业的女人，一生寂寂无名，却在去世不到5个月后，突然成了世界范围内炙手可热的“摄影大师”，这一切是怎么发生的？2000名中国“艺术家”赶往威尼斯，他们为何对这遥远、傲慢的岛城如此趋之若鹜？其中，绝大多数人都是未受到主题展官方邀请而另辟蹊径的“展示”，期望着回国后能讲一个传奇的“参展”故事。而这一届，纵然人数最巨、哗众取宠的招数不断，大部分作品还是迅速消失在流沙中。<br />
+在这个社会新闻报道之外，我们的特派记者也带来2013年威尼斯双年展众多优秀作品的扫描，并专访了策展人和艺术家，融在第二篇《“艺术是观察世界的方式”》。
+	</p>
+	<div align="center">
+		<a href="http://pic.kuaishubao.com/picdata/goods/7/3/A500025879242_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/3/A500025879242_xt_cj_2.jpg"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+	</div>
+	<p>
+		<span style="color:#8b4513;"></span> 
+	</p>
+</div>
+<div class="goods-content-title">
+	Lens视觉杂志简介
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		《Lens》
+（原名《LENS.视觉》或《财经.视觉》）杂志隶属财讯传媒，是一本深度关注社会、文化、历史和生活方式的影像新闻杂志。自2005年1月创办以来，以
+图文结合的叙述方式，关注不断变化的现实和永恒不变的人性，每一期都在努力成为您身边最具阅读价值的出版物。
+	</p>
+<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A500025879242', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A500025879242', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A500025879242', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A500025879242', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A500025879242'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

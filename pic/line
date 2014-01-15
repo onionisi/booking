@@ -1,0 +1,2 @@
+#find . -name "*.pic" | while read line;do fen=`identify $line|awk '{print $3}'`;if [ "$fen" == "100x100" ];then mv $line 100; fi; done
+find . -name "*.pic" | while read line;do fen=`identify $line|awk '{print $3}'`;echo $fen; done

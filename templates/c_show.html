@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <section>
+    	<a href="javascript:history.go(-1);">
+    		<span class="return">返回</span>
+    	</a>
+    </section>
+    <section>分类</section>
+    <section></section>
+{% end %}
+
+{% block body %}
+<style>
+    .u-boxlist-w300 li a div img{height: 94px;width: 94px;}
+</style>
+<div class='u-boxlist-w300' style="margin-top: 20px;">
+    <ul>
+        {% for each in entry %}
+            {% module Unit(each) %}
+        {% end %}
+    </ul>
+</div>
+<script> $("img[data-url]").imglazyload(); </script>
+{% end %}

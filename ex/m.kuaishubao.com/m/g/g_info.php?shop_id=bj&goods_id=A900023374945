@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_1.jpg">
+        <h2>Kindle Paperwhite电子书阅读器（第一代）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥849.00元</b> <del>¥849.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：台</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_1.jpg','Kindle Paperwhite电子书阅读器（第一代）-世界领先的阅读设备——超清对比度、超高分辨率触控屏，独一无二的内置阅读灯，长达八周的电池续航时间。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品参数
+</div>
+【显示屏】亚马逊6英寸（15.2厘米）触控显示屏，内置阅读灯，字体优化技术，<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1024 x 758像素分辨率（212 PPI），16级灰度。<br />
+【尺寸大小】 169毫米x 117毫米x 9.1毫米。<br />
+【重量】 213克。<br />
+【存储容量】2GB存储空间（包括大约1.25 GB的用户存储空间）。<br />
+【云存储】所有从亚马逊获得的内容均可免费存储在云端。<br />
+【电池续航时间】如果每天阅读半个小时，在无线连接关闭的情况下，阅读灯的亮度设置为“10”，一次充电可持续工作八周。<br />
+【充电时间】用随机提供的USB连接线插入电脑，4小时左右即可充满。<br />
+【WiFi连接】支持IEEE 802.11b/g/n传输规范，支持WEP、WPA和WPA2安全连接。<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="white-space:normal;">接入无线网络即可，无需通过电脑配置系统。</span><br />
+【支持的内容格式】Kindle (AZW),TXT,PDF,MOBI,PRC原格式，<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HTML,DOC,DOCX,JPEG,GIF,PNG,BMP转换格式。<br />
+【随机提供的资料】附在包装盒内的《快速入门指南》 ，以及预先安装在设备上的《Kindle全球用户指南中文版》。<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 质保和服务	Kindle有限保证服务。使用〖Kindle Paperwhite〗电子书阅读器前，请查看使用条款。<br />
+【包装清单】 Kindle Paperwhite电子书阅读器，USB 2.0连接线和《快速入门指南》。<br />
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品介绍
+</div>
+<div style="text-align:center;">
+	<div style="text-align:left;white-space:normal;">
+		<strong>【主要功能】</strong><br />
+独有的内置阅读灯可均匀照亮整个屏幕，无论您身处任何光线环境，都能享受到完美的阅读体验。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		高达212PPI的屏幕分辨率，呈现无可比拟的细腻文字及图像。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		超高对比度屏幕让文字显示更加清晰。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		即使在明亮的日光下，也能显示清晰、明锐的文字和图像，绝无屏幕眩光。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		可以根据个人喜好选择字体（宋体、黑体或者楷体），共有八种字号供您选择。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		即使在内置阅读灯开启的情况下，电池也可连续使用八周。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		可存储多达500本中文书——是您随身携带的图书馆。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		通过内置WiFi下载电子书，转瞬可得。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		独有的“查看剩余阅读时间”功能，可以根据您的阅读速度推算出您读完剩余章节所需的时间。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		海量畅销电子书，超低优惠价格，轻松购书随心读。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		阅读所感所悟，随时通过新浪微博分享。
+	</div>
+	<div style="text-align:left;white-space:normal;">
+		特有家长监护功能。
+	</div>
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_xj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_xj_1.jpg"></a><br />
+	<div style="text-align:left;">
+		<strong>轻松存储多达500本电子书</strong> 
+	</div>
+	<div style="text-align:left;">
+		拥有了Kindle Paperwhite电子书阅读器，您就拥有了口袋图书馆，随时随地畅享阅读！您永远也不用担心无法携带喜爱的书籍了。
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>内置WiFi</strong> 
+	</div>
+	<div style="text-align:left;">
+		无论是在家中还是户外，只要有WiFi，Kindle Paperwhite电子书阅读器便会迅速接入网络，方便您随时随地下载或选购Kindle电子书。<br />
+<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>比铅笔更纤薄</strong> 
+	</div>
+	<div style="text-align:left;">
+		Kindle Paperwhite电子书阅读器全新的纤薄设计，机身薄至9.1毫米，小于一支铅笔的直径。
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>比记事本更轻便</strong> 
+	</div>
+	<div style="text-align:left;">
+		213克的重量比您常用的记事本更加轻便。
+	</div>
+<br />
+	<div style="text-align:left;">
+	</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_xj_12.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_xj_12.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_xj_10.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_xj_10.jpg"></a><br />
+	<div style="text-align:left;">
+		<div style="white-space:normal;">
+			<strong>无可比拟的分辨率</strong> 
+		</div>
+		<div style="white-space:normal;">
+			分辨率高达212PPI的Kindle Paperwhite电子书阅读器屏幕让文字和图像更加明锐、清晰。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>令人惊叹的对比度</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器屏幕的超高对比度让深色文字在明亮的白色背景衬托下更加清晰，提供绝佳阅读体验。<br />
+<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>独一无二的内置阅读灯</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle&nbsp;Paperwhite内置阅读灯是“前光”——光线从显示屏上方向下投射，而非“背光”——像传统屏幕一样从底部向眼睛投射光线，从而极大降低长时间注视屏幕引发的视觉疲劳。无论在明亮的日光下还是昏暗的房间中，您都可以根据实际情况调节屏幕亮度，营造舒适的阅读感受。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>超长的电池续航时间</strong> 
+		</div>
+		<div style="white-space:normal;">
+			一次充电可供长达八周的连续阅读（按照关闭无线网络，同时将屏幕亮度设为“10”，每天阅读半小时计算）。革命性的电源管理技术让您可以根据实际情况随意调节屏幕亮度，并且不会降低电池的续航时间。
+		</div>
+	</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_xj_11.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_xj_11.jpg"></a><br />
+	<div style="text-align:left;">
+		<strong>在户外强光下阅读也毫无眩光</strong> 
+	</div>
+<span style="text-align:center;white-space:normal;"> 
+	<div style="text-align:left;">
+		Kindle Paperwhite电子书阅读器的哑光显示屏实现了纸张般的质感，哪怕是在户外的强光下阅读，也如同在室内阅读一般，毫不眩目。
+	</div>
+</span> 
+	<div style="text-align:left;">
+		<br />
+	</div>
+<span style="text-align:center;white-space:normal;"> 
+	<div style="text-align:left;">
+		<strong>夜间阅读光线柔和不影响他人</strong> 
+	</div>
+</span><span style="text-align:center;white-space:normal;"> 
+	<div style="text-align:left;">
+		拥有全新的Kindle Paperwhite电子书阅读器意味着您可以更舒适地躺在床上阅读。独一无二的内置阅读灯柔和地照亮屏幕而非整个房间，哪怕您在深夜沉浸于阅读，也不会影响您伴侣休息。
+	</div>
+</span><a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_xj_13.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_xj_13.jpg"></a><br />
+	<div style="text-align:left;">
+		<strong>为阅读而设计</strong> 
+	</div>
+	<div style="text-align:left;">
+		与传统的发光显示屏不同，Kindle Paperwhite电子书阅读器从电子墨水屏的上方均匀分布光线，而不是将光线从屏幕底部直射您的眼睛，让您始终保持舒适的阅读感受，防止眼睛疲劳。
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>完美均衡的白色背景</strong> 
+	</div>
+	<div style="text-align:left;">
+		为了获得最完美的光线效果，潜心研发Kindle Paperwhite电子书阅读器全新显示屏：将光纤电缆压缩成片，对其进行纳米印刷，从而保证光线能均匀分布。我们精心挑选了纳米级的散光材料，严格控制光线的走向，让均匀的照明和均衡的白色背景给您带来更真切的阅读享受。 查看不同光线情况下的屏幕显示效果.
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>可调亮度</strong> 
+	</div>
+	<div style="text-align:left;">
+		人眼会自动适应环境的光亮强度，所以您在昏暗的光线下阅读时需要偏弱的亮度，在明亮的日光下需要偏强的亮度。Kindle Paperwhite电子书阅读器设计了超强的亮度调节功能——从微暗到强亮，让您在任何光线环境下都能享受绝佳的阅读体验。
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>高效节能</strong> 
+	</div>
+	<div style="text-align:left;">
+		得益于独创的对扩散光线微粒的精准控制，Kindle Paperwhite电子书阅读器得以支持极低功耗的LED显示屏，极低的电能就能够均匀地照亮整个屏幕。
+	</div>
+	<div style="white-space:nowrap;">
+		<br />
+	</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_xj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_xj_6.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_xj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_xj_8.jpg"></a><br />
+	<div style="text-align:left;">
+		<strong><br />
+自由调节字号</strong><br />
+根据您的喜好和阅读感受自由调节电子书的字体大小，找到您最享受的阅读方式。一个手势随意调节八种字号，适应您的眼睛，有效防止眼睛疲劳，让阅读体验更持久。<strong><br />
+<br />
+自选字体</strong> 
+	</div>
+	<div style="text-align:left;">
+		内置宋体、黑体和楷体三种中文字体，根据书的内容、您的偏好和当下心情随心选择。超高的分辨率让字体显示无比明锐，优雅细腻。
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>书签和标注功能</strong> 
+	</div>
+	<div style="text-align:left;">
+		您可以在阅读过程中随时输入文字记录所思所想，与您在读纸书时进行批注一样。还可以随意编辑、删除或者导出您的笔记。对于精彩的段落或者章节，您可以加以标注、添加书签。
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>笔记和分享</strong> 
+	</div>
+	<div style="text-align:left;">
+		对于精彩的章节、笔记或者是您觉得非常有意义的格言警句，您可以在阅读的同时轻松分享到新浪微博而无需离开正在阅读的页面。您也可以通过了解其他Kindle读者经常标注的章节来了解书里面最有趣、最有意义的部分。<br />
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>支持阅读漫画</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器创新的分格浏览功能让您可以浏览分格漫画，仔细品味每一个画面。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>支持个人文档</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器也能让您方便地阅读个人文档，省掉了打印的麻烦。将您的个人文档（WORD，PDF或其他格式的文件）通过〖发送至Kindle〗电子邮箱发送至您的Kindle设备，即可使用Kindle Paperwhite电子书阅读器进行阅读。<br />
+<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>剩余阅读时间</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器的“查看剩余阅读时间“功能让您了解阅读完本章节或者本书所需要的时间。这是一项个性化的功能，基于您的阅读速度而推算，根据您阅读习惯的变化而变化。有了这项功能，您便可轻松决定是否再阅读一章或读完在读章节就休息。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>〖Whispersync〗功能</strong> 
+		</div>
+		<div style="white-space:normal;">
+			同样创新的还有〖Whispersync〗功能，这项技术能够在不同的阅读设备上自动同步您的最远阅读位置、书签以及标注。无论使用何种设备，您都可以从最远的阅读位置继续阅读。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>免费的电子书备份</strong> 
+		</div>
+		<div style="white-space:normal;">
+			您所有的电子书都会自动备份在亚马逊云端存储空间，让您永远不用担心丢失任何一本。通过无线网络您可随时免费重新下载。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>联网搜索</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器让搜索图书内容变得十分简单。键入希望搜索的词句，Kindle Paperwhite电子书阅读器便会自动搜索内容库，包括在本书里搜索，在您的Kindle图书馆里搜索，到Kindle电子书商店里搜索，或者利用百度搜索引擎搜索互联网。Kindle Paperwhite电子书阅读器配备了基于Webkit内核的网页浏览器，为电子书阅读器带来更佳的互联网体验。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>内置字典，生字生词随时查</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器内置了免费的《现代汉语词典》、《现代英汉词典》等多本词典工具书，在阅读中遇到任何不解的字词，都可以随时查阅释义，无需中断阅读。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>即时翻译</strong> 
+		</div>
+		<div style="white-space:normal;">
+			点击文中任意单词或选择语句段落，即可通过Bing翻译工具实时将文字翻译成其他语言，比如英语，西班牙语等。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>支持显示全球多种语言</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器能够支持几乎所有的语言，更针对中文（简体以及繁体）显示进行了优化设计。Kindle Paperwhite电子书阅读器也能完美显示多种文字，如韩文、德文、法文和日文等。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>无线购买</strong> 
+		</div>
+		<div style="white-space:normal;">
+			连接无线网络，您就可以通过Kindle Paperwhite电子书阅读器浏览Kindle商店，从海量书目中选购您感兴趣的书籍。转瞬之间，亚马逊便会将您购买的电子书发送到您的阅读器上。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>个性化推荐</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle Paperwhite电子书阅读器根据您个人的阅读喜好为您推荐您可能感兴趣的书籍。Kindle商店的个性化推荐体验和您在亚马逊购物网站的体验完全一致，让我们的最佳推荐和您的阅读喜好完美结合。<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>海量书库</strong> 
+		</div>
+		<div style="white-space:normal;">
+			Kindle商店拥有海量书目供您随意选择，其中大多数的电子书售价低于9.99元。亚马逊和全国乃至全球的主流出版商建立了稳固的合作伙伴关系，为您提供最新的畅销书和深受读者喜爱的经典名著。
+		</div>
+		<div style="white-space:normal;">
+			<br />
+		</div>
+		<div style="white-space:normal;">
+			<strong>家长监护</strong> 
+		</div>
+		<div style="white-space:normal;">
+			您可以使用【家长监护】功能在您的设备上为孩子下载好他最喜爱的书，然后锁住Kindle商店、云端和浏览器，这样您就可以放心无忧地让孩子使用您的Kindle Paperwhite电子书阅读器了。
+		</div>
+	</div>
+	<div style="text-align:left;">
+	</div>
+	<div style="text-align:left;">
+	</div>
+</div>
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品实拍图
+</div>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_sp_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_sp_1.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_sp_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_sp_2.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_sp_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_sp_3.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/2/A900023374945_xt_sp_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/2/A900023374945_xt_sp_4.jpg"></a><br />
+<strong></strong><strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong><strong>&nbsp; &nbsp;&nbsp;</strong><strong>&nbsp; &nbsp; 与iPhone4对比图<br />
+</strong><br />
+	<div style="text-align:left;">
+		<strong>单手轻握</strong> 
+	</div>
+	<div style="text-align:left;">
+		比普通记事本更加轻便的Kindle Paperwhite电子书阅读器让您可以单手轻松握住，阅读时间再久也不会有疲劳或者不适感。
+	</div>
+	<div style="text-align:left;">
+		<br />
+	</div>
+	<div style="text-align:left;">
+		<strong>快速、简易的翻页</strong> 
+	</div>
+	<div style="text-align:left;">
+		点击Kindle Paperwhite电子书阅读器反应灵敏的触摸式EasyReach区域就可以快速翻页，无需滑动或者双手操作，翻页非常灵敏、顺畅。<span style="white-space:nowrap;text-align:center;"></span> 
+	</div>
+</div>
+<span style="white-space:normal;"></span><span style="white-space:normal;"></span><br />
+<div style="white-space:normal;">
+	<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A900023374945', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A900023374945', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A900023374945', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A900023374945', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A900023374945'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

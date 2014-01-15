@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">蓝印花布</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+<style>
+    .u-boxlist-w300 li a div img{height: 94px;width: 94px;}
+</style>
+  <div class="g-bd">
+    <div class='u-boxlist-w300' style="margin-top: 20px;">
+      <ul>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A560018286001">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/0/1/A560018286001_2.jpg">
+                <h2>快书包&莲子蓝印花布中药坐垫</h2>
+                <div class='price'>
+                  <span>¥80.00</span>
+                  <del>¥120.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A490020006667">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/5/4/A490020006667_2.jpg">
+                <h2>快书包&莲子蓝印花布环保餐具套装（灰绳款、蓝绳款，随机发货）</h2>
+                <div class='price'>
+                  <span>¥45.00</span>
+                  <del>¥75.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A780018639171">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/3/a/A780018639171_2.jpg">
+                <h2>快书包&莲子蓝印花布笔袋</h2>
+                <div class='price'>
+                  <span>¥50.00</span>
+                  <del>¥80.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A750018285868">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A750018285868_2.jpg">
+                <h2>快书包&莲子蓝印花布中药腕枕  鼠标手护腕 鼠标枕</h2>
+                <div class='price'>
+                  <span>¥29.00</span>
+                  <del>¥59.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A940015180253">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/b/9/A940015180253_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布沙包</h2>
+                <div class='price'>
+                  <span>¥20.00</span>
+                  <del>¥30.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A200015864357">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/2/a/A200015864357_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布托特包</h2>
+                <div class='price'>
+                  <span>¥188.00</span>
+                  <del>¥208.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A740014232017">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/5/A740014232017_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布自然风拎手包袱皮</h2>
+                <div class='price'>
+                  <span>¥38.00</span>
+                  <del>¥58.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A001352911568">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/5/A001352911568_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布拼素麻自然风iPad mini套</h2>
+                <div class='price'>
+                  <span>¥68.00</span>
+                  <del>¥98.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A001352911571">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/a/A001352911571_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布自然风-篆文斗金包（蓝色抽绳和里袋）</h2>
+                <div class='price'>
+                  <span>¥48.00</span>
+                  <del>¥58.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A001352911572">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/8/a/A001352911572_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布自然风-庄生梦蝶四方斗金包（红色抽绳和里袋）</h2>
+                <div class='price'>
+                  <span>¥48.00</span>
+                  <del>¥58.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A610014230307">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/3/A610014230307_2.jpg">
+                <h2>快书包&莲子 南通手工蓝印花布叶底藏花书包</h2>
+                <div class='price'>
+                  <span>¥168.00</span>
+                  <del>¥188.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A001352909241">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A001352909241_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布拼素麻自然风IPAD套</h2>
+                <div class='price'>
+                  <span>¥78.00</span>
+                  <del>¥98.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A001352909238">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/c/A001352909238_2.jpg">
+                <h2>快书包&莲子可调节蓝印花布书衣</h2>
+                <div class='price'>
+                  <span>¥39.00</span>
+                  <del>¥59.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A001352909228">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/d/8/A001352909228_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布自然风包袱皮</h2>
+                <div class='price'>
+                  <span>¥28.00</span>
+                  <del>¥38.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=xian&amp;goods_id=A001352909223">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/f/f/A001352909223_2.jpg">
+                <h2>快书包&莲子南通手工蓝印花布拼素麻自然风布包</h2>
+                <div class='price'>
+                  <span>¥128.00</span>
+                  <del>¥158.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                </ul>
+    </div>
+      <script>
+          $("img[data-url]").imglazyload();
+      </script>
+    <div class='m-page-m1'>
+      <span class='prev-disable'>上一页</span>&nbsp;&nbsp;1/1&nbsp;&nbsp;<span class='next-disable'>下一页</span>
+    </div>
+      <script>
+          function mksbhref(url){
+              location.href=url;
+          }
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../hzh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../hzh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/4/f/A300016290198_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/4/f/A300016290198_1.jpg">
+        <h2>许倬云说历史：台湾四百年</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥19.30元</b> <del>¥29.80元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/4/f/A300016290198_1.jpg','许倬云说历史：台湾四百年-史学大家许倬云写给两岸同胞的台湾简史。了解过去的台湾，理解现在的台湾（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数<br />
+</div>
+【语种】简体中文<br />
+【作者】许倬云<br />
+【出版】浙江人民出版社<br />
+【出版时间】2013年6月<br />
+【装订】平装<br />
+【页数】160页<br />
+【开本】 32开<br />
+【ISBN】9787213046131<br />
+【品牌】铁葫芦历史馆<br />
+<div class="goods-content-title">
+	内容简介<br />
+</div>
+<p>
+★一本书读懂台湾的历史与现实<br />
+★了解过去的台湾，理解现在的台湾<br />
+★史学大家许倬云写给两岸同胞的台湾简史<br />
+内容推荐<br />
+★对于台湾历史的演变，我们应该如何抱以同情之理解？<br />
+★台湾的民主转型，能给我们哪些启示？<br />
+★两岸关系，在未来将往何处发展？<br />
+许倬云先生以恢宏的史家视野与饱含情感的语言，为我们描绘了四百年来台湾历史的起落兴衰：从16世纪的大航海时代开始，台湾经历了荷兰殖民、郑氏集团、清政府、日本殖民和国民党政权的统治，始终未曾摆脱本土、大陆和世界三层因素的纠缠。《许倬云说历史：台湾四百年》简明扼要地梳理了台湾的历史变迁，总结了20世纪70 年代以来台湾政治经济发展的得失，表达了一代学人对海峡两岸未来的忧思与期盼。<br />
+<br />
+一个朝代的盛衰，归结为一句话，就是公权力的核心是不是开放的。<br />
+——许倬云<br />
+我老师学问很大，但很天真。<br />
+——王小波<br />
+我学了一辈子的目标，就是不糊涂。<br />
+——许倬云<br />
+要有人写中国历史，不写政治、战争、制度、帝王将相，专写老百姓，那个人一定是他。<br />
+——《北京青年报》<br />
+能把严谨的学术著作写得好看的，非大学者不能为，因为只有大学者既能够钻进去，又能够跳出来，所以写出东西来才能举重若轻、深入浅出。<br />
+——《新京报》<br />
+他能把严谨、精深的学术内容，阐释得举重若轻，又能叙述得深入浅出。<br />
+——《广州日报》
+</p>
+<div class="goods-content-title">
+	<p>
+		作者简介</div>
+	</p>
+	<p>
+		许倬云，1930年生，江苏无锡人。现为美国匹兹堡大学历史学系荣休讲座教授，中国台湾“中研院”院士。<br />
+许倬云先生不仅以其深厚的学养享誉海内外学术界，近二十年来他还致力于历史知识的普及工作，力图将历史的现实意义呈现给大众，在大陆陆续出版了《万古江河》、《从历史看管理》、《许倬云说历史：大国霸业的兴废》、《许倬云说历史：现代文明的成坏》等著作，受到读者的普遍欢迎。
+	</p>
+	<div class="goods-content-title">
+		<p>
+			目录
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		前 言<br />
+第一章 被西洋海盗与东方倭寇拽进历史<br />
+第二章 从海盗集团到“开台圣王”<br />
+第三章 清政府的“汉化”大开发<br />
+第四章 五十年的“亚细亚孤儿”<br />
+第五章 国民党“威权”统治台湾<br />
+第六章 走向政治民主、经济腾飞的新时代<br />
+第七章 积患重重，当共建世界新文明<br />
+后 记
+	</p>
+	<div class="goods-content-title">
+		在线试读
+	</div>
+<b>光复台湾</b><br />
+1945年，八年抗战结束，日本向同盟国投降。根据四大同盟国的协议，日本应当归还所有侵占其他国家的领土。于是台、澎地区归还中国，台湾光复。但是，当时大陆全面的内战已经开始，国民党政府忙于大陆上的阋墙之争，也没有能力派遣足够的人力和军力，接收日本离去以后的台湾。陈仪遂因地利，奉命从福建接收台湾。<br />
+八年抗战期间，福建不在主要的战线上，日军只占领了福建几个主要城市，并没有占领全省。当时福建的管理情况是相当地方性的，中央政府在重庆，无法照顾到遥远的福建。陈仪在福建，俨然半独立，手上的资源也有限。<br />
+他的军力是将各个地方性的团队和游击队，组编为一个军的番号建成的，其装备和训练都不够正规军的规格。<br />
+陈仪带着如此一支部队进入台湾，实在是不适当的选择。台湾同胞在被日本殖民统治五十年之后，回归祖国，心里十分兴奋，大家一心以为，从此可以摆脱二等国民的身份，成为堂堂正正的中华民国国民。当时全岛准备欢迎中华民国的国军，但是从码头上下来的，却是衣衫褴褛、装备粗劣、训练不足的一群军人。在台湾同胞印象中，日本皇军地位高、军容盛，两者相比，对中国军队的形象，陡然大失所望。<br />
+1945 年到1948年之间，台湾非常混乱。陈仪本身奉命接收台湾，是因为他跟日本关系非常密切，即所谓“日本通”。他和中央的关系并不良好。居留台湾，中央鞭长莫及，他要求台湾一切都有特殊待遇，有自己的货币，有自己独立的行政权。他的政治理念，乃是在国共之间另辟蹊径，寻找社会主义与民族主义两者兼顾的方向。他的梦想，是使台湾在相当程度上隔离于中国本土的纷争，有机会实现他的理想。因此，他也拒绝中央派兵支持。于是，中央派来台湾的正规军，只有嘉义机场上的防卫部队和高雄的要塞部队。全台湾军队和警察的力量，其实非常单薄。<br />
+幸而台湾同胞在日本统治下，长期以来已经训练了守法的习惯，一时之间，似乎没有太大的问题。<br />
+　　……<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A300016290198', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A300016290198', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A300016290198', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A300016290198', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A300016290198'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

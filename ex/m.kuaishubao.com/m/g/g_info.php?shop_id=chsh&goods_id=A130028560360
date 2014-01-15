@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_1.jpg">
+        <h2>永玉六记珍藏版（全7册）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥210.00元</b> <del>¥280.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：套</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_1.jpg','永玉六记珍藏版（全7册）-《永玉六记》是黄永玉先生的代表作，风行一时，但已绝版多年。本次经黄永玉先生特别授权，读库进行全新修复整理，以“珍藏版”再版发行（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】黄永玉 著 张立宪 编<br />
+【出版社】新星出版社；2013年9月第1版<br />
+【装订】24开；精装<br />
+【页数】全七册<br />
+【印刷】双色<br />
+【ISBN】9787513312974<br />
+【品牌】<span style="color:#666666;white-space:normal;">读库<br />
+	<div class="goods-content-title" style="white-space:normal;">
+		商品详图
+	</div>
+	<div style="text-align:center;">
+		<div style="text-align:left;">
+			全部七册采用牛皮纸封面，软精装。软精装是为了方便图书的平展摊开。
+		</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_34.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_34.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_31.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_31.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_24.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_24.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_25.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_25.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_27.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_27.jpg"></a><br />
+	</div>
+</span> 
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+《永玉六记》是黄永玉先生的代表作，风行一时，但已绝版多年。本次经黄永玉先生特别授权，读库进行全新修复整理，恢复当年因故删去的若干内容，以“珍藏版”再版发行。<br />
+<br />
+《永玉六记 珍藏版》为盒装套装，全七册。比原版《永玉六记》多出的一册，名曰“诺亚方舟·芥末居撷片”，是九旬高龄的黄永玉先生特地为本次再版，从《罐斋杂记》（又名“诺亚方舟”）、《芥末居杂记》中择取二十余幅作品，重新以彩墨绘制而成的别册，并附李辉先生撰写的近七千字后记，以利大家了解这部作品的创作历程和艺术特色。<br />
+<br />
+<strong>编者手记<br />
+<div style="text-align:center;">
+	<span style="font-weight:normal;"><a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_55.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_55.jpg"></a></span>
+</div>
+</strong> 
+<div class="goods-content-title">
+	内容看点
+</div>
+《永玉六记》在黄永玉的作品中，最具文学、美术联姻的个人特色。有文，却又非单纯的文学；有画，却非单纯的美术。《永玉六记》是黄永玉独创的将文与图有机结合、意义互现的一种文学样式。<br />
+<br />
+“一语配一画，语极精辟，画极传神”。<br />
+<br />
+有文，却又非单纯的文学；有画，却非单纯的美术。《永玉六记》是黄永玉独创的将文与图有机结合、意义互现的一种文学样式。<br />
+<br />
+九旬高龄的黄永玉先生为本次再版特别绘制的彩墨插图。<br />
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_29.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_29.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_42.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_42.jpg"></a><br />
+	<div style="text-align:left;">
+		这些彩墨作品与半个世纪前的笔墨的对比<span style="text-align:center;"></span> 
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_46.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_46.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_35.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_35.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_21.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_21.jpg"></a><br />
+		</div>
+	</div>
+</div>
+<div class="goods-content-title">
+	作者：<span style="white-space:normal;">&nbsp;黄永玉</span> 
+</div>
+<b>作者简介</b><br />
+黄永玉，原籍中国湖南省凤凰县，1924年出生于常德县，土家族人，著名画家、作家。<br />
+<br />
+黄永玉先生创作《永玉六记》，始于1964年。二十年后，1983年，率先以《永玉三记》为题，由香港三联书店出版最初三种，依次为《罐斋杂记》、《力求严肃认真思考的札记》、《芥末居杂记》，并在港举办“《永玉三记》插图展”。1993年，由香港古椿书屋出版后三种，依次为《斗室的散步》、《往日，故乡的情话》、《汗珠里的沙漠》。1997年，北京三联书店将新出三种与最初的《永玉三记》汇集出版，统称为《永玉六记》，全套近七百幅。<br />
+<br />
+2013年，黄永玉先生迎来九十华诞，也是他开始创作《永玉六记》五十周年，首次结集出版三十周年。为此，《读库》特别推出珍藏版《永玉六记》。年届九旬的黄永玉先生，从《罐斋杂记》、《芥末居杂记》中择取二十余幅作品，重新以彩墨绘制。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<strong>斗室的散步</strong><br />
+<br />
+<strong></strong><strong>汗珠里的沙漠</strong><br />
+<br />
+<strong></strong><strong>诺亚方舟·芥末居撷片</strong><br />
+<br />
+<strong></strong><strong>往日，故乡的情话</strong><br />
+<br />
+<strong></strong><strong>芥末居杂记</strong><br />
+<br />
+<strong></strong><strong>力求严肃认真思考的札记</strong><br />
+<br />
+<strong></strong><strong>罐斋杂记</strong> 
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<div style="text-align:center;">
+</div>
+<div style="text-align:left;">
+	《罐斋杂记》内页选<br />
+</div>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_11.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_11.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_17.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_17.jpg"></a><br />
+	<div style="text-align:left;">
+		<br />
+力求严肃认真思考的札记》内页选<br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_20.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_20.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_22.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_22.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_23.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_23.jpg"></a><br />
+		</div>
+<br />
+《芥末居杂记》内页选<br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_18.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_18.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_19.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_19.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_37.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_37.jpg"></a><br />
+		</div>
+		<div style="text-align:center;">
+			<br />
+		</div>
+《往日，故乡的情话》内页选<br />
+		<div style="text-align:center;">
+		</div>
+	</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_13.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_13.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_36.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_36.jpg"></a><br />
+<br />
+	<div style="text-align:left;">
+		《汗珠里的沙漠》内页选<br />
+<br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_40.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_40.jpg"></a> 
+		</div>
+	</div>
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_38.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_38.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_39.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_39.jpg"></a><br />
+<br />
+	<div style="text-align:left;">
+		《斗室的散步》内页选<br />
+	</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_16.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_16.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_32.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_32.jpg"></a><br />
+	<div style="text-align:left;">
+		<br />
+黄永玉先生特为本次再版绘制的彩墨画稿<br />
+	</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_30.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_30.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_41.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_41.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_43.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_43.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/f/7/A130028560360_xt_cj_44.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/7/A130028560360_xt_cj_44.jpg"></a><br />
+</div>
+<div style="text-align:center;">
+	<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A130028560360', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A130028560360', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A130028560360', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A130028560360', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A130028560360'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chsh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chsh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

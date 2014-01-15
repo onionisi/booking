@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/c/f/A001352908843_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/c/f/A001352908843_1.jpg">
+        <h2>圣乔治堡波尔多干红葡萄酒Fort Saint Georges AOC Bordeaux</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥125.00元</b> <del>¥150.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：瓶</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/c/f/A001352908843_1.jpg','圣乔治堡波尔多干红葡萄酒Fort Saint Georges AOC Bordeaux-法国原瓶进口，产地波尔多（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          
+			<!-- 商品详情 -->
+			<div class="goods-content-title">详情：</div>
+			<div class="Goods-Content-Box">
+<p><strong>圣乔治堡波尔多干红葡萄酒Fort Saint Georges AOC Bordeaux</strong><br />
+<br />
+<strong>商品属性</strong><br />
+品种: 美乐<br />
+酒精度: 12.5%vol<br />
+产区: 法国 波尔多<br />
+年份: 2007年<br />
+等级:波尔多AOC<br />
+规格: 750ml<br />
+<br />
+<strong>品鉴记录</strong><br />
+色泽：新鲜的宝石红色<br />
+香气：有清新的草莓和覆盆子的香气，以及紫罗兰花香<br />
+口感：均衡，回味细致悠长<br />
+适饮温度：16-18℃</p>
+<p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201108151552303064.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201108151552303064.jpg"></a></p>
+<p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201108151552321602.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201108151552321602.jpg"></a></p>
+<p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201108151552338032.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201108151552338032.jpg"></a></p>
+<p><br />
+<br />
+<strong>小贴士：<br />
+<br />
+<br />
+France法国</strong></p>
+<p><br />
+提到法国，每位爱酒人士都兴奋不已，甚至热血沸腾。这个全世界最富盛名的产酒王国，生产全世界最多的不同风格的葡萄酒，甚至可以说，走进了法国葡萄酒这个迷宫，很多人恐怕都会迷路呢！即使葡萄酒新人，对于香槟、勃艮第、波尔多、隆河这样的产区，都不会感到陌生。</p>
+<p><br />
+法国这方水土，赋予了葡萄酒太多的传奇色彩，让无数人在此流连忘返。这个世界上即使拥有与法国同等经纬度的地方，却难以复制出法国相同的独特风味。</p>
+<p><br />
+法国人极其自豪地认为，他们拥有独特且多变的气候和土壤，这些小气候造成了今天缤纷多彩、品质卓越的法国葡萄酒。法国酿造了世界上最多的顶级好酒，这个是毫无争议的，法国人酿造出的每一种顶级葡萄酒都是全世界酿酒师的模范教科书，把葡萄与气候、土壤、种植、酿造、人文完美地融合在一起，酿造出让人难以言喻的卓越美酒。</p>
+<p><br />
+目前，在全球最值得收藏和投资，并被品酒师津津乐道的Top100葡萄酒中，法国要占掉几乎80%，这样的骄人成绩让新旧葡萄酒世界毫无争议地把葡萄酒世界的顶级皇冠带到法国的头上。</p>
+<p><br />
+法国西邻大西洋，南接地中海，东面有着阿尔卑斯山的阻隔。整个国家多河流，多山谷，因此造成了无数多变的小气候和小环境。法国人根据几百年的种植和酿造经验，总结出每个地区最适合种植的葡萄品种以及最适合的酿造方法，酿造出举世无双的葡萄酒。</p>
+<p><br />
+因此，很多今天在全球流行的葡萄品种，都源自于法国。也有人说，了解了法国葡萄酒，就几乎了解了全球葡萄酒的半边天，这句话不无道理。1936年，法国就建立了当时全世界第一套最完善的葡萄酒法律和产地保护制度，用来保持每个地区葡萄酒风味的传统特色，规范葡萄酒的品质，以及维护葡萄酒的传统地位。这套制度也被其他欧洲国家，例如西班牙、意大利、葡萄牙借鉴。一些新世界国家，如美国、澳洲，最近几年也开始强调产地特色，而不再仅是单一的用品种区别葡萄酒。</p>
+<p><br />
+<strong>法国葡萄酒10大知名产区</strong></p>
+<p><br />
+法国10大产区：香槟产区（Ch a m p a g n e）、阿尔萨斯产区（ A l s a c e ） 、卢瓦尔河谷产区（ L o i r e V a l ley）、勃艮第产区（Bourgogne）、汝拉和萨瓦产区 （Jura etSavoie）、隆河谷产区（Rhon e Va l l ey）、波尔多产区（Bor d e a ux）、西南产区（ S o u t h - W e s t ） 、朗格多克－ 鲁西雍产区（Lan g u e d o c - R o u s s i l l o n）、普罗旺斯产区（Provence）。</p>
+<p><br />
+这里所说的10大产区，并不是因为法国仅仅只有10个大产区，只是10大喊起来比较顺口，数字又显得完整好记，因此就这样叫开了。</p>
+<p><br />
+法国10大产区，各自有各自独特的气候和土壤，酿造风格各异、精彩绝伦的葡萄酒。在新旧世界各大知名的葡萄酒排行榜上，这10大产区，闻名遐迩，风光无限。香槟产区是全球最好的起泡酒故乡，阿尔萨斯产区以芳香和高品质白葡萄酒闻名于世，卢瓦尔河谷产区有着&ldquo;法国后花园&rdquo;之称，勃艮第产区有着崇高土地精神，汝拉产区以天下第一黄酒闻名，隆河谷产区热情似火，波尔多产区充满贵族气息，西南产区有着小波尔多之称，朗格多克－鲁西雍产区是法国最大的餐酒出产地，普罗旺斯产区则充满诱惑的沙滩、阳光、薰衣草。</p>
+<p><br />
+现在开始，带上你的行囊，随着我们的葡萄酒地图，走进法国吧！</p>
+<p><br />
+<strong>法国葡萄酒分级：</strong></p>
+<p><br />
+法国葡萄酒总共可分为四级：从上到下分别是，法定地区葡萄酒（AOC），优良地区餐酒（VDQS）、地区餐酒（Vin de Pays ）、日常餐酒（Vin de Table）。除此之外，每个地区例如波尔多、勃艮第等还有自己当地的分级制度。</p>
+<p><br />
+<strong>法定地区葡萄酒（Appellation d&rsquo;Origine Controlee 简称AOC）：</strong></p>
+<p><br />
+AOC是法国葡萄酒的最高等级，自1936年成立以来，如今已经有了400多个法定产区，占全国一半的产量，每一个AOC产区都会详细规定其使用的葡萄品种、最低酒精含量、最高产量、种植方式、修剪以及酿酒方法等，并且还需要通过官方分析化验和品尝，才可获得AOC证书。正是这种非常严格的规范才确保了AOC等级的葡萄酒始终如一的优良品质和传统风味。在法国，每一个大的产区里又分很多小的产区。一般来说，产区越小，葡萄酒的质量也会越高。AOC虽然对保护产地特色起到了重要的作用，但也并非完美，其指定的葡萄品种和酿造方法扼杀了有些酒农的创造力，例如，在法国南隆河地区，用赤霞珠酿造的顶级红酒，也只可划分为地区餐酒级别，只因为赤霞珠不是南隆河AOC的指定葡萄品种。APPELLATION CONTROLEE指的是法定产区，简称AC, 通常会在这两个单词中加进地名，即原产地名（Origi n e ） , 例如：APPELLATION BORDEAUX CONTROLEE或APPELLATION,BOURGOGNE CONTROLEE，就是表示波尔多或勃艮第地区的AC级别酒。</p>
+<p><br />
+<strong>优良地区餐酒（VDQS） ：</strong></p>
+<p><br />
+该等级成立于1949年，级别比AOC略低，因此限制条件例如产量和品种也会比AOC要宽松一些，一些产区在升级到AOC之前，会先给予VDQS级别，几年后再升级，有趣的是，有些酒庄乐于留在这个级别，不想上升到AOC，以免对使用的葡萄品种和酿造方法有着严格限制，影响自己发挥酿造的特色，有些品质优秀的酒庄也有些&ldquo;宁做鸡头，不做凤尾&rdquo;的感觉，这个级别的酒比较少见，只占法国产量的1%左右。但在标签上标注VDQS前仍然需要经过官方的品尝分析。</p>
+<p><br />
+<strong>地区餐酒 （Vin de Pays）：</strong></p>
+<p><br />
+该等级成立于1979年，当时主要目的是提升地区的普通餐酒品质，现在则是物美价廉，深受当地消费者喜欢的葡萄酒。目前法国大概有150个左右的地区餐酒产区，占总产量的20%左右，其中比较著名的是位于法国南部的奥克地区（Vin de Pay d&rsquo;Oc），这里气候炎热，酿出的酒饱满结实，越来越受到全球的关注。地区餐酒通常会将品种标在标签上，简单明了。</p>
+<p><br />
+<strong>普通餐酒 （Vin de Table）：</strong></p>
+<p><br />
+普通餐酒是法国葡萄酒的最低级别，占总产量的30%左右，可以用整个法国的葡萄混合酿造，对葡萄品种和产量没有什么限制，是最便宜的法国葡萄酒。由于品质一般，有一部分则用于蒸馏。<br />
+<br />
+<br />
+<strong>WineHistory葡萄酒历史</strong></p>
+<p><br />
+说起葡萄酒的历史，可比有记载的人类还要长呢！当第一颗葡萄落下地，葡萄酒的历史就开始了。我们总是可以从大量的壁画、石板、草纸等证据里发现葡萄酒的踪影，希腊文字所记载的众多宗教仪式中，葡萄酒都是不可或缺的重要部分；在《圣经》中，也多次提到了葡萄酒。</p>
+<p><br />
+葡萄酒最先吸引人类注意力的，并不是它散发的芬芳，而是它的功效。最早的时候，葡萄酒是良药和消毒剂，它使人类摆脱疾病的困扰，生命更长。伴随着人类文明的发展，葡萄酒的其他作用就也随之显现出来：它给人慰藉，给人勇气，让人们摆脱精神的疲惫，消除战争的恐惧和内心的寂寞；它可以与食物搭配，是美味的调料，是佐餐品，让食物的味道更鲜美；它也用来炫耀财富，是上层社会最好的社交推进剂；它还作为文化交流与贸易往来的使者，它传播着宗教仪式中的人类对神与自然的崇拜。</p>
+<p><br />
+<strong>最早的历史：</strong></p>
+<p><br />
+历史学家普遍认同葡萄酒最早起源于外高加索地区高加索山脉脚下，也就是今天的亚美尼亚共和国（前苏联的亚美尼亚和格鲁吉亚共和国）。考古学家发现并经炭定年方法证明了最古老的人工栽种的葡萄出现在前苏联的亚美尼亚和格鲁吉亚，大约时间为公元前7000－5000年。</p>
+<p><br />
+随后，葡萄酒随着移民的迁徙传入中东地区。一开始是在古代的两河流域&mdash;&mdash;底格里斯河与幼发拉底河之间的美索不达米亚地区，当时是苏美尔文明，苏美尔人把葡萄酒带到此地，并在此地定居。后来传入尼罗河到波斯湾一带河谷的辽阔农作区域，这个地区出现的早期文明（公元前4000至3000年）催促了葡萄的生长。随着城邦的兴盛，原始的农业部落逐渐消失，怀有领土野心的古代航海民族，从最早的腓尼基（今叙利亚）人一直到后来的希腊、罗马人等，他们广泛地葡萄树种与酿酒的知识散布到地中海，乃至整个欧洲大陆。</p>
+<p><br />
+希腊人充满了扩张的野心，大力发展海军保护他们的领土，把葡萄树带到了意大利和法国的马赛。他们管意大利&ldquo;Oenotria&rdquo;，意为葡萄酒之地，至今许多意大利葡萄品种的名称还可以看到希腊语的身影。葡萄酒在希腊文化中占有重要地位，至今葡萄酒和橄榄油依然是希腊的两大主要出口商品。罗马的扩张比希腊来得更猛烈，军队所到之处，无不种植葡萄树，因为葡萄酒是他们必要的食物。葡萄栽培和葡萄酒酿造技术随着罗马军队的马蹄迅速传遍法国、西班牙、北非以及德国莱茵河流域等地区，并形成了很大的规模。自17世纪至今，这些地区仍是重要的葡萄和葡萄酒产区。</p>
+<p><br />
+<strong>中世纪之后：</strong></p>
+<p><br />
+罗马帝国于公元5世纪灭亡，分裂出来的西罗马帝国（法国、意大利北部和部分德国地区）里的基督教修道院详细记载了关于葡萄的收成和酿酒的过程。这些记录中详细记载了在特定农作区最适合栽种的各类葡萄品种。在当时的法国，本笃会是众多教会里最有影响力的教会，葡萄酒对他们意义非凡：葡萄酒是做弥撒的必需品，当时还没有可饮用的水，葡萄酒是日常必不可少的食物，葡萄酒可以买卖，换取赋税。当时的本笃会在欧洲有1000多座教堂，他们留下了大量有关葡萄种植技术的文献资料。</p>
+<p><br />
+他们的一个分支西多会则相信人们的劳动，特别是农活，是一种虔诚的奉献形式，他们相信自给自足才可以让灵魂得到升华。当时的教堂地位无比崇高，当时许多大地主、大富贾都认为捐献土地是一种赎罪的方式，可以让灵魂得到永久的解脱，因而传教士们占尽良机，获得了很多宝贵的土地资源，他们将大量宝贵的土地用来种植葡萄，今天勃艮第那些赫赫有名的庄园无不受益于那时的&ldquo;圈地运动&rdquo;。比如，公元 768 年至 814年统治西罗马帝国的查理曼大帝，预见了法国南部到德国北边葡萄园遍布的远景。著名勃艮第产区的 &ldquo;科通－查理曼 &rdquo;顶级葡萄园就曾经一度是教会的产业。</p>
+<p><br />
+<strong>直到现在：</strong></p>
+<p><br />
+公元15世纪末16世纪初， 西班牙和葡萄牙的海上无敌舰队将葡萄树带到了南美洲。英国、法国和西班牙人踏上北美的土地，并把葡萄树带到了这里。 17世纪，荷兰将葡萄树栽种到南非。18世纪末，英国人将葡萄树运去澳大利亚。葡萄酒的发展史，也是一部活生生的移民史，从某种意义上讲，也记载了人类的侵略史。19世纪末，发生了一场葡萄种植历史上最重要的事件。在美国独立战争的时期，法国被公认是当时最伟大的葡萄酒盛产国家。汤玛斯&bull;杰弗逊（美国独立宣言起草人）曾热心地在写给朋友的信中论及葡萄酒等级，并且也鼓励将欧洲的葡萄品种移植到新大陆来。这些早期在美国殖民地栽种、采收葡萄的尝试大部分都失败了，而且在美国本土的树种和欧洲的树种交流、移植的过程中，无心地将一种危害葡萄树至深的害虫带到欧洲来，其结果便是19世纪末的葡萄根瘤蚜病，它使绝大多数的欧洲葡萄园被毁于一旦。</p>
+<p><br />
+不过，若要说在这一场灾变中有什么值得庆幸的事，那便是葡萄园的惨遭蹂躏促成了新的农业技术的发展，以及欧洲酿制葡萄酒版图的重新分配，并且出台了新的葡萄酒法律来防止欺骗，确保了法定产区及原产地的真实性。</p>
+<p><br />
+自本世纪开始，农耕技术的发展使得各地的葡萄酒业酿制者，都可以保护作物免于遭到霉菌、动物虫害等常见侵害。葡萄的培育和葡萄酒的酿制过程也逐渐变得科学化。同时本世纪也广泛立法来鼓励制造信誉好、品质佳的葡萄酒。随着新兴的葡萄酒生产国澳洲、美国、智利、阿根廷、新西兰和中国的崛起，更多优质、各具特色的葡萄酒涌现出来，葡萄酒的世界从来没有像今天这样热闹过，并且越来越精彩，让人激动不已。</p>
+
+			</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A001352908843', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A001352908843', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A001352908843', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A001352908843', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A001352908843'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chd" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chd"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

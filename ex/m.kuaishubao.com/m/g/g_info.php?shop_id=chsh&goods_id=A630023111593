@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/d/e/A630023111593_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/d/e/A630023111593_1.jpg">
+        <h2>余生第一年：7次旅行，与生命中最重要的7个人</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥30.50元</b> <del>¥36.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/d/e/A630023111593_1.jpg','余生第一年：7次旅行，与生命中最重要的7个人-一位罹患肌萎缩症的女记者苏珊，用全身唯一能动的右手拇指在iPhone上一字一句，敲下了自己生命中最美好的一年。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】苏珊·斯宾塞·文德尔，布雷特·威特<br />
+【译者】徐嘉<br />
+【出版社】中信出版社；2013年8月第1版<br />
+【装订】32开；精装<br />
+【页数】324页<br />
+【印刷】单色<br />
+【ISBN】9787508640273
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+假如生命只剩下最后一年，你最想跟谁去旅行？<br />
+<span style="font-size:14px;">从余生的第一天起</span><br />
+好好吃饭，睡觉，过生活；<br />
+告诉你爱的人，你有多爱他们，<br />
+送他们一场旅行，记住在一起的时光。<br />
+不做道别，只留回忆。<br />
+<br />
+<span style="font-size:14px;white-space:normal;">亚马逊五星推荐，环球影视250万美元拍下电影版权即将开拍</span><br style="white-space:normal;" />
+<span style="white-space:normal;">超级畅销书《小猫杜威》作者布雷特·韦特含泪合著，称这是比《小猫杜威》更重要的一本书</span><br />
+<div class="goods-content-title">
+	内容看点
+</div>
+苏珊·斯宾塞·温德尔曾是美国佛罗里达州的著名记者。但2011 年夏天，45岁的她被诊断出患了肌萎缩症（ALS）。绝症一点点吞噬她的生活能力，瘫痪她的一切，甚至连说话也越来越不清楚。<br />
+在生命尽头，她选择与自己最亲爱的人一起旅行，并用全身唯一能动的右手拇指，在iPhone上一字一句敲下了她生命中最美好的一年：<br />
+<span style="font-size:14px;">与相识34年的挚友南希踏上育空极光之旅；</span><br />
+与丈夫约翰在结婚20周年纪念日回到婚姻生活的起点布达佩斯；<br />
+去塞浦路斯寻找亲生母亲；<br />
+陪9岁的儿子韦斯利去海湾，圆他亲吻海豚的梦想；<br />
+与14岁的女儿前往纽约挑选婚纱——为了未来她没机会参加的婚礼……<br />
+<br />
+<span style="font-size:14px;">这是一场最美丽的道别。在所余有限的生命里，苏珊勇敢地为所爱之人留下最美好的回忆，并用诙谐幽默的笔调记录生活、享受生活。她的爱丰富了这个世界，也让我们更懂得珍惜现在所拥有的一切。</span><br />
+&nbsp;
+<div class="goods-content-title">
+	<span style="line-height:24px;font-size:18px;">作者：苏珊·斯宾塞·文德尔 &nbsp;布雷特·威特</span> 
+</div>
+苏珊·斯宾塞·温德尔（Susan Spencer-Wendel），《棕榈滩邮报》资深记者。其新闻报导曾受专业新闻从业人员学会、佛罗里达新闻编辑学会表扬，获得终生成就奖。2011 年夏天，45岁的她被诊断出患了肌萎缩症（ALS）。绝症一点点吞噬她的生活能力，甚至连说话也越来越不清楚。在生命尽头，她选择与自己最爱的人一起旅行，并用全身唯一能动的右手拇指，在iPhone上一字一句敲下了这本书。<br />
+<br />
+<span style="font-size:14px;">布雷·威特（Bret Witter），职业作家，有五部作品曾登上《纽约时报》畅销排行榜，包括《小猫杜威》、《遇见星期二》等。目前和妻儿居住在乔治亚洲。</span><br />
+&nbsp;
+<div class="goods-content-title">
+	目录
+</div>
+<b>序言 亲吻海豚</b><br />
+<br />
+<b>发射升空篇</b><br />
+幸运依然<br />
+诊所<br />
+奇妙<br />
+韦斯利<br />
+动物和期望<br />
+<br />
+<b>育空篇</b><br />
+极光<br />
+谢谢<br />
+北极光<br />
+沉船滩<br />
+<br />
+<b>加州篇</b><br />
+回到过去<br />
+家庭聚会<br />
+毡房<br />
+闭合回路<br />
+<b><br />
+圣诞篇</b><br />
+在一起<br />
+欢送会<br />
+给自己的礼物<br />
+<br />
+<b>匈牙利篇</b><br />
+青春<br />
+夫妻俩<br />
+交谈<br />
+布达佩斯<br />
+<br />
+<b>乘船游篇</b><br />
+我的姐姐斯特凡妮<br />
+<br />
+<b>礼物篇</b><br />
+帕诺斯<br />
+圣经<br />
+<br />
+<b>棕榈小屋篇</b><br />
+属于我自己的地方<br />
+疯狂芒果<br />
+<br />
+<b>心旅篇</b><br />
+剪贴簿<br />
+臭泡菜<br />
+我的铁人三项赛<br />
+<b><br />
+放手篇</b><br />
+游泳<br />
+奥布里的生日<br />
+援手<br />
+临终关怀<br />
+葬礼&nbsp;<br />
+<br />
+<b>塞浦路斯篇</b><br />
+无所畏惧<br />
+海龟滩<br />
+圣安德烈亚斯<br />
+卡尔帕斯的老人<br />
+<br />
+<b>纽约篇</b><br />
+卡戴珊姐妹<br />
+玛丽娜的旅行<br />
+文身<br />
+支持<br />
+克莱因菲尔德婚纱店<br />
+永远<br />
+<br />
+<b>凯普蒂瓦岛篇</b><br />
+狮子的脚掌<br />
+<br />
+<span style="font-size:14px;">致谢</span><br />
+<br />
+<div class="goods-content-title">
+	媒体推荐
+</div>
+这本心碎又温暖的告别之书，读来让人眼中泛泪但又禁不住微笑。上天给了苏珊一张绝症牌，她却执意从生命中寻找快乐，这不只发人深省，也十分鼓舞人心。——Cokie Roberts，纽约时报畅销书《We Are Our Mothers’ Daughters》作者<br />
+<br />
+<span style="font-size:14px;">“这些游记远不止是一份对旅程的记录，更不是一份‘遗愿清单’留下的困惑。斯宾塞?温德尔不仅在邀请读者与她一同踏上旅程，感受旅途的刺激和快乐，更是在激发人们开始思考如何度过自己的余生。”</span>——《华尔街日报》<br />
+<br />
+<span style="font-size:14px;">一个女人患上ALS，身体技能一天天退化并没有阻止她尽情享受生活的每一刻，她证明了这一点。——奥普拉《O杂志》</span><br />
+<br />
+<span style="font-size:14px;">作者字字充满勇气与力量……早凋的生命令人感伤，但借着书写，她告诉亲朋好友如何继续前行，用快乐与爱来战胜恐惧——《出版人周刊》（Publishers Weekly）</span><br />
+&nbsp;
+<div class="goods-content-title">
+	在线试读
+</div>
+<b>纽约篇（7月）</b><br />
+<br />
+<b>玛丽娜的旅行</b><br />
+去纽约旅行的想法是偶尔想到的，当时我正在美容院，我的发型师正在给我染头发。<br />
+凯里不仅仅是一个发型师，她也是我的朋友。我们认识已经有10年了。我们的女儿自从上幼儿园起就是很好的朋友。我们的儿子过去经常拼车去上学。<br />
+我认识她时，她就已经和丈夫离婚了。现在她正准备和她的女朋友帕姆结婚。<br />
+帕姆是一个微生物学家，一个和蔼可亲、心地善良的科学家，擅长与人和培养皿打交道。凯里能找到帕姆这样的人让她乐疯了。她原本没必要跟我说的，但事实上，她说了100次。<br />
+其实，从她一个劲儿地往我头上涂染料，我就看得出来。<br />
+凯里就是我所说的那个“拥抱管家”女，她温柔亲切到见谁都抱，这其中也包括我的管家伊薇特。每次伊薇特过来她都会抱，而且抱得很开心。<br />
+在等染发剂涂满我的白头发的间隙，凯里细致地跟我讲了她即将举行的婚礼。地点将定在纽约，在那里，同性婚姻是合法的。她的婚纱是冰蓝色，帕姆的是黑色。她们会在新泽西州哈肯萨克市帕姆的姐姐家招待客人。纸杯蛋糕是一家名叫“蛋糕天王”的店做的，蛋糕上有蝴蝶般的绣球花。凯里已故的母亲喜欢蝴蝶。<br />
+她们还策划了许多其他细节来纪念自己失去的亲人。祖父手里搓出声响的硬币、祖母用她旧婚纱上的布料做成的花朵以及一张夭折的小婴儿的照片，还有一片冰蓝色、泪珠形状的玻璃——那是她们有一天在海滩上找到的。看到它，凯里想到了自己的哥哥。<br />
+如果我是她的话，我会非常关注那束完美的捧花：紫玫瑰，短花茎，绑花丝带的颜色恰到好处。而对于凯里和帕姆来说，她们最关注的是将逝去的人们握在她们手中。我特别感动，我说我要去参加她们的婚礼。<br />
+接着，我想起去年的时候，玛丽娜拼了命地想参加学校组织的纽约游。我告诉她，如果想去纽约玩，她就必须努力提高学习成绩。于是，她就不嚷嚷了，因为她觉得，提高成绩太麻烦了。<br />
+“你想去纽约吗？”那天晚上我问玛丽娜，“凯里要在那儿结婚。”<br />
+“当然。”玛丽娜说。<br />
+“你有别的更想去的地方吗？”<br />
+玛丽娜笑了笑。我要自夸地说，她有这世界上最美丽的笑容。卡拉巴萨斯，有人想去吗？“没有，妈妈。”她说，“纽约很好。”<br />
+“我们可以在那儿买东西。”<br />
+“真的?!”这下，她有些兴奋。<br />
+“我们可以去看百老汇歌舞剧，有小号演奏的那种。然后……也许可以去一趟克莱因菲尔德他们家。 ”<br />
+我和玛丽娜都喜欢看一个名叫“最美的新娘”的电视节目：难缠新娘们在著名的克莱因菲尔德婚纱店上演的换装秀，融时尚、剧情和亲情于其中。我跟她说过许多次：“宝贝儿，有一天我们要到克莱因菲尔德给你挑婚纱。”<br />
+我一直是个信守诺言的人至少对那些还有点儿意义的承诺是如此。<br />
+“好啊。”玛丽娜说。<br />
+“也许你可以穿一套婚纱试试。”<br />
+“妈妈！我才14岁呢。”<br />
+出发前一个周末，玛丽娜参加了八年级的舞会，那是她第一次参加舞会。她花了好几个小时的时间，在商店里买衣服、耳环、鞋子、色调合适的粉底霜，然后又跑了一趟，买了支色调合适的口红。这才像我的女儿！<br />
+她看起来美极了，成熟而年轻。穿上她第一双高跟鞋后，她走起路来像一个刚出生的小马，腿比身子长太多，站都站不稳。洋溢着青春气息的花样容貌，带着难为情的微笑。<br />
+她还没上高中呢，我就开始让她试婚纱了。<br />
+“就穿着玩儿，玛丽娜。你以前没想过去那家店看看吗？”<br />
+“好像有过。”她精神起来，“然后我们可以逛街买东西。”<br />
+“当然。”<br />
+那一刻，我并没有告诉她我在想什么。其实，我在想，她正值青春，可以变成她想变的任何一种人。<br />
+我在想，我看不到她会成为怎样一个女人了。我看不到她毕业的那一天，也听不到她在高中音乐会上唱歌。我很有可能永远都见不到她去毕业舞会了。<br />
+我没有告诉她我有多想得到这些。去一趟克莱因菲尔德婚纱店，看着我的女儿从更衣室中走出来，穿着白色的婚纱，然后突然看到10年之后的她，在她的婚礼中，在礼堂的后屋里，在那个我永远无法与她分享的时刻。<br />
+不要抱任何期望，我告诉自己。<br />
+不要让玛丽娜的生活围着你转。<br />
+我对自己承诺，在纽约，我们将顺其自然。玛丽娜想试穿多少衣服都行，但是只穿她想穿的衣服，即便她一件都不想试。我不会要求她做任何事情，不会抱任何期望。我不会强迫我的女儿去做任何她不想做的事情。<br />
+很久以前，在我确诊时，我就意识到了，我不能强求任何事情。唤醒你心中的禅，苏珊，该来的总会来的。<br />
+我们不会买婚纱的。后来，某个记者写道，我和玛丽娜去纽约买了一件婚纱。<br />
+那个记者是什么人啊！哪个精神正常的女人会在她婚礼前10年买婚纱？不会有哪个母亲会强迫她的女 儿做这件事。时尚在变，时代也在变。<br />
+我只是想编织一份回忆。<br />
+我想看到我漂亮的女儿结婚的那一天，我想看一下她会成为怎样的女人。<br />
+也许我会哭。可那是母亲的泪水，是吧？但我也会 笑。因为我会和玛丽娜在一起，想象着她幸福生活的样子。<br />
+那就是我想编织的回忆。<br />
+当我唯一的女儿在她结婚的那天想起我时——希望她能回想起我——我希望她能想起我在克莱因菲尔德婚纱店笑着对她说，“你太美了，我的孩子”。<br />
+“你真可爱，妈妈。”玛丽娜说，把我带回了现实，“我们完全可以去克莱因菲尔德婚纱店看看。”<br />
+她拾起我马尾辫上散下来的一缕头发，掖到了我耳朵后面。这是我再也做不到的事情了，即使在头发伸到鼻子里让我发痒的时候。<br />
+她用胳膊搂住了我，就像给了我一个青春期的拥抱一样。我用蜷曲的手指轻轻地拍了拍她的胳膊。<br />
+就像那样，片刻的完美。<br />
+她跳起来，脸上挂着玛丽娜式的微笑。“能给我点儿钱吗？凯西要去买冰激凌吃。”<br />
+“当然，亲爱的。”我说，“把我的钱包从包里拿出来。”她照做了。<br />
+“纽约。”她偷偷地把20美元塞进后兜时我微笑着说道，“请把找的零钱还给我。”<br />
+“哦，妈妈。”玛丽娜说，“你太可爱了。”<br />
+她走掉了。<br />
+<br />
+<b>文身</b><br />
+我不知道怎么突然想起了文身这个话题的。我从来 没文过，也不想文。<br />
+当时，我们都在棕榈小屋里。斯特凡妮，约翰，几个朋友，还有玛丽娜。<br />
+我们在棕榈小屋里无话不谈。那个小屋好像有一种利尿剂的效果——什么话都会一股脑儿地蹦出来。<br />
+所以，我猜想，当时我们是开了个玩笑吧。我们准备去克莱因菲尔德婚纱店，TLC电台播过这家店的节目。那我们为什么不顺便去NYINK看看呢？TLC电台也有一档真人秀节目是关于这家布鲁克林文身店的。<br />
+唉，无聊！相对于不常看电视的人来说，我们确实是被电视节目深深地荼毒了。<br />
+“我到了那儿就文一个。”我说，大笑起来。<br />
+“文哪儿，妈妈？大腿上？”<br />
+啊！我再也不能弯下身子指着那个地方了。<br />
+“不是大腿，是脚踝。有了文身，我的脚踝肯定会 觉得那是——”我停下来控制了一下自己的舌头。&nbsp;<br />
+在说一些重要词的时候我都得先控制一下，“意外发现之才。”<br />
+“那是什么意思？”玛丽娜问。<br />
+那是一个我会用来描述我这一生的词。<br />
+意外发现之才，就是好运气，指一种碰巧发现某种合人心意的事物的本领。<br />
+“查查字典吧。”我说。<br />
+“哦，妈妈。”玛丽娜翻了翻白眼，说，“我从来不查字典。你知道的。”<br />
+你只知道在网站上查你朋友凯西扭着屁股疯狂跳舞的视频，我心想。还戴着个金色的假发，扭捏作态 。<br />
+那次聊天我并没有太放在心上，直到几天之后，玛丽娜走到我椅子前，和往常一样坐在扶手上。她拾起我的一缕头发，轻柔地掖到了我耳朵后面。我喜欢她这么做。<br />
+“我真的很想在纽约刺一个文身。”玛丽娜说。<br />
+哦，天啊！我做了什么？<br />
+“在我脚踝上刺一朵矢车菊。”<br />
+她微笑着，但是我可以看得出，她是认真的。<br />
+“为什么呢，亲爱的？”<br />
+“因为那是ALS的标志。”<br />
+我猜想，她还是会查东西的。而且，她也知道了。<br />
+她当然知道。她是一个聪明的小女孩儿，我没办法 瞒着她。她知道我的诊断结果，知道我的未来。无药可救，末日不远。<br />
+她想要和我保持亲密，想要我和她在一起，永远陪伴在她身边。<br />
+她差一点儿就说服了我。她真的说服了我。直到约翰用理性的声音在一旁说道：“不许文身，苏珊。我的天啊！她才14岁。”<br />
+<br />
+<b>支持</b><br />
+万豪酒店是一家超大的酒店，就坐落在时代广场上 。而在时代广场的对面，就是拥有蔚蓝的海水和空旷的沙滩的海龟滩。<br />
+到处都是人，连马路上也是。车子是开不进来的。头顶上高楼耸立。每一家店铺的顶灯好像都有30英 尺高。新年前夕举行落球仪式的高塔上盖满了电子广告牌。警察局就位于马路正中央。<br />
+我曾提到那些全身穿着卡通人物服装的人靠跟小孩子照相来赚钱吗？<br />
+进万豪酒店的大门需要通过一条短隧道，然后穿过4排出租车。酒店里的人们穿着各种服装四处闲逛，从莎丽到牛仔帽，形形色色。那里有许多电梯可以通往8层的酒店大厅，你还能看到一个40层楼高的中央天井。<br />
+在大厅正中央，圆柱形的玻璃电梯飞快地把人们送到楼上，一趟又一趟。那些电梯很像气压输送管。&nbsp;<br />
+就是母亲以前开车到银行的服务窗口，不用下车就可以把钱放进去存起来的那种通道，存完以后我还能拿到一根棒棒糖。就是电影里过去的邮件收发室用的那种传送管。<br />
+我喜欢那种管道。<br />
+自从1988年我在联合国实习了一个夏天之后，我就再也没来过纽约。当时，我住在马莎·华盛顿旅店一个没有洗手间的房间里，那是一家女性专用的寄 宿公寓，那里的老鼠的个头儿有猫那么大。<br />
+我喜欢那个夏天。我在联合国工作得很努力，也游览了这座城市，和来自世界各地的实习生成为朋友。我和他们一起坐地铁去了皇后区和遥远神秘的布鲁克林社区，品尝了当地的菜肴。<br />
+现在，我是从一个完全不同的角度在游览纽约的。不仅因为我坐上轮椅后视角矮了两英尺，还因为我成了一位母亲，带着一个目瞪口呆地看着每一家店&nbsp;<br />
+的女儿。<br />
+更不用说在我身边踉踉跄跄的斯特凡妮了，从佛罗里达州飞过来用了整整3个小时，她一路都吓得神经紧张，现在还没恢复过来。<br />
+在我的出版商的请求下，我们这趟旅行要多待一天。一开始，我还有些不大愿意。我希望这段时间是 以玛丽娜为中心的。不过，一位纽约的发行人给我们安排了住宿，还愿意帮我们支付改签机票的费用。就像玛丽娜说的：“有什么不好的呢！”所以，我们的第一站就是要穿过城市到出版商那里接受一个采访。<br />
+我工作时，玛丽娜在她“两个同事爸爸”——我的代理人彼得和他朋友——的带领下匆匆逛了几个地方。（爆个内幕，其实他们都是直男，而且都结婚了。）他们去了广场饭店——玛丽娜告诉他们“韦斯利以前特别喜欢埃洛伊塞”——中央公园和一家名叫优衣库的日本百货店，玛丽娜觉得在那家店购物的感觉特别奇怪。<br />
+我和《人物》杂志的一个编辑做了个访谈。那是我&nbsp;<br />
+见过的让人感觉最好的女人。<br />
+后来，我们找到了那家名叫“意外发现之才”的有名的冰激凌店。门口的台阶很陡，而且没有残疾人通道。于是，玛丽娜和斯特凡妮进去买东西时，我就坐在外面，享受着阳光，写着东西。有一个路过的人给了我一美元。<br />
+玛丽娜和斯特凡妮给我买了“意外发现之才”店的招牌甜品冰热巧克力。我在店外的阳光下一饮而尽。好喝极了。<br />
+回到酒店，我把信用卡给了玛丽娜。她去时代广场购物去了。是的，我让玛丽娜自己在纽约城里购物，你不能做直升机式家长，必须信赖你的孩子和这个世界。<br />
+就在上周，玛丽娜和她的朋友从我们那儿的一座桥上跳进了湖里。那个桥只有10英尺高，可是有些家长就不会让他们的孩子这么去玩。<br />
+我如何拒绝呢？我这一辈子不都像从桥上跳下去一样不停冒险，不管不顾的吗？是的，确实是从桥上跳下去，在我10多岁时。事实上，我也从那座同样的桥上跳下去过。<br />
+我去匈牙利时、去哥伦比亚时、一时兴起嫁给约翰时、打开亲生母亲寄给我的信时，不都是一种冒险吗？<br />
+但是，如果水里有短吻鳄怎么办呢？佛罗里达的水域里总会出现短吻鳄，不是吗？不是的，只是有出现短吻鳄的可能性，你不能因为可能性而畏缩不前。<br />
+去年，约翰就亲自进过那片湖。当时，我们都站在斯特凡妮家的后院里，玛丽娜的牙托不知怎么的从嘴里脱落出来，掉进了湖水里。他和玛丽娜在长满杂草的湖水里找了半个小时。如果一向谨慎小心的约翰都认为那片水域足够安全，他们俩可以在里面潜泳搜寻的话，我又有什么理由不让我的女儿在那儿享受些许快乐呢？<br />
+（顺便说一下，他们最终找到了那个牙托，它被埋在杂草堆里。）<br />
+“小心把卡放好了。”她蹦蹦跳跳地出门时，我只跟她说了这一句话。我不担心她会走丢，或者花太多钱，或者让自己陷入危险。<br />
+我也不担心有扒手。我唯一担心的是她的牛仔裤太紧身，会把信用卡弹到空中。<br />
+真不明白紧身装为什么这么受欢迎。<br />
+她回来参加了那天晚上的派对。是彼得在万豪酒店大约40层高的旋转餐厅里举办的招待晚宴。与会者是来自出版公司和彼得的代理处的人、在《华尔街日报》的博客上谈到我的朋友查尔斯·帕西、给彼得看我的文章的律师戴维·史密斯以及想把我的生活拍成电影的两个电影圈的人。<br />
+“他们特地从洛杉矶远道而来，只为见你一面。” 彼得后来对我说，明显觉得很感动。<br />
+派对结束后，我直接上床睡觉了。当你连坐到马桶上都需要花费15分钟的时间并使出全身的力气时，你就很容易感到疲劳。<br />
+我能记住的最后一件事就是玛丽娜站在酒店房间的窗子前，看着时代广场的灯光。<br />
+第二天早上我醒来时，一切好像都和原来一样。这座城市真的是座不夜城。它就这样日夜不停，生生不息。<br />
+我们随着城市的脉搏行动了起来，去吃了早饭，给玛丽娜买了很多东西。<br />
+帕姆和凯里的婚礼是中午时分在洛克菲勒中心举行的，所以，我们决定穿过8个街区步行去那里。斯特凡妮用轮椅推着我。<br />
+我们到得很早，有足够的时间在洛克菲勒中心附近转转。我们凝望着那些静得出奇的褐色摩天大楼，凝望着那个著名的溜冰场。时值夏天，溜冰场上摆满了桌子。那里飘扬着来自世界各地的至少100面旗帜。<br />
+还有15层台阶，没有斜坡。斯特凡妮帮我一步一挪地往上走，玛丽娜拿着我的轮椅。等到我上到台阶顶，穿着婚礼礼服的我们已经汗流浃背。即便我穿着斯特凡妮几周前帮我挑选的黑白无袖礼服，我也在不停地流汗。<br />
+“我们走吧。”我说，“时间快到了。”婚礼安排在峭石之巅观景台。中心门外的通道上真的铺了一条红地毯。参加婚礼的客人们都聚在里面 。<br />
+两位新人来了。她们亲了彼此，发放着礼物。一个雷厉风行的女人把我们聚集到了一条专用通道里，然后绕着旅游线路上了电梯。电梯里面混乱不堪。大约20个人像被吸住一样迅速地往上升，我们的耳朵里都嗡嗡直响。天花板上播放的视频快速变换着图片，背景音乐的声音特别大。<br />
+在嗖嗖的一阵液压制动声中，我们到达了观景台，音乐声和图片消失了，其他参加婚礼的客人依次走出了电梯。<br />
+“你看。”斯特凡妮低声说道，往头顶上指了指。在电梯的天花板上，有一只瓢虫。隆隆的视频声让人们都没注意到它。<br />
+我想起在我侄子查理的葬礼上，落到他棺材上的几只瓢虫。想起夏天时，家中床头柜上的那件小礼物 。<br />
+“那预示着好运。”斯特凡妮说，“是个好兆头。 ”<br />
+“那儿还有一只。”我们下电梯时玛丽娜说。<br />
+我们在曼哈顿的市中心67层楼高的地方，被瓢虫包围着。一个好兆头。<br />
+斯特凡妮推着我来到了外面的观景台。从那个高度看，纽约城就像一座乐高积木乐园，几百万人口都藏了起来。我们就站在世界的顶端。<br />
+在接下来几分钟的阅读中，我想请你暂时搁置你对同性婚姻的看法。因为婚礼上已经有一个女人——帕姆的一个亲戚——开始宣扬她有多么反对了。<br />
+这与道德、《圣经》无关。它只关乎凯里，我的一个多年的朋友。一个“总是在那里为你服务”的人，一个我亲眼目睹了在感情生活里挣扎了多年的人，一个为了孩子们而牺牲自己、努力工作却从未在个人的感情生活中收获幸福的单身母亲。直到她遇到了帕姆。<br />
+“就是这样，凯里。”我曾跟她说，“这就是你一直在等待的幸福。你值得拥有这样的幸福。”<br />
+她哭了。“我知道。”她说，“我差点儿就放弃了。”<br />
+我想来这个婚礼是为了玛丽娜。因为当玛丽娜结婚时我将不在现场，但是我想让她知道，不管她选择了什么样的人——男人还是女人，黑色、红色、紫色还是棕色皮肤的人——我都支持她。只要那个人让她幸福，对她好，我就支持她。<br />
+我想来这个婚礼也是为了凯里。<br />
+她在大厅时给了我一个礼物。其实凯里和我一样，也得到了一份礼物，那就是她即将被另一个人接纳。在我们等待两位新人时，我打开了礼物，是一条项链，上面刻着一个词——“意外发现之才”。凯里和帕姆用我的词纪念了她们的结合。<br />
+我戴上了那条项链。挂在它旁边的是斯欧拉在塞浦路斯给我的那个圣安德烈亚斯吊坠，就是帕诺斯死去的那天放在他口袋里的那枚奖章。<br />
+两位新人走了出来。凯里的冰蓝色婚纱照亮了她那双蓝色的眼睛。而帕姆，我第一次见到她摘掉了那副科学家的眼镜，露出了一双又大又迷人的褐色眼睛。<br />
+我希望她们的视线可以绕过彼此的面容，看一眼下面的城市，看一眼那些乐高大楼里的数百万人。那是一份提醒，提醒她们在茫茫人海中找到那个照亮你灵魂的人是上帝多么非凡的一份馈赠，是多么不同寻常的一份意外发现之才。<br />
+凯里和帕姆已经感受到了这一点。<br />
+你可以从她们的言语中听出来，从她们脸上的喜悦中看出来。<br />
+当牧师说“我现在宣布你们成婚”时，帕姆泪流满面，几乎泣不成声地说：“我从未想到，有一天，我真的会听到这几个字。”<br />
+<br />
+<b>克莱因菲尔德婚纱店</b><br />
+如果不进一步拉近镜头，聚焦我这个14岁的女儿，我们克莱因菲尔德婚纱店之行的故事就会很难让人理解。<br />
+这里的关键词是，14岁。<br />
+在去纽约的飞机上，玛丽娜跟我讲起她最近的一次初中乐队旅行。在旅途中，乐队的一个成员嚼起了格兰诺拉麦片条，吐到了一个呕吐袋里，然后往袋子里加了一些橙汁，模拟出真实的呕吐物的效果。她觉得那太搞笑了。<br />
+我们的车停在时代广场的酒店门口时，玛丽娜注意到街对过面她最喜欢的一家服装店。“我的天啊！竟然有三层！”<br />
+有一天晚上，在酒店里，我们拿着几盒比萨上了电梯。电梯里的另外两个人也拿着比萨，我们就和他们聊起了比萨。<br />
+“我的天啊，真是尴尬死了！”我们下了电梯后，玛丽娜说起刚才的比萨闲聊。<br />
+这就是我带到高级服装店去看婚纱的女孩儿。<br />
+一个孩子。<br />
+一个尴尬、美丽的孩子。<br />
+我提前好几个月就和克莱因菲尔德婚纱店安排了这次拜访：安排各种细节，平息管理人员的疑虑，说服他们允许我们到店里进行一次特别的试穿，尽管我们不会买任何一件婚纱。<br />
+在旅行将近时，我问玛丽娜是否兴奋。“是呀。”她用尖锐的高音说道，每当她不确定一件事时，她就会发出这种声音。<br />
+“当然了，妈妈。”她说，耸了耸肩。<br />
+不过，一说起文身店时，她还是会滔滔不绝地说个没完。<br />
+是的，玛丽娜更感兴趣的是（差一点儿）在她脚踝上刺一个象征她母亲和ALS作斗争的蓝色矢车菊文身，而不是试穿一件价值1万美元的讨厌的婚纱。<br />
+尴尬、美丽的小宝贝。<br />
+我们的克莱因菲尔德婚纱店之行是在星期五的早上。虽然我可以在别人的帮助下，从轮椅里下来，换到普通的车子上，但是斯特凡妮和玛丽娜还是安排了一辆专车——一辆带轮椅升降机的夸张的面包车——载着我们穿过了25个街区。<br />
+电门和斜坡打开了。司机把我推进了车里，像汉尼拔·雷克特一样把我五花大绑起来，然后关上了车门。<br />
+“我觉得好像要把你送到小狗临终关怀所似的！” 斯特凡妮说，咯咯地笑个不停。<br />
+我也笑了。<br />
+我知道，如果我哭起来的话，我可能永远也停不下来了。<br />
+在路上，玛丽娜不停地回过头看看坐在面包车后排的我。“没问题吧，妈妈？”<br />
+“我很好。”我说。<br />
+到了克莱因菲尔德婚纱店，我像一件货物似的被卸了下来。我们穿过城市喧嚣肮脏的人行道——在头顶的脚手架和明显的大麻味儿中——走进了一个梦。<br />
+10英尺高的鲜花装饰，罗密欧朱丽叶式阳台上的白色格栅，一对没有头的新娘和新郎模特展示着一件象牙白婚纱和一件黑色燕尾服。<br />
+“哇！”我说。<br />
+我穿着一件黑色的新外套，是我和斯特凡妮在旅行之前买的4件衣服中的一件。玛丽娜穿着牛仔短裤、无袖衬衫和一双运动鞋。她把双手交叉着放在胸前站着，看上去就好像这里是这个世界上她最不想去的地方。<br />
+克莱因菲尔德婚纱店里和善的女士们开始带我们参观展示厅。斯特凡妮推着我的轮椅，玛丽娜走在我身边。他们像熟练的导游一样指着每一间屋子，讲述着里面所展示的服装都是哪些设计者设计的。婚纱摆了一排又一排，看起来眼花缭乱，珠光宝气。如云的薄纱让黛安娜公主的婚纱都显得平淡无奇。玛丽娜一句话都没说。<br />
+我们拐了个弯儿来到了化妆间。这里宛如一家白色的服装店，更像一间几百件婚纱都用塑料保护套罩着挂起来的著名储藏室。在那个电视节目中，兰迪匆忙地跑去一间小屋，为正在试衣间里和母亲争执的困惑的难缠新娘挑选出“非你莫属”的婚纱，而&nbsp;<br />
+这就是那间小屋。<br />
+在电视上，这间储藏室是一个遥不可及的大杂烩，挂着缺少光泽但讨人喜欢的各种婚纱。在实际生活中，这里就像一个华丽的衣橱。那天早上，克莱因菲尔德婚纱店看起来小了很多。<br />
+那些婚纱看起来则大了很多，就好像它们是为童话故事中在城堡里结婚的身高8英尺的新娘准备的。而斯宾塞·文德尔家的女人们都勉强只有5英尺高。我和玛丽娜激动极了。<br />
+“想穿一件试试吗？”我含糊不清地说，碰了碰玛丽娜的手。我们待的这间屋子里悬挂着各种婚纱，抬起头时只能看到婚纱的底部。有人告诉我们，这些都是额外的库存。如果把这里的婚纱摆放到传送带上的话，可以一直排到下一条街区。<br />
+“好的。”玛丽娜用她尖细的嗓音说。<br />
+“告诉他们你喜欢哪个款式的，选一个剪影。”<br />
+“选一个剪影”的意思就是选好婚纱的形状——宽舞会袍、直款还是钟形。<br />
+玛丽娜一声不吭地站着。<br />
+我为把她带来而感到难受。不该把这种成年人的经历强加到一个孩子身上。但我知道，哭只会让情况更糟糕。所以，我忍住了眼泪。<br />
+玛丽娜默默地去了化妆间时，我努力让自己不要去想结婚那天我的小女儿会是什么样子。<br />
+我努力不去想她还是个婴儿时依偎在我怀里的模样 ，也不去想有一天她把自己的孩子抱在怀中的情景。<br />
+我努力不去想此时此刻的玛丽娜有多么尴尬，因为&nbsp;<br />
+她母亲的计划，她不得不做自己现在还不应该懂得&nbsp;<br />
+的事情。<br />
+于是，我向斯特凡妮倾诉起关于婚纱的一些小建议。<br />
+我在我的遗嘱里会留一笔钱给玛丽娜买婚纱。斯特凡妮已经答应我会带她回克莱因菲尔德婚纱店来买。这件事很疯狂，很好笑，也很珍贵。<br />
+要知道，斯特凡妮一直以来最喜欢的服装店是我们称之为“大屁股妈妈”的那家店。在那里，涤纶背心裙和塑料细高跟鞋都卖9.99美元。<br />
+当我们拜访我的出版商时，我不得不跟她说：“衣服把鞋盖住了。上面的衣服提得高一点儿。”她把自己傲人的胸部塞进那些涤纶衣服的方式常常让我担心那会暴露出隐私的部位。<br />
+这就是我指望的帮玛丽娜挑选她这一生中最精美、最奢华的婚纱的那个人。<br />
+唉！我只希望，到那时，可怕的无肩带婚纱已经外包到中国去做。我觉得美国人做的这种衣服让女人看起来就像橄榄球比赛里的中后卫。<br />
+“一定不要纯白色的！”我对斯特凡妮说，“要象牙白。”<br />
+“不要太多的薄纱，试试蕾丝。”<br />
+玛丽娜选了一件钟形婚纱，婚纱下缘均匀地张开，看起来就像字母A。或者更准确地说，克莱因菲尔德婚纱店的女士们为她挑了这一件。玛丽娜惊讶得只会点头了。<br />
+“选婚纱时想想皇室的成员。”在化妆间外等待时，我跟斯特凡妮说道，“想想凯特王妃。精致，优雅。试试长袖的，它们会让婚纱看起来更正式。”<br />
+玛丽娜出来了。<br />
+没有肩带，下摆展开。她看上去像停在一个巨大纸杯蛋糕中央的一个14岁女孩儿，准备着防守四分卫的进攻。<br />
+“我不喜欢这种脂粉气的。”她说。<br />
+这才是我的女儿！<br />
+“试一件长袖的怎么样？”我问她。<br />
+我之前跟克莱因菲尔德婚纱店的人说过，我最喜欢的婚纱就是贝拉在电影《暮光之城：破晓》中穿过的那一件。用紧身定型的丝绸缝制，背面全是蕾丝，长袖的底端是蕾丝花纹，一直延伸到能盖住双手。<br />
+店里的女士们拿出一件很像贝拉和凯特王妃穿的婚纱。长长的蕾丝袖，帝国范儿的项链，褶饰定型的腰部，带裙摆的长滑丝绸裙。<br />
+玛丽娜去了化妆间。我开始跟斯特凡妮讲各种“到了那天”的忠告。“到了那天选这个东西。”“到了那天做那件事情。”我记不住那些忠告了，因为我的心都在化妆间里。<br />
+门开了。玛丽娜出现了，高了1英寸，老了整10年。我可以清晰地看出有一天她将会成为怎样一个美丽的女人。<br />
+我就那样凝视着。<br />
+在那样刺眼的时刻，在残疾的白光照在你头顶的时刻，当你瞥见了自己将无法活着看到的一瞬，你应该做什么呢？<br />
+我低下了头。呼吸，我告诉自己。<br />
+我抬起了头，微微一笑，玛丽娜也微微一笑。我把舌头摆到了合适的位置准备说话。<br />
+“我喜欢这身婚纱。”我说。<br />
+玛丽娜站着时，常常会像一般的青春期孩子一样有些驼背。但是穿着那件婚纱时，她站得笔直，容光 焕发，抬头挺胸。<br />
+“你真美。”我低声说道，舌头几乎无法协调地配合。我不知道她听没听到我说话。我说得含糊不清，还在竭力忍住泪水。<br />
+我们拍了一些照片。然后离开了。<br />
+一份回忆编织好了。<br />
+玛丽娜把婚纱还了回去，穿回了她的牛仔短裤和运动鞋。我们静悄悄地穿过测量室、燕尾服房还有地下的一间大屋子，那里面有几十个女人正坐在那里，弯着腰使用着缝纫机。<br />
+我的周围已经有太多的人对玛丽娜说着我想对她说的话。我告诉她，她对我来说有多么特别。告诉她，我的精神将永远与她同在。<br />
+永远。<br />
+克莱因菲尔德婚纱店不是说这种话的地方。两个女&nbsp;<br />
+店员在我们一旁转来转去，说着关于面纱的建议。新娘们红着眼睛四处转悠，身边跟着成群结队的人。络绎不绝的人群在我们身旁经过，飞一般地进了更衣室。有这么多人在，我是不会说的。<br />
+克莱因菲尔德婚纱店的员工曾经很犹豫要不要让我们试穿婚纱，他们担心有一大批患了绝症的母亲会突然袭来。不用担心。克莱因菲尔德婚纱店不是你跟你女儿说那些你希望她会一辈子都记住的话的地方。<br />
+这也许是一件好事。<br />
+因为玛丽娜还是个孩子。<br />
+一个指望她母亲能跟她在一起，保护着她的孩子。她们把我放回了带轮椅升降机的残疾人专车里。斯特凡妮又开了小狗临终关怀所的那个玩笑。我大笑着好避免自己哭起来。哦，我亲爱的姐姐，别伤我的心了。<br />
+玛丽娜只说了一句话：“回去的路上，我们买点儿比萨好吗？”<br />
+“当然。”我回答道。<br />
+那天晚上我睡觉时，玛丽娜就躺在我身边。<br />
+“你真可爱，妈妈。”斯特凡妮听到她这么对我说。<br />
+她亲了我一下。<br />
+当我第二天早上醒来时，我的女儿就睡在我身旁。<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A630023111593', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A630023111593', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A630023111593', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A630023111593', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A630023111593'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chsh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chsh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/5/1/A730024068702_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/5/1/A730024068702_1.jpg">
+        <h2>零ZERRO：世界符号大全（黄金版）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥97.80元</b> <del>¥128.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/5/1/A730024068702_1.jpg','零ZERRO：世界符号大全（黄金版）-日本著名的艺术指导/平面与书籍设计师松田行正的代表作之一，汇集121类各式记号、暗号、信号、密码、代码、文字、图形、纹饰的世界符号大全（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】松田行正<br />
+【译者】黄碧君<br />
+【出版社】中央编译出版社；2013年6月第1版<br />
+【装订】32开；精装<br />
+【页数】280页<br />
+【印刷】单色<br />
+【ISBN】9787511715579
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+《零ZERRO:世界符号大全(黄金版)》中文版已有四种颜色装帧，分别是黄金版、纯黑版、亮橙版、深蓝版。每种装帧的书衣、封面、环衬、飘带颜色相同，连三个切口都刷成同样的颜色。<br />
+<br />
+书衣的两端被切割成人的脸部形状，正面不着一字，只是打了九个小孔。这九个小孔是凡尔纳的小说《桑道夫伯爵》中桑道夫伯爵解读暗号的模型纸，配合硬封上的文字阵列，正常包裹时显示出“ZEЯRO松田行正”，将书衣顺时钟旋转90度就变成“ZARRATHUS”，再转90度会出现“TRRASIGNE”，再转90度则会出现“ASINTOERR”。这36个字母去掉作者名，就变成ZERRO，ZARRATHUSTRRA，SIGNE，A SIN TOERR。九个小孔的排列方式来自杜尚的《新娘，甚至被光棍们剥光了衣服=通称大玻璃》中的“九个射击的痕迹”，喜欢玩双关语的杜尚用射击的洞比喻射精。书衣的背面是作者精心绘制的一株信息量丰富的文字树。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+<strong>《零ZEЯRO：世界符号大全》是日本著名的艺术指导/平面与书籍设计师松田行正的代表作之一。</strong><br />
+<br />
+<strong>松田行正为形状着迷，从零（ZERO）出发，进入121座复杂奇妙的符号宇宙，逐渐偏离（ERR/ERROR）了沟通和文法的秩序，形成一幅系谱式的符号大观。</strong><br />
+<br />
+书中列出的记号群只是根据形状的趣味性来选择，也有很多记号是已经超越了沟通途径的复杂形状。有很多文字系统因为形状和文法太过复杂而无法流通，自然消失，也有一些像神代文字那般怪异的文字系统。除了感到形状有趣外，再加上被这些瞬息万变的文字、记号所迷惑，最后本书集结了11章×11种＝121个文字群、记号群。<br />
+<br />
+另外值得一提的是，每一页的大小也是11的倍数，宽121毫米×长209毫米，正文的版面篇幅也是以11毫米为单位。各章的内容并非完全有系统的分类，主要以形状相似，还有渐渐演变而成的组合来编排。各章开头的记号是象征每一章的变形字母。那么就请读者进入这个奇妙的昆虫图鉴般的形状世界吧。<br />
+<div class="goods-content-title">
+	<span style="line-height:24px;font-family:微软雅黑, 宋体;white-space:normal;color:#8b4513;font-size:18px;font-weight:bold;">作者</span>：<span style="white-space:normal;"><span style="white-space:normal;">松田行正</span></span> 
+</div>
+<span style="white-space:normal;">松田行正，Matuda Yukimasa，日本著名的艺术指导／平面与书籍设计师，生于1948年，中央大学法学部毕业，1985年起主持牛若丸出版社。他对书籍装帧的设计理念：“在书柜或桌上都具有存在意义及说话形式的书籍设计。”著有：《圆与方》《零ZEЯRO》《中速MODERATO》《圆盘物语》《开始物语》《眼的冒险》《眼球谈／月球谈》《绝景万物图鉴》《lines：线的事件簿》《code：文本与图像》《和力》《设计者的颜色书》《设计者的颜色表》等。</span><br />
+<div class="goods-content-title">
+	<span style="font-size:18px;"><span style="line-height:24px;font-family:微软雅黑, 宋体;white-space:normal;color:#8b4513;font-size:18px;font-weight:bold;">译者</span>：</span><span style="font-size:18px;"><span style="white-space:normal;">黄碧君</span></span> 
+</div>
+<span style="white-space:normal;">黄碧君，1973年生。辅仁大学日文系、日本东北大学日本文学硕士。现为自由工作者。译有：《零ZEЯRO》《圆与方》《非设计不生活》《巴黎女生·包包私设计》《34次感动：巴黎私房餐厅推荐》《爱的理由》《周末日本小旅行》《穿着mina去旅行》《跟妈妈去旅行》《从金银岛到哈里波特》《寻找幸运星》《小星星通信》《图解古文明》《幻想图书馆》《博物馆买物趣》等。</span><span style="white-space:normal;"></span><br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	前言——记号、暗号、符号、信号<br />
+<br />
+1A<br />
+A-1莫尔斯电码<br />
+A-2电信暗号<br />
+A-3点字<br />
+A-4二进制<br />
+A-5皮特曼式速记术<br />
+A-6动作学<br />
+A-7柏柏尔文字<br />
+A-8标点符号<br />
+A-9聂斯脱利派文字<br />
+A-10希伯来文字<br />
+A-11鸣叫的音节<br />
+<br />
+2F<br />
+F-1黄金虫暗号<br />
+F-2玛丽女王的暗号<br />
+F-3棒球的计分记号<br />
+F-4国际象棋棋谱记号<br />
+F-5数学符号<br />
+F-6努米底亚文字<br />
+F-7宇宙文字<br />
+F-8拉班舞谱记号<br />
+F-9电气记号<br />
+F-10医学记号<br />
+F-11炼金术记号<br />
+<br />
+3H<br />
+H-1稻留正吉的新日本文字<br />
+H-2克里文字<br />
+H-3布吉斯文字<br />
+H-4动素<br />
+H-5炼金术暗号……1<br />
+H-6棉地文字<br />
+H-7撒玛拉札台湾语<br />
+H-8泰文字<br />
+H-9穿越天河字母<br />
+H-10天上的字母<br />
+H-11玛拉基母字母<br />
+<br />
+4I<br />
+I-1西曼特图案<br />
+I-2地图记号<br />
+I-3姆语<br />
+I-4日本海军惯用符号<br />
+I-5苏美尔图文字<br />
+I-6霍波记号<br />
+I-7〔神代文字……1〕丰国文字<br />
+I-8巴母文字<br />
+I-9查诺夫表情<br />
+I-10玛雅文字<br />
+I-11法伊斯托斯圆盘<br />
+<br />
+5K<br />
+K-1缅甸文字<br />
+K-2闽腔快字<br />
+K-3僧侣体文字<br />
+K-4阿拉伯文字<br />
+K-5特鲁古文字<br />
+K-6拉卡多学院自动记述装置文字<br />
+K-7〔神代文字……2〕阿比留草文字<br />
+K-8新字瓯文<br />
+K-9甲骨文的“龙”字<br />
+K-10苗文字<br />
+K-11悉昙文字<br />
+<br />
+6N<br />
+N-1十字记号<br />
+N-2乌托邦语<br />
+N-3共济会暗号<br />
+N-4曼宁卡文字<br />
+N-5亚齐德教派文字<br />
+N-6格拉哥里文字<br />
+N-7切音新字<br />
+N-8八思巴文字<br />
+N-9易卦<br />
+N-10道教的护符<br />
+N-11索雍柏文字<br />
+<br />
+7P<br />
+P-1夏沛式信号系统<br />
+P-2普遍语言<br />
+P-3〔神代文字……3〕对马文字<br />
+P-4〔神代文字……4〕阿奈伊知文字<br />
+P-5〔神代文字……5〕种子文字<br />
+P-6音韵记号<br />
+P-7〔神代文字……6〕守恒文字<br />
+P-8形声通用文字<br />
+P-9〔神代文字……7〕阿比留文字<br />
+P-10〔神代文字……8〕水茎文字<br />
+P-11基里尔文字<br />
+<br />
+8R<br />
+R-1欧甘文字<br />
+R-2德拉·波尔塔暗号……1<br />
+R-3德拉·波尔塔暗号……2<br />
+R-4德拉·波尔塔暗号……3<br />
+R-5卢恩文字<br />
+R-6家徽<br />
+R-7数码文字<br />
+R-8性器符号<br />
+R-9婆罗米文字<br />
+R-10佉卢文字<br />
+R-11高利克文字<br />
+<br />
+9S<br />
+S-1音乐符号<br />
+S-2日本新字<br />
+S-3彻罗基文字<br />
+S-4亚美尼亚文字<br />
+S-5炼金术暗号……2<br />
+S-6炼金术暗号……3<br />
+S-7炼金术字母<br />
+S-8魔法字母<br />
+S-9查理曼暗号<br />
+S-10拉班·毛鲁斯大主教字母……1<br />
+S-11拉班·毛鲁斯大主教字母……2<br />
+<br />
+10V<br />
+V-1家判<br />
+V-2楚科奇文字<br />
+V-3注音字母<br />
+V-4〔神代文字…9〕阿波文字<br />
+V-5流水文字<br />
+V-6平假名汉字<br />
+V-7片假名汉字<br />
+V-8则天文字<br />
+V-9古代中国文字范例<br />
+V-10西夏文字<br />
+V-11〔神代文字…10〕中臣文字<br />
+<br />
+11Z<br />
+Z-1〔神代文字……11〕秀真文字<br />
+Z-2占星术记号<br />
+Z-3生物学记号<br />
+Z-4航空图记号<br />
+Z-5石墙刻印<br />
+Z-6太阳系、星、月记号<br />
+Z-7电视、录像机、音响设备记号<br />
+Z-8道尔顿原子记号<br />
+Z-9家纹<br />
+Z-10天气图记号<br />
+Z-11克拉得尼的声音图形<br />
+<br />
+后记<br />
+</div>
+<div class="goods-content-title">
+	<span style="font-size:18px;">在线试读</span> 
+</div>
+<strong>后记<br />
+</strong><br />
+最后想谈谈本书书衣、封面中隐藏的小插曲。本书初版时全书装帧使用的是红色。这个红色是太平战争时，美国对日暗号解读小组“magic”替日本军事暗号取的绰号“Red”（红），“Red”从军事暗号书的封面颜色，变成了美方的命名。Red暗号是1931年日本海军从同盟军德国处购买的Enigma暗号机加以改造的成果，正式运用在军事上是皇纪（从日本书纪中记录的公元前660年神武天皇即位开始计算）2591年，取最后二位数，将它称为“91式暗号”。之后，日本再度改造这款暗号机，开发了97式暗号机，正式的名称是“97式欧文印刷机”。97式的暗号书封面为紫色，因而美军将它称为“Purple”（紫）。日本军方过于自信，认为不论红色还是紫色暗号都绝不会被破解，管理上于是很随便，用这两式暗号机同时在两个地方以相同的暗语来传送信息。结果，战争爆发前夕即被美国“magic”小组成功破解。然而，本书再版时更换了装帧颜色，“红”的色彩概念也仅使用于初版。<br />
+<br />
+书衣的圆形小洞是凡尔纳（Jule Verne）的小说《桑道夫伯爵》（Mathias Sandorf,1885年）中，桑道夫伯爵用以解读暗号的模型纸。原封不动时为“ZERЯRO松田行正”，把它以顺时针旋转90度时就变成“ZARRATHUS”，再转90度就会出现“TRRASIGNE”，再转90度则会出现“ASINTOERR”的文字。这36个字母去掉作者名，就变成ZERRO,ZARRATHUSTRRA, SIGNE, A SIN TO ERR。此外，纸上的九个洞排列方式来自杜尚（MarcelDuchamp）的《新娘，甚至被光棍们剥光了衣服=通称大玻璃》（La Mariée mise á nu par sescélibataires, même,1915-1923）中的“九个射击的痕迹”。喜欢玩双关语的杜尚将这射击的洞比喻为射精。<br />
+<br />
+这个暗号里的“R”全都用“RR”来表示。“RR”是杜尚的笔名RroseSélavy的前两个字母。1921年，杜尚想象一个具有双重人格的自我，因而取了这个女性化的名字。刚开始只有一个R，后来从“arroser”（撒水）得到灵感，改成两个R。Sélavy是“c’estla vie”的谐音，“Rose, c’est lavie”（玫瑰，这就是人生）。两个R的第一个R左右相反。即使没有相反的R，也还有一个R，也就是意味着零的ZERO。<br />
+<br />
+“ZARRATHUSTRRA”即ZARATHUSTRA，当然是借用尼采（Friedrich WilhelmNietzsche,1844-1900）的书名而来。就像卡巴拉的咒语ABRACADABRA，因喜欢其语感而选用。ZARATHUSTRA是琐罗亚斯德（Zoroaster）的德文。琐罗亚斯德为公元前6世纪波斯琐罗亚斯德教的创始者和预言家。琐罗亚斯德教主要基于善恶、光明与黑暗的二元论，善神AhuraMazda和恶神Ahriman永远战斗不停，并且认为最后当然由善神AhuraMazda获胜。以这个二元论将各种神祇蠢动的古代清楚划分为二，这种清楚的界线成为后来基督教等教派思考的根基。AhuraMazda的象征为太阳、星星、火，所以也称为“拜火教”。Ahura是神，Mazda则是智慧的意思。另一个选择的理由是Mazda和松田（Matsuda）的发音很像。<br />
+<br />
+“SIGNE”是法文的“记号”。索绪尔（Ferdinand de Saussure,1857-1913）将此字定义为拥有记号表现（signfiant／能指／意符）和记号内容（signifie／所指／意旨）两种概念的词语。索绪尔从语言体系中划分出两个体系，在本质上发现所指和能指之间对应的武断和各系列要素的分节任意性；李维－史陀（ClaudeLevi-Strauss, 1908-）则指出，这样的结构和类型同样存在于未开化社会的亲族体系或神话世界中。更有甚者，有人将这种“结构”概念运用到生物进化原理，这种结构主义进化论目前正受到瞩目。<br />
+<br />
+“A SIN TO ERR”为第二次世界大战时，克劳森（Max Christiansen Klausen,1899-1979）所创。当时他负责处理泄漏了苏联军方“日军没有入侵苏联作战”等重要情报、被当成间谍逮捕且处死的德国记者索各（RichardSorge, 1895-1944）的暗号电信。ASINTOER是把英文中出现频率高的字母组成单词，再加上一个R就变成“A SIN TOERR”（错之罪）。克劳森将ASINTOER以0到7的数字置换，每次出现这个字母就用对应的数字替换，其他的字母也用别的方法替换成数字。这样的暗号还是过于简单，所以数字又被暗号化，说明很繁琐，在此省略不谈。<br />
+<br />
+方阵中的文字全部说明完毕。ZERO是从意大利文而来，作者名为日文，ZARATHUSTRA为德文，SIGNE为法文，A SINTOERR为英文，五国语言并列。因此这五国的单字（母）全部以代表其国家的字体来表现。意大利文用意大利人波多尼（GiambattistaBodoni, 1740-1813）在1790年左右开发的Bodoni Roman体。法文用法国人加拉蒙（ClaudeGaramond, 1480或1500-1561）的Garamond体。按1539年颁布的统一公用语言令，原本多语言的法国开始统一使用法文，所有人都使用加拉蒙印刷字体，加拉蒙因而被称为“雕刻王国文字的人”。英文使用英国人莫里森（Stanley Arthur Morison, 1889-1967）的Times NewRoman，这是1932年英国的日报《泰晤士报》采用的字体。德文为伦纳（Paul Renner,1878-1956）的Futura字体。1927年发售的Futura因考虑到德文的组版，字元重新被设定，和以前的无衬线（Sans-Serif）字体不同，变成拥有现代感的字体。日文当然是明朝体。<br />
+<br />
+最后在这里想感谢协助制作本书的人。首先是松田工作室的中村晋平，他对于这些大量的记号和文字的再三变更完全不感到气馁，一再编排、修正。小林恭子帮忙做全部的校正工作。针对小林提出的疑问，我能重新调查、确认资料并加以修改，实在太感谢了。逸见阳子也帮了我同样的忙。虽然我只拜托逸见帮忙确认欧洲文字，但她却帮我把以形状选出来、以形状分类的各项目内容分成script、alphabet、character等类别，让我的头脑能够理出头绪。牛若丸的顾问米泽敬帮忙思考本书的宣传句，书腰简洁的一行字。还有寻找错误的能手松田工作室的天野昌树帮忙做最后的把关校正。文唱堂印刷的山田泰司也很小心谨慎地帮忙完成繁琐的工作，甚至帮忙校正。我由衷地感谢大家。<br />
+<br />
+<div align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/1/A730024068702_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/1/A730024068702_xt_cj_1.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/5/1/A730024068702_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/1/A730024068702_xt_cj_2.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/5/1/A730024068702_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/1/A730024068702_xt_cj_3.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/5/1/A730024068702_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/1/A730024068702_xt_cj_4.jpg"></a><br />
+</div>
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A730024068702', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A730024068702', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A730024068702', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A730024068702', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A730024068702'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chsh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chsh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

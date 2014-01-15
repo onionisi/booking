@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/b/f/A110017429922_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_1.jpg">
+        <h2>乐扣乐扣保鲜盒6件套HPL855S002</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥112.90元</b> <del>¥168.90元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：套</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_1.jpg','乐扣乐扣保鲜盒6件套HPL855S002-四面结合型密封容器乐扣乐扣保鲜盒，全世界80多个国家消费者选择的保鲜盒。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b>快书包推荐：</b>乐扣乐扣保鲜盒套装系列还有3件套和7件套，链接：<a href="http://bj.kuaishubao.com/g/A740023997195.html" target="_blank"><span style="color:#666666;"><u>3件套HPL807S001</u></span></a><span style="color:#666666;"><u>&nbsp;</u>&nbsp;</span><a href="http://bj.kuaishubao.com/g/A130017429803.html" target="_blank"><span style="color:#666666;"><u>7件套HPL827S001</u></span></a></span> 
+</div>
+<div class="goods-content-title">
+	<span style="color:red;" class="w"></span>商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【名称】乐扣乐扣保鲜盒6件套<br />
+【品牌】乐扣乐扣<br />
+【类别】套装<br />
+【材质】聚丙烯颗粒(PP)<br />
+【规格】6件套<br />
+【颜色】半透明<br />
+【产地】中国<br />
+【商品规格】
+	<table class="ke-zeroborder" border="0" cellpadding="1" cellspacing="0" width="630">
+		<tbody>
+			<tr>
+				<td width="12">
+					&nbsp;
+				</td>
+				<td>
+					<table class="ke-zeroborder" bgcolor="#b4b4b4" border="0" cellpadding="0" cellspacing="0" width="600">
+						<tbody>
+							<tr>
+								<td>
+									<table class="ke-zeroborder" border="0" cellpadding="0" cellspacing="1" width="600">
+										<tbody>
+											<tr>
+												<td height="25" bgcolor="#ffffff" width="60">
+													<div align="center">
+														货号
+													</div>
+												</td>
+												<td bgcolor="#ffffff" width="50">
+													<div align="center">
+														容量
+													</div>
+												</td>
+												<td bgcolor="#ffffff" width="50">
+													<div align="center">
+														数量
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														用途
+													</div>
+												</td>
+												<td bgcolor="#ffffff" width="130">
+													<div align="center">
+														规格
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td height="23" bgcolor="#ebebeb">
+													<div align="center">
+														HPL854
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														600ml
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														2个
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="left">
+														<p>
+															<span>正方形保鲜盒，适合于保管各种小菜类，沙司类，干果类，水果类等</span><span></span> 
+														</p>
+													</div>
+												</td>
+												<td bgcolor="#ebebeb">
+													<div align="center">
+														134×134×60mm
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td height="23" bgcolor="#ebebeb">
+													<div align="center">
+														HPL817
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														1L
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														2个
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<span>中长方形保鲜盒,适合存放各种小菜类,水果类,蔬菜类,三明治等。</span><span></span> 
+												</td>
+												<td bgcolor="#ebebeb">
+													<div align="center">
+														205×134×69mm
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td height="23" bgcolor="#ebebeb">
+													<div align="center">
+														HPL817C
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														1L
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														1个
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<span style="font-family:宋体;">中长方形保鲜盒,有3个隔板,适合各种小菜的分离存放。</span> 
+												</td>
+												<td bgcolor="#ebebeb">
+													<div align="center">
+														205×134×69mm
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td height="23" bgcolor="#ebebeb">
+													<div align="center">
+														HPL855
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														860ml
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<div align="center">
+														1个
+													</div>
+												</td>
+												<td bgcolor="#ffffff">
+													<span style="font-family:新宋体;">正方形保鲜盒，适用于保管各种小菜类，沙司类，干果类，水果类等。</span> 
+												</td>
+												<td bgcolor="#ebebeb">
+													<div align="center">
+														134×134×88mm
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div align="left">
+		<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/f/A110017429922_xt_cj_1.jpg"></a><br />
+<br />
+	</div>
+</div>
+<div>
+	<div class="goods-content-title">
+		商品特点
+	</div>
+<strong><br />
+【乐扣乐扣保鲜盒为何与众不同？</strong>】<br />
+<br />
+1.<strong>可用于微波炉低温加热、冰箱</strong>：通过韩国生活用品实验研究院耐热、耐寒性试验，并获得卫生、安定性的品质认定。<br />
+2.<strong>原料卫生</strong><strong>：</strong>使用ISO9001认证，通过美国FDA和德国SGS等先进国家的严格食品卫生及安全检查<br />
+3.<strong>密封性：</strong>乐扣乐扣的“四面锁扣装置”对位于盒盖和合身结合部位的硅胶条施加均匀的压力，提高密封性能。在韩国及海外通过严格的密封实验，验证所有的产品具有100%密封性<br />
+4.<strong>盒子有锁定装置</strong><strong>：</strong>乐扣乐扣具有盒盖固定孔，盒盖结合部分相吻合，盒盖不易破损，能长期使用。缩短盒盖弯曲部分，防止在开关盒盖时显得僵硬。在减少弯曲盒盖结合部分所产生的余力时，会加强机械性强度，从而延长使用寿命。通过了100万次的弯曲试验无任何异常。<br />
+5.<strong>透湿度：</strong>透湿度数值越低越密封新鲜性能越卓越，在全世界内，以透湿度测试作为测量密封新鲜性能的标准。在透湿度测试中，乐扣乐扣放置24小时、48小时、72小时后显示透湿度为0.01g/m²<br />
+6.<strong>节省空间：</strong>实验表明，用乐扣乐扣整理冰箱和厨房，可节省2倍以上的空间<br />
+7.<strong>多功能多样性：</strong>从0.1升到21升，300多种不同规格的产品，具有储存食物，日常用品收纳等多种功能<br />
+8.<strong>品质保证：</strong>有协会指定书（Q-Mark），卫生安全品质认证书（HS-Mark）。<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/f/A110017429922_xt_cj_4.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/f/A110017429922_xt_cj_3.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/f/A110017429922_xt_cj_2.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/f/A110017429922_xt_cj_5.jpg"></a><br />
+<strong>【为何使用乐扣乐扣（Lock &amp; Lock）储存食物?</strong>】<br />
+<br />
+食品专家之所以推荐用乐扣乐扣（Lock &amp; Lock）储存食物，主要是因为：<br />
+<br />
+1.冰箱的低温不能完全杀死微生物及防止酶的催化及食品氧化。很多嗜冷微生物都能在0摄氏度以下的低温环境中生长。如果食物未能密封保存，则随着贮存时间的延长，食品仍旧会腐败变质。<br />
+<br />
+2.在冰箱存放食品，如果不把生、熟食品隔离开，会造成交叉污染。冰箱里生鱼、生肉、冷饮、水果、剩菜、剩饭等在没有严密包装的情况下，同时存放在冰箱
+内，一旦一种变质，会很快污染其他食品，诱发连锁变质、变味。用乐扣乐扣（Lock &amp; Lock）就能较好地解决上述问题。<br />
+<br />
+用乐扣乐扣（Lock &amp; Lock）能够全面解决上述问题，将食物密封保存，并将生熟食品存放在不同的容器里，以能防止食品变质、生熟食品交叉污染等问题。<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/d/A130017429803_xt_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/d/A130017429803_xt_2.jpg"></a><br />
+<br />
+	<div class="goods-content-title">
+		商品实拍图
+	</div>
+	<div style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/b/f/A110017429922_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/f/A110017429922_xt_cj_6.jpg"></a> 
+	</div>
+	<div class="goods-content-title">
+		注意事项与使用技巧
+	</div>
+<strong>注意事项</strong><br />
+1.微波炉低温使用时,请将盒盖分离或打开锁定装置后使用。<br />
+2.请勿对盒体施加强烈冲击或置于火源旁，以免引起产品的变形。<br />
+3.请勿用刷子或研磨粉洗刷。<br />
+<br />
+<strong>乐扣乐扣（Lock &amp; Lock）使用技巧</strong><br />
+1.开关保鲜盒时（特别是大容量的），请将保鲜盒平放在厨房整理台或是餐桌上再进行开关。保鲜盒属于塑料容器，从冷冻室或是高处落下时，容易破损。虽然保
+鲜盒有很好的耐冷性，如果想延长其使用寿命的话，从冷冻室里拿出来，不要马上打开，在室温中放1～2分钟以后再打开为好。<br />
+<br />
+2.不同食物的保存期限不同，和保鲜期有限；请不要只依赖于乐扣乐扣保鲜盒的保鲜功能，请在保鲜期限内食用。<br />
+3.P.P（聚丙烯）保鲜盒，在微波炉中使用时，可以进行短时间的加热，但是，不能用作在微波炉中使用的做菜容器。短时间加热解冻时，时间不要超过3分钟。<br />
+<br />
+4.放入微波炉时，必须先松开盒盖接合装置再使用。锁定盒盖后使用的话，保鲜盒会因压力而发生变形或是爆裂。在微波炉中使用时，如果食物中油分和糖分比较多的话，在温度急速上升的情况下，会使保鲜盒发生变形。<br />
+<br />
+5.清洗时要用比较柔软的海绵，不要使用硬性刷碗布以免产生刮痕而使保鲜盒变色。 清洗盒盖和容器之间的硅素树脂衬垫时，请不要用力撑拉，否则会使其断裂或变长。<br />
+<br />
+6.滚烫的食物会令空气膨胀，使保鲜盒的密封性能下降，因此应该等食物变凉以后再存放。碳酸饮料（汽水、可乐等）的汽泡会使保鲜盒的密封能力丧失，请勿存将其存放在保鲜盒里。<br />
+<br />
+7.存放大量色素的食物或发酵食物，可能会使保鲜盒染色，而发生变色。<br />
+<br />
+8.保鲜盒携带于书包、手提袋内，在振动过程中，起泡食物、发酵、热的食等，会产生空气澎胀，使保鲜盒的密封性能下降，此类食物请不要携带，最好是让保鲜盒保持竖立状态。<br />
+<br />
+9.携带存有食物的保鲜盒高空或是宇航作业时，保鲜盒的密封性能会受气压的影响而下降。<br />
+<br />
+10.真正的好点子：有时候食物的色素或是食物会残留在保鲜盒上，不容易洗掉，怎么办呢? 
+不用发愁，先在厨房的水池或是洗碗盆中放入中性洗涤剂，也可以使用经水稀释的漂白剂浸泡保鲜盒，然后进行清洗，这样就非常容易洗干净。 
+另外，如果保鲜盒里留下一点儿食物的异味，只要在清洗后，将保鲜盒放在太阳下吹干， 就可消除了。用淘米水浸泡也是一个不错的方法。<br />
+<br />
+	<div class="goods-content-title">
+		乐扣乐扣品牌
+	</div>
+在保鲜盒的历史中，使用保鲜盒作为储存食物的器皿发生在20世纪40年代，至今约有60多年的历史。保鲜盒是由美国模具工程师Earl Silas Tupper发明，最初用于存放液体或有汁液的食物，具备一定的防潮功能。&nbsp;<br />
+<br />
+&nbsp;在发明保鲜盒之初，对于如何密封保鲜盒曾是当时遇到的重大挑战。用PE材料制成的软性盖与PP材料制成的较硬盒身相结合，的确能防止容器内存物外流和外
+部其它物体流入盒内。盒盖与盒身相互紧贴的话，虽然密封性能强，但开关很难，而盖子松一点，开关容易些又降低了密封性能，使内存物味道外泄甚至内存物外
+流。&nbsp;<br />
+即使盒身和盒盖设计得最合适，并在最佳制作环境下制作而成，但盒盖和盒身用的都是不同的材料，因不同的温度等物理特性的影响，盒盖和盒身的收缩率都各不相同，所以传统式保鲜盒既要密封性能好又要开关容易是很难达到的。&nbsp;<br />
+<br />
+直到十几年前乐扣乐扣（Lock &amp; Lock）品牌诞生，寻找到了最佳办法，生产出新概念四面锁扣乐扣乐扣保鲜盒。乐扣乐扣（Lock 
+&amp; 
+Lock）的四面紧锁装置（如下图）将压力均匀地分布于盒盖和盒体之间结合处的硅胶条上，从而提高了保鲜盒的密封性能，同时又兼具耐用性，通过乐扣乐扣
+（Lock &amp; Lock）上百万次的弯曲试验。<br />
+<br />
+超优良品质厨房用品专家--(株)乐扣乐扣成立于1985年，以世界超一流品牌为目的而开发的功能性保鲜盒‘LOCK &amp; 
+LOCK’系列,通过在世界排行第一位的电视购物公司美国QVC中全美播放,每次播放都突破最高的销售纪录而具有超凡人气，在韩国国内的电视购物销售也被
+评为“BEST OF BEST”（最优秀的产品），是出口世界70多个国家的厨房用具专门品牌。<br />
+<br />
+<strong>乐扣乐扣（Lock &amp; Lock）产品特点<br />
+</strong><br />
+1.原料的卫生性 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+乐扣乐扣（Lock &amp; Lock）保鲜盒严格选用卓越的耐久性和耐热性的材料，最大限度地保障产品的安全性和机能性，对人体绝对无害。 
+目前乐扣乐扣（Lock &amp; Lock）获得先进国家严格的卫生检查。 
+已通过美国食品药物管理局（FDA）和德国通用公证行（SGS）等产品监管机构的严格检查。&nbsp;<br />
+<br />
+2.耐用性 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+盒盖四周设有锁定扣置、该装置已通过了韩国生活环境研究院三百万次弯曲试验。<br />
+<br />
+3.多功能性、多样性 &nbsp;<br />
+从0.1升容量到2升容量、乐扣乐扣（Lock &amp; Lock）共有200多种大小不同的保鲜盒产品、 用户可根据自己的需求进行选购。乐扣乐扣（Lock &amp; Lock）保鲜盒非常适合存放具有气味或异味的物品。<br />
+<br />
+4.密封性 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+乐扣乐扣（Lock &amp; Lock）全部通过了海内外严格的密封性测式。<br />
+<br />
+5.节省空间 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+从产品开发初期开始就进行了科学设计、乐扣乐扣（Lock &amp; Lock）保鲜盒能最大限度地节省存放空间。从试验中显示、在冰箱内使用本产品、能节省两倍以上的空间。<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/d/A130017429803_xt_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/d/A130017429803_xt_3.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/7/d/A130017429803_xt_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/d/A130017429803_xt_4.jpg"></a><br />
+<br />
+<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A110017429922', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A110017429922', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A110017429922', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A110017429922', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A110017429922'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

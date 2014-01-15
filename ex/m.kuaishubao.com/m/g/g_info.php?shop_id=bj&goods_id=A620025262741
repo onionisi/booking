@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/5/4/A620025262741_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_1.jpg">
+        <h2><font style="color:red;">【原装进口，立省5元】</font>花王洁霸洗衣粉10袋装270g（旅行装）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥30.00元</b> <del>¥69.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：盒</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_1.jpg','【原装进口，立省5元】花王洁霸洗衣粉10袋装270g（旅行装）-原售价：35.00元，现价：30.00元，立省5元。小袋的旅行装方便旅行、出差携带。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<p>
+	【商品名】花王洁霸洗衣粉10袋装270g（旅行装）
+</p>
+【品牌名】花王<br />
+【产地】日本<br />
+【用途】棉、麻、合成纤维<br />
+<p>
+	【成分】界面活性剂、碱、水软化剂、工程剂、分散剂、荧光增白剂、酶<br />
+【规格】110*85*110mm
+</p>
+<p>
+	<span style="white-space:normal;">【净含量】27g</span>*10袋
+</p>
+【保质期】3年<br />
+【注意事项】请勿用于其他用途！请置于儿童触及不到的地方！请勿入口入眼！用后请洗手。<br />
+<!-- 商品详图 -->
+<div class="goods-content-title">
+	商品特点
+</div>
+<b>1、添加高活性酶，有效洗净衣领、袖口纤维深处隐藏的乌渍；</b><br />
+<br />
+<b>2、可防止洗涤中污渍再次附着衣物上，洗出衣物原本的亮白；</b><br />
+<br />
+<b>3、洗后衣物散发出淡淡清香；</b><br />
+<br />
+<b>4、小袋旅行装方便旅行、出差携带。</b><br />
+<br />
+<b>洗衣方法：</b><br />
+请遵循衣物的洗涤标示，使用本品。带有下列标示的衣物，不要使用本品（中性洗涤标示和不可水洗标示的衣物）。<br />
+<br />
+<p align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_xt_cj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/4/A620025262741_xt_cj_8.jpg"></a> 
+</p>
+<div class="goods-content-title">
+	商品详图
+</div>
+<div align="center">
+	<div align="left">
+		<b>花王洁霸洗衣粉包装图</b><br />
+	</div>
+<b></b><a href="http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_xt_cj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/4/A620025262741_xt_cj_7.jpg"></a><br />
+</div>
+<div align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/4/A620025262741_xt_cj_3.jpg"></a><br />
+</div>
+<div align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/4/A620025262741_xt_cj_2.jpg"></a><br />
+</div>
+<div align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/4/A620025262741_xt_cj_6.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/4/A620025262741_xt_cj_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/4/A620025262741_xt_cj_9.jpg"></a><br />
+</div>
+<p>
+	<br />
+</p>
+<br />
+<br />
+<br />
+<div class="goods-content-title">
+	花王品牌
+</div>
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/f/d/LmpwZw==.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/f/d/LmpwZw==.jpg"></a><br />
+<br />
+<br />
+花王集团立足于消费者和顾客竭诚提供优质产品，力求充分满足和丰富世界各国人民的生活。<br />
+花王集团在化妆品、护肤品和洗发护发用品等 “美容护理用品”、保健功能饮料以及生理卫生用品等“健康护理用品”和衣物洗涤剂和家居洗涤剂等“衣物洗涤及家居清洁用品”方面，展开面向普通消费者的消费者用品事业。另外，还在“工业化学用品事业”，细致入微地应对产业界的需求，提供工业用产品。<br />
+花王争取在这些不同领域，立足于消费者和顾客，通过竭诚提供优质产品力求充分满足和丰富世界各国人民的生活。<br />
+<br />
+花王自创业以来，始终立足于消费者和客户，竭诚提供优质产品， “为丰富和满足世界各国人民的生活作出贡献”为使命，持续开展经营活动。 1890年 (明治23年) 开始销售的高级化妆香皂 “花王香皂”，是宣告日本日化及家庭用品市场的黎明到来的商品，公司名称的由来亦源于此。<br />
+<br />
+<strong>美容护理用品事业——为了满足顾客追求美丽的心愿</strong><br />
+以追求品牌价值与个性的 “花王Sofina” 、“Kanebo” 和 “Molton Brown” 等化妆品为中心，包括洗面乳和全身清洗液等洗面护肤和身体护理用品、洗发露和护发素等洗发护发用品及美发定型剂等，创造了满足顾客追求美丽心愿的产品。另外，Kao Professional Salon Services (KPSS) 公司还以欧美为中心，向全球各地的美发沙龙提供 “Goldwell”等品牌的染发剂、烫发剂和美发定型剂。<br />
+<br />
+<strong>健康护理用品事业——让您每天的生活既舒适又健康</strong><br />
+我们的健康护理用品事业领域提供的多种产品，让您每天的生活既舒适又健康。这些产品包括：根据多年对脂类营养代谢的研究成果开发出来的保健功能饮料以及由花王独自研制的高功能材料与人类生理功能研究成果结合而成的生理用品 “乐而雅” 、婴儿用纸尿布 “妙而舒” 等生理卫生用品；用于口腔护理卫生的 “Pyuora” 和 “Clear Clean” 等口腔护理卫生用品，以及浴盐 “Bub” 等。<br />
+<br />
+<strong>衣物洗涤及家居清洁用品事业——让您每天的生活更为清洁和舒适</strong><br />
+这一领域的产品有 : 衣物洗涤剂的顶级品牌 “洁霸” 和柔软光洁剂 “Humming” 、漂白剂 “Haiter” 等衣物洗涤产品 ; 餐具洗涤剂 “Family” 、 “Cucute” ; 家居洗涤剂“魔术灵” 、 “Quickle” 等家居清洁产品，是花王利用多年来独自开发的技术，追求品质、功能和使用方便而研制的产品，除日本外还提供给亚洲各国的广大消费者。另外，还随时根据社会和消费者的变化，提供具有新突破意义的高附加价值的产品，使大家的生活更为清洁和舒适。<br />
+<br />
+<strong>工业化学用品事业——为了满足全球顾客的多样化需求</strong><br />
+花王在工业用产品领域也提供多种产品，以使用天然油脂原料制成的油脂类产品为主﹑还包括用这些产品为原料的油脂衍生产品和表面活性剂、高功能聚合材料以及香料等满足各种产业多样化需求的工业用产品。这些产品由研究开发部门与事业部门联合开发。 这些产品不仅作为原料提供给花王集团的各家公司，而且还面向造纸和纸浆、食品、医药品、土木建筑、信息材料、电子工业等各种产业领域的广大用户，开展全球规模的供货业务。<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A620025262741', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A620025262741', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A620025262741', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A620025262741', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A620025262741'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

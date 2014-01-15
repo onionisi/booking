@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/0/c/A130029160892_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/0/c/A130029160892_1.jpg">
+        <h2>巴菲特传（纪念版）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥40.70元</b> <del>¥59.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/c/A130029160892_1.jpg','巴菲特传（纪念版）-本书是有关沃伦·巴菲特最值得一看的传记。本书既有投资者对这一行业的通晓，又具备一个记者的客观视角，堪称巴菲特传记中不可不读的经典著作。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】[美] 罗杰·洛温斯坦 著<br />
+【译者】蒋旭峰 王丽萍<br />
+【出版社】中信出版社；2013年10月第1版<br />
+【装订】32开；精装<br />
+【页数】<span style="line-height:normal;font-family:verdana, arial, helvetica, sans-serif;font-size:small;white-space:normal;background-color:#FFFFFF;">512</span>页<br />
+【印刷】单色<br />
+【ISBN】9787508642086<br />
+【品牌】<span style="color:#666666;white-space:normal;">中信出版社</span> 
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+作为世界顶尖的投资人，巴菲特的投资智慧和人生历程历来受到众多投资者关注。在这部传记中，作者以巴菲特独有的投资风格和管理方式为焦点，对他充满传奇色彩的投资策略、人生哲学和管理智慧等进行了深入透彻的描述和分析，并运用大量翔实的材料重现了巴菲特如何由一个奥马哈报童成长为一个投资大亨，如何在他所崇拜的导师格雷厄姆的影响下寻找一只只被低估的股票，从而积累财富，以及如何将伯克希尔?哈撒韦公司塑造成美国最大的集团企业的奥秘……<br />
+<br />
+并非每个人都能成为巴菲特，但是对于所有想从巴菲特的传奇人生和投资生涯中得到些许启示，提升自己的投资水平甚至人生层次的读者来说，《巴菲特传》（纪念版）绝对是一本必读书。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+《巴菲特传》（纪念版）是有关沃伦．巴菲特最值得一看的传记。巴非特是美国历史上最伟大的资本家、最成功的投资人，与比尔盖茨比肩的世界富豪。所有投资人都必须读巴菲特。本书既有投资者对这一行业的通晓，又具备一个记者的客观视角，堪称巴菲特传记中不可不读的经典著作。《巴菲特传》作为“中信十年人物经典”丛书系列作品之一，是一部真实、经典的优秀财经类人物传记。<br />
+<div class="goods-content-title">
+	作者：<span style="white-space:normal;">罗杰·洛温斯坦</span> 
+</div>
+<b>作者简介</b><br />
+《华尔街日报》资深财经记者，负责股票专栏《华尔街听闻》和《固有价值》。罗杰在《华尔街日报》做财经记者期间，对伯克希尔·哈撒韦公司的掌舵人沃伦·巴菲特进行了多年的跟踪研究。本书既有投资者对这一行业的通晓，又具备一个记者的客观视角，堪称巴菲特传记中不可不读的经典著作。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	第1章 奥马哈的天才少年<br />
+第2章 未来的股票经纪人<br />
+第3章 格雷厄姆打开的大门<br />
+第4章 异军突起的投资奇才<br />
+第5章 多元投资方式<br />
+第6章 急流勇退<br />
+第7章 接手伯克希尔·哈撒韦<br />
+第8章 回归股市<br />
+第9章 共生的合伙人<br />
+第10章 投资新视角<br />
+第11章 报业大亨<br />
+第12章 股东利益至上<br />
+第13章 地毯夫人<br />
+第14章 收购交易<br />
+第15章 公与私的两面<br />
+第16章 大崩盘<br />
+第17章 有效市场之争<br />
+第18章 投资可口可乐<br />
+第19章 控制财富<br />
+第20章 恐钱症<br />
+第21章 职业信条<br />
+第22章 所罗门闹剧<br />
+第23章 巴菲特的投资真谛
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<strong>导言</strong><br />
+<br />
+在美国的投资史上，沃伦·巴菲特的地位始终无人可以撼动。他白手起家，从分析和投资股票做起，最终集腋成裘，积累了大量财富。他涉足投资业超过40 年，足以证明他致富绝非是靠一朝一夕的运气。他的投资业绩一直跑赢美国股票市场，他不仅盈利比大盘平均水平高出一筹，而且从未有过盲目冒险投资的经历，更没有过一年的亏损纪录。对于这种骄人的战绩，所有的市场专家、债券市场经纪人和学者都认为几乎是不可能实现的。<br />
+<br />
+不论是在牛市还是熊市，不论经济是处于增长期还是衰退期，不论是在“二战”后纺织业发展的高峰期、越南战争中，还是垃圾债券涌现和信息化的时代，巴菲特的赢利能力始终稳如泰山。“二战”之后，美国主要股票的市值年均增长11% ，而巴菲特的复利年均收益率却高达29.2% 。<br />
+<br />
+巴菲特的成就其更令人瞠目之处在于，他是依靠传统的长线投资起家的。当代华尔街的一些金融家之所以能暴富，是因为他们对手里掌握的公众财富进行巧取豪夺。巴菲特并不玩这种把戏，华尔街的投机商向来因为这种低级的手法而臭名远扬。实际上，巴菲特重新挖掘了纯粹资本主义的内涵，这是一种冷血的投资艺术，但也是一场公平的角逐。<br />
+<br />
+那些投资于巴菲特公司的股东们也赚得盆满钵满，而且他们财富的增长速度与巴菲特是一样的。他们赚到的利润有多丰厚，是他们自己都难以置信的。假如一个股东当巴菲特1956 年在家乡奥马哈创业时，就给巴菲特1 万美元的投资资金，并且对巴菲特一直不离不弃，那么他的财富到1995 年底将会飙升至1.25 亿美元。<br />
+<br />
+这些仅仅是数字而已，巴菲特在华尔街的声誉更是让人难以企及。每年，追随巴菲特的信徒和投资者都像朝圣一样蜂拥到他的故乡—小城奥马哈，去聆听他条分缕析地讲授投资、经营和金融的秘诀。他的公司年会就像是全美国的一次盛会，其影响力丝毫不亚于猫王的演唱会。金融家们也纷纷来到奥马哈取经，对他的文章奉若《圣经》，像念经文一样背诵他的名言。<br />
+因为他总是能够迅速抓住问题的实质，所以从早年开始，他就有一大群崇拜者。在这些信徒蜂拥到奥马哈之前很多年，在巴菲特扬名立万之前很多年，在大学校园的聚会上，他会站在某个角落，一张娃娃脸上投射出明澈敏锐的眼神，旁边围坐着十几个喝得醉醺醺的兄弟，津津有味地听他高谈阔论。几年之后，这些兄弟都在华尔街发迹了，但是对巴菲特的这种顶礼膜拜依旧继续。巴菲特是这群朋友中年纪最小的，但是他会毫不紧张地往宽大的老板椅里一躺，兄弟们在他的脚边围坐一团，静听他讲述金融的玄妙。<br />
+<br />
+在华尔街，巴菲特的平易近人给他赢得了一大批拥护者。金融往往会让人觉得像一座深奥的迷宫，巴菲特却能够像杂货店店员谈论天气一样把金融向大众讲明白。他从来都没有忘记，在任何一只艰深难懂的股票或债券背后，公司的经营活动都是实实在在、普普通通的。他把华尔街的那些分析术语抛到了一边，他希望美国小镇上的市民也能听明白自己的金融分析。<br />
+<br />
+有一点让人感到很矛盾：越来越多的美国人对投资感兴趣，但是华尔街却变得越来越晦涩，越来越深奥，让人越来越看不懂，而且越来越没信心看明白。巴菲特出生于美国的大萧条时期，当时手里握有闲钱的人觉得自己有充分的能力理财，他们会购买蓝筹股和3A 级的优质债券。大萧条给美国人留下了很大的心理阴影，但是“二战”后的经济繁荣让人们重拾信心。在当前的美国，数千万美国人都至少持有一只公司股票，但是很少有人在操作股票时会觉得得心应手，也几乎没有人还能够像他们的前辈那样谨慎。他们最多也就是把公司的财务报告拿来扫上几眼，似乎从每天的房价和通货膨胀指数中就可以找到他们久久期待的“答案”。最糟糕的情况下，他们会干脆把资金交给不同的基金经理人来打理—这种做法要是被他们的祖父知道，那可是要让老爷子震怒的。<br />
+<br />
+在这样一个金融知识变得日益复杂的时代，巴菲特的与众不同之处就在于他能够保持“下里巴人”的本色。巴菲特的大多数投资之道都是普通人可以借鉴学习的（这也是那么多人蜂拥到奥马哈的原因）。巴菲特之所以是个天才，主要取决于他是个性格上的强者，他富有耐心、自律性和思维理性。这些都是一些普通人身上常见的优点，但是在财富激情的冲击下想要保持这些优点并非易事，而这些品质对于想在股市里一展身手的任何人而言都是不可或缺的。从这种角度而言，巴菲特的性格和职场道路不啻为大众投资和美国商业的一本教科书。 巴菲特从一开始就意识到了自己的定位，因此他形成了一个独特的习惯，那就是当自己有出格、冒险的做法时，就把它们记录下来。作为一个投资家，巴菲特却从不使用价格杠杆、期货、动态套期保值、现代投资组合分析和学界提出的其他艰深晦涩的分析工具。现代投资组合经理的思维更像是一个交易商，巴菲特与他们的不同之处在于，他把自己的资本投在了精心选择且具有良好成长性的公司里。在这一点上，他的做法很像之前的金融巨头J·P·摩根。深藏不露的摩根是华尔街的一代英杰，而巴菲特走的完全是另一条路线，他是一个平凡的美国中西部的“可爱大叔”。他有一句讽刺银行家的经典俏皮话：“那些银行家才是需要戴黑色套头面罩的家伙。”巴菲特这种平民化的幽默反而让他的形象更加高大，使他的影响力超过了之前的投资大师，也让美国民众找到了期盼已久的真正的创业英雄。<br />
+<br />
+巴菲特的创业传奇一直都是美国人想要解开的谜团：一个纯粹的美国西部大叔在政客、银行家、商业巨头甚至恶人成堆的东部站稳了脚跟，实在让人觉得不可思议。这是对美国传统的一种颠覆，让人不由得想起东部第一代最真诚、最质朴的美国人已经不复存在了。欧洲人有自己尊崇的君王，而经典的美国英雄主义形象就是那种自力更生、从中部地区成长起来的精英，例如出身于肯塔基州的贫寒家庭的林肯总统、出身于密西西比河畔一个乡村的贫穷律师家庭的马克·吐温、出身于美国俄克拉何马州的平民家庭的喜剧大师威尔·罗杰斯。而今天，英雄难觅，这也是巴菲特的崇拜者蜂拥来到奥马哈的理由之一。<br />
+<br />
+在杰克·纽菲尔德为罗伯特·肯尼迪所著的传记中，纽菲尔德也谈到了巴菲特：巴菲特不是一个英雄，而是一份希望；巴菲特不是一个传奇人物，而是一个普通人。尽管他极其聪慧，但身材并不伟岸。当他来到巴黎的时候，他唯一的反应是他对观光没有兴趣，只发现巴黎的饮食比奥马哈的要美味。他具有无与伦比的独立思考能力、专注于工作和不受外界干扰的能力，不过有时候这些特质会让他周围的朋友大跌眼镜。有一次，巴菲特去马撒葡萄园拜访《华盛顿邮报》的发行人凯瑟琳·格雷厄姆，这时他身旁的一个朋友在称赞日落之美，巴菲特却说自己没留心，似乎他必须特意留心才会注意到身边的日落。即便是在位于加利福尼亚州的海滨度假别墅里，巴菲特也会一连几周天天工作，很少会走到海边去散散心。<br />
+<br />
+巴菲特虽然是个光芒四射的公众人物，但他其实也是一个性格很内向的男人。共同基金投资奇才彼得·林奇在20 世纪80 年代中期拜访过巴菲特，对巴菲特内心的静谧感到很诧异。他的所有文件都整整齐齐地按字母顺序码放在金属文件夹里，那种整齐细致的程度看起来完全像是另一个时代的人的所作所为。他没有股票交易员所用的各种分析设备，也没有林奇桌上一排排的电脑屏幕；他的办公桌上没有股票价格走势图，也没有电脑，只有一本剪报册和一台摆放在玻璃罩下面的老式股票行情自动收录器。就这两样古董级物品目睹了这个办公室内的潮起潮落，见证着巴菲特的传奇历史，记录着他到底买进了哪些股票，又卖出了哪些股票。彼得·林奇每过几周就会把表现不太好的股票清仓，但是巴菲特的很多只股票，他自己一直持有了多年。面对巴菲特，彼得·林奇感受到一种突如其来的震撼，似乎自己乘坐时光机器退回到了从前。<br />
+<br />
+巴菲特身上唯一能够体现出现代化气息的就是他那架私人飞机了，除此以外，他对于享用自己的巨额财富似乎了无兴趣。他既不收藏古董，也没有豪华座驾，对于他而言，有个汉堡就是一顿美餐。他居住的房子位于普通街区的一条林荫道上，他的办公室也在同一条街上。他将不竭的激情都投入了工作，按照他的说法，那里就是他的舞台。只有在这方舞台上，他才能充分展露自己作为一个投资大师的能量，充分展示出一个真实的自我。<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A130029160892', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A130029160892', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A130029160892', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A130029160892', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A130029160892'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chd" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chd"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

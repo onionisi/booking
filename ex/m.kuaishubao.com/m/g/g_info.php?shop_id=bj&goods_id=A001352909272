@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/f/c/A001352909272_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/f/c/A001352909272_1.jpg">
+        <h2>鹤年堂胶香膏200ml</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥178.00元</b> <del>¥198.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：瓶</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/f/c/A001352909272_1.jpg','鹤年堂胶香膏200ml-六百年老字号鹤年堂秘传养生佳品，养心安神，疏肝健脾益肾（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!--提示信息 Begin-->
+<div class="goods-content-tip">
+	<s></s><span class="w" style="color:red;"><strong>快书包推荐：</strong>舒心安神睡得香，养心安神是妙方。养生专家推荐，连服三瓶效果最佳。</span> 
+</div>
+<div class="goods-content-title" style="white-space:normal;outline-width:0px;">
+	<a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/heniantang_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/heniantang_conte.jpg"></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/yangshengdiary_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/yangshengdiary_conte.jpg"></a></a><br />
+<a href="http://bj.kuaishubao.com/c/105106-1-1.html" target="_blank"></a><a href="http://www.kuaishubao.com/c/105106-1-1.html" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/lianzi_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/lianzi_conte.jpg"></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/zhengan_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/zhengan_conte.jpg"></a></a><br />
+</div>
+<!--提示信息 end--><!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【品名】鹤年堂胶香膏（200ml）-六百年老字号鹤年堂秘传养生佳品，养心安神，疏肝健脾益肾<br />
+【品牌】鹤年堂<br />
+【包装】瓶装<br />
+【外包装尺寸】6*10CM<br />
+【内包装】瓶装，6*10CM<br />
+【配料】阿胶、香橼、益智仁、莲子、桃仁、葛根、酸枣仁、大枣等。<br />
+【保质期】12个月<br />
+【商品产地】吉林长春<br />
+【出品商与制造商】北京鹤年堂医药有限责任公司中医药研究院监制出品，吉林鹤年堂参茸制品有限责任公司制造<br />
+【生产许可证】QS2201 1701 0016<br />
+【净含量】200ml<br />
+</div>
+<!-- 商品详图 -->
+<div class="goods-content-title">
+	商品详图
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201211081410242537.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201211081410242537.jpg"></a> 
+	</p>
+<br />
+<br />
+</div>
+<!-- 商品特点 -->
+<div class="goods-content-title">
+	商品特点
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<strong>中华老字号<br />
+国家非物质文化遗产<br />
+鹤年堂传承600年秘方<br />
+<br />
+鹤年堂胶香膏（200ml）-六百年老字号鹤年堂秘传养生佳品，养心安神，疏肝健脾益肾，<br />
+适用于思虑过度、失眠多梦、身体乏力的人群。</strong><br />
+<br />
+鹤年堂胶香膏，即“鹤年堂丸散膏丹名录”中的鹤年闺藏膏，选用上品阿胶，并且配伍了健脾：莲子；益肾：益智仁；补脑：核桃仁等食疗成分，长期服用可以强身健体、补中益气、健脾益肾、补脑。适用于思虑过度，心血不足引起的失眠多梦、身体乏力的人群。<br />
+<br />
+本品精选药食两用的优质原料，经煮制、打浆、过滤、混合、灭菌、分装等加工工艺制成。<br />
+本品为黄褐色稠厚的半流体，气香，味甜。
+	</p>
+	<p>
+		<br />
+	</p>
+	<table style="border:currentColor;border-collapse:collapse;" border="1" cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr>
+				<td width="78" valign="top" style="padding:0cm 5.4pt;border:1pt solid windowtext;width:58.25pt;">
+					<div align="center">
+						<br />
+<span>药名</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:1pt 1pt 1pt medium;border-style:solid solid solid none;border-color:windowtext windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>性味</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:1pt 1pt 1pt medium;border-style:solid solid solid none;border-color:windowtext windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>归经</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:1pt 1pt 1pt medium;border-style:solid solid solid none;border-color:windowtext windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>功效</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:1pt 1pt 1pt medium;border-style:solid solid solid none;border-color:windowtext windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>应用</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>大枣</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>甘温</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>脾胃心</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>补中益气、养血安神</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>脾虚虚弱、消瘦、倦怠乏力、女性更年期、失眠</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>香橼</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>辛温苦酸温</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>肝脾胃肺</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>疏肝解郁、理气和中、燥湿化痰</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>胸胁胀痛、痰多咳嗽、胸闷</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>桃仁</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span style="font-size:small;">味苦甘而性平</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span style="font-size:small;">心、肝、大肠</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span style="color:#000000;line-height:24px;font-family:arial, 宋体, sans-serif;font-size:14px;">活血祛瘀,</span><span style="color:#000000;font-family:arial, 宋体, sans-serif;"><span style="line-height:24px;font-size:14px;">可用治瘀血阻滞各种敝症</span></span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span style="color:#000000;line-height:24px;font-family:arial, 宋体, sans-serif;font-size:14px;">月经过多及孕妇忌用</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>莲子</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>甘涩平</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>脾肾心</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>固精止带、补脾止泻、益肾养心</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>遗精滑精、白带量多、脾虚泄泻、心悸、失眠</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>酸枣仁</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>甘酸平</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>心肝胆</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>养心益肝、安神、敛汗</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>心悸失眠、自汗盗汗</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>葛根</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>甘辛凉</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>脾胃</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>解肌退热、透疹、生津止渴、升阳止泻</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>项背强痛、脾虚泄泻</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>益智仁</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>辛温</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>肾脾</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>暖肾固精缩尿、温脾开胃摄唾</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>遗精遗尿、小便频数、腹痛吐泻、口涎自流</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>阿胶</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>甘平</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>肺肝肾</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>补血、滋阴、润肺、止血</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>血虚证、出血证、心烦失眠、手足抽搐</span> 
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="78" valign="top" style="border-width:medium 1pt 1pt;border-style:none solid solid;border-color:currentColor windowtext windowtext;padding:0cm 5.4pt;width:58.25pt;">
+					<div align="center">
+						<span>蜂蜜</span> 
+					</div>
+				</td>
+				<td width="94" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:70.4pt;">
+					<div align="center">
+						<span>甘平</span> 
+					</div>
+				</td>
+				<td width="82" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:61.7pt;">
+					<div align="center">
+						<span>肺脾大肠</span> 
+					</div>
+				</td>
+				<td width="257" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:192.7pt;">
+					<div align="center">
+						<span>补中、润燥、止痛、解毒</span> 
+					</div>
+				</td>
+				<td width="176" valign="top" style="border-width:medium 1pt 1pt medium;border-style:none solid solid none;border-color:currentColor windowtext windowtext currentColor;padding:0cm 5.4pt;width:131.75pt;">
+					<div align="center">
+						<span>脾气虚弱、肺虚久咳、肠燥便秘</span> 
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+<strong>鹤年堂胶香膏服用方法：</strong><br />
+每日两次，每次一匙，10岁以下儿童用量减半；可配合牛奶、面包、米粥等日常食品服用。糖尿病患者忌服。<br />
+<br />
+<strong>鹤年堂胶香膏产品解析</strong><br />
+<br />
+失眠的原因有很多，根据中医理论其本质是“心”的功能失调所导致的。懂得点中医知识的人都知道，在五脏里心主神明，俗话说“神不守舍”，可以说心就是神明的家，神明不回家了，心怎得安呢？所以针对于失眠困扰的人群，首先先要安神，要想安神必先养“心”。<br />
+<br />
+心与肝、脾、肾的脏器关系密切，从五行相生相克来讲，肝、脾、肾都会影响心的功能。肝火扰动心神，使神明不安；脾虚不能摄魂，故多梦易醒；肾水不足，虚火妄动，则心肾不交，导致失眠。对于失眠，养心的同时，要同时调节肝、脾、肾的功能，才能达到治本的目的。<br />
+<br />
+鹤年堂经过几代人对于养生的研究，对失眠有着独到的见解。清代，后宫数百佳丽，勾心斗角，争权夺利；睡不好又会影响皮肤美观，影响身材，史载西皇后每逢节气，都会派人到鹤年堂配制膏方，鹤年堂曾为西皇后专门配制可治疗失眠的养生膏滋。鹤年堂古本配方目录里中记载，胶香膏养心的同时，疏肝健脾益肾，对人体有着全方位的调节，能从根本解决失眠的问题。在对于胶香膏成分的现代研究里，此方中的成分可调节神经内分泌系统，起到很好的安神作用。<br />
+<br />
+<a href="http://item.taobao.com/item.htm?spm=686.1000925.1000774.6.VfYWe0&id=16948677630" target="_blank"><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301151333222457.jpg "><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301151333222457.jpg "></a></a> 
+	</p>
+</div>
+<!-- 食用与贮存小贴士 -->
+<div class="goods-content-title">
+	食用与贮存小贴士
+</div>
+<div class="Goods-Content-Box">
+	【食用方法】每次10-20ml，早晚各一次。空腹含服为佳。本品性状发生改变时禁止服用；糖尿病人禁用。<br />
+【适用场合】适用于思虑过度，心血不足引起的失眠多梦、身体乏力的人群<br />
+【贮存方法】密封，置于阴凉干燥处；开盖后，请置于冰箱内保存；用干燥洁净小勺取食，避免瓶中物受到污染。
+</div>
+<!-- 商品品牌 -->
+<div class="goods-content-title">
+	鹤年堂品牌
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/TrademarkPic/201211081532333678.png"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/TrademarkPic/201211081532333678.png"></a><a href="http://pic.kuaishubao.com/UploadFiles/TrademarkPic/201211081532537684.png"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/TrademarkPic/201211081532537684.png"></a><br />
+<br />
+<br />
+鹤年堂始建于1495年，由养生大家丁鹤年创建。在长达600年的历史长河中，鹤年堂在几代御医之家的带领下对中华传统医药进行了孜孜不倦的追求，传承中医的同时发展出了自己的独特的养生理论以及治病处方，鹤年堂以医术精湛、药力独到、养生有方而声名远播，成为历代名家妙手仁心、救死扶伤的殿堂。因此，在民间素有“丸散膏丹鹤年堂”的美誉，明朝名臣杨椒山赞誉鹤年堂“欲求养性延年物，须向兼收并蓄家”，寓意鹤年堂名医荟萃、名药名方云集。<br />
+<br />
+1999年，原国内贸易部授予鹤年堂“中华老字号”称号。2005年12月，国家有关部门经过长期的认真考证，正式宣布鹤年堂为“京城养生老字号，历史悠久第一家”并颁发了匾额和证书。 2008年鹤年堂中医药文化被评为“国家级非物质文化遗产”...<br />
+<br />
+鹤年堂养生理念：调元气、养太和<br />
+<br />
+主旨：&nbsp;<br />
+<br />
+顺节气，适时调养之本；<br />
+通经络，激活身体的“自愈系统”；<br />
+行气血，滋养四肢百骸；<br />
+修脏腑，让生命之树常青；<br />
+调时令，保持健康的密码；<br />
+养体质，从根本上修复身体；<br />
+补后天，做自己的健康管家。
+	</p>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A001352909272', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A001352909272', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A001352909272', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A001352909272', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A001352909272'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/2/a/A210021210863_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/2/a/A210021210863_1.jpg">
+        <h2>影像中的国</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥34.40元</b> <del>¥49.80元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/2/a/A210021210863_1.jpg','影像中的国-26位中国当代著名影像记录者的独家口述。99幅经典影像背后鲜为人知的珍贵记忆。70年来中国重要时刻历史细节的现场重回）（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+【作者】李玉霄，沈洪<br />
+【出版社】中信出版社；2013年6月第1版<br />
+【装订】16开；平装<br />
+【页数】351页<br />
+【印刷】单色<br />
+【ISBN】978750864046
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<b>以镜头见证时代，用影像理解中国</b><br />
+<br />
+<b>26位中国当代著名影像记录者的独家口述</b><br />
+<br />
+<b>99幅经典影像背后鲜为人知的珍贵记忆</b><br />
+<br />
+<b>70年来中国重要时刻历史细节的现场重回</b><br />
+<br />
+宏观视角和微观白描并存，展现中国社会的脉搏跳动。<br />
+<br />
+中国国家地理和腾讯网新闻中心联袂打造。<br />
+<br />
+《影像中的国》用一幅幅具有时代标志意义的珍贵照片呈现中国无法忘却的历史细节，26为大师级影像工作者通过口述历史的方式将变化的世界、变化的中国图像背后鲜为人知的故事娓娓道来。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+这是一本用影像和文字记录当代中国无数个瞬间的著作，堪称中国纪实拍摄经典的“列传”。26位摄影家以镜头代笔，以口述历史的方式，记录了激荡变革的时代和随和历史跌宕起伏的个体命运，见证了这个国家的伤痛和辉煌、世间的人情冷暖。通过解读照片背后鲜为人知的故事，带你观看未曾体味的历史细节，重回历史的现场，呈现了近一个世纪以来的家国影像。我们看到的是一个国家的沉浮和新生、光荣和苦难、文化和观念，也仿佛可以穿透厚重的历史，看到未来。
+<div class="goods-content-title">
+	名人推荐
+</div>
+<b>鲍昆（著名摄影批评家、策展人）：</b><br />
+当影像成为这个时代的主要叙事手段和传播信息的方式时，摄影就更清楚地说明自己不是一门单一的艺术了，虽然许多以摄影的名义开始自己生涯的人仍然认为摄影是他毕生追求的艺术。《影像中的国》这本书，以众多与历史一起走来的摄影人的讲述，证明了这一历史轨迹。虽然本书采访对象的口述未必绝对准确，但它毕竟给公众开启了一扇回望时光之门，让人们反思今天的由来。<br />
+<br />
+<b>翁乃强（著名摄影家）：</b><br />
+这本书介绍了二十多位影像工作者的实践心得，也反映出历史的留痕，希望读者们能喜欢。<br />
+<br />
+<b>王景春（《南方都市报》视觉总监、编委）：</b><br />
+这份文本以一种平和随性的笔调展现了作品背后的诸多故事，以及摄影家的心路变化与思考，这些故事与思考更多的并非关于摄影本体，而是关于历史、时代、个人成长的微妙互动。<br />
+<div class="goods-content-title">
+	作者：李玉霄
+</div>
+李玉霄，曾任《南方周末》记者、《东方早报》特稿部主任、《南方人物周刊》主笔等职，2006年加盟腾讯网，现任腾讯网副总编辑。<br />
+<br />
+沈洪，江苏如皋人，中山大学新闻系毕业，供职于腾讯网新闻中心，负责口述史访谈栏目“大师”。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<b>序言</b><br />
+沙飞 飘逝的“先知”<br />
+翁乃强：不留余地的旁观者<br />
+四月影会：回归“自然?社会?人”的视角<br />
+李晓斌：以人民的视角为历史存证<br />
+金伯宏：用幽默的方式表达他们的状态<br />
+凌飞：追求纯粹性，坚持自己的观点<br />
+鲍昆：摄影和纸笔一样是我们说话的工具<br />
+罗小韵：凭着摄影爱好和对艺术的追求走到一起<br />
+徐勇：摄影作为艺术的价值是创造<br />
+侯登科 黄土高原割麦“候鸟”的守望人<br />
+吴家林：我是一个幸福的傻子<br />
+安哥：让摄影回归到面对生活、面对自己的时代<br />
+解海龙：纪实摄影的“正能量”和“负债感”<br />
+王福春：小火车，大社会<br />
+北河盟：一条流过青春的河<br />
+顾铮：带着一丝“幸灾乐祸”的目光<br />
+王耀东：摄影，通过臆想来暗示<br />
+雍和&amp;陆元敏：动静上海<br />
+雍和：记录波澜壮阔和惨不忍睹并存的时代<br />
+陆元敏：还是要回到刚拿起照相机时的状态<br />
+王文澜：一板一眼的节奏<br />
+贺延光：真实与谎言的博弈<br />
+<div class="goods-content-title">
+	在线试读
+</div>
+<b>时间切片的另一面</b><br />
+自诞生之初，摄影便被赋予了记录的使命，以本雅明所言的“上帝之眼”带来一种观看的革新，也为“图像证史”提供了最有力的技术条件。然而，“图像证史”却并非随着技术条件的出现而水到渠成，摄影的发明被称为“现代性的神话”，既是魔术，又是科学，在它漫长的成长历程中，“艺术与否”的身份界定纠缠不休，观看与记录并非一开始便无可置疑地定义摄影。<br />
+而对于“图像证史”的理解存有两大误区：一是以为只有那些记录了历史关键节点的、宏大叙事的摄影才具备成为史料的价值；二是认为孤立的影像足以客观地还原历史，摄影者的旁述不可避免地带有主观色彩，并不足以重视。<br />
+如果把快门比作锋利精准的手术刀，从时间的缝隙中切下一层薄薄的切片，置于镜头之下窥视历史的庞然身躯，我们便不能忽视，这切片的一面，是凝结于感光材料上的具体影像，另一面，则是摄影者所置身的历史语境与个人感知。缺失了这一面，所有的史料信息便无从解码，又或者只能信马由缰地误读。<br />
+在这个意义上，腾讯网新闻频道 “大师”栏目的摄影家系列访谈是一种值得重视的文本。同样作为摄影人，这批受访者中有很多我所敬重的前辈，很多人的作品对我而言并不陌生，但这份文本以一种平和随性的笔调展现了作品背后的诸多故事，以及摄影家的心路变化与思考，这些故事与思考更多的并非关于摄影本体，而是关于历史、时代、个人成长的微妙互动。<br />
+在时间的轴线上，这批口述者分布于中国近半个世纪以来摄影实践的几个关键节点，从知情者对沙飞的追忆，到翁乃强讲述的“文革”故事，再到“四月影会”参与者对当年暗流涌动的回忆，还有贺延光、王文澜、解海龙等人所代表的对假大空摄影的反抗，以及雍和、安哥、陆元敏等人对日常化、市井化影像的执著……这些人的作品以及他们的故事，清晰地印证了摄影在中国的社会功能的变迁，以及变迁背后深层次的推动力。<br />
+很少有人可以超然于他所处的时代，这些摄影家和他们的作品的价值，并非维系于一种异乎常人的“先知先觉”，重要的是他们在那个时刻、在那样的角度按下快门。他们的口述未必字字珠玑，记忆的偏差与疏漏也在所难免，但我们大可不必苛求所谓绝对客观的记录与阐述，历史书写总有其框架与多样性，当这种口述与影像构成的材料足够丰富的时候，假以一种合适的观看距离，材料便会相互校检印证，呈现一种大局与细节并举的厚重感。这不是一个媒体栏目所能尽数承载的使命，而是一种亟须倡议的集体行动，尤其当很多摄影家已垂垂老矣。<br />
+今天我们已经处于一个高度视觉化的年代，视觉之于当下早已不仅仅是取悦眼睛的点缀之物，抑或曲高和寡的自斟自饮，而是一种大众化、日常化的表达，数码成像、手机摄影软件与社交网络分享这三重因素的叠加以超乎想象的速度塑造了一个视觉超饱和的传播现象，很多足以进入历史的影像在传播中也不过各领风骚三五天。正因如此，审视一个并不久远的年代的影像和背后的故事，或许也有助于我们在一种延续性中去理解当下的摄影实践。<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A210021210863', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A210021210863', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A210021210863', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A210021210863', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A210021210863'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

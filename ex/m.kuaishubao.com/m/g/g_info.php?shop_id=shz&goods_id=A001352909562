@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/6/3/A001352909562_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/6/3/A001352909562_1.jpg">
+        <h2>知日-森女</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥22.80元</b> <del>¥35.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/6/3/A001352909562_1.jpg','知日-森女-超人气品牌知日系列图书第9弹（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!--提示信息 Begin-->
+<div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><strong>快书包推荐：</strong>森女全解析，森女必读哦</span> 
+</div>
+<!--提示信息 end--><!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】苏静等<br />
+【译者】<br />
+【出版】中信出版社<br />
+【出版时间】2013-03-11 00:00:00<br />
+【品牌】中信出版社<br />
+【ISBN】9787508638089<br />
+【开本】大32开<br />
+【装订】平装<br />
+【印刷】彩色<br />
+</div>
+<!-- 内容简介 -->
+<div class="goods-content-title">
+	内容简介
+</div>
+知日·森女：<br />
+<strong>《知日·森女》特集是超人气品牌知日系列图书的第9弹！<br />
+&nbsp;一定值得收藏的日系森女大攻略！</strong><br />
+<br />
+约翰·列侬说过“当我们正为生活疲于奔命的时候，生活已经离我们而去”。<br />
+<br />
+&nbsp;实际上，和列侬所出的嬉皮士时代一样，在某些特征和意识上，最近几年流行的“森女”和嬉皮士存在着不少共通点。二者都是崇尚自然、舒适、返璞归真的卫士；生活态度随遇而安；热爱流浪；排斥消费主义；追求简单、直接的处世态度。嬉皮士所处的七十年代，反战运动一波接着一波，保护自然环境的环保运动也此起彼伏，提倡有机的食品，提倡天然材质并抵制皮草，不拒绝并热爱二手衣服，这一切和今天年轻人追求似乎也相去不远。只不过它换了一个新的名号—低碳。而事实上，低碳生活也正是森女最为核心的生活要义。<br />
+<br />
+<strong>“森林系女孩”，简称“森女”（Mori Girl）。东京现在最流行的就是“森女”，就是20岁左右，活在当下享受幸福，不崇尚名牌，穿着有如走出森林的自然风格。以不做作，天真，自然的生活风格被大家认可!</strong><br />
+<br />
+待在大都市里，厌烦了快速的，消费的以及浮华的，“森林系”女孩或者“森”系女孩在新的世代应运而生，“森女”的风行暗合了当下追求低碳环保、清新纯爱、崇尚自然的潮流，超然脱俗具有温柔气质的森女，已然成为都市不可或缺的风景。<br />
+<br />
+广义来说，森女体验的是一种生活态度。<br />
+<br />
+在这本森女特集，“知日”用整本特集的空间去探寻“森女”文化的源头和脉络，本册特集有上田义彦镜头下的苍井优，就是那个被很多人认为是森女代表性人物的苍井优，为此我们专访了上田义彦；也整理介绍了宫崎葵为代表的日本森系女优们；特别介绍了别具森女风范的日本Spoon杂志；根据“森女”这一关键词线索，我们去日本的电影动漫音乐等文化角度做了专门的探究；regular 部分有川岛小鸟的新作品和访问，还有更多内容，请购买知日森女特集一览吧！<br />
+<br />
+森系女优的治愈力 <br />
+Spoon 少女的世界有点甜 川岛小鸟： 很高兴大家把“ 未来ちゃん” 当作我的女儿 &nbsp;……<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303201136571920.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303201136571920.jpg"></a><br />
+&nbsp; <!-- 作者简介 -->
+<div class="goods-content-title">
+	作者：苏静等
+</div>
+<div class="Goods-Content-Box">
+	<strong>姚远 </strong>| 西安人，毕业于厦门大学中文系。后在《青春潮》杂志社任记者、编辑。1988年赴日，从师于摄影大师森山大道。2000年起，创办电子杂志《日本流行资讯报》（后改名为《东京流行通讯》），十年来坚持不懈地传播日本流行文化。为多家陆、港、台杂志撰稿，并助力日文书籍的中文版引介工作。<br />
+<br />
+<strong>吴东龙</strong> | 从事设计观察的作家、讲师、设计师，也是课程与书籍的规划者。再多面向的<br />
+设计工作里，长期关注日本的设计场域，著有《设计东京》系列书籍，作品见于两岸三地。现在是“东喜设计工作室”、创意聚落“地下连云企业社”负责人。<br />
+<br />
+<strong>金鱼屋 </strong>| ACG 爱好者。有日版漫画收集癖。<br />
+云飞扬| 山东省日照市人，现居北京。电影《老那》的策划人，著名影评人，同时也是一名民间诗人，也做编剧、写小说。喜欢网络创作，曾担任过网易之我爱电影、天涯社区之影视评论等论坛的斑竹，门户网站设有专栏、博客等。他常年为媒体撰稿，也曾担任过《电影双周刊》《银幕内外》《明星BIGSTAR》等杂志编辑，也曾供职于“海岩工作室”。<br />
+<br />
+<strong>任知</strong>| 70 后代表诗人，作家、影评人。南开大学毕业，现居天津，独立写作。曾为《假日100 天》人文版编辑、昆明《生活新报》、广州《信息时报》专栏作家，有影评、乐评、书评多见于《北京青年报》《南方都市报》《钱江晚报》《城市画报》《上海时代报》等，著有诗集《孤屿心》和日本文化随笔集《完全治愈系》各一部。<br />
+<br />
+<strong>罗越</strong>| 毕业于南京大学中文系，自称“日剧爱好家”，撰稿人。有剧必看，并固定在新浪微博撰写日剧评论，每季度同时收看的剧集多达 20 部以上。在文学艺术、日本文化等领域也有独到见解。 <!-- 目录 -->
+	<div class="goods-content-title">
+		目录
+	</div>
+森女的前世今生 在自然和自我的探寻中荡漾生机<br />
+二次元森女类型考<br />
+森女追梦人—酒井景都<br />
+NEO MORI GIRL—强中带柔的2012 年进化型森女<br />
+爱生活，爱手作—东京TOTORO 的手作课<br />
+当森女真正进入森林<br />
+自然的状态最动人 访东京吉祥寺的纺织工坊─ Jota<br />
+宫崎葵： 森的意志，都在她的目光里<br />
+森系音乐 听她们的歌<br />
+以木之名 枫木家具专门店SERVE<br />
+高桥YOKO： 我不是“森女摄影家”！<br />
+普遍即永恒 采访摄影师上田义彦<br />
+森女电影： 森林女孩的影像之旅<br />
+绘·日记<br />
+森系女优的治愈力<br />
+<br />
+<strong>Regular</strong><br />
+Spoon 少女的世界有点甜<br />
+川岛小鸟： 很高兴大家把“ 未来ちゃん” 当作我的女儿<br />
+惠己： 从“ 锦鲤” 写真到“KOI” 品牌的艺术之路<br />
+模型爱好者的天堂： 原铁道模型博物馆的游览方法<br />
+<br />
+<strong>专栏</strong><br />
+吴东龙の设计疆界 在东京设计周里加值设计能量<br />
+知日DRAMA ON AIR 《薄樱记》 日本式武侠巅峰之作的再演绎<br />
+告诉我吧！日语老师 人以群分 <!-- 在线试读 -->
+	<div class="goods-content-title">
+		在线试读
+	</div>
+	<div class="Goods-Content-Box">
+		<p>
+			那么，还是从森女开始说起吧！<br />
+<br />
+“穿着松松垮垮的毛线衣”、“很喜欢复古风格的饰品”、“喜欢圆头小皮鞋”、“随身带着照相机记录点点滴滴的生活”......如今人们对森女的印象不外乎以上提到的几条，然而当我们真正去森女的起源地——Mixi的森女版块，就会发现其实“森女”一词其实根本没有什么准确的定义。<br />
+<br />
+“你打扮的好像会出现在森林里的女孩子哦”<br />
+朋友无意的一句评语，森女的诞生仅此而已。<br />
+当森女之风忽然之间席卷了大街小巷，几乎满眼都是飘飘长裙薄薄雪纺细细蕾丝，我决定回到原点重新琢磨这句“好像会出现在森林里的女孩子哦”的深层起源。于是我产生了两点疑问：<br />
+1、这里的森林指的是什么样的森林呢？<br />
+2、出现在森林里又是以怎样一种状态出现的呢？<br /><br />
+<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303111844255098.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303111844255098.jpg"></a><br />
+&nbsp;
+		</p>
+		<p>
+			<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303111844207718.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303111844207718.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303111844219187.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303111844219187.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303111844201384.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303111844201384.jpg"></a> 
+		</p>
+		<p>
+			<a href="http://shh.kuaishubao.com/g/A001352908941.html"><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303211630307241.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303211630307241.jpg"></a></a> 
+		</p>
+	</div>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A001352909562', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A001352909562', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A001352909562', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A001352909562', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A001352909562'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shz" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shz"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

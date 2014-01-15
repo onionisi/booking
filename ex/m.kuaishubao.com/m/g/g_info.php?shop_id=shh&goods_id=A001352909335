@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/7/3/A001352909335_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/7/3/A001352909335_1.jpg">
+        <h2>乐维萨咖啡精选礼盒：意式浓缩咖啡粉250g+欧罗金咖啡粉250g+摩卡壶1只</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥275.00元</b> <del>¥388.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：盒</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/7/3/A001352909335_1.jpg','乐维萨咖啡精选礼盒：意式浓缩咖啡粉250g+欧罗金咖啡粉250g+摩卡壶1只-乐维萨，世界十大著名咖啡品牌之一。原售价388元，超值特惠275元！（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          
+			<!-- 商品参数 -->
+			<div class="goods-content-title">商品参数</div>
+			<div class="Goods-Content-Box goods-attr">
+				【品名】乐维萨咖啡精选礼盒（礼盒内含意式浓缩咖啡粉250g/罐+欧罗金咖啡粉250g/罐+摩卡壶1只，配精致手提袋）<br />
+				【品牌】<br />
+				【包装】盒装<br />
+				【外包装尺寸】31*31*23cm<br />
+				【内包装】瓶装，31*31*23cm<br />
+				【配料】100%阿拉比咖啡粉<br />
+				【保质期】24个月<br />
+				【净含量】2*250g<br />
+				【产地】意大利<br />
+				【出品商与制造商】大昌三昶（上海）商贸有限公司出品，-制造<br />
+				【生产许可证】-<br />
+			</div>
+			<!-- 商品详图 -->
+			<div class="goods-content-title">商品详图</div>
+			<div class="Goods-Content-Box">
+				<p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301242004347181.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301242004347181.jpg"></a></p>
+<p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301242011021494.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301242011021494.jpg"></a></p>
+<p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201212031659130014.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201212031659130014.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201212031659137382.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201212031659137382.jpg"></a><br />
+<br />
+&nbsp;</p>
+<p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301242021162779.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301242021162779.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301242021520328.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301242021520328.jpg"></a><br />
+<br />
+&nbsp;</p>
+
+			</div>
+			<!-- 商品特点 -->
+			<div class="goods-content-title">商品特点</div>
+			<div class="Goods-Content-Box">
+<p><strong>乐维萨，世界十大著名咖啡品牌之一，<br />
+来自意大利最大的咖啡公司、全球最大的咖啡商。<br />
+一个多世纪以来，乐维萨已经成为最佳意式咖啡的代名词。<br />
+<br />
+这款精致大气的礼盒，配有两款乐维萨最经典的研磨咖啡粉和精致的摩卡咖啡壶，演绎出咖啡礼盒的上佳品位。</strong><br />
+<br />
+<strong>乐维萨欧罗金咖啡粉、</strong><strong><strong>意式浓缩咖啡粉</strong></strong><br />
+<br />
+这两款传统的乐维萨配方是采用100%的阿拉比卡豆。这些阿拉比卡豆皆来自中洲的高贵品种，再加上一些有强烈香味的非洲咖啡豆拼配而成。技师使用的专为欧罗咖啡研制的烘焙工艺流程，进一步的加强了这一配方的自然品质并兼顾了意大利消费者的需求。这就是欧罗烧咖的香味为什么如此独特并容易识别。<br />
+<br />
+<strong>摩卡壶</strong><br />
+<br />
+摩卡原来是指一种高压且快速的咖啡冲煮方法，后来才把以这种方式冲煮出来的咖啡亦称摩卡咖啡。以这种方法冲泡咖啡时，先将研磨的颗粒大小一致的柔细粉末，以填压器压实，滤器里的咖啡豆粉必须结实而紧密的形成一个饼状咖啡块，以对抗冲煮时 8～9bar 的热水压力。热水在强大的压力下，寻找路径浸透咖啡块，当咖啡块填压的紧密一致时，每一粒咖啡豆粉皆可受到热水平均的萃取，完整的注入杯中，瞬间得到一小杯口感浓郁而芳香的意式浓缩咖啡，这压力与阻力间是否能达成均衡的对称，正是欲冲泡出一杯浓稠好喝的摩卡咖啡不可或缺的重要因素。<br />
+<br />
+由于摩卡咖啡是以 8～9bar 的压力，迫使热水迅速的通过咖啡粉，故每杯咖啡的萃取时间大约只需 25～30 秒，节省大量的时间与成本，因水通过咖啡粉的时间极短，故研磨刻度需细致而稳定。<br />
+<br />
+要得到良好的研磨质量，一台好的磨豆机是不可或缺的，因为只有使用切割豆子迅速，温度上升慢，且研磨细密度均匀的磨豆机，搭配新鲜的咖啡豆，才有可能得到一杯好的咖啡。<br />
+<br />
+一杯好的摩卡咖啡应该是浓度很强但不过度苦涩，搭配牛奶及牛奶泡沫就可得到一杯香香浓浓的牛奶咖啡，香醇的摩卡咖啡及绵细的奶泡短时间即吸引了广大消费者的喜爱，创造了蓬勃发展的咖啡市场！<br />
+<br />
+<strong>如何用摩卡壶冲煮咖啡？</strong><br />
+<br />
+在一般家庭中，较为经济的选择是摩卡壶，而且它相当个性化的造型美观又不占空间，也是很受到欢迎的一点，早期的材质大多为铝制品，现在则多改为对人体较为无害的不锈钢塑材。<br />
+<br />
+步骤一、选用Espresso专用的咖啡豆，需要较美式咖啡更细的研磨，但还不到粉末的程度，尚成颗粒状，如果磨的太细，咖啡粉会穿透金属滤网，留下残渣，而且造成过度萃取而太苦、太涩，如果磨的太粗则热水太快穿过咖啡而造成萃取不足味道不够。<br />
+<br />
+步骤二、摩卡壶的底部放入适量的热水，（通常煮出一杯Espresso的量不会超过60㏄）。<br />
+<br />
+步骤三、将咖啡粉放入摩卡壶中间，状似漏斗的容器中，每一杯的用量约在8或9g左右，将咖啡粉摊平，稍做挤压，但不要压的太密，然后放入壶中。<br />
+<br />
+步骤四、将摩卡壶的上座与下座完全拴紧，以确保煮的时候水不会从中间渗出，然后将摩卡壶由底下加热，你可以用手拿或是放在专用的架子上，底下用酒精灯或瓦斯炉来加热，直到水沸腾后全部流到上座为止。<br />
+<br />
+<strong><span style="color: #8b4513">【几种煮咖啡的方法】</span></strong><br />
+<br />
+<strong>滤纸冲泡 最轻松的冲泡法&nbsp; </strong><br />
+<br />
+研磨法：中细<br />
+<br />
+用滤纸冲泡法是最轻松卫生的泡法,且不用购买昂贵的器材,在家中就可用最简便的方法冲泡咖啡,且另一优点是它容易调节咖啡粉量.热水量及注入方式.<br />
+冲泡用水壶膺选壶口细.热水能垂直注入,且壶内装7-8分满热水即可,倒开水时,咖啡份数少时要慢慢倒,咖啡份数多时要倒快一点,如此才能冲泡出香浓的咖啡.<br />
+<br />
+冲泡步骤：<br />
+<br />
+将咖啡专用的滤纸封条线交互折弯,放在滴流咖啡壶内；一杯咖啡放10g咖啡粉,轻摇滴流咖啡壶,让咖啡表面摊平；将沸腾的水仔细淋在每吋咖啡粉上；为了抽出咖啡的美味成分,需争熟20秒左右；视咖啡的数量, 将适量的热水由中央朝外,以画圆的方式一次注入,待咖啡滴入托盘即可。<br />
+<br />
+<strong>法兰绒滤网滴泡法 终极的人工滴泡法 </strong><br />
+<br />
+研磨法：中<br />
+<br />
+它的泡法和滤纸大同小异,但所呈现出来的咖啡味道却更为细致,它能将咖啡的苦味.酸味等特性完全的呈现,但法兰绒滤网较滤纸不便之处在保养清洁及整理上.在第一次使用它时,需用热水予以冲洗,然后再放入泡有咖啡粉或茶叶渣的开水中煮10分钟,去除布臭味,再用水洗净,用完后也要用热水清洗干净,泡在清水中冷藏保存.切记不要用肥皂或直接晒干,否则会产生异味,放入冰箱冷藏时最好能放在密闭容器中以免沾染到其它食物的味道.<br />
+<br />
+冲泡步骤：<br />
+从水中取出滤网,用手轻拧干水分,毛绒面向外将咖啡粉倒于滤网中,轻轻摇动,将开水滴放于咖啡中,从中心到周围,一次不要注入太多以免咖啡外漏 咖啡粉开始膨胀,产生细小泡沫从滤网开始低下数滴咖啡液当咖啡液变成淡咖啡色时,立刻移开滤网,有时泡沫中参杂不纯物质,咖啡味道会变差抽出结束后,中央部分不会下陷,且表面不会残留泡沫。<br />
+<br />
+<strong>虹吸式 欣赏令类的戏剧表演</strong><br />
+<br />
+研磨法：中细<br />
+<br />
+是一种利用蒸气压力提炼咖啡的方法,它的有趣在于可以完全看透咖啡抽出的过程,烧瓶内的开水沸腾后直接蒸发上升至漏斗内,完成咖啡抽出程序,抽出完毕的咖啡又再度流到烧瓶内,彷佛是场戏剧化的表演,不仅在味觉上享受,在视觉上也满足了。<br />
+<br />
+冲泡步骤：<br />
+<br />
+将水倒入烧瓶,酒精灯至于下方点燃加热,将滤器装在漏斗上,倒入适量咖啡粉 开水沸腾后将漏斗插在烧瓶上方(若水温低时插入,味道会变差) 水加热后蒸发上升到漏斗,咖啡粉受到压力会浮在开水上方 用竹片搅拌沉淀在下面的咖啡粉使其能完全溶解浸泡在开水里放置30秒后用竹片在漏斗内以同心圆的方式慢慢搅拌6-7次 搅拌完毕45秒后熄掉酒精灯,漏斗内的咖啡会经过滤器过过滤后向下流到烧瓶,就大功告成了。<br />
+<br />
+<strong>蒸气加压式 犹如搭快速车的意式浓缩咖啡</strong><br />
+<br />
+研磨法：极细<br />
+<br />
+蒸气加压煮咖啡是利用蒸气压力瞬间将咖啡液抽出,espress所代表为快速之意,espresso义式浓缩咖啡具有强烈浓厚的苦味,刚泡好的咖啡,表面会浮现细致柔软的泡沫,因为热水在瞬间喷出,一口气将咖啡抽出而造成的气泡,这些泡沫便是espresso独特风味之处。<br />
+<br />
+冲泡步骤：<br />
+<br />
+先使用壶的下半部,将壶内的水倒入九分满(因为水分会被咖啡粉吸收)将咖啡粉倒入杯内用汤匙轻压,上下套好再盖好壶身,切记要锁紧以免蒸气或热器外泄将咖啡壶置于瓦斯炉上,以大火煮沸 待热水上升后转成小火,切记不要打开壶盖以免水溢出来等热水全部上升至上半部时,趁热泡沫尚未消失,快速倒进咖啡杯里。<br />
+<br />
+<strong>水滴法 需耐心等待的精致雕琢方法</strong><br />
+<br />
+研磨法：细<br />
+<br />
+其主要是利用咖啡与水相溶,将它从水中慢慢提炼出来,由于需使用咖啡蒸馏器一滴一滴提炼,所以耗费的时间很长,且咖啡的味道会随着烘培程度.水量.时间而有所不同,所以适合深度烘培的咖啡豆,否则酸味会太强烈<br />
+<br />
+冲泡步骤：<br />
+水倒入上壶内 滤纸固定于圆筒过滤管内,放入咖啡,由上轻压加以固定将咖啡粉全部浸于水中 过滤管与接咖啡粉的扥杯组妥,调节点滴栓(大约每分钟40-42滴) 约经过5-6小时即可提炼完毕.<br />
+<br />
+<strong>冰咖啡 清凉透心脾 </strong><br />
+<br />
+研磨法：细<br />
+<br />
+以上任一的方法冲泡出咖啡液,但浓度需是热咖啡浓度的2倍,在玻璃杯中注入冰块,加入咖啡使其快速冷冻.或是将咖啡壶放在冰冷的水中冷却,再放到冰箱冷藏,但须注意一点是冷却的时间过长,会结成冰块或导致味道变质。</p>
+<p><strong><span style="color: #8b4513">【品牌介绍】</span></strong><br />
+<br />
+乐维萨，跨越100多年历史的咖啡王国<br />
+<br />
+一个多世纪以来，LAVAZZA已是意式咖啡的代名词，这个目标早在20世纪初期LAVAZZA先生在创建公司时就已确立，他致力于通过不同品种咖啡的拼配艺术，制作一杯完美品味的咖啡。<br />
+<br />
+这 个理念在100多年里让LAVAZZA获益匪浅，使之逐渐成为意大利的市场主导，并销往70多个国家，它在意大利占有75%的咖啡市场，销售量占全世界的 45%。现在，公司正不断的扩大生产及销售规模，努力开拓全新市场，LAVAZZA不仅仅向世人介绍Espresso这一传统的意大利标志饮品，不同饮用 口味以及不同的制作方法。<br />
+<br />
+在新世纪之初，LAVAZZA又将以全新面貌闪亮登场，它将成为人们居家、工作以及各种户外消费的主导。<br />
+<br />
+LAVAZZA 目前员工1660人，五家工厂，每天产量340吨，并通过ISO 9003认证标准，在纽约、巴黎、法兰克福、维也纳、伦敦皆设有分公司，行销全球超过80个国家，年销售高达86,000吨（约140亿 杯）LAVAZZA咖啡经过严格的筛选生豆，独家的制造流程和烘培技术，品质稳定；精确的混合比例，产品丰富多样；独特真空包装保存咖啡豆的新鲜度及原 味。难怪全球的饮家都知道这句话：没喝过LAVAZZA千万别说你喝过好咖啡！</p>
+<br /><p><a href="http://pic.kuaishubao.com/UploadFiles/shop/201212031659156799.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201212031659156799.jpg"></a></p>
+
+			</div>
+			<!-- 使用方法 -->
+			<div class="goods-content-title">食用与贮存小贴士</div>
+			<div class="Goods-Content-Box">
+				【使用方法】以配套的摩卡壶冲煮。<br />
+				【适用场合】新年、圣诞、春节的高雅礼品。<br />
+				【贮存方法】阴凉、干燥<br />
+			</div>
+			<!-- 温馨提示 -->
+			<div class="goods-content-title">快书包服务承诺与说明</div>
+			<div class="Goods-Content-Box">
+1.快书包所售商品均为品牌正品，请您放心购买。欢迎您选择快书包精选、低价的高品质商品和1小时到货的用心服务。
+<br />
+2.因商品包装升级等原因，您收到的商品可能与图片不完全一致，请以实物为准。快书包也将尽量及时更新网站信息。
+<br />
+3.根据国家相关法律规定，此类商品售出后非质量问题不可退换，请您谅解。
+			</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A001352909335', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A001352909335', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A001352909335', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A001352909335', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A001352909335'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

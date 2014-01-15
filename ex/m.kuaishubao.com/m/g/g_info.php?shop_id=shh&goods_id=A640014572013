@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/7/9/A640014572013_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/7/9/A640014572013_1.jpg">
+        <h2>百利生杞红葡萄酒375ml</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥86.00元</b> <del>¥126.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1"  type="number" value='1' disabled="disabled">
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：瓶</span>
+      </div>
+            <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' disabled="disabled">暂时缺货</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/7/9/A640014572013_1.jpg','百利生杞红葡萄酒375ml-中国第一款本草养生干红萄酒；精选灵芝、红花和枸杞子等提取物，调配100%进口名产区干红葡萄酒。可增强免疫力、缓解体力疲劳。（分享自 @快书包）','','utf-8'));"><i></i></button>
+    </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【品名】百利生杞红葡萄酒375ml<br />
+【包装】瓶装<br />
+【外包装尺寸】25.6*7cm<br />
+【内包装】瓶装，25.6*5.8cm<br />
+【配料】枸杞子提取物、红花提取物、灵芝提取物、干红葡萄酒<br />
+【酒精度】11.5±1%，v/v<br />
+【保质期】24个月<br />
+【净含量】375ml/瓶<br />
+【保健功能】增强免疫力、缓解体力疲劳<br />
+【适宜人群】免疫力低下者，易疲劳者<br />
+【不适宜人群】少年儿童、孕产妇、乳母及月经过多者、对酒精过敏者<br />
+【食用方法及食用量】每日50ml，一次或分次饮用<br />
+【产地】北京<br />
+【批准文号】国食健字G20100658<br />
+【出品商与制造商】北京华药世济科技有限公司<br />
+【卫生许可】（京药）卫食证字（2012）第110000-JS0012号<br />
+</div>
+<div class="goods-content-title">
+	商品特点
+</div>
+<p style="text-align:left;">
+	<strong></strong>本品是以枸杞子提取物、红花提取物、灵芝提取物、干红葡萄酒为主要原料制成的保健食品，经动物功能试验证明，具有<br />
+增强免疫力、缓解体力疲劳的保健功能。<br />
+<br />
+<b>尊贵来自至高的品质管理</b><br />
+★名产区红酒：<br />
+100%来自世界知名产区，严格按照百利生的风土标准，筛选出的优质干红葡萄酒作为酿制百利生的基酒，完成的保留了原酒的风味，和特色。<br />
+★天然本草：<br />
+100%公认源产区地道灵芝、红花、枸杞子等植物本草，遵自然规律种植、采收；按照物性晾晒、烘焙；并应用指纹图谱技术甄别、精选。<br />
+★冰点融酿：<br />
+百利生杞红葡萄酒要经过72小时冰点静置灭菌，72小时冰点配置，18天冰点融合发酵，3重过滤，30万级GMP无菌车间完成灌装。百利生整个工艺过程都在
+冰点温度进行的，通过这一工艺，可以最大限度的保证，干红和中药提取物的原始状态不被破坏，完整的保留组方成分的原始属性及含量；保证整个配置过程无菌状
+态完成。<br />
+<br />
+<b>百利生“黑卡”介绍：</b><br />
+百利生“黑卡”系列本草干红葡萄酒，选用智利ELGUI VALLEY产区赤霞珠品种原酒作为基酒，酒体外观呈深宝石红色，入口细腻、柔软丰厚而典雅，清新怡人，果香浓郁，并包裹着淡淡的本草窖香，余韵尤佳，可以给人带来无比的愉悦感。
+</p>
+<div class="goods-content-title">
+	商品详图
+</div>
+<b>图一：全图展示</b><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A640014572013_xt_cj_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A640014572013_xt_cj_9.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A640014572013_xt_cj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A640014572013_xt_cj_8.jpg"></a><br />
+<br />
+<b>图二：外包装展示</b><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A640014572013_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A640014572013_xt_cj_4.jpg"></a><br />
+<b>图三：瓶装展示</b><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A640014572013_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A640014572013_xt_cj_6.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A640014572013_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A640014572013_xt_cj_5.jpg"></a> 
+<div class="goods-content-title">
+	品牌介绍
+</div>
+<b>◎中国首支本草干红葡萄酒</b><br />
+280年前，意大利耶稣会修士罗怀中（Giovanni Giuseppe Da Costa，1679-1747，著名外科医生和药剂师）来到中国，成为了皇家御医。据中国第一历史档案馆馆藏清宫档案记载，雍正十一年（1733）七月初六日，罗怀中呈献给雍正帝三张“西洋葡萄药酒”的配方。自此，中国第一个御用本草养生葡萄酒诞生！<br />
+伴随着科技的进步，国内数十位中医药、生物酿造的专家团队，历时5年，开创三项发明专利，用现代生物技术，酿制工艺，精选灵芝、红花和枸杞子等多种本草精华，调配100%进口名产区干红葡萄酒，精酿而成中国第一款本草养生干红萄酒。2010年获批成为国内唯一“国食健字”本草干红葡萄酒。并在同年成功上市。<br />
+<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A640014572013', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A640014572013', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A640014572013', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A640014572013', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A640014572013'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

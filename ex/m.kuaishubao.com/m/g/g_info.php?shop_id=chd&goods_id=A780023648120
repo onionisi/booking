@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_1.jpg">
+        <h2>知日-暴走</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥22.80元</b> <del>¥35.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_1.jpg','知日-暴走-综合介绍暴走族、摩托车、旅行等“暴走”文化元素，深入触及日本机车文化的核心（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span class="w" style="color:red;"><b>快书包推荐：</b> 
+	<p class="p0" style="margin-top:0pt;margin-bottom:0pt;display:inline !important;">
+		<a href="http://www.kuaishubao.com/c/102102-1-1.html">更多《知日》：《知日-断舍离》《知日-犬》《知日-日本禅》《知日-森女》等</a> 
+	</p>
+</span> 
+</div>
+<div class="goods-content-title">
+	商品参数
+</div>
+【作者】苏静主编<br />
+【出版社】中信出版社；<br />
+【装订】16开；平装<br />
+【页数】175<br />
+【印刷】彩色<br />
+【ISBN】9787508639819<br />
+<div class="goods-content-title">
+	编辑推荐
+</div>
+暴走族、机车文化、旅行&nbsp; 极速热血青春物语。<br />
+“暴走”一词与暴走族、一种突然迸发的状态都有意义的关联，在中文语境中还被赋予远足、旅行的意义。一想到“暴走”这个源于日本的词，总是会联想起年轻人的热血、奔放、追求自由的宣泄与释放。<br />
+专注日本文化、国内最高人气连续出版品牌《知日》最新弹——《知日·暴走》特集，综合介绍暴走族、摩托车、旅行等“暴走”文化元素，收集大量珍贵史料、探访当代机车文化代表，深入触及日本机车文化的核心，带给读者令人振奋的文化体验。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+暴走族、机车文化、旅行&nbsp; 极速热血青春物语<br />
+<br />
+想追求速度，想一直在路上？说明你够年轻！<br />
+从暴走族到机车骑士，日式暴走文化的最速体验！<br />
+<br />
+专注日本文化、国内最高人气连续出版品牌《知日》最新弹——《知日·暴走》特集喧嚣上路！<br />
+[Bosozoku] &nbsp;&nbsp; 暴走族——属于日本一代人的特殊青春记忆，独家披露大量珍贵资料；<br />
+[Motorcycle]&nbsp; 摩托车——多面向记录摩托车王国的产业奇迹；<br />
+[Interview]&nbsp;&nbsp;&nbsp; 骑乘者——木村信也、打田稔、东本昌平，独家专访最夯机车骑士；<br />
+[Go]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在路上——暴走日本完全指南。<br />
+<div class="goods-content-title">
+	作者：毛丹青等
+</div>
+毛丹青<br />
+外号“阿毛”，中国国籍。北京大学毕业后进入中国社会科学院哲学所，1987年留日定居，做过鱼虾生意，当过商人，游历过许多国家。2000年弃商从文，中日文著书多部。现任神户国际大学教授，专攻日本文化论。<br />
+<br />
+李小牧<br />
+1960年生于中国湖南省长沙市。历经芭蕾舞者、文艺报记者、业务员等职业后，于1988年私费赴日学习设计。受歌舞伎町吸引，开始以“歌舞伎町案内人”的身份活动。现为作家，著有《歌舞伎町案内人》《日本有病》。为《环球网日本新李解》主持人，并在日本开有餐馆“湖南菜馆”。<br />
+<br />
+刘联恢<br />
+旅居日本多年，现为北京第二外国语大学汉语学院教师，专职教授外国留学生汉语和中国文化，每年为日本京都外国语大学等学校的暑期访华团做中国文化讲座。<br />
+<br />
+擦主席<br />
+插画师、独立漫画家。现居北京。毕业于北京广播学院动画学院动画技术专业，CG插画班课程设计高级讲师。曾策办 《CultYouth》系列漫画丛书。<br />
+<br />
+水果君<br />
+小说作者与漫画脚本担当，曾出版《Blurry~浊》《尼洛亚特狂歌》《WhitePhantom~翼之影》系列书。爱好是收集爱好。现居北京。<br />
+<br />
+<b>受访人</b><br />
+吉永祐之<br />
+日本纪实摄影师。1964年出生于大阪，现居东京。原暴走族成员，1993年投身摄影，1996年开始拍摄暴走族。出版有摄影集《哥特族&amp;洛丽塔》《族》《暴走族》《抱歉，不好意思（为这些裸身道歉）》等，在东京、大阪、纽约等各地举办过个展<br />
+<br />
+吉米·莫里斯（Jamie Morris）<br />
+美国独立纪录片导演，现在东京和洛杉矶两地工作，在美国时曾拍摄过锐舞运动的纪录片。2003年开始在日本拍摄记录暴走族，2013年，吉米担任导演兼制片人的纪录片《永别了！SpeedTribes》在美国和日本放映。<br />
+<br />
+岩桥健一郎<br />
+青少年不良文化评论家。少年时加入横滨联合“死天王”暴走团体，引退后以在月刊杂志上连载《和爆音共生的战士们》为契机，与日本现役暴走族首领进行面对面访谈，至今已持续26年。英国BBC电视台曾对其进行贴身采访。<br />
+<br />
+木村信也<br />
+1962年生于东京，1993年创立定制摩托车品牌“ZERO”，获众多好莱坞明星拥趸。2006年离开“ZERO”，在美国加利福尼亚州创立工作室“ChabottEngineering”，从事独立定制摩托车事业。<br />
+<br />
+打田稔<br />
+摩托车手、摄影师、媒体人。JPS日本写真家协会会员。1987年至1999年担任《GARRRR》主编。作为摩托赛车手多次参加国际摩托车赛，是将海外越野摩托车带入日本的第一人。著有《哈雷?戴维森的世界》等，另有多部企划、编辑的书籍。<br />
+<br />
+东本昌平<br />
+漫画家、杂志书《东本昌平RIDE》出品人。1982年因短篇作品《轮》出道，1987年开始在《Mr.BikeBG》上连载《Kirin》。漫画作品大部分以摩托车为主题，其他代表作还有《CB感。REBORN》《CAROLAWAY》《SS》等。<br />
+<br />
+黑川雅之<br />
+日本著名建筑师、工业设计师。1937年出生于爱知县名古屋市。1967年获得早稻田大学建筑博士学位，并成立黑川雅之建筑设计事务所。曾获每日设计奖、GoodDesign金奖等多数奖项，作品被纽约当代美术馆选为永久收藏品。著有《八个日本的审美意识》《设计的修辞法》《设计与死》等。<br />
+<br />
+横田大辅<br />
+摄影师。1983年出生于日本琦玉县。2003年毕业于日本写真艺术专科学校。作品曾入选佳能写真新世纪佳作。获得第二届写真“1_WALL”展大奖。被评为MONOVol.1“八大优秀摄影师”之一。<br />
+<div class="goods-content-title">
+	目录
+</div>
+本期特集内容：<br />
+<br />
+Feature<br />
+[Bosozoku]<br />
+飞驶而过的只是青春_吉永祐之的暴走纪实<br />
+永别了，暴走族！Sayonara Speed Tribes<br />
+“异色不良”作家 岩桥健一郎<br />
+喧哗上等！<br />
+停车场里的暴走车秀<br />
+柳町光男 名为青春堕落，实为烈焰灼伤<br />
+前往夜幕下的极速世界 暴走族的文化日常<br />
+清河妖精愚连队二轮讲坛<br />
+[Motorcycle]<br />
+武士之魂 骑士之心<br />
+摩托车王国的缔造者<br />
+工业浮世绘 昭和摩托广告赏<br />
+阳春三月的东京摩托盛宴<br />
+日本摩托车的速与技<br />
+盾之极致 日本顶级头盔ARAI和SHOEI<br />
+摩托车杂志：摩托车生活的后援者<br />
+[Interview]<br />
+木村信也 摩托车手造者<br />
+打田稔 日本越野摩托车第一人<br />
+东本昌平&amp;《东本昌平RIDE》 摩托车骑乘者的骄傲<br />
+[Go]<br />
+暴走！日本十名道<br />
+去日本飙车吧！<br />
+暴走日本之装备篇<br />
+嘿！暴走俱乐部<br />
+居乡不觉 异乡有悟 暴走文艺地图<br />
+<span style="line-height:21px;font-size:14px;">[别册 日和手帖] 你可以凭爱意将富士山私有</span><br />
+<br />
+<span style="line-height:21px;font-size:14px;">Regulars<br />
+</span>【书刊】《新美术海》 明治时代的元祖设计杂志<br />
+【摄影师】 横田大辅 黑白世界的捕影者<br />
+[专栏]<br />
+虫眼蟲语 黑色<br />
+在歌舞伎町谈日本极道<br />
+告诉我吧！日语老师 夏天里的“小秋日和” <br />
+<div class="goods-content-title">
+	在线试读
+</div>
+突然就对机车着迷了,然后就想到暴走了。<br />
+“暴走”一词，多数日本人听到后都要叹气摇头，因为一般日本人脑海中直接对应的画面大致都是一群叛逆期的青少年，开着轰鸣声巨大的大排量摩托车狂飙游走于街头小巷，再顺带干点儿非法勾当，那就更加令人避之唯恐不及了。现实中日本的黑社会确实吸收了一些来自暴走族的少年。<br />
+当然，“暴走”不等于机车。不过，在我脑海中的暴走族都是胯下两轮生风，所以《知日•暴走》里面也有大量有关日系机车的文章。<br />
+不过，可惜在中国，大多数城市的管理者对机车（或者说摩托车）都不太友好，甚至干脆就下了禁摩令。在中国，机车也直接被妖魔化成自杀机器之类的形象。<br />
+在《知日•暴走》特集，我们是要做一种姑且称为“暴走”的状态，当然本格意义上的“暴走”一定要做，不然就算欺骗读者了。<br />
+在这本特集里，“暴走”也会广义化，会和一般人产生联系，或者说是花较多时间去旅行一次，“暴走”就是生活的突然变线，就是不由分说地离开，就是给自己一个不需要理由的行走机会。<br />
+源自日文的组合汉字“暴走”，中国人看着这两个汉字的字面，就能产生一种我们理解的新意义，不是吗？<br />
+最后，期望自己穿西装开着一辆k a w a s a k i 摩托车在城市大道狂飙的场景能早日实现。阿门。 <br />
+<div class="goods-content-title">
+	插图试读
+</div>
+<div align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_1.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_2.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_3.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_5.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_6.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_7.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_8.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/A780023648120_xt_cj_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/A780023648120_xt_cj_9.jpg"></a><br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A780023648120', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A780023648120', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A780023648120', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A780023648120', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A780023648120'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chd" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chd"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

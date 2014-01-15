@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_1.jpg">
+        <h2>文景Lens（2013年第12期 总第104期）-我用最笨的方式了解着这片土地</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥18.00元</b> <del>¥20.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_1.jpg','文景Lens（2013年第12期 总第104期）-我用最笨的方式了解着这片土地-曾获得木村伊兵卫奖的日本著名女摄影师志贺理江子深入日本宫城县的北釜村的经历与体验。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="white-space:normal;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="white-space:normal;">
+	【出版】财讯传媒集团出品<br />
+【出版时间】2013-12-06<br />
+【品牌】文景Lens<br />
+【刊号】9771672879133<br />
+【开本】大16开<br />
+【页数】120<br />
+	<div align="left">
+		【印刷】彩色<br />
+	</div>
+</div>
+<div class="goods-content-title" style="white-space:normal;">
+	本期要目
+</div>
+<div class="Goods-Content-Box" style="white-space:normal;">
+	<p>
+		<strong><strong style="color:#333333;white-space:normal;">随想<br />
+		<div style="text-align:center;">
+			<strong><a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_6.jpg"></a></strong>
+		</div>
+</strong>资讯</strong>
+	</p>
+<strong></strong><br />
+<span style="color:#8B4513;">角色／声音／世相／新知／数字／灵感／日历</span>
+	<div align="center">
+		<br />
+	</div>
+<strong>城市 City</strong><br />
+<span style="color:#8B4513;"><br />
+布拉迪斯拉发：和历史一起生长</span><br />
+布拉迪斯拉发是一座适合漫步的城市。和周边那些首都城市比起来，它不大，不旧，不新，不沉重……如今，在充分利用老城魅力的同时，它也在试图证明自己年轻的一面。<br />
+	<p align="center">
+		<a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_1.jpg"></a><br />
+	</p>
+	<p>
+		<strong>专题 Special Topic</strong><br />
+<span style="color:#8B4513;"><br />
+“我用最笨的方式了解着这片土地，我想与这片土地发生真正的联系”</span><br />
+志贺理江子在拍摄了一些让她获得大奖的照片后，觉得离她拍摄的那些生活太遥远了。于是她来到日本宫城县的北釜村，一次次叩开人家的房门,送上自己的介绍信; 也曾经不请自至,加入老人们的茶会;或者登门收集每一家的玩偶、 盆景和衣物……她渐渐融入北釜人的生活,也把自己从一个留英艺术系学生,变成地道的北釜农村居民，并且与他们一起遭遇和活过了那场“3·11”大地震。
+	</p>
+	<div style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_7.jpg"></a><br />
+	</div>
+	<p>
+		<br />
+	</p>
+	<div style="text-align:center;">
+		<br />
+	</div>
+<strong>万象 Panorama</strong><br />
+<span style="color:#8B4513;"><br />
+宗萨的旅行</span><br />
+宗萨仁波切喜欢电影,对 德·西卡等电影大师了如指掌,自己也执导了几部。在电影拍摄和其他一些弘法的过程中，摄影师帕武跟随着他，记录下宗萨的许多旅行瞬间。<br />
+	<div style="text-align:center;">
+		<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_8.jpg"></a><br />
+	</div>
+<strong>人物 People：</strong><br />
+<span style="color:#8B4513;"><br />
+摄影有我所有的青春记忆</span><br />
+翻开高源的相簿，照片中的每一个人都曾闪闪发光:魔岩三杰、许巍、艾敬……人们都说那是 一段充满阳光、自由和诗意的年代,但对高源来说,这些更像是被遗落在时光深处的家庭照,而他们是亲人、志趣相投的朋友和她自己的青春回忆。<br />
+	<div style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_3.jpg"></a><br />
+	</div>
+	<p>
+		<span style="color:#8B4513;">作为大卫·林奇的女儿</span><br />
+詹妮弗·林奇出生时，她那位著名的父亲大卫·林奇只有22岁，尚是为了糊口要去卖报纸的阶段，也不顾一切地沉浸在艺术之中。敏感的詹妮弗说，“我害怕自己不如艺术重要，所以就让自己成为艺术的一部分”。这种纠葛始终存在于他们的父女关系之中<br />
+		<div style="text-align:center;white-space:nowrap;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_2.jpg"></a><br />
+		</div>
+	</p>
+	<div style="text-align:center;">
+		<br />
+	</div>
+<strong>瞬间 The Moment</strong><br />
+<span style="color:#8B4513;"><br />
+“全盘托出你的脆弱，你才真正是强大的”</span><br />
+克里斯蒂娜，一个曾经离家出走，吸毒，卖淫的女孩，用拍摄自拍照的方式，对自己进行了长达23年的“治疗”。现在，她开始在其他成年人身上进行着类似的试验。“直白的脆弱会成为一种力量，让观者瞬间缴械”。她总结说。
+	<p style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_5.jpg"></a>
+	</p>
+	<p>
+		<strong><br />
+记忆 Memory</strong><br />
+<span style="color:#8B4513;"><br />
+温故1933</span><span style="text-align:center;">&nbsp; &nbsp; &nbsp;&nbsp;<br />
+		<div style="text-align:center;">
+			&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/9/b/A670033757688_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/b/A670033757688_xt_cj_4.jpg"></a>&nbsp;&nbsp;
+		</div>
+</span>
+	</p>
+	<p>
+		<span style="color:#8B4513;"></span>
+	</p>
+</div>
+<div class="goods-content-title" style="white-space:normal;">
+	文景Lens杂志简介
+</div>
+<div class="Goods-Content-Box" style="white-space:normal;">
+	<p>
+		《Lens》 （原名《LENS.视觉》或《财经.视觉》）杂志隶属财讯传媒，是一本深度关注社会、文化、历史和生活方式的影像新闻杂志。自2005年1月创办以来，以 图文结合的叙述方式，关注不断变化的现实和永恒不变的人性，每一期都在努力成为您身边最具阅读价值的出版物。
+	</p>
+	<div>
+		<br />
+	</div>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A670033757688', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A670033757688', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A670033757688', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A670033757688', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A670033757688'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chd" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chd"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/e/2/A350016299922_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/e/2/A350016299922_1.jpg">
+        <h2>电通“鬼十则”</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥22.80元</b> <del>¥32.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/e/2/A350016299922_1.jpg','电通“鬼十则”-全球最大独立广告公司的DNA（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】[日]柴田明彦 著,<br />
+【译者】<span style="white-space:normal;">&nbsp;郑燕，王婕，马洪月</span><br />
+【出版】中信出版社<br />
+【出版时间】2013-05-01 00:00:00<br />
+【品牌】中信出版社<br />
+【ISBN】9787508638706<br />
+【开本】32开<br />
+【页数】 206<br />
+【字数】12.8万<br />
+【装订】平装<br />
+【印刷】黑白<br />
+</div>
+<br />
+<div class="goods-content-title">
+	内容简介
+</div>
+电通“鬼十则”由“广告鬼才”吉田秀雄于20世纪50年代制定，传承60余年，沿用至今。它是电通庞大机体的DNA，使得电通连续20多年广告收入居全球第一。它被全球广告从业人员奉为圭臬，被视为从平庸走向成功的铁律，并在其他多个行业领域广受追捧。<br />
+<br />
+<b>编辑推荐</b><br />
+《电通“鬼十则”：全球最大独立广告公司的DNA》的作者在电通工作过23年，期间在工作中践行“鬼十则“的原则，并深有心得。作者致力于将自己的所得及思考与人分享，结合自己的工作实践，并对7位曾经的工作伙伴进行了访谈，对“鬼十则”的内容和理解方式进行了解读，是一部了解电通“鬼十则”的上佳读物。<br />
+电通“鬼十则”，传承60余年，影响遍及广告及其他领域。<br />
+它是电通庞大机体的DNA，使得电通连续20多年广告收入居全球第一。<br />
+它被全球广告从业人员奉为圭臬，日本首相列为必读物，被视为从平庸走向成功的铁律。<br />
+<br />
+<b>电通“鬼十则”</b><br />
+一 工作要靠自己创造，不要等待指派<br />
+二 做事应主动抢先，不应消极图安稳<br />
+三 要有做大事业的胸怀，只做琐事会使心胸狭隘<br />
+四 敢于挑战艰难，只有坚持到底才能升华<br />
+五 一旦动手，就要锲而不舍，不达目的死不罢休<br />
+六 要推动其他人，推与被推，日久会有天壤之别<br />
+七 要有愿景，这样才能有耐力、窍门、进取的力量和希望<br />
+八 要有信心，没信心就没魄力、没韧性、没深度<br />
+九 所谓服务，就要做到最大限度地开动脑筋、面面俱到、滴水不漏<br />
+十 不要怕摩擦，摩擦是积极的养分，害怕摩擦就会懦弱无能 <br />
+<br />
+<div class="goods-content-title">
+	作者：柴田明彦
+</div>
+柴田明彦，1959年东京生人，毕业于庆应义塾大学法学部政治学科。1983年进入电通股份有限公司工作，先后曾任报社出版、新闻开发部部长及业务推进部部长等职务。2006年辞职后创业，成立A&amp;YTRUST0915、NS人财创造机构等公司。在对企业、团体的宣传、销售进行指导并开展营业培训之余，同时兼任大学职业规划相关课程的讲师一职。 <br />
+<br />
+<div class="goods-content-title">
+	目录
+</div>
+<br />
+寄语<br />
+中文版序<br />
+序一 广告人的精神<br />
+序二 青出于蓝<br />
+序三 我读“鬼十则”<br />
+引言<br />
+<br />
+<b>第1条 工作要自己创造，不要等待指派</b><br />
+老生常谈不过时，常规工作有亮点／“快稳准狠”，从报纸中发掘新的商机！／永不言败！如何看待未能实现的企划／想象力依托于切实可靠的信息采集／创造即“变心中所想为现实”<br />
+［访谈一］ 正因立足当下，越发彰显“鬼十则”的重要性<br />
+<br />
+<b>第2条 做事应主动抢先，不应消极图安稳</b><br />
+给浅显的文章赋予个性化定义／变生意场为特训营／主动抢先并不是咄咄逼人／追求速度／锻炼“提出假设的能力”／切身感受必不可少／以“前景”、“职责”、“激情”为动力<br />
+［访谈二］“埋首工作时”的坚强后盾——“鬼十则”的金玉良言<br />
+<br />
+<b>第3条 要有做大事业的胸怀，只做琐事会使心胸狭隘</b><br />
+执着于做“大事业”／重新领会信条内容／致力于充分了解行业领域／团队合作的意义<br />
+［访谈三］ 不把自己逼入绝境，不能产生质的飞跃<br />
+<br />
+<b>第4条 敢于挑战艰难，只有坚持到底才能升华</b><br />
+由“小而困难的工作”带来的启示／直面自我，打破框架／绘制职场蓝图与锻炼平衡感／培养新人的艰巨任务／画出辅助线<br />
+<br />
+<b>第5条 一旦动手就要锲而不舍，不达目的死不罢休</b><br />
+与第5条如影随形的“责任三条款”／作为栖身对象之一的“人”／充分了解对方／作为栖身对象之一的“组织”／作为栖身对象之一的“事物”／人际关系错综复杂的电视剧／“被否决之后也要展示其价值”／所谓做出成绩<br />
+<br />
+<b>第6条 要推动其他人，推与被推日后会有天壤之别</b><br />
+领导与管理者的区别／追随者产生的过程／用第一人称讲“故事”／对“领导”的错误理解／提高定力／树立职场榜样<br />
+［访谈四］ 铭记开拓精神<br />
+<br />
+<b>第7条 要有愿景，这样才能有耐力、窍门、进取的力量和希望</b><br />
+所谓的“PDCA循环”／设计行动计划／计划阶段易陷入的误区／关于职场中的节点／引进反思模式<br />
+［访谈五］ 彷徨时，从“鬼十则”中找答案<br />
+<br />
+<b>第8条 要有信心，没信心就没魄力、没韧性、没深度</b><br />
+外界评价与自信的关系／自信源自“专业”／自己是谁？能做什么？／不可动摇的定力，要有自己的定位／自信的证据——“谦虚”<br />
+<br />
+<b>第9条 所谓服务，就要做到最大限度地开动脑筋、面面俱到、滴水不漏</b><br />
+第9条内容与职场／在社交场合该如何发挥优势／一对一的待客之道／驱动洞察力和想象力，放眼当下<br />
+［访谈六］ 人际关系为生意之根本，关键是拥有一颗关怀理解对方的心<br />
+<br />
+<b>第10条 不要怕摩擦，摩擦是积极的养分，害怕摩擦就会懦弱无能</b><br />
+身处富士电视台的变革期／围绕“代理权”展开的激烈斗争／蔓延于公司内外的信息争夺战／深入人心的“全权负责”理念／调往不同文化氛围的报社／初遇“逆命利君”理念／关注组织的“决策机制”与“审核过程”／从不请自来的寒暄中衍生出的商机／不要自欺欺人！<br />
+［访谈七］ 从“要推动其他人”中学到的智慧<br />
+<br />
+后记<br />
+对谈 “鬼十则”——与一位本土老广告人的对话<br />
+编译者后记<br />
+<br />
+<div class="goods-content-title">
+	书评
+</div>
+“鬼十则”实际上讲的是一种精神。在吉田秀雄的带动下，“鬼十则”变成了电通的精神。电通能够有今天的辉煌，根源就是这种“鬼十则”的精神。更进一步思考，“鬼十则”应该是广告人的精神。如果你希望成为一个优秀的广告人，如果你的公司希望成为一个引领性的广告公司，那么“鬼十则”是必须借鉴和学习的。<br />
+<br />
+在中国从广告大国走向广告强国的过程中，对电通这类优秀公司的研究和学习应该更深入，而且不能只停留在专业操作的角度，应该更加关注支撑电通发展的看不见的文化和精神。这也是本书的时代价值。<span style="color:#999999;">——陈刚 北京大学新闻与传播学院副院长<br />
+</span><br />
+柴田明彦将20多年的工作经验及人生体会，以生动流畅的文字活现于书中，此等体验及结果融汇了“鬼十则”的定义和精神，不但将原来的行事风格、美学及哲学等荟萃一堂，加上作者在工作上的敏锐触觉、丰富的想象力以及结合前瞻性的创造力，又将之提升为超越前人的经营及管理宝典。<span style="color:#999999;">——邓广梼 互动通控股集团总裁</span><br />
+<br />
+今天很多大学毕业生已经缺乏一种叫作“靠谱”的基本品质。“靠谱”是可以习得的，而“鬼十则”说到底，就是告诉你如何具备这种基本的素质。与其说这种素质是广告业所必备的，毋宁说它是在当今社会中成功所必需的一个基本条件。因此，每一个希望在当今激烈的社会竞争中获得成功的人，都应该读一读“鬼十则”。<span style="color:#999999;">——祝帅　 北京大学博士、中国艺术研究院研究人员、中国书法家协会会员</span><br />
+<br />
+<br />
+<div class="goods-content-title">
+	在线试读<br />
+</div>
+<b>寄语</b><br />
+虽然不知道中国的各位读者朋友是以怎样的契机开始阅读本书的，但是作者想通过本书将诞生自1901年的日本电通广告公司中传承已久的社训——电通“鬼十则”分享给大家。之前作为电通公司中国总代表在北京工作的3年多时间里，我曾经有机会拜访过一家中国公司的办事处。令我十分吃惊的是，当时那家公司工作人员的席位上无一不张贴着“鬼十则”的中文版本。当我向那家公司的社长询问为什么会张贴电通“鬼十则”时，该公司的社长脸上也显出惊讶的神色，答道：“它从很久以前就作为许多中国企业面向员工的宣传口号了，但我们并不知道这竟然是电通公司的社训。”作为一家日本广告公司传承至今的企业哲学，“鬼十则”至今仍被电通公司的工作人员熟记，在很多情况下已成为指引自身方向的行为指南。这样的“鬼十则”能够在邻国中国的诸多企业中得到灵活运用，这对于身为电通员工的我来说是一件令人欣喜万分的事情。<br />
+<br />
+电通公司自1901年创立以来，至今已有110多年历史。现如今，其2011年度的总销售额已高达1.8兆日元（按照2012年12月26日汇率换算约合人民币1341亿元），作为独家公司位居世界第一位。电通公司在全世界29个国家内拥有45间公司、集团职员19000余人。在国际集团排行榜上与美国、英国、法国等国家的企业并驾齐驱，成为了排名世界第五位的市场传媒企业。创业之后能够维系公司的生存都已经非常不容易了，但电通公司的员工们却通过坚持不懈的努力，很快就将电通发展为日本第一乃至世界第一的大企业。除了员工的辛勤工作之外，1945~1990年间日本国内经济的高速发展也为电通公司的成长提供了良好的环境。在此期间，丰田及松下等许多优秀的日本企业纷纷成立，通过向这些企业提供服务，电通公司的业务得到了很好的磨炼，从而能够为客户们不断提供更具新意的广告构思。在日本经济高速发展的同时，日本的媒体产业也迅速成长起来并呈现出多样化的发展趋势。与这些媒体进行通力合作也为电通公司的快速成长提供了机遇。与此同时，我们当然也不能忘记第4代社长吉田秀雄所进行的诸多事业改革，正是这些改革为今日的电通奠定了坚实的基础。除了公司业务的国际化、美国现代化业务模式的引进、媒体扶植计划之外，吉田社长还为培养企业成长所必需的人才倾注了毕生精力。优秀人才的猎取固然重要，但是对于所有企业经营者来说，优秀人才的培养是至关重要的经营课题。本书所介绍的吉田社长面向员工们提出的“鬼十则”职场训条，并不单单是对员工们的指示或命令，还是支撑着电通公司一路成长至今的精神支柱。<br />
+<br />
+“鬼十则”不仅是电通公司员工们的行动基准，它还被以原日本首相小泉纯一郎为首的众多日本政治家、企业家们灵活运用，甚至作为通用电气公司的社训，被活跃于国际舞台上的知名企业所珍视。今后的时代是中国企业在世界舞台大展身手的时代。如果只付出平凡的努力，就只能收获平凡的结果。要想不断鼓舞员工，创建一个伟大的企业，就必须创造出新鲜的价值观与工作方式。希望通过介绍电通“鬼十则”在日本的应用实例，本书能够为中国员工的工作方式带来一些小小的启示。如若能够如此，我将感到万分荣幸。<br />
+<span style="color:#999999;">松岛训弘&nbsp;</span><span style="color:#999999;">电通股份有限公司执行董事</span><br />
+<br />
+<br />
+<b>广告人的精神</b><br />
+电通是我非常尊敬的一家公司。进入广告行业后，最早接触的广告公司中，给我印象最深的公司就是电通，而在最早接触的广告人中，接触最多的广告人群体，也是电通的广告人。虽然电通历史悠久，但完成现代广告公司的转变，也只有60多年的时间。为什么电通能够在这样短的时间内成为全球规模最大的广告公司？在一段时间内，这一直是我思考的问题。<br />
+<br />
+对广告公司而言，人是最重要的资本。不同国家地区、不同广告公司的广告人，一定有不同的风格。为什么电通公司能够具有今天的规模和影响力？答案是：电通的广告人是根本和关键。<br />
+<br />
+记得当年在电通，看到很多年轻的员工不坐电梯而是满头大汗爬楼梯上班，我感到特别好奇。当时负责接待的老前辈八木信人先生告诉我，电通新入职的员工在开始的三个月培训期间不许坐电梯，每天必须爬楼梯到顶层的培训室上课。现在我已经记不清了，好像当时电通在银座的办公楼有十几层高吧。<br />
+<br />
+每个人都有自己的价值观和信念，而一个团体能取得成功，最重要的是要使团队成员形成认同和共识。这实际上就是一种精神。像电通对新人的这种做法看起来是一种形式，但正是通过外在的形式和潜移默化的文化，电通的广告人才形成了一种独特的精神风貌。<br />
+<br />
+在电通的历史上，最伟大的一个电通人，就是吉田秀雄。<br />
+<br />
+前些年，我的好朋友、《中国时报》的林淑黛，专门给我带来一本在台湾出版的《吉田秀雄传》。这是一本好书。读完这本书，我更全面地了解了吉田秀雄，也更深入地了解了电通，而最重要的，是对日本广告业的发展有了更透彻的认识。<br />
+<br />
+没有吉田秀雄，就不可能有后来日本广告业的辉煌。<br />
+<br />
+吉田秀雄最重要的特质，就是创新。年轻的吉田秀雄初进电通，美国就爆发了1929年的经济危机，这个时候吉田就明确了一个观念：美国是不靠谱的，美国的模式是有问题的，日本的广告业不能重复美国的路。因1945年之后，吉田抓住机会，开始了对日本广告业的调整，确定了电通的模式。正是这种不同于4A的模式，使日本广告市场自成一体，欧美的跨国广告公司被合法地拒之门外，创造了日本广告业的优良环境。吉田所创造的模式，也使日本的广告公司不会遇到4A在发展中遭遇到的困扰，保证了电通公司稳定持续的发展，不断地形成专业的积累，具有超强的研发能力。这种模式还使电通的广告人无论是在客户还是在媒体面前，始终能够有尊严地交往和工作，因此电通的员工有可能是全世界最有荣耀感的广告人。电通的成功，归根到底是能够吸引无数一流的人才。一直到现在，在日本的大学毕业生最希望加入的公司中，电通始终排在前五位。<br />
+<br />
+1997年我第一次去日本电通，就知道电通的“鬼十则”。我逐渐体会到，“鬼十则”实际上讲的是一种精神。这种精神肯定支撑了吉田秀雄不断创新，是他对自己理念的归纳和提炼。然后在吉田秀雄的带动下，“鬼十则”变成了电通的精神。电通能够有今天的辉煌，根源就是这种“鬼十则”的精神。更进一步地思考，“鬼十则”应该是广告人的精神。我当然希望“鬼十则”是所有的广告人都能够坚持和认同的一种精神，但经常出现的情况是，“鬼十则”只能是一批引领性的优秀广告人的精神。<br />
+<br />
+拒绝平庸说起来容易，其实是一件极其艰难的事。如果你希望成为一个优秀的广告人，如果你的公司希望成为一个引领性的广告公司，那么“鬼十则”是必须借鉴和学习的。<br />
+<br />
+有了这种精神，你才能在创新中不断发展，才能在思考中不断找到自己的价值，才能通过不断尝试确立自己的道路。而在此过程中，专业化的能力一定会得到提高和升华。<br />
+<br />
+因为“鬼十则”是因，专业化是果。<br />
+<br />
+本书的作者柴田明彦曾经是电通的一名广告人。从本书的写作中可以看出，作者深得“鬼十则”的三昧。他结合自己的工作经历和切身体会，通过具体的事例和分析，分享了他对“鬼十则”的感受和理解。主持本书翻译的郑燕，曾在日本留学，也在电通总部工作过，目前是北京电通旗下公司的高管。她的文字功底和对相关专业知识的把握，保证了本书的可读性和专业性，可以说是信、达、雅兼具。<br />
+<br />
+中国目前是全世界最关注的国家。中国广告业的规模已经超过日本，位居全球第二。在中国改革开放30多年的发展过程中，一个最重要的经验就是开放和学习，以一种开放的心胸学习和吸收全球最优秀文化和最前沿的知识理念，再加以批判性地吸收和转化。中国的广告业也是在不断学习欧美日韩等广告业经验的基础上迅速发展的。在中国从广告大国走向广告强国的过程中，对电通这类优秀公司的研究和学习应该更深入，而且不能只停留在专业操作的角度，应该更加关注支撑电通发展的看不见的文化和精神。<br />
+<br />
+这也是本书的时代价值。<br />
+<br />
+经过30多年的发展，中国的广告业确实更加成熟了。所谓成熟，就是越来越明白和知晓自己的优势，同时更敢于面对和承认自己的不足。在成长的过程中，学无止境。<br />
+是为序。　<br />
+<span style="color:#999999;">　陈刚 &nbsp;</span><span style="color:#999999;">　　北京大学新闻与传播学院副院长</span><br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A350016299922', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A350016299922', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A350016299922', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A350016299922', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A350016299922'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

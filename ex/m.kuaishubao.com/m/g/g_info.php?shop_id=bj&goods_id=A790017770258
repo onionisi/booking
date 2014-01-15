@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/1/1/A790017770258_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/1/1/A790017770258_1.jpg">
+        <h2>传家：中国人的生活智慧（平装）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥309.00元</b> <del>¥480.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：套</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/1/1/A790017770258_1.jpg','传家：中国人的生活智慧（平装）-一套讲述中国传统文化入门的“美的百科全书”（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】任祥<br />
+【译者】<br />
+【出版】新星出版社<br />
+【出版时间】2012-03-1<br />
+【品牌】读库<br />
+【ISBN】9787513303569<br />
+【开本】16开<br />
+【页数】-<br />
+【字数】-<br />
+【装订】平装<br />
+【印刷】彩色<br />
+</div>
+<div class="goods-content-title">
+	内容简介
+</div>
+<div class="Goods-Content-Box">
+	<span style="color:#8B4513;"></span><span style="color:#8B4513;"></span><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291532579229.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291532579229.jpg"></a> 
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291556244485.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291556244485.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303281805209198.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303281805209198.jpg"></a> 
+	</p>
+</div>
+<div class="goods-content-title">
+	作者：任祥
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		任祥，是京剧名伶顾正秋和台湾前“财政部长”任显群的小女儿，南怀瑾和圣严法师的学生，也是和杨祖珺同期出道的第一代民歌手，16岁就出了两张民歌唱片。她是建筑师姚仁喜的妻子，以及三个孩子的妈妈。她也是个珠宝设计师，二十几年来设计过许多美丽的作品。<br />
+<br />
+如今，任祥以五年时间完成这套结合文字、影像与生活的创作，使她又多了一个身份：作家。任祥说：“我希望传承给后代的，是生活中快乐的、美丽的、正面的事
+物。所以书中画面的撷取、文字故事的撰写等，大多经过精心的美化与编排。”她强调，“我只是导演这一套书的人，绝不是如文字中见到的那个不可能的‘完美女
+人’。请外界不要误会。”<br />
+<br />
+任祥说，未来的一年，她要当一个推销员，努力推广《传家》这套书，让下一代了解中国文化的深厚底蕴和生活智慧，也帮忙成就圣严法师的兴学大愿，她豪迈地说：“给我40分钟，我给你一生。”
+	</p>
+</div>
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		本书全套分春、夏、秋、冬，每季各自独立为一本<br />
+<br />
+内容都以“气氛生活”、“岁时节庆”、“以食为天”、 “匠心手艺”、“齐家心语”、“生活札记”六个单元，展现日常生活的中国文化精萃。<br />
+<br />
+搭配四季的风景与小食，传达当季不同的光影，塑造浪漫的生活景致，为每一册书拉开序幕。每一个季节以两个最具代表性的节日，详细地介绍自古流传至今的庆典礼仪。而流传于民间的农民历与二十四节气，也都以浅显易懂的手法做说明。<br />
+.
+	</p>
+</div>
+<div class="goods-content-title">
+	书评
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		任祥生当此际，并不热衷追逐富贵荣华，而能做出一般人漠不关心，却与中国人生活最为切要的大事，极为可钦可佩。——<strong>南怀瑾</strong><br />
+<br />
+<br />
+原来任祥这套书，有两个实相：表面那一层是衣食住行育乐、春夏秋冬五行，里头那一层，其实是生活的态度，是文化的承载，是时代最深刻，最鲜活，最摸得着、闻得到的声音、气息和面貌。一粒芝麻，一个时代。我看见任祥的慎重和敬畏。<strong>——</strong><strong><strong>龙应台</strong></strong><br />
+<br />
+<br />
+任祥是带着“宿慧”来此生的，所以可以使身边朋友领悟许多事。任祥的“宿慧”，看起来大多不是大事，体现在日常一般食、衣、住、行之中，是在生活间小小的
+细节里做好一些认真的“小事”。……我想，“传家”，传的其实就是这样的“宿慧”，宿世累积的智慧，而且因为是在众生生活的平实中传承累积，所以是可以安
+稳于人间的“福慧”。——<strong>蒋勋</strong><br />
+<br />
+<br />
+这是一本美的百科全书，任祥把我们传统文化映浮在日常生活中的花容月貌，用文字记载、用图片定格，长久保留下来。……每一项项目都能搜集无穷的资料，精挑细选，然后以详尽的图表，标明分类，最后在文字解说上，附以精美影像，春夏秋冬，四季分明……——<strong>&nbsp; 白先勇</strong><br />
+<br />
+<br />
+我说任祥像个记者，采访的对象是“生活”和“中国”；也像做学问一样的，每个主题都亲身体验、分析才下结论，居然完成这么大一幅生活地图。——<strong>顾正秋</strong><br />
+<br />
+<br />
+任祥花了无数的时间收集与整合资料，从女儿、妻子、母亲的三重角度，串连全套书的内容架构；以生活化的方式，叙述中国人生活中的文化面向，并配以各种精心设计的图片，系统化介绍中国人的文化财产，内容深入浅出，文笔流畅易读，是一套生活文化教材。——<strong>李连杰</strong> 
+	</p>
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<a href="http://item.taobao.com/item.htm?spm=686.1000925.1000774.6.hpAJ0s&id=23750036906" target="_blank"><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301151333222457.jpg "><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301151333222457.jpg "></a></a> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<strong><span style="color:#8B4513;">《传家──中国人的生活智慧》，一部民间版本的中国传统文化集大成之作，是一本「美的百科全书」。</span></strong> 
+	</p>
+	<p>
+		<span style="color:#8B4513;">《传
+ 家》结合文字、影像与生活,分别以春、夏、秋、冬四册呈现中国人的生活智慧，内容都以“气氛生活”、“岁时节庆”、“以食为天”、 
+“匠心手艺”、“齐家心语”、“生活札记”六个单元，展现日常生活的中国文化精萃。搭配四季的风景与小食，传达当季不同的光影，塑造浪漫的生活景致，为每
+一册书拉开序幕。每一个季节以两个最具代表性的节日，详细地介绍自古流传至今的庆典礼仪。而流传于民间的农民历与二十四节气，也都以浅显易懂的手法做说
+明。<br />
+<br />
+任祥以五年的时间完成了这一套生活巨著，以创新的手法整理了我们的文化资产， 
+以诚恳的心意宣扬家庭价值与环保养生，她描绘了一张崭新的生活地图送给中华儿女；任祥从女儿、妻子、母亲的三重角度，串连全套书的内容架构；于是让读者明
+ 白“我们的精致生活并不只留存於博物馆”，于是“对自己所拥有的珍贵血液感到骄傲、对我们厚实的文化底蕴深深的叹服”。</span><br />
+<br />
+<br />
+<strong>【中国人一向很讲究吃，饮食文化在本书占了很大的篇幅，分别以主食、文化食物与零食三种方式介绍；有的以做法粗分类别，有的则庞杂如百科全书。“食物”篇提供的是分类方法，视觉效果，家传食谱，民间食补，以及常用的中医药膳。</strong>】<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291551308317.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291551308317.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291551370438.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291551370438.jpg"></a> 
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291552517300.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291552517300.jpg"></a> 
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291552051021.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291552051021.jpg"></a> 
+	</p>
+	<p>
+		<strong>【“齐家心语”篇的设计，可以说是这整套书的骨架，字里行间不乏道理与教条，也蕴含着深厚的情感：是身为母亲，与儿女的教育对话；身为儿女，与上一代的感恩对话；身为妻子，与先生的爱情对话。】</strong> 
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291552080458.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291552080458.jpg"></a> 
+	</p>
+	<p>
+		<strong>【宜兰花布、蓝染花布、缝绣编，还有剪纸等艺术，分散于四季的摄影背景中。</strong>】
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291551386555.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291551386555.jpg"></a> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291551560272.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291551560272.jpg"></a> 
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291551598205.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291551598205.jpg"></a> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<strong>【我
+们的文化底蕴与先人智慧的结晶，则体现在出版、成语、谚语、格言与诗词戏剧上，以及历代各种名人的身上。这些中国人独有的文化精华，中国人的宗教、教育方
+式、术数命理与生活生命礼节等，也都用散文或是图绘的方式介绍，种种的用心，都是希望儿女们能藉此更了解他们的父母，以及先人的经历与智慧。】</strong> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291551502402.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291551502402.jpg"></a> 
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291552288816.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291552288816.jpg"></a> 
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303291552312016.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303291552312016.jpg"></a> 
+	</p>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A790017770258', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A790017770258', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A790017770258', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A790017770258', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A790017770258'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

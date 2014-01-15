@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/c/2/A600024672790_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/c/2/A600024672790_1.jpg">
+        <h2>城市画报（2013年第16期 总第334期）-青春作伴好还乡</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥10.00元</b> <del>¥12.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/c/2/A600024672790_1.jpg','城市画报（2013年第16期 总第334期）-青春作伴好还乡-赵又廷：我心里住着一个“超级小孩儿”（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="ProductInfo" style="margin-top:12px;outline-width:0px;width:796px;overflow:hidden;font-family:Arial, sans-serif;font-size:12px;line-height:18px;white-space:normal;">
+	<div class="ProductInfo-Desc" id="ProductInfo-Desc" style="outline-width:0px;">
+		<div class="goods-content-title" style="outline-width:0px;">
+			商品参数
+		</div>
+		<div class="Goods-Content-Box goods-attr" style="outline-width:0px;">
+			【出版社】广东城市画报社<br />
+【出版时间】 2013-08-28<br />
+【刊号】10079165<br />
+【开本】16开<br />
+【页数】128<br />
+【印刷】彩色<br />
+【品牌】城市画报<br />
+		</div>
+		<div class="goods-content-title" style="outline-width:0px;">
+			本期要目
+		</div>
+		<p style="outline-width:0px;">
+			<strong><strong>「刊首语」</strong><span style="font-family:Arial, sans-serif;white-space:normal;">“文化搬运工”与“接地气”</span><br />
+</strong><br />
+曾经有小伙伴形容《城市画报》就像是个“文化搬运工”，十几年来从外面（特别是港台）“搬运”了不少生活方式内容、文艺人物到内地来。<br />
+&nbsp;<br />
+这位小伙伴的言下之意其实是：可惜你们还只是个搬运工的角色，只是起到了传播的功能，却未必能够移植成功，去真正实现那个文化理想。他是想提醒我们应该奋起做个自信的新文化建设者，要勇推内地自己的原创健将。<br />
+&nbsp;<br />
+且不管我们具体做得怎样，对内地城市生活方式带来过怎样的新东西，这个好多年前的鞭策我个人倒是时时铭记在心。<br />
+&nbsp;<br />
+又想起上月曾接受一个在英国留学做媒体研究的画报读者采访，其中有个问题是这样的：“在西方文化的传播过程当中，文化艺文类型杂志在其中扮演怎样的角色？”<br />
+&nbsp;<br />
+首先我认为这是个类似“知乎”（不知道知乎的朋友可以百度一下）的问题。几经斟酌我勉为其难地想到了答案：“我觉得现在的传播过程已经没有专门的西方文化类别了，文化艺文类杂志在选取内容的时候，不会从是西方还是东方，是中国还是外国的角度，而更多的是看这个具体的选题是否切中目标读者包括采编本人的关注点、兴奋点。也许文化艺文类杂志会无意地传播了西方文化，但要注意，它们也在传播其他的东方文化等等。至少我们杂志不是专门去考虑是否重点传播西方文化的这个事情，实在是没必要。”<br />
+&nbsp;<br />
+这位读者也是研究者的其他几个问题都是围绕画报对于西方文化是作为主要报道对象还是辅助报道对象来设计，她是希望了解画报是否具有倾向性。可是，现在已经是互联网时代，又不是大清朝，哪里还对西方文化有这么鲜明的界定和倾向了呢。在任何可能性下，我们都更在意能够接地气的每一个环节，包括媒体理念。<br />
+&nbsp;<br />
+最近有位设计界的老师，将创办一个全新的品牌及公司，在描述企业文化理念的时候，他屡屡强调“接地气”三个字，当这个词出现在诸多高端大气的专业词汇中间时，显得特别突出，提神。<br />
+&nbsp;<br />
+我于是去专门去查了这个词的含义，原来有其中这几种：1. 民间用语，大地里的力量。大地的气息，顺乎人理，接其自然；2. 生活环境中的俗语，在高空或深海等远离地面的环境里长期逗留中间接地回到地面，称接地气；3. 在政治、艺术等领域，指广泛接触老百姓，与最广大的人民群众打成一片；4. 可表示口语中的“靠谱”。<br />
+&nbsp;<br />
+本期专题关注的是新一波的“返乡青年”现象，所采访的几个实践者应该都同时具有以上所谈到的“文化搬运工”和“接地气”的特征，因此尤其显得宝贵，在策划这个选题的时候，我们专门锁定了在那些从大城市回到自己家乡做新文化建设以及积极过日子的年轻人，他们的返乡之行，不同于其他行动者或怀有某种理想化乡村情结，这些人是真正地回到血脉相连的生长之地，非常之接地气，这背后的微妙之处，还是同事潘丽写得更好：“每一个返乡青年都是一枚带有新基因的细胞，当这些充满能量的新细胞注入故乡的古老肌体时，美妙的改变正在开始。一个新的世界的重新开启。”<br />
+&nbsp;<br />
+刘琼雄<br />
+<br />
+<br />
+<strong>POP</strong><br />
+刊首语|刘琼雄· 文化搬运工与接地气<br />
+读者俱乐部<br />
+大数学 | 信息时代的焦虑源<br />
+快访问| 史航：萌, 不卖也会积压<br />
+城事| 各国城市里发生的趣闻<br />
+微拍| 手机摄影师<br />
+据点<br />
+情报<br />
+&nbsp;<br />
+<strong>FEATURE</strong><br />
+封面专题|青春做伴好还乡<br />
+达人| 赵又廷 我心里住着一个“超级小孩儿”<br />
+外面| 成吉思汗故乡：一段摩托车之旅<br />
+现世报|现世新闻周报（创刊号）<br />
+&nbsp;<br />
+<strong>TREND</strong><br />
+时尚| 未拆封的臆想<br />
+恋物<br />
+报道| 觅贵人<br />
+潮流| 北欧美学的6 个变与不变<br />
+行走| 泰国人自己的海岸线<br />
+&nbsp;<br />
+<strong>CULTURE</strong><br />
+想像| 情书, 给所有人的<br />
+戏剧| 每日“美”食，美剧里的饮食密码<br />
+读来读往| 不写作时, 你在干什么?<br />
+热爱| 世界的起源<br />
+读来读往| 不是那种游记<br />
+艺术| MADE IN CANTON<br />
+淘 CD/DVD/BOOK/APP 专业推介<br />
+安妮宝贝专栏| 日本老人育儿经<br />
+羞耻俱乐部| 哥特童话<br />
+双周历情<br />
+浮城绘（高毓林专栏）<br />
+填字游戏＆数独
+		</p>
+		<div class="goods-content-title" style="outline-width:0px;">
+			《城市画报》杂志简介
+		</div>
+《城市画报》杂志创刊于1999年，由南方报业传媒集团主办，一本坚持原创精神的城市青年生活杂志，以反映现代都市年轻人生活形态以及生活方式为主要内容，对生活和时尚趋向进行前瞻性观察，并在观念上提供指引，核心读者为国内大中城市中20-40岁的年轻人。
+	</div>
+</div>
+<div style="padding:5px;outline-width:0px;font-family:Arial, sans-serif;font-size:12px;line-height:18px;white-space:normal;width:770px;">
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A600024672790', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A600024672790', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A600024672790', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A600024672790', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A600024672790'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

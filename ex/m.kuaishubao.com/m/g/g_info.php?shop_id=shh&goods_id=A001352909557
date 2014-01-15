@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/b/7/A001352909557_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/b/7/A001352909557_1.jpg">
+        <h2>中国国家地理自然百科系列——野生动物</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥88.30元</b> <del>¥128.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/b/7/A001352909557_1.jpg','中国国家地理自然百科系列——野生动物-国际著名野生动物专家及研究机构历经数年倾心制作而成（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】查娜•邦姆巴拉登尼亚<br />
+【译者】张劲硕<br />
+【出版】中国大百科全书出版社<br />
+【出版时间】2013-03-11 00:00:00<br />
+【品牌】中国国家地理<br />
+【ISBN】9787500090397<br />
+【开本】大16开<br />
+【页数】288<br />
+【字数】18万<br />
+【装订】<br />
+【印刷】黑白<br />
+</div>
+<!-- 内容简介 -->
+<div class="goods-content-title">
+	内容简介
+</div>
+<div class="Goods-Content-Box">
+	中国国家地理自然百科系列——野生动物：<br />
+	<p>
+		<strong><br />
+中国国家地理首度推出<br />
+国际权威的动物地理百科读物<br />
+<br />
+国际著名野生动物专家及研究机构<br />
+历经数年倾心制作而成<br />
+<br />
+细致的手绘图、精彩的动物行为照片<br />
+带您领略最真实的动物世界</strong><br />
+<br />
+你是否见过体重不足15克的可爱小负鼠？是否目睹过5000万只蚂蚁的大游行？你知道在荒芜的撒哈拉沙漠里建立了自己“王国”的动物是谁吗？……我们所生存的这个星球上存在着各种各样的自然环境，其间生活着众多千奇百怪、令人难以置信的神奇生物。这本《中国国家地理自然百科系列：野生动物》，正是以动物地理专业知识为背景，以深入浅出的语言、精美图片做媒介，纵览全球，向读者展示神奇动物世界的好书。<br />
+<br />
+也许你无法前往遥远的北方追寻东北虎的足迹，或是潜入深邃的海洋观赏抹香鲸的壮美身姿，没关系，《中国国家地理自然百科系列：野生动物》正是“足不出户，揽胜动物王国”的不二选择。真心希望，每位读者都可以开卷有益，在这本精美的图文读本中，享受知识的盛宴。<br />
+<br />
+这是一本生动的野生动物地图、图文百科类读物，内容覆盖全球各种生境类型，以独特的视角，依照世界动物地理区划，带我们领略了蓝色星球上令人称奇的动物世界。精美的地图、遥感图，标示了我们所熟悉的各地自然环境；生动的照片、精致的手绘图则展示了世界各地明星物种的奇异样貌、精彩行为、生活习性。一本《中国国家地理自然百科系列——野生动物》，带领我们走进生机勃勃的动物王国。
+	</p>
+	<p>
+		&nbsp;<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303201126517168.jpg"><img  style="margin-top:10px;margin-bottom:10px;" alt=""data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303201126517168.jpg"></a>
+	</p>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201303201127041918.jpg"><img  style="margin-top:10px;width:400px;margin-bottom:10px;height:258px;" alt=""data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303201127041918.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303201127160220.jpg"><img  style="margin-top:10px;margin-bottom:10px;" alt=""data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303201127160220.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201303201127451022.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201303201127451022.jpg"></a><br />
+&nbsp;
+	</p>
+	<p>
+		<a href="http://item.taobao.com/item.htm?spm=686.1000925.1000774.36.Ah8faH&amp;id=17527166999" target="_blank"><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301151333222457.jpg "><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301151333222457.jpg "></a></a>
+	</p>
+</div>
+<!-- 作者简介 -->
+<div class="goods-content-title">
+	作者：查娜•邦姆巴拉登尼亚
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		查娜·邦姆巴拉登尼亚：世界自然保护联盟（IUCN）亚洲区域物种及生物多样性项目协调员<br />
+辛西娅·弗洛里斯：国际交流顾问、记着、前世界自然基金会中美洲办事处信息主任<br />
+乔舒亚·金斯伯格：国际野生生物保护学会（WCS）全球保护项目副总裁<br />
+德怀特·霍林：自然历史及环境文学作家<br />
+苏珊·伦普金：史密斯机构国家动物园客座研究员<br />
+乔治·麦凯：新南威尔士州国家公园及野生动物咨询委员会保护生物学顾问<br />
+约翰·缪齐克：美国弗吉尼亚州海洋科学研究所马歇尔阿卡夫海洋科学名誉教授<br />
+帕特里克·奎尔特：澳大利亚达斯马尼亚大学地球科学学院 教授<br />
+埃里克·J·韦尔勒：澳大利亚达斯马尼亚大学动物学院 名誉客座研究员<br />
+戴维·伍德拉夫：美国圣地亚哥加利福尼亚大学 生物科学生态行为及进化学部 动物学教授
+	</p>
+	<p>
+		译者：张劲硕<br />
+博士，中国科学院动物研究所助理研究员，国家动物博物馆科普策划人，中国科普作家协会会员，科学松鼠会成员。
+	</p>
+</div>
+<!-- 目录 -->
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<strong>第一章 地球生命</strong><br />
+<br />
+地球生命<br />
+进化<br />
+动物栖息地<br />
+平衡法则<br />
+森林生境<br />
+草原生境<br />
+干旱生境<br />
+冰冻生境<br />
+水域生境<br />
+人类居住地<br />
+野生动物面临的威胁<br />
+自然保护<br />
+<br />
+<strong>第二章 欧洲</strong><br />
+<br />
+欧洲<br />
+落叶森林<br />
+欧洲獾<br />
+河谷<br />
+考塔道纳拿国家公园三角洲<br />
+山脉<br />
+山地动物<br />
+地中海<br />
+地中海岛屿<br />
+鸟类的欧洲迁徙路线<br />
+北欧针叶林<br />
+海滨生物<br />
+沼泽和湿地<br />
+<br />
+<strong>第三章 北美洲</strong><br />
+<br />
+北美洲<br />
+北方针叶林<br />
+驯鹿大迁徙<br />
+太平洋西北部针叶林<br />
+落基山脉<br />
+狼<br />
+大平原<br />
+草原犬鼠<br />
+大盆地<br />
+山艾之乡<br />
+西南部沙漠<br />
+巨型仙人掌群落<br />
+东部落叶林和阿巴拉契亚山脉<br />
+橡树林<br />
+森林蝾螈<br />
+沿海平原<br />
+鸟类迁徙<br />
+<br />
+<strong>第四章 中美洲和南美洲</strong><br />
+<br />
+中美洲和南美洲<br />
+中美洲<br />
+雨林<br />
+美洲豹<br />
+亚马孙雨林<br />
+树冠层的生物<br />
+安第斯山脉<br />
+神鹫<br />
+加拉帕戈斯群岛<br />
+格兰查科<br />
+巴塔哥尼亚高原<br />
+潘帕斯草原上的鸟类<br />
+羊驼及其近亲<br />
+加勒比海<br />
+<br />
+<strong>第五章 亚洲</strong><br />
+<br />
+亚洲<br />
+中亚草原<br />
+西伯利亚荒原<br />
+炎热和寒冷沙漠<br />
+喜马拉雅山脉<br />
+大型猫科动物<br />
+印度次大群岛<br />
+中国西南山地<br />
+巽他群岛<br />
+东南亚热带雨林<br />
+亚洲东部<br />
+湄公河<br />
+菲律宾群岛<br />
+<br />
+<strong>第六章 非洲</strong><br />
+<br />
+非洲<br />
+撒哈拉沙漠和萨赫勒地区<br />
+刚果盆地<br />
+刚果盆地的灵长类动物<br />
+埃塞俄比亚高原<br />
+特有鸟类<br />
+东非热带稀树草原<br />
+草原食草动物<br />
+艾伯丁裂谷中的生物<br />
+短盖豆林地<br />
+奥卡万戈三角洲<br />
+大型食肉动物<br />
+卡拉哈里的生活<br />
+马达加斯加<br />
+非洲的珊瑚礁<br />
+<br />
+<strong>第七章 大洋洲和新几内亚西部</strong><br />
+<br />
+大洋洲和新几内亚西部<br />
+单孔目动物和其他特有动物<br />
+澳大利亚的有袋动物<br />
+新几内亚高地<br />
+大堡礁<br />
+约克角的野生生物<br />
+热带雨林<br />
+北部热带区<br />
+澳大利亚内陆<br />
+沙漠中的水源<br />
+温带森林和石南地<br />
+凤头鹦鹉和鹦鹉<br />
+新西兰<br />
+太平洋西南部的岛屿<br />
+<br />
+<strong>第八章 极地</strong><br />
+<br />
+极地<br />
+北极苔原<br />
+夏日繁花<br />
+猎手与猎物<br />
+北极熊<br />
+南极荒原<br />
+长途迁徙<br />
+南极的鸟类<br />
+企鹅大游行<br />
+<br />
+<strong>第九章 海洋</strong><br />
+<br />
+海洋<br />
+太平洋<br />
+大西洋<br />
+印度洋<br />
+北冰洋<br />
+南大洋<br />
+<br />
+<strong>第十章 参考资料</strong><br />
+<br />
+动物档案<br />
+词汇表<br />
+索引<br />
+致谢
+	</p>
+</div>
+<!-- 书评 --><!-- 在线试读 -->
+<div class="goods-content-title">
+	在线试读
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		经常让我感到吃惊的问题，不是全球的生物遗产有多么丰富，而是我们对它们知之甚少。近几年，我们已完成人类基因组的测序，并迅速推进我们对原子结构的认知，进一步的探索使得我们更加了解宇宙。相比之下，我们能估算到地球上的生物物种有1000万~5000万种。抛开数字的对错，我们所能描述的物种只有150万种，这最多占全世界物种总数的十分之一。而我们对生态群落的了解才刚刚起步。<br />
+<br />
+对生物多样性的研究，已经越来越成为了与时间的赛跑。随着人口不断增长，人们对资源的需求也在不断扩张。曾几何时，亚马孙、婆罗洲和刚果的森林广袤而充满野性，活力无限；而如今，它们都高度破碎化与退化，或面临变迁带来的不断加剧的威胁。一些现存的生态系统，如北美山艾树林和草原，也只保留下原始风貌的一小部分。千百万年来受人类主宰的欧洲，目前虽保留着令人难忘的多样野生生物，但相比过去，许多物种的栖息地已经退缩到一些岛屿上，这是全世界状况的一个缩影。澳大利亚与大洋洲拥有地球上最独特且独一无二的生物多样性，但这里太平洋上的许多岛屿和珊瑚礁却受到栖息地破坏、污染和外来物种入侵的威胁，而如今全球气候变化、海洋暖化和海平面上升又带来新的威胁。因此，岛屿物种的高速率灭绝现象就不奇怪了。<br />
+<br />
+自然保护始终是一场艰苦的战斗，但我们仍可通过努力来扭转或减缓威胁世界生物遗产的因素。近期的数据表明，全球大约50%的灵长类动物面临灭绝的危险，而国际野生生物保护学会（WCS）的工作人员调查表明西部低地大猩猩的种群仍有12.5万头，这个数字给该物种的保护带来了新的可能。这将促使我们在刚果北部建立新的保护区，不仅仅可以保护大猩猩，也将保护其他几十种灵长类和及数千个物种。过去20年里，地球表面受保护的范围持续扩大，现在我们努力的重点放在增加对近岸海洋和公海区域的保护。由于现有的保护区域并不充足，新的保护举措将积极地和工业区、地方社区以及土地私有主开展合作，将保护的范围扩大到保护区外，确保动物可以在保护区域间自由地迁移扩散。<br />
+<br />
+《中国国家地理自然百科系列--野生动物》可以帮助我们更好地了解生物多样性和全球野生生物及其栖息地所面临的威胁。现在只需很少的时间就能在网上获得无限的信息，为什么还要看这本书呢？但对我们很多人来说，真正捧着一本书，尤其是如此精美的一本书的感觉是网络和笔记本电脑无法替代的。更重要的是，这本书的编者均为各领域的专家，内容包含高质量且准确的信息，很多资料来自于最新或未发表的科学研究成果。最后，这本书还能让你了解全球的生态区域结构和在不同环境中栖息的野生生物。总之，一书在手，纵览全球。乔舒亚 &nbsp;·金斯伯格<br />
+<br />
+Joshua Ginsberg<br />
+国际野生生物保护学会全球保护项目副总裁<br />
+<br />
+如何阅读本书<br />
+<br />
+本图集分为三个主要部分。第一部分是地球生命，概述了地球上的生物如何生存及其栖息地分布情况，包括栖息地类型，动物与栖息地之间的关系，以及物种之间的相互影响。第二部分是本书的核心，逐章分析了世界上的主要大陆和大洋，以及分布其中的动物。第三部分为参考资料，包括本书中所提到动物的详细资料、词汇和索引。
+	</p>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A001352909557', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A001352909557', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A001352909557', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A001352909557', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A001352909557'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

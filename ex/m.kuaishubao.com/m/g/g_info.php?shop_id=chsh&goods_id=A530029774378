@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/0/2/A530029774378_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/0/2/A530029774378_1.jpg">
+        <h2>无比美妙的痛苦</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥20.50元</b> <del>¥29.80元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/2/A530029774378_1.jpg','无比美妙的痛苦-如果我们在世界上留下的印记难免是伤疤，那就选择你深爱的那个人来伤害你吧。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】约翰·格林<br />
+【译者】卢宁<br />
+【出版社】接力出版社；2013年9月第1版<br />
+【装订】32开；平装<br />
+【页数】304页<br />
+【印刷】单色<br />
+【ISBN】9787544831222<br />
+【品牌】接力出版社
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+2012年全球最畅销的爱情小说<br />
+盘踞美国《纽约时报》畅销书排行榜榜首80周<br />
+同名电影正在由二十世纪福克斯公司拍摄中<br />
+北京大学教授张颐武、著名出版策划人安波舜力荐<br />
+<br />
+本书所获奖项包括但不限于：<br />
+美国《时代》杂志畅销书排行榜小说类第一名<br />
+《纽约时报》畅销书排行榜第一名<br />
+《华尔街时报》畅销书排行榜第一名<br />
+《今日美国》评选的畅销书<br />
+《纽约时报》编辑选择奖<br />
+入选《出版人周刊》最佳图书<br />
+<br />
+2011年6月，《无比美妙的痛苦》还未写就，作者约翰·格林只是刚一公布书名，这本书就同时登上了全球第一、第二大网上书店亚马逊和Barnes&amp;Noble的畅销书预售排行榜第一名。2012年1月该书正式出版，便毫无悬念地占据了纽约时报畅销书排行榜第一名，至今十几个月过去，仍然高居榜首。此后的一年中，《无比美妙的痛苦》陆续获得了2012年《时代》杂志评选的小说类第一名、《纽约时报》畅销书第一名、《华尔街时报》畅销书第一名、《今日美国》畅销书、《纽约时报》编辑选择奖、《出版人周刊》最佳图书等全美几乎所有畅销书排行榜的榜首，一年中销售了超过100万册，版权被转售到荷兰、德国、西班牙、法国、瑞典、丹麦、冰岛等30多个国家，当之无愧地成为了2012年全美最畅销的单本小说。2012年11月，通过激烈的报价和竞价，接力出版社荣幸地获得了《无比美妙的痛苦》简体中文出版权，并请到了北京语言大学的卢宁老师来翻译此书。<br />
+<br />
+初读译文，我和我的同事都是如此的喜欢，我来到亚马逊网站和美国书评网站goodreads、全球最大的视频网站youtube看美国读者的感受，亚马逊上的五星评论有五千多条，美国的读者们不惜用“改变我生活的一本书”“我至今看过的最棒的书”“无比美妙的阅读体验”来形容这部书，youtube上有数以万计的读者用镜头拍下了自己为这本书感动和痴迷的理由，还有无数的读者自发地为这本书设计封面，更有绘画爱好者画出了他们心目中的男女主角的模样，他们的真诚和用心不禁让我惊叹。<br />
+<br />
+书中的海蓁与格斯相遇在儿童医院的互助小组，在常年住院治疗的单调生活中，他们因为共同喜欢的一本书而逐渐互相了解，坠入爱河。然而格斯认为生命的意义就在于活得轰轰烈烈，这样才算是有意义；海蓁却与格斯相反，她害怕被人记住，像一个定时炸弹般伤害爱她的人。小说充满了16岁少年之间机智的对话，也不乏青涩初恋的心动和美好，但给人留下最深印象的其实是所有人一生都不得不面对的问题——我是谁？我的生命有意义吗？我的一生会给宇宙留下什么样的印记？<br />
+<br />
+《无比美妙的痛苦》作者约翰·格林是一位善于思考、热爱新媒体、乐于体验各种生活、喜欢与年轻人面对面交流的作家，虽然今年才35岁，但他从事过记者、评论员、出版顾问、图书编辑等多种职业，他曾试图去做一名牧师，后来在一所重症儿童医院工作时，从身边的的孩子得到灵感，写成了畅销书《无比美妙的痛苦》。<br />
+<br />
+在写作《无比美妙的痛苦》以前，格林已写作了多部作品，而且每一部都登上了畅销书榜单。他的处女作《寻找阿拉斯加》于2005年出版，获得了美国图书馆协会颁发的普立兹奖，同时入选了美国图书馆协会评选的“最适合青少年阅读的十佳图书”，还被派拉蒙电影公司买走了电影改编权。此后他写作的几部作品也陆续登上了《洛杉矶时报》畅销书榜、《纽约时报》畅销书榜，并且获奖无数。他的处女作《寻找阿拉斯加》于2005年出版，获得了美国图书馆协会颁发的普立兹奖，同时入选了美国图书馆协会评选的“最适合青少年阅读的十佳图书”，还被派拉蒙电影公司买走了电影改编权。此后他写作的几部作品也陆续登上了《洛杉矶时报》畅销书榜、《纽约时报》畅销书榜。<br />
+<br />
+除外，格林与哥哥汉克还坚持在youtube上做一档名为“兄弟2.0”的播客节目，试图把所有的交流方式由文本变成播客。坚持了一年后他们俩不仅没有停止，甚至还建立了名为“宅男反抗者”的个人播客网站，还在播客中教起了生物、历史等课程。<br />
+<br />
+谈到《无比美妙的痛苦》这部书，格林说，他很震惊在全球有那么多读者给他那么多反馈，但一想到有互联网，世界已经变成了地球村，倒也没什么奇怪的了。他说在这部书中融入了多个主题，例如生命、爱情…希望大家能找到自己不同的读解方式。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+如果我们在世界上留下的印记难免是伤疤，那就选择你深爱的那个人来伤害吧<br />
+<br />
+在物欲横流的社会之中难以寻觅的最纯真的爱<br />
+<br />
+感动全球的生命恋歌，无人能及的坦诚的人性剖白<br />
+<br />
+海外版权转售34国，美国畅销书作家朱迪·皮考特、马克斯·苏萨克倾情推荐<br />
+<br />
+重病中的女孩海蓁，爱上了同病相怜的男孩奥古斯塔斯，死神的身影伴随着青春的曼妙，两个年轻人在让人羞赧的生理折磨和情感考验中互相依偎。海蓁想在生命的最后时刻，完成荷兰之旅，男孩忍着病痛，帮她完成了心愿，就告别了这个世界，在有限的日子里给了女孩永远的爱。女孩读着男孩留下的信，凄然泪下……苦难中两颗纯洁心灵的抚慰，残酷中青春之花的绽放，作品将爱情与死亡写得如此平实而奇异，催人泪下，在洗涤人类情感的同时，让人体味生命和爱情的美妙与痛苦。<br />
+<br />
+本书问世后，好评如潮，荣登《纽约时报》畅销书排行榜首位。二十世纪福克斯电影公司购得本书电影改编权，已经开拍。<span style="white-space:nowrap;"></span> 
+<div class="goods-content-title">
+	名人推荐
+</div>
+<span style="white-space:normal;"></span><span style="white-space:normal;">约翰·格林的最高水平杰作，探讨生命与死亡，以及处在其间的人们。书中有泪水、有欢笑，并带来更多的省思。</span><strong style="white-space:normal;">——马克斯·苏萨克，《偷书贼》作者</strong><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">格林生动地描绘出在生命旅程末段的两位年轻人探索生命的过程，穿插着幽默与悲剧，思考着普遍的主题：是否会有人爱我？是否会有人记得我？我能否在这世上留下痕迹？</span><strong style="white-space:normal;">——朱迪·皮考特，《姐姐的守护者》作者</strong><br />
+<div class="goods-content-title">
+	媒体集中报道
+</div>
+该死的天才……在面对强大、简单、自然的情感时是如此无畏。<strong>——美国《时代》杂志</strong><br />
+<br />
+格林不仅用敏锐的观察力和同理心写出了一部值得珍藏的图书，更重要的是用这个故事刻画了两个用生命来发光的孩子，对于通过这部书来认识他们的读者来说，将会长久地留在脑海中。<strong>——美国《人物》杂志</strong><br />
+<br />
+格林给我们展示了什么才是真爱——两个年轻人在让人羞愧的生理折磨和情感考验中互相帮助，并接受对方——这远比任何沙滩落日的场景都要浪漫。<strong>——《纽约时报》</strong><br />
+<br />
+有趣……尖锐……清晰。<strong>——美国《娱乐周刊》</strong><br />
+<br />
+一部完美的作品，一出悲伤的喜剧。<strong>——《今日美国》</strong><br />
+<br />
+格林为青少年读者写了这本书，但它让读者们如此欲罢不能，以至于超越了青少年文学这个门类。他为青年读者写书，而非专门针对他们，这个区别是明显的……当你在书中读到小小的无穷可能，你将会心怀感激。<strong>——美国国家公共电台</strong><br />
+<br />
+这部小说最吸引人之处并不是环环紧扣的情节，而是书中的两位主角想要“在所剩无几的日子里永远地在一起”，这种真实感是如此的强烈。约翰·格林有技巧地将深奥的人生主题与平凡的日常生活相结合，这部坚韧、感人的爱情小说是对人类情感的洗礼。<strong>——《华盛顿邮报》</strong><br />
+<div class="goods-content-title">
+	作者：约翰·格林
+</div>
+<b>作者简介</b><br />
+约翰·格林，《纽约时报》畅销书首席作家。曾获美国图书馆协会普利兹奖、年度青少年文学最佳图书、普利兹奖银奖、埃德加·爱·伦坡奖，入围《洛杉矶时报》图书奖。约翰·格林的每部作品都会荣登《纽约时报》畅销榜，且常年雄踞前三名。约翰·格林与他的兄弟汉克也是世界上最受欢迎的博客网站之一“播客兄弟”（youtube.com/vlogbrothers）的创办者。读者可以加入约翰-格林的180万twitter粉丝群(@realjohngreen)和tumblr (fishingboatproceeds.tumblr.com)或访问他的个人网，领略格林的无上魅力。<span style="white-space:nowrap;"></span> 
+<div class="goods-content-title">
+	在线试读
+</div>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/0/2/A530029774378_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A530029774378_xt_cj_1.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/0/2/A530029774378_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A530029774378_xt_cj_2.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/0/2/A530029774378_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A530029774378_xt_cj_3.jpg"></a><br />
+</div>
+一个男孩正盯着我看。<br />
+<br />
+我相当肯定我从来没见过他。他颀长匀称、身材矫健，衬得他坐的小学生塑料椅像玩具一样。红褐色的直发，很短。他看起来跟我差不多大，也许比我大一岁，用一种显得气焰嚣张的别扭姿势坐在那儿，尾椎骨抵着椅子边，一只手抄在深色牛仔裤的口袋里。<br />
+<br />
+我掉转目光，突然意识到自己身上的万般不足。我的旧牛仔裤，以前还算紧身，现在已经松垮变形，在奇怪的部位鼓了起来；黄色T恤上印着我早就不喜欢了的乐队。还有头发：我留着那种发尾往里卷的娃娃头，可我甚至都懒得，呃，梳一下。更要命的是，我的脸颊圆鼓鼓的，像花栗鼠一样——那是治疗的副作用。我看起来像是个比例正常的人，却长着个大气球脑袋。更别提脚踝了，它肿得跟腿肚子一般，曲线全无。尽管如此——我偷偷瞟了他一眼，他的目光却还定在我身上。<br />
+<br />
+我突然明白了人们为什么总说“目光接触”。<br />
+<br />
+我走到圈子里，在艾萨克身边坐下，与那个男孩隔开两个座位。我又瞟了一眼。他还在看着我。<br />
+<br />
+瞧，让我直说了吧：他很帅。如果是不那么帅的男孩不依不饶地盯着你看个没完，往好了说吧，算是尴尬，往坏了说，简直是人身侵犯。但英俊帅气的男孩……唉。<br />
+<br />
+我拿出手机，按了一下，让屏幕显示出时间。四点五十九分。圈子坐满了，一群十二到十八岁的倒霉蛋，然后帕特里克让我们开始念《宁静祷文》：愿上帝赐予我宁静，去接受我无法改变的事物；赐予我勇气，去改变我能改变的；赐予我智慧，去让我分辨这两者的不同。那小子仍然盯着我看，我觉得有点儿脸红了。<br />
+<br />
+最后，我决定，最佳策略是回盯他。说到底，盯人行业又没有被男生垄断。于是，在帕特里克第一千次感激涕零地谈及他的失蛋人生时，我对那小子审视了一番，很快，一场互盯竞赛就开始了。过了一会儿，那小子笑了起来，他的蓝眼睛终于转向了别的地方。当他再次向我看过来时，我挑起一边眉毛回答他：我赢啦。<br />
+<br />
+他耸耸肩。帕特里克滔滔不绝，最后终于到了自我介绍的时间。“艾萨克，也许你今天想第一个发言。我知道你面临着一段艰难时光。”<br />
+<br />
+“好吧。”艾萨克说，“我叫艾萨克，十七岁。那个，好像过几个礼拜就要做手术了。然后我就会失明。我不想抱怨什么，因为我知道很多像我这样的人的结局比我要糟得多。不过，唉，我是说，失明这事儿还是太糟心。不过，我女朋友对我的帮助很大。还有我的朋友们，比如奥古斯塔斯。”他对那个男孩点头示意，好吧，现在这家伙有名字了。“所以，呃，”艾萨克继续讲，他低头看着自己的手，双手十指交叉，像印第安帐篷“梯皮”顶上戳出来的树干尖儿，“其实你自己什么也做不了。”<br />
+<br />
+“你有我们呢，艾萨克。”帕特里克说，“大伙儿一起说，让艾萨克听听。”于是我们所有人都用单调的声音齐声诵道：“你有我们呢，艾萨克。”<br />
+<br />
+下一个是麦克尔。他十二岁，患了白血病，一直有白血病。他还不错（也许他只是这么说而已，他是坐电梯下来的）。<br />
+<br />
+丽达十六岁，长得很漂亮，足以成为英俊男孩眼神追逐的尤物。她是互助小组的常客，得过阑尾癌，正在漫长的康复期中。我以前压根不知道还有这种癌。她说她感觉“强壮有力”，自从我参加互助小组以来，她每次都这么说。给我涓涓注入氧气的导管末端弄得我鼻孔发痒，在我听来，她这话无异于夸耀。<br />
+<br />
+另外五个人说完后，终于轮到他了。他微微一笑，声音低沉，仿佛有烟雾笼罩，而且性感得要命。“我叫奥古斯塔斯·沃特斯，”他说，“十七岁。我一年半之前得过轻微的骨肉瘤，不过今天我是陪艾萨克来的。”<br />
+<br />
+“你感觉怎么样？”帕特里克问。<br />
+<br />
+“哦，棒极了。”奥古斯塔斯·沃特斯扬起一边嘴角，微笑了一下，“就像坐在一辆一直往上的过山车上，朋友们。”<br />
+<br />
+到我了，我说：“我叫海蓁，十六岁。患甲状腺癌，有点肺转移。我还行。”<br />
+<br />
+时间飞速推进：与病魔的斗争被详加描述；在注定要失败的战争中，几次战役暂时取胜；希望从未放弃；家人得到歌颂，也遭到谴责；大家众口一词，朋友们就是不明白；热泪倾洒；慰藉予取予求。奥古斯塔斯·沃特斯和我两个人都没有再开口，直到<br />
+帕特里克说：“奥古斯塔斯，也许你愿意和大家交流一下你所害怕的事。”<br />
+<br />
+“我害怕的事？”<br />
+<br />
+“没错。”<br />
+<br />
+“我害怕被遗忘。”他毫不迟疑地说，“我害怕被遗忘，就像寓言里的盲人害怕黑暗一样。”<br />
+<br />
+“言之过早吧。”艾萨克说着，咧嘴一笑。<br />
+<br />
+“我是不是太无情了？”奥古斯塔斯问，“我有时候对其他人的感受相当迟钝。”<br />
+<br />
+艾萨克大笑起来，但帕特里克举起一根手指来制止他，说：“奥古斯塔斯，拜托，让我们回到你的话题上来，你的战斗。你说你害怕被遗忘？”<br />
+<br />
+“是的。”奥古斯塔斯说。<br />
+<br />
+帕特里克似乎有些困惑。“有没有，呃，有没有谁想谈谈这个？”<br />
+<br />
+我三年没有正经上学了。爸妈是我最好的两个朋友，第三个最好的朋友是一本书的作者，他压根儿不知道我的存在。我是个相当害羞的人——不是爱举手的类型。<br />
+<br />
+不过，这一次，我决定开口说话。我稍微抬了抬手，帕特里克喜形于色，立即说：“海蓁！”我敢肯定，他觉得我终于敞开心怀，成了互助小组的一分子。<br />
+<br />
+我望着奥古斯塔斯·沃特斯，他也回望着我。你几乎可以看穿他的眼睛，那么蓝。“总会有一天，”我说，“我们所有人都死了，我们所有人。总会有一天，整个人类，不会有一个人留下来，记住任何人的存在，记住人类所做过的任何事情。不会有人留下来记得亚里士多德或者克里奥佩特拉，更别说是你了。我们所做的一切，我们建造的写下的思考的发现的都会被忘记，而所有这些——”，我朝周遭做了个手势，“到头来终归全是徒劳。也许那一天很快就会来临，也许还有亿万年之遥，但即使我们能逃过太阳的坍缩，也不可能永远活下去。有机体产生最初的意识之前，时间就已经存在；意识消亡之后，时间依然长存。人类无法避免、注定要被遗忘，如果这命运令你忧虑，我奉劝你把它置之脑后，不要理会。不是吗？其他每个人都是这么做的。”<br />
+<br />
+教我这番话的，是上述我那位名列第三的好朋友彼得·范·豪滕，他是一位离群索居的作家，《无比美妙的痛苦》一书的作者。这本书是我所拥有的最接近《圣经》的东西，彼得·范·豪滕是我所见过的唯一一个似乎理解死亡是怎么一回事，而又没有真正死过的人。<br />
+<br />
+我说完之后，有很长一段时间的沉默，我看到一个微笑在奥古斯塔斯脸上慢慢展开——不是他先前盯着我看的时候刻意耍帅的那种扬起一边嘴角的微笑，而是真正的微笑，大得脸上都挂不住了。“好家伙，”奥古斯塔斯悄声说，“你可真是与众不同。”<br />
+接下来的互助时间，我们俩谁也没说一句话。结束的时候，我们都得手拉手，帕特里克带着我们念诵祷文：“我主耶稣基督，我们作为癌症幸存者聚集在此，在你心里，实实在在地在你心里。你了解我们，只有你了解我们如同我们了解自己。你引领我们走过人生，通过最后的审判时刻，到达光明。让我们为艾萨克的眼祈祷，为麦克尔和杰米的血祈祷，为奥古斯塔斯的骨祈祷，为海蓁的肺祈祷，为詹姆斯的喉祈祷。我们祈祷，愿你治愈我们，愿我们感觉到你的大爱，感觉到你所赐的出人意料的平安。让我们在内心深处记住那些曾相知相爱的人，他们已经回到你的怀抱：玛丽亚，凯德，约瑟夫，海利，艾比盖尔，安吉丽娜，泰勒，加布里埃尔……”<br />
+<br />
+名单很长。这个世界挤满了太多死人。帕特里克单调的声音没完没了地继续下去，他看着一张纸一一念出名字，因为太长了，没法全记住。我闭着眼睛，努力让自己潜心祈祷，可总是禁不住开小差，想象着我的名字出现在名单上的那一天，列在那么长的名单的末尾，念到那儿的时候一定已经没有人听了。<br />
+<br />
+等帕特里克念完，我们齐声喊出一句愚蠢的口号——“享受最好的生活，就在今天！”——就完事了。奥古斯塔斯·沃特斯用手一撑椅子，跳了起来，向我走来。他的步子也往一边歪，跟他的微笑一样。他高耸在我面前，不过还好，保持了点距离，我不用伸长脖子去迎上他的目光。“你叫什么名字？”他问。<br />
+<br />
+“海蓁。”<br />
+<br />
+“不，你的全名。”<br />
+<br />
+“呃，海蓁·格蕾丝·兰卡斯特。”<br />
+<br />
+他正要开口说点别的，艾萨克走了过来。“等等。”奥古斯塔斯举起一根手指对我说，然后转向艾萨克，“这可比原先以为的还要差劲啊。”<br />
+<br />
+“我告诉过你这活动索然无味。”<br />
+<br />
+“那你干吗还费事来呢？”<br />
+<br />
+“不知道。多少有点儿作用？”<br />
+<br />
+奥古斯塔斯凑近艾萨克，以为这样我就听不到了：“她每次都来吗？”我听不见艾萨克作何评论，但奥古斯塔斯答道：“同感。”他两手扣住艾萨克的肩膀，离开他半步：“跟海蓁讲讲去看门诊的事儿。”<br />
+<br />
+艾萨克伸出一只手撑在放零食的桌子上，用他的巨眼对准我：“那个，我今天早上去门诊了，我跟外科医生说，我宁愿变聋也不想瞎。他说：‘这两者不能互换啊。’我说，‘嗯，我知道不能互换。我只是说如果我有选择的话，我宁可当聋子也不想当瞎子，当然我知道我没的选。’然后他说：‘哎，好消息是，你不会聋的。’然后我说：‘谢谢您跟我解释我的眼癌不会把我变成聋子。您这样才华横溢的医学巨人屈尊亲自为我开刀，我觉得我真是太幸运了。”<br />
+“听起来这位真是个人生赢家，”我说，“就为了认识一下这号人物，我也得想办法弄个眼癌得得。”<br />
+<br />
+“祝你成功。好啦，我得走了，莫妮卡在等我。趁我还看得见，我得多看看她。”<br />
+<br />
+“明天一起玩《以暴制暴》？”奥古斯塔斯问。<br />
+<br />
+“当然。”艾萨克转过身跑到楼梯口，一步跨两级地上去了。<br />
+<br />
+奥古斯塔斯·沃特斯转身看着我。“实实在在。”他说。<br />
+<br />
+“实实在在？”我不明其意。<br />
+<br />
+“我们实实在在地在耶稣心里，”他说，“我以为我们在教堂地下室里，但其实我们是在耶稣的心里。”<br />
+<br />
+“应该有人告诉耶稣一声，”我说，“我是说，可能会有危险的，把一帮患癌症的孩子装在心里。”<br />
+<br />
+“我会亲口告诉他的，”奥古斯塔斯说，“不过很不幸，我实实在在地困在他的心脏里面了，所以，他没办法听到我说话。”我笑起来。他摇摇头，盯着我看。<br />
+<br />
+“怎么了？”我问。<br />
+<br />
+“没什么。”他说。<br />
+<br />
+“你干吗那样看着我？”<br />
+<br />
+奥古斯塔斯露出一丝浅笑。“因为你很美。我喜欢看长得美的人，而且不久之前我刚下定决心，不委屈自己放弃生活中那些简单的愉悦。”接下来是一段短得令人尴尬的沉默。奥古斯塔斯不屈不挠地继续下去：“我是说，尤其是考虑到，你刚才如此动听地指出，这一切都终将归于遗忘。”<br />
+<br />
+我以近乎咳嗽的方式有点像讥笑又像叹息似的吐出一口气，然后说：“我可不美——”<br />
+<br />
+“你就像‘90后’版本的娜塔莉·波特曼，像《V字仇杀队》里的娜塔莉·波特曼。”<br />
+<br />
+“没看过。”我说。<br />
+<br />
+“真的？”他问，“她是个头发像精灵一样、讨厌权威的迷人女孩，明明知道不被允许却情不自禁地爱上了一个身陷困境的男孩。这简直是你的自传，在我看来。”<br />
+<br />
+他话里有话，每个字都在调情。老实说，他让我有点儿动情了。我以前还从不知道自己真会对哪个男孩动情——至少，在现实生活里不会。<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A530029774378', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A530029774378', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A530029774378', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A530029774378', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A530029774378'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chsh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chsh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

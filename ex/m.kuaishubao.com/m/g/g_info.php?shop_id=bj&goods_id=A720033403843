@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/0/2/A720033403843_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/0/2/A720033403843_1.jpg">
+        <h2>大朴（dapu)天然彩棉毛巾四条套装（绿色2条棕色2条）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥198.00元</b> <del>¥208.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：套</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/2/A720033403843_1.jpg','大朴（dapu)天然彩棉毛巾四条套装（绿色2条棕色2条）-天然彩棉制作，未经化学染色，无荧光增白剂。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b>快书包推荐：</b>该系列还有其他产品，链接：<a href="http://bj.kuaishubao.com/g/A930022790338.html" target="_blank"><u>大朴天然彩棉毛巾（绿色）</u></a>&nbsp;<a href="http://bj.kuaishubao.com/g/A730022790446.html" target="_blank"><u>大朴天然彩棉毛巾（棕色）</u></a></span> 
+</div>
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="outline-width:0px;">
+	<span style="font-family:'Arial, sans-serif';">【名称】大朴（dapu）天然彩棉毛巾四条套装（绿色2条棕色2条）</span><br />
+<span style="font-family:'Arial, sans-serif';">【品牌】大朴家纺</span><br />
+<span style="font-family:'Arial, sans-serif';">【产品工艺】30S/1彩棉纱线 精致提花</span><br />
+<span style="font-family:'Arial, sans-serif';">【产品尺寸】34×75cm</span><br />
+<span style="font-family:'Arial, sans-serif';">【执行标准】GB 18401-2010 B类</span><br />
+<span style="font-family:'Arial, sans-serif';">【产品等级】GB/T 22864-2009 一等品</span><br />
+<span style="font-family:'Arial, sans-serif';">【产品面料】100%棉</span><br />
+	<div class="goods-content-title" style="font-family:Arial, sans-serif;white-space:normal;outline-width:0px;">
+		商品特点
+	</div>
+	<div align="center" style="outline-width:0px;">
+		<h3 style="outline-width:0px;">
+			<div style="color:#666666;font-family:Arial, sans-serif;font-size:14px;white-space:normal;text-align:left;">
+				<b><span style="color:#000000;">【天下大事，必先于细】</span></b> 
+			</div>
+			<div style="text-align:left;">
+				<span style="font-family:'Arial, sans-serif';"><br />
+</span> 
+			</div>
+<span style="font-family:'Arial, sans-serif';"> 
+			<div style="text-align:left;">
+				<span style="color:#000000;">天然纯色彩棉毛巾，取材于有“贵族纤维”之称的天然彩棉，未经过化学染色形成的天然色彩，多了几分跳跃和混搭</span> 
+			</div>
+</span><span style="font-family:'Arial, sans-serif';"> 
+			<div style="text-align:left;">
+				<span style="color:#000000;">天然棉质手感柔软亲肤、安全环保，吸湿透汗性好</span> 
+			</div>
+</span><span style="font-family:'Arial, sans-serif';"> 
+			<div style="text-align:left;">
+				<span style="color:#000000;">毛圈整齐细腻，排列均匀有序，精致包边，严格走线，</span> 
+			</div>
+</span><span style="font-family:'Arial, sans-serif';"> 
+			<div style="text-align:left;">
+				<span style="color:#000000;">简约实用的标签设计极富人性化，</span> 
+			</div>
+</span><span style="font-family:'Arial, sans-serif';"> 
+			<div style="text-align:left;">
+				<span style="color:#000000;">精致提花工艺，从细节处见真心，从设计感中凸显品质</span> 
+			</div>
+</span><span style="font-family:'Arial, sans-serif';"> 
+			<div style="text-align:left;">
+				<span style="color:#000000;">诠释自然与生机的绿色，有着大地温暖与踏实的棕色，舒适的自然色泽带来的是生活的简单与纯粹。</span> 
+			</div>
+</span> 
+		</h3>
+<span style="font-family:'Arial, sans-serif';"></span><br />
+<span style="font-family:'Arial, sans-serif';"><a href="http://pic.kuaishubao.com/picdata/goods/0/2/A720033403843_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A720033403843_xt_cj_1.jpg"></a></span><br />
+	</div>
+	<h3 style="font-family:Arial, sans-serif;white-space:normal;outline-width:0px;font-size:14px;">
+	</h3>
+	<h3 style="font-family:Arial, sans-serif;white-space:normal;outline-width:0px;font-size:14px;">
+		<br />
+	</h3>
+	<div align="center" style="font-family:Arial, sans-serif;white-space:normal;outline-width:0px;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/0/2/A720033403843_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A720033403843_xt_cj_2.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/0/2/A720033403843_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A720033403843_xt_cj_3.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/0/2/A720033403843_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/2/A720033403843_xt_cj_4.jpg"></a><br />
+	</div>
+	<h3 style="font-family:Arial, sans-serif;white-space:normal;outline-width:0px;font-size:14px;">
+		<b><span style="color:#000000;">【细节设计】</span></b> 
+	</h3>
+<br />
+<strong style="font-family:Arial, sans-serif;white-space:normal;"><span style="color:#000000;">无需染色：</span></strong><span style="font-family:'Arial, sans-serif';"><span style="color:#000000;">纯天然彩棉，其颜色是棉花本身具有的，而非通过化学染色形成，保持产品原滋原味的淳朴风格，天然的色彩，纯然的感觉，自然的味道。</span></span><br />
+<strong style="font-family:Arial, sans-serif;white-space:normal;"><span style="color:#000000;">毛圈：</span></strong><span style="font-family:'Arial, sans-serif';"><span style="color:#000000;">毛圈平整细腻，排列均匀有序，质地柔软、蓬松。普通毛巾毛圈稀疏不均，外观凌乱粗糙没有质感。</span></span><br />
+<strong style="font-family:Arial, sans-serif;white-space:normal;"><span style="color:#000000;">完美包边：</span></strong><span style="font-family:'Arial, sans-serif';"><span style="color:#000000;">精致包边，走线紧密均匀，每个针脚的交错，都精心制作，从一针一线上，让您感受到我们的用心。</span></span><br />
+<strong style="font-family:Arial, sans-serif;white-space:normal;"><span style="color:#000000;">标签：</span></strong><span style="font-family:'Arial, sans-serif';"><span style="color:#000000;">简约标签设计，免除了因标签过多，刮疼肌肤的烦恼，纯棉logo标，不仅不伤肌肤，还可以用来悬挂，十份便捷。</span></span><br />
+	<div style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/d/c/A930022790338_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/c/A930022790338_xt_cj_5.jpg"></a> 
+	</div>
+	<div style="font-family:Arial, sans-serif;white-space:normal;outline-width:0px;">
+		<br />
+		<div class="goods-content-title" style="outline-width:0px;">
+			如何选择一条好毛巾
+		</div>
+<strong><span style="color:#000000;">选材：</span></strong><span style="color:#000000;">甄选纯天然优质彩色棉</span><br />
+<strong><span style="color:#000000;">看外观：</span></strong><span style="color:#000000;">好的毛巾颜色清新鲜艳、毛圈均匀，缝边顺直、外观整洁</span><br />
+<strong><span style="color:#000000;">鉴品质：</span><br />
+</strong><span style="color:#000000;">1.吸水性，可以在悬挂的毛巾上洒少量的水，吸水性好的毛巾，水滴上去哪呢过够迅速吸收，吸水性差的毛巾，水滴上去则会形成水滴滚落。</span><br />
+<span style="color:#000000;">2.色牢度，色牢度好的毛巾，长时间使用过后，颜色仍然清晰鲜艳；色牢度差的毛巾，很容易掉色，并对皮肤有害，</span><br />
+<strong><span style="color:#000000;">手感：</span></strong><span style="color:#000000;">优质毛巾手感柔软，富有弹性。毛巾切忌干硬，以免伤害皮肤</span><br />
+<strong><span style="color:#000000;">气味：</span></strong><span style="color:#000000;">大朴产品，不含甲醛等致癌物质，没有刺鼻异味。</span><br />
+		<div align="center" style="outline-width:0px;">
+			<b><a href="http://pic.kuaishubao.com/picdata/goods/d/c/A930022790338_xt_cj_11.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/c/A930022790338_xt_cj_11.jpg"></a></b><br />
+		</div>
+<b><span style="color:#333333;"><br />
+		<div class="goods-content-title" style="outline-width:0px;">
+			毛巾的洗涤和保养
+		</div>
+</span></b><span style="color:#000000;">彩棉的色彩源于天然色素，遇酸会发生变化，因此洗涤彩棉制品时，不能使用带酸性洗涤剂，而应选用中性肥皂盒洗涤剂，同时，注意将洗涤溶解均匀后再将毛巾侵泡在其中。</span><br />
+		<div align="center" style="outline-width:0px;">
+			<b><a href="http://pic.kuaishubao.com/picdata/goods/d/c/A930022790338_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/c/A930022790338_xt_cj_3.jpg"></a></b><br />
+		</div>
+		<div class="goods-content-title" style="outline-width:0px;">
+			大朴品牌
+		</div>
+		<div align="center" style="outline-width:0px;">
+			<b><a href="http://pic.kuaishubao.com/picdata/goods/d/c/A930022790338_xt_cj_12.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/d/c/A930022790338_xt_cj_12.jpg"></a></b><br />
+		</div>
+		<div>
+			<b><br />
+</b> 
+		</div>
+	</div>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A720033403843', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A720033403843', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A720033403843', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A720033403843', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A720033403843'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

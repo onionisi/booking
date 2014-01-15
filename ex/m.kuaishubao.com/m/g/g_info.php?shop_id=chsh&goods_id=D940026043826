@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/3/0/D940026043826_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/3/0/D940026043826_1.jpg">
+        <h2>美国sapphira索菲尔高级慢回弹记忆棉懒人沙发</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥2944.00元</b> <del>¥3680.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：个</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/3/0/D940026043826_1.jpg','美国sapphira索菲尔高级慢回弹记忆棉懒人沙发-低反弹舒适五段调节（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!--提示信息 Begin-->
+<div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><strong>快书包推荐：</strong><strong>下单后</strong><strong>由供货商</strong><strong>直接发货，顺丰包邮，暂不支持一小时送达服务</strong><strong>。</strong></span> 
+</div>
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	【名称】美国sapphira索菲尔高级慢回弹记忆棉懒人沙发<br />
+【品牌】sapphira索菲尔<br />
+【分类】记忆枕睡眠系列<br />
+【图案类型】纯色<br />
+【枕头主材】记忆棉<br />
+【枕头面料】天鹅绒<br />
+【挡位】五段调节<br />
+【产品等级】一等品<br />
+【尺寸】180*58*18cm<br />
+</div>
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品特点
+</div>
+<b style="font-family:Arial, sans-serif;white-space:normal;"> <b><br />
+材质独特，记忆棉</b><br />
+</b><span style="font-family:Arial, sans-serif;white-space:normal;">材质的独特开放式细胞结构，有助于空气在其间产生流动，从而保持身体的温度，使身体在睡眠的时候，处于理想的状态。慢回弹的特性，使索菲尔产品舒适的和身体的曲线自然贴合，并能有效的对身体提供支撑，而不对身体某个部位产生集中的压力。当使用者离开的时候，慢回弹索菲尔产品会以适当的速度恢复到最初的使用状态。&nbsp;</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<strong style="font-family:Arial, sans-serif;white-space:normal;"><br />
+索菲尔高级慢回弹记忆棉懒人沙发</strong><strong style="font-family:Arial, sans-serif;white-space:normal;">的</strong><strong style="font-family:Arial, sans-serif;white-space:normal;">作用</strong><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">消除压力，保证正确睡眠姿垫，得到充分休息，当人躺在索菲尔沙发上时、仰卧时脊椎是S型的自然生理弯曲状态、侧卧时脊椎是直的不侧弯。人生的三分之一的睡眠时间里身体能够进行自我修复和自我保健的最佳途径。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">温度均衡不用担心潮湿出汗，手脚冰冷，微循环不好人群十分适用。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">减少打鼾的情况。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">成长发育期的少年儿童使用预防不正确睡眠姿式、防止脊椎变型。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">老年人使用减少心脏压迫，预防睡眠不佳引起的老年性疾病，不会压迫肌肉、血管、神经。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">减少同眠时干扰。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">空气流通性好，防潮、防霉，防螨虫。保护身体健康。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<strong style="font-family:Arial, sans-serif;white-space:normal;"><br />
+索菲尔高级慢回弹记忆棉</strong><strong style="font-family:Arial, sans-serif;white-space:normal;">的</strong><strong style="font-family:Arial, sans-serif;white-space:normal;"></strong><strong style="font-family:Arial, sans-serif;white-space:normal;">寿命</strong><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">索菲尔<span style="display:none;" id="__kindeditor_bookmark_start_34__"></span>记忆棉<span style="display:none;" id="__kindeditor_bookmark_end_35__"></span>是经特殊工艺模具中进行高温发泡定型，所谓密度大，每立方米承重85公斤，好处不易变形，寿命长，</span><span style="font-family:Arial, sans-serif;white-space:normal;">平均寿命三至五年。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<strong style="font-family:Arial, sans-serif;white-space:normal;">为什么需要</strong><strong style="font-family:Arial, sans-serif;white-space:normal;">索菲尔高级慢回弹记忆棉沙发</strong><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">人体脊椎由26节脊椎关节组成、7节颈椎、5节腰椎、12节胸椎、一块骶骨和一块尾骨。分颈椎弯曲、胸椎弯曲、腰椎弯曲和骶椎四个生理弯曲组成（结合脊椎模型讲解），侧面呈S型生理弯曲。而人类正确的睡眠姿势也正是保持S型生理曲线的舒展。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<b style="font-family:Arial, sans-serif;white-space:normal;">【温馨提示】</b><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">1. 外套可拆洗；产品本身自带天鹅绒枕套，外套可以任意拆洗。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">2. 沙发的内芯不可水洗，建议您在使用一段时间后，在阳光下通风、晾晒，将有助于产品恢复弹性；避免对着太阳直接暴晒。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">3.产品为温度感应型材质，随季节变化，软硬会有轻微程度的变化，属于正常现象。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">4.请避免使用锐角器具或刀具等划伤面料。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">5.刚开始使用本产品，可能会有不习惯的地方，通常在3-5天后就会逐步习惯，在清晨及白天明显感觉到颈椎的轻松感。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品实拍图
+</div>
+<b style="font-family:Arial, sans-serif;white-space:normal;">图一：美国sapphira索菲尔高级慢回弹记忆棉懒人沙发包装图</b><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_9.jpg"></a><br />
+<br />
+</div>
+<b style="font-family:Arial, sans-serif;white-space:normal;">图二：美国sapphira索菲尔高级慢回弹记忆棉懒人沙发<b style="color:#666666;"></b>实拍图</b><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_1.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_2.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_3.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_4.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_5.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_6.jpg"></a><br />
+<br />
+</div>
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<b style="font-family:Arial, sans-serif;white-space:normal;">图三：<b style="color:#666666;"><span style="color:#000000;">美国sapphira索菲尔高级慢回弹记忆棉懒人沙发</span></b>细节图</b><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_7.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/6/7/A530025796338_xt_xj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/7/A530025796338_xt_xj_8.jpg"></a><br />
+<br />
+</div>
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	<strong> 
+	<div class="goods-content-title" style="outline-width:0px;">
+		为什么需要索菲尔
+	</div>
+</strong><strong>【你是否被这些问题困扰？</strong><strong>】</strong><br />
+A：儿童在成长发育的过程当中，睡眠时身体释放生长激素是最多的，所以良好的睡眠是孩子成长发育必备的。<br />
+<br />
+B：睡眠也是让身体处于最佳的休息的状态中。没有良好的睡眠就没有健康的身体，也没有更好的学习能力和工作能力。<br />
+<br />
+C：头痛，斜颈：颈部肌肉紧张通常由糟糕的睡眠姿势加重，并且有可能是头痛的原因。如果颈部得不到适当的支撑，睡眠时颈部肌肉就会持续紧张，引发疼痛和僵硬。<br />
+<br />
+D：背部疼痛：背部疼痛是最常见的公众健康问题之一，疼痛和僵痛通常是在夜间引起的，特别是当床垫迫使脊椎以不自然的状态存在。<br />
+<br />
+E：臀关节痛：坚硬的床垫会使臀部疼痛的问题恶化。<br />
+<br />
+F：膝关节痛：围绕膝关节产生的炎症使其对压力和碰触非常敏感并易受到伤害，为了帮助缓解这个问题，床垫应该与此适应，即使这个床垫只会产生轻微的局部压力。<br />
+<br />
+G：纤维组织炎：这个普通的问题通常是因为糟糕的睡眠姿势加重并引起背部和肩部肌肉紧张。<br />
+<br />
+H：臂痛：胳膊的疼痛，麻木和刺痛通常是由颈部神经的炎症引起的。这种情况因为糟糕的睡眠姿势而加重，尤其当颈部得不到适当的支撑。<br />
+<br />
+I：坐骨神经痛：从大腿一直延伸到小腿最后到足部，可以持续几个月，一张引起不自然睡眠姿势的床垫通常加重这种状况。<br />
+<br />
+J：循环问题：循环问题通常会导致足腓骨在夜间肿胀和麻木。床垫必须为缓解与此相关阻塞血液循环的压力提供足够的柔软度。<br />
+<br />
+E：臂痛：胳膊的疼痛，麻木和刺痛通常是由颈部神经的炎症引起的。这种情况因为糟糕的睡眠姿势而加重，尤其当颈部得不到适当的支撑。<br />
+<br />
+<strong>【使用人群划分</strong><strong>】</strong><strong><strong style="color:#666666;"><br />
+</strong></strong>A： 孩子：人体到十四岁才会发育定型，幼儿及儿童由于发育时期身体比较柔软，如果没有好的卧具，小孩子睡觉特别喜欢不断翻身，造成睡眠质量不好。这就是很多小 孩睡觉打转的原因，不是他睡觉不老实，而是他不舒服。由于睡眠质量不好，从而影响脑部智力发育，以及学习知识时的注意力不集中，也有小孩子患有多动症，都 与身体发育及睡眠质量密不可分。关注孩子成长，先从他的睡眠开始。<br />
+<br />
+B：女士：很多女性都有一定的失眠情况，其中失眠的主要原因是由于颈椎病或多虑引起的。多虑的女性普遍有偏头痛脑供血不足的症状，其中颈椎受到压迫而导导 致血流不畅而失眠或出现偏头痛。使用健康的睡具保护好颈椎促进血流正常循环，只有睡的好才能皮肤好身体好。同时合理的睡眠姿势可以减少颈部纹的产生。（由于颈部纹是真正暴露女人年龄的凶手，所以合理的睡眠减少颈部纹是十分重要的。）<br />
+<br />
+C：成功人士：现在很多成功人士频繁的应酬，高强度的工作压力，经常在电脑前工作或俯案工作的人士，颈椎病，肩周炎是发病率最高的病症。睡眠质量不好出现 失眠、早醒、不易睡、频繁的翻身，打鼾等睡眠障碍。使用索菲尔床上用品可以达到完好的睡眠，充沛的体力，打鼾减轻了你身边的人也是幸福的。而且打鼾在医学 上是一种病症，严重者是需要就医的。<br />
+<br />
+D：老年人：老年人普遍睡眠轻，而且易早醒，最明显的症状就是平时想睡，真正睡觉的时候又不困了。没有深度睡眠，身体不能很好的休息，易患老年性疾病（如心脑血管疾病等）<strong><br />
+<br />
+【使用</strong><strong>小贴士</strong><strong>】</strong><strong></strong> 
+</div>
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	A：宇航员在升空的过程中要承受5—8倍体重的压力（G-FORCE），这样的材料可以有效的帮助宇航员分散这些人体难以承受的压力。<br />
+<br />
+</div>
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	B：鸡蛋变“结实了”。试验如下：将生鸡蛋掷向普通床垫鸡蛋马上破裂。将鸡蛋掷向索菲尔床垫时鸡蛋完好无损的“躺”在舒适的床垫上。这就是索菲尔床垫特有的零压力，她将压力分解了所以鸡蛋也可以安然无恙啦。<br />
+<br />
+</div>
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	C：百分之三十与百分之百:科学实验证明当人体平躺在普通材质上时身体只有百分之三十分接触床垫，而当身体平躺在索菲尔床垫上时床垫会百分之百的与身体结合。受压面变大，压力减小，让我们的身体在真正放松状态下休息。<br />
+<br />
+</div>
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	D： 和美味的红酒“跳舞”：试验如下：将一个酒杯倒入红酒，放置在床垫上，你可以在床垫上红酒杯的周围翻身、起立、也可以跳舞，实验结果是无论你做什么样的动 作红酒还是静静的呆在那里，即不会溢出也不会受到你任何的干扰。这就是索菲尔床垫特有的吸震性。索菲尔产品压力分散和能量吸收特性避免了身体局部血液循环 不畅。索菲尔床垫可以有效吸收震动，每个部位都独立提供支撑。你的移动不会影响到床上的其他人。同样，别人也不会打扰你的睡眠。比较而言，弹簧床垫会因为 一个人的活动而导致床垫倾斜，因为他会传导震动，影响他人的睡眠。<br />
+<br />
+</div>
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	E： 灯泡的“命运”：灯泡实验：将灯泡放置两个枕头之间，一组是索菲尔枕头，一组是普通枕头。举起同等重量的保龄球（15磅为例）同一高度砸向有灯泡的枕头， 普通枕头试验结果灯泡全部粉碎。索菲尔枕头试验结果灯泡完好无损而且通电后仍发光。这个实验说明索菲尔材质具有分散压力的作用。所以开车，睡眠，看电视， 乘车，飞机时都可以用索菲尔产品。<br />
+<br />
+</div>
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	F：会跳舞的小石球 （或钢球）：试验索菲尔材质同海棉，将小石球在同一高度垂直掉在以上不同的材质上，试验结果是小石球在索菲尔材质上平稳的躺着，而在海棉上则一直在弹跳。 这个试验说明海棉给小石球的反作用力大，而索菲尔材质则分解了压力在很小的反作用力支撑下小钢球安然的躺在上面睡大觉啦。<br />
+</div>
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	索菲尔品牌
+</div>
+<strong style="font-family:Arial, sans-serif;white-space:normal;">索菲尔(sapphira)来自美国的国际健康家居品牌</strong><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">作为慢回弹产品行业中的领军品牌，在发达国家市场有主要占有率，日本的家居床上用品市场占据百分之三十的份额。索菲尔秉着“以人为本，科技至上”的理念， 长期致力于研究、开发和生产健康舒适的睡眠系统产品，总结出：要改善和缓解睡眠质量，真正的达到健康的睡眠标准，必须全面深入了解人类睡眠过程中的身体需 求。并以“健康、环保、舒适”的特殊材质得到了广大消费者的高度认可和好评，真正实现了无梦睡眠，让您在不知不觉中体验科技的成果。“索菲尔专注您的脊 椎，维护您的健康”。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<strong style="font-family:Arial, sans-serif;white-space:normal;"></strong><strong style="font-family:Arial, sans-serif;white-space:normal;">“来自美国 &nbsp;健康中国” ——索菲尔在中国</strong><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">自2004年进驻中国市场以来索菲尔所倡导的“健康优质的睡眠”理念为中国的家居市场带来一场新的革命，并逐渐开发出了睡眠、车用、办公和旅行休闲等一系 列健康家居产品。为了实现“不一样的人群，享受一样的健康”，让世人分享科技带来的高品质睡眠，索菲尔的健康睡眠专家力求“量身打造更健康”自主研发，根 据亚洲、中国人的身体结构、年龄，设计出适合中国人的睡眠用品，现在已经成为国内家居市场的知名品牌，遍布全国各地四十余家专卖店。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">索菲尔公司是一家关注健康睡眠及舒适生活的美国公司，总部设在美国马塞诸塞州。产品已在德国的法兰克福、澳大利亚的悉尼等世界多个城市和地区设有专卖店。 在上世纪九十年代美国索菲尔公司，将人体力学支撑技术与高科技材质（太空记忆棉）完美结合，突破了家居产品单一作用，是人体美学与科技力量相结合的完美化身，打造了健康睡眠和舒适生活于一体的“家居新概念”!</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">Sapphira索菲尔的产品及原材料已通过多项严格的认证，获得了包括欧盟要求的CE认证和RoHS认证，并通过了中国国家纺织制品质量监督检测中心的检测。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;text-align:center;">
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/1/a/A110024250001_xt_pp_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/a/A110024250001_xt_pp_1.jpg"></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/1/a/A110024250001_xt_pp_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/1/a/A110024250001_xt_pp_2.jpg"></a> 
+</div>
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('D940026043826', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('D940026043826', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('D940026043826', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('D940026043826', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'D940026043826'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chsh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chsh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

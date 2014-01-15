@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/6/5/A330029426670_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/6/5/A330029426670_1.jpg">
+        <h2>芳香疗法配方宝典（上、下)</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥83.60元</b> <del>¥116.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：套</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/6/5/A330029426670_1.jpg','芳香疗法配方宝典（上、下)-芳香疗法五大经典著作之一。上、下册，共介绍了芳香疗法中运用到的100多种配方，步骤和用量简单明了，实用性非常强。随书附赠价值200元阿芙精油大礼包卡。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】【英】瓦勒莉·安·沃伍德<br />
+【译者】陈评梅，冯凯<br />
+【出版社】中信出版社；2013年9月第1版<br />
+【装订】<span style="color:#666666;white-space:normal;">16</span>开；精装<br />
+【页数】上下两册600页<br />
+【印刷】彩色<br />
+【ISBN】9787508642116<br />
+【品牌】中信出版社
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+《芳香疗法配方宝典套装》为了给大家创造体验精油神奇力量的机会，每套书赠送价值200元阿芙精油大礼包。<br />
+获取方法：扫描书中的书签上的二维码——加好友——输入“阿芙就是精油”——输入书签上的兑换码(确认）,填写地址，即可获得大礼包。一本一代码，一个代码只限用一次，换取大礼包的期限截止2014.12.31.<br />
+<br />
+芳香疗法距今已有5000多年的历史。在古老的埃及、印度及中国都有这方面的记载。但是在芳香疗法的发展过程中，也有过一段时间的断层，这是因为一些化学药物的大量出现及广泛应用，如抗生素等。但随着对化学药物副作用的认识加深，人们开始更加关注芳香疗法在医学上的辅助替代作用，就像中国人对中药的认识，现在芳香疗法已广泛被用于养生保健、治疗疾病、缓解压力、美容美体等方面。甚至在旅行、居家、料理、养宠物都能用到它，而且它的效果让你惊喜不断。<br />
+<br />
+在国内，一说到芳香、精油，人们脑海里总是免不了有几个疑问：<br />
+1.精油那么贵，那不是有钱人才能玩的吗？<br />
+2.国内卖的都是勾兑的，都不是好精油。<br />
+3.精油配方很难操作，只有专业的人才能用。<br />
+虽然知道芳香疗法非常好，但一直都保持望而却步的态度。但是通过编辑这五套芳疗经典书，这些疑虑全部不见了。尤其这套著名国际芳疗大师瓦勒莉·安·沃伍德的著作《芳香疗法配方宝典》，让小编了解到其实大部分精油是不能直接使用的，它需要先按照配方稀释——“勾兑”之后，才能使用。不然，还会有危险性。所以，其实我们有两种选择，要么购买品牌商已经稀释好的产品，要么花比较贵的钱购买精油原液，按照配方稀释使用。不管怎么说，每一个配方中用到的精油只需要两三滴，所以，这个投入还是值得的。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+《芳香疗法配方宝典》是芳香疗法五大经典著作之一。这本书分上、下册出版，共介绍了芳香疗法中运用到的100多种配方，步骤和用量简单明了，实用性非常强。<br />
+<br />
+《芳香疗法配方宝典》（上）的内容侧重于芳香精油基本款的应用配方，旅行基本装备；女性、男性、老年人、婴儿的养生保健配方；还有宠物的自然保健配方。<br />
+<br />
+《芳香疗法配方宝典》（下）的内容侧重于美容美体、美发保养、上班族解压、运动舞蹈、香水蒸馏、家庭芳香护理、花园种植、烹饪、派对等方面的使用。<br />
+<br />
+当我们的肌肤随着岁月的流失渐渐失去光彩的时候，当我们的头发因为日化用品的毒害变得越来越稀松的时候，当我们为了找到一份好工作需要赶赴面试现场的时候，当我们需要给买主留下好印象赶快卖掉房子的时候，精油都会悄悄地帮你获得你想要的。甚至在花园种植花草、迎接节日开派对做美食的时候，芳香花草都可以帮助你。<br />
+<br />
+《芳香疗法配方宝典》即适合学习芳香疗法的学生使用，也适合对精油感兴趣的入门级的读者阅读。<br />
+<div class="goods-content-title">
+	名人推荐
+</div>
+名人推荐下内文《芳香疗法配方宝典》是芳香疗法学界的经典之作。我在不同国家、不同场景里，常会看见学生们捧着它，把它奉为学习的宝典，我自己也不例外，而这本书也确实值得那么尊敬它。<span style="color:#333333;">——金韵蓉</span><br />
+<br />
+<br />
+《芳香疗法配方宝典》介绍了居家，美容、身体保养、缓解压力、头部护理、庭院、宠物、饮食等各个方面的配方，加起来有上百个，是名副其实的配方大全，比较像中国的《本草纲目》。有一定的理论基础，初步了解精油性质，但不知道具体怎样调配的朋友会很需要它。它是一本在配方方面很实用的入门书。<span style="color:#333333;">——牛尔</span><br />
+<br />
+<br />
+认识沃伍德女士之后，我才知道什么叫真正的大师风范。我还荣幸而快乐地发现我们之间的些许共同之处：赤子之心，活力充沛。如果用几个词来形容她，我会毫不犹豫地写下：举止优雅，善解人意，以及聪明睿智。<span style="color:#333333;">——李静</span><br />
+<div class="goods-content-title">
+	作者：<span style="white-space:normal;">瓦勒莉·安·沃伍德</span> 
+</div>
+<b>作者简介</b><br />
+瓦勒莉·安·沃伍德Valerie Ann Worwood，是国际芳香疗法大师，拥有扎实的医学背景，是写过13本有关芳香疗法书籍的世界级畅销书作家。她身兼芳香疗法治疗师、反射疗法专家、英国皇家子宫内膜异位症学会研究会员，以及伦敦州郡生理学会会员，有自己的诊所，专门研究芳香疗法对子宫内膜异位和不孕症的治疗。 她与中国也有非常紧密的关系。她是“中国芳香疗法第一人”——金韵蓉的老师，并且2009年第一次在中国开设了个人专利课程“芳香基因学”。
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<strong>导 读 芳香疗法配方宝典</strong><br />
+<strong>第一章 来自大地的良药</strong><br />
+永恒的药剂师<br />
+品质管理<br />
+如何使用本书<br />
+精油的使用方法<br />
+植物基础油<br />
+<br />
+<strong>第二章 你的基本保健装备</strong><br />
+薰衣草<br />
+茶树<br />
+薄荷<br />
+洋甘菊<br />
+尤加利<br />
+天竺葵<br />
+迷迭香<br />
+沉香醇百里香<br />
+柠檬<br />
+丁香<br />
+基本保健装备的使用<br />
+你的自我保护基本装备<br />
+<br />
+<strong>第三章 你的基本旅行装备</strong><br />
+旅行<br />
+到达目的地<br />
+阳光<br />
+晒伤<br />
+炎热<br />
+发烧<br />
+肠胃不适<br />
+小虫叮咬<br />
+污染<br />
+基本旅行装备紧急状况精油一览表<br />
+<br />
+<strong>第四章 女性的天然选择</strong><br />
+孕期困扰<br />
+分娩准备<br />
+产后的护理<br />
+产后忧郁症<br />
+流产<br />
+不孕症<br />
+月经失调<br />
+更年期<br />
+骨盆痛<br />
+妇科问题<br />
+其他常见疾病<br />
+乳房护理<br />
+<br />
+<strong>第五章 男性的天然选择</strong><br />
+心脏的保护<br />
+身体健康意识<br />
+生殖系统<br />
+其他疾病<br />
+肝脏疾病<br />
+秃头<br />
+皮肤保养<br />
+<br />
+<strong>第六章 老年期的精油功效</strong><br />
+血液循环系统<br />
+脚踝肿胀<br />
+静脉曲张&nbsp;<br />
+静脉曲张性溃疡&nbsp;<br />
+失眠&nbsp;<br />
+呼吸困难<br />
+肺炎&nbsp;<br />
+高血压&nbsp;<br />
+动脉粥样化和动脉硬化&nbsp;<br />
+记忆减退&nbsp;<br />
+发抖&nbsp;<br />
+帕金森病&nbsp;<br />
+关节炎&nbsp;<br />
+消化不良&nbsp;<br />
+肠胃胀气&nbsp;<br />
+便秘&nbsp;<br />
+痔疮&nbsp;<br />
+拇囊炎&nbsp;<br />
+鸡眼和老茧&nbsp;<br />
+甲片和甲床&nbsp;<br />
+<br />
+<strong>第七章 对婴儿及儿童的温柔呵护&nbsp;</strong><br />
+新生儿<br />
+2~12 个月大的婴儿<br />
+儿童<br />
+成功的儿童<br />
+青少年<br />
+残疾<br />
+<br />
+<strong>第八章 宠物的自然保健&nbsp;</strong><br />
+狗&nbsp;<br />
+猫<br />
+兔子<br />
+仓鼠&nbsp;<br />
+马&nbsp;<br />
+小型农场&nbsp;<br />
+宠物的自然保健&nbsp;<br />
+<br />
+<strong>第九章 芳香疗法的美容之道&nbsp;</strong><br />
+皱纹和老化的皮肤<br />
+清洁&nbsp;<br />
+面部去角质剂<br />
+面膜&nbsp;<br />
+冰岛式蒸脸&nbsp;<br />
+爽肤水和收敛水<br />
+面部护理油<br />
+问题皮肤&nbsp;<br />
+颈部&nbsp;<br />
+眼部<br />
+唇部&nbsp;<br />
+牙齿与牙龈&nbsp;<br />
+<br />
+<strong>第十章 柔丝万缕&nbsp;</strong><br />
+正常头发&nbsp;<br />
+干燥的头发&nbsp;<br />
+油性头发&nbsp;<br />
+脆弱的头发<br />
+掉头发<br />
+脱发&nbsp;<br />
+头皮屑&nbsp;<br />
+<br />
+<strong>第十一章 健康美丽的身体</strong><br />
+沐浴和泡泡浴&nbsp;<br />
+沐浴前的身体护理油&nbsp;<br />
+消除体味的身体护理油&nbsp;<br />
+身体乳液&nbsp;<br />
+身体喷剂&nbsp;<br />
+身体保养品和去角质剂<br />
+减肥和蜂窝组织炎<br />
+乳房&nbsp;<br />
+手臂&nbsp;<br />
+手部&nbsp;<br />
+指甲&nbsp;<br />
+甲床炎&nbsp;<br />
+足部&nbsp;<br />
+<br />
+<strong>第十二章 男女上班族的精油</strong>&nbsp;<br />
+办公室&nbsp;<br />
+家庭&nbsp;<br />
+工厂&nbsp;<br />
+医院&nbsp;<br />
+土地&nbsp;<br />
+面试与考试&nbsp;<br />
+自我催眠以放松&nbsp;<br />
+两脑并重&nbsp;<br />
+隐约的飘香&nbsp;<br />
+烧伤&nbsp;<br />
+电击烧伤&nbsp;<br />
+腐蚀性烧伤&nbsp;<br />
+背部问题&nbsp;<br />
+重复扭伤综合征<br />
+眼睛疲劳&nbsp;<br />
+电脑和视频设备<br />
+肌痛性脑脊髓炎(ME)<br />
+工作狂的心脏<br />
+紧张与压力&nbsp;<br />
+自制配方治疗紧张<br />
+工作表现的压力<br />
+<br />
+<strong>第十三章 运动、舞蹈及健身的必备油</strong>&nbsp;<br />
+处理受伤的方法<br />
+肌肉<br />
+足部护理&nbsp;<br />
+压力与运动<br />
+淋浴<br />
+蒸汽浴<br />
+按摩浴缸<br />
+日式热水浴<br />
+更衣室除菌飘香<br />
+运动及舞蹈伤害精油一览表<br />
+<br />
+<strong>第十四章 蒸馏室</strong><br />
+自制香水&nbsp;<br />
+女性香氛&nbsp;<br />
+男性香氛&nbsp;<br />
+制作古龙水&nbsp;<br />
+自制精油&nbsp;<br />
+<br />
+<strong>第十五章 家庭芳香护理</strong>&nbsp;<br />
+空气净化器&nbsp;<br />
+过道&nbsp;<br />
+抗菌配方&nbsp;<br />
+厨房&nbsp;<br />
+杂物间&nbsp;<br />
+客厅&nbsp;<br />
+卧室&nbsp;<br />
+浴室&nbsp;<br />
+在新家一举成名&nbsp;<br />
+纸和墨&nbsp;<br />
+香枕和香囊<br />
+干花和香丸<br />
+自制香皂<br />
+芳香蜡烛<br />
+不速之客<br />
+<br />
+<strong>第十六章 未来花园、菜园</strong>&nbsp;<br />
+清理花房&nbsp;<br />
+在花园中使用精油&nbsp;<br />
+其他防治虫害的方法<br />
+鸟类&nbsp;<br />
+霉菌和真菌<br />
+友好的花木&nbsp;<br />
+树木和水果&nbsp;<br />
+鲜花和室内植物&nbsp;<br />
+药草&nbsp;<br />
+土壤&nbsp;<br />
+完美的作物&nbsp;<br />
+<br />
+<strong>第十七章 精油在烹饪中的使用</strong><br />
+蘸酱&nbsp;<br />
+色拉油和醋&nbsp;<br />
+黄油、干酪和乳酪<br />
+开胃菜&nbsp;<br />
+调味酱&nbsp;<br />
+卤汁&nbsp;<br />
+汤类&nbsp;<br />
+蔬菜&nbsp;<br />
+鱼&nbsp;<br />
+肉&nbsp;<br />
+点心&nbsp;<br />
+冷饮甜品&nbsp;<br />
+蛋糕&nbsp;<br />
+面包和糕饼&nbsp;<br />
+花草糖浆&nbsp;<br />
+蜂蜜和糖&nbsp;<br />
+芳香花瓣&nbsp;<br />
+鲜花酱<br />
+果冻&nbsp;<br />
+果仁麦片粥&nbsp;<br />
+果仁奶昔&nbsp;<br />
+<br />
+<strong>第十八章 香甜的庆典</strong><br />
+圣诞节&nbsp;<br />
+情人节&nbsp;<br />
+复活节&nbsp;<br />
+万圣节&nbsp;<br />
+其他值得庆祝的日子&nbsp;<br />
+氛围的营造&nbsp;<br />
+宴会用酒&nbsp;<br />
+暴饮暴食&nbsp;<br />
+制作礼物&nbsp;<br />
+<br />
+<strong>附录一 精油一览表</strong>&nbsp;<br />
+除菌专家&nbsp;<br />
+美容精油&nbsp;<br />
+美体精油&nbsp;<br />
+滋养/瘦身精油&nbsp;<br />
+脸部皮肤保养油一<br />
+脸部皮肤保养油二&nbsp;<br />
+脸部皮肤保养油三&nbsp;<br />
+精油&nbsp;<br />
+<br />
+<strong>附录二 精油按摩方法</strong><br />
+轻抚按摩法
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<strong>序言：</strong><strong>芳香疗法配方宝典</strong><br />
+当你打开这本《芳香疗法配方宝典》时，将会有一个充满了各种可能性的世界向你招手。在这里，你会发现大自然正以它最具效力的方式呈现在你的面前—这就是人们所说的“精油”，一种芳香的液态物质，萃取自各种花、草、果实、叶、根和树木。精油对于医药、食品以及化妆品行业而言，是必不可少的物质。目前大约由 300种精油共同构成了一个颇具影响力的医疗体系，许多由西方正统医疗机构所开具的药方当中，便含有精油活性成分，或者精油在其中充当了“药引子”的作用。在饮食方面，精油可用于制造天然的风味与香味，同时还是天然的防腐剂。护肤品行业看重的是精油的细胞再生和美容功效，而香水业则更着重看精油怡人的香气和增进情调的特质。<br />
+<br />
+每种精油都有许多不同的用途。譬如，薄荷是一种消炎药材，可以用于风湿病和关节炎的治疗，但医生也常用它来减轻患者消化系统的不适；大家都知道糖果制造商常常会用到薄荷，但少有人知道它还是男士须后水的成分。本书将精油的用途加以延伸和全面扩展，并首度详细介绍精油的居家使用方法。我们将会看到，薄荷精油不仅仅具备上述功用，它还有许多其他用法，从治疗头痛到清理蚂蚁窝，甚至还能防止老鼠在你家房顶上过冬。<br />
+<br />
+尽管精油在医疗方面的疗效显著，《芳香疗法配方宝典》却不仅仅是一本供你查阅病症、找出适当疗法的工具书，它堪称未来居家之必备手册，针对许多居家问题都提供了解决方案。你可以使用这些纯天然的植物精油来治疗孩子的流行性感冒，或者在邀请上司到家中就餐时，借用植物精油来烹制美味、新奇的佳肴。精油可以将狗毛内的跳蚤赶走，就像它能够把蚜虫从花园里的植物上逐出一样轻而易举。无论你是工作还是游玩，精油都可以助你一臂之力，同时，它还能帮助你菜园中的西红柿茁壮成长。有了精油的协助，你将能够更好地掌控自己的生活和周遭环境。你可以像医疗行业、食品行业和护肤美容业一样使用精油，而且你会发现，精油还有其他更多的用途。<br />
+<br />
+但凡知道精油并能在深入了解的基础之上使用精油的人，都会对精油产生敬意。他会情不自禁地仰慕精油的本质，这本质在于精油不仅能在细胞再生、身体层面发挥作用，更能够影响到我们的情绪、心智、精神以及审美观。在这个世界上，如果有一样东西可称之为“整体疗法”，那么精油必定当之无愧。然而，这不仅仅由于精油是以整体的方式来治疗一个人，很有可能成为未来的药材，还因为精油提供了一套医疗体系，这一医疗体系在生化上能和人体完全和谐相容，从热力和电磁学的角度也不会对人体造成伤害，而且，它的输送体系非常高效，相比之下，化学药品则不免显得有些粗糙。<br />
+<br />
+口服是使用化学药物最常见的一种方法，对于精油来说，却是吸收效率最低的一种用法，因为在经过消化系统时，精油会与食物和细菌接触从而发生化学反应。精油可以有其他更好的使用方法，譬如，以按摩油的形式经由皮肤吸收，在泡澡过程中渗透吸收，或者通过各种途径以吸入法被人体吸收。<br />
+<br />
+天然的精油使用非常方便，因而造就了它用途和用法的多样性。把几滴薰衣草精油擦在皮肤的烧伤处，它会发挥显著的疗效，过不了几天皮肤就会恢复正常；假若没擦上精油，皮肤就会出现一片水泡，最后还会留下疤痕。头痛的时候，你同样可以向这一小瓶精油求救——只需要用一滴薰衣草精油按摩两边太阳穴，头痛就会减缓。薰衣草精油天生就是蚊子、飞蛾和其他昆虫的克星，所以我们可以将它拍在丝带上，然后把丝带挂在窗户上，这样就可以轻而易举地防止蚊子和飞蛾入侵；我们也可以将薰衣草精油滴在棉球上，然后挂在衣橱内，以便驱虫。薰衣草精油本身具有抗菌、防腐的作用，我们不仅可以用它来处理自己和宠物的割伤、擦伤，还可以用它来清洁桌子、瓷砖和冰箱。薰衣草的气味非常讨喜，无论何时何地，我们都可以愉快地使用它。调配空气清新剂时，它也可以派上用场。<br />
+<br />
+精油是地球上尚未被开发的伟大资源之一，我们坐拥大自然所给予的这一宝贵的资源系统，它绝不仅仅是一个能够预防疾病、治疗病症的医疗体系而已，这些构造复杂的珍贵液体是从特定种类的植物生命中萃取出来的，与人类和地球能够和谐共存。在日常生活中善用精油，我们不仅会得到保护和乐趣，还能够避免使用化学药剂而导致的自身污染与环境污染。<br />
+<br />
+目前，我们所使用的药物和家庭用品大多包含化学成分，我们吃下的食物以及吸入的空气也含有过量的化学物质。这些化学物质的影响日积月累，再加上一些不为人知的影响，都会在我们的体内发生作用，对我们的身体产生不利的影响，而过量的化学物质也会对我们所赖以生存的地球产生负面作用。迟早有一天，为了解决这些累积的问题，我们必须找出化学物质的替代品，而这些替代品其实就在我们的鼻子底下，它的甜美香氛吸引着我们——它就是植物精油，大自然赋予人类的、弥足珍贵的奇迹与喜悦！<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A330029426670', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A330029426670', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A330029426670', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A330029426670', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A330029426670'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

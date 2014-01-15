@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_1.jpg">
+        <h2>大人的科学：浪漫四季星空灯</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥169.20元</b> <del>¥188.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_1.jpg','大人的科学：浪漫四季星空灯-日本科学手作第一品牌首度正版引进，日本原装模型。星空灯的主体是一只正12面体的恒星投影球，12面恒星胶版上包含约1万颗恒星的亮度、大小、位置真实信息。调整恒星投影球的倾角，或扭转支架上刻度盘的旋转角度，就能投射出任意地点、任意日期、任何时刻的星空。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】日本学研教育出版/编著<br />
+<span style="color:#666666;white-space:normal;">【译者】</span>马颖瑞<br />
+【出版社】北京联合出版公司；2013年12月<br />
+【产品组成】1本主题书+1盒模型组件+1整张外封<br />
+【成品尺寸】页210×285×45mm<br />
+【印刷】色内外双封面覆亮膜，内文四色全彩<br />
+【ISBN】9787550220690<br />
+【品牌】<span style="color:#666666;white-space:normal;">铁葫芦图书</span> 
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<strong> 
+<div style="text-align:center;">
+	<strong><a href="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_xt_cj_1.jpg"></a></strong> 
+</div>
+<br />
+首次正版引进</strong><br />
+<span style="white-space:normal;"><span style="white-space:normal;">《大人的科学》创办10年，</span>畅销2,000,000套，日本科学手作第一品牌，</span>在中国已有一定知名度，甚至有不少粗制滥造的模型仿制品。这次是第一次将主题书与模型整体正式引进，带来最纯正的《大人的科学》产品体验。<br />
+<strong><br />
+日本原装模型</strong><br />
+<span style="white-space:normal;">出品方日本学研教育出版，拥有50年科学实验教材出版经验和专业团队，堪称“科普读物元祖”，此套</span>模型套装为日本原装，与在日本卖的一模一样。<br />
+<strong><br />
+增进感情、亲子共玩的首选产品</strong><br />
+中国市场尚无同类图书，手工书大多有书无附件，或者是面向幼儿的简单低幼产品。《大人的科学》是<span style="white-space:normal;">科技文艺跨界主题书+日本原装DIY模型套装，极富创意的产品组合和</span>精致的模型既适合孩子寓教于乐，也让成年人重拾起童年做手工的快乐回忆，尤其适合情侣、亲友、亲子之间分享共玩。<span style="white-space:normal;">内含详细分解说明书，很容易就可以顺利组装使用。</span><br />
+<strong><br />
+有品位的节日礼品</strong><br />
+《大人的科学》创意独特、有趣有益、包装高档，是节日送礼的品位之选。<br />
+<br />
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/b/a/81112d.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/81112d.jpg"></a>
+</div>
+<div class="goods-content-title">
+	内容看点
+</div>
+<span style="white-space:normal;"> 
+<div style="text-align:center;">
+	<br />
+</div>
+<strong>本套组合含日本原装模型组件1套+大16开四色全彩主题书1册。</strong></span><strong></strong><br />
+<br />
+人为什么会觉得星空美丽呢？本书请来世界最先进星象仪发明者大平贵之与心理学家跨界对谈，尝试解答这一终极提问；更有日本权威天文学家讲授星空的课程、来自宇航员的太空第一线体验，为你透露宇宙的奥秘。附件中的星空灯，即是由大平贵之与日本宇宙航空研究开发机构合作设计的针孔式星象仪模型，能够投影出独一无二的美丽星空。正十二面体的恒星球中，包含亮度在7星等以上的、约1万颗恒星的信息。调整恒星球的倾角和旋转角度，能投射出任意地点、任意日期、任何时刻的星空。对照书中的《四季星空图》，更可找到真实的星座位置。书中还介绍了各种奇妙的改造方法，可以制作专属于你的创意星空灯。<br />
+　　<br />
+<strong>【附件模型：浪漫四季星空灯】</strong><br />
+关上灯，卧室变成星空。<br />
+<br />
+与最爱的人在卧室里仰望星空，1万多颗恒星在头顶璀璨。<br />
+<br />
+和孩子一起，关上灯就能享受分辨星座的乐趣。<br />
+<br />
+《大人的科学》手作模型中最浪漫的一款，是由世界最先进星象仪发明者大平贵之与日本宇宙航空研究开发机构合作设计的针孔式星象仪模型，能够投影出独一无二的美丽星空。<br />
+<br />
+星空灯的主体是一只正12面体的恒星投影球，12面恒星胶版上包含约1万颗恒星的亮度、大小、位置真实信息。调整恒星投影球的倾角，或扭转支架上刻度盘的旋转角度，就能投射出任意地点、任意日期、任何时刻的星空。<br />
+<br />
+对照书中的《四季星空图》，更可找到真实的星座位置。<br />
+<strong><br />
+【主题书：关于星空的一切】</strong><br />
+人为什么会觉得星空美丽呢？大平贵之在本书中与心理学家跨界对谈，尝试解答这一终极提问；更有日本权威天文学家讲授星空的课程、未来的太空宾馆大猜想、来自宇航员的太空第一线体验，为你透露宇宙的奥秘。<br />
+<br />
+书中还介绍了各种奇妙的改造方法，可以制作专属于你的创意星空灯。<br />
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_xt_cj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_xt_cj_7.jpg"></a> 
+</div>
+<div class="goods-content-title">
+	网友推荐
+</div>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/b/a/20131213163940.png"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/20131213163940.png"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/a/20131213164324.png"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/20131213164324.png"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/a/20131213164343.png"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/20131213164343.png"></a><br />
+<br style="text-align:center;white-space:normal;" />
+<span style="text-align:center;white-space:normal;"></span><a href="http://pic.kuaishubao.com/picdata/goods/b/a/20131213164054.png"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/20131213164054.png"></a><br />
+<br style="text-align:center;white-space:normal;" />
+<span style="text-align:center;white-space:normal;"></span><a href="http://pic.kuaishubao.com/picdata/goods/b/a/20131213164155.png"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/20131213164155.png"></a>
+</div>
+<div class="goods-content-title">
+	作者：日本学研教育出版
+</div>
+<b>作者简介</b><br />
+<span style="white-space:normal;">《大人的科学》系列DIY手作模型书，由具有60多年历史的日本第一大教育类出版集团——学研教育出版株式会社编著开发。该社同时拥有50年出版科学模型和实验教材的扎实经验及专业团队，确保作品的原创性和权威性。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">首创于2003年4月的《大人的科学》，在日本一年不定期出版3-4部，迄今已出版40余部作品。每一部《大人的科学》均包含一册主题书和一套模型组件。模型的创意来源于经典科学器材、科学史上的独特发明或生活中的灵感迸发。读者遵循主题书附带的“安装和使用说明”即可将模型DIY组装成形，在组装和使用的过程中重温手作的快乐，并学到相应的科学知识。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">组装完模型之后，读者不妨把模型放在手边，参照着阅读主题书。为了让模型的原理更明晰，创意更好玩，主题书中满载着与模型相关的延伸内容，包括相关技术的历史沿革、相同原理在其他领域的应用、手工达人的奇趣改造等等，尤其注重探索科技与生活、文化、艺术的关联。读者在享受完模型制作的乐趣后，更能在主题书中彻底满足求知欲和好奇心。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">在日本学研社，每一部《大人的科学》从选题确定到最终上市，一般需要经历6个多月。除了编辑部的5位主创开发者以外，在策划、开发、制作、编辑、量产等各个环节中，还要借助多达几十位经验丰富的外部人员一起推进。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">让如此众多的参与者孜孜以求的《大人的科学》，背后寄托着几代编辑者的美好愿景。60年前，学研社曾为日本的小学生读者制作过带有附件的科学杂志《○年的科学》，然而那一代读者在儿童时代接触了科学知识后，长大却对科学的认知变淡薄了。但科学的世界无关年龄，有趣的事物始终有趣，学研社编辑们希望读者在长大之后依然能享受科学的乐趣，更希望大人能以亲子的形式在家庭内部把科学的趣味传播开来，让普通人感受到科学就在我们身边。由此，《大人的科学》诞生了——而后经过数次改进，最终在2003年4月，以主题书与模型的组合形式闪亮问世。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">日本是一个具备“制造”文化的独特国家，因而发展成为制造业强国。从日本历史上来看，科学的发展与制造技术的发展是无法割裂的。在物质极大丰富的现代，科技制造和科学教育变得愈发重要——《大人的科学》也被众多抱有同样观点的读者支持着。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">独特有趣的科学主题、漂亮时尚的设计装帧，以及大人小孩都会着迷的精致模型，令《大人的科学》在日本广受欢迎，长盛不衰，10年畅销逾200万套。2013年12月，这一系列首次由磨铁图书正版引进。<br />
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/b/a/59405d86.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/59405d86.jpg"></a>
+</div>
+<div style="text-align:center;">
+	<br />
+</div>
+</span> 
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	大平贵之×茂木健一郎<br />
+<br />
+人为什么会觉得星空美丽呢？<br />
+<br />
+大平式星象仪的发展历程<br />
+<br />
+藤井旭 渡部润一郎<br />
+<br />
+星空的课程<br />
+<br />
+体摄影初挑战！<br />
+<br />
+太空旅行模拟实验<br />
+<br />
+由五藤光学研究所开创的<br />
+<br />
+日本星象仪的历史<br />
+<br />
+预测与外星文明的邂逅<br />
+<br />
+德雷克的宇宙人方程式<br />
+<br />
+星象仪改造讲座<br />
+<br />
+简单易学的手工讲座——ORI PLANE<br />
+<br />
+用废弃品制作科学玩具<br />
+<br />
+大人的科学实验村<br />
+<br />
+当明和电机遇见高科技假肢<br />
+<br />
+伊藤雅敏 &nbsp; 和昆虫有关的特别任务<br />
+<br />
+罗宾西的激光美肤治疗初体验<br />
+<br />
+佳片推荐《初始者》<br />
+<br />
+浪漫四季星空灯 &nbsp; 组装和使用方法<br />
+<br />
+四季星空图
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<div style="text-align:center;">
+	<div style="text-align:left;">
+		8月的某一天，我们在东京台场区的日本科学未来馆盖娅圆顶剧场，遥望着Megastar星象仪投影的星空，开始了这次应该被纪念的对谈。<br />
+茂木：随着眼睛适应了这里的黑暗，我开始慢慢地能看到天体了，真好啊，有几星等呢？<br />
+大平：投影出来的有12.5星等呢。（星等：指天体在天空中的相对亮度，前面加上等级数使用，级数越小天体亮度越大。）<br />
+　　（以下茂木简称“茂”，大平简称“大”。）<br />
+茂：大概有多少个天体？<br />
+大：全部的话有500万个，现在投影到的是圆顶的一半，所以有250万个。<br />
+茂：有这么多啊！现在人类知道坐标的天体大概有多少个？<br />
+大：据说大致有1700万个，但是最近增加了很多，红外线水准仪观测到的在数据库中有数亿个。<br />
+茂：数亿个！这里面能用肉眼看到的天体，要有多少星等才行？<br />
+大：大概6星等吧。<br />
+茂：计划的是大致能看到12.5星等的天体，若是目前这种情况，肉眼是看不到的吧。<br />
+大：是啊。<br />
+茂：用双筒望远镜的话也看不到吗？<br />
+大： 勉勉强强介于能看到或者看不到之间吧。<br />
+茂：用Megastar观测的话，是可以看到6～12.5星等之间的天体的。要是观测6星等以下的天体的话，观测方法有什么不同吗？<br />
+大：用语言来解释有些困难。如果用普通的星象仪观测，会观测到像小点点那样的天体，而在这些点与点之间是什么都没有的。<br />
+茂：会有种对比过分强烈的感觉，是吧？<br />
+大：嗯，用Megastar观测的话，会观测到满满一片天体，而且天体与天体之间也会稍微亮一些。<br />
+茂：这一点肯定是有所不同的啊。<br />
+大：从事星象仪研究这个圈子，一直在探讨是否有必要展示昏暗的天体。肉眼能看到的天体不到1万个，但是，用Megastar能投影到剩余的499万个天体。我们为什么能被Megastar所观测到的星空所感动，这一点就是原因所在吧。<br />
+茂：我看过之后想了一下，Megastar在视觉刺激上真是非常特殊。用我们业界的话来说，星空就是“大视野刺激”。并且，介于能看到或看不到的阈值（通常用于引起反应或其他现象所必须施加的最小的能量值）之间的光的刺激是普遍分布的，所以作为视觉刺激，这样的状态本身就很强烈了，是吧。打比方说，在暗处的食肉动物只有两只眼睛发光，那么只注意发光的地方就行了。但是星空的话，不管哪里都在发光的，必须留心才行。感觉大脑里的“注意力变换系统”在发挥着相当特殊的作用呢。在进化的过程中，大脑是带有星空回路的。<br />
+茂：是什么样的契机让大平对制作星象仪感兴趣的呢？<br />
+大：这么说来，有三个原因吧。第一，作为工程师对动手制作东西感兴趣。第二，对作为科学研究对象之一的天体感兴趣。但是，如果只是这两个原因的话，走制作天文望远镜这条路也行了。要说开始专门制作星象仪的话，还是第三个原因起到了决定性作用。<br />
+茂：第三个原因是什么呢？<br />
+大：是对表现活动的欲望。星象仪有着很强的向人展示的性质。换句话说，它是以星空为主题的创作物，对吧？我想把真实的夜空如实地再现出来，但是，同等的事情是做不到的。反过来说，就是真实的夜空做不到的，星象仪都可以做到。比如让天体更亮一些，让色彩更鲜艳一些，让极光在我们喜欢的时机出现，等等。就像音乐家使用乐器演奏音乐一样，我们使用星空这一素材来实现各种各样的表现，也是很有快感的。但是冷静地想一想，在暗处的点点星光就能让观者们很感动，这其中的原因，即便是少许也好，我想在和茂木先生的谈话中得到解答。<br />
+茂：这样啊……对了，最近的恒星距离我们多少光年来着？<br />
+大：4.3光年。<br />
+茂：也就是说，实际的天体位于让人有绝望感的遥远之处，即使伸出手去也遥不可及，也不会跟我们有任何关系的样子，是吧？<br />
+大：嗯，是这样的。<br />
+茂：用认知科学的观点来说，也许正是这种隔绝感让人们对星空有一种“永远”的感觉吧。看到某物时，比方看到椅子，就会想到“可以坐”，看到杯子，就会想到“可以用来喝水”，我们的脑中一定会产生可以做点什么的感觉。像这样的“同时认知某行为的可能性”，被称为“承担特质”。星空在“承担特质”这方面是什么都做不了的，也就是“零承担特质”。正因如此，星空对人类来说有着很神圣的感觉。<br />
+大：啊，云也是这样的吧。不知不觉地憧憬着，如果去那边的话，会是什么感觉呢？<br />
+茂：大平先生从小时候开始就喜欢远处的东西啊！<br />
+大：为什么这么说？<br />
+茂：因为星空不就是在最远处吗？<br />
+大：这么说来，确实是这样哈。<br />
+茂：试着想一下，在前人的认识中，真实星空的构成，也许就像大平现在所制作的星象仪一样的东西吧。就像是“空中有口天井，从天井的井口漏出的光就是星星”这种情形吧……对了，大平先生自己对“星空为什么会让人感动”是怎么想的呢？<br />
+大：我和很多人谈过这个问题，得到的关键信息中有一个是“基因的记忆”。一直以来，我们的祖先在天气晴朗的时候，应该每晚都会观测美丽的星空吧。<br />
+茂：大脑的进化不紧不慢地进行着，的确，文明由此产生。夜空开始变得这么明亮不到100年，夜空的变化和大脑的进化几乎是没有关系的。<br />
+大：自人类出现几十万年以来，人类一直和黑夜相伴生活着。人们在被美丽的大海和壮丽的山景治愈的同时，借由对大自然的想念和归巢本能发挥的作用，也在认识着“我们所憧憬的大自然的组成部分”之一的星空。在基因的记忆中,人们就会有“星空真让人心情愉快啊”这样的想法吧。<br />
+茂：是啊。但是科学地讲，与其说是基因和DNA的配列，不如说是形成编码的脑神经回路构造更为准确。的确，人类是随着和星空的相处渐渐进化而来的，所以在这么长的时间里，大脑中形成了“星空回路”也没什么可奇怪的。我想或许野生动物也是处于这样的状态吧。不用说电灯了，就连火都没有的时代，夜晚能依赖的也只有星空了吧。如果是月亮不出来的夜晚，那星空就是唯一的光源了。<br />
+大：原来是这样。星空可能是人类最后可以依赖的存在吧。<br />
+茂：所以我想，它是比我们现在所想象的还要了不起的存在，特别是在夜晚观测Megastar的时候，某种意义上，就像是时间旅行一样。人原始的感情被激发出来了，才可能有这样深切的感动吧。因为星空的美，脑可以更快速地工作。<br />
+大：男性看到女性会有种“啊，真漂亮”的感觉，这也是原始的感情吧。这种感情对于生存和子孙繁衍来说是不可或缺的。但是星空的话，就不一样了。从这个角度来说，人感觉到星空是美丽的，产生这一感觉的生存上的原因和好处是什么呢？<br />
+茂：在最近的研究中，人们已经发现了想到“美丽”时大脑的活动部位。但是，大脑这个部位的活动频率降低的话，容易引发抑郁症。也就是说，所谓的“美”，对大脑来说是很重要的基底。星空的“美”，是不是也接近这个意思呢？<br />
+大：有这样的研究啊，说实话，最近有一件事让我很烦恼。<br />
+茂：怎么了？<br />
+大：在制作“Megastar-ⅡCosmos”星象仪的过程中，最大的目标是让它可以反映出接近实物的星空。其他的Megastar是可以让天体看起来更加明亮的类型，Megastar-ⅡCosmos是可以让人们看到耀眼的银河的。在某种意义上，这和真实的星空是不同的。这样到底对不对呢？是不是有点做过头了？我开始感到迷茫了。<br />
+茂：确实是很难回答的问题啊。<br />
+大：但是我之前举办过一次上映会，那次投影出了明亮的天体，出乎意料的是，仅仅这样，观者们就都被感动了。这样来看的话，就没有必要非让Megastar-ⅡCosmos投影到的星空等同于实物的星空了吧……<br />
+茂：大脑反映的本来就是幻觉。我们所认为的现实世界，也是由意识的感质构成的，而且这种感质（※）自身原本也是幻觉。从物理的角度来讲，单是在黑暗的空间中，仅仅能清楚地看到白色光点这种表象，在我们的脑中就会被作为星空呈现出来。我想这原本就是脑中可以呈现出来的，所以就不用特意通过星象仪展示了吧。你看，小时候脑海中浮现出的星空和真实的星空是不同的，对吧？大平先生的星空更接近于想象中的星空吧。<br />
+大：原来如此。<br />
+茂：说到科学和艺术的融合，就是指这一点吧。观看星象仪的时候心情会变得特别纯粹，会有种一下子忘记了欲望啊、世俗啊的感觉吧。正因为有这样的心情，所以Megastar才会被视为艺术作品。观看星象仪的时候，感质在大脑中是怎样被满足的，这点目前还不清楚。不过，测量一下看到Megastar的观者的脑活动就能知道了吧。<br />
+大：关于天体的美和人的感动之间的关系，有没有针对大脑的科学研究方法呢？<br />
+茂：在天文馆这样的环境中会有各种各样的制约， 所以用M RI（核磁共振成像）之类的设备来测定脑活动的话，就目前情况来说还是很困难的。但要是用脑波测定器的话，大概能做到吧。通过M e g a st a r看到星空而感动时，大脑应该有某种特定的活动，这是以怎样的形式在大脑中产生的，我们对此是怎样想的，关于这些的记述，科学是可以做到的。<br />
+大：嗯，是可以做些什么的吧。<br />
+茂：但是和想吃点好吃的，或者想喝啤酒这样的感觉不同，观看星空时的感觉就像让人心动时的感觉。在星空面前，所谓的“自我”，以更加纯粹的形式被感知到了。<br />
+大：这样啊。我还是想通过科学试验来了解天体的美和人的感动之间的关系。有点想测一下人们观看Megastar时所产生的脑波了。<br />
+感质<br />
+比方说，像“红色的感觉”这样，感质是指伴随着人类感觉的鲜明的质感。作为现在最受关注的概念之一，它象征着包含脑物质的物理学上的记述和人类的心理所持有的各种各样的属性之间的差异。<br />
+<br />
+		<div style="text-align:center;">
+			&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_xt_cj_3.jpg"></a>
+		</div>
+	</div>
+<br />
+&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_xt_cj_4.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_xt_cj_5.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_xt_cj_6.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/b/a/A150033132264_xt_cj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/a/A150033132264_xt_cj_8.jpg"></a> 
+</div>
+<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A150033132264', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A150033132264', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A150033132264', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A150033132264', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A150033132264'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

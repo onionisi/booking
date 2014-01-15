@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_1.jpg">
+        <h2><font style="color:red;">【原装进口，立省10元】</font>JUJU求姿欧曼诗透明质酸保湿卸妆霜180g</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥117.80元</b> <del>¥138.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：个</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_1.jpg','【原装进口，立省10元】JUJU求姿欧曼诗透明质酸保湿卸妆霜180g-原售价：127.80元，现价：117.80元，立省10元。日本药妆保湿补水第一品牌！丰富透明质酸，纯天然美肌配方，卸除污垢，肌肤水润有弹性！（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	<span style="color:#000000;">【品牌】求姿欧曼诗</span><br />
+<span style="color:#000000;">【产地】日本</span><br />
+<span style="color:#000000;"> 【成分】</span><span style="color:#000000;">水、矿油、矿脂、石蜡、硬脂醇聚醚-8、丁二醇、甘油、鲸蜡硬脂醇、聚二甲基硅氧烷、甘油硬脂酸酯、硬脂醇聚醚-20、羟苯甲酯、卡波姆、硬脂醇聚醚-3、硬脂酰谷氨酸钠、羟苯丁酯、羟苯丙酯、氢氧化钠、透明质酸钠、苯氧乙醇、丁羟甲苯、生育酚（维生素E）</span><span style="color:#000000;"></span><br />
+<span style="color:#000000;"> 【净含量】</span><span style="color:#000000;white-space:normal;">180g</span><br />
+<span style="color:#000000;">【包装】罐装</span><br />
+<span style="color:#000000;">【保质期】三年</span><br />
+<span style="color:#000000;">【制造商】姿姿化妆品株式会社</span><br />
+<span style="color:#000000;"> 【适用人群】所有人群</span><br />
+</div>
+<!-- 商品详情 -->
+<div class="goods-content-title">
+	商品详图
+</div>
+<p class="MsoNormal">
+	<span style="font-family:宋体;"></span> 
+</p>
+<div style="text-align:center;">
+	<div style="text-align:center;">
+		<div style="text-align:left;">
+			<strong><strong><strong style="white-space:normal;"> 
+			<div style="text-align:center;">
+				<a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_20.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_20.jpg"></a><br />
+<br />
+			</div>
+</strong>图一：</strong></strong><strong>求姿欧曼诗透明质酸保湿卸妆霜180g外包装图<br />
+			<div style="text-align:center;">
+				<strong></strong><a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_44.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_44.jpg"></a><br />
+<br />
+				<div style="text-align:left;">
+					<strong style="text-align:left;"> 
+					<div style="text-align:center;display:inline !important;">
+						<strong>图二：</strong><strong>求姿欧曼诗透明质酸保湿卸妆霜180g细节图</strong> 
+					</div>
+</strong> 
+				</div>
+			</div>
+</strong> 
+		</div>
+<a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_99.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_99.jpg"></a><br />
+<br />
+<strong style="white-space:normal;"></strong> 
+		<div style="text-align:center;">
+			<strong style="white-space:normal;"></strong> 
+			<div style="text-align:left;">
+				<strong style="white-space:normal;"><strong></strong></strong> 
+				<div style="text-align:center;display:inline !important;">
+					<strong style="white-space:normal;"><strong>图三：</strong><strong>求姿欧曼诗透明质酸保湿卸妆霜180g基本信息图<br />
+					<div style="text-align:left;">
+						<strong> 
+						<div style="display:inline !important;">
+							<div style="text-align:left;display:inline !important;">
+								<strong> 
+								<div style="text-align:center;display:inline !important;">
+									<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_91.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_91.jpg"></a></strong> 
+								</div>
+</strong> 
+							</div>
+						</div>
+</strong> 
+					</div>
+</strong></strong> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="text-align:left;">
+		<div class="goods-content-title" style="white-space:normal;">
+			商品特点
+		</div>
+		<div class="Goods-Content-Box goods-attr" style="white-space:normal;">
+			<div style="text-align:center;">
+				<strong style="color:#000000;font-family:宋体;"><a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_102.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_102.jpg"></a></strong> 
+			</div>
+<span style="color:#000000;font-family:宋体;"> 
+			<div style="text-align:center;">
+				<strong> <strong style="text-align:center;white-space:normal;"><strong style="font-family:宋体;"><a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_23.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_23.jpg"></a></strong></strong></strong> 
+			</div>
+<strong><br />
+求姿欧曼诗&nbsp;日本药妆保湿补水第一品牌！<br />
+</strong>求姿欧曼诗出品的透明质酸保湿卸妆霜柔滑护肤，在卸妆之余，同时去除毛孔内的污秽，可减少水份流失。另可做按摩霜使用，按摩时促进皮肤新陈代谢和血液循环，使肌肤更加晶莹通透。<br />
+<strong><br />
+做好肌肤第“零”步</strong></span> <span style="color:#000000;font-family:宋体;"><strong>赢在护肤起跑线<br />
+</strong></span><span style="color:#000000;font-family:宋体;">求姿欧曼诗透明质酸保湿卸妆霜含丰富透明质酸，避免洗后干燥紧绷，保湿</span><span style="color:#000000;">+</span><span style="color:#000000;font-family:宋体;">清洁因子附着并持续于皮肤表面，前所未有的补水、传水、锁水效能，瞬间注入超能量保湿因子，持续</span><span style="color:#000000;">24</span><span style="color:#000000;font-family:宋体;">小时源源活水！</span><span style="color:#000000;font-family:宋体;">采用纯天然美肌配方，绝不添加香料、色素、矿物油和酒精等对肌肤有害成分，给肌肤最体贴的呵护。<br />
+<br />
+<span style="color:#000000;"></span></span><b><span style="color:#000000;font-family:宋体;">三大症状</span><span style="color:#000000;">&nbsp;</span><span style="color:#000000;font-family:宋体;">你的肌肤问题来报道！</span></b> 
+		</div>
+	</div>
+</div>
+<p class="MsoNormal" style="white-space:normal;">
+	<b><b><span style="font-family:宋体;">1.皮肤干燥、粉刺：</span></b></b><span style="font-family:宋体;">每天化妆，隔离霜、粉底、腮红通通都上，晚上回去懒的卸妆，这是个可怕的恶性循环！久而久之皮肤就会干燥长痘痘。</span> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<b><b><span style="font-family:宋体;">2.色素沉着、晒斑、雀斑：</span></b></b><span style="font-family:宋体;">紫外线照射、电脑荧屏辐射、汽车尾气灰尘，它们无时不刻不在侵袭你的皮肤，如果彩妆不彻底卸净，会造成毛孔阻塞、肤色暗沉等问题。</span> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<b><b><span style="font-family:宋体;">3.毛孔粗大、黑头：</span></b></b><span style="font-family:宋体;">油脂分泌旺盛、身体内部的代谢垃圾由于毛孔阻塞而排不出，毛孔粗大从而形成恼人的黑头，怎么上妆都盖不住。</span> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	<span style="font-family:宋体;"><strong>卸除污垢</strong></span> <span style="font-family:宋体;"><strong>肌肤水润有弹性</strong></span> 
+</p>
+<p class="MsoNormal">
+	<span style="font-family:宋体;">求姿欧曼诗透明质酸保湿卸妆霜通过透明质酸在保护皮肤水分的同时，轻松卸妆的水冲洗型面霜，质地丰润，极易推开。</span><span style="font-family:宋体;">使用对肌肤温和的配方，就连毛孔深处的粉底霜也可一次性去除干净；保持皮肤湿润和弹性，卸后清水清洗即可。</span><span style="font-family:宋体;">卸妆后，加以适当的按摩可以加速血液循环，减少干纹细纹产生，明显提高皮肤的弹性和光泽，帮助后续护肤品吸收。<br />
+</span><span style="font-family:宋体;"></span> 
+</p>
+<p class="MsoNormal">
+	<br />
+</p>
+<p class="MsoNormal">
+	<span style="font-family:宋体;"><strong></strong></span> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<strong><span style="font-family:宋体;"><strong>保湿奥秘</strong></span></strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<span style="font-family:宋体;">求姿欧曼诗透明质酸保湿卸妆霜中含有的透明质酸又名玻尿酸，它的透明质分子能携带</span>1000<span style="font-family:宋体;">倍以上的水分，为目前所公认的最佳保湿成分。</span><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<strong> <br />
+</strong> 
+</p>
+<p class="MsoNormal" style="white-space:normal;">
+	<strong><span style="font-family:宋体;"><strong style="font-family:宋体;white-space:normal;"></strong></span></strong> 
+</p>
+<p class="MsoNormal">
+	<strong><strong style="font-family:宋体;white-space:normal;">1.天然：</strong></strong>透明质酸是人体中必备的天然物质，随着年龄增长，人体内含量会逐渐降低。
+</p>
+<p class="MsoNormal">
+	<strong><strong style="font-family:宋体;white-space:normal;">2.珍贵：</strong></strong>透明质酸这种浓缩水分精华是罕有的成分，是只有名贵的护肤产品才有的保湿因子。
+</p>
+<p class="MsoNormal">
+	<strong><strong style="font-family:宋体;white-space:normal;">3.多效：</strong></strong>为干燥肌提供保湿呵护，为皱纹剂阻挠皱纹生长，同时修复损伤肌肤，缓和敏感肌的卸妆烦恼。
+</p>
+<p class="MsoNormal">
+	<strong><strong style="font-family:宋体;white-space:normal;">4.温和：</strong></strong>与人体透明质酸相近，极易被皮肤吸收，适合所有肤质及眼部肌肤使用。
+</p>
+<div class="goods-content-title" style="white-space:normal;">
+	<b>使用方法</b> 
+</div>
+<div style="text-align:center;">
+	<b><b style="font-family:" sans="" serif",="" tahoma,="" verdana,="" helvetica;"=""><span style="font-family:宋体;"><b style="text-align:center;font-family:宋体;white-space:normal;"><b> </b></b> </span></b> 
+	<div style="text-align:left;">
+		<b style="font-family:" sans="" serif",="" tahoma,="" verdana,="" helvetica;"=""><b style="text-align:center;font-family:宋体;white-space:normal;"></b> </b> 
+		<div style="text-align:center;">
+			<b style="font-family:" sans="" serif",="" tahoma,="" verdana,="" helvetica;"=""><b style="text-align:center;font-family:宋体;white-space:normal;"><b style="text-align:center;font-family:" sans="" serif",="" tahoma,="" verdana,="" helvetica;"=""><b><span style="font-family:宋体;"><b><b> 
+			<div style="text-align:left;display:inline !important;">
+				<b style="font-family:" sans="" serif",="" tahoma,="" verdana,="" helvetica;"=""><b><span style="font-family:宋体;"><strong><a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_98.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_98.jpg"></a></strong></span></b></b> 
+			</div>
+</b></b></span></b></b></b></b> 
+		</div>
+<b style="font-family:" sans="" serif",="" tahoma,="" verdana,="" helvetica;"=""><b><span style="font-family:宋体;"><strong><br />
+使用方法</strong>&nbsp;</span></b></b> 
+	</div>
+</b><span style="text-align:center;font-family:宋体;white-space:normal;"></span><span style="font-family:宋体;"> 
+	<div style="text-align:left;">
+		<span style="font-family:宋体;"></span> 
+	</div>
+<span style="text-align:center;font-family:宋体;white-space:normal;"> 
+	<div style="text-align:left;">
+		1.卸妆时，取适量求姿欧曼诗透明质酸保湿卸妆霜（按开3-4次）倒于干燥的手心，轻抹匀于整脸，鼻子处以螺旋状由外向内按摩，颈部由下向上轻抚清洁。<br />
+2.用化妆棉擦拭感觉，再用温水洗净，搭配洁面膏清洁肌肤，以洗净即可。<br />
+3.做按摩霜使用时，需先卸妆后，再将乳霜轻敷上脸，以手指腹轻轻按摩脸部后，再以温水洗净。<br />
+<br />
+<strong>按摩基本步骤<br />
+</strong>1.由内向外好像拉开皱纹一样。<br />
+2.由下向上，好像将皮肤拉起来一样。<br />
+3.不要用力过强，正好舒服的感觉的力度，画圆的方式轻轻进行。<br />
+<br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_988.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_988.jpg"></a> 
+		</div>
+	</div>
+</span> </span><span style="font-family:宋体;"> </span> 
+</div>
+<div class="goods-content-title" style="white-space:normal;">
+	品牌故事
+</div>
+<div class="Goods-Content-Box goods-attr" style="white-space:normal;">
+	<div style="text-align:left;">
+		<br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/9/7/A610029083652_xt_cj_55.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/7/A610029083652_xt_cj_55.jpg"></a><br />
+<br />
+		</div>
+	</div>
+<span style="text-align:center;"> 
+	<div style="text-align:center;">
+		<div style="text-align:left;">
+			<span style="color:#000000;">在日本，如果要问最具有人气的药妆店开架护肤品牌是哪个，无疑，<span style="white-space:normal;">求姿欧曼诗会是最受女性欢迎的性价比最高的护肤品之一。在卸妆产品琳琅满目的时尚之都东京，<span style="white-space:normal;">求姿欧曼诗的卸妆霜一经推出就获得日本本土女性的推崇，其卓越的护肤功效不言自明。<br />
+</span></span><br />
+求姿欧曼诗（JUJU）化妆品株式会社，在1946年创立于日本。至今已有60年的历史， 作为时代的先驱，<span style="white-space:normal;">求姿欧曼诗</span>在世界上首次研发针对不同年龄层的植物性冷霜、可用水清洗洁面霜，独具保湿效果的透明质酸系列等符合在世界上都具备较高护肤意识的日本女性需求的护肤产品，坚持追皮肤的自然美。 2003年<span style="white-space:normal;">求姿欧曼诗</span>率先使用透明质酸单一配方，研发出一系列超值的透明质酸保湿产品，轰动了整个日本的护肤市场。自产品推出后，<span style="white-space:normal;">求姿欧曼诗</span>更经典得成为透明质酸的代</span><span style="color:#000000;">名词。<br />
+<br />
+作为第一家生产100%透明质酸的品牌，<span style="white-space:normal;">求姿欧曼诗通过尖端生物技术，</span>利用乳酸球菌培养而成的成分，与人体内部本来就具有的透明质酸结构相同，更容易被肌肤几首，使用多年后也不会产生副作用，并且可以降低皮肤的过敏概率。不会因为外界的温度与湿度而影响保湿效果，可强效持续24小时。这也就可以解释其热卖原因正是凭借其原料的纯净、天然、效果显著，而受到广大女性的青睐。</span> 
+		</div>
+	</div>
+</span> 
+</div>
+<!-- 出品商 -->
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A610029083652', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A610029083652', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A610029083652', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A610029083652', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A610029083652'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

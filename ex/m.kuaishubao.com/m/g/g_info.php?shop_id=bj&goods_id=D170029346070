@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/1/e/D170029346070_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/1/e/D170029346070_1.jpg">
+        <h2>世界第一音乐剧《妈妈咪呀！》中文版北京站1月4日 280元票</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥280.00元</b> <del>¥280.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：张</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/1/e/D170029346070_1.jpg','世界第一音乐剧《妈妈咪呀！》中文版北京站1月4日 280元票-首部中文版的世界经典音乐剧（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	购票说明<br />
+</div>
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">快书包售票业务处于试运行阶段，目前演出票仅开通北京市（限购买北京 演出票）、深圳市（限购买深圳演出票）、杭州（限购买杭州演出票）、 成都（限购买成都演出票）、西安（限购买西安演出票）、上海（限购卖 上海演出票）部分区域：</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;"></span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">北京一小时到货区域：老东城区（不含新东城）、朝阳门外、三里屯地区 。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">北京次日到货区域：除以上区域外，快书包在北京已开通一小时到货服务 的其他区域，目前还暂不支持演出票的一小时到货，您在这些区域购票， 我们将与您约定时间，在次日为您送达。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">上海、西安、杭州、成都、西安演出票配送区域请查询：</span><a target="_blank" href="http://chd.kuaishubao.com/doc/help/peisongchaxun.html" style="white-space:normal;font-family:Arial, sans-serif;">城市 配送范围查询</a><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">防伪保证：</b><span style="white-space:normal;font-family:Arial, sans-serif;">快书包销售的所有演出票，均获得该演出票务代理正式 授权，每票均有防伪标识。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">关于退换：</b><span style="white-space:normal;font-family:Arial, sans-serif;">按照演出票务惯例，除演出取消外，售出演出票一律不 可退、换。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">可购城市：</b><span style="white-space:normal;font-family:Arial, sans-serif;">请您留意可购票城市，本城市演出，我们仅在本城市售 票。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">关于选座：</b><span style="white-space:normal;font-family:Arial, sans-serif;">我们目前尚不支持选座，您购买某价位演出票，我们将 根据该价位可售座位为您随机出票。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	演出场馆：<br />
+</div>
+<b style="white-space:normal;font-family:Arial, sans-serif;">世纪剧院</b><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	演出时间：<br />
+</div>
+<b style="white-space:normal;font-family:Arial, sans-serif;">1月4日星期六19:30</b><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	演出详情：<br />
+</div>
+<span style="white-space:normal;font-family:Arial, sans-serif;">音乐剧《妈妈咪呀！》中文版再度回归</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">世界第一音乐剧</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">拥有全球14种语言版本</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">演出跨越全球240个城市</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">全球拥有5000万观众</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">20亿美金票房纪录</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">全球每天都有一个剧院在演出《妈妈咪呀！》</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">首部中文版的世界经典音乐剧</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">中英韩合作，汇集两岸三地精英</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">价值三千万人民币的舞美设计，原版制作</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">中国演员、中文对白、中文歌曲，更具亲近性与认同感</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">【他们在现场】</b><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">音乐剧《妈妈咪呀！》全场“嗨”翻，难得的好！中国演员在英国创作团队的全力努力下做到了歌唱、舞蹈、表演，节奏、动感、热力，结合完好。今晚的21世纪剧院观众沸腾，明星璀璨！恭喜女主演田水，沈小岑！ ——田沁鑫</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">一行人应邀来看中文版在北京第一场的《妈妈眯呀！》我们都很好奇，看完出乎意外，这是果然如剧场横幅所说的“世界品质”的演出！舞台相当简洁，演员相当出色，唱得好也跳得很优！水准非常整齐，让我们很惊艳！ ——庄淑芬</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">中文唱音剧真的是种挑战！赞！ ——胡彦斌</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">很High呀，如果不是穿正装，都想站起来舞动一下。 ——康辉</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">期望《妈妈咪呀》能给中国观众带来浪漫和欢乐，能改变大家的看戏习惯。 ——田歌</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">这是我看过的最有激情的一场。这部戏对中国的音乐舞台剧是个巨大的贡献。 ——程琳</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">刚看完音乐剧「妈妈咪呀」很激动！好剧本好音乐好演员！又一次洗脑了！ ——付林</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<p style="outline-width:0px;white-space:normal;font-family:Arial, sans-serif;">
+	<br />
+</p>
+<p style="outline-width:0px;white-space:normal;font-family:Arial, sans-serif;">
+	震惊中国音乐剧形式表演有如此上乘佳作。 ——许飞
+</p>
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">《妈妈咪呀！》给我们带来了快乐，音乐展现得收放自如！唱词台词也充满智慧！用心之作！整个晚上都开心！必须要说沈小岑你在舞台上太让人着迷了！ ——峦树</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">小争执大仗义小虚荣大审美小妒忌大欣赏小女子大情怀。我亲爱的骨头们，蓝天白云阳光灿烂揣在心里，瑞典的abba希腊的小岛随呼吸~一直在一起。后半辈子的《妈妈咪呀》，姐妹们的《妈妈咪呀》。自己人的《妈妈咪呀》，世纪剧场，北京在等你。 ——柯蓝</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">刚带九儿去看了妈妈咪呀，她的激动也把我带激动了！哎呀妈呀! 大家一起去支持中文版的《妈妈咪呀！》！ ——胡军</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">全场hi翻！好的演出会让人有幸福感，我承认最后我跳舞了！我也要再看一遍！ ——徐峥</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">昨儿看了《妈妈咪呀！》！好看好看！推荐！推荐！ ——佟丽娅</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">正在看音乐剧《妈妈咪呀！》，现在是中场休息。很精彩。 ——程青松</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">亲爱的，带着蓝天带着大海的《妈妈咪呀！》！亲爱的，带着阳光带着爱的田水！欢迎你们来北京，北京会稀饭你们哒！ ——吴越</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">幽默、动感、好听好看的中文版音乐剧，演员的呈现棒极了！ ——毛宁</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">《妈妈咪呀！》中文版，好看！ ——张迪</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">今天看了好友沈小岑主演的喜剧歌舞剧《妈妈咪呀！》，我没想到中国也有这么时尚、幽默又感人至深的舞台剧。观看时，我总有一种奔上舞台和演员们一起狂欢的冲动！舞蹈动感、活力四射，舞美音乐和谐美妙，每个演员的表演真诚、精彩绝伦！我喜欢这部喜剧，推荐！ ——朱时茂</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">二十一世纪剧院看中文版音乐剧《妈妈咪呀！》，现场观众都非常热情。演出成功！充分证明了节目中的诚意和引进剧目选择的战略性成功！好的形式和好的题材永远都有观众在等待热捧！ ——解晓东</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">刚看完音乐剧《妈妈咪呀》中文版，内心很快乐。真诚的演绎，让人感动！整晚的演出，台上台下欢乐的气氛是一致的，情感是互动的，置身剧场，你能感到快乐从四面八方向你涌来，形成沸点。观看一出好的戏剧作品，让内心激荡不已。音乐剧从伦敦西区出发，途经纽约百老汇，现已抵达中国，让我们为音乐剧做点支持吧，哪怕是一张门票，一声感动或快乐的欢呼。让我们期待着中国音乐剧优秀作品的诞生。盼望了一下午的雨，终于下了。更高兴的是，看完《妈妈咪呀》散场，还被雨给浇了。心中感受着音乐剧带给的快乐，快步在雨中，狼狈地捋着被雨打湿的白发，透着沾满雨滴的眼镜看着茫茫</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">雨夜，快哉！ ——杨诉</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">135分钟，22首ABBA合唱团的经典歌曲，45次会心的颔首，28次意外的爆笑，10次动容的落泪， 27次掌声雷动，风靡世界的经典音乐剧《妈妈咪呀！》让观众为之疯狂起舞，拍红手掌，在2011年成就了“经典品牌”难以超越的神话。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">星光熠熠 经典品质不惧专家检验</b><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">《妈妈咪呀！》活力洋溢的剧情，永不褪色的金曲令观众深深着迷。演出十年，《妈妈咪呀！》收获了全球范围内的大批明星粉丝。北京首演礼当天，演艺明星胡军、李双江、黄宏、辛柏青、徐峥、吴刚、景岗山、栾树、周晓、朱明瑛、郑绪岚、程琳、毛宁、陈明、汪峰和著名音乐制作人三宝等悉数到场。面对如此众多的戏剧表演界和音乐界的专业人士，《妈妈咪呀！》的演员坦言有绝对信心：这部征服了全世界观众的音乐剧，自然也经得起专业人士的“火眼金睛”。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">《妈妈咪呀！》全剧贯穿着亲情和爱情的主线，既有诙谐幽默之处，也有让人动情流泪的剧情。不论你是什么身份，都能从剧中人的身上找到共鸣。《妈妈咪呀！》时尚的市场化包装下，包含了对爱情、亲情、友情这些最基本情感的褒扬和认同，对爱情和婚姻的严肃思考、对友情的珍视和褒扬，对家庭亲情的动人刻画，都符合回归传统价值观，是《妈妈咪呀！》最打动人心的内核。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">欢乐零距离 现场火爆征服观众</b><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">作为第十四个版本的中文版，凭着独特魅力让国内观众首次与世界顶级音乐剧“零距离”。幽默诙谐的语言，夸张搞笑的表演让观众津津乐道，尤其剧中身为“老妈挚友”的谭雅，用纯正的儿化音，掷地有声的老北京话，给北京观众带来惊喜。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">幽默之余，《妈妈咪呀！》也不乏令人动情之处。演出进行到90分钟时，妈妈为苏菲穿上婚纱，为女儿梳理秀发那一刻，当剧情尾声时，一轮明月高挂，母亲送别外出闯荡世界的女儿，两人久久拥抱时，不少观众已泪湿眼眶。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">独具特色的返场表演是《妈妈咪呀！》全场最大的亮点，当几位主演身穿松糕鞋、水晶服，以酷似“猫王”的装扮出现时，现场的温度瞬间飙升。强烈的节奏、动人的舞蹈，平日里再矜持冷静的观众都无法继续安坐，纷纷起立随着节拍忘我地摇摆，有的观众甚至跟着旋律大声合唱。“真想冲上舞台，和演员们一起跳舞。”几乎是所有观众此刻的心声。毫无疑问，《妈妈咪呀！》将在这个夏天为它在这片拥有全世界最多人口的国度中征服更多的粉丝，创造更新的传奇。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">音乐剧反周期：舞台上的“抗抑郁药”</b><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">当前，全球都似乎正在经历另一轮的经济低潮，在这场风暴面前,以剧场和演出为代表的文化的重要性越发凸显,并独立坚挺地呈现出一种反周期态势。音乐剧《妈妈咪呀！》就是一个绝佳的例子。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">911之后，美国一片萧条，百老汇中，能撑过一周的音乐剧屈指可数。《妈妈咪呀！》作为百老汇首推的剧作，以怀旧上口的歌曲、轻松幽默的格调征服了百老汇，打破了笼罩在美国上空的黑色阴霾，从此长演不衰。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">从《妈妈咪呀！》的经历上，人们更加相信，没什么比发自内心的笑容更能温暖人心。这出被观众喻为最有效的“抗抑郁良药”的演出，给当时低迷的美国市场注入一计强心针，从伦敦西区到纽约百老汇，从爱德华王子剧院到冬天花园剧场，《妈妈咪呀！》在成为最火爆、最多演出场次的音乐剧之一的同时，也征服了无数观众的心，让所到之处的观众获得最大的心灵放松。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">中文版《妈妈咪呀！》的热卖，再次应证了音乐剧产业的反经济周期规律。而从走出剧场的观众脸上久久没有褪去的笑容上可以看到，这部轻松快乐的音乐剧所带给人们的愉悦，是摆脱阴郁心情最好的“灵丹妙药”，在任何时候都能够带给人希望。</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<br style="white-space:normal;font-family:Arial, sans-serif;" />
+<b style="white-space:normal;font-family:Arial, sans-serif;">细节铸就高端品质</b><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">品质要通过细节体现，所以可以经久不衰的品牌，每一个细节都经得起考量。《妈妈咪呀！》可以在世界拥有超过4500万的观众，创造超过150亿人民币的票房，也是因为“细节”取胜。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">为了保证这部世界经典音乐剧不会因为语言改变而“变味”，主办方严格从每一处细节执行该剧的“国际标准”。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">剧场外，整个大厅被湛蓝浪漫的爱琴海“海水”包围，剧场一侧的楼梯被装点成别具一格的希腊风格白色建筑。<br />
+</span><br style="white-space:normal;font-family:Arial, sans-serif;" />
+<span style="white-space:normal;font-family:Arial, sans-serif;">舞美服装方面全水晶镶钻的演出服无疑将是最大的看点。大到服装、舞美，小到新娘脚上的戒指、只有二层观众才能看到的蜿蜒小路，种种细节舞台监督都会在每场演出开始前，一遍又一遍地检查调试，可谓细致入微。</span><span style="white-space:normal;font-family:Arial, sans-serif;">
+<div class="goods-content-title" style="outline-width:0px;">
+	温馨提示：<br />
+</div>
+<b></b>1.2米以下儿童谢绝入场（儿童项目除外），1.2米以上儿童需持票入场。</span>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('D170029346070', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('D170029346070', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('D170029346070', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('D170029346070', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'D170029346070'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

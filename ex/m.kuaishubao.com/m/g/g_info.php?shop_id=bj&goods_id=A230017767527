@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/8/e/A230017767527_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/8/e/A230017767527_1.jpg">
+        <h2>过得刚好（郭德纲新书）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥25.90元</b> <del>¥39.80元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/8/e/A230017767527_1.jpg','过得刚好（郭德纲新书）-郭德纲亲笔作品，讲述人生四十年的江湖过往。我争者人必争，极力争未必得。我让者人必让，极力让未必失。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】郭德纲<br />
+【出版社】北京联合出版公司；2013年6月第1版<br />
+【装订】大32开；平装<br />
+【页数】274页<br />
+【印刷】黑白彩色插页<br />
+【ISBN】9787550214224
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+★郭德纲新书《过得刚好》，这是郭德纲式幽默，也是郭德纲的人生态度。我争者人必争，极力争未必得。我让者人必让，极力让未必失。真放肆不在饮酒放荡，假矜持偏要慷慨激昂。万事留一线，江湖好相见。<br />
+<br />
+★郭德纲亲笔讲述人生四十年的江湖过往，你能看到行文冷静、处变不惊的郭德纲，也能看到当年语言犀利、口无遮拦的郭德纲，同样能看到一个才华横溢的郭德纲。<br />
+<br />
+★一本拒绝传递任何价值观的闲书，充满了郭德纲独有的诙谐和幽默。<br />
+<br />
+★谨以此书献给所有不喜欢郭德纲的读者。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+郭德纲亲笔作品，<span style="white-space:normal;">郭德纲新书，</span>讲述人生四十年的江湖过往，知无不言，言无不尽。<br />
+<br />
+迄今为止，唯一人生回顾，荣辱浮沉，冷暖自知，自浊自清自安然。书中的文字记录了郭德纲这些年的心路历程以及对人生、相声艺术、生活的感悟和思考，行文冷静，不煽情，不夸张，不做作，不隐瞒，不回避。<br />
+<br />
+<span style="white-space:normal;">郭德纲新书</span>《<span style="white-space:normal;">过得刚好</span>》有着极其鲜明的郭式风格，嬉笑怒骂皆成文章，妙语连珠，文字独特，语言幽默风趣，读之不禁令人捧腹，为我们营造了一份无与伦比的阅读快感，这份快感和他的相声作品一样过瘾。即使面对着台下无人的惨淡局面，郭德纲依然保持着他的幽默感。<br />
+<br />
+<span style="white-space:normal;">过得刚好</span>，这是郭德纲式幽默，也是郭德纲的人生态度。我争者人必争，极力争未必得。我让者人必让，极力让未必失。真放肆不在饮酒放荡，假矜持偏要慷慨激昂。万事留一线，江湖好相见。<br />
+<div class="goods-content-title">
+	作者：
+</div>
+<b>郭德纲</b><br />
+相声演员，德云班主。天津人，生于1973年，自幼酷爱各种民间艺术，八岁投身艺坛。1996年创办北京德云社，说相声、讲评书、唱戏、拍电影、拍电视剧、主持电视节目。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	自序：人在江湖<br />
+<br />
+<strong>鱼龙夜话</strong><br />
+男人四十<br />
+我与我师<br />
+我与张文顺<br />
+我与于谦<br />
+德云后台<br />
+<br />
+<strong>江湖梦眺</strong><br />
+高雅与低俗<br />
+论五十年相声之现状<br />
+“反三俗”<br />
+我要“反三俗”<br />
+停滞的不是相声，是演员<br />
+相声圈<br />
+天津同行<br />
+曲艺笔记<br />
+专家<br />
+艺人<br />
+大鹏<br />
+曲艺的衰落<br />
+红桥旧事<br />
+骂人<br />
+艺术家<br />
+相声世界<br />
+你是“黑社会”<br />
+角色<br />
+友人来访<br />
+聊天<br />
+师徒<br />
+<br />
+<strong>旧巷斜阳</strong><br />
+读书<br />
+江湖<br />
+人生<br />
+戏语<br />
+偶感<br />
+北京<br />
+共勉<br />
+故事<br />
+微言<br />
+是非<br />
+名利<br />
+传统<br />
+心泪<br />
+曲目<br />
+前辈<br />
+旧事<br />
+<br />
+<strong>似水流年</strong><br />
+菜园小记<br />
+鸡犬不宁<br />
+修身养性<br />
+岁月<br />
+拉黑秘语<br />
+“毁”人不倦<br />
+“骂人”指南<br />
+围了个脖<br />
+偷拍<br />
+出走<br />
+途中<br />
+出国<br />
+<br />
+<strong>马过梨园</strong><br />
+<strong>一本正经</strong><br />
+段子<br />
+相声史话<br />
+<br />
+<strong>代后记：感恩</strong><br />
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<strong>&nbsp;自序：人在江湖<br />
+</strong><br />
+&nbsp; &nbsp; &nbsp; &nbsp;要出书了。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp;有人说要出书先出事儿。我也没出事儿，倒是把书出了。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 我在私底下是一个特别无趣、乏味的人，喜欢待在书房里写字、听戏、看书，没有别的爱好，不抽烟，不喝酒，当然，也不喜欢烫头。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;如果我不做艺人，最大的愿望是做文人。书中自有颜如玉，书中自有黄金屋。颜如玉和黄金屋我都没遇到，但我依然爱看书，也爱写字。几张纸，一支笔，将心中事写下来，我觉得很快乐。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 回头翻看这些文字的时候，也许这些事情都已经显得不再重要了，但是我很感慨，从中能看到我这些年的心路历程。人在天涯，身不由己，风雨踏歌行。江湖子弟，拿得起来放得下。放不下，也得放。活一百岁的没几个人，开心就笑，不开心待会儿再笑。高高兴兴比什么都强，跟谁较劲都是跟自己较劲。一辈子，忍一忍也就过去了。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 首先，这本书并不是一本系统写作的人生自传，仅仅是把我这些年写的文章整理出版。这些文章记录了我这些年的经历和心路历程，不同的阶段有不同的心境，不同的年龄有不同的心态。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 大部分文章存于文档，唯有二十八篇录于博客。输密码登录，打开文件。尘封三载又逢天日，抚案追昔不胜悲凉。这些年经历了太多事儿，远远超出了一个艺人的负荷能力。品人情冷暖、世态炎凉，观荣辱纷争、死走逃亡，自浊自清自安然。台上笑传千万，台下苦闷凄惶。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp;整理、分类、筛选、修改，反复校对，我希望我的文字能在满足你们对我合理的好奇心的同时，还能存在一点点其他的价值，也许是阅读的快乐或者其他，但如果您希望能在我的书中获得高深的知识或者思想，我猜您只能失望而归，这是一本拒绝传递任何价值观的闲书，我还是说相声的草根艺人郭德纲。别人都说我们是草根。什么叫草根？其实草根很便宜，人参、灵芝、冬虫夏草，都是这些不上档次的东西，我们比不了人家大棚里的香椿芽、韭黄。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 在这本书出版之际，我已经四十岁了。八岁从艺，至今已经三十多年。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;最初书名叫《人在江湖》，后来我接受本书编辑的建议，换了一个书名，也就是你们看到的《过得刚好》。一路走来，各种坎坷，各种不顺和阻碍，终于我也看到了花团锦簇，也看到了灯彩佳话。那一夜，我也曾梦见百万雄兵。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp;万幸，我一直在做我喜欢的事情。现在的生活我很满意，就像你们看到的书名一样，过得刚好。如果说我还有什么追求和愿望的话，那就是我希望能说一辈子的相声，等到八十多岁还能跟于谦老师站在小茶馆的舞台给大家说相声。那时候，估计我的头发都掉光了，于老师的头发也白了，一脑袋的白毛，还烫头，跟喜羊羊似的。我不指望天塌地陷，地球都毁灭了，还有我的一段相声在宇宙间飘荡，那是扯臊。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 功名富贵，人间惊见白首；诗酒琴书，世外喜逢青眼。巿争利朝争名，伶逐势恶逐威。且看沧海日、赤城霞、峨嵋雪、巫峡云、洞庭月、潇湘雨、彭蠡烟、广陵涛，奇观宇宙但赏何妨？我争者人必争，极力争未必得。我让者人必让，极力让未必失。真放肆不在饮酒放荡，假矜持偏要慷慨激昂。万事留一线，江湖好相见。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 如果，这本书您没看懂。<br />
+<br />
+&nbsp; &nbsp; &nbsp; &nbsp; 那么，再买一本。<br />
+&nbsp; &nbsp;<span style="color:#999999;"> &nbsp; &nbsp; &nbsp;郭德纲</span><br />
+<span style="color:#999999;"> &nbsp; &nbsp; &nbsp; &nbsp; 癸巳春于墨尔本</span><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/8/e/A230017767527_xt_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/8/e/A230017767527_xt_1.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/8/e/A230017767527_xt_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/8/e/A230017767527_xt_2.jpg"></a><a href="http://pic.kuaishubao.com/picdata/goods/8/e/A230017767527_xt_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/8/e/A230017767527_xt_3.jpg"></a><br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A230017767527', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A230017767527', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A230017767527', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A230017767527', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A230017767527'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

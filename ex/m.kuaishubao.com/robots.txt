@@ -1,0 +1,5 @@
+User-agent: * 
+Disallow: /admin/
+Disallow: /_protect/
+Disallow: /user/
+Disallow: /misc/

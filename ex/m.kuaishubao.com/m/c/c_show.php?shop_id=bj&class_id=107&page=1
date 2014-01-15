@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">鲜花</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+<style>
+    .u-boxlist-w300 li a div img{height: 94px;width: 94px;}
+</style>
+  <div class="g-bd">
+    <div class='u-boxlist-w300' style="margin-top: 20px;">
+      <ul>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D190017402957">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/9/a/D190017402957_2.jpg">
+                <h2>最初的梦想鲜花礼盒Primary Dream（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥239.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D480017401862">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/1/9/D480017401862_2.jpg">
+                <h2><font style="color:red;">【本周鲜花当日达】</font>粉红梦想鲜花礼盒 Pink Dreamland（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥269.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D440017429393">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/7/D440017429393_2.jpg">
+                <h2>挚热经典鲜花礼盒 Classic Love（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥169.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D600017401536">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/6/b/D600017401536_2.jpg">
+                <h2>糖果美人鲜花礼盒 Candy Beauty（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥239.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D710025297840">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/0/9/D710025297840_2.jpg">
+                <h2>秋日鲜花礼盒 The Autumn（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥269.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D890025290365">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/c/f/D890025290365_2.jpg">
+                <h2>这箱有礼鲜花礼盒 Gifts In One Box -赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥499.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D230022768628">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/f/6/D230022768628_2.jpg">
+                <h2>永恒的爱鲜花礼盒 Eternal Love  原价299元，现价99元（北京发货，全国配送，包快递，）</h2>
+                <div class='price'>
+                  <span>¥99.00</span>
+                  <del>¥299.00</del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D520017666767">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/e/b/D520017666767_2.jpg">
+                <h2>相信幸福鲜花礼盒 Believe Happiess（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥239.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D980017437436">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/e/7/D980017437436_2.jpg">
+                <h2>生意兴隆鲜花礼盒Bussiness Booming -赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥699.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D320017435125">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/6/D320017435125_2.jpg">
+                <h2>绿茶先生鲜花礼盒 Sir Green Tea（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥269.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D950017432284">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/d/D950017432284_2.jpg">
+                <h2>财源广进鲜花礼盒Earn Plentiful Money -赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥499.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D710017426225">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/7/e/D710017426225_2.jpg">
+                <h2>触动我心鲜花礼盒 Touch My heart（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥199.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D620017422844">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/a/4/D620017422844_2.jpg">
+                <h2>爱你在心鲜花礼盒 Love You in My Hear（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥199.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D820017418038">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/2/8/D820017418038_2.jpg">
+                <h2>惜缘鲜花礼盒Treasure The Fate（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥269.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D850017401965">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/5/2/D850017401965_2.jpg">
+                <h2>感恩之心鲜花礼盒 Thanks Giving（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥199.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D800017402045">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/4/9/D800017402045_2.jpg">
+                <h2>佳人如斯鲜花礼盒 You Are Beauty（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥199.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D790017402087">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/e/a/D790017402087_2.jpg">
+                <h2>简单爱鲜花礼盒 Simple Love（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥239.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D160017402125">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/d/1/D160017402125_2.jpg">
+                <h2>玫瑰人生鲜花礼盒  La Vie En Rose（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥199.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D720017426661">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/b/c/D720017426661_2.jpg">
+                <h2>你若安好鲜花礼盒 Wish You All Great（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥699.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                  <li>
+            <a href="../g/g_info.php?shop_id=bj&amp;goods_id=D140017420213">
+              <div class='u-box m-proitem f-clr'>
+                <img src="../../img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/c/1/D140017420213_2.jpg">
+                <h2>多爱鲜花礼盒 All 4 Love（送花瓶）-赠送玩偶小熊</h2>
+                <div class='price'>
+                  <span>¥599.00</span>
+                  <del></del>
+                </div>
+              </div>
+            </a>
+        </li>
+                </ul>
+    </div>
+      <script>
+          $("img[data-url]").imglazyload();
+      </script>
+    <div class='m-page-m1'>
+      <span class='prev-disable'>上一页</span>&nbsp;&nbsp;1/2&nbsp;&nbsp;<a class="next" href="javascript:mksbhref('/m/c/c_show.php?shop_id=bj&class_id=107&page=2'); ">下一页</a>
+    </div>
+      <script>
+          function mksbhref(url){
+              location.href=url;
+          }
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

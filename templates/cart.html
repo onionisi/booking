@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascript/float.js") }}"></script>
+{% end %}
+
+{% block header %}
+<section>
+	<a href="javascript:history.go(-1);">
+		<span class="return">返回</span>
+	</a>
+</section>
+<section>我的订单</section>
+<section></section>
+{% end %}
+
+{% block body %}
+<div id="yescart">
+	<div class="u-boxlist-w300" style="margin-top: 20px;">
+		<ul>
+		</ul>
+	</div>
+	<form id="corder" action="http://m.kuaishubao.com/buy/order.php" method="post">
+		<input type="hidden" name="from" value="m">
+		<input type="hidden" name="oder" value="">
+		<div class="m-cart">
+			<div id="Cart-Chaozhi" style="display: none;"></div>
+			<div class="u-box f-mt10 price-box">
+				当前购物车内商品总金额：<i class="u-price-red" id="total">￥105.00</i> <br>
+				包含：订单 <i class="u-price-red" id="c_total">105.00</i> + 特价换购 <i class="u-price-red" id="s_total">0.00</i>
+			</div>
+			<button id="corder_btn" class="u-btn-orange u-btn-fullwd u-txt-white18 f-mt10">去结算</button>
+		</div>
+	</form>
+</div>
+
+<div id="nocart" style="display: none;">
+	<div class="m-cart-empty">
+		<p>购物车内暂时没有商品<br> 您可以去首页挑选喜欢的商品</p>
+		<button id="nocorder_btn" class="u-btn-orange u-btn-fullwd u-txt-white18 f-mt10">返回首页</button>
+	</div>
+</div>
+{% end %}

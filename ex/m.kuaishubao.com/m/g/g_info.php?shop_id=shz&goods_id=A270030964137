@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/3/c/A270030964137_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/3/c/A270030964137_1.jpg">
+        <h2>哈佛商业评论（2013年第11期）-图解明智决策</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥45.00元</b> <del>¥50.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1"  type="number" value='1' disabled="disabled">
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+            <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' disabled="disabled">暂时缺货</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/3/c/A270030964137_1.jpg','哈佛商业评论（2013年第11期）-图解明智决策-决策之决策——高风险决策的工具选择（分享自 @快书包）','','utf-8'));"><i></i></button>
+    </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品参数
+</div>
+<span style="color:#666666;">【出版】《哈佛商业评论》杂志社</span><br />
+<span style="color:#666666;"> 【出版时间】2013-11-01</span><br />
+<span style="color:#666666;"> 【品牌】哈佛商业评论</span><br />
+<span style="color:#666666;"> 【刊号】ISSN1672-2582</span><br />
+<span style="color:#666666;"> 【开本】16开</span><br />
+<span style="color:#666666;"> 【页数】160</span><br />
+<span style="color:#666666;"> 【印刷】彩色</span><br />
+<div class="goods-content-title" style="outline-width:0px;">
+	哈佛商业评论（2013年第11期）-图解明智决策&nbsp;
+</div>
+<strong></strong><strong>“救火队员”领导力</strong><br />
+<br />
+曾有研究认为，当组织面临危机时，女性常常被推举为最高领导者，充当救火队员的角色。克里斯蒂娜·拉加德显然就是国际货币基金组织（IMF）的救火队员。就职后她面临的挑战极为严峻，要为债台高筑的欧盟国家提供贷款，稳定欧元区经济。<br />
+<br />
+2011 年，前任IMF 总裁卡恩爆出性侵丑闻。肩负挽回IMF 声誉重任的拉加德临危受命，成为IMF 首位女总裁。<br />
+<br />
+今年夏天，我在IMF 总部所在地华盛顿特区采访了拉加德（见本期第136 页）。拉加德承认，IMF 在全球经济体系中扮演的角色极富争议，但她本人乐于挑战这些复杂的专业问题。<br />
+<br />
+对于女性领导力，拉加德相信机构组织要积极地为女性创造机会。此外，她还支持女性职位配额制。拉加德鼓励同事录用更多的女性候选人，制衡限制女性发展的隐形障碍。<br />
+<br />
+接手IMF 前，在一团乱麻的法国政治圈中，拉加德就是赫赫有名的女强人。此外，她还是贝克·麦坚时国际律师事务所首位女性主席。活跃在政府、私营部门和非营利组织的拉加德简直是“跨界领导者”的典型代表（见《哈佛商业评论》中文版2013 年9 月刊文章《锻造跨界领导力》）。基于丰富的职业背景，拉加德在文章中分享了关于领导力、经济和花样游泳的经验。<br />
+<br />
+本期HBRC 对话也非常值得阅读。柯达与富士这对胶片业双雄为何在数码时代命运迥异，是商学院课堂的经典案例之一。富士CEO 古森重隆先生在接受《哈佛商业评论》中文版专访时，复盘了富士面对数码技术冲击与金融危机来袭时的战略选择，为诸多寻求转型出路的企业家提供了极佳的启发。<br />
+<br />
+此外，本期聚光灯为高管做决策提供了一整套极具操作性的工具选择，帮助企业家在动荡年代与艰难时刻做出明智并稳妥的决策。<br />
+<br />
+相信这些卓越见解与强大的解决方案，能为你的企业与事业发展提供更多燃料与动力。<br />
+<br />
+殷阿笛（Adi Ignatius）<br />
+作者为《哈佛商业评论》英文版总编辑<br />
+<br />
+<br />
+<strong>众说 INTERACTION</strong><br />
+<strong>博客 @HBR</strong><br />
+<strong>如何避免被裁员</strong><br />
+<strong>阿里，谁说了算</strong><br />
+<strong>空间思维的力量</strong><br />
+<br />
+<strong>前沿 Idea Watch</strong><br />
+<strong>营销 Marketing</strong><br />
+争议性品牌掘金术<br />
+明智的营销人员会充分利用品牌争议信息，测算出品牌在消费者中的争议度，然后运用我们的营销策略提升销量。<br />
+<br />
+<strong>数据控 STAT WATCH</strong><br />
+TRA：低成本IPO之道<br />
+<br />
+<strong>研究控 RESEARCH WATCH</strong><br />
+先测试，再面试<br />
+<br />
+<strong>奇思辩 DEFEND YOUR RESEARCH</strong><br />
+坐大椅子易行大骗<br />
+<br />
+<strong>新视界 VISION STATEMENT</strong><br />
+<strong>美国信息产业大裁员</strong><br />
+信息产业一直被认为是现代经济发展的引擎，它约占美国市场的2%，占美国GDP的4.6%，其大幅削减工作岗位带来的损失令人震惊。颇为讽刺的是，令生产效率显著提高以及自动化迅速普及的科技创新，是大幅裁员的罪魁祸首。<br />
+<br />
+<strong>专栏 COLUMN</strong><br />
+资本主义的头脑与灵魂<br />
+企业再造势在必行<br />
+亚洲公司的领导力挑战<br />
+<br />
+<strong>聚光灯 Spotlight</strong><br />
+<strong>决策之决策</strong><br />
+辅以分析工具来制定战略决策，是很多公司的普遍做法。但在不确定的环境中，如何运用工具组合找到最佳的决策方案，你有十足的把握吗？<br />
+<br />
+<strong>拉姆·查兰谈决策：别软弱，勇敢做艰难决定！</strong><br />
+世界顶级咨询师拉姆·查兰接受《哈佛商业评论》英文版专访，与我们分享了他在过去30余年的时间里，与高管们一起做决策的过程中获得的经验。<br />
+<br />
+<strong>超越“社交回声室”</strong><br />
+管理者在决策时既要吸取他人教训，又要全方位拓展社交网络，保持信息来源的广泛性和多样性，从而远离“回声室”效应。<br />
+<br />
+<strong>四型决策，战略蓝图</strong><br />
+决策可分为四种类型。企业高管最该关心的是第四种类型——如何获得战略成功的决策。对此高管们要保持高度的信心，同时兼具冷静的洞察力及勇往直前的行动力。<br />
+<br />
+<strong>攻克执行力难关</strong><br />
+组织决策不能得到干净利落的执行，通常源于CEO与决策执行者之间缺乏有效的对话。查兰将这类对话定义为“决定性对话”。<br />
+<br />
+<strong>HBRC DIALOGUE</strong><br />
+<strong>富士胶片CEO古森重隆：变革需要强势领导力</strong><br />
+富士与柯达，这对胶片业双雄在数码时代命运迥异，其核心是一个战略成败的故事。富士在数码时代没有局限于数码产品，而是基于自己在胶片业累积的尖端技术，转型为一家在多个领域研发高质量产品的多元化公司，从而使自己不仅存活于数码时代，而且打开了一家胶片公司在后胶片时代更开阔的发展空间。<br />
+<br />
+<strong>实战复盘 How I Did It</strong><br />
+<strong>Chobani酸奶CEO：摆脱外援，自主创业</strong><br />
+不引入外部投资者的情况下，自主创业有可能成功吗？Chobani是很好的例子，不到三年，它就成为美国最畅销的酸奶品牌。<br />
+<br />
+<strong>全球 THE GLOBE</strong><br />
+<strong>向印度取经：平价医院如何提供好服务</strong><br />
+和中国一样，印度也面临着患者众多、百姓看病难的问题。通过多年的创新实践，本文提及的9家印度医院正以低廉的价格为患者提供国际一流的服务。作者发现了它们的三大共同点：采用中心辐射型分布模式、严格控制成本以及进一步细化和明确医护人员的分工。对于中国医院及其管理者而言，印度同行的做法也许更值得借鉴。<br />
+<br />
+<strong>大思路 BIG IDEA</strong><br />
+<strong>解救被低估的好战略</strong><br />
+真正有价值的公司战略总是被资本市场低估，因为极少有证券分析师愿意花时间去分析研究。解决之道有两个：加大信息披露力度，让投资者更好地了解公司战略；或者寻找那些真正的战略投资者。<br />
+<br />
+<strong>洞见 Insight</strong><br />
+<strong>职能部门“战略化”变革指南</strong><br />
+当企业凭借能力开展竞争时，其人力资源、IT、财务以及其它职能部门的专业领导人，将在这个过程中扮演全新的、且具战略影响力的角色。<br />
+<br />
+<strong>大趋势 Trends</strong><br />
+<strong>BYOD：让自由办公成为现实</strong><br />
+BYOD——自带设备办公，是IT领域最需要关注的第二大技术趋势。BYOD对企业在降低成本、吸引人才以及提高灵活性等方面大有益处，但同时在信息安全方面也带来很大隐患。未来企业正确地实施BYOD策略不仅要以员工为中心，还应注意四个具体问题。<br />
+<br />
+<strong>HBR对话 HBR DIALOGUE</strong><br />
+<strong>IMF总裁拉加德：“努力激发新创意”</strong><br />
+2011年，克里斯蒂娜·拉加德接替身陷性丑闻的卡恩，出任IMF总裁。入主IMF之后，她一直试图在应对欧债危机和全球经济危机的同时，改变IMF的组织文化。在与《哈佛商业评论》英文版总编殷阿笛对话时，拉加德谈及领导力、女性管理者以及如何在复杂组织内部促进变革等话题。<br />
+<br />
+<strong>特写 Feature</strong><br />
+<strong>拆除“销售机器”</strong><br />
+面对新变化的环境，销售领导者应该放弃他们对过程的苛求，采用另一种灵活的方式，允许销售人员依照自己的洞察力和判断展开行动；组织同时需要改善销售氛围，建立正确的激励措施和奖金制度。公司催生恰当的销售氛围，能使销售人员的工作投入度与职位要求相比高10%，还能将继续留任的意愿提高30%。<br />
+<br />
+<strong>经验 Experience</strong><br />
+<strong>自管理 MANAGING YOURSELF</strong><br />
+驾驭负面情绪<br />
+当负面情绪来袭时，管理者要做的不是沉溺其中，或一味地压抑自己；而应考虑努力培养“情绪灵活性”。<br />
+<br />
+<strong>案例研究 Case Study</strong><br />
+<strong>研发的战略困局</strong><br />
+某制药公司正遭遇困难：研发新药耗时耗资金，且前景不明；研发保健品，虽能够快速回笼资金，却会分散研发人员的精力。在产品研发的战略选择上，本期案例揭示出很多企业面临的难题。<br />
+<br />
+<strong>杂谈 SYNTHESIS</strong><br />
+<strong>矛盾重重的印度</strong><br />
+对外界而言，印度是一个充满神秘的国家。可对印度人而言，种种神秘和光环背后，隐藏着难以调和的多重矛盾。这些矛盾也让印度变得更加坚韧和多元。<br />
+<br />
+<strong>英文摘要 EXECUTIVE SUMMARIES</strong><br />
+<br />
+<strong>跨界人生 LIFE'S WORK</strong><br />
+<strong>斯科特·亚当斯</strong><br />
+从1989年起，斯科特·亚当斯已经绘制了近9000幅呆伯（Dilbert）系列漫画，他对管理、老板以及隔间文化的讽刺性描绘，展现了当代人对职场的态度。正如他在新书《如果几乎全盘皆输，怎样才能保住大头》中提及的那样，他在成功之前经历了大量的挫折也犯了很多错。<br />
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	<b>哈佛商业评论</b> 
+</div>
+<span style="font-family:Arial, sans-serif;white-space:normal;">《哈佛商业评论》——90年享誉全球的“管理圣经”Harvard Business Review, World’s Management Bible Spanning&nbsp;90Years&nbsp;Harvard Business Review(简称HBR) 创刊于1922年，是哈佛商学院的标志性刊物，也是全球顶尖的管理杂志。HBR90多年来，一直致力于创造和传播最新的管理思想和方法，帮助商界领袖不断更新理念、领导变革。如今，被业界誉为“管理圣经”的HBR已成为一个全球性的高层管理平台，其权威地位是任何一家同类杂志所难以企及的。The Economist（《经济学人》杂志）如是评价HBR：“引领全球管理实践”。</span>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A270030964137', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A270030964137', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A270030964137', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A270030964137', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A270030964137'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shz" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shz"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

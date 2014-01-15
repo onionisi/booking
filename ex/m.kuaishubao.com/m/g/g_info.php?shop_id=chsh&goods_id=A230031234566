@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/3/3/A230031234566_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/3/3/A230031234566_1.jpg">
+        <h2>从黎明到衰落：西方文化生活五百年，1500年至今（上下）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥70.40元</b> <del>¥98.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：套</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/3/3/A230031234566_1.jpg','从黎明到衰落：西方文化生活五百年，1500年至今（上下）-30岁构思，50余年酝酿，85岁动笔，93岁出版。美国“国家级历史学家”雅克·巴尔赞毕生心血巨著。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】（美）雅克·巴尔赞<br />
+【译者】林华<br />
+【出版社】中信出版社；2013年11月第1版<br />
+【装订】16开；平装<br />
+【页数】900页<br />
+【印刷】黑白<br />
+【ISBN】9787508641614<br />
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+《从黎明到衰落：西方文化生活五百年，1500年至今》30岁构思，50余年酝酿，85岁动笔，93岁出版，美国“国宝级历史学家”雅克•巴尔赞毕生心血巨著！<br />
+<br />
+《纽约时报书评》惊叹：史学大师的绝世之作！<br />
+<br />
+荣获美国国家图书奖，被评论界赞誉为“20世纪的文化圣经”！&nbsp;<br />
+<br />
+著名学者余英时唯一亲笔推荐的西方文化史，专门撰文盛赞：这不是一本普通的史书，而是一位博雅老人一生读书和反思的最后结晶！<br />
+<br />
+美国：《纽约时报》畅销书排行榜连续14周名列前茅；Amazon五星强力推荐；邦诺书店Top10推荐；每月之书俱乐部重点选书。<br />
+<br />
+台湾：诚品书店“年度之最重量出版”；博客来书店“年度百大人文类畅销书”。<br />
+<br />
+《时代周刊》《新闻周刊》《纽约客》《金融时报》《泰晤士报》《卫报》等欧美近百家权威媒体一致推荐。<span style="white-space:nowrap;"></span> 
+<div class="goods-content-title">
+	内容看点
+</div>
+《从黎明到衰落：西方文化生活五百年，1500年至今》：史学大师将500年的西方文化编织成一部优美流畅、气势恢宏的史诗巨制、20世纪最伟大的文化论著；两卷在手，纵览五百年西方文化的宏伟画卷！<br />
+<br />
+民主政治、个人自由、女权运动、性解放、工业化社会、原子弹、数字时代……西方文明带来的美德与罪恶，几乎已经完全渗透全球每个人的生活，你可知道这一切从何开始？让史学大师雅克•巴尔赞带你回到过去，细说西方文明如何在五百年中渐渐开花结果，带来我们如今所见的世界；又如何盛极而衰，面临再生的瓶颈……<br />
+<br />
+巴尔赞考察了从文艺复兴到20世纪末500年间西方文明的方方面面，包括政治制度、社会思潮、宗教、哲学、文学、音乐、美术、科技发明、民俗及社会生活等。他以四场“真正的革命”为标志来对这五百年进行划分：宗教革命、君主制革命、自由革命和社会革命，并以此为主轴，详述这些变革在思想与物质层面所带来的冲击，这些冲击又如何交互作用塑造出今日我们所见的世界。<br />
+<br />
+在他流畅的文笔之下，五百年的历史故事也能像《红楼梦》一样，出场人物个个栩栩如生，“剧情”高潮迭起，无处不精彩！不论是名列史传却面目模糊的名士，或是名不见经传的小人物，巴尔赞都能还他们有血有肉的真面目；书中有爆炸性的大事件，也有乍看琐碎却寓意深远的琐事，经过大师提纲挈领，五百年来多不胜数的种种事件人物，逐渐融合成一幅属于西方文明的立体图像。<br />
+<br />
+阅读这本书，注定是一段非比寻常的西方文化之旅。<br />
+<div class="goods-content-title">
+	名人推荐
+</div>
+吾人在哥大所最祟拜的业师之一。<span style="color:#666666;">——唐德刚，著名美籍华人学者</span><span style="color:#666666;">&nbsp;</span><br />
+<br />
+他专治近世欧洲文化史，对音乐、文学、绘画无一不通，对当代社会科学、自然科学的各种发展，也极留心注意，可说是当代极少数拥有读者的通人之一。<span style="color:#666666;">——夏志清，哥伦比亚大学中国文学名誉教授</span><br />
+<br />
+我往往把他的书翻来覆去地读，逐渐体会其行文和推理的妙处，然后再据为己有。<span style="color:#666666;">——李欧梵，香港中文大学人文学科教授</span><br />
+<br />
+像他这样学识渊博的人在今天的西方也已经是硕果仅存。&nbsp;<span style="color:#666666;">——甘阳，中山大学人文高等研究院院长</span><br />
+<br />
+哥伦比亚大学非常有名的一个大师级人物。&nbsp;<span style="color:#666666;">——梁文道，凤凰卫视评论员、专栏作家</span><br />
+<br />
+此书深入浅出，大可雅俗共赏。……我推荐它是因为它可以让我们窥测西方人文修养深厚的学人究竟是像什么样子。此书出版是当年美国文化界一件大事，报章和电视都有评论和访问。中国人如果真要想重振“人文精神”，这是一块大可借鉴的他山之石。<span style="color:#666666;"> ——余英时，普林斯顿大学讲座教授</span><br />
+<br />
+如果我们已经厌倦了现代学术的那种装腔作势的思考和夸夸其谈的阐释的话，回到巴尔赞那里，这是一个好的选择。通过他，或许可以找到重返现代文明源头的路径，重新回到那个属于但丁、路德、彼特拉克、达•芬奇、伊拉斯谟的文明的“黎明”时分。<span style="color:#666666;">——张闳，上海同济大学文化批评研究所教授兼所长</span><br />
+<br />
+雅克•巴尔赞生来就是注定要写这本书的，但是他在五十岁的时候不可能写出来。这是一本杰作，只能出自大师之手，需要终其一生才能获得产生于智慧，而不仅仅是知识的卓见。感谢上天使他长寿健朗，得以完成这部别人连开头都力不能及的著作。<span style="color:#666666;">——安妮•法迪曼，《美国学者》前主编</span><br />
+<br />
+《从黎明到衰落》对过去的五百年作了风趣、博学、大胆、特别是睿智的回顾。全书令人读来不忍释卷，对最喜爱的部分百读不厌。<span style="color:#666666;">——格特鲁德•希默尔法布，著名历史学家、《一个国家，两种文化》作者&nbsp;</span><br />
+<br />
+这部书对过去五百年西方文化的评估内容精彩、引人深思、趣味盎然，是对抗当前浑浑噩噩消费主义的最佳武器。除了雅克•巴尔赞，再无第二人能写出这部引人入胜的史学著作。阅读此书好似参加了一次这位当今思想最活跃、最渊博的学者主讲的座谈会。&nbsp;<span style="color:#666666;">——戴安•拉维奇，纽约大学教授</span><br />
+<br />
+这是一部绝妙好书。雅克•巴尔赞的渊博无可匹敌。无人能像他一样对五百年的历史辑古钩沉，洞察入微，而行文又如此清楚、优雅、流畅。雅克•巴尔赞是当今时代的文化瑰宝，这已成为不争的事实。<span style="color:#666666;">——约翰•西尔伯，波士顿大学校长</span><br />
+<div class="goods-content-title">
+	媒体集中报道
+</div>
+早在20世纪30年代，年轻的雅克•巴尔赞就萌生了撰写一部西方文化史的念头，但被一位长者劝阻了。那位长者认为，这位年轻人掌握的知识还不足以写出一些有创意的东西，建议他把写作计划推迟到80岁之后开始。<br />
+<br />
+巴尔赞听从并且履行了那位长者的意见，在自己85岁的时候，才开始文化史写作。此时的巴尔赞早已是史学界的一代宗师了。<br />
+几年之后，也就是20世纪结束的那一年，巴尔赞的文化史巨著《从黎明到衰落：西方文化生活五百年，1500年至今》一书出版。<br />
+<br />
+这一年，他93岁。<br />
+<br />
+这是一个奇迹！
+<div class="goods-content-title">
+	作者：<span style="white-space:normal;">雅克•巴尔赞（Jacques Barzun）</span> 
+</div>
+<b>作者简介</b><br />
+雅克•巴尔赞（Jacques Barzun），美国“国宝级历史学家”；<br />
+50年来罕见登上《时代》周刊封面的思想家；<br />
+获法国政府颁授的最高荣誉——“荣誉军团勋章”；<br />
+2003年，获小布什颁授的“总统自由勋章”；<br />
+2010年，获奥巴马颁授的“国家人文勋章”。<br />
+<br />
+美国著名史学大师，文化史研究的奠基人之一。1907年生于法国，1920年随父抵美，进入哥伦比亚大学研读历史与法律。毕业后即留校执教，历任塞思•洛历史学教授、教务长和院长。他是英国皇家艺术学会会员，并且曾两度担任美国艺术和文学学会主席。他一生致力于通过推行大学“通识教育”把欧洲的博雅文化传统引入美国，对推动美国现代的“通识教育”贡献极大。<br />
+<br />
+巴尔赞在众多领域堪称权威，一生著作等身，出版有30余部著作，涉猎的内容可谓包罗万象，包括历史学、哲学、科学、文学、音乐、艺术；他曾两度荣获美国艺术和文学学会批评家金奖；也因博学多才以及那种文艺复兴时期知识分子特有的禀赋，被赞誉为“最后的文艺复兴人”。<br />
+<br />
+巴尔赞并不是一位纯粹的学院知识分子。他积极参与美国的公共知识生活，长期为《哈泼斯》、《新共和》等众多权威杂志撰稿 ，是西方公认的“最值得珍惜的知识分子”。直至今天，他对文化、思想、艺术、社会的诸多思考，仍起着深远而不可替代的影响。&nbsp;<br />
+<br />
+2012年，巴尔赞在美国得克萨斯州去世，享年104岁。全世界各大媒体纷纷发表消息和评论，竞相发掘他留给后人的无尽精神遗产。
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<strong>作者的话&nbsp;<br />
+</strong><br />
+<strong> 序言 从目前的关切到本书的题材<br />
+</strong><br />
+<strong> 第一部分 从路德的《九十五条论纲》到玻意耳的“无形的学院”</strong><br />
+四分五裂的西方<br />
+新生活<br />
+典雅文字<br />
+“艺术家”的诞生<br />
+横断面：1540年前后马德里所见<br />
+乌托邦主义者<br />
+史诗与喜剧，抒情诗与音乐，批评家与公众<br />
+横断面：1650年前后威尼斯所见<br />
+无形的学院<br />
+<br />
+<strong>第二部分 从凡尔赛的沼泽、沙地到网球场</strong><br />
+君主制革命<br />
+有民主精神的清教徒<br />
+规范的统治<br />
+横断面：1715年前后伦敦所见<br />
+奢华的景象<br />
+百科全书的世纪<br />
+横断面：1790年前后魏玛所见<br />
+被遗忘的大军<br />
+<br />
+<strong>第三部分 从《浮士德》第一部到《走下楼梯的裸女》第二号</strong><br />
+灵与智的结合&nbsp;<br />
+横断面：1830年前后巴黎所见&nbsp;<br />
+议会之母<br />
+事物驾驭人类<br />
+横断面：1895年前后芝加哥所见<br />
+精力的巅峰<br />
+立体主义十年<br />
+<br />
+<strong>第四部分 从“大幻想”到“西方文明不能要”</strong><br />
+大幻想<br />
+作为预言家和小丑的艺术家<br />
+拥抱荒诞<br />
+大众生活和年代<br />
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<strong>序言</strong><br />
+<strong> 作者的话</strong><br />
+20世纪即将结束。进一步深究后，还会看到西方过去500年的文化也将同时终结。有鉴于此，我认为现在正是恰当的时候，应该依次回顾一遍我们这半个千年来伟大卓绝的成就和令人痛心的失败。<br />
+<br />
+我还可以借此机会为感兴趣的后代描述目前衰落中某些我亲见亲历，但也许未被世人注意的方面，并说明它们同那些广为人知的衰落现象的联系。不过，书中占主导地位的还是生气勃勃、积极向上的内容：这本书的对象是那些喜欢阅读和了解艺术与思想、礼仪、道德与宗教以及这些方面活动的社会背景的人。我揣想，这样的读者喜欢有选择的批评性论述，不喜欢不置可否的大而全的叙述。再进一步揣测他们的喜好，并且为符合现代人的口味，我尽量以口语的方式来写，只偶尔流露一点儿学究气。<br />
+<br />
+本书与所知的一些出色历史著述有所不同，它涵盖的时间包括现在，所以我特别花了心思来安排书中各部分的次序。联系在文化史中至为重要，因为文化是一张由许多条线织成的网；没有哪条线是独立存在的，也没有哪条线是在一个确切的日期，比如战争爆发或政权交替这类事件发生的日期，被一下子切断的。通常被称为标志着新思想问世或文化方向改变的事件只不过是突出的标杆，而非界墙。在书中，我对这类事件时有描述，但各部分的划分并不取决于它们。各章节的划分是在重新思考过去，辨别出了最清晰的格式后自然产生的。它们由四场大革命所框定——宗教革命、君主制革命、自由革命和社会革命——这些革命彼此间隔大约100年，它们的目标和理想至今仍然指导着我们的思想和行为。<br />
+<br />
+在撰写此书期间，朋友和同事们常常问我花了多少时间准备。对此我只能回答：我的一生。我自20世纪20年代末期开始研究不同的时代和人物。在研究中，我发现了意外的新天地，得出了与一系列定论相左的结论。在作了进一步的研究，重温了我发表的著作后，我看到可以把我的发现串成一个连贯的故事。这里面介绍了原来湮没在历史中值得了解的人物，也描述了已知人物的新特征，并对人们熟悉的观点，尤其是对关于我们今天的成就和麻烦的历史来源的流行见解进行了重新评价。<br />
+<br />
+我不期望读者会十分满意。谁也不愿意听到自己长期信奉的观点受到质疑，更不用说找出理由来为一条曾经被奉行而现在却受到普遍谴责的原则或政策开脱——比如君权神授或宗教迫害。在我们这个如此宽容、开通，而且意识形态如此厌恶暴力的时代中，如果想说明16或17世纪的时代特征有其道理，一定会触怒正直的人们。然而，如若不了解当时的情况之所以存在的道理，我们对现代思想和道德的理解就是不完整的。<br />
+<br />
+我并不赞成君主统治，也不赞成迫害他人或任何其他应该已被摒弃的恶行。举这些例子是为了表示，我没有从流于现行的偏见。在争取达到历史学家的超然和同情的努力中，对付我自己的偏见就够我忙的了。如果像兰克所说的，每个时代在上帝眼中都有其存在的道理，那么在人的眼中它至少应当得到同情。<br />
+<br />
+超然不一定意味着客观。每个观察家都有某种方式的偏见，这是不言自明的。然而，这并不是说对偏见无法警惕，或者说所有偏见都造成同等程度的歪曲，或者说刻意控制偏见与对其大肆宣扬同样糟糕。比方说对艺术，发现自己的盲点就做到了“客观”，这是超然的第一步。第二步是避免贬低那些无法引起自己共鸣的东西。然后还应把他人经研究做出的判断宣告于世。<br />
+<br />
+因为我认为我们漫长的历史中有一些事件和人物与以前人们所认识的不同，所以我必须偶尔以我自己的名义发表意见并提出理由说明我为何持不同看法。我希望这样文责自负不会使一些评论家因此把本书定为“一本固执己见的书”。我要问，哪本值得一读的书不是如此？如果亨利•亚当斯只是对吉本随声附和，亦步亦趋的话，我们也不会珍视他的作品了。<br />
+<br />
+关于己见这个问题，威廉•詹姆斯思考后得出结论说，哲学家呈现给我们的不是对世界的转述，而是对世界的看法。同样，史学家提出的是对过去的看法。好的历史著作不仅合理可信，而且有无可争辩的事实做坚实的基础。事实是不以个人意志为转移的，但事实的选择和组合却因人而异。看法就是通过排列事实的格式和其中的寓意来传达的。所有历史学家也正是以此种方式来补充人们对历史的了解。多读几位不同史学家的著作就会越来越多地了解历史的错综复杂。要想绝对准确无误地知道过去所发生的事情，恐怕只能求诸上帝了。<br />
+<br />
+谈到寓意，需要在此说明一下书中使用的手法和符号。先说页侧引语的作用，这些引语是为了提供有关人物的“自我和声音”。它们就像杂志中常用的“摘句”——从文章中摘出来以吸引读者的句子。本书中用的不是“摘句”而是“补句”。插入引语而不加介绍是为了缩短篇幅，不用通常的“像伊拉斯谟给亨利八世的信中所说”、“马克•吐温谈到圣女贞德时说”这类字眼，否则引语结束时还要费笔墨收尾。我还利用这个小发明把不同的引语并列以达到对比和强调的目的。读者读完此书后会发现自己同时还欣赏了一部精辟妙语的选编。<br />
+<br />
+同样为了简明起见，我用16C、17C这类字眼来指世纪中译均作16世纪、17世纪。——编者注。用早期、中期、晚期来更为精确地标明时间，尽量少用确切的日期，因为人物、著作和事件并非出现伊始就开始造成文化改变的。<br />
+<br />
+另一个值得一提的手法是我使用的主题，即在一个时期内反复出现的思想和目标。思想在书中作了阐述，目标则寓于所叙述的事件或趋势中。以后我还会细述主题的性质和范围。<br />
+<br />
+为进一步帮助读者一窥全豹，用附有数字的（＜）或（＞）号指示某题目初次提及或下次讨论的页数。为使读者从其他著作那里得到进一步的启迪，我时时插入一句“参阅某某书”。这些书篇幅大多都不长。当写的是“可浏览某书”的时候，所指的是较长而值得翻阅的著作。我觉得这种参照方法要比通常在书后开列“供进一步阅读”的书单更为有用。这些书有许多不是近期出版的，但它们的知识性和趣味性丝毫不减。不像自然科学，越新越好。除了前边的一条脚注外再无其他脚注。<br />
+<br />
+虽然我谈到本书内容时采用的是作者常用的第一人称口吻，但其实它是一种大协作的产物。我这一生中从他人的思想中，从阅读中，从老师那里，从和我的学生、同事、朋友以及陌生人的谈话中获益匪浅，领悟良多；去各处的旅行开阔了我的眼界；艺术家的作品使我自孩提时期就得到智力上的磨炼，享受心灵上的愉悦。当我想到这一切的时候，这来自各方的巨大恩惠简直使我承受不起。若要把这些给我以教益的人们一一列举，名单会有电话黄页那么长。我在撰写此书的过程中一次又一次地体会到深深的感激之情。<br />
+<br />
+机缘也是助我成书的一个因素：家庭背景、生活时代和出生地塑造和指引了我的写作；失眠和长寿这两个纯偶然的因素使得一闪即逝的见解有机会一次次重现而得以澄清确定。研究文化史的人最明白他不可能全靠自己取得成功或提出卓有新意的见解。用威廉•詹姆斯的话说，“每个思想和行为都起源于你死去了或活着的兄弟们的行为”。他这句自我警策的话坦率地说明了他作为作者所处的地位，也确定了撰写历史著作的原则。<br />
+<br />
+<strong> 序言 从目前的关切到本书的题材</strong><br />
+看到“我们的过去”或“我们的文化”此类短语时，读者有权发问：“我们指谁？”答案要由各人自定。现在竟无人知道哪些个人或团体自认为属于本书所叙述的演变，目前的混乱由此可见一斑。<br />
+<br />
+造成这种状况的根源正是这场演变。在我们的文化所处的这个周期性阶段，许多人有充分的理由希望建起一道高墙把自己和过去隔开。这表现了对目前某些事物的反感，它们似乎是我们的祖先留下的诅咒。还有的人对某些特定的历史时期进行抨击，或干脆当它们不存在。依着这样的心态，民族、宗教或文化的祖裔成了可以选择的东西：想“寻根”的人可以随意地到任何地方去发掘。传统和教义多如牛毛，因为文化本身已经衰老，并且正在解体。<br />
+<br />
+这种急于摆脱的狂热也说明了为什么许多人亟欲谴责西方。但没有人提议应当和可以用什么来完全取而代之。无论如何，西方文化不是铁板一块，并非只有一种意义。西方是一连串无尽的对立——无论在宗教、政治、艺术、道德还是礼仪方面。大部分对立经过初次冲突后仍然留了下来。谴责并不能使人摆脱他所憎恨的东西，正如罔顾过去不能取消其产生的影响。就拿街上戴着耳机听随身听的青年来说，他和意大利无线电技术发明家马可尼以及随身听里播放的音乐的作曲家的生活联系在了一起。博物馆里端详着伦勃朗油画的参观者在接受着17世纪的信息。马丁•路德•金的热诚追随者应当琢磨一下他们领袖的名字，这个名字使人联想到宗教改革时期的那位宗教改革家，把20世纪和16世纪联系了起来。<br />
+<br />
+在日常工作中，国内外任何享受某种形式社会保障的人都受惠于一长串理论家和活动家的努力，这些人形形色色，包括弗洛伦斯•南丁格尔、圣西门伯爵、俾斯麦和萧伯纳。一个逃到比自已祖国更相宜的庇护国中的政治难民可以自由地呼吸，这要归功于成千上万敢想敢干的思想家和行动家为争取政治自由而付出的英勇努力——虽然他们在抗争中彼此常常是对头。<br />
+<br />
+如果新归化的公民对他的移居国挑剔不满，可以抨击它的政策和领导人而不受惩罚，他能享有这样的权利应感谢伏尔泰这样的人。伏尔泰同样被迫远走他国以逃避迫害，并坚持自己的不同意见。就连开着装满炸药的汽车冲向仇国大楼的恐怖主义分子也是他要摧毁的东西的一部分：他使用的武器是阿尔弗雷德•诺贝尔的发明和内燃机发明者的成果。而为他的事业大声疾呼的有威尔逊总统这样的民族自决的倡导者，还有乔治•索列尔和俄国无政府主义者巴枯宁等宣扬暴力有理的人。<br />
+<br />
+看到了这种联系，就会明白西方文化的果实——人权、社会福利、机器——并不是像野草一样自己长成的，而是无数人辛勤培育的结果。<br />
+<br />
+人类的一切作为可归结为大小发明家的创造和其余人的模仿。个人指出道路，确定模式。模式间的竞争即世界的历史。<br />
+——威廉•詹姆斯（1908年）<br />
+<br />
+我提到了一些著名人物，但他们前有已被遗忘的先驱，后有不断鼓吹一个思想直到它得到大众的赞同而实现的后继者。这种行为的持续不断就是活生生的历史，它们构成了所谓“文化”的实质。<br />
+<br />
+文化——这是怎样的一个词啊！直到几年前它还只包括两三个易于掌握和区分的方面，现在却成了到处可用的术语，包括五花八门、内容重叠的各种东西。几乎社会的每一部分都有为人口谈笔议的文化。有反文化，还有众多的次文化：民族文化、公司文化、青少年文化和大众文化。《纽约时报》有一篇社论讨论市警察署的文化。旅游版有一篇文章写到飞机文化和汽车文化的区别。同样，别忘了自然科学和人文科学这“两种文化”令人痛心的分裂——像是会导致离婚的夫妻间的“文化冲突”。艺术家受到诱惑——不，应该说是感到有责任——去加入一种敌对文化，因为艺术家本性就是“他自己文化的敌人”，正如他是（同一份刊物的另一版上写的）“他自己文化的产物”。在教育领域，最新流行的是多元文化主义；在娱乐界，最受赞誉的是“跨文化活动”。在世界舞台上，专家警告说文化大战正在酝酿。<br />
+<br />
+在这种概念的纷繁混乱之下，意味着蕴涵丰富思想的“文化”几乎不复存在。人们已经提出了超过4000种有关文化的定义和分类，但这丰盛本身是否能滋养枯涸的心灵，使它超脱日常的纷扰，清除狭隘的偏见，还是很值得怀疑的事。一位智者说过：“文化是你忘掉一切过去刻意学习过的东西之后所剩下来的。”这种意义的文化——从耕种文化中引申出来的一个简单的比喻——是如何丧失了权威，又被加上了众多并不恰当的意义呢？那些一时冲动建立的小型文化明显名不副实，但话说回来，它们体现的是前文所述的疏离倾向。这种倾向是由于同太多的人发生太多的争扰造成的——处处掣肘，受到陌生人、机器、官僚的条条框框的制约，因此才愿意和一小群志同道合的人聚在一起。<br />
+<br />
+以为这样就能达到心灵轻松完全是梦想，因为这些小集团并不独立。他们的“文化”只是地方的风俗传统、个人和机构性的习惯、阶级礼仪和偏见、语言或方言、教养或职业、教义、态度、习俗、时尚和迷信，甚至只是性情这种最狭义的东西。这些因素的各种组合如要找一个词来表示的话，可以用集团特质（ethos）一词。报刊等传媒向来钟爱来自希腊语的新名词，很快就会把这个词推广普及。<br />
+<br />
+那么，真正包罗万象的文化都有哪些内容呢？我准备提纲挈领地追溯过去500年来艺术、科学、宗教、哲学和社会思想的演变，希望以此来表明西方人在这段时间内为世界提供了一套前所未有的思想和制度。如前所述，它既是一个统一的整体又有巨大的多样性。西方文明博采众长，因其不同之见和独创性而兴旺发达，是不折不扣的杂烩文明。不过，尽管它的内容有东拼西凑和互相冲突的地方，却有它特有的目的——这就是它的统一性所在。而目前，这些目的得到了最大限度的实现后正在导致它的灭亡。这灭亡表现在我们时代的各种僵局中：在民族主义、个人主义、高雅艺术、严格的道德和宗教信仰这些问题上都存在着支持和反对这两种截然相反的立场。<br />
+<br />
+个人现在得到了充分发展，享受着各种各样的权利，包括不受权威妨碍做“自己的事”的权利。凡是活着的生物都有权利，包括非法移民、学童、罪犯、婴儿、植物和动物。这种经过长期斗争得来的普遍独立是西方的一个突出特征。解放是这个时代可能最具代表性的文化主题。当然，为了防止我的权利侵犯你的权利，同时也需要越来越多的限制。<br />
+<br />
+与其平行的另一个主题是原始主义。摆脱先进文化的条条框框的渴望一次又一次反复出现。它是宗教改革的一个主要动机，后来又通过对“高尚的野蛮人”的狂热崇拜再次出现，那是远在据说是“高尚的野蛮人”一词的发明者卢梭之前的时候。信条简单的野蛮人身体健康，道德崇高，心情平静，比必须钻营欺骗才能发达的现代人优秀得多。18世纪晚期，人们找回了这种乌托邦式的希望；19世纪晚期，它反映在爱德华•卡彭特所著《文明产生的原因及其对策》之中。到了20世纪60年代，这种思想则表现在年轻人的反叛中，他们有的组织公社，大家在一起过简单的生活，有的是“花孩儿”（Flower People），坚信爱是足以联系一切的社会纽带。<br />
+<br />
+我们这5个世纪中共有10到12个这样的主题。它们不是历史“动力”或“原因”，而是隐藏在事件或运动后面的愿望、态度或目的，有的体现在长期存在的制度中。指出这种主题的一致性和连续性不是为了像马克思、斯宾格勒或汤因比那样提出一种新的历史哲学。他们认为历史由一股单一的力量向着一个单一的目的推进。我仍然是个历史学家，也就是说，是个讲故事的，试图解开男男女女和青少年（千万不要忘了青少年）的行动所织成的错综复杂的故事情节。他们的愿望就是推动历史前进的动力，前进的结果则由于客观情况的干预而无法预料，而且也不可能只有一个结果。<br />
+<br />
+因此，故事讲的不只是事件和趋势，还有人物。叙述中常常出现人物素描肖像——有的想必是家喻户晓的名字，但更多的是被忽略的人物。我们当然会看到路德、达•芬奇、拉伯雷和鲁本斯，但也会看到纳瓦尔的玛格丽特、古尔奈的玛丽、瑞典的克里斯蒂娜，还有那些年代中其他和他们一样的人。他们是作为人出现的，而不只是参与作用者而已，因为历史首先是具体详细的，不是笼统抽象的。史学家在复述许多事情时提出笼统的概论，确定这样那样的“时期”和“主题”，其实不过是为了方便记忆。所述材料本身是曾经活着的人的思想和行动。<br />
+<br />
+但是为什么说这故事要结束呢？当然，它并不是真的停止或完全毁灭。衰落这个词指的只是“减弱”。它并不意味着生活在这个时代中的人丧失了精力、才能或道德观念。正相反，现在是一个非常活跃的时代，充满着深深的关切和忧虑，又有着它特有的躁动不安，因为它看不到清晰的前进道路。它失去的是可能性。生活中艺术的各种形式已经用尽，发展的各个阶段也已走完。制度的运作艰涩困难，造成的重复和失望让人难以忍受。现在的主要历史力量是厌倦和疲乏。<br />
+<br />
+有人会问，史学家怎么会知道衰落何时到来呢？我认为，这是从人们对弊病直言不讳，为新的信念上下求索中看出来的。近来在信奉基督教的西方兴起了几十种教派，有佛教、伊斯兰教、瑜伽、超脱静坐、文鲜明博士的统一教团，还有许多别的教派，有的热诚地宣扬集体自杀。对不信教的人来说，过去的理想似乎已经过时或永无实现的希望，讲求实际的目标变成了依靠暴力行动来维护的信条，像反对核战争、全球变暖和堕胎；保护环境及其动植物不被人使用(“让狼回来!”）；提倡有机食品，反对加工食品；还有对科学技术的不满；等等。激励着所有这些反对情绪的力量是回归原始主义的冲动。<br />
+<br />
+这样的事业给一个停滞社会中人们采取行动的愿望提供了发泄的焦点。在每一个城镇、郡县或国家，政府为了公益事业准备做的大部分事情一经提出立即遭到抵制。一个项目无论多么合理，总有不仅两个而是三到四个有组织或临时拼凑的团体提出同样合理的反对理由。结果是一种对现状的普遍敌意。由于这种敌意，人们频繁使用反（anti）或后（post）这种表达轻蔑意思的前缀语（反艺术，后现代主义），并许诺要重新发明这个或那个制度。人们希望只是通过丢弃现有的东西就会产生新的生命。<br />
+<br />
+作为一个论点，姑且说“我们的文化”要完结了，那为什么选过去500年这一段时间呢？哪些因素使这一阶段成为一个统一的单位？1500年作为起始是约定俗成的：教科书一直以来都把这一年称为现代的开始。在本书的前6章中，几乎每一页里都看得到这样确定的充分理由。读者顺便会注意到“时代”在这里用于500年或更长的时间——足以使一个演变中的文化发展它的各种可能性；“时期”或“年代”则指一个时代内较短的有明显特征的一段时间。<br />
+<br />
+如此严格区分可帮助澄清这方面的混乱。“现代”有时被用来指包括中世纪以来的时代，有时又指“现代主义”滥觞的时期；但对于现代主义的起始日期又众说纷纭，一说是1880年，还有的说是1900年或1920年（713＞)。本书对现代的划分不同于大学的通史课本。从文化的角度看历史需要不同的组合。大致说来分为三段时间，每段约125年，带我们从路德到牛顿，从路易十四到法国大革命的断头台，再从歌德到纽约军械库展览。第四段，即最后一段，讲20世纪剩余的时间。<br />
+<br />
+如果如此分段需要解释的话，可以说第一个时期——1500~1660年——围绕的问题是宗教中应当信什么；第二个时期——1661~1789年——主导问题是如何确定个人的地位和政府的模式；第三个时期——1790~1920年——思考的是以何种方法来实现社会和经济平等。最后的时期是所有上述努力混合产生的后果。<br />
+<br />
+那么，什么是一个新的年代的标志呢？那就是某个目的具体表现的出现或消失。看看窗外，还有公告传报员吗？围观纵狗斗熊或在贝德勒姆疯人院门口哄笑的闲汉还在吗？再者，现在还有谁用“高贵”这个字眼来夸奖人或像罗斯金一样形容艺术的类别？再来看看新书的献词，怎么没有对某某王公连篇累牍的阿谀奉承了？这每一个现已不存的现象都是变化的标志，无论在技术、道德态度、社会阶层还是对文学的支持方面。<br />
+<br />
+对这种情形，报纸爱用“历史的垃圾箱”这个说法。它们以为这个概念是从卡尔•马克思那里借来的，其实是一位英国作家和下院议员奥古斯丁•比勒尔提出来的。检视一下这只垃圾箱，会发现它远不如人们想象的那么满满当当。过去5个世纪里，重复和复古屡见不鲜。举个例子说，只要看看近来对《圣经》经文和耶稣生平的求知兴趣就可以说明问题。或者可以想想另一个应该扔进垃圾箱却被忽略了的东西：报纸的星相专栏。模式间的竞争很少以完全的胜利告终，败者仍得以生存并斗争不止，对立方永远存在。<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A230031234566', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A230031234566', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A230031234566', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A230031234566', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A230031234566'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chsh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chsh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

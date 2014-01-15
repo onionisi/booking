@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/2/f/A001352909160_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/2/f/A001352909160_1.jpg">
+        <h2>雕刻时光咖啡馆星期马戏团挂耳包咖啡7袋装70g</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥48.00元</b> <del>¥58.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1"  type="number" value='1' disabled="disabled">
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：件</span>
+      </div>
+            <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' disabled="disabled">暂时缺货</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/2/f/A001352909160_1.jpg','雕刻时光咖啡馆星期马戏团挂耳包咖啡7袋装70g-每周七天，每天一袋，每天都有不同的故事符号（分享自 @快书包）','','utf-8'));"><i></i></button>
+    </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【品名】雕刻时光咖啡馆 星期马戏团7袋挂耳包咖啡 70克/盒 ）<br />
+【品牌】雕刻时光<br />
+【包装】纸盒装<br />
+【外包装尺寸】-<br />
+【内包装】独立小包装，-<br />
+【配料】100%纯阿拉比卡咖啡粉<br />
+【保质期】12个月<br />
+【商品产地】北京<br />
+【出品商与制造商】北京艺丰雕刻时光咖啡有限公司出品，北京艺丰优谷食品有限责任公司制造<br />
+【生产许可证】QS111221010019<br />
+【净含量】70g/盒<br />
+</div>
+<!-- 商品详图 -->
+<div class="goods-content-title">
+	商品详图
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<br />
+	</p>
+	<div>
+		<p>
+			<a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061712223819.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061712223819.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061712248252.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061712248252.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061712266434.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061712266434.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061712312292.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061712312292.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061712327078.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061712327078.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061712356808.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061712356808.jpg"></a>
+		</p>
+	</div>
+	<p>
+		<a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061715565641.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061715565641.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061715581666.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061715581666.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061715578224.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061715578224.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061716022244.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061716022244.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061716017849.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061716017849.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061716053523.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061716053523.jpg"></a><a href="http://pic.kuaishubao.com/UploadFiles/shop/201302061716047005.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201302061716047005.jpg"></a>
+	</p>
+<br />
+</div>
+<!-- 商品特点 -->
+<div class="goods-content-title">
+	商品特点
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		<strong>来自著名的雕刻时光咖啡馆<br />
+不用去咖啡馆，照样享受好咖啡</strong><br />
+<br />
+雕刻时光推出的挂耳包，与市面上最不同的地方在于不只注重咖啡生豆品质的控制，不只新鲜烘焙，还特别讲究研磨的均匀度，让咖啡的每个颗粒都能够保留他最丰富的味道。<br />
+同时，我们的每个挂耳包都是独立包装，这也是为什么我们的挂耳包，口感永远比外头所谓采购后才新鲜包装的挂耳包要丰富和细腻。<br />
+<br />
+<strong>精选优质咖啡豆，精心烘焙出出鲜香醇厚的新鲜咖啡</strong><br />
+<br />
+精选来自世界各大咖啡产区的优质咖啡豆，充分尊重每一款咖啡独有的特性，经小炉精心烘焙，具有迷人的花木水果香气。质感柔和，果酸丰富，在旅途、工作和休闲中，只需热水冲调，即可享用鲜香醇厚的新鲜咖啡，口有余甘，百品不厌。<br />
+<br />
+<strong>从星期一到星期日，拥有天天不同的新鲜感、好品位和美好设计</strong><br />
+<br />
+你是否喜欢萌物，喜欢与众不同不失品位，喜欢有故事的符号，喜欢用心的设计，喜欢让自己的光彩无死角，喜欢动物，喜欢咖啡，喜欢美好的生活方式？<br />
+用衣服表达太费心思？用配饰表达过于普通？用话语表达过于张扬？<br />
+从星期一到星期日，想拥有天天不同，新鲜感，好品位，美好设计，萌萌的七只小动物，最优质的烘焙咖啡，不用特意端着的生活品位。<br />
+<br />
+现在，打开温馨具有人性设计的包装，每天按标注与当日值班小动物会面，轻撕内袋，让挂耳包咖啡降落杯口，缓注热水，一切倾刻拥有！<a href="http://pic.kuaishubao.com/UploadFiles/shop/201209101034462290.jpg"><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201209101034462290.jpg"></a><br />
+<br />
+<strong>【挂耳包咖啡小常识】</strong><br />
+<br />
+挂耳包咖啡是一款即冲即享型现磨咖啡。滴滤方式完成咖啡冲煮，咖啡之中的酸、甘、苦、醇、香完美体现。只要您的身边有热水水源,有咖啡杯具，即可以方便享用。特别适合于居家，办公室和旅行。<br />
+<br />
+随身挂耳包里头的咖啡粉装在滤包里，两侧纸板制作的夹板，可以挂在杯子上，冲完后即可丢掉，让你可以喝到犹如滤滴冲泡式的研磨咖啡。<br />
+<br />
+<strong>【挂耳包怎么泡？】</strong><br />
+<br />
+通过5步便可完成：<br />
+<br />
+① 沿着撕开提示口,小心整齐地打开包装袋；<br />
+② 抖平挂耳包袋后,撕开粉包封口.将挂耳匀致撑开,挂于咖啡杯口上；<br />
+③ 准备一壶开水(冲煮咖啡的水温建议在85℃-95℃之间),建议纯净水最佳,水烧开后,搁置1分钟左右浇淋.浇淋开水时,匀速地往滤袋中浇注热水(注意速度不能太快,水流不能太大,避免溢出).待滤袋中的液量下降后,再次浇淋.待杯中的咖啡液量达到7分满时,或者根据个人口味决定.小心撤移丢弃挂耳包袋.(小心烫伤)；<br />
+④ 请立马饮用冲泡完成的美味挂耳包咖啡.也可以根据个人喜好,添加砂糖或者纯牛奶进行调味.(风味单品建议直接饮用,避免添加物影响单品咖啡的特色体现)；<br />
+⑤ 为保证每款咖啡的风味完美体现,建议每袋咖啡冲泡一次后丢弃。
+	</p>
+	<div>
+		<object id="sinaplayer" height="370" width="480">
+			<param name="allowScriptAccess" value="always" />
+		</object>
+	</div>
+	<div>
+		&nbsp;
+	</div>
+	<div>
+		<p>
+			<br />
+		</p>
+	</div>
+	<div>
+		<p>
+			<br />
+		</p>
+	</div>
+	<div>
+		<a href="http://item.taobao.com/item.htm?spm=686.1000925.1000774.6.p5esqu&id=15976230274" target="_blank"><a href="http://pic.kuaishubao.com/UploadFiles/shop/201301151333222457.jpg "><img data-url="http://pic.kuaishubao.com/m/UploadFiles/shop/201301151333222457.jpg "></a></a>
+	</div>
+</div>
+<!-- 食用与贮存小贴士 -->
+<div class="goods-content-title">
+	食用与贮存小贴士
+</div>
+<div class="Goods-Content-Box">
+	【食用方法】打开温馨具有人性设计的包装，每天按标注与当日值班小动物会面，轻撕内袋，让挂耳包咖啡降落杯口，缓注热水，一切倾刻拥有！<br />
+【适用场合】无论是在办公室还是家中，方便的挂耳包都能让您马上享受到新鲜醇香的咖啡。<br />
+【贮存方法】新鲜是咖啡品质的最基本保障，为了更好享受美味咖啡，建议您尽可能快地使用本产品。<br />
+</div>
+<!-- 商品品牌 -->
+<div class="goods-content-title">
+	雕刻时光品牌
+</div>
+<div class="Goods-Content-Box">
+	<p>
+		雕刻时光咖啡创办于1997年11月28日。<br />
+<br />
+《雕刻时光》是来自于苏联导演 安德烈·塔可夫斯基 (Andrei Tarkovsky) 所写的电影自传的书名，其大意是说电影这门艺术是借着胶片纪录下时间流逝的过程，时间会在人身上、物质上留下印记，即雕刻时光的意义所在。咖啡馆的意义也是源自于此，让时间、人和情感在此驻留，留下美好的回忆。
+	</p>
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A001352909160', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A001352909160', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A001352909160', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A001352909160', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A001352909160'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

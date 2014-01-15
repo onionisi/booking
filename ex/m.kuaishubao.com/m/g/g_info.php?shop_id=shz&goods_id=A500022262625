@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/b/a/A500022262625_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/b/a/A500022262625_1.jpg">
+        <h2>所有人问所有人</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥25.70元</b> <del>¥36.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/b/a/A500022262625_1.jpg','所有人问所有人-韩寒监制，「一个」工作室 主编，一份关于社会、民生、八卦、性、音乐、电影、生活、潜规则等所有问题的非标准答案（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】韩寒 监制，「一个」工作室 主编<br />
+【出版社】湖南人民出版社；2013年8月第1版<br />
+【装订】32开；平装<br />
+【页数】288页<br />
+【印刷】单色<br />
+【ISBN】9787543894433<br />
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+韩寒、李承鹏、王中磊、苏紫紫、贾樟柯、铁凝、周云蓬、蒋方舟、朴树、叫兽易小星、高晓松、石康、那多、李银河、熊培云、琦殿、连岳、外交部总机、台湾80后、107岁老人……为你回答。　　<br />
+<br />
+他是韩寒，他和所有人一起，向这个世界发问并回答所有问题。它真实。从不掩饰，真实是最大的力量，从头到尾，你能从这部书中感到真实的力量。它智慧。峰回路转式的回答让人会心一笑，绵里藏针的回答让人大吃一惊。它幽默。字里行间，处处藏机锋，每每读后，往往捧腹大笑。　　<br />
+<br />
+《所有人问所有人》历时三年，历经磨难，终于以最独特的面目，为所有人打开一本中国社会百科辞典。
+<div class="goods-content-title">
+	内容看点
+</div>
+《所有人问所有人》：一份关于社会、民生、八卦、性、音乐、电影、生活、潜规则等所有问题的非标准答案。　　<br />
+无论你是谁，来自哪儿，做着什么，你都可以向任何人提问，提问任何问题。《所有人问所有人》，就是这样一部收录了最不可思议的问题和不可思议的答案的你闻所未闻的奇书，这些问题，你或想到，却从未有人回答，你或想探索，却一直无处着手。　<br />
+一网打尽你从出生到现在一直藏在内心深处的疑问和问题。<br />
+<div class="goods-content-title">
+	名人推荐
+</div>
+韩寒敢于跟大多数人的流行观点唱反调，在无数网民狂热、暴怒的时候，能从另外一个方向思考，说明他确实已经成熟了。我们过去老觉得他是另类，实际上他是当今青年的代表，很多人把他当作榜样。——诺贝尔文学奖获得者莫言 <br />
+<div class="goods-content-title">
+	媒体集中报道
+</div>
+最畅销的小说家，冠军赛车手，中国的文学界毒舌青年——韩寒被所有标签环绕着。在上海，27岁的他在过去几年里已一跃成为一个独特的新角色。2009年韩成为中国最受欢迎的博客博主。他通常不专注于他的日常生活或名人八卦的平凡细节而是针对当代中国社会的弊病，批判范围从社会问题到艺术领域的电影问题。到目前为止，韩寒的批判总是用最诙谐而手法去隐射社会问题，被誉为冉冉升起的太阳。——《时代周刊》 <br />
+<div class="goods-content-title">
+	作者：韩寒
+</div>
+作家，「一个」app监制及主编。<br />
+著有多本散文集和小说，作品常引起广泛关注和争议。2010年被《时代周刊》评选为100名影响世界人物之一。<br />
+职业赛车手，2003年年开始职业赛车生涯，共获六次全国顶级职业锦标赛年度总冠军，是中国唯一一位拉力赛和场地赛双料年度冠军。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<b>Chapter1 跩</b><br />
+你在我的毕业纪念册上写了什么？<br />
+你疯了么？<br />
+韩寒遇到过什么尴尬事？<br />
+范冰冰和李冰冰的区别是什么？<br />
+他们到底在唱什么？<br />
+死后尸体怎么办？<br />
+你爱未出生的宝宝么？<br />
+听说静修很流行？<br />
+男人被强奸怎么办？<br />
+挖煤之后怎么想？<br />
+得了艾滋病，第一时间想什么？<br />
+如何跟踪不被发现？<br />
+被赖账以后怎么办？<br />
+吃肉不环保？<br />
+如何修理公车色狼 ？<br />
+淘宝上谁花钱最多？<br />
+兰溪路名人见过没？<br />
+你痒么？<br />
+如何一眼认出逃票者？<br />
+从私立学校逃出来了么？<br />
+知名人物怎么给后代取名？<br />
+穿得越少越开心？<br />
+如何绷烂上衣？<br />
+人生是什么？<br />
+飞机在空中飞行时驾驶员在做什么？<br />
+嫁给兵哥哥好不好？<br />
+<br />
+<b>Chapter2拧</b><br />
+北京的司局级干部有多少？<br />
+翻墙上网违法么？<br />
+&nbsp;“非典”后遗症是什么？<br />
+红十字会秘书长什么感受？<br />
+拍到华南虎了没？<br />
+结婚和户口有啥关系？<br />
+洒水车非得放《十五的月亮》？<br />
+两会代表怎么住？<br />
+寺庙香火钱去哪儿了？<br />
+酒驾被拘能住宾馆？<br />
+如何掌握黄晓明的行踪？<br />
+先抓钱还是先抓人？<br />
+五毛怎么挣钱？<br />
+没有站台票，怎么送姑娘？<br />
+如何监测老公的奸情？<br />
+保健局为谁保健？<br />
+部委大门怎么进？<br />
+怎样战胜拆迁队？<br />
+话费套餐能记住么？<br />
+CCAV爽不爽？<br />
+食品特供有多神秘？<br />
+故宫的文物去哪儿了？<br />
+中国在你脑中是什么概念？<br />
+<br />
+<b>Chapter3轴</b><br />
+女人的肚脐眼比男人的好看？<br />
+人的表皮脏不脏？<br />
+害羞和脸红的关系？<br />
+矮个子更喜欢出风头？<br />
+金鱼是如何被青蛙那个的？<br />
+怎样喝水?怎样看待肾？<br />
+中医（不）靠谱么？<br />
+人类会输得很惨吗？<br />
+冷血真的无情么？<br />
+章鱼真的很聪明？<br />
+拈花花会哭么？<br />
+蛋疼有多疼？<br />
+幻想和臆想的界限在哪儿？<br />
+为什么蟑螂死的时候总是四脚朝天？<br />
+爱哭是种病么？<br />
+丝网印刷是个什么玩意儿？<br />
+<br />
+<b>Chapter4装</b><br />
+文艺气息如何体现？<br />
+永远有多远？<br />
+失明后怎样认识世界？<br />
+什么是纯情？<br />
+钢琴家是如何记谱的？<br />
+外国人亲嘴儿的声音跟中国人不一样？72. 蒋方舟对婚前性行为怎么看？<br />
+为什么读书人普遍比较抠门儿？<br />
+女人聪明漂亮就一定名利双收？<br />
+好电影是因何而好？<br />
+开书店好玩么？<br />
+微博营销真有那么好？<br />
+好照片的真谛在哪儿？<br />
+书法是怎么一回事？<br />
+朴树最近在忙什么?幸福么？<br />
+究竟什么是“低俗文化”？<br />
+于丹是如何做学问的？<br />
+电影《洛丽塔》为何译成“一树梨花压海棠” ？<br />
+高晓松怎样重新解读“睡在我上铺的兄弟” ？<br />
+石康怎样看待科学、宗教以及人生？<br />
+拍卖中了又不想要怎么办？<br />
+悬疑作家怕不怕看鬼片？<br />
+<br />
+<b>Chapter5恋</b><br />
+中学需涉及同性恋教育吗？<br />
+学者喜欢什么样的女孩？<br />
+原配问小三一些事儿？<br />
+男人为什么喜欢口爱？<br />
+不能给高潮是否会导致分手？<br />
+连岳有爱情宝典吗？<br />
+如何看待老公以外的性？<br />
+梦里的伤害算不算伤害？<br />
+老婆就是妹妹？<br />
+怎样才能追到你？<br />
+如何获得苍井空？<br />
+谁帮我实现梦想？<br />
+不刺激怎么办？<br />
+GAY和拉拉可以做好朋友吗？<br />
+父母之间有爱吗？<br />
+如何被勾搭？<br />
+你们如何因“一个”结束暧昧在一起的？？<br />
+男生用白色手机很娘吗？<br />
+暧昧是什么？<br />
+女友和妈妈同时落水先救谁？ <br />
+<div class="goods-content-title">
+	在线试读
+</div>
+Q：化腐朽为绵掌问韩寒<br />
+你记忆中的尴尬事是什么啊？说来听听。<br />
+A：韩寒答化腐朽为绵掌<br />
+1．上学，食堂吃完午饭，向心仪的女孩子表白，她一直异样地看着我。后来才知道我脸上挂着饭粒。<br />
+2．几年前，电话采访，说半天驴唇不对马嘴，于是想在电话本里把这个记者的名字存成“傻记者，再不接”，手机是诺基亚的塞班系统，一走神把存入电话本选成了发送一个信息，脑子抽筋了居然没发现，直到按确认，手机显示信息已发送才回过神。恨不得空中把这消息抓回来。揪心等待半天，记者回了个短信，是省略号。出于愧疚，以后每次都接他电话采访。<br />
+3．汽车比赛试车，上去开了半天，感觉不对，指责车队将我的幸运反光镜以及女朋友送的爱心排档头都换了。车队问半天，没查出是哪个技师干的。我再去检查时又完好如初。大家百思不得其解。直到某天我为队友试车，才发现那次是我自己爬错了一台。<br />
+4．有次开车，红灯停车，被追尾，下车，后车司机愤怒道：“你为什么踩刹车？”我居然条件反射来了一句“对不起”。缓过神来才问对方：“你为什么不踩刹车？”<br />
+5．小学放学都是骑自行车回家，从大马路拐到回家的小路是个下坡的高速弯，每次都喜欢全速下坡，享受劈弯快感。弯道边是个老人活动室，观众多，所以更兴奋。终于有一次在众目睽睽之下摔得鼻青脸肿。因为我忘了自己那天是从马路的反方向骑过来的。<br />
+6．初中第一次约会，骑车后座带女孩子，蹬得格外卖力，链条断了。<br />
+7．好几年前，记者问我对网络恶搞你是同性恋怎么看，你是攻是受。当时不懂攻和受的意思，回了一句，我当然是公。<br />
+<br />
+<b>我不要被他看见／李承鹏</b><br />
+小时候看过一部日本电影——《砂器》，讲战后一对流浪汉父子的。他们在雨地里赶路，在崎岖的山路上跋涉，在大雪飘飞的农舍前乞讨，当儿子被富家子弟殴打时，父亲拼命用身体挡住拳头和棍棒而后滚落到路边的水沟。有一个镜头：大雪天里父亲讨来一碗粥，在沙锅里煮热让儿子喝，儿子又让他先喝，他去尝试温度，结果嘴烫起大泡原地乱跳，俩人却哈哈大笑……这个其实温暖的镜头却让我哭了，现在也不知为何。<br />
+<br />
+后来父亲得了麻风病，儿子被养父收留，又逃跑。后机缘巧合学了钢琴，成为东京一名崭露头角的艺术家。这时养父无意间发现了他，让他去见亲生父亲。正在跟大金融家女儿谈婚论嫁的他为了掩盖出身，在车站把养父杀死了。后来侦破的过程很复杂，最后的情景是：警视厅探员把钢琴家的照片递到麻风病的亲生父亲面前时，父亲为保全儿子，拒绝承认这是他儿子，但看着照片，老泪纵横……<br />
+<br />
+这个被评为日本人性侦破系列电影最经典画面的镜头，我倒没哭，当时我还不明白父亲不承认这是他儿子的原因。等我明白时，已为人父。<br />
+<br />
+我已明白，父亲便是世上最不堪的那个斗士。你要问我当上父亲最主要的体会，就是这个回答。其实我们的父亲没有一师那么神武，也没有《至高无上》那般不怒自威，也没好莱坞父亲那样挺拔高大，他们中的大多数为生活所困，面色无光，有些不大不小的疾病。其中一些连感情也并不如意，很年轻就苍孙甚至显出一些猥琐来。可他们爱孩子，不落下任何一场战斗。<br />
+<br />
+我家小区有个常客，姓周。到现在也不知他叫什么，只叫他周大爷。他是小区里捡垃圾的。不是你们想象中那种很邋遢的垃圾大爷，为了不引起别人反感，他总是衣着干净，见人很礼貌地打招呼并熟知大多数人的尊称，那辆板车精心地从不掉下任何垃圾，即使收垃圾也不会乱翻一气，很仔细地把他需要的纸板盒、废旧电池归类，把不要的垃圾放到回收袋以便正规垃圾车处理。保安也不赶他，后来我才知道他儿子是另一小区保安。我曾经觉得他儿子很不孝，后来才知其实他儿子极力反对他这么干，曾经把他锁在屋里不让出来。可是每回他都会偷偷跑来捡垃圾，骗儿子在家政公司找了差事。<br />
+<br />
+他偶尔会到我家来收一些纸盒，我妈会留他吃饭，每回他都虔诚地向我家供的观音作揖。我跟他交谈过一次，他说，知道这样丢人，但要为儿子在城里买房子，再捡半年，差不多首付就有了。<br />
+<br />
+中国的父亲跟全世界的父亲有些不同，由于众所周知以及众所不周知的原因，他们是要牺牲尊严来养活家庭的。周大爷幸运。另外的比如违章小贩夏俊峰，当一个父亲只是为让儿子学画，上街摆摊，最终竟至杀人，可想见当他挥刀而向两个身形巨大的城管蚍蜉撼树时，内心该多悲凉。<br />
+<br />
+你问我父亲，他是个神经质的音乐指挥，形象和性格都有些像《虎口脱险》里的那个。军人出身，暴躁。我很小的时候，他便逼我练琴，我若不从或反复弹错，他便要打。可是我从小身形敏捷，闪躲灵活，多少次跟他上演汤姆和小吉瑞的场景。有次我钻到床下面去（新疆兵团那种床，下面可藏半个班），他跟着钻进来，我在里面用扫帚对抗，引发了床板的坍塌，他鼻梁都砸出血了……还有次，学校发冻肉，可是冻过分了，菜刀根本切不开，我俩在院子里用开山斧使劲砍，我砍时大叫“砍死爸爸”，他听后，就哭了。这是他唯一一次在我面前哭。<br />
+<br />
+我现在也没问过他为什么哭，不必问了。<br />
+<br />
+后来他跟我母亲离异，我随母亲回四川，由于母亲的坚持、法院的判决，父子之间被迫聚少离多。后来知道他有些落魄，再婚也不幸福，小女儿也有些状况……我三十那年有过一次很隆重的见面，我给他买了很多衣服，他很开心，就是大家都明白的那种老孩子似的开心。我注意到，他把西服的扣子一口气扣到了最下摆，浑然不觉。<br />
+<br />
+下个月我会按计划跟他好好待上一段时间，开车带他在黄河边上走一走。小时候他带我走，现在我带他走，以后我儿子带我走。我爸是如此不堪的一个斗士，他想把我培养成一个音乐大师，我成了码字师傅。他想把我儿子培养成一个音乐大师，可我决定把珂仔培养成一个网球大师。他很神伤，觉得此生理想栽在两代人上了。那次临走前，他大声喊着，看，珂仔的手指这么长，这么长，可惜了。<br />
+<br />
+在中国，每个父亲在子女眼里，都是不堪的。父亲却是我们内心一块假装文身的伤疤，我们爱他。所以你问我跟父亲有什么不同，最大的不同就是：他想让我成为什么，我一定不成为什么。想必很多人跟我是一样的。也不知为何。<br />
+剩下的就是相同的。<br />
+<br />
+无法摆脱这些相同或者不同。<br />
+<br />
+我们都知道，倘若孩子们发现我们的不堪，才是我们最大的不堪。我小心翼翼隐藏住自己不堪的奋斗，努力挣钱，每天把胡须刮得干干净净，穿着整洁的衣服，让他觉得父亲其实潇洒和浪漫，不甘人后，不输于人，成竹在胸。<br />
+我不要珂仔看出我的不堪。<br />
+<br />
+Q： Aab问蒋方舟三个问题：<br />
+1．你平时那么忙，大学里学习成绩怎么样，挂过科吗？2．你理想中的男朋友是什么样子的？3．你对婚前性行为怎么看，自己可以接受吗？<br />
+A：蒋方舟答Aab<br />
+1．没挂过科。但成绩也不算顶好，中上而已。大概因为我对成绩不十分在乎，三分力挣得七成分数已经心满意足。但是自己在乎的科目会学得很卖力，选修过一门经济学的课，还得了相当不错的分数。<br />
+2．有些基本的条件，首先不能太笨—我有轻微的智力歧视症；其次不能太俗气—我身上也自带着俗气探测仪，视野和目标都要大一点。除此之外，我希望他是跟我相反的人，温暖而不像我冷漠，会玩而不像我了无生趣，简单而不像我东想西想，行动力强而不像我畏葸懒惰。更奢侈的理想，就是他能改进我而不只是改变我。3．我没想过这个问题，觉得有点早。我的性伦理基本停留在五岁女童的认知水平，觉得“婚前性行为”道义上不太好，不太干净。但从实用的角度看，还是婚前试用过比较保险，婚姻的成功率似乎也比较高。 <br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A500022262625', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A500022262625', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A500022262625', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A500022262625', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A500022262625'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shz" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shz"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

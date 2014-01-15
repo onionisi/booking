@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/0/f/B770018807819_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/0/f/B770018807819_1.jpg">
+        <h2>快书包&莲子蓝印花布中药腕枕+快书包&莲子蓝印花布中药坐垫</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥109.00元</b> <del>¥179.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：件&nbsp;(1件=腕枕一个+坐垫一个)</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/f/B770018807819_1.jpg','快书包&莲子蓝印花布中药腕枕+快书包&莲子蓝印花布中药坐垫-追古抚今，意蕴悠长，充满传统文化气息。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div style="outline-width:0px;white-space:normal;" class="goods-content-title">
+	<a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/heniantang_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/heniantang_conte.jpg"></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"><a href="http://www.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/yangshengdiary_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/yangshengdiary_conte.jpg"></a></a></a><br />
+<a href="http://bj.kuaishubao.com/c/105106-1-1.html" target="_blank"><a href="http://www.kuaishubao.com/c/105106-1-1.html" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/lianzi_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/lianzi_conte.jpg"></a></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"><a href="http://www.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/zhengan_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/zhengan_conte.jpg"></a></a></a><br />
+</div>
+<div class="goods-content-title">
+	商品参数
+</div>
+<b>快书包&amp;莲子蓝印花布中药腕枕</b><br />
+【品牌】快书包&amp;莲子<br />
+【材质】蓝印花布、中药药包<br />
+【款式风格】复古<br />
+【尺寸】长15cm 宽9cm，厚4cm（手工制品 大约尺寸）<br />
+【有效期】半年左右<br />
+【设计师】@莲子清如许&nbsp; 医学博士，北京某三甲医院医师<br />
+【使用方法】使用鼠标时将其垫于手腕底部，使手腕靠近药包，以个人舒适位置为宜<br />
+【产品效用】通过在手腕附近形成中药芳香烃气雾圈，活血行气，渗透入手腕皮肤，扩张毛孔，打通穴位，促进经络气血循环，缓解长期固定悬空手腕造成的疲劳僵硬感，防止腱鞘炎（俗称“鼠标手”）。<br />
+<br />
+<b>快书包&amp;莲子蓝印花布中药坐垫</b><br />
+【品牌】快书包&amp;莲子<br />
+【设计师】@莲子清如许&nbsp; 女，医学博士，北京某三甲医院医师<br />
+【材质】蓝印花布、中药药包<br />
+【尺寸】长45cm 宽45cm，厚5cm（手工制品 大约尺寸）<br />
+【有效期】一年左右<br />
+【款式风格】复古<br />
+【使用方法】放于椅面或打坐时使用等<br />
+【工艺构成】选用百年老字号鹤年堂精制饮片黄柏、苍术、艾绒等天然药物，按照中医“君、臣、佐、使”组方配伍，外布精选传统蓝印花布，可拆洗外套，手工缝制而成。<br />
+【产品效用】通过在会阴穴附近形成中药芳香烃气雾圈，活血祛湿，扶正祛邪暖宫、芳香避秽，改善久坐者下体循环不良症状，痔疮，妇科各种症状，男性前列腺尿路症状，各种难言之隐等。 <br />
+<div class="goods-content-title">
+	<b>快书包&amp;莲子蓝印花布中药腕枕</b>实拍图
+</div>
+<b>图一：中药腕枕图片</b><br />
+这款特殊定制的中药腕枕，外布蓝印花布采用篆书“百寿图”纹样，追古抚今，意蕴悠长，充满传统文化气息。<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A750018285868_xt_cj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A750018285868_xt_cj_8.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A750018285868_xt_cj_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A750018285868_xt_cj_9.jpg"></a><br />
+<br />
+<b>图二：中药腕枕包装图</b><br />
+选用百年老字号鹤年堂精制饮片川芎、白芷、冰片、霍香、佩兰、艾草等天然药物，按照中医“君、臣、佐、使”组方配伍，按照人体工程理学原理塑形，外布精选亲肤棉麻美布，手工缝制而成。<br />
+&nbsp;<span style="white-space:normal;"></span><a href="http://pic.kuaishubao.com/picdata/goods/7/9/A750018285868_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A750018285868_xt_cj_2.jpg"></a><br />
+<br />
+<b>图三：中药腕枕场景图</b><br />
+中药腕枕适用于长期使用鼠标的人群使用，通过在手腕附近形成较高浓度的中药芳香烃气雾圈，活血行气，渗透入手腕皮肤，扩张毛孔，打通穴位，促进经络气血循环。<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A750018285868_xt_cj_10.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A750018285868_xt_cj_10.jpg"></a><br />
+<div class="goods-content-title">
+	<b>快书包&amp;莲子蓝印花布中药坐垫</b>实拍图
+</div>
+<b>图一：蓝印花布中药坐垫实拍图</b><br />
+<p style="text-align:left;" class="MsoNormal" align="left">
+	<span style="line-height:150%;font-family:宋体;font-size:12pt;">这款特殊定制的中药坐垫，外布蓝印花布采用甲骨文图案，追古抚今，意蕴悠长，充满传统文化气息。带有拉链封口，外套便于拆洗清洁。<span></span></span> 
+</p>
+<br />
+&nbsp;<a href="http://pic.kuaishubao.com/picdata/goods/0/1/A560018286001_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/1/A560018286001_xt_cj_1.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/0/1/A560018286001_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/1/A560018286001_xt_cj_2.jpg"></a><br />
+<br />
+<b>图二：<b>蓝印花布中药坐垫场景图</b></b><br />
+<span style="font-family:宋体;font-size:12pt;">中药坐垫主要适用于长期久坐下体循环不良人群使用。</span><br />
+&nbsp;<span style="white-space:normal;"></span><a href="http://pic.kuaishubao.com/picdata/goods/0/f/A560018286001_xt_cj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/f/A560018286001_xt_cj_5.jpg"></a><br />
+<br />
+<div class="goods-content-title">
+	蓝印花布的故事
+</div>
+蓝印花布是一种历史悠久的传统手工印染制品。传说有一个姓梅的小伙子不小心摔了一跤，摔在了泥地里，衣服变成了黄颜色，怎么洗也洗不掉，但人们看到后却很喜欢，然后他就把这件事告诉他一个姓葛的好朋友。后来他俩就专门从事把布染成黄色，又有一个很偶然的机会，他们把布晾在树枝上晒干时不小心被风吹到了地上，地上正好有一堆蓼蓝草，也就是现在所说的板蓝根草，它里面有一种成分叫靛蓝，可以把布染成蓝色，等他们发现这块布的时候，黄布已变成了一块花布，“青一块、蓝一块”他们想这奥秘肯定在这个草上，此后，两人又经过多次研究，终于把布染成了蓝布，梅葛两位先生也就成为了蓝印花布的祖师爷。 <br />
+<div class="goods-content-title">
+	商品特点
+</div>
+<b>古文纹样，仓颉之美</b><br />
+这款特殊定制的中药腕枕，外布蓝印花布采用篆书“百寿图”纹样，追古抚今，意蕴悠长，充满传统文化气息。<br />
+中药腕枕主要适用于长期使用鼠标的人群使用，通过在手腕附近形成较高浓度的中药芳香烃气雾圈，活血行气，渗透入手腕皮肤，扩张毛孔，打通穴位，促进经络气血循环。通过符合人体工程力学的腕枕支撑作用，缓解长期固定悬空手腕造成的疲劳僵硬感，防止腱鞘炎（俗称“鼠标手”），采用天然芳香药物，将多种成分挥发，如挥发油、醇、脂、烯、酮等科学的组合在一起，通过口鼻、皮肤毛孔直接吸收药物之精华，同时具有疏肝理气，提神醒脑、芳香化浊、居室辟秽的作用，四季使用能抗抑郁，调节神经，平衡脏腑，激发活力，修复损伤组织，经常使用令人气定神闲。<br />
+<br />
+<b>快书包&amp;莲子 蓝印花布中药腕枕</b><br />
+快书包&amp;莲子 蓝印花布中药腕枕，由快书包向 @莲子清如许 特别定制。<br />
+@莲子清如许 医学博士，是北京某三甲医院主治医师，也是一位自由设计师和手工爱好者，尤其热爱使用自然素材和中国元素的设计。她同时是一位超级书虫，更是一直陪伴快书包成长的超级顾客。<br />
+蓝印花布中药腕枕印唛上的“快书包”及“莲子清如许”徽标、由著名设计师胡颖友情设计，感谢 @胡颖设计（新浪微博）。<br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/7/9/A750018285868_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/7/9/A750018285868_xt_cj_6.jpg"></a><br />
+<b><br />
+快书包&amp;莲子 蓝印花布中药坐垫</b><br />
+<br />
+<b>甲骨文纹样，仓颉之美</b><br />
+这款特殊定制的中药坐垫，外布蓝印花布采用甲骨文图案，追古抚今，意蕴悠长，充满传统文化气息。带有拉链封口，外套便于拆洗清洁。<br />
+中药坐垫主要适用于长期久坐下体循环不良人群使用，通过在会阴部会阴穴附近形成较高浓度的中药芳香烃气雾圈，活血行气，渗透入皮肤，扩张毛孔，打通穴位，促进经络气血循环。通过符合人体工程力学的坐垫支撑作用，缓解长期固定久坐造成的臀部疲劳、发凉、僵硬感，防止下体循环不良症状，痔疮，妇科各种症状，男性前列腺尿路症状，各种难言之隐等。采用天然芳香药物，将多种成分挥发，如挥发油、醇、脂、烯、酮等科学的组合在一起，通过口鼻、皮肤毛孔直接吸收药物之精华，同时具有活血化瘀，提神醒脑、芳香化浊、居室辟秽的作用，四季使用能调节神经，平衡脏腑，激发活力，修复损伤组织，经常使用令人气定神闲。<br />
+<br />
+<b>【注意事项】</b><br />
+1.仅供外用，严禁内服；<br />
+2.孕妇、过敏体质者慎用；<br />
+3.皮炎、皮肤溃烂者禁用；<br />
+4.本品不代替药品，仅供预防保健养生专用。<br />
+<div class="goods-content-title">
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('B770018807819', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('B770018807819', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('B770018807819', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('B770018807819', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'B770018807819'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../hzh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../hzh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

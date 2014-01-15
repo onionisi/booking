@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/e/0/A790029774758_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/e/0/A790029774758_1.jpg">
+        <h2>创新者的解答</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥37.80元</b> <del>¥49.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/e/0/A790029774758_1.jpg','创新者的解答-唯有采用破坏性创新，才能使企业保持成长。成为破坏者而非被破坏者，才是成长的关键。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】克莱顿·克里斯坦森 &nbsp;迈克尔·雷纳<br />
+【译者】李瑜偲,林伟,郑欢<br />
+【出版社】中信出版社；2013年10月第2版<br />
+【装订】16开；精装<br />
+【页数】261页<br />
+【印刷】单色<br />
+【ISBN】9787508642079<br />
+【品牌】<span style="color:#666666;white-space:normal;">中信出版社</span> 
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+获选《商业周刊》年度十大财经管理好书之一！<br />
+<br />
+荣获哈佛商学院出版社最佳经管书！<br />
+<br />
+安迪格鲁夫 比尔乔治 周鸿祎联袂推荐<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+最好的公司里只有十分之一能够保持增长。资本市场要求所有的公司寻求这样的机会，并给予失败者毫不留情的打击。为什么持续的增长如此难以实现？按照克里斯坦森和雷纳的说法，失败并不是因为缺乏有能力的领导者，也不是因为客户的需求难以预料，而是因为企业不自觉地放弃了破坏性创新的潜力。<br />
+<br />
+通过对企业的长时间研究，克里斯坦森和雷纳认为创新是保持持续增长的最可靠的途经。他们明确指出了迫使企业主采取错误决策的原因，并提供了新的框架帮助企业主在正确的时间作出正确的决定。<br />
+<br />
+创新者的解答解决了以下问题：<br />
+如何判断一项计划是否具有破坏性？<br />
+什么样的竞争环境有利于成熟企业或入侵者？<br />
+什么样的市场细分能够提供新的增长点？<br />
+那些业务适合外包？<br />
+我们如何投资一项新的业务？<br />
+我们如何选择一位合适的领导者？<br />
+在可能创造利润的领域如何定位自身？<br />
+<br />
+《创新者的窘境》中所述的重要观点——“破坏性创新”，适合政府、企业、组织、个人用以拟定策略，突破成长障碍。如果你怀疑成长终究会碰到极限，如果你不确定新的投资布局，到底会是机遇还是陷阱，那么你将在这本书中找到解答。<br />
+<div class="goods-content-title">
+	名人推荐
+</div>
+《创新者的窘境》一书探究了企业共同的挑战：如何让组织不断向上成长。作者并未陷入化繁为简的陷阱；相反，他们带令读者进入结构严谨的理论架构，指出让组织成长受限的因素以及切实可行的解决方案。<strong>——安迪·格鲁夫 英特尔公司创始人</strong><br />
+<br />
+新加坡，作为一个小国家，相较其他国家来说更需要创新，并时刻对破坏性创新保持高度敏感。克里斯坦森和雷纳为减少创新过程的随机性提供了非常杰出的研究框架。这一框架对于那些致力于创新的企业培育了一个非常有前景的环境。——张铭坚<br />
+新加坡经济发展局主席对于无法保持持续增长的大企业来说，创新者的解答直指内心。克里斯坦森和雷纳对于创新型企业面临的挑战有很深的洞见，他们为应对创新的困境提出了现实的解决方案。这本书对于致力于通过创新保持增长的企业家来说大有裨益。<strong>——比尔·乔治 美敦力前主席和CEO</strong><br />
+<br />
+在互联网里创业必须要创新，创新可能会失败，但不创新肯定会失败。但怎样创新？我的答案是：破坏性创新。就是一定要有与行业巨头不同的打法，玩不同的游戏规则。这既是我多年来的实践中总结的教训，也是反复读《创新者的窘境》和《创新者的解答》的真实感悟。你经历的越多，对这两本书的体会就越深。<strong>——周鸿祎 奇虎360董事长</strong> 
+<div class="goods-content-title">
+	作者：克莱顿·克里斯坦森 迈克尔·雷纳
+</div>
+<b>作者简介</b><br />
+克莱顿·克里斯坦森（ClaytonChristensen）哈佛商学院教授，因其在企业创新方面的深入研究和独到见解，被尊称为“创新大师”。克莱顿·克里斯坦森是畅销管理经典《创新者的窘境》一书作者，此书被《福布斯》评为20世纪最具影响力的20本商业图书之一，并获得多项其他图书奖项。<br />
+<br />
+迈克尔·雷纳（MichaelRaynor）工商管理学博士。德勤研究院的主任之一，该研究院是德勤会计事务所和德勤咨询公司的智囊领袖团队。雷纳的研究、写作与顾问咨询中心是创新与企业策略，探索如何应付通过创新手段不断维持成功的挑战，同时寻找适当方法，帮助经理人应付及善用不确定竞争环境持续变动的需求。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<strong>第一章 &nbsp;被迫成长</strong><br />
+<strong><br />
+第二章 &nbsp;如何战胜最强的竞争对手</strong><br />
+<strong><br />
+第三章 &nbsp;客户希望购买什么样的产品</strong><br />
+<strong><br />
+第四章 &nbsp;我们的产品最适合哪些客户</strong><br />
+<strong><br />
+第五章 </strong><strong>&nbsp;选择正确的业务范围</strong><br />
+<strong><br />
+第六章 &nbsp;如何避免货品化</strong><br />
+<strong><br />
+第七章 &nbsp;你的组织是否有能力实现破坏性成长</strong><br />
+<strong><br />
+第八章 &nbsp;战略开发流程的管理</strong><br />
+<strong><br />
+第九章 &nbsp;钱能载舟，亦能覆舟</strong><br />
+<strong><br />
+第十章 &nbsp;高管在领导新成长业务时所扮演的角色</strong><br />
+<strong><br />
+后 记 &nbsp;传递接力棒</strong><br />
+<strong><br />
+注 释</strong>&nbsp;
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+资金由好转坏的过程中力量会不断增强，犹如向下的螺旋，即使优秀的管理人员也无能为力，只能看着企业走向衰亡。这个螺旋运动有五个步骤。一旦一家企业坠入这个运动轨迹，它就几乎无法阻止后续步伐的到来。<br />
+<br />
+第一步：企业成功<br />
+一家年轻的企业运用应急型策略流程找到一个成功的方案后，就开始推 出第一个产品，以帮助客户比其竞争对手更好地完成一项重要工作。随着制胜策略浮出水面，管理团队将应急型流程从策略制订流程当中剔除出去，审慎地将所有投资重点集中在这一个机遇上。任何可能将资源转移出不断成长的核心业务的行为，都会被坚决制止。这种专注力是此阶段成功的基本要求。<br />
+<br />
+然而，这意味着，当核心业务仍处于蓬勃发展阶段时，新成长业务就没有启 动的可能。<br />
+<br />
+如果这样抓重点，就会使得企业在延续性发展的轨道上领先于那些不够 激进又缺乏重点的竞争对手。由于在高端市场的利润极具吸引力，当企业开始失去低端市场中那些因价格受限而被货品化的业务时，它几乎觉察不到。 退出最低利润产品市场，而进入延续性发展轨道上的较高端产品市场，一般来说感觉不错，因为企业整体的毛利率得到了提高。<br />
+<br />
+第二步：企业面临着成长缺口<br />
+尽管企业获得了成功，高管层很快意识到，他们正面临着一个成长缺口。这是由于华尔街的投资者有种倾向，即将预期的增长纳入股票现值，通过预 期增长达到市场平均水平的股价涨幅。要想使其企业股价涨幅高于市场平均水平，管理者只有使企业的成长率超过投资者建立在当前价格水平上的期望 值。因此，致力于创造股东价值的管理者始终面临着成长缺口，即预计成长速度与为实现高于市场平均回报率所需的成长速度之间的差距。<br />
+<br />
+一般来说，管理人员可以通过延续性创新来满足投资者的预期。投资者 了解企业在目前的竞争对象以及企业在延续性轨道上的增长潜力，并将这些因素贴现到股票的价格上。因此，延续性创新是“维持”公司股价的关键。<br />
+<br />
+而只有创造新的破坏性业务，才能使企业的成长速度超过投资者的预期，并且，这样可以创造出超乎寻常的股东价值。大企业容易低估破坏性企业的 成长潜力，而投资者也同样一直低估破坏性业务的成长潜力（因此也经常获得惊喜），两者的原因是完全相同的。要继续长期地创造股东价值，唯一的途 径就是创建新的破坏性业务。<br />
+<br />
+当一个企业的收入以百万美元为计量单位，管理者为填补成长缺口所需 要的新业务数量——也就是来源未知，而有待贴现的新的收入与利润——也是以百万美元来计量。但当一个企业的收入增长到数十亿美元，这时且不提 要超过投资者的预期，即使是为维持其成长速度所需的新业务的规模，也必须越来越大。在发展过程中的某个时期，企业报表将反映出经济成长减速的情况，这会超出投资者预计，此时投资者意识到他们高估了企业的发展前景，而其股票价格也会遭受沉重打击。<br />
+<br />
+为刺激股价，高管们对外宣称，他们将创造非常高的成长率，这个数值往往大大高于核心业务实际的潜在成长速度。这又给企业带来了一个从未面临过的巨大的成长缺口，企业必须推出新成长产品和服务来填补这个缺口。这时唯一可行的行动方针就是公布一个不切实际的成长率。不愿这样做的高管将被愿意尝试的高管取代。不愿这样尝试的企业将丧失市场资本，直到它们被另外一些迫切希望尝试的企业收购。<br />
+<br />
+第三步：好的投资急不可待想获得增长<br />
+当企业面临着巨大的成长缺口时，它的价值观，也就是在资源分配流程中批准项目的准则，将会发生改变。凡是不能保证填补缺口，并迅速做大的项目，都无法在战略流程中通过资源分配这一关。创造新成长业务的流程就在这里被淘汰掉。当企业的投资资本急于追求成长，好钱就会变成坏钱，因 为这会引起一系列不可避免的错误决定。<br />
+<br />
+创新者为破坏性创新寻求资金，希望能为企业成长提供燃料，并带来高 额利润，这时却发现，由于发展得不够快、不够大，所以他们放出去探路的气球都被打爆了。大多数破坏性业务的管理者都无法言之凿凿，保证能带动 业务快速迅猛地发展，因为新市场破坏性创新意味着要打破零消费市场，必须遵循应急型战略流程。如果强迫他们承诺高成长率，也就等于迫使他们在宣布战略时，必须表现出有充分的信心将创新项目带入现有的大型市场，并维持其成长规模。这就等同于背离了破坏性创新的初衷，跑到已有的消费市场去竞争。<br />
+<br />
+在高管们批准拨款支持这个充满水分的成长计划后，企业的管理者就不能再回头去寻求能在零消费市场竞争的应急型策略。他们已经被套牢，必须继续实施其承诺的计划，因此，必须不断地向该计划扔钱。<br />
+<br />
+第四步：高管暂时性地忍受亏损<br />
+一切开始变得清晰，在一个大型的、明显的消费市场中展开竞争，是一项昂贵的挑战，因为如果要顾客购买某件产品，那么这件产品必须比客户正在使用的产品性能更好。整个团队提醒高管，要想获得第一桶金，就必须首先承受巨大损失。高管们决心从企业的长远利益出发，因此他们接受了企业业务在相当一段时间内将承受巨大损失的现实，于是他们没有后路可退。高管们说服自己，为成长注入资金，最终会带来成长，就好像两者之间有着线性关系，就好像你越积极地投资建立新的业务，新业务就会更快地启动。<br />
+<br />
+为了配合好预算时间表，按时推出产品并试行大量投产，在获得收入之前，管理者就规划好成本结构，而由于他们必须尽快获得高收入，那么成本也将是巨大的。但是投入过多将会危害到一个新业务的健康发展，因为沉重的开支水平反过来也决定了客户类型，以及市场能否带来足够的收入以支付这些费用。如果发生这种情况，那么新兴市场的零消费客户会偏向于简单产品。简言之，破坏性投资的理想客户，必然对企业来说失去吸引力。而理想的渠道，也就是需要资金来推动自身在市场的破坏性增长，以打击竞争者，也变得没有吸引力了。似乎只有达到人口最多的市场的最大渠道，才能够快速带来足够的收入。<br />
+<br />
+这就使企业的资金性质完成了转变。好钱变成了坏钱：急于看到业务发展，而忍受利润的停滞。<br />
+<br />
+第五步：不断攀升的损失引发经费缩减<br />
+当项目经理试图通过在常规消费市场竞争来获得成功时，他们发现，客户愿意继续从他们一直信任的厂商处购买他们一直使用的产品，这背后原因颇多。基本上可归结为我们在第五章中讨论过的交互关系。突破性的延续性创新很少打入现有市场中。通常情况下，要想让客户受益于新产品就需要作出很多意料之外的改变。尽管收入不见起色，但预算中的费用不见降低。损失增加，股票价格再遭重创，这时投资者重新认识到，他们对成长的期望已成镜花水月。<br />
+<br />
+新的管理团队马上到位，来挽救遭受重创的股票价格。为了止住资金流失，新团队停止了除维持核心业务活力的花费以外的所有支出。重新立足于核心业务是个好消息，这是促进业务表现进步的一个屡试不爽的准则，因为企业的资源、流程和价值观都是为这项任务而服务的。股票价格以反弹作出反应，但只要新的股价完全消化掉核心业务存在的增长潜力，新的高管层就认识到，他们必须继续投资才能成长。但现在企业面临着更大的成长缺口，<br />
+<br />
+形势又循环回到第三步，也就是该企业需要发展更快更大的创新业务。这种压力造成管理层重复犯下悲剧性的错误决定，直到许多价值开始出现损失，企业最后被其他企业收购，而收购方本身也是通过破坏性业务促进发展，只是把收购看做一种用以降低成本的协作机会。<br />
+……<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A790029774758', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A790029774758', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A790029774758', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A790029774758', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A790029774758'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../hzh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../hzh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

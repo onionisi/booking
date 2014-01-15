@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/d/9/D130030364816_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/d/9/D130030364816_1.jpg">
+        <h2>莫后年代 莫文蔚20周年巡回演唱会北京站 12月20日980元票</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥980.00元</b> <del>¥980.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：张</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/d/9/D130030364816_1.jpg','莫后年代 莫文蔚20周年巡回演唱会北京站 12月20日980元票-出道20年倾情演绎“莫氏情歌”，剧场特别版首次与歌迷近距离互动。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div style="outline-width:0px;white-space:normal;" class="goods-content-title">
+	购票说明<br />
+</div>
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">快书包售票业务处于试运行阶段，目前演出票仅开通北京市（限购买北京 演出票）、深圳市（限购买深圳演出票）、杭州（限购买杭州演出票）、 成都（限购买成都演出票）、西安（限购买西安演出票）、上海（限购卖 上海演出票）部分区域：</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">北京一小时到货区域：老东城区（不含新东城）、朝阳门外、三里屯地区 。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">北京次日到货区域：除以上区域外，快书包在北京已开通一小时到货服务 的其他区域，目前还暂不支持演出票的一小时到货，您在这些区域购票， 我们将与您约定时间，在次日为您送达。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<span style="font-family:Arial, sans-serif;white-space:normal;">上海、西安、杭州、成都、西安演出票配送区域请查询：</span><a style="font-family:Arial, sans-serif;white-space:normal;" href="http://chd.kuaishubao.com/doc/help/peisongchaxun.html" target="_blank">城市 配送范围查询</a><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;white-space:normal;" />
+<b style="font-family:Arial, sans-serif;white-space:normal;">防伪保证：</b><span style="font-family:Arial, sans-serif;white-space:normal;">快书包销售的所有演出票，均获得该演出票务代理正式 授权，每票均有防伪标识。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<b style="font-family:Arial, sans-serif;white-space:normal;">关于退换：</b><span style="font-family:Arial, sans-serif;white-space:normal;">按照演出票务惯例，除演出取消外，售出演出票一律不 可退、换。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<b style="font-family:Arial, sans-serif;white-space:normal;">可购城市：</b><span style="font-family:Arial, sans-serif;white-space:normal;">请您留意可购票城市，本城市演出，我们仅在本城市售 票。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<b style="font-family:Arial, sans-serif;white-space:normal;">关于选座：</b><span style="font-family:Arial, sans-serif;white-space:normal;">我们目前尚不支持选座，您购买某价位演出票，我们将 根据该价位可售座位为您随机出票。</span><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div style="outline-width:0px;white-space:normal;" class="goods-content-title">
+	演出场馆：<br />
+</div>
+<b style="font-family:Arial, sans-serif;white-space:normal;">北京展览馆剧场</b><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div style="outline-width:0px;white-space:normal;" class="goods-content-title">
+	演出时间：<br />
+</div>
+<b style="font-family:Arial, sans-serif;white-space:normal;">12月20日 周五 19:30</b><br style="font-family:Arial, sans-serif;white-space:normal;" />
+<div style="outline-width:0px;white-space:normal;" class="goods-content-title">
+	演出详情：<br />
+</div>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/9/f/D970030364763_xt_cj_666.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/f/D970030364763_xt_cj_666.jpg"></a><br />
+<br />
+	<div style="text-align:left;">
+		<strong style="white-space:normal;">莫文蔚莫后年代巡回演唱会</strong><br />
+2013莫文蔚莫后年代演唱会北京站将于12月20日至21日在北京展览馆剧场演出，莫文蔚1970在香港出生，是歌、影、视、广告、舞台剧的全方位天后级艺人。她入行至今已发行专辑超过30张，参演电影接近50部并举行过30余场个人演唱会。她是娱乐圈中公认的才女，能讲多国语言，曾获得第一届“香港杰出学生奖”。1996凭借电影《堕落天使》中的出色表现分别夺得金紫荆奖和金像奖最佳女配角奖，她还是2003年和2011年两届金曲奖最佳女歌手得主。<br />
+<br />
+		<div style="text-align:center;">
+			 
+		</div>
+<strong>倾力打造剧院版演出精装连唱三晚大获期待</strong><br />
+回顾莫文蔚以往的巡回演出，诸多精彩瞬间无不让歌迷为之尖叫着迷。性感装束、弹奏古筝、横卧钢琴大秀舞技……除了展露扎实的唱功之外，莫文蔚更是从不吝啬秀出自己的娇好身材，2009年举办的演唱会更是一度被媒体称为“年度最好看的演唱会”，成为一时佳话。<br />
+<br />
+此次，莫文蔚将突破传统演唱会类型，首度选址北京展览馆剧场，力求高端精装，带来特别的“剧院”版演唱会，用音乐与歌迷作最亲密的交流和互动。除了舞台距离拉近，莫文蔚与生俱来的舞台魅力和世界级别的演出经历也成为此次演唱会加足了砝码。她曾出演了多部舞台剧，更是著名百老汇歌剧《吉屋招租》中惟一一位参演并担当主角的亚洲女艺人，与百老汇顶尖演员合作。<br />
+<br />
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/9/f/D970030364763_xt_cj_78.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/f/D970030364763_xt_cj_78.jpg"></a> 
+		</div>
+		<div style="text-align:center;">
+			<a href="http://pic.kuaishubao.com/picdata/goods/9/f/D970030364763_xt_cj_67.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/f/D970030364763_xt_cj_67.jpg"></a><br />
+		</div>
+<strong>大玩混搭演绎爵士新作 劲爆金曲悉数连唱</strong><br />
+“华人天后”莫文蔚在华语乐坛创下众多经典金曲，曾先后两次封获“金曲奖最佳女歌手”宝座，2008年，她更是凭自己担任制作人的专辑《拉活莫文蔚》勇夺“金曲奖最佳专辑”大奖……莫文蔚在音乐上的才华和突破，一直以来也给人留下深刻印象。年初，在她踏入乐坛的第二十个年头推出了首张全球发行的英文爵士专辑《Somewhere I Belong》 ，其中对经典爵士的重新演绎，加入中国古典乐器的混搭，耗时22个月才完成的作品让更多人认识了不一样的Karen。在此次巡演中，莫文蔚也将会变身“东方爵士名伶”，现场演绎这张专辑中的多首作品。<br />
+		<div style="text-align:center;">
+			<br />
+		</div>
+此外，莫文蔚当然不会让喜爱她的歌迷错过经典的“莫氏情歌”，此次演出将《广岛之恋》、《电台情歌》、《盛夏的果实》、《他不爱我》、《阴天》等脍炙人口的曲目一网打尽，当年让痴男怨女听到落泪的动人情歌一曲曲重现之时，即使在剧院中，也会北京歌迷与Karen互动的全场大合唱，相信别有一番风味。<br />
+<br />
+<strong>20周年回顾展览即将开幕 或携个展与内地巡演同时举行</strong><br />
+为了纪念出道20周年，“华人天后”莫文蔚的个人展览《莫后年代——莫文蔚20周年展览》将于9月15至21日于香港举行，届时将展出她从艺至今所获得各类奖项、历次巡演演出戏服及电影剧照等珍贵资料，包括了从未曝光过的独家纪录。据了解，本次展览以闪耀迷人的“后台”为主题，展现这位歌影时尚天后的摄人风采。<br />
+<br />
+在《莫后年代》的概念中，:“莫”代表莫文蔚，粤音为“幕”；“后”代表天后，是对这位金曲乐后实力的封号，也是幕后的简体写法。对莫文蔚本人和歌迷来说，这次的回顾之旅将意义非凡，在接受记者的采访时莫文蔚表示：“这次展览是献给爱惜自己的人，希望让粉丝们揭开我20年来的神秘面纱，其中有很多从未曝光的物品和相片。”于此，Karen非常希望能借巡演的机会，将《莫后年代——莫文蔚20周年展览》带到内地各大城市，与更多的歌迷见面！<br />
+<br />
+2013莫文蔚莫后年代演唱会北京站敬请期待！
+	</div>
+</div>
+<span style="font-family:Arial, sans-serif;white-space:normal;"> 
+<div style="outline-width:0px;" class="goods-content-title">
+	温馨提示：<br />
+</div>
+<b></b>1.2米以下儿童谢绝入场（儿童项目除外），1.2米以上儿童需持票入场。</span>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('D130030364816', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('D130030364816', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('D130030364816', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('D130030364816', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'D130030364816'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

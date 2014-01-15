@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/9/d/A640030210083_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/9/d/A640030210083_1.jpg">
+        <h2>茶人岭兰香子250g</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥32.00元</b> <del>¥90.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：罐</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/9/d/A640030210083_1.jpg','茶人岭兰香子250g-可以作为饮料的种子，具有排毒、清热、健脾、养胃、减肥保健等功效。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b>快书包推荐：该品牌还有其他产品，链接：</b><a href="http://bj.kuaishubao.com/g/A740030210142.html" target="_blank"><u>茶人岭柠檬片</u></a>&nbsp;<a href="http://bj.kuaishubao.com/g/A850030209993.html" target="_blank"><u>茶人岭青木瓜粉</u></a></span> 
+</div>
+<div class="goods-content-title" style="white-space:normal;">
+	商品参数
+</div>
+<p style="white-space:normal;">
+	<span style="color:#666666;">【产地】安徽毫州</span> 
+</p>
+<p style="white-space:normal;">
+	<span style="color:#666666;">【商品名】茶人岭兰香子</span> 
+</p>
+<span style="white-space:normal;color:#666666;">【品牌名】</span><span style="white-space:normal;color:#666666;">茶人岭</span><br style="white-space:normal;" />
+<p style="white-space:normal;">
+	<span style="color:#666666;">【配料表】<span style="color:#666666;white-space:normal;">兰香子</span></span> 
+</p>
+<p style="white-space:normal;">
+	<span style="color:#666666;">【净含量】250克</span> 
+</p>
+<span style="white-space:normal;color:#666666;">【保质期】24个月</span><br style="white-space:normal;" />
+<span style="white-space:normal;color:#666666;">【生产商】安徽亿源中药饮片科技有限公司</span><br style="white-space:normal;" />
+<p style="white-space:normal;">
+	<span style="color:#666666;">【生产许可证】QS341614020181</span> 
+</p>
+<p style="white-space:normal;">
+	<span style="color:#666666;">【贮存方法】 密封、防潮、防晒、防异味</span> 
+</p>
+<div class="goods-content-title" style="white-space:normal;">
+	商品详图
+</div>
+<p style="white-space:normal;">
+	<strong><strong>图一：<span style="color:#000000;white-space:normal;">茶人岭兰香子</span>包装图<br />
+</strong></strong> 
+</p>
+<div style="text-align:center;">
+	<strong><strong> <strong><strong><strong style="white-space:normal;"> 
+	<div style="text-align:center;">
+		<strong><strong style="text-align:center;white-space:normal;"><a href="http://pic.kuaishubao.com/picdata/goods/9/d/A640030210083_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/d/A640030210083_xt_cj_1.jpg"></a></strong><br />
+</strong> 
+	</div>
+</strong></strong></strong> </strong></strong> 
+</div>
+<br />
+图二：<strong style="white-space:normal;">茶人岭兰香子图</strong> 
+<p>
+	<br />
+</p>
+<p style="white-space:normal;">
+	<br />
+</p>
+<p style="text-align:center;white-space:normal;">
+	<strong style="white-space:normal;"> </strong> 
+</p>
+<div style="text-align:center;">
+	<strong style="white-space:normal;"> <strong><a href="http://pic.kuaishubao.com/picdata/goods/9/d/A640030210083_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/d/A640030210083_xt_cj_2.jpg"></a></strong> </strong> 
+</div>
+<strong style="white-space:normal;"> </strong> 
+<p>
+	<br />
+</p>
+<p style="white-space:normal;">
+	<strong style="white-space:normal;">图三：<strong>茶人岭兰香子饮用图</strong></strong><br />
+<strong style="white-space:normal;"> </strong> 
+</p>
+<div style="text-align:center;">
+	<strong style="white-space:normal;"> <strong><a href="http://pic.kuaishubao.com/picdata/goods/9/d/A640030210083_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/d/A640030210083_xt_cj_3.jpg"></a></strong> </strong> 
+</div>
+<strong style="white-space:normal;"> </strong> 
+<p>
+	<br />
+</p>
+<div class="goods-content-title" style="white-space:normal;">
+	商品特点
+</div>
+<p style="white-space:normal;">
+	<strong>兰香子也叫明列子，又称罗勒籽。是一种叫“山香”植物的成熟果实，其大小如芝麻，内含于果实中，颗粒饱满圆润，滑溜不粘稠，乌黑光亮，入喉口感佳，有黑金砂，其意义为──天然食材，物超所值，比黄金还贵。在东南亚曾一度被认为是稀有的中药。</strong><strong>可以作为饮料的种子，具有排毒、清热、健脾、养胃、减肥保健等功效。</strong><strong></strong><br />
+<strong style="white-space:normal;"> </strong> 
+</p>
+<div style="text-align:center;">
+	<strong style="text-align:center;white-space:normal;"><a href="http://pic.kuaishubao.com/picdata/goods/9/d/A640030210083_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/d/A640030210083_xt_cj_4.jpg"></a></strong> 
+</div>
+<p style="white-space:normal;">
+	<strong><span style="white-space:normal;">纯天然<span style="white-space:normal;">植物种子</span></span><br />
+</strong><span style="white-space:normal;">兰香子原产于印度海拔千米以上无污染之山上，为一年生珍贵草本植物，被当地人视为神圣的香草之王。公元16世纪由荷兰人引进台湾，再经台湾农委会辅导农民多年研究改良种植成功。种子经过采集、曝晒、去皮、筛选汛、去芜存菁后，呈现乌黑亮丽的种籽。</span><span style="white-space:normal;"></span><br />
+<br />
+100%纯天然的植物种子、无农药污染、无防腐剂及任何添加物、长期食用不会造成习惯性与副作用，适合于各年龄人群食用、老少皆宜。<br />
+<strong><br />
+<span style="white-space:normal;">兰香子</span>接触水约28倍的膨胀，增加饱足感，是<span style="white-space:normal;">肠道中最天然的清道夫</span><br />
+</strong>兰香子遇水会膨胀约28倍，外表层为白色纯天然高纤果胶。由于兰香子属于种子，经水浸泡后膨胀，服用后，已膨胀的兰香子在胃中占据了大多位置，因此消除了饥饿感，达到了控制过度饮食的目的。由于种子不能消化，因而会随粪便排出体外，所以会起到了促进肠道蠕动的作用，从而达到减肥功效。<br />
+<br />
+兰香子接触水或体内消化液、种子表面的多糖类不溶性食物纤维、具吸水后自体膨胀的特性、可有效的抑制空腹感、减少热量及多余食物的摄取、增加饱足感、健康维持体重是饮食管理的最佳食材。
+</p>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/9/d/A640030210083_xt_cj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/9/d/A640030210083_xt_cj_7.jpg"></a> 
+</div>
+<br />
+<strong><strong style="white-space:normal;">兰香子</strong>改善皮肤及便秘<br />
+</strong>兰香子每10G中含有2个半莴苣的食物纤维、吸水膨胀后小球体表面粘质易附肠壁、可减少食物与肠壁接触的机会、刺激肠壁肌肉的蠕动、增加肠推率、活化肠道代谢机能、避免粪便里的毒素及宿便等废物囤积于体内过久、影响身体机能及皮肤的美观、是肠道中最天然的清道夫、为人体进行最自然的体内环保。<br style="white-space:normal;" />
+<strong><br />
+<strong style="white-space:normal;"><strong>兰香子</strong></strong>包覆易胖的糖类及抑制血糖上升<br />
+</strong><span style="white-space:normal;"></span><span style="white-space:normal;">兰香子提供丰富的食物纤维，</span>丰富的食物纤维在胃中可以包覆糖类、减少糖类的吸收、降低饭后血中葡萄糖的浓度、同时抑制血糖质上升、加上纤维质遇水膨胀的特性、大大提升饱足感、有利于糖尿病和体重的控制、建议过度肥胖及糖尿病患者摄取纤维量高的食物。<br />
+<br />
+<strong><strong style="white-space:normal;"><strong>兰香子</strong></strong>减少<span style="white-space:normal;">肠内</span>胆固醇、三酸甘油脂的吸收<br />
+</strong>兰香子的优质纤维能促进体内血脂及脂蛋白的代谢正常，减少肠内胆固醇的吸收，进而减少血中脂肪的浓 度，降低心脏病、中风、高血压的发生机率。<strong><br />
+<br />
+<strong style="white-space:normal;"><strong><strong>兰香子含有</strong></strong></strong>丰富ɑ－亚麻油酸DHA及EPA<br />
+</strong><span style="white-space:normal;"></span><span style="white-space:normal;">兰香子咬碎后种子</span>约<span style="white-space:normal;">约含有30%的良质油份，多为α-亚麻酸，是一种多价不饱和脂肪酸Omega-3母体，占油份中的70%以上</span>，且无法由人体自行合成，必须从食物中摄取获得，再经由人体代谢转变产生DHA和EPA，于国际上具有植物黄金的美称。<br />
+<br />
+EPA：具有防止血小板凝集和血管舒张的作用，可预防心脑血管疾病、双向调节血压、血脂和血胆固醇，能抑制出性和栓性脑性疾病、预防动脉硬化、脑中风、心脏病的发生机率。<br />
+<br />
+DHA：有助于大脑垂体细胞及视网膜纤维细胞的生长发育，增强学习能力、记忆力及维护视力等多方面功能，为人体健康不可或缺且必须的脂肪酸。<br />
+<div class="goods-content-title" style="white-space:normal;">
+	食用小贴士
+</div>
+<div class="Goods-Content-Box" style="white-space:normal;">
+	1.应用温开水或矿泉水来泡兰香子，充分进行搅拌约2－5分钟，让兰香子完全膨胀后，再根据自己口味加入果糖、蜂蜜、冰糖、牛奶等，任选一种皆可（便秘口臭者使用天然蜂蜜最佳）。夏日可投入冰块，口感更加佳。<br />
+<br />
+2.将水煮开后投入黑糖与姜片5-6片，熄火搅拌约1分钟，让黑糖及姜味溶解释放出来，待水温降至45度以下后，可取兰香子一平匙，早晚冲泡500cc的水饮用，对女性生理期有所助益<br />
+	<div style="white-space:nowrap;">
+		<br />
+	</div>
+<br />
+</div>
+<br style="white-space:normal;" />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A640030210083', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A640030210083', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A640030210083', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A640030210083', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A640030210083'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

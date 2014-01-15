@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/d/b/A620029074073_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/d/b/A620029074073_1.jpg">
+        <h2>没有梦想，何必远方</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥21.50元</b> <del>¥36.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/d/b/A620029074073_1.jpg','没有梦想，何必远方-十年热血逐梦，唤醒你我湮没在庸碌生活里的梦想。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】易术<br />
+【出版社】中信出版社；2013年10月第1版<br />
+【装订】32开；平装<br />
+【页数】319页<br />
+【印刷】单色<br />
+【ISBN】9787508641683<br />
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<b>你是否身在异乡，别人的城市灯火辉煌；<br />
+你拒绝平庸寻常，故乡的安逸却让你忘了飞翔。<br />
+落寞时，请记得：青春不是眼前的苟且，还有梦想和远方。</b><br />
+<br />
+2007年，酷爱写作、风头无俩的80后作家易术对外宣布封笔，出人意外。沉寂的六年，他选择了一条异常艰辛的创业之路，创建福星传媒，在另一个战场上成功开疆辟土。2013年，他再度提笔，1月，他发布一条《赤子》的长微博，引发12万次转发。7月成稿，创下编审0修改记录，编辑数度落泪。9月，《没有梦想，何必远方》温暖上市，这是一个异乡青年的逐梦十年，它励志、它热血，它有你我共同的青春记忆和追梦情怀，唤醒你我淹没在庸碌生活里的梦想。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+十年前，来京，在西客站外面的路边站着，九个包裹，北京几乎没有朋友，工作无从谈起，落脚的地方只有三天期限。站累了，坐在包裹上，不知道未来会发生什么。<br />
+<br />
+慢慢有了住的地方，房间略大一点，日光灯是坏的，修过几次，很麻烦。索性放弃，去宜家买来几盏台灯，同时打开，也光芒满屋。<br />
+<br />
+再后来，酷爱写作却选择了创业，要成功不容易，必须捱得住寂寞。据说任何一个创业公司，前五年的努力都是在为员工赚钱，有人举杯说，你们做到了，敬你们。<br />
+<br />
+在长达十年的梦想旅程中，经历过背叛、欺骗、重压，经历过亲人离世、友人陷害、传媒诋毁，也遭遇过让人瞠目结舌、极具特色的“中国式困境”，几次面临破产。但一直坚持用一颗赤子之心去看待这个世界，自觉忽略掉丑陋和虚假。虽有孤独欺骗背叛，却依旧觉得这世界晶莹剔透，梦想美好如火树银花。<br />
+<br />
+还记得你的梦想吗？《没有梦想，何必远方》，温暖讲述一个异乡青年的逐梦十年。
+<div class="goods-content-title">
+	名人推荐
+</div>
+我不会劝阻好朋友追求不切实际的梦想，太实际就不叫梦想了。——蔡康永（主持人）<br />
+<br />
+我心中的易术，正如杰克·凯鲁亚克所说的那样，疯疯癫癫，热爱生活，爱聊天，不露锋芒，希望拥有一切，从不疲倦，从不讲些平凡的东西，而是像奇妙的黄色罗马烟花筒那样不停地喷发火球、火花，在星空下像蜘蛛那样拖着八条腿，中心点蓝光砰的一声爆裂，人们都发出“啊！”的惊叹声。——衣锦夜行的燕公子（编剧、福星传媒副总裁）<br />
+<br />
+只要是坚持了一件没有人理解、没有人支持、没有人看好，甚至注定会失败的事情，就是热血的青春。——蒋方舟（作家、《新周刊》副主编）<br />
+<br />
+10年后用生命的痛与乐写的书，当然比10年前用才气的灵与巧写的书更有价值。——周石星（湖南广播电视台副总编辑）<br />
+<br />
+易术是北漂一族的代表。他所交流的语言、遭遇的经历以及相爱过的人们，一切，都“在路上”，都在名为“梦想”的路上。<br />
+——吴晓波（著名学者）<br />
+<br />
+易术用温暖的语调真实记述了我们共同的轻狂岁月，纪念了我们梦想的诞生，写作是他最热爱、最能赢得尊重的事情，这些年我一直在等待他找回这个坚定、自信、光荣的自己。——粟智（福星传媒联合创始人）<br />
+<br />
+我和师弟易术，从岳麓山下的小红楼出发，来到这个辽阔得让人茫然的城市。我们身后的枫林、母校和那些时而遥远时而亲近的轶事，是走向前路时脊梁最坚固的依托。——梁振华（青年学者、北师大副教授）
+<div class="goods-content-title">
+	作者：易术
+</div>
+福星传媒总裁。曾出版长篇小说十余部，部分作品被介绍到韩国、日本。<br />
+<br />
+我31岁，来北京10年。听五月天，迷《海贼王》。失恋5次，跳槽3次，搬家6次，失败无数次。人生信条是路飞说的那句——“海贼王，我当定了！”<br />
+<br />
+我热爱写作，后来，却选择了创业，带着一群来自不同城市的兄弟姐妹，组成一个温暖又倔强的集体，一点点接近梦想。<br />
+<br />
+我们是漂在北京的异乡人，拥有比其他人更强烈的荣辱感。因为我们知道，为梦想选择了远方，便没有回头路可以走。所以，要么战死沙场，要么狼狈回乡。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<b>自序•赤子</b><br />
+<br />
+<b>远方</b><br />
+你想去远方，就要离开你现在站着的地方。<br />
+<br />
+<b>热血</b><br />
+不知所措的时候，所有的改变都是对的。<br />
+<br />
+<b>那些年，我们一起混过的日子</b><br />
+北漂的人，必须有一段混着的时光，那是我们的必修课。<br />
+<br />
+<b>生命有一种绝对</b><br />
+只有见过对方最糟的时候，才有可能在未来的某一天，见到彼此最好的时候。<br />
+<br />
+<b>人生海海</b><br />
+世界之大，曾在茫茫人海中遇见彼此，已是足够。<br />
+<br />
+<b>北京夜未央</b><br />
+命运偶尔会留意到你，发现你太过安逸，他觉得这样会毁了你，于是帮你改变。<br />
+<br />
+富士山的距离<br />
+有什么方法可以移动一座富士山呢？答案是，你自己走过去。<br />
+<br />
+<b>梦想</b><br />
+所谓梦想，其实就是一个又一个琐事，是你永远不会愿意去主动提及的痛，是你低调前行时内心被暗藏被保护的最柔软的弦。<br />
+<br />
+<b>少年不贱</b><br />
+哪怕只是个渺小的外地人，却同样是个不卑不亢的骄傲少年。<br />
+<br />
+<b>停车暂借问</b><br />
+有的人只是开着车路过你，下车热情打了招呼，问个路，然后便上车，去往属于他的方向。<br />
+<br />
+<b>云霄飞车</b><br />
+过山车去过云霄，当然就会来到低谷。<br />
+<br />
+<b>假面先生</b><br />
+流着淤血，尽管疼痛，但说明快要好了。<br />
+<br />
+<b>寻找梦幻岛</b><br />
+仍然不停做着梦，但不再为无法实现而惆怅。<br />
+<br />
+<b>蜉蝣人生</b><br />
+大自然只给它短短一天的生命，却用一千多天的时间来考验它。<br />
+<br />
+<b>小丑的谢幕演出</b><br />
+善良的人，教会我们相亲相爱，但小丑却教会我们成长。<br />
+<br />
+<b>大恩如仇</b><br />
+过度的信任是坍塌的开始。<br />
+<br />
+<b>失败者统治世界</b><br />
+所有的失败，都是成功的预演。<br />
+<br />
+<b>朋友首日封</b><br />
+所有美好的相遇，都是分开前的歌颂。<br />
+<br />
+<b>再生</b><br />
+浴火再生，被烤熟的是烧鸡，涅槃的是凤凰。<br />
+<br />
+<b>他她</b><br />
+我非常确定，我这辈子最爱的两个人，他们也爱我。<br />
+<br />
+<b>一叶舟</b><br />
+我昨晚梦见坐在一条极小的船上，远处是苍茫一片，随着风向往前漂着，离回家的路越来越远。<br />
+<br />
+<b>背影</b><br />
+儿子是母亲永远的敌人，他们知道母亲喜欢什么，也知道怎样做母亲最开心，但他们偏偏没有这样做。<br />
+<br />
+<b>目送</b><br />
+父亲把背包往肩上一搭，挥了下手，像个年轻人一样，潇洒地离开了。<br />
+<br />
+<b>擦肩</b><br />
+行星与恒星一直遥望对方，等到最近的距离，也有一光年那么远，无法拥抱。<br />
+<br />
+<b>狮子狗先生</b><br />
+我们最终擦肩而过，这人生来来去去，原本就有太多的擦肩。<br />
+<br />
+<b>喜剧之王</b><br />
+原来我们每一次再见，都有可能是再也不见。<br />
+<br />
+<b>玫瑰</b><br />
+你若美好，我便安然。<br />
+<br />
+<b>梦游记</b><br />
+昨天已经过去，明天还未到来，唯有今天永恒。<br />
+<br />
+<b>心底人的无字信</b><br />
+人生会遇见很多人，有的是过客，有的是故乡。<br />
+<br />
+<b>故事</b><br />
+彼得潘说，睡不着，就讲故事吧。讲完一个，又一个。<br />
+<br />
+<b>飞女正传</b><br />
+过了那个着急安稳的时期，慢慢觉得一辈子动荡也不是不可以。<br />
+<br />
+<b>角落人</b><br />
+一个为了爱而低到尘埃里的人很贱，但你敢说过你的青春没有贱过吗？<br />
+<br />
+<b>盖世英雄</b><br />
+人生的每一次离别，都可能是你们缘分的终结。<br />
+<br />
+<b>ONCE</b><br />
+这个世界唯一不变的事情就是，一切都在变。<br />
+<br />
+<b>被嫌弃的天使</b><br />
+每个班上都会有一个被忽略、被遗忘、被嫌弃、尘埃般卑微的小人物。<br />
+<br />
+<b>宁采臣与燕赤霞</b><br />
+他们都是彼此命中注定的那个人，他知道自己不能失去他，而他亦知道自己的存在就是为了他。<br />
+<br />
+<b>骑士</b><br />
+我们就算是两个世界的，我也要去你的那个世界找你。<br />
+<br />
+<b>痴情司</b><br />
+爱是一件刻不容缓的事情，我们永远在跟自己较劲，于是常常会发现来不及了。<br />
+<br />
+<b>代后记•梦想答卷：我一个问所有人</b> <br />
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<b>热血</b><br />
+<br />
+2004年2月12日，早上9点，北京西客站，Z18次列车。<br />
+<br />
+我和粟智在喧闹中醒来，他有一个CD机，整个旅途都在听西村由纪江。他有轻微的神经衰弱，听钢琴曲容易睡着。我没有，摇摇晃晃，却也睡得安稳。四处打听，找到行李仓库，一共九个大包裹，连DVD和音箱都被运过来，决绝的态度，破釜沉舟的意思。他账户上有4000元。我刚出一本新书，版税不高，买了车票和行李箱，还剩八千多元。网上查过北京的租房标准，先对付几个月，应该没问题。<br />
+<br />
+我们在西客站外的路边站着，等我素未谋面的出版社编辑来接。在北京，几乎没有朋友，工作无从谈起，落脚的地方只有三天期限。<br />
+<br />
+少年不识愁滋味，似乎并无顾虑。那天风很大，莫名的悲壮。西客站人来人往，编辑迟到很久。我们站累了，坐在包裹上，有一搭没一搭地聊着，不知道未来会发生什么。<br />
+<br />
+之前，我在长沙一家新闻网站上班，那是一份来之不易的工作。<br />
+<br />
+2003年大学毕业时，我已经出版了两本书，其中一本还带来一些另类的声誉，所以我以为自己在当地算个有些名气的人，找一份体面的文职类工作，应是手到擒来。做了花哨考究的简历，一份看起来耀眼的大学成绩单，两本著作，趾高气昂地去了很多地方应聘。<br />
+<br />
+唯一心虚又惶恐的，是我没有拿到毕业证和学位证。<br />
+<br />
+幸运的是，没有人知道这事，也没有人相信。辅导员待我如同亲兄弟，能帮我的只是出谋划策。他说，如果问起，你就说因病耽误考试，推迟发证，我给你开证明，理论上不会为难你。有过经验的学长偷偷教我，不参军，不考公务员，问题不大，入职时蒙混过关，基本上之后也不会查，你履历优秀，没人会注意这个。<br />
+<br />
+在电线杆上找了个办证的电话，平常厌恶极了这些随意张贴的广告信息，没想到有天竟然用上了。联系了三个，选了一个听起来更靠谱一些的，谈了价钱，50元一个，毕业证加学位证一共100元。告知相关信息，约好第二天下午在东塘一家超市门口交易。<br />
+<br />
+做了多年乖学生，第一次做这种事，心慌慌的，便叫粟智陪我。他听说后骂我，大学四年，一千多个日夜，花了家里不少钱，最后就值100元？<br />
+<br />
+好像一直就在等这么一个人出现，制止我。我马上打电话跟办证的那人说，不用帮我办，我不要了。对方骂骂咧咧地挂了电话。<br />
+<br />
+我不是个坏学生，循规蹈矩，从来都是其他同窗的榜样，没有抽烟喝酒的陋习，四年一共只爬过两次围墙，甚至还拿过两次一等奖学金。幼儿园到大学，教过我的老师都喜欢我，除了体育老师。大一时考引体向上，没有过，补考也没有过，过不了就是过不了，十二个算达标，我只能做两个。体育老师见我没辙，有些同情，让我找家人开个病假条，说骑摩托车摔伤过胳膊，无法进行传统体育锻炼，可以转去特殊班学气功或推拿来补体育课的学分。我照做，去了趟特殊班，都是一群考不过传统项目而装病的校友，也有真正的轻度残疾，待在其间装病人，实在有些不舒服，上了两次便翘课不去了。拖拖拉拉，四年累积了不少未补齐的学分。毕业时，系里查出来，便扣下了我的毕业证和学位证。<br />
+<br />
+还算给我面子，系领导未曾对外透露，还托辅导员告诫我，只是暂时扣下，待我毕业后申请补考，两年内修满欠下的体育课学分，便补发给我。<br />
+<br />
+很奇怪，尽管感激，但好像并没有很想要。这个想法很邪恶，不可以让爸妈知道，保不准真会气病的。<br />
+<br />
+高三时本来想出国，后来因为政策问题没去成，然后又办保送，手续办完，我已经彻底放弃复习，天天走街串巷，还假惺惺跟同学得瑟，唉，其实挺想高考，检验一下我的实力。这话可不能乱说，看吧，让我给说中了，我们那所中学正好当年评选省重点，考察升学率，省里临时下规定，要求所有学生都必须参加高考，取消了连我在内八个学生的保送资格，霉运走到头。那时我已经玩足了两个月，有的教材都已经弄丢了。慌慌张张找回复习资料，又开始埋头苦读，可只剩一个半月就要考了。最后只是勉强上了本科线。<br />
+<br />
+若他们知道这四年寒窗，毕业时竟两手空空，不知作何感想。<br />
+<br />
+粟智说，你办了假证，即便看着能以假乱真，但只要上网一查编号，立马就可知真假。你苦心经营，大堆的奖状和荣誉证书，若最后查出毕业证是假的，便功亏一篑，任你多么优秀，没有诚信，让人看低，获得工作又如何？<br />
+<br />
+垂头丧气。可又有什么办法呢？<br />
+<br />
+他又说，不如大大方方承认，我没有毕业证，但我没犯过错，能力也不输他人，愿意要你的单位，会珍惜你，为难你的单位，不去也罢。<br />
+<br />
+辅导员主动找到我，开了个延缓发放毕业证的证明，上面附带了我的毕业证和学位证的编号，说，拿着这个，用人单位打电话来查，我会告知真实情况，他们上网按编号查，也会显示你的毕业证信息，只是你还没有拿到，先把工作搞定，其他以后想办法，不碍事。你简历漂亮，我想，会另当别论的吧。<br />
+<br />
+一瞬间像找到了救命稻草，踏实了，于是又骄傲起来。<br />
+<br />
+脑子里自动过滤掉毕业证的困扰，觉得自己优秀极了，挑剔得很。就业指导中心的老师打来电话，说电信部门招聘，待遇优厚，他推荐几位不错的学生，其中有我。我听后皱眉头，礼貌地婉拒说，体制内的工作，不适合我，硬生生推却了。<br />
+宿舍的兄弟骂我，傻啊，放着铁饭碗不要，别占着茅坑不拉屎。一副恨铁不成钢的语气。<br />
+我不屑，勉强自己才傻呢。<br />
+<br />
+没有目标单位，大致的幻想是：光芒照人，毫无市井气，吟风弄月，咬文嚼字，即是一天的工作。倘若真实现，那才是最大限度地发挥我的才能。<br />
+<br />
+奔走来去，现实很残酷。每家看起来都对我有兴趣，问长问短，我表现也诚恳积极，他们说会联系我。每个这样说的单位，我都在本子上小心翼翼打上一个勾，表示可以静候佳音，但事实上，他们最后都没有联系我。<br />
+<br />
+辅导员暗示我，有些事业单位招聘只是形式，纵使再优秀，也是很难的。你是师范生，干脆随大流去教书。你实习教课评分不错，回老家或许可以拿到正式编制，国家养你到老。末了，他还劝我，人生嘛，不过是个不断认命的过程。<br />
+<br />
+连番打击，疲惫不堪，所以还真的心动过。但想想中学时的那些老师，同一个讲台站一辈子，送走一批又一批，任学生们天涯海角追逐梦想，自己却站到头发落雪，腿脚弯曲。于是最终还是被自己的倔强制伏了，坚持留守长沙。<br />
+<br />
+可以认输，但不认命。<br />
+<br />
+第一个单位是在学校官方招聘信息上找到的，一份发行量不大的报纸，叫《当代商报》。先从实习做起。投简历，草草面试，也没有要看我的毕业证，复印了身份证就通知我第二天来上班。<br />
+<br />
+报社在曲折的巷子里面，陈旧简陋，摇摇欲坠的两层楼。编辑室与发行部也并未划分开，感觉粗糙随意，彼此间也没有交流。没有我的工位，就四处找琐碎的事情做，以免尴尬地呆坐着。<br />
+<br />
+有几个编辑部。我所在的编辑部主任一口浓郁的乡音，办公室的人分别是他的女儿、侄女和情人。他们上班也无所事事，抽着烟，聊着只有他们懂的八卦，我这个外人显得分外格格不入。大约两周后，主任调我去广告部，说如果能谈到两单就给我转试用。我骄傲又倔强，却也得无奈地对着黄页一个个拨过去，说着一样的话，边说边环顾四周，声音越说越小。我还偷偷发短信给父亲，有没有朋友是做生意的？有钱吗？需要投广告吗？帮帮我吧。幼稚得可笑。<br />
+<br />
+常问自己，你到底在干什么，怎么变得如此糟糕？<br />
+<br />
+自然不会待太久。那报社没多久竟真的倒闭，主任的去向我当然不得而知，也许会在另一个办公室，和他的侄女聊着彩票，吐着烟圈，悠然依旧。这世上本就有各种活法。<br />
+<br />
+我有些急了。找《都市报》副刊部的编辑明明，问她有没有适合的工作，打杂跑腿均可，只要让我待下来。大学时常投稿给她，对我亲和委婉。我们约在附近的餐厅吃饭，她说，多写稿来，稿费可以补贴一些生活开支，至于工作，编制已满，无能为力。记得后来，我离开长沙时也与她在同一家餐厅吃饭。她鼓励我，在外漂泊，练就一身本领便回来，到时再试试能否帮上忙。记得她一直微笑说，年轻时也曾向往北京，因为爱的人在那里，却没有勇气去追寻，于是变成悔至今天的痛。<br />
+<br />
+终于，父亲拜托了省委的朋友，让我去一家新闻网站面试。离我住处很远，需要转两趟公车。正是烈日当头，我被烤得无精打采。或许是连番的打击，让我并没有太多信心，只是觉得既然有了希望，不去争取一下会是个遗憾。那时，同学们都陆续找到了教书的工作，黄瑾和童童都考上了湖南电视台娱乐频道，我形单影只，觉得自卑。<br />
+<br />
+面试后第二天，他们竟然打电话给我，说可以直接试用，想必是父亲的关系有些用处吧。<br />
+<br />
+办入职手续，填了一沓表。人事部的负责人把我的相关证件复印了一份，然后问我，毕业证呢？我不敢出声，把辅导员开给我的证明小心翼翼地递给他，他看了看，头都没抬，又还给我。<br />
+<br />
+我手足无措，问，办完了吗？<br />
+<br />
+他懒洋洋地说，办完了。<br />
+<br />
+我有些不敢相信，老老实实地问，我毕业证还没拿到呢，这也行？<br />
+<br />
+他有些不耐烦，证明不是让我看了吗？快回去吧，下周一来报到。<br />
+<br />
+开开心心地走了。<br />
+<br />
+几年后看《奋斗》，开篇便是没拿到毕业证的大学生跳楼自杀，有些不解，不知是他太偏执，还是我缺心眼儿。连死也不怕，为什么害怕缺了一个小小的证？这么大的勇气，还不够打败这么不值一提的挫败吗？也许我天性乐观，所以也能换来些好运气，之后的每份工作，似乎都未在意我的学历，我也大胆地在履历表上本科那一栏打上勾，从未被质疑过。多年后创业，生意场上驰骋，更不会有人再留意我的学历，只是偶尔会想起我的辅导员。他在我毕业后几年，每年都会提醒我回去重修体育课的学分，语重心长地说，四年啊，为的不就是这个证吗？我心怀感恩，却一直未能赴约；直到今天，我仍是一个没有大学毕业证的人。不知我的毕业证和学位证，现在是不是还被锁在哪个冰冷的抽屉里，怨恨主人对它们残忍的遗弃。<br />
+<br />
+正式在这家网站上班了。同事谦和，领导体贴，都很好。在我看来，只要不拿毕业证为难我，就千恩万谢了。<br />
+<br />
+只是我面试的新闻部，却把我安排在最不受重视的社区管理部，理由是新闻部编制已满，应届生应从低做起，循序渐进，能更快了解企业文化。每天的工作是管理论坛后台，有些不得当的帖子及时删除。试用期月薪800元，转正后1000元，但扣除税费和保险，竟然比试用期还要低。早上8点半打卡，晚上12点才能离开。没有周末，没有班车，打车回家，一个月下来所剩无几。尽管如此，当时看来却是一份极好的工作。网速够快，没有业绩压力，空调吹得犯困，闲暇时写写小文，也没人管。传说员工都是干部子弟，来养老赋闲，所以少有复杂的人际关系。偶尔还换来领导的意外赞许：咦，你的东西写得不错嘛，听说你以前是个作家？<br />
+<br />
+竟然也待下来了。<br />
+<br />
+早上起来在街口买两个包子，一杯绿豆粥，边吃边等车。每个月微薄的薪水剥夺了我血拼唱K的权利，于是多了时间创作。写专栏，出书，我尚算勤奋，所以每个月尚有结余。平时可以看电影，买双好看的鞋，回老家在父母面前显摆，还拿出红包塞给他们，不要，硬退还给我，我也厚着脸皮狡黠地笑着收好，觉得省了钱可另作他用。<br />
+<br />
+我看上了一双三叶草限量版的鞋，一千多元，买了就没钱吃饭。每次去逛，逛着逛着就走到了那家专卖店，摸一摸，看一看，然后搁回原处。粟智说，要么就买，要么就不要看了。我开玩笑说，多摸几次，摸旧了，或许就能打折。<br />
+<br />
+公司点盒饭，都点十块的，我点十五的，多一个荤菜和汤，因为觉得工作已经不如意，何必亏待自己的胃。他们啧啧议论，说<br />
+<br />
+我定是富二代，工资少得可怜，吃饭竟如此铺张。可明明只是多了五块而已嘛。<br />
+<br />
+每晚12点下班，总能遇见趴活儿的出租车司机常德籍小哥。<br />
+<br />
+他说，真羡慕你。<br />
+<br />
+什么，羡慕我？<br />
+<br />
+对啊，这么高档的写字楼，里面很气派吧，真想进去看看。<br />
+<br />
+有什么气派的，你自由自在不挺好的吗？<br />
+<br />
+他年轻骄傲，哈哈，谁想一辈子开出租啊。<br />
+<br />
+沉默。心里在说，开出租也好，写字楼打卡也罢，还不都是漂泊人生。离开家那一天就变成了王家卫电影里的那只无脚鸟，一辈子也无法栖息，停止飞翔的日子就是生命的终点。<br />
+<br />
+没有租房。粟智家在长沙，好友钟林在电视台当主持人，台里给他安排了住处，于是我在他们家轮换着住，居无定所。反正也没什么行李，几件衣服，几本书，再给我一把剑就可以浪迹天涯。<br />
+<br />
+偶尔聚会看碟，聊着未来，还在家用电饭煲做火锅。没有砧板，铺一张塑料桌布，小心翼翼地切午餐肉；没有碗，用一次性纸杯，省了麻烦，还不用洗，吃完把桌布一裹，全部扔掉。缺了可乐和甜点，就打给千惠超市，麻烦送来会展中心员工宿舍，南栋605。<br />
+<br />
+夜晚散步，走在家门口的小路上，没有觉得有什么不妥，但也会隐约感到不对。这是不是我想要的生活？这个命题太大，我不会去深究，总之先安稳，养活自己，已是幸运。即便明知心很大，梦想却很遥远，那又如何？无法反抗，甚至有点害怕改变，有点逃避的意味。当然也知道不会一直如此，只是不确定那一天何时才会到来。<br />
+<br />
+这时最惊喜的收获，便是发现自己的底线无限，期待中光芒照人的生活并没有实现，卑微得像一粒尘埃，竟然接受了。日复一日，也无所谓自己最引以为豪的才能。因为，什么是才能，我已概念模糊。<br />
+<br />
+粟智在湖南经视做实习编导，月薪500元拿了快半年。那时经视很难进，传闻有人实习一年，每三个月提出一次转正申请，却仍然只能倔强地留下来继续等，最后还是落魄离开。然而，他竟然转正了。当时《放肆娱乐》是省城知名的娱乐资讯栏目，收视极高。制片人郭晓华赏识他，觉得他审美能力不错，肯吃苦，低调温和，人缘好，视作得意门生。团队默契快乐，笑点一致，算是温暖的归宿，理应知足。<br />
+<br />
+但他仍不甘心如此。后来，他说，好像有种奇妙的使命感告诉他，必须离开长沙。<br />
+<br />
+他问我，去不去北京？<br />
+<br />
+我没听清，干嘛？<br />
+<br />
+他一字一顿说，去北京，工作。<br />
+<br />
+我好像也有那种奇妙的使命感，几乎没有思考，就说好。隐约感觉有个巨大无形的手掌拍着我的肩膀，传递给我特别的力量，觉得那一天就快来了。<br />
+<br />
+辞职那天，依然站好最后一班岗。12点下班，出门，漫天星斗。回头看这栋大厦，夜色里竟然变得如此温柔美好。再见。<br />
+我上了常德小哥的车，他问我，怎么这么兴高采烈？我说，我辞职了，准备去北漂。他有些惊讶，说，今天不收你钱吧，我们这辈子怕是见不着了。<br />
+<br />
+快十年，没再见过他，不知他是否还开着车，每晚在写字楼下趴活儿。希望他能有机会去气派的写字楼工作，西装革履，意气风发。<br />
+<br />
+第二天，粟智说要庆祝我大胆离职，去附近一家海鲜大排档吃蟹，然后拿出一个盒子，说是送我的礼物，感谢我毫不犹豫地支持一同赴京的计划。拆开，就是那双三叶草的限量版球鞋。一时语塞。<br />
+<br />
+过年。吃饭。告别。喝醉。拥抱。一路向北。<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A620029074073', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A620029074073', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A620029074073', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A620029074073', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A620029074073'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../chd" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../chd"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

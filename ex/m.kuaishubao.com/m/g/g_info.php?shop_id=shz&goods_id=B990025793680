@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/5/b/B990025793680_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/5/b/B990025793680_1.jpg">
+        <h2><font style="color:red;">【5-9本】</font>2014养生日记本（16开大字版）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥33.00元</b> <del>¥51.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="5" id="buy_num" type="number" value='5' >
+          <input type="hidden" value="5" id="start_unit">
+        <span class='unit'>单位：件&nbsp;(1件=1册)</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/5/b/B990025793680_1.jpg','【5-9本】2014养生日记本（16开大字版）-正安中医编著，快书包出品。2013大热，2014升级！用一年时间，找到你靠谱的健康节奏！（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<span class="w" style="color:red;"><b>快书包推荐：<span style="color:#FF0000;white-space:normal;background-color:#FFFFE5;">两个版本，阶梯优惠，买多更划算！</span><span style="color:#FF0000;white-space:normal;background-color:#FFFFE5;"></span></b></span>&nbsp;<br />
+&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>16开大字版</b>： <a href="http://www.kuaishubao.com/g/B180025793969.html"><u>【100本以上】27元/本</u></a>；&nbsp;&nbsp; <a href="http://www.kuaishubao.com/g/B780025793836.html"><u>【10-99本】30元/本；</u></a>&nbsp;&nbsp; <a href="http://www.kuaishubao.com/g/B990025793680.html"><u>【5-9本】33元/本</u></a>；&nbsp;&nbsp; <a href="http://www.kuaishubao.com/g/B650025793547.html"><u>【1-4本】38元/本</u></a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>32开小字版：</b>&nbsp;<a href="http://www.kuaishubao.com/g/B150025793396.html"><u>【100本以上】25元/本</u></a>；&nbsp;&nbsp;&nbsp;<a href="http://www.kuaishubao.com/g/B780025793220.html"><u>【10-99本】28元/本</u></a>；&nbsp;&nbsp;<a href="http://www.kuaishubao.com/g/B170025792822.html"> <u>【5-9本】31元/本</u></a>；&nbsp;&nbsp; <a href="http://www.kuaishubao.com/g/B970025792189.html"><u>【1-4本】36元/本</u></a><br />
+</div>
+<div class="goods-content-title" style="white-space:normal;outline-width:0px;">
+	<a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=鹤年堂" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/heniantang_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/heniantang_conte.jpg"></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=养生日记本" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/yangshengdiary_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/yangshengdiary_conte.jpg"></a></a><br />
+<a href="http://bj.kuaishubao.com/c/105106-1-1.html" target="_blank"></a><a href="http://www.kuaishubao.com/c/105106-1-1.html" target="_blank"></a><a href="http://www.kuaishubao.com/c/105106-1-1.html" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/lianzi_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/lianzi_conte.jpg"></a></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"></a><a href="http://bj.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"></a><a href="http://www.kuaishubao.com/s/search.php?wd=正安中医纯中药" target="_blank"><a href="http://pic.kuaishubao.com/picdata/publish/13/09/zhengan_conte.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/publish/13/09/zhengan_conte.jpg"></a></a><br />
+</div>
+<div class="goods-content-title">
+	【2014养生日记本】快书包与正安中医再度联手，《2014养生日记本》全面升级
+</div>
+<div style="text-align:left;">
+	<strong><a href="http://pic.kuaishubao.com/picdata/goods/5/c/B650025793547_xt_cj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/B650025793547_xt_cj_3.jpg"></a></strong>
+</div>
+<strong>2013年，快书包与正安中医联手推出《2013养生日记本》，掀起抢购热潮。 </strong><br />
+<strong>2014年，我们再度联手，推出《2014养生日记本》，内容全面修订，设计、印刷、装帧全面升级，以一份体贴与关爱，帮助您全面把握健康，找到您靠谱的生命节奏。</strong><br />
+<br />
+养生日记本是由快书包与正安中医合作推出的新型创意日程本，不仅可以方便您规划年度、月度及每日日程，更将长期的养生计划拆解为每日提示，让养生这件事从此变得轻松起来。 <br />
+<br />
+<strong>《2014养生日记本》为方便您使用，特别设计为“16开大字版”和“32开小字版”两个版本。 </strong><br />
+16开大字版为标准16开大小，方便您在办公室使用；稍大正文字体，更容易阅读，也更易照顾稍年长者的阅读需求；<br />
+32开小字版为标准32开大小，方便您外出携带；稍小正文字体，更紧凑的版式设计，时尚感十足。<br />
+<br />
+<strong>《2014养生日记本》内容体贴，设计典雅，材质精良，制作精美，自己使用，是对生命和健康的关爱，赠送老人、亲朋好友、客户及作为团队福利，是一份美好的心意和祝福。</strong><br />
+<br />
+320页内页，较2013养生日记本增加100页；<br />
+内文采用80g道林纸，不洇染、可回收，给您最实用、最环保的使用体验；<br />
+封面采用350克牛皮卡纸，挺实耐用；<br />
+采用锁线裸背装订工艺，更容易翻开；<br />
+内页设计简洁，预留更大书写记录空间。<br />
+32开版封面采用烫黑工艺，16开版封面采用烫红金工艺，两个版本的内页采用双色印刷。《2014养生日记本》从外到内，带来精致视觉体验。<br />
+<br />
+<strong>《2014养生日记本》价格亲切，更有多级优惠，方便您大量购买，作为这个秋季和未来多个美好节日的体贴礼物。了解更多优惠请在站内搜索“养生日记本”。</strong><br />
+<br />
+<div class="goods-content-title">
+	【2014养生日记本】知名设计公司设计，典雅精致，裸线装订，更方便使用
+</div>
+<br />
+《2014年养生日记本》聘请知名设计公司奇文云海设计，设计风格典雅精致，完美贴合笔记本的体贴内容。<br />
+采用裸线装订，凸显品质感的同时，更方便翻开，不会出现一般笔记本不易翻开和放平书写的弊端。 <br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_1.jpg"></a><br />
+<br />
+<p align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/c/B650025793547_xt_cj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/B650025793547_xt_cj_1.jpg"></a><br style="font-family:Arial, sans-serif;text-align:-webkit-center;white-space:normal;" />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/B650025793547_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/B650025793547_xt_cj_2.jpg"></a><br style="font-family:Arial, sans-serif;text-align:-webkit-center;white-space:normal;" />
+<br style="font-family:Arial, sans-serif;text-align:-webkit-center;white-space:normal;" />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/B650025793547_xt_cj_4.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/B650025793547_xt_cj_4.jpg"></a><br style="font-family:Arial, sans-serif;text-align:-webkit-center;white-space:normal;" />
+<a href="http://pic.kuaishubao.com/picdata/goods/5/c/B650025793547_xt_cj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/c/B650025793547_xt_cj_6.jpg"></a>
+</p>
+<div class="goods-content-title">
+	【2014养生日记本】功能页面完备，满足全年规划与日程需求
+</div>
+<br />
+<strong>简洁清晰的全年日历页面，便于查询与标记</strong><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_5.jpg"></a><br />
+<br />
+<strong>充足的月度规划页面，便于提纲挈领，规划月度计划与日程</strong><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_6.jpg"></a><br />
+<br />
+<strong>每一季节，都有一个精美扉页，提示该季节养生要点</strong><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_3.jpg"></a><br />
+<br />
+<strong>2014养生日记本附有全身经络图，便于您对照查询经络和穴位</strong><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_9.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_9.jpg"></a><br />
+<br />
+<div class="goods-content-title">
+	【2014养生笔记本节气页面】每个节气，都有这个节气的养生指导、正安医嘱、养生药膳、通神好药
+</div>
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_7.jpg"></a><br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_8.jpg"></a><br />
+<br />
+2014年养生日记本节气页面内容示例：<br />
+<br />
+<strong>【二十四节气之立春篇】</strong><strong>2014年2月4日 星期二 </strong><strong>农历正月初五 立春</strong><br />
+<br />
+<strong>【立春养生】养阳护肝 有助生发</strong><br />
+<br />
+立春是二十四节气中的第一个节气,“立”字有开始的意思。从这一天开始正式进入春季，人们会明显感觉到白昼时间变长，天气也开始暖和了。立春时节，起居要做到夜卧早起。春气通于肝气，春季正宜养肝护阳。要做到心胸开阔、乐观向上，要保持愉悦的心境，切忌忧思恼怒。饮食方面应尽量少酸多甜，宜食辛甘发散之品，不宜食酸收之味。避免过度耗损，要采纳自然之气以养阳，宜舒展形体，克服倦懒思眠，多参加室外活动，使情志与大自然相适应。<br />
+护肝除了远离烟酒，注意饮食，最简单的方法就是伸懒腰。伸懒腰是人体自我保健，特别是肝脏保健的一种条件反射。人体困乏时，气血循环缓慢，这时若舒展四肢，伸腰展腹，全身肌肉用力，并配以深呼吸，可以吐故纳新、行气活血、通畅经络关节、振奋精神。伸懒腰后，血液循环加快，全身肢体关节、筋肉得到了活动，睡意皆无，这样也激发了肝脏机能，使肝脏得到“锻炼”，从而达到保健效果。伸懒腰时要使身体尽量舒展，四肢要伸直，全身肌肉都要用力。伸展时，尽量吸气；放松时，全身肌肉松弛，尽量呼气。老年人经常伸懒腰，还可增加肌肉、韧带的弹性，延缓衰老。<br />
+<br />
+<strong>【正安医嘱】虚邪贼风 避之有时</strong><br />
+<br />
+风，是春天的主气。《黄帝内经》说“风者，百病之长也”。在六淫病邪中，风是致病的首要因素。春天阳气生发，皮肤的毛孔逐渐张开，肌肤腠理变得疏松，人体内的正气抵御外部袭击的能力变弱，风邪就容易“钻空子”。风邪极少单独存在，与寒同行称为“风寒”，与热同行称为“风热”，与湿同行称为“风湿”，如常见的风寒外感、风湿痹痛等。立春时节，寒气逼人，多以风寒存在，所以民间有“春风如刀刮，死牛又瘦马”的说法。<br />
+<br />
+<strong>勤梳头，将风邪拒之门外</strong><br />
+梳头能将风邪“拒之门外”。《圣济总录-神仙导引》中记载“梳欲得多，多则祛风，血液不滞，发根常坚”，《延寿经》认为“发多梳能明目祛风”。人脑后面有三个穴位，两个风池穴，一个风府穴。中医有“风府、风池寻得到，伤寒百病一时消”的说法。经常梳头，能刺激这几大穴位，通畅气血，让风邪绕道而行。<br />
+梳头时，将头发散开，先用梳子梳理散乱的发端，然后慢慢旋转着梳拢。先从前额发际向后梳，梳到颈后的发根处，之后，俯身从后颈发根梳到发梢末端，再从左、右耳的上部别向反方向梳理。<br />
+头发稀疏的老人，可用手指代替梳子，边梳边按摩头皮。梳头时，身体可以稍稍往前屈或向后仰，以促进血液循环。梳时应用力均匀，不要过猛，速度应均匀缓慢。每个部位重复5-6次，平均每天梳理100次左右<br />
+<br />
+<strong>红酒菠菜 痔囧拜拜</strong><br />
+春天刚到，痔疮就迫不及待地“登场”了。痔疮由肠胃内热蓄积引发，所以首要任务是扫除肠胃里的积热，让肠胃保持轻松顺畅。<br />
+菠菜是最好的“肠道清热润滑剂”。《本草求真》中说，“菠菜，何书皆言能利肠胃，盖因滑则通窍，菠菜质滑而利，凡人久病大便不通，及痔漏关塞之人，咸宜用之”。菠菜之所以具有这些功效，是因为其性凉味甘，归肠、胃经，可活血补血、滋阴润燥、清热解毒、润肠通便。<br />
+清洗后的菠菜切段，倒入适量红酒淹没过菠菜，密封浸泡数小时，就可以将红酒倒出来饮用了。菠菜每隔三四天更换一次，以保鲜嫩营养。容器里的红酒会越喝越少，要不断添加。泡好后，晚上睡觉前喝10毫升左右，不仅能减轻痔疮灼痛感，还有助睡眠，一举两得。但需注意的是，红酒也属酒类，过量饮用易使病情加重。<br />
+上班族也可常做提肛运动预防痔疮。全身放松，将臀部和大腿用力夹紧，舌抵上腭，用鼻慢慢吸气，同时将肛门提起，包括会阴部。停顿5秒后，缓缓呼气，并放松肛门。重复10-20次。<br />
+辣椒、姜、蒜、酒类等辛辣刺激性和火锅烧烤之类的油腻性食物，会加重肠道内热堆积，应少吃或不吃。<br />
+凡事在于“坚持”二字，如果能坚持下去，您一定能远离痔疮，享受一个明媚的春天。<br />
+<br />
+<strong>【食补药膳】清火锦囊 调和阴阳</strong><br />
+<br />
+立春开始，气候变暖，自然界阳气萌生由弱转强，阴气由盛转衰乃至消失。阳气与阴气交战激烈，所以气候变化无常，乍寒乍暖，时晴时雨。外界大气候，身体小舞台。<br />
+中医认为，二月是冬春气候的过渡期，和自然界一样，体内阳气随着春暖开始苏醒，渐成主角，如遇到外界气温骤升、阳气大盛，体内外阳气交织，易导致身体积热，“火”气大盛。因此，随时清火，调和阴阳是本月养生重点。<br />
+“上火”的症状为头晕、口腔溃疡、牙龈肿痛、咽喉疼痛、有口气、脸上长痘，而且还会影响消化系统，出现小便发黄、便秘。同时，体内的火可以引来外感，患感冒、肺炎、流脑的几率增加。<br />
+<br />
+<strong>清火锦囊</strong><br />
+嗓音干哑：饮淡盐水、橘皮糖茶。<br />
+咽喉肿痛：嫩丝瓜捣烂挤汁，含漱；醋加等量水漱口可减轻疼痛。<br />
+有口气：藿香15克洗净，水煎5分钟，弃渣取汁，再将粳米50克煮成粥后，加入藿香汁食用。将藿香换成薄荷，也可防治口气。<br />
+咳痰：桑树皮10克，甘草、竹叶各5克，洗净，加水煎服，可治清晨多痰。生姜1块切碎，鸡蛋1个，香油少许，像煎荷包蛋一样，把姜和蛋用香油煎熟，趁热吃下，每日2次，也可治咳痰。<br />
+口干舌燥：百合、杏仁和粳米同煮成粥，加梨丁、枇杷丁，拌少许蜂蜜服用。<br />
+脸上长痘：芹菜、西红柿、雪梨、柠檬洗净榨汁饮用，每日1次；红萝卜、芹菜、洋葱榨汁饮用。这些蔬果都有清热、解毒、祛火的作用。<br />
+<br />
+<strong>【通神好药】春食花椒 除湿散寒</strong><br />
+<br />
+立春以后，炒菜时可多放一些花椒。花椒性温，温中散寒、除湿、止痛、杀虫，春季适度食用，有助于人体阳气的生发。春季是流行病的多发季节，花椒对各种细菌病毒有抑制作用，能够增强机体的免疫能力。<br />
+春季雨水较多，脾胃虚弱的人易受湿邪困扰，导致消化不良。花椒温中除湿，脾胃虚寒、食欲不振者应吃点花椒，寒性痛经及风湿性关节炎患者也可适当吃点花椒。<br />
+但花椒性热，容易上火的朋友应适量食用，孕妇多食会损伤胎气，也应少食。另外花椒有回乳作用，食用后易导致断乳，哺乳期的妈妈应注意。<br />
+<div class="goods-content-title">
+	【2014养生笔记本每日页面】每一天，都有细致体贴的养生提醒
+</div>
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/b/2/A260025783045_xt_xj_10.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/b/2/A260025783045_xt_xj_10.jpg"></a><br />
+<br />
+<strong>每日养生提醒示例：2014年1月养生提醒</strong><br />
+<br />
+1月1日&nbsp;&nbsp;&nbsp;&nbsp;是月，洗澡不要太频繁，否则耗散肾气。宜斋戒静居。<br />
+1月2日&nbsp;&nbsp;&nbsp;&nbsp;中医认为“寒性凝滞，寒性收引”，起居注意保暖，对肩、颈、脚部更要倍加呵护。<br />
+1月3日&nbsp;&nbsp;&nbsp;&nbsp;“语多伤气，视多伤血”，每天静坐10分钟，不视、不听、不语，能减少消耗、保养元气。<br />
+1月4日&nbsp;&nbsp;&nbsp;&nbsp;红枣桂花糯米饭：糯米浸泡半小时，同糖桂花拌匀煮饭，八成熟时加煮熟红枣即可。<br />
+1月5日&nbsp;&nbsp;&nbsp;&nbsp;小寒一年中冷到极点之时。勤保暖、少进补，“保胃”，吃软不吃硬，每晚泡脚应对年末疲乏。<br />
+1月6日&nbsp;&nbsp;&nbsp;&nbsp;冬不藏精，春必病瘟。屋内温度最好保持在20度左右，让人体阳气闭藏。<br />
+1月7日&nbsp;&nbsp;&nbsp;&nbsp;男人多踮脚尖，特别是在小便时，可补肾壮阳、改善性功能。<br />
+1月8日&nbsp;&nbsp;&nbsp;&nbsp;喝腊八粥，暖胃驱寒。粥油滋补功效胜参汤，常喝粥油，益寿延年。<br />
+1月9日&nbsp;&nbsp;&nbsp;&nbsp;强肾法：临睡前仰卧，两手背紧靠腰部，10分钟后热感传遍全身。<br />
+1月10日&nbsp;&nbsp;&nbsp;&nbsp;吃火锅时，尽量多加点白菜，可消解燥热之气。<br />
+1月11日&nbsp;&nbsp;&nbsp;&nbsp;每餐饮食有干有稀。胖人先稀后干，瘦人先干后稀。<br />
+1月12日&nbsp;&nbsp;&nbsp;&nbsp;头宜常抬：每隔1小时，将头慢慢仰起，下颚朝上至极限，慢慢还原，重复7次，可消除肩颈疲劳。<br />
+1月13日&nbsp;&nbsp;&nbsp;&nbsp;补肾御寒核桃仁饼：碎核桃仁50克，面粉250克，白糖适量，混合加水搅匀，烙薄饼吃。<br />
+1月14日&nbsp;&nbsp;&nbsp;&nbsp;极其疲劳时，做3-5次下蹲上举动作，下蹲时呼气，上举时吸气。<br />
+1月15日&nbsp;&nbsp;&nbsp;&nbsp;吃羊肉后不宜马上饮茶，否则会诱发便秘。<br />
+1月16日&nbsp;&nbsp;&nbsp;&nbsp;冬天治疗黄褐斑，事半功倍。一把枸杞、三颗红枣，开水冲泡代茶饮。<br />
+1月17日&nbsp;&nbsp;&nbsp;&nbsp;朝暮叩齿三百多，七老八十牙不落。<br />
+1月18日&nbsp;&nbsp;&nbsp;&nbsp;冬季常吃滋补食物，偏寒性的白菜可以帮助疏散、平衡体内的热。<br />
+1月19日&nbsp;&nbsp;&nbsp;&nbsp;“牛肉补气，功同黄芪”。寒冬食牛肉可暖胃。<br />
+1月20日 &nbsp;&nbsp;&nbsp;&nbsp;大寒，大寒时吃点羊肉、牛肉、萝卜、白菜，让阳气茁壮成长，为春天打好基础。是日，忌房事。 <br />
+1月21日&nbsp;&nbsp;&nbsp;&nbsp; “三消”——打嗝、放屁、出汗，是排放体内废浊之气的途径。<br />
+1月22日&nbsp;&nbsp;&nbsp;&nbsp;黑豆，强肝解毒、明目补肾。青入肝，黑入肾，皮黑肉青的黑豆，补肝肾效果极佳。<br />
+1月23日&nbsp;&nbsp;&nbsp;&nbsp;小动作收心——双手抱于胸前。拍身排毒——连续拍打肘窝5-10分钟。<br />
+1月24日&nbsp;&nbsp;&nbsp;&nbsp;风湿患者每天用热毛巾或热水袋热敷患处2次，每次半小时。<br />
+1月25日&nbsp;&nbsp;&nbsp;&nbsp;鹌鹑肉可与人参相媲美，被誉为“动物人参”，煲汤、熬粥最宜。<br />
+1月26日&nbsp;&nbsp;&nbsp;&nbsp;“每日常叩首，活到九十九” ，跪拜磕头动作，可通经活络、疏通躯干气血。<br />
+1月27日&nbsp;&nbsp;&nbsp;&nbsp;流行性感冒增多，咳嗽、身痛，咽喉疼痛，建议不食辛辣之品，宜微苦微酸。豆浆是这个节令不错的选择。<br />
+1月28日&nbsp;&nbsp;&nbsp;&nbsp;办公一族想补脑，每天吃几个鹌鹑蛋。鹌鹑蛋是天然的“补脑丸”。<br />
+1月29日&nbsp;&nbsp;&nbsp;&nbsp;擀脚底培元气：一只脚站着，另一只脚中段踩在擀面杖上来回搓动，至脚底发热为止。<br />
+1月30日&nbsp;&nbsp;&nbsp;&nbsp;;除夕早春的韭菜鲜嫩可口，是补肝肾、益气血的“补阳草”。除夕餐桌上的韭菜馅饺子寓意“久财”。<br />
+1月31日&nbsp;&nbsp;&nbsp;&nbsp;正月初一，是月，少酸增甘，以养脾气；宜每朝梳头一二百下。是日，勿食梨，忌房事。<br />
+<div class="goods-content-title">
+	梁冬先生序言：用一年时间，找到你靠谱的健康节奏
+</div>
+<br />
+<strong>这不止是一本健康的手册，更是一份健康提醒。</strong><br />
+<strong>相信大部分人都知道这些健康的真理，只是不知道该在哪一天做些什么。</strong><br />
+<strong>所以，确切地说这个日记本是一个小小的工具，它将伴随您度过这一年。</strong><br />
+<strong>让我们一起来做一个行为艺术，用一年的时间，把自己的身体和地球的自转公转暗合起来。<br />
+</strong><br />
+<br />
+此时，如果你花一点时间冥想：<br />
+从你所处的地方，升腾起来，升到地球上空再俯视下来，<br />
+你会发现，自己只不过是地球所有生命中极小的一份子，<br />
+这个地球上的一切生命都受制于一个基本事实，就是地球的自转和围绕太阳的公转。<br />
+<br />
+什么是时间？时间就是地球的自转和公转对我们的影响。<br />
+如果你相信一切生命的节奏和韵律都受制于地球的自转和公转，<br />
+你就会明白，时间之于我们的健康是多么的重要。<br />
+<br />
+春天阳气升腾，冬天阳气收敛；<br />
+早上阳气升腾，晚上阳气收敛。<br />
+在这个过程中，每一个时段、方位、颜色、食物、行为、心情等等，<br />
+都暗合你处在这样的一个节奏点里的生命韵律的需求。<br />
+<br />
+大部分的人都有经验，<br />
+哪怕你是感冒流鼻涕，你也会有在某天的某个时段特别严重，<br />
+哪怕你是痛风，你也有某天的某个时段特别痛或某个时段特别不痛。<br />
+这说明什么？这说明，时间的韵律和节奏在我们身体方面的体现是非常精妙的。<br />
+<br />
+所以，一个负责任的人，一个爱自己的人，<br />
+他（她）需要做的第一件事件就是让自己的身体运动节奏和地球的自转公转保持某种隐秘的同步性。<br />
+这正是法于阴阳，和于数术。天人合一，与道同齐。<br />
+<br />
+《2014养生日记本》就是在这样的发心之下所做。<br />
+这不止是一本健康的手册，更是一份健康提醒。<br />
+相信大部分人都知道这些健康的真理，只是不知道该在哪一天做些什么。<br />
+所以，确切地说这个日记本是一个小小的工具，它将伴随您度过这一年。<br />
+让我们一起来做一个行为艺术，用一年的时间，把自己的身体和地球的自转公转暗合起来。<br />
+<br />
+春生夏长秋收冬藏，<br />
+春天，天地俱生，夜卧早起，广步于庭，披发缓形，以使志生……<br />
+夏天，天地气交，万物华实，夜卧早起，使志无怒……<br />
+秋天，天气以急，地气以明，早卧早起，与鸡俱兴，使志安宁，以缓秋刑……<br />
+冬天，此谓闭藏，早卧晚起，必待日光，去寒就温……<br />
+<br />
+在你尝试一年之后，你会发现，<br />
+有一种在路上踏住了一个节拍的感觉。<br />
+这种踏住节拍的感觉，我们把它形容为靠谱，<br />
+所以，要成为靠谱的人，就从让自己的身体靠谱开始吧。<br />
+<br />
+这是正安中医与快书包网联合推出的一个项目，<br />
+如果您愿意，您还可以将《2014养生日记本》送给您的家人朋友或者客户。<br />
+最后，有一句话非常想与您分享，“一个人对世界最大的贡献就是让自己成为健康幸福的人。”<br />
+<br />
+如果您觉得有什么能帮到您，请到正安中医来找我们：<br />
+北京市东城区五四大街42号。（故宫东北角往东200米）010-65125070，15811197583<br />
+<br />
+祝 喜乐祥和<br />
+梁冬<br />
+二O一三年秋<br />
+<div class="goods-content-title">
+	正安中医——正心诚意 温暖喜悦
+</div>
+<br />
+正安中医由资深媒体人梁冬先生创办，秉承“正心诚意，温暖喜悦”的理念，致力成为中国身心灵服务整合者。所谓“正”，即“止于一”， 心安止于一途，人正、身正、心正，则心自然安。 “真诚不欺”是谓“诚意”。 形正身正，自然精神安乐；元气周流，温暖喜悦效果。　　<br />
+　　<br />
+正安核心业务：正安医馆、正安文化、正安生活、正安睡眠。<br />
+<br />
+【正安医馆】<br />
+正安医馆是一家尊重生命的新古典主义中医机构。透过多年的探访，挖掘具实战实效能力的好中医。汤药、针灸、点穴、导引、正骨，万法归宗，一气呵成。正安甄选道地药材，用心煎煮，我们的服务人员以弟子规教育为待人接物之根本，务求在就医前、就医中以及就医后，提供完整欢喜体验，让生命之正能量荡漾期间。现在正安医馆在紫禁城边的五四大街、国家奥林匹克森林公园附近及深圳中心书城各有一处，华南及华东亦在筹备中。正安医馆在南无药师琉璃光如来的护持下，每日沐浴在温暖喜悦的氛围之中。　　<br />
+<br />
+【正安文化】<br />
+正安文化是一家致力于中医公益项目、中医文化传播、和中医师承学习的传统文化机构。旗下包括正安聚友会、正安课程、正安传播。&nbsp;正安文化承诺：给每个人最值得拥有的生活方式。<br />
+<br />
+正安文化——正安课程<br />
+正安课程为对生命有更高期待，对生活有更美憧憬的人提供了一系列宝贵而实用的学习过程。每位曾有幸与正安同行一段时光的人，都会变得更温暖更喜悦。他们成为圈中的意见领袖与健康卫士，成为守护自己与家人健康的家庭医生，他们将终生保有爱己及爱人的宝贵能力。<br />
+<br />
+正安课程包括以下系列：<br />
+正安经典中医研修班：历时3年，立足经典的中医系统课程，将“生命”作为资产管理的课程。<br />
+青年医师临床培养计划：历时1-3年<br />
+家庭医生计划：为中医爱好者提供从初阶到高阶的系列课程模块<br />
+正安文化课：为国学爱好者提供传统文化及生活美学课程；<br />
+正安私塾：为人父人母提供古典式蒙学亲子课程及健康育儿课程。<br />
+正安课程在为个人提供学习体验外，还为企业的高管、员工、客户定制所需课程及健康咨询。&nbsp;&nbsp; <br />
+<br />
+【正安生活】<br />
+正安生活是正安中医以健康在线产品交易与服务为主的综合机构，同时也是正安“正心诚意 温暖喜悦”的健康服务理念在互联网在线服务、电子商务领域的重要业务布局。<br />
+正安生活依托正安旗下医馆就诊服务、文化养生讲座及高品质的客户服务体系，通过互联网为个人及团体提供全方位、个性化的健康生活管理服务，帮助摆脱亚健康、预防慢性病、解决就医难，为根本提高现代中国人的身心灵品质作出贡献。正安生活在正安医馆五四店及美仑店内，同时开设两家实体店，展示及体验正安优质养生健康产品。<br />
+<br />
+【正安睡眠研究中心】<br />
+正安睡眠研究中心，致力于睡眠研究、整合和传播。联合权威睡眠机构、整合全球先进睡眠产品。与全球顶级渡假酒店合作，打造正安睡眠馆，首创“六根助眠管理系统”，从眼、耳、鼻、舌、身、意六大方面，帮助睡眠问题人群重获婴儿般睡眠体验。
+<div class="goods-content-title">
+	正安创始人梁冬先生
+</div>
+<br />
+梁冬先生，正安中医创始人及董事长。<br />
+梁冬先生出于对于中国国学及中医学的热爱，创立正安中医及生活连锁机构及生命资产管理学院，全身心致力于中国古老中医学的学习与推广。目前正安中医旗下拥有三家连锁诊所，规模在逐年扩大。<br />
+梁冬先生师承国医大师邓铁涛，著名中医李可，同时也是中医大师郭生白先生的入室弟子。<br />
+同时，梁冬先生担任《国学堂》电视节目主持人，在过往的四年间，采访近100位民间中医，中国文化学者，为中医的宣传推广做出了巨大的贡献。并因此获得《新周刊》“2012年度生活家”。<br />
+梁冬先生担任主持人的电台节目《冬吴相对论》，深受广大听众的喜爱，节目被苹果App Tunes 评为“年度最受欢迎社会经济类谈话节目”。<br />
+梁冬先生喜爱读书，业余时间笔耕不止，先后撰写出版过《欢喜》、《黄帝内经家用说明书-上古天真论》、《黄帝内经说什么-四气调神》、《国学溯源》、《冬吴相对论上》、《冬吴相对论下》、《相信中国》等文化类畅销书籍。<br />
+梁冬先生曾任全国最大的中文搜索引擎百度的副总裁，主管企业的文化，市场战略，媒体合作，负责百度公司在美国上市期间的所有的品牌传播运动，并且构建百度公司的企业文化。<br />
+梁冬先生在进入互联网行业前曾出任凤凰卫视节目主持人及主编。
+<div class="goods-content-title">
+	2014养生日记本（16开大字版）企业定制
+</div>
+<div align="center">
+	<a href="http://pic.kuaishubao.com/picdata/goods/5/b/D590028908678_xt_cj_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/5/b/D590028908678_xt_cj_8.jpg"></a><br />
+<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('B990025793680', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('B990025793680', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('B990025793680', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('B990025793680', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'B990025793680'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shz" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shz"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

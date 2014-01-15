@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/3/5/A860031329173_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/3/5/A860031329173_1.jpg">
+        <h2>碎片，令人怀念的1980年代 / 村上春树</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥22.00元</b> <del>¥29.50元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/3/5/A860031329173_1.jpg','碎片，令人怀念的1980年代 / 村上春树-村上春树写下自己最有意思的故事（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】〔日〕村上春树<br />
+【译者】杨若思<br />
+【出版社】南海出版社；2013年9月第1版<br />
+【装订】32开；精装<br />
+【页数】192页<br />
+【印刷】单色<br />
+【ISBN】9787544253246<br />
+【品牌】新经典文库
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<b>继《无比芜杂的心绪》《眠》双双畅销，村上春树最有趣的书《碎片》登场</b><br />
+<br />
+<b>村上春树写下自己最有意思的故事</b><br />
+<br />
+<b>零距离接触村上春树，满眼都是美妙的话题，原来世界这么有趣！</b><br />
+<br />
+<b>这些碎片试着依照顺序读下来，忽然觉得，虽说这个世界上有一堆这样那样的事情，可是还真有趣啊。——村上春树</b><br />
+<div class="goods-content-title">
+	内容看点
+</div>
+《碎片，令人怀念的1980年代》是关于村上春树的那些日子里最感性却又最真实的故事，可以称为村上春树最有趣的书。<br />
+<br />
+在《碎片，令人怀念的1980年代》中，村上春树写下自己最有意思的故事，那些发生在咫尺之外的细腻、琐碎、感人的片段。村上春树说：“这本书会让你见识到时光中的奇妙事物，然后心里想着“原来是这么回事啊，真有你的”，然后嘴角上扬，开心地继续翻阅。请以搬家整理东西时，从柜子里翻出了毕业纪念册，于是打开一页页看下去的心情来阅读。
+<div class="goods-content-title">
+	作者：
+</div>
+村上春树，日本作家，美国文学翻译家。生于1949年。29岁开始写作，处女作《且听风吟》获日本群像新人奖，1987年问世的《挪威的森林》日文版销量已突破1000万册，2009年出版的《1Q84》创上市12天销售100万册的空前纪……村上春树的作品展现写作风格深受欧美作家影响的轻盈基调，少有日本战后阴郁沉重的文字气息，被称作第一个纯正的“二战后时期作家”，并誉为日本1980年代的文学旗手。<br />
+<br />
+写作之余，热衷翻译英语文学、跑步、爵士乐等。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<b>前言</b><br />
+一九五一年的捕手<br />
+达克·奇萨姆的人生<br />
+性爱为何变得无趣了呢？<br />
+瑞吉·杰克逊、比利．乔，形形色色的百万富翁<br />
+《纽约客》里的小说<br />
+老去是怎么回事呢？<br />
+虎之眼·《洛奇》·史泰龙<br />
+西班牙幸福小村的壁画<br />
+约翰．欧文与夫妇失和<br />
+纽约爵士俱乐部巡礼<br />
+四百名门的盛衰<br />
+水晶球、驱赶猫与老鹰帽<br />
+美国马拉松情势<br />
+斯人近况：巴比·贝尔篇<br />
+斯人近况：韦恩·纽顿篇<br />
+疱疹I<br />
+疱疹Ⅱ<br />
+给E．T．的信<br />
+欢迎来到万宝路之乡<br />
+中年的噩梦<br />
+凯伦·卡朋特之死<br />
+反冰河小说<br />
+电视与吃食<br />
+跑步的议员<br />
+JON&amp;MEARY<br />
+东山再起的莱昂．弗莱舍<br />
+狂犬病与浣熊<br />
+《苏菲的抉择》与布鲁克林大桥<br />
+爱琴海二对一<br />
+希腊的露天剧院<br />
+《君子》杂志五十年与斯科特．菲茨杰拉德秘史<br />
+《欲望号街车》<br />
+星球大战中的楚巴卡<br />
+霍华德·迪茨的生平<br />
+斯蒂芬·恐怖．金<br />
+关于衬衫<br />
+斯蒂芬·金与约翰．卡朋特<br />
+单身汉<br />
+关于傲人双峰的考察<br />
+最后的纳粹猎人<br />
+……<br />
+<br />
+</div>
+<div class="goods-content-title">
+	书评
+</div>
+一直以来，我始终觉得村上的才情表现在随笔上，远胜于小说所见者。这本漫想随录同样写得浮想联翩，让人不禁会心一笑。<br />
+——傅月庵（台湾作家）<br />
+<br />
+琳琅满目都是美妙的话题，原来世界这么有趣。——《朝日新闻》
+<div class="goods-content-title">
+	在线试读
+</div>
+当然，并不是说所有的一切都能在岁月中老去。有些仅仅是过眼烟云般的赝品，有些则是明确的预兆。在这层意义上，这本“碎片集”不过是个名副其实的大杂烩，只要能让读者在翻阅的时候有“没错没错，这我也知道”或是“咦，有这么回事啊”之类的响应，愉快地享受一趟“近过去之旅”，我就很高兴了。<br />
+<br />
+如果要表示个人意见，我认为在这种信息过度密集的现代社会里，一切名声本质上都是过度评价。评价不足的概念在任何地方都不存在。被视为评价不足，本身就已经是一种过度评价了。真是个令人费解的世界。<br />
+<br />
+横亘在大多数普通人与社会边缘人、流浪汉及无家可归的人之间的距离，乍看如大海般宽阔，其实不过是位于一百四十五街一带的哈莱姆河那么宽，大概一用力就可以将小石子扔到对岸的布朗克斯区。<br />
+<br />
+《滚石》杂志将一九八〇年代定义为“JUNK年代”。“破铜烂铁的年代”、“赝品的年代”、“空洞的年代”等，应该都是很贴切的翻译。若将《滚石》杂志所说的做个归纳，就是自五十年代到七十年代，生活的风格已经大致如数呈现，如今已然进入回收再利用的时代。乍见之下好像是新东西，其实只有品牌与包装是新的而已，里面的商品却依然如旧，其中没有理想也没有变革。可是若能掌握其中诀窍，这也是个可以生活得非常安逸的时代。<br />
+<br />
+Welcome to the Age of Junk！<br />
+<br />
+JUNK年代也是一个过度评价的时代。要言之，就是内容与包装——名声之间的差距越来越大了。<br />
+<br />
+世界上所有的天妇罗店都消失或是所有的游泳池都消失，哪一种会让人觉得比较痛苦呢？我试着想了一会儿，但没有结论。我既想吃天妇罗，也想游泳，实在难以抉择。<br />
+<br />
+我想起刚开始写小说的时候，自己的名字也被很多人说“就算是笔名，好像也不太好吧”，我都听怕了。村上春树这个名字到底哪里不好，我也搞不清楚。总之这就是我的本名。不好意思。毕竟我也是个饲养过许多猫的人，并非不能体会这些失去宠物的人的心情，但还是觉得似乎没必要被照顾到这种地步。凡是动物，总有死去的一天，而且大多死得很突然。所以我想，在它们活着的时候尽量好好地公平对待它们，以免日后再后悔，或许才是我们能做到的至善行为。<br />
+<br />
+一个作家出道时给人的印象过于强烈，接下来可就不好过了。像我这样只有还过得去的销售量，似乎也就得享还过得去的安乐。但我也不清楚这是好是坏。<br />
+<br />
+我唱的《小狗巡警》还配有可爱的舞蹈，只要表演这个都会大获好评。但就是因为太受欢迎了，我很不愿意表演这首歌。一路写到这里，可是完全与奥运会扯不上关系。真是伤脑筋。伤脑筋啦汪汪汪。<br />
+<br />
+从小，我就一直认为“村上冬树”这个名字要比“村上春树”好。冬树给人一种老练坚毅又沉默寡言的感觉，就像《七武士》里的宫口精二那样。相较之下，春树这个名字是给人开朗的感觉没错，却带有几分忸怩。不过我都三十五了，对“春树”也完全习惯了，如今不至于还有什么不满。<br />
+<br />
+如果读过丸谷才一先生的散文集《心爱的西装》，就会知道将名人的代表作嵌入名字里当作中间名的用法。也就是诺曼·《裸者与死者》·梅勒、乔治·《星球大战》·卢卡斯这样的感觉。<br />
+<br />
+一旦恐怖小说作家开始认真思考恐怖到底是什么，幽默小说作家开始思考幽默到底是什么，事情似乎反而就朝向不利的方向发展了。<br />
+<br />
+虽然这给人一种“是否已经混不出名堂了”的感觉，但并非只有畅销榜上面的才是音乐。即便如此仍然认真工作，并获得应有评价的人仍然多得是。<br />
+<br />
+这是神的启示，他本人如此表示，但似乎没有到那种程度。不过是美人、醇酒、奢华、失望这些伴随成功而来的老生常谈罢了。可是，能够将这种老生常谈以“神的启示”的感觉拍成优秀的电影，正是史泰龙了不起的地方。<br />
+<br />
+长相酷似迈克尔·杰克逊，也不见得处处都占便宜。走在路上会遭到袭击，外套或鞋子什么的会被人抢走当作纪念品，上馆子给个很普通的小费也会让女侍者大惊小怪地嚷嚷：“迈克尔·杰克逊只给这么一点小费呀！”真是可怜。<br />
+<br />
+所谓赏名人（Celebrity Watching），顾名思义就是在远处观察那些知名人士。基本规则与赏鸟相同，就是“看尽管看，可是禁止动手”这么回事。<br />
+<br />
+心理学家指出，纽约式幽默可说是在纽约市讨生活的人的必需品。而且那种幽默与市街本身一样，非得含有爽利尖锐的恶毒不可。构成这种幽默的成分是不安、压力和紧张。<br />
+<br />
+美国目前正在进行激烈的可乐大战。电视与收音机里接连不断地播放莱昂纳尔·里奇演唱的百事可乐广告歌曲，可口可乐方面则以口味焕然一新的“NewCoke”发动攻势。我并不是多么喜欢喝可乐，是百事可乐还是可口可乐，是传统的还是新口味，感觉好像没有多大差别，但对一般的美国人而言，这似乎是个相当重要的问题。<br />
+<br />
+上了年纪之后，该怎么做才会比较快乐呢？就是要服老。<br />
+<br />
+《君子》杂志下了这么个结论。也就是心悦诚服地接受相应的年龄。因为不论如何试图抗拒，衰老都会实实在在地将其应得的份额夺走。可是，不愿接受这种灰色想法的人都有满意的工作，有高收入，认为每天早上慢跑就可以维持得很好。或许这只能获得一时的宽慰，但做似乎还是比不做要好。<br />
+<br />
+磁带里的音乐，选择起来相当困难。若是歌曲太短，节奏变换过于频繁，很难配合步调。反之换成迪斯科风的加长版本，电子鼓之类的听多了，对耳朵又过于刺激，边听边跑太累人了。古典音乐的旋律实在不太适合，四拍爵士乐也不是跑步的节奏。依照我的经验来说，最适合慢跑的音乐就是“Starson——”这种形式的连续歌曲。不但旋律稳定，根音也很简单，可以让人跑起来轻松愉快。此外STUFF乐队或是十字军乐团这类简单的融合音乐也不错，极其普通的美式摇滚乐也很适合慢跑。<br />
+<br />
+就我个人的感想来说，经过大约二十年的岁月，觉得奥林匹克运动会好像已经没有味道了。所谓新式的奥运会，我怎么也无法喜欢。如今看来，一九六四年东京奥运会前后的味道最棒了。罗马奥运会也很不错。赫尔辛基、墨尔本，光听到名字就让人兴奋不已。四五个人聚在一起，边喝着酒边看赫尔辛基奥运会的纪录片，好像就有种非常幸福的气氛。<br />
+<br />
+……<br />
+<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A860031329173', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A860031329173', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A860031329173', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A860031329173', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A860031329173'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shh" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shh"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

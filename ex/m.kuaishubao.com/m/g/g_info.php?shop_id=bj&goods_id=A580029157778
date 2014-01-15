@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_1.jpg">
+        <h2>同仁堂牌蜂胶软胶囊60粒装27g（赠同仁堂特选玫瑰花1袋）</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥198.00元</b> <del>¥198.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：瓶</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_1.jpg','同仁堂牌蜂胶软胶囊60粒装27g（赠同仁堂特选玫瑰花1袋）-辅助降血糖、强化免疫力、抗菌（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-tip">
+	<s></s><span style="color:red;" class="w"><b>快书包推荐：</b><span style="white-space:normal;">采用天然蜂胶，符合农业部行业标准的无公害食品蜂胶</span><b>。</b>适宜<span style="font-family:Arial, sans-serif;white-space:normal;">血糖偏高、糖尿病人及防治糖尿病、易感冒，免疫力低下、脾胃不适人群。</span></span> 
+</div>
+<!-- 商品参数 -->
+<!-- 商品参数 -->
+<div class="goods-content-title">
+	商品参数
+</div>
+<p>
+	【品名】同仁堂牌蜂胶软胶囊
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【品牌】<span style="white-space:normal;">同仁堂<br />
+</span><span style="font-size:14px;line-height:21px;">【主要原料】蜂胶、聚乙二醇</span><span style="font-size:14px;line-height:21px;font-family:Calibri;">400</span><span style="font-size:14px;line-height:21px;font-family:宋体;">、明胶、甘油、尼泊金乙酯、纯化水</span> 
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	<o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【标志性成分及含量】每<span style="font-family:Calibri;">100g</span><span style="font-family:宋体;">含：总黄酮</span><span style="font-family:Calibri;">4.2g</span><o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【保健功能】辅助降血糖<o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【适宜人群】血糖偏高者<o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【不适宜人群】少年儿童<o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【食用方法及食用量】每日<span style="font-family:Calibri;">2</span><span style="font-family:宋体;">次，每次</span><span style="font-family:Calibri;">2</span><span style="font-family:宋体;">粒，温开水服下，每日早餐和临睡前半小时服用最佳<br />
+<span style="white-space:normal;">【包装】瓶装</span><br style="white-space:normal;" />
+<span style="white-space:normal;"></span><span style="white-space:normal;">【规格】</span><span style="white-space:normal;font-family:Calibri;">27g(450mg/</span><span style="white-space:normal;font-family:宋体;">粒</span><span style="white-space:normal;font-family:Calibri;">*60</span><span style="white-space:normal;font-family:宋体;">粒</span><span style="white-space:normal;font-family:Calibri;">)</span><span style="white-space:normal;"></span></span><o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【保质期】<span style="font-family:Calibri;">24</span><span style="font-family:宋体;">个月</span><o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【贮藏方法】室温、密封、置干燥阴凉处<o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【注意事项】本品不能代替药物<o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【执行标准】<span style="font-family:Calibri;">Q/DXTJP048</span><o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【批准文号】国食健字<span style="font-family:Calibri;">G20060790</span><o:p></o:p>
+</p>
+<p class="p0" style="margin-bottom:0pt;margin-top:0pt;">
+	【食品卫生许可证号】<span style="font-family:Calibri;">(</span><span style="font-family:宋体;">京药</span><span style="font-family:Calibri;">)</span><span style="font-family:宋体;">卫食证字</span><span style="font-family:Calibri;">[2006]</span><span style="font-family:宋体;">第</span><span style="font-family:Calibri;">110000-JS0134</span><span style="font-family:宋体;">号</span><o:p></o:p>
+</p>
+<p>
+	<br />
+</p>
+<!-- 商品详图 -->
+<div class="goods-content-title">
+	商品详图
+</div>
+<p>
+	<strong>图一：<span style="line-height:20.984375px;">蜂胶软胶囊</span>产品图<br />
+</strong> 
+</p>
+<div style="text-align:center;">
+	<strong> <strong><a href="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_3.jpg"></a><br />
+<br />
+<br />
+<a href="http://pic.kuaishubao.com/picdata/goods/a/9/A840029158097_xt_cj_88.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/a/9/A840029158097_xt_cj_88.jpg"></a><br />
+</strong></strong><strong style="font-family:Arial, sans-serif;">买即赠送同仁堂特选玫瑰花1袋（20g）</strong> 
+</div>
+<p>
+	<br />
+</p>
+<p>
+	<strong><strong style="white-space:normal;"><span style="line-height:20.984375px;"> <strong style="white-space:normal;">图二：<strong><span style="line-height:20.984375px;">蜂胶软胶囊产品成分图</span></strong></strong><br />
+</span></strong></strong> 
+</p>
+<p style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_8.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_8.jpg"></a>
+</p>
+<!-- 商品特点 -->
+<div class="goods-content-title">
+	商品特点
+</div>
+<p>
+	<strong>同仁堂蜂胶产品作用<br />
+</strong>1、辅助降血糖。调节高血脂、高胆固醇、高血液粘稠度。<br />
+2、强化免疫功能。增强体质，提高机体抗病能力。<br />
+3、抗菌消炎，维护脾胃，补肝宜肾。<br />
+<br />
+<b><strong style="white-space:normal;">同仁堂蜂胶</strong>适宜人群<br />
+<strong></strong></b>血糖偏高、糖尿病人及防治糖尿病、易感冒，免疫力低下、脾胃不适人群。<br />
+<br />
+<b style="white-space:normal;"><strong>同仁堂蜂胶</strong>产品特色<br />
+<strong></strong></b><span style="white-space:normal;"><strong>1、</strong><strong>天然蜂胶：</strong>采用天然蜂胶，符合农业部行业标准的无公害食品蜂胶，原料成本是合成蜂胶的3倍多<br />
+<strong>2、蜂胶提取纯化度高：</strong>蜂胶中成分复杂，具有一定亲脂性。采用乙醇提取工艺，保证其纯化度<br />
+<strong>3、辅助降血糖功能显著：</strong>临床检验在北京西苑医院进行，具备权威性、专业性。<br />
+<br />
+</span> 
+</p>
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_5.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_5.jpg"></a> 
+</div>
+<p>
+	<br />
+</p>
+<div class="goods-content-title" style="white-space:normal;">
+	健康知识
+</div>
+<p style="white-space:normal;">
+	<strong>蜂胶药理说明<br />
+</strong> 
+</p>
+<div style="text-align:center;">
+	<strong> <a href="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_7.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_7.jpg"></a> </strong> 
+</div>
+<strong> </strong> <br />
+<strong style="white-space:normal;">蜂胶搭配推荐<br />
+</strong><span style="white-space:normal;">1、蜂胶、石斛、西洋参搭配辅助降糖效果好<br />
+</span>2、蜂胶、葡萄籽提取物搭配食用，抗氧化、预防改善心血管系统疾病<br />
+<div style="text-align:center;">
+	<a href="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_6.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_6.jpg"></a> 
+</div>
+<p>
+	<br />
+</p>
+<p>
+	<br />
+</p>
+<div class="goods-content-title">
+	食用与贮存小贴士
+</div>
+<div class="Goods-Content-Box">
+	【使用方法】温开水服下，每日早餐和临睡前半小时服用最佳<br />
+【适用人群】<span style="white-space:normal;">血糖偏高、糖尿病人及防治糖尿病、易感冒，免疫力低下、脾胃不适人群。<br />
+<span style="color:#333333;white-space:normal;">【不<span style="color:#333333;white-space:normal;">适用人群</span>】少年儿童</span></span><br />
+【贮存方法】<span style="white-space:normal;">室温、密封、置干燥阴凉处</span><br />
+</div>
+<!-- 温馨提示 -->
+<div class="goods-content-title" style="white-space:normal;">
+	同仁堂品牌
+</div>
+<div class="Goods-Content-Box" style="white-space:normal;">
+	<strong>北京同仁堂（集团）有限责任公司，中国十大中药品牌，中国驰名商标，中华老字号，北京市名牌，中国十大自主创新民族品牌，国有企业500强，中国制药工业百强，北京优秀特许品牌，全国用户满意企业。<br />
+</strong><br />
+	<div style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_13.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_13.jpg"></a><br />
+	</div>
+“神州国药香，北京同仁堂。”北京同仁堂，为全国中药行业著名的老字号，历经数代、载誉300余年。 北京同仁堂创建于清康熙八年（1669年），自雍正元年（1723年）正式供奉清皇宫御药房用药，历经八代皇帝，长达188年。历代同仁堂人恪守“炮制虽繁必不敢省人工 品味虽贵必不敢减物力”的传统古训，树立“修合无人见 存心有天知”的自律意识，确保了同仁堂金字招牌的长盛不衰。<br />
+	<div style="text-align:center;">
+		<a href="http://pic.kuaishubao.com/picdata/goods/2/e/A580029157778_10.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/2/e/A580029157778_10.jpg"></a> 
+	</div>
+	<div style="text-align:center;">
+		<br />
+	</div>
+同仁堂的产品以“配方独特、选料上乘、工艺精湛、疗效显著”而享誉海内外，产品行销40多个国家和地区。 同仁堂集团被国家工业经济联合会和名牌战略推进委员会，推荐为最具冲击世界名牌的16家企业之一，同仁堂被国家商业部授予“老字号”品牌，荣获“2005CCTV我最喜爱的中国品牌”、“2004年度中国最具影响力行业十佳品牌”、“影响北京百姓生活的十大品牌”，“中国出口名牌企业”。2006年同仁堂中医药文化进入国家非物质文化遗产名录，同仁堂的社会认可度、知名度和美誉度不断提高。<br />
+<br />
+公司办公区坐落于北京CBD商务中心区，同时在北京久具盛名的国际化信息窗口-----中关村上地地区，药物植物研究所院内，拥有符合国家食品药品监督管理局医药行业标准的GMP10万级大型现代化生产厂房。公司始终坚持同仁堂集团公司“独立运行、各有侧重、资源共享、整体发展”的原则进行产品开发，以高新技术为主导，全方位发展的现代化企业，以包括传统中成药、参茸饮片、滋补类保健食品、普通营养食品在内的完备产品品种全面覆盖销售市场：中成药品种包括参杞颗粒、紫河车胶囊、珍珠散、健身宁片、香砂养胃软胶囊等标有国药监局“准”字号的品种；参茸饮片类产品则涵盖了冬虫夏草、吉林长白山参和鹿茸系列、韩国高丽山参、美国花旗参、灵芝系列及精制饮片等；保健食品已从传统型向现代化高科技含量型转化，范围涉及乌鸡精口服液、即食雪蛤饮品、蜂系列产品(如蜂王浆口服液、鲜王浆、蜂花粉片、蜂胶软胶囊、蜂王浆冻干 粉胶囊等)，维生素制品包括维生素E软胶囊、维生素C咀嚼片、多种维生素软胶囊，抗氧化制品葡萄籽提取物软胶囊等；普通营养食品包括冰糖燕窝、鱼翅、鲍鱼、燕窝等即食系列、即食纯鲜燕窝系列等。<br />
+<br />
+2004年，北京同仁堂健康药业(福州)有限公司已取得了营业资格，并已开始正式投入运营，用以生产现代化标准的中药饮片和其他保健食品、饮料等新产品。<br />
+<br />
+<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A580029157778', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A580029157778', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A580029157778', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A580029157778', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A580029157778'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

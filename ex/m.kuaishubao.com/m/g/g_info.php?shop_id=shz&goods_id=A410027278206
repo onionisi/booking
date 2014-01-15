@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/b/9/A410027278206_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/b/9/A410027278206_1.jpg">
+        <h2>顾客为什么“粉”你：驱动顾客极度狂热的5大策略</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥19.20元</b> <del>¥28.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/b/9/A410027278206_1.jpg','顾客为什么“粉”你：驱动顾客极度狂热的5大策略-顶尖客户管理大师在多家500强企业实战经验总结。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】（美）珍妮·布利斯<br />
+【译者】杨洋<br />
+【出版社】当代世界出版社；2013年11月第#版<br />
+【装订】32开；平装<br />
+【页数】198页<br />
+【印刷】单色<br />
+【ISBN】978-7-5090-0935-2<br />
+【品牌】东方智库
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<b>顶尖客户管理大师在多家500强企业实战经验总结</b><br />
+<b><br />
+建立企业死忠粉丝已经成为当今商业趋势</b><br />
+<b><br />
+社交网络营销就是以粉丝及口碑为核心</b><br />
+<b><br />
+微博、微信、移动互联经济，无不以粉丝为基础</b><br />
+<div class="goods-content-title">
+	内容看点
+</div>
+<b>“喜欢”你的顾客和“迷恋”你的顾客有什么区别？</b><br />
+很多公司都赢得了顾客的尊重，但只有少数精英企业拥有忠诚而热情的粉丝。这些顾客不仅会再三光顾你的生意，而且会向他们的朋友、邻居、同事，甚至是陌生人讲述你的故事。他们通过电子邮件、微博、社交网络为你传播口碑，帮助你的业务获得爆炸性的增长。<br />
+<br />
+珍妮•布利斯善于帮你赢得这样的顾客。布利斯说，坏消息是没有捷径，世界上最大的市场营销预算也不能让顾客“爱”上你。但是好消息是一家公司可以变得令人爱戴——如果你做出了本书中的5个经营决策。<br />
+<br />
+布利斯曾经研究过很多受爱戴的公司，也跟很多这类公司合作过，这些公司的规模有大有小，其中一些是像文曼斯食品市场和哈雷－戴维森这样的老牌公司，还有一些则是像Zappos和货柜商场这样的新兴企业。尽管公司之间存在着差异，但他们都做出了5个相同的基本决策。比如：康涅狄格州的格里芬医院决定相信患者，让患者们可以看到自己的完整病历。这种开诚布公的做法使格里芬医院的医疗诉讼锐减。<br />
+<br />
+苹果公司通过明确的宗旨做决定，在他们的专卖店里营造了一种轻松惬意的购买环境，尽管这需要花更多的钱。<br />
+<br />
+得克萨斯州奥斯汀的艾米冰淇淋店决定做到真实，他们用一个白色的纸袋子做申请表来招募勇敢的、富有创造力的员工。<br />
+<br />
+位于康涅狄格州的赞恩自行车店决定通过赠送1美元以下的零件来为骑车者提供支持。<br />
+<br />
+Netflix决定在大多数顾客都还没有意识到服务问题时就说“对不起”。<br />
+<br />
+受爱戴的公司永远都不会忽视那些会受他们的一举一动影响的人。而这些公司获得的回报是：一支志愿宣传大军会用诸如“我真想加入他们”和“我爱他胜过爱我的狗”这样的话来敦促他们的朋友和同事尝试这些公司的产品或服务。<br />
+<div class="goods-content-title">
+	名人推荐
+</div>
+如果你决定投身于一个事业，你觉得它会让这个世界、一个城市、一个组织，甚至是你自己变得更好，而且你希望有一些实用的方法来让人们相信你，让他们传播你的故事，那你非读这本书不可。——科林•贝瑞特 美国西南航空公司名誉主席<br />
+<br />
+如果你希望你的生意不仅能吸引新顾客，也能留住老顾客，并且还能让老顾客热心地为你传播良好的口碑，那么我衷心推荐你阅读这本书。——谢家华 Zappos.com首席执行官<br />
+<br />
+珍妮•布利斯在正确的时候写了一本正确的书。她总结了提供出色顾客体验的关键决定。我认为所有关心顾客体验的执行官都应该熟读并向公司员工推荐这本书。——布鲁斯•坦金 弗雷斯特研究公司副总裁兼首席顾客体验分析师<br />
+<br />
+成功的公司必须对提供最好的客户服务充满激情——在如今这个时代，想要获得成功你没有别的选择。采纳珍妮的5个决定会让你的顾客在于你互动时超越满意。——基普•延德尔 货柜商场董事长兼首席执行官<br />
+<br />
+我喜欢珍妮•布利斯的书。如果你想“拥抱”你的员工和顾客，就得读这本书。她总结的5个简单决定有助于你和你的团队提供出色的客户服务。这本书通俗易懂，是客服领域的《圣经》。——杰克•米切尔Mitchells/Richards/Marshs首席执行官<br />
+<br />
+我知道你正在看这些点评，以了解是否应该购买这本书。我会说“买吧”。但最重要的是：运用这本书中的建议，你的公司也可以成为珍妮所说的“受爱戴的公司”，获得员工和顾客们的喜爱。——约翰•克里斯坦森 超级畅销书《鱼》合著者 Charthouse learning首席执行官
+<div class="goods-content-title">
+	作者：珍妮·布利斯
+</div>
+职业生涯于Lands’End，她是公司的客服体系开创者。之后她成为了科威国际不动产公司、好事达保险公司、微软公司和马自达公司的首席顾客官。她现在是CustomerBliss咨询公司的总裁，该公司服务的客户包括AAA、强生、好市多和赛门铁克公司。布利斯常年在世界各地授课，她的评论常常为主流媒体所引用，现居住在美国洛杉矶。<br />
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<b>心和习惯的结合，构成了受欢迎公司的脊骨</b><br />
+<br />
+<b>“我相信你”意味着尊重</b><br />
+<br />
+<b>执着于有价值的目标</b><br />
+<br />
+<b>人性和真实让你与众不同</b><br />
+<br />
+<b>以他们希望的方式提供支持</b><br />
+<br />
+<b>道歉的确是人性的试金石</b><br />
+<br />
+<b>决定权在你的手中</b><br />
+<br />
+第1个决定：我们决定相信别人吗？<br />
+第2个决定：我们通过明确的宗旨来做决定吗？<br />
+第3个决定：我们决定做真实的自己吗？<br />
+第4个决定：我们决定为顾客提供支持吗？<br />
+第5个决定：我们决定在出现问题时道歉吗？<br />
+<br />
+<b>后记</b><br />
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<b>心和习惯的结合，构成了受欢迎公司的脊骨</b><br />
+当知道了你的价值观是什么时，做决定就不会困难。<br />
+——罗伊•迪斯尼（ROY DISNEY）<br />
+<br />
+受欢迎的公司做决定的方式与其他公司不同。他们可以敏锐地意识到他们的每一个行为是如何影响顾客的感受和回应的，因此他们会花时间和顾客就有关问题做出有目的的决定。受欢迎的公司会将他们自己与公司的业务经营紧密地联系在一起。<br />
+<br />
+所谓的与众不同取决于你决定的意图和动机。意图和动机表明了决定背后的人是谁以及他们看重什么。受欢迎的公司还存在着一个共同点，即他们始终会找到一种方式把他们的人性融入到做决定的方法之中，自始至终都会考虑那些他们会影响到的人。<br />
+<br />
+顾客钦佩受欢迎的公司，因为在这里人人都善待他们，而不是把他们当作一个问题，同时，当他们与这些公司接触时，这些公司让他们感觉温暖。当你想为母亲买一件毛衣时，电话线那端的客服人员会询问你母亲的相关情况。当你走进这些公司的大门时，不会感到“企业式”的炫耀，受欢迎的公司做决定的方式促使他们有了超越商业惯例的行为，从而使他们与顾客之间建立起牢固的情感纽带。<br />
+<br />
+<b>你的决定表明了你是谁，你看重什么</b><br />
+当你做出决定后，会导致一个行动。这些决定和行动积累起来，就成为了人们描述你和看待你的方式，这就是你的“故事”。<br />
+<br />
+公司的集体决定向顾客、员工和市场讲了一个怎样的故事？什么东西对你来说很重要？你的决定反映了你的意图以及公司的立场吗？要让顾客喜欢你，首先就是你如何看待你的决定会影响到的人。如果每天你都通过你的决定来告诉顾客你有多尊重他们，那么，他们就会将这些事情告诉大家，让这些事情在互联网上广为传播。<br />
+<br />
+《顾客为什么“粉”你：驱动顾客极度狂热的5大策略》列举了很多受欢迎的公司做出的决定，这些公司来自多个行业，规模有大有小，他们赢得了让顾客讲述他们故事的权利，顾客对这些公司很有感情，这就是他们受欢迎的原因。<br />
+<br />
+所有这些公司还有一个共同点，即他们做决定时投入了专注、焦虑和激情。受欢迎的公司没有把暂时的利润不足看得很严重，而是用我们每个人在儿童时期就学过的黄金法则来经营业务。结果正如你在本书中所看到的，这些公司兴旺发达起来，是喜爱这些公司的顾客让其发展起来的。<br />
+<br />
+<b>普遍存在的人性</b><br />
+作为个人来说，我们的决定铺建了自己生活的道路：去哪里上学？与谁约会？如何对待逆境？如何对待赞同或不赞同我们观点的人。这些事情定义了我们是谁，推动我们变成了如今的样子。<br />
+<br />
+当我们年轻的时候，不知不觉中学习过这条黄金法则，全心全意地相信它，竭尽所能地在生活中运用它。然后我们牢记这个理念，将它运用到生意中。<br />
+<br />
+儿童时期学到的黄金法则一直都以某种形式存在着。在荷马的《奥德赛》中，有人说：“我会关照你，就像我在有同样的需要时关照自己一样。”公元前6世纪，孔子说过“己所不欲，勿施于人”。《摩西五书》中说要“爱邻如己”。伊斯兰教中，也有“不要伤害任何人，这样别人可能就不会伤害你”的名言。《圣经•马太福音》也说：“你们希望别人怎样对待你，你们也要怎样待人。”<br />
+<br />
+所以，在生意中做出的决定，表明了我们人性的深度，即运用黄金法则的能力。我们如何纠正差错，在送交商品、保证质量、给予人们所需东西的过程中有多认真细致，都显示出我们看重的是什么。而这些决定导致的行动，则揭示了我们是什么样的人。<br />
+<br />
+我们作为顾客或员工跟很多公司打过交道，为什么我们会觉得有些公司很亲切，有些公司就很疏远呢？我们对公司的感觉跟我们遵循黄金法则有关系吗？当一个公司真正在尝试做正确的事情时，黄金法则会把我们吸引到他们那里去吗？<br />
+<br />
+当我们年轻的时候，学习过这条黄金法则……然后我们牢记这个理念，将它运用到生意中。<br />
+<br />
+事实证明，这种关系确实存在。唐纳德•普法夫是洛克菲勒大学神经生物学和行为实验室的负责人，也是《公平竞赛的神经科学：为什么我们通常会遵照黄金法则》一书的作者，他的研究证明，别人如何待我，我也如何对待别人，这是天性。<br />
+<br />
+作为员工，往往被吸引到那些让我们能够发挥天性的公司中。作为顾客，如果一家公司做决定时会考虑到我们，我们就会对这家公司产生感情。<br />
+<br />
+普法夫的研究结果告诉我们，利他主义是人类大脑中的一种源代码。之所以会有利他的举动，是因为有一种神经机制在引导我们这么做，它会让我们产生为他人利益服务的倾向。善解人意，对待别人就像对待自己，这些都是原始情感决定的。普法夫讲过这样一个故事：一名男子看到有人跌落到纽约地铁的轨道上，本能地跳下站台，迅速从铁轨上背起陌生人，回到站台边，被人们拉了上去。他为什么这样做？是什么让他为一个并不认识的陌生人甘冒生命危险呢？其实他是自然而然的，他的本能让他跳下站台，救起了困在铁轨上的人。<br />
+<br />
+那么，何不把做正确的事情的本能带到工作中，本能地善待顾客和同事。受欢迎的公司会让他们的员工运用这种本能，让员工在日常工作中做正确的事情。他们允许并鼓励员工遵循这种本能，而不是给他们设置发挥这种本能的障碍。<br />
+“心和习惯的结合，构成了受欢迎的公司的脊骨。”<br />
+<br />
+苏黎世大学的研究人员也认为我们被“组装”了利他主义倾向。他们发现大脑中有一个小区域——背外侧前额叶皮层——负责抑制天生的自私倾向。对于我们评估公平以及平衡自私和物欲倾向来说，这个区域十分重要。<br />
+<br />
+心和习惯的结合，构成了受欢迎公司的脊骨。认识和感受到什么是正确的，然后与符合我们自发的决定方式结合起来，让这些公司从内部和外部都受到人们的爱戴。<br />
+<br />
+心和习惯的结合，让受欢迎的公司认真考虑顾客的需求和感情，做出一些不寻常的决定。在普法夫的研究中，跳到地铁轨道上的人做出了一次利他主义的行动，因为做这件事完全是为了帮助别人，他把跌落到铁轨上的人的需要摆在了首要位置。而公司从顾客需要的角度来做决定，常常把顾客的需要放在自己的需要之前，这其实是一种很自然的做法。关键是这种做法也把顾客吸引到了他们那里，让他们和顾客之间建立了一条情感纽带，从而使他们的业务获得了增长。<br />
+<br />
+<b>受欢迎的公司必须做的5个决定</b><br />
+作为顾客和员工，我们渴望获得受欢迎的公司提供的产品和服务。这些公司让人们能够按照他们自己的意愿做出决定和行动，而这些意愿和“做正确的事情”是一致的。这样的公司当然会把顾客吸引到他们那里去。<br />
+<br />
+下面就是受欢迎的公司作出的与众不同的5个决定。这5个决定揭示了他们是谁，看重什么，从而赢得了让顾客讲述他们故事的权利。<br />
+<br />
+1.受欢迎的公司决定相信别人<br />
+<br />
+“我们相信我们的顾客。我们相信那些为他们提供服务的人。”<br />
+<br />
+受欢迎的公司决定相信别人。他们相信员工，也相信顾客，不采取怀疑主义的态度。通过信任顾客，他们摆脱了多余的规则、政策和官僚机制，因为这些东西在他们和顾客之间设置了屏障。受欢迎的公司相信员工能够也愿意做出正确的事情，这不仅减少了猜测，减少了每一步工作都进行检查的需要，亦避免了把员工降格为只会干活的劳动力，而是让员工充满活力，能够分享想法，并且愿意留下来。<br />
+<br />
+2.受欢迎的公司通过明确的宗旨来做决定<br />
+“坚不可摧的诚信和清楚无误的宗旨指导了我们决策的方向。”<br />
+<br />
+受欢迎的公司花费大量的时间来强调他们的工作是为了让顾客生活得更好，他们会把这个宗旨体现在他们的决定中。受欢迎的公司用明确的宗旨来指导决策，来把组织凝聚到一起，这就把“执行任务”提升到了为顾客提供某种体验的层次上。所以，顾客不仅想要再次享受这种体验，还会把它推荐给别人。<br />
+<br />
+3.受欢迎的公司决定做真实的自己<br />
+“我们的灵魂富有活力，我们的人性体现充分，而且，我们有鲜明的个性。”<br />
+<br />
+受欢迎的公司卸下华丽的包装，努力消除“大公司”和“小顾客”的感觉，和顾客之间培养了拥有相同价值观，并对对方的缺点及怪癖有所包容的关系。这种关系让他们靠近彼此。但要做到真实的自我并不容易；在顾客面前表现出如此的透明度需要勇气。只有真正知道他们自己特色的公司才可以一直做到“真实”——无论顾客跟公司的哪个部门打交道。这些公司努力建造一个和谐的氛围，让人们的个性和创造力得以展现。顾客被他们的特质所吸引，而他们也赢得了这些顾客的爱戴。<br />
+<br />
+4.受欢迎的公司决定为顾客提供支持<br />
+<br />
+“我们必须赢得与顾客保持持续关系的权利。”<br />
+<br />
+以一种对顾客来说十分重要的方式来为顾客提供支持，这是受欢迎的公司每天都要做的事情。这样做需要耗费更多的资源和精力，但受欢迎的公司乐此不疲。在每天的工作中，他们争取到继续与顾客保持关系的权利。用每天辛苦的工作来捍卫自己的决定，因为他们知道，他们必须让顾客再次光顾。而这始于顾客需要他们的时候，他们能按照顾客的意愿来提供支持。<br />
+<br />
+5.受欢迎的公司决定在出现问题时道歉<br />
+<br />
+“当事情出差错时，我们怀着谦卑之心采取行动，迅速把错误纠正过来。”<br />
+<br />
+一个公司对错误做出的回应，不仅反映了这个公司的人性，同时比其他任何情况下都更能显示该公司的本色。当问题出现时，有智慧和风度的公司会承担起责任，而不是指责别人和逃避责任。真诚地道歉，修复与顾客之间的情感纽带，是受欢迎的公司的做法。事实上，这种做法让我们更加喜爱他们。公司决定如何进行解释，做出反应，消除创伤，以及采取何种负责任的行动，这些都清楚地表明了他们对顾客的态度，展现了公司有怎样的一颗“心”。受欢迎的公司多年积累下来的好名声，使他们在诚恳道歉后更容易得到顾客的原谅。<br />
+<br />
+“决定背后的意图和动机……让这些公司与众不同。”<br />
+<br />
+事实上，做出这些可以让顾客喜爱的决定并不轻松。很多公司都曾尝试复制受欢迎公司的决定。但要获得相同的效果，赢得顾客的喜爱，你的目光必须要超越决定本身，并拥有决定的基石。决定的核心意图是什么？领导者和员工做出这样的决定是出于什么样的动机？在本书中，我们将研究每一个决定背后的意图和动机，这样你就可以看看你的公司如何才能做出影响顾客和员工的决定了。<br />
+<br />
+一些决定让大家和公司之间建立了情感纽带，这些决定的背后存在着意图和动机（即“是什么”和“为什么”）。Lands’ End公司为什么会提供商品退换保证？公司创始人加里•科默告诉我说，他的意图首先是向公司内部的员工传达一条强有力的讯息。他说：“退换保证意味着我们要按照顾客的要求来做事。”他的动机是什么？就是让公司内部员工有一种负责任的心态，促使他们做出对顾客更有利的事情。他不想用规章制度来约束员工。退换保证成了一系列和产品质量、服务以及经营有关的决定的纲领。为什么我们会着力宣传简单的退换保证？我们的意图就是让顾客安心，在和顾客的每次互动中，这个意图都被明确地传达到了公司的上上下下。邮购服务当时尚处于发展的早期阶段，顾客需要知道我们是值得信赖的，在我们的商品目录中，退换保证就是一项硬性的规定，没有“如果”、“但是”一说。<br />
+<br />
+在《顾客为什么“粉”你：驱动顾客极度狂热的5大策略》的每个案例中，对决定背后的动机和意图我都进行了解释。如果驱动你的意图（你要实现的目标）和动机（你做决定的原因）的，是你的决定会影响到的人的行为和感受，那么决定带来的结果就会使你在同类公司中独树一帜。你的决定中包含的人性和情感因素，会成为你和顾客之间的情感纽带。这些顾客还会向认识的人讲述他们在你的公司所经历的故事，从而推动你的业务增长。<br />
+<br />
+我第一次经历这种大智慧的决定是在Lands’ End公司。这些决定激发了Lands’ End独特的企业文化，无论是初期只有少量员工，还是后来拥有数千名员工。它们所激发的不寻常的、充满善意的行动，标志了我们在世界上所处的位置。当把其他文化的东西移植到Lands’ End的时候，大家只需要开几次会，就知道应该为要做出的决定培养哪些行为和习惯了。<br />
+<br />
+我们不止精通生产、拣货、包装、整理和运输业务，我们是什么样的人，也明确体现在做事的方式之中。我们的决定反映了我们的人性。这些决定都遵循这样的原则，即：“对顾客来说正确的事情，对我们所有人来说都是正确的。”<br />
+<br />
+Lands’ End发生的一起事件表明了我们在履行这一承诺上的态度。在出售了数千件毛衣给顾客之后，他们在质检过程中发现有些毛衣存在缺陷。没有等顾客找到公司，他们就给每一位买了毛衣的顾客发信说：“我们之前发给你的毛衣可能有点问题。当时不知道，但现在发现有部分毛衣达不到我们的质量要求。我们想确保你收到的毛衣是好的，所以如果你想更换毛衣，就给我们打电话。不用退回之前那件毛衣了，算是我们赠送给你的。”在信件的末尾，我们的签名一直都是“你在Lands’ End的朋友”。<br />
+<br />
+这个签名具有非同寻常的意义，他们的确是把自己当作了顾客的朋友。<br />
+<br />
+对我们来说，“顾客”很神秘，因为我们通过电话或邮寄方式接受订单，并没有和顾客面对面地接触。我们想象他们的日常生活，想象他们在挂了订货电话之后的感觉，想象他们为送货员打开门，以及他们穿上一件新的高领毛衣时的感受。装着衣服的盒子送到顾客家中时，应该为他们创造一种情感体验，我们对于这一点非常重视，顾客打开盒子时的感受就是我们的成绩单。<br />
+这种承诺给我们提供了一个“活的”公司手册：它的影响远远超过了任何印刷在纸张上的“以顾客为中心”的声明。我们学习如何为顾客着想，而公司信任我们可以在自己的岗位上做出正确决定。相信员工能做出对顾客来说正确的事情，这种内部信任在如今的商业世界中十分少见。它不是通过政策来进行言传，而是一种身教。<br />
+<br />
+让员工相信公司的承诺，要激发员工做出正确的行为，这是唯一的方式。<br />
+<br />
+<b>你得先提出正确的问题</b><br />
+<br />
+做出正确的决策，讲一个让你自豪的故事，这始于自我认知。你要提出正确的问题，审视当前的决定，并了解它们将揭示怎样的故事，你也必须知道应该为将来做哪些重要的决定。<br />
+<br />
+达尔文•史密斯是金佰利公司1971年到1991年期间的首席执行官，他被很多人认为是“史上十大首席执行官”之一。吉姆•柯林斯在他的著作《从优秀到卓越》中介绍了史密斯如何通过提出问题和解决问题，将处于困境中的金佰利转变为全球业绩最好的纸品消费品公司。<br />
+<br />
+史密斯在1971年成为金佰利的首席执行官时，曾努力思考过要把公司带往哪个方向。当时史密斯住在威斯康星州的农场里，他常常在寂静的夜里一边考虑这个问题，一边开动锄耕机挪动岩石。他的妻子路易斯每当半夜听到锄耕机的刮擦声时，就知道他又在思考公司的事情了。<br />
+<br />
+搬动岩石没有给史密斯带来答案，而是给他带来了问题。他向公司的领导团队和员工提出了这些问题：金佰利应该代表什么，它可以因为什么事情而闻名，以及它如何才能获得财务上的增长。<br />
+<br />
+这些问题的答案向达尔文•史密斯讲述了金佰利的故事。史密斯了解到是什么样的决定和行动让公司成了当时的模样。从这些答案中，史密斯也意识到了他需要采取什么样的行动才能把公司带到一个新的方向上。这些问题的答案，让史密斯迈出了带领金佰利走上成功之路的第一步。<br />
+<br />
+<b>成为一家受欢迎的公司所带来的影响</b><br />
+<br />
+明智的决定，无疑会给公司及员工和顾客带来良好的影响。这种影响又似乎总能返回到“发送者”那里，即回到做出这些决定的人那里，并且在财务上体现出来。那些受欢迎的、兴旺发达的公司最有力的武器之一，就是有一条清晰的决定路径。受欢迎的公司和他们的顾客及员工之间存在着一种个人联系，这是一种真实无虚的联系。在接下来的章节中，你会看到正确的决定是如何给公司带来大幅业务增长和良好财务收益的。<br />
+<br />
+受欢迎的公司做出的决定会引发一些行动，这些行动把人们吸引到他们那里。员工会留下来，并且会变得越来越有价值；顾客则会形成一支宣传大军，帮助公司获得良好的声誉。<br />
+<b><br />
+能留住快乐、敬业的员工</b><br />
+<br />
+招聘员工的成本较低，而且员工都很敬业，这是受欢迎的公司的共性。康涅狄格州德比的格里芬医院因善待病人和员工而深受大家的爱戴。2008年，当这家医院有44个岗位需要招聘员工时，申请人数达到了6483人。医疗保健行业本来就缺乏高素质的员工，这一数字更加证明了格里芬医院在就业市场上的吸引力。<br />
+<br />
+食杂连锁店文曼斯食品市场相信卖场员工可以坚守“不让任何顾客带着不满意离开”的承诺，在近6000名文曼斯员工中，大约有20％的工龄在10年以上，而且这家食杂连锁店每年还会收到超过15万份工作申请。受欢迎的公司决定让员工们知道：“我们尊重你，你对我们的生意很有价值。”<br />
+<br />
+<b>顾客是他们最大的支持者，并参与其中</b><br />
+<br />
+汽车共享公司Zipcar的顾客为“他们的”汽车制作了200多个视频，并上传到YouTube上。Threadless.com在2004年底还只有7万名成员，到2008年时成员已经达到70多万，增长了10倍。该网站的顾客提交T恤衫的设计，并投票决定生产哪些T恤。哈雷车主会于1983年成立，现在已有会员85万，其中很多人都把哈雷—戴维森的标志文在自己的身上。<br />
+<br />
+几乎所有这些公司都有由虔诚的追随者建立的“粉丝”网站。比如宜家的粉丝在ikeafans.com上赞美节俭的、创造性的家居装饰方法。zipkarma.com和lushies.com上的顾客则聊他们喜欢的产品，给经常出没于这些粉丝网站的公司员工提供建议和反馈。2001年“911”恐怖袭击事件后，西南航空公司收到了数以千计的顾客邮件。这些顾客想确认西南航空仍然会经营下去，以便他们能够继续乘坐这家公司的航班。很多顾客在信件中附带了支票，有些顾客还退回了他们收到的旅行优惠券，以示对西南航空公司的支持。<br />
+......<br />
+<br />
+<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A410027278206', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A410027278206', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A410027278206', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A410027278206', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A410027278206'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../shz" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../shz"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

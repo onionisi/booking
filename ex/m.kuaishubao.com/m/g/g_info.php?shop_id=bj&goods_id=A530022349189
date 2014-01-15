@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/f/4/A530022349189_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/f/4/A530022349189_1.jpg">
+        <h2>费正清中国回忆录</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥49.00元</b> <del>¥68.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/f/4/A530022349189_1.jpg','费正清中国回忆录-全球最权威中国问题专家、“头号中国通”费正清的唯一自传。一部个人化的现代中国史，一部看懂现代中国无比重要的著作。（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr">
+	【作者】（美）费正清<br />
+【译者】闫亚婷 熊文霞<br />
+【出版社】中信出版社；2013年8月第1版<br />
+【装订】16开；平装<br />
+【页数】516页<br />
+【印刷】黑白<br />
+【ISBN】9787508640600
+</div>
+<div class="goods-content-title">
+	编辑推荐
+</div>
+<strong>1.全球最权威中国问题专家、“头号中国通”费正清的唯一自传。</strong><br />
+梁思成、林徽因夫妇为他取中文名“费正清”；胡适带着他视察监狱，探望政治犯；麦卡锡主义横行，他被指责为“丢失中国”的人之一；基辛格密访北京前请教费正清，后来评价说“和他的谈话改变了历史”；邓小平曾举杯对他“在恢复中美关系中做出的贡献表示感谢”；孔飞力、魏斐德、史景迁、傅高义、余英时等全部出自他的门下……他创立了美国的当代中国学，创建了哈佛东亚研究中心；他的著作影响了国际舆论对中国革命的看法；他的学术研究，在很大程度上影响了美国政府的政策决策。了解现代中国，从阅读费正清开始。<br />
+<br />
+<strong>2.一部个人化的现代中国史，一部看懂现代中国无比重要的著作。</strong><br />
+费正清曾五度来华亲历中国变革，接触、结识宋美龄、孔祥熙、周恩来、邓小平、叶剑英、尼克松、基辛格、胡适、傅斯年、梁思成、林徽因、费孝通、龚澎、乔冠华等上百位中美政学重要人物，见证了中国半个多世纪的奋起与失落，此可谓空前绝后。这是一个“头号中国通”最完整的传奇人生记录，也是一部个人化的现代中国史。对读者而言，这本书将不仅仅是一本简单的个人传记，而是读懂中国历史的一本重要著作。<br />
+<br />
+<strong>3.对近现代历史进行重新解读，告诉你一个不一样的中国。</strong><br />
+蒋介石为什么会丢掉中国？毛泽东有着什么样的缺憾？为什么“延安访问团”没能扭转美国对中共的政策？邓小平领导的中国变革将会走向何方？中国将如何走向公民社会？在《费正清中国回忆录》中，费正清以博学而洒脱的风格，风趣、清新的笔调，将自己的经历和观察娓娓道来，同时对现代中国和世界历史的走向进行了透彻的解读。任何人想对中国的过去、现在和未来有所认识，从阅读这本书开始。<br />
+<br />
+<strong>4.中国重要政治、文化人物的独家观察评价，极具看点。</strong><br />
+蒋介石、毛泽东、周恩来、邓小平、胡适、林徽因、梁思成、郭沫若……和中美政治、文化人物的亲密接触、个人交往，让费正清对他们有着更深切的理解与认识。在这本书里费正清对这些重要人物有着独到的评价，极具看点。可以说，这本书和基辛格的《论中国》、傅高义的《邓小平时代》、陶涵的《蒋介石与现代中国》具有同等重要的地位。<br />
+<div class="goods-content-title">
+	内容看点
+</div>
+在《费正清中国回忆录》里，费正清回顾了自己长达50年的中国情缘，讲述了他半个多世纪与中国有关的生活与工作，记录了他对近现代中国历史的敏锐观察和精辟分析。费正清以博学而洒脱的风格，风趣、清新的笔调，将自己的经历和观察娓娓道来。对读者而言，《费正清中国回忆录》将不仅仅是一本简单的个人传记，而是读懂中国历史的一本重要著作。<br />
+<br />
+正如余英时评价的：“作为史学家的费正清，费正清的学术事业——东亚研究中心，费正清在中美关系中所持的立场。三个方面，三条线索，贯穿了费正清的一生，也是费正清的主要业绩所在，主要思想观点所在。”费正清长期观察中国问题，并且和中国政治、经济、文化各领域的重要人物有交往。他的研究和观点不仅影响了几代美国汉学家和西方的中国学界，而且直接或间接影响了美国政界和公众对中国的态度、看法以及政府对华政策的制定。他既是历史的观察者，也是历史的亲历者。在这个社会的大转型阶段，费正清的经历和著作将是我们思考中国历史、现实与未来的重要途径。<br />
+<div class="goods-content-title">
+	名人推荐
+</div>
+和他的谈话改变了历史。<br />
+——基辛格（Henry Kissinger，美国前国务卿）<br />
+<br />
+在哈佛的中国研究领域中，费正清是伟大的奠基者和机构缔造者。他的继任者不是某个个人，而是一群学者。……如果没有一位自信的不懈的斗士，开垦拓荒并创建我们的“东亚王朝”，我们无法像今天这样欣欣向荣。<br />
+——傅高义（Erza Vogel，哈佛大学东亚研究中心前主任、《邓小平时代》作者）<br />
+<br />
+我对他心怀崇敬，就如对待一位在你刚起步的时候关注你的长者。对他和他的力量，我从来都仰慕不已。<br />
+——史景迁（Jonathan D. Spence，著名历史学家、《追寻现代中国》作者）<br />
+<br />
+作为历史学家他极不寻常，因为对他来说，历史一直延伸到昨日。也许，正是这一点鼓励着他与美国及中国的公众人物保持着极其广泛的联系；当然这也使他知道并关注在国民党及共产党政府统治下中国知识分子所受的苦难。<br />
+——谢伟思（John S. Service，美国前驻华外交官）<br />
+<br />
+作为史学家的费正清，费正清的学术事业——“东亚研究中心”，费正清在中美关系中所持的立场。三个方面，三条线索，贯穿了费正清的一生，也是费正清的主要业绩所在，主要思想观点所在。<br />
+——余英时（著名历史学家）<br />
+<br />
+费正清一向以历史学家的眼光，透过中国数千年的演变，来分析、评论当前所发生的一切。这是对我国感情最深厚而成见最少的一位正直的美国学者。<br />
+——萧乾（著名翻译家、作家）
+<div class="goods-content-title">
+	作者：费正清
+</div>
+<b>作者简介</b><br />
+哈佛大学终身教授，著名历史学家，美国最负盛名的中国问题观察家，美国中国近现代史研究领域的泰斗，“头号中国通”，哈佛东亚研究中心创始人。生前历任美国远东协会副主席、亚洲协会主席、历史学会主席、东亚研究理事会主席等重要职务，还曾是美国政府外交官、政策顾问。主要代表著作有1948年初版并经多次修订的《美国与中国》，与英国历史学家崔瑞德共同主编的多卷本《剑桥中国史》，与赖肖尔合著的《东亚文明：传统与变革》，以及临终前交付出版的《中国新史》。
+<div class="goods-content-title">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog">
+	<strong>第一部分 负笈求学：在五个地方接受教育（1907—1931）</strong><br />
+第1章 为何我将目光投向东方<br />
+第2章 了解中国<br />
+<br />
+<strong>第二部分 我们首次发现中国（1932—1935）</strong><br />
+第3章 来到北京<br />
+第4章 开始观察这片土地和这里的人们<br />
+第5章 艾格尼丝•史沫特莱眼中的中国<br />
+第6章 哈罗德•伊罗生与恐怖行动<br />
+第7章 蒋廷黻和现代化<br />
+第8章 成为专家，任教清华<br />
+第9章 我们的中国朋友<br />
+第10章 访问最早的通商口岸<br />
+第11章 首次离开中国<br />
+<br />
+<strong>第三部分 学会当一名教授（1936—1940）</strong><br />
+第12章 拿到牛津大学博士学位<br />
+第13章 开始在哈佛执教<br />
+第14章 战争与政策问题<br />
+<br />
+<strong>第四部分 华盛顿、重庆和上海（1941—1946）</strong><br />
+第15章 来到华盛顿<br />
+第16章 战时前往中国<br />
+第17章 立足重庆<br />
+第18章 玛丽•梅乐斯和战略情报局<br />
+第19章 学术中心与美国利益<br />
+第20章 1943年——蒋介石开始失去人心<br />
+第21章 接触左翼<br />
+第22章 与华盛顿的战时新闻局一同工作<br />
+第23章 战后中国<br />
+<br />
+<strong>第五部分 第二次世界大战的残余（1946—1952）</strong><br />
+第24章 中国政策和地区研究<br />
+第25章 与麦卡锡主义战斗<br />
+<br />
+<strong>第六部分 开展中国问题领域研究（1953—1971）</strong><br />
+第26章 创立研究中心<br />
+第27章 研究领域的组织工作<br />
+第28章 在世界各地参观与访问<br />
+第29章 越南和美国—东亚关系<br />
+<br />
+<strong>第七部分 渡过难关（1972—1981）</strong><br />
+第30章 中华人民共和国的今与昔<br />
+第31章 与俄国人交往失败<br />
+第32章 作为中国友人的波折起伏<br />
+第33章 结 语<br />
+缩略词表
+</div>
+<div class="goods-content-title">
+	在线试读
+</div>
+<strong>序言</strong><br />
+拿起桌子上的电话，我能够与世界上其他国家成千上万的人进行通话，尽管我们彼此语言并不相通。幸运的是，他们不会真的给我打电话，而我也同样不会作此尝试，但是，这在未来并非不可能发生。媒体、弹道导弹的发展，让我们的世界变成了一个“地球村”，正是这种距离的缩减，让我们觉得有必要去了解其他的国家。在过去的50年中，我一直尝试去了解中国。然而，随着我关于中国的知识面不断扩大，关于它的知识盲点也在不断增加。问题总是不断涌现，而要找到与之匹配的答案却需假以更多时日。为求更好地了解中国，人们在更大的广度上作出努力，而这种努力同时也要求我们更好地了解自己。如果一个人对中美关系不感兴趣，不对其感到诧异、恼怒，或是惊恐，那么他对中国的研究就不会长久。事实上，研究中国的人会发现自己对于中国的研究在一定程度上对中美关系产生了影响和作用。就像任何一位历史学家所认为的，他不可避免地会为他所写的历史作出大量的贡献。这样的想法让我觉得，为自己撰写自传是合情合理的，而我自己也有此意。<br />
+<br />
+然而，当一位历史学家开始写自传时，他首先会发现这样一个事实——他仍然在写历史。他需要对“事实”进行仔细甄别，还要分阶段地进行组织，作出例证，阐明主题。写自传就像编写一本教科书一样不易。你必须总结大量的情节，但是不能让读者读之不知所云。<br />
+<br />
+接下来我将迅速地概述一下我要讲的故事：我长在南达科他州，那时候，它依然是一个文化较为落后的地区，所以我前往美国东部求学。我曾辗转于5个地方求学，这样的经历让我学会了到一个新的环境时，如何依据它的标准来确立自己事业的方向。在偶然的情况下，我开始对中国研究产生兴趣，并为此在中国待了4年的时间（1932—1935）。在此期间，我对中国人的思维方式和行为准则有了一定的了解。之后，我去哈佛教授历史学（1936—1941），并且开始对中国现代变革的进程有了大致的了解。后来，在战争时期，我又两次前往中国（1942—1943，1945—1946），那时候，我了解了中国革命的精神，以及它的感染力和它的革命方式。于是我确信，这将不仅仅是一场伟大的革命，并且它最终必将取得胜利。回到哈佛大学后（1946—1952），我觉得有必要在全国范围内展开对中国的研究和教育，以帮助美国公众了解中国人真实的生活现状。我安然度过了麦卡锡时代，并没遭受太多迫害，然而，我依然为中美关系中所存在的问题的严重程度感到惊骇。因此，我参与了哈佛大学在中国问题领域所进行的培训、研究以及出版等方面的工作。1972年中美恢复邦交之后，我们又不得不再次面对那些重新抬头的老问题。<br />
+<br />
+我希望这本个人的记录可以提供一些有用的观点。我们需要我们能够获得的一切。<br />
+<br />
+说明一下，书中以缩进方式排版的文字是我从不同时期的信件、发表的文章或备忘录中摘取的内容。<br />
+<br />
+<strong>第32 章 作为中国友人的波折起伏</strong><br />
+一位区域研究专家以教师为职业发挥作用，但他可能轻而易举地越界成为一名权威人士。我所谓的权威是指对于那些引起大众传媒的兴趣但仍处于模糊不清的状况可以作出明确判断的能力，至少对此一时能够有所判断。这种源于萨满教的公共职能常常被行使，甚至是凭借一些麻醉品和欺骗的手段，那么我们为什么不能发挥真正的公共职能呢？有点智慧总比完全没有好。<br />
+<br />
+外国人因此不得不面对这些美国的圣人，他们装作本行自以为是地向世人发表他们的看法。中国人长期以来对这些外国中国通或汉学家习以为常了，这些人在中国是中国的学生，回国之后向人们传授有关中国的所有知识，这是一个令人尊敬的职位。<br />
+<br />
+对我而言，由于极为关注中美关系以及互相之间的影响，因而促使我对美国对华政策也产生了浓厚的兴趣。这是每个人都可以参与其中的一切游戏。1941年后，鉴于美国对华政策对中国生活的重要性，我于1946年开始直接参与公共政策讨论。经过30多年的研究，我被称为中国问题研究专家的“泰斗”，这个词在我的书中会成为一个不好的称呼。泰斗一般都是指曾经的教授。（据说老的泰斗都是永存于世的。他们只不过脱离其院系罢了。）<br />
+<br />
+仔细剖析就会发现，我为人们所提供的大都是中国历史的某一个片断或是相当宽泛的历史综述性的一个中国完整历史的浓缩，亦或这样一种建议：我们的政策应充分考虑双方的不同历史背景。从1949年到1979年，这两种策略同样适用于解决台湾问题。事实上，1979年华盛顿与北京关系正常化后，台湾问题依然存在。我们至今依然关注这个问题，它将继续伴随着我们。<br />
+台湾问题包含着多方面的含义：它是国民党输掉内战的标志，除非台湾能够在废墟中鼓吹民族统一主义；作为一个与祖国分离的省份，它是日本和美国实施帝国主义侵略的产物；它是一个试图以1800万人征服10亿人的海岛基地；它还是一个经济奇迹，是我们的六大贸易伙伴之一，是永不沉没的语言学校和研究中心，是一个开放的宝库，里面有大量从北京盗来的艺术品和档案；它显而易见也是最后一个通商口岸，它也是我们没有恶意、值得帮助的并且过去支持援助的盟友；此外还有其他许多含义。从某种意义上说，台湾问题属于我们每个人。我们不能因它的不利影响而低估它的实际价值。<br />
+<br />
+1977年，我被中华人民共和国冷漠地拒之门外，来到台湾遇到的又是喧嚷的媒体抨击。显然，中国大陆和台湾地区双方都在试图告诉我什么。<br />
+<br />
+1972年，周恩来临别赠语，用英语对我说：“明年或晚些时间再见。”他的话听起来好像在表达中国的大门随时向我敞开，但我并未打算立即重返中国。一回到坎布里奇，我们立刻制作了大约400张幻灯片，并在美国艺术与科学院的宴会厅放映，向人们展示中国社会的现状。此后，我们又在牙买加平原（Jamaica Plain）的布兰迪其宫（Brandegee House）进行了幻灯片放映，还经常在那里举行研究中心的夏季研讨会。幻灯片主要概述了我们的中国之行，结尾是威尔玛在华清池拍摄的一张照片，据说唐代美人杨贵妃曾在此沐浴。<br />
+<br />
+随后由于其他工作项目的原因导致我重返中国的计划推后了好几年。从1972年9月中旬到12月中旬，我们开始环球旅行，途经伦敦、巴黎、慕尼黑、莫斯科、东京和台北。而1973年，我发现手头排满了编校工作，要出版单卷本的教科书《东亚：传统与变革》和编辑专题论文集《在华传教事业与美国》（The Missionary Enterprise in China and America），后者系汇编1972年1月在库埃纳瓦卡（Cuernavaca）召开的会议论文而成（1974年由哈佛大学出版社出版）。此外，我开始召集大家进行《剑桥中国史》第十卷的编撰工作，该书于1976年完成。<br />
+<br />
+……<br />
+<br />
+1976年9月毛泽东逝世，从此结束了我们长期而脆弱的合作关系。从1927年毛泽东发动革命以来，他为我自1929年开始研究的中国问题奠定了理论基础。毛泽东的逝世成为各大媒体的头版头条新闻，媒体都在四处搜集相关的信息，而我也被列入中国问题时事评论员的候选人名单当中。但是我坚持开车去了魁北克省北的海特利（North Hatley，P. Q. ），拜访了我们亲爱的加拿大朋友弗兰克•斯科特和玛丽安•斯科特（Frank and Marian Scott）。纽约哥伦比亚广播公司一位足智多谋的制作人帮我们解决了难题，他驾驶水上飞机带我们直接从马萨维比湖（Lake Massawippi）到达蒙特利尔，在那里我可以在与华盛顿和帕萨迪纳联合举行的公开讨论节目中露面。我们一致认为毛泽东的逝世对于他本人以及整个世界来说都是一个转折点。同时，我也借此机会表示台湾问题仍然未得到解决。此次讨论会正发生在1977年我准备申请访华签证之前。<br />
+<br />
+对“中国人民之友”访华团的中国式照顾和饮食款待是十分慎重且微妙的。然而，中国人观念中有效的朋友分类对外部世界的人们并不会起到类似的道德约束。追本溯源，儒家思想所谓的气节显然是对某位庇护人和统治者的忠诚。如果旧王朝的官员情愿效忠于作为征服者的新王朝，便会被视为对已故者的背叛，落得名誉扫地的下场。而中国人在看待国际关系和人际关系时是一样的，都会牵涉道德的范畴，不同人民之间的友谊如同家人之间或是个人之间的友谊。友谊被尊为一种责任，体现为双方之间的权力要求和义务承担。被视为中国朋友的外国人必须进入中国的人际关系网，并忠实地贯彻到底，只有这样才能算作中国人可靠的朋友。<br />
+<br />
+众所周知，西方人在建立友谊之前会附带其他的注意事项，从而使友谊看上去不够真诚可信。特别是对于记者，他们有责任对发生的事情如实报道。在位于北京西郊的八宝山革命烈士公墓中，艾格尼丝•史沫特莱的墓碑上刻着如下内容：<br />
+中国人民之友、美国革命作家史沫特莱女士之墓<br />
+你可以想象一下，如果史沫特莱健在的话，她会对最近被揭露出来的“文化大革命”时期江青的劣行作出何种反应。我猜想，以她反政府的倾向，假设她在1957年还没发现毛泽东是一位暴君与独裁者，她也定会骂不绝口。或许，在合适的时间去世是保持“中国人民之友”称号的唯一方式。<br />
+<br />
+实际上，与多数国家一样，外国记者想要发挥效用也不得不站在政府一边。驱逐出中国的威胁也被用来当作影响生计的决定性刺激。外国教授也会遇到同样的问题，但事情远非如此简单。在他们看来，美国记者和教授对政府持批评态度，因此在不当权时与他们友好的人一旦当权就成为他们批判的对象。这是一种极其不友好的行为。<br />
+<br />
+在1972年中华人民共和国邀请我来华访问并热情款待6周之后不久，对方就对我失去了好感。随后，1972年秋天的欧洲之行中，我们在莫斯科以及列宁格勒停留了3周时间，并举办了6场学术报告，而这些报告在我看来并非公开性的，也没有任何反华言论。然而，鉴于中苏关系的高度敏感性，我的苏联之行在北京方面看来十分可疑，也有可能是苏联媒体对北京宣传导致的。我的推测也不是没有道理，如果我是齐赫文斯基的话，我会做什么呢？作为一名中国问题专家于1972年访问北京之后又前往莫斯科和台北，这在别人看来是愚蠢的机会主义者的做法，尽管我自认为只是一名专注于个人研究领域的教授。<br />
+<br />
+此外，我为鲍若望（Jean Pascalini）所著的《毛泽东的囚徒》（Prisoner of Mao）撰写评论似乎也被看作不友好的行为。鲍若望出生于北京，母亲是中国人，父亲是法国人。他本人曾为美国海军陆战队效力，1957年被捕入狱并在劳改农场待了7年之久。1964年戴高乐承认北京时，鲍若望以法国公民的身份获释。鲍若望是一名真正的老北京，年纪轻轻，且适应性很强。他不仅精通思想改造的术语，而且能够在繁重的工作任务和1960年至1961年普遍营养不良的情况下生存下来。他的故事由美国的一名记者记录并整理，内容似乎非常真实可信，并让我们了解到中国国内就如同苏联古拉格群岛（Gulag）。后来这两位作者来坎布里奇访问时，他们著作的真实性和客观性获得了广泛的认可。<br />
+<br />
+我在《纽约时报书评》（1973年11月1日）发表的评论指出了60年代初期中国的监狱与苏联的不同之处：这里的守卫和管理人员清正廉洁，老囚犯也不会组织专横的地下社会，唯一的鸡奸犯被发现后立即处决。同时，监狱长表示在饥荒年代他们的伙食条件也同样地差。这种比较足令中国增光，尽管对于美国读者来说整个体系都令人高度反感，这在以前从没有具体地暴露出来。<br />
+<br />
+我又一次拜访了中华人民共和国驻华盛顿联络处的大使韩叙，他与周恩来一样是一位有着超凡魅力的外交官。他向我表示说，为《毛泽东的囚徒》撰写评论是一种“不友好”的行为，认为我不应该这么做。我反驳道，在美国的观念中作为一名教授，他的职业责任要优先于友谊关系。这本书的意义重大，为此我无法躲避对其评价的责任和义务。这是我的职责所在。如果因为担心冒犯他人而拒绝评论，那我还有什么用处呢？我极力表示这本书对中国评价比苏联好很多，但是韩叙对此并不以为然，最终我们不欢而散。<br />
+<br />
+1977年，我们的签证申请递交上去，从未遭到拒绝，但并没有得到北京方面的任何回复。在当时任何因素都有可能起作用。我将乔冠华列入我想拜访的人员名单，尽管当时我知道他因在1976年4月表示反对邓小平而遭到冷遇。黄华接替乔冠华出任外交部长一职。<br />
+<br />
+我以越来越高的频率撰写并宣讲有关台湾何去何从的问题，因为有越来越多的迹象表明，中华人民共和国最终会加入联合国，华盛顿和北京的关系也必将有所改善。1960年中苏分裂已成定局之时，中美却并未恢复邦交，如果不是固执使得中美双方领导人（毛泽东和周恩来，肯尼迪和拉斯克）仍然各站一边，那么这就是一种无可指责的消极迹象。<br />
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A530022349189', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A530022349189', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A530022349189', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A530022349189', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A530022349189'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../bj" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../bj"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

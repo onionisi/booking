@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/6/6/A570028649779_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/6/6/A570028649779_1.jpg">
+        <h2>城市画报（2013年第19期 总第337期）-吴莫愁突入名利场</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥10.00元</b> <del>¥12.00元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：册</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/6/6/A570028649779_1.jpg','城市画报（2013年第19期 总第337期）-吴莫愁突入名利场-90后个体崛起：中国90后青年生活形态报告（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	【出版社】广东城市画报社<br />
+【出版时间】 2013-10-12<br />
+【刊号】10079165<br />
+【开本】16开<br />
+【页数】128<br />
+【印刷】彩色<br />
+【品牌】城市画报<br />
+</div>
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	本期要目
+</div>
+<p style="outline-width:0px;font-family:Arial, sans-serif;white-space:normal;">
+	<strong>「刊首语」重返旧杂志<br />
+</strong>记得N年前，画报编辑部开会报选题，在创意一度枯竭的时候，曾经集体发狠：要不就把以前做过的题目再做一遍！读者未必不会不喜欢呢。<br />
+<br />
+事实上，我们已有一个题目是操作过10次以上的，即每年一度的情人节特刊。画报自创办以来就有情人节特刊的传统，只能围绕男女情爱欲来想选题创意，还不能重复，已历经13年，反复淬炼，如果杂志界有选题之妖，那么这个就是了。现在连我都很好奇编辑们明年还能炼出什么来。&nbsp;<br />
+<br />
+德国有本杂志《YPS》，1975年创办的儿童类杂志，2000年停刊，不过2012年底又涅槃重生了，这是因为出版商发现原来读《YPS》杂志长大的老读者们在facebook上建立了活跃的交流群，于是杂志社决定重新出版，并定位为一本专门为原来的老读者而办的杂志，鉴于这些读者现在已经是25-45岁之间的人，杂志的选题于是就有“如何在德国找到当年玩过的东西”、“如何在35岁还能成为一名特工”等等，杂志的新理念就是让读者以一种成人的方式重新找到他们童年时的感觉。同样的，杂志还充分利用了社交媒体，通过新媒体找回并聚集当年的读者。<br />
+<br />
+这个来自《2013世界杂志媒体创新报告》的案例，让我颇为触动：原来一本杂志还可以用这样的方式重装回归。而且死了也能复生，并且是借助新媒体来还魂。<br />
+<br />
+所以，一部分人都认为的观点，所谓新媒体是旧媒体的杀手，或许并不能成立。<br />
+<br />
+著名的老牌《纽约客》杂志，为其线上用户和纸刊订阅用户都开放了旧杂志阅读网上专区，让读者“重返旧杂志”，从而为以前的经典内容找到了新的商业价值，并争取到新的读者，巩固了老读者，刺激了杂志销量的增长。<br />
+<br />
+嗯，“重返旧杂志”，其实并不是无法前行，而是时间旅行，发现平行宇宙。通过再度融合新与旧，这样杂志世界只会更好玩了。<br />
+<br />
+90后，也是我们重返的一个选题。这一批人，在媒体密集时代，享受到了充分“被关注”的特权待遇。不断有媒体和机构来关心和研究他们。以封面专题的篇幅来讲90后，对于《城市画报》已经是第二次。上一次是在2010年9月，我们用“90X”来谨慎地描述，不敢轻下定义。“X”代表的是未知数，也代表关系、关联。我们从90后与他们的人间关系来切入观察，以期从外围来“试探”下他们的“底细”。<br />
+<br />
+今年，我们与青年志合作（老读者如果有印象，会记得在2010年10月，我们曾合作推出过《谁是中国普通青年：中国三四线小城市年轻人生存状态调查》，社会反响甚大），再度独家推出他们对90后的观察报告。事隔三年，这次重返探测行动应该比上一次程度上更重一点了。<br />
+<br />
+不过，从某种意义上来说，我更在意的还是我们这本杂志的“重返”行动。<br />
+<br />
+你看，我们可以对90后这个越来越重要的群体，一而再，再而三地反映和表达他们，我们还可以对男女情爱欲这样的主题执着地探索，我们也像《YPS》杂志时时念着我们的那些看画报长大的读者们……这种脾性也是世间少有吧。（我们以后也能修炼成杂志之妖吗？）<br />
+<br />
+一本会时常重返的杂志，也会是一本带有记忆的杂志，是值得亲爱的读者你们来珍惜滴。<br />
+<br />
+刘琼雄<br />
+<strong><br />
+POP</strong><strong><br />
+<span style="font-weight:normal;">刊首语| 刘琼雄· 重返旧杂志<br />
+读者俱乐部<br />
+快访问| 马儒超：让年轻人回归传统社交圈<br />
+快访问| 程何：幸福的人儿都一样，苦逼的人各有各的苦逼<br />
+城事| 各国城市里发生的趣闻<br />
+微拍| 手机摄影师<br />
+据点</span><br />
+</strong><br />
+<strong>SPECIAL</strong><strong><br />
+<span style="font-weight:normal;">封面专题|90后<br />
+大时代里的小世界<br />
+品质生活：轻型梦想，消减风险<br />
+深度自我：自我发现，使命达成<br />
+独而不孤：孤独个体，重建联系<br />
+善良微光：世界残酷，维系善良</span><br />
+<br />
+</strong><strong>FEATURE</strong><strong><br />
+<span style="font-weight:normal;">吴莫愁：我的人生特别快<br />
+现世报| 大V 无聊记<br />
+报道| 向老上海致敬——首届上海复古骑行大会<br />
+目击| 直击2013 赫尔辛基设计周</span><br />
+</strong><br />
+<strong>TREND</strong><strong><br />
+<span style="font-weight:normal;">时尚| 黑白是一道诡计<br />
+恋物<br />
+报道| 深夜，与真人图书来场马拉松</span><br />
+<span style="font-weight:normal;">&nbsp;</span></strong><br />
+<strong>CULTURE</strong><strong><br />
+<span style="font-weight:normal;">想像| 志贺理江子的村庄<br />
+读来读往| 友雅和她的“一只黑”<br />
+读来读往| 中世纪“脸书”（下）<br />
+淘| CD/DVD/BOOK/APP 专业推介<br />
+安妮宝贝专栏| 西藏记之二<br />
+王亮专栏相亲故事| 隐形男<br />
+双周历情<br />
+浮城绘（擦主席专栏）<br />
+填字游戏&amp; 数独<br />
+<br />
+</span></strong>
+</p>
+<div style="text-align:center;">
+	<strong><strong><span style="font-weight:normal;"><a href="http://pic.kuaishubao.com/picdata/goods/6/6/A570028649779_xt_xj_1.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/6/A570028649779_xt_xj_1.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/6/6/A570028649779_xt_xj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/6/A570028649779_xt_xj_2.jpg"></a><br />
+<a href="http://pic.kuaishubao.com/picdata/goods/6/6/A570028649779_xt_xj_3.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/6/6/A570028649779_xt_xj_3.jpg"></a><br />
+<br />
+	<div style="text-align:left;">
+		<strong><strong><span style="font-weight:normal;">
+		<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+			《城市画报》杂志简介
+		</div>
+<span style="font-family:Arial, sans-serif;white-space:normal;">《城市画报》杂志创刊于1999年，由南方报业传媒集团主办，一本坚持原创精神的城市青年生活杂志，以反映现代都市年轻人生活形态以及生活方式为主要内容，对生活和时尚趋向进行前瞻性观察，并在观念上提供指引，核心读者为国内大中城市中20-40岁的年轻人。</span></span></strong></strong>
+	</div>
+</span></strong></strong>
+</div>
+<strong><span style="font-weight:normal;"></span></strong> 
+<p>
+	<br />
+</p>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A570028649779', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A570028649779', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A570028649779', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A570028649779', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A570028649779'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>

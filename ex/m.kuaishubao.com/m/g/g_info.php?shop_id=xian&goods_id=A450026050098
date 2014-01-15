@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>快书包触屏版</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="apple-touch-icon" href="../../img/m/touchicon.png"/>
+<link rel="apple-touch-icon-precomposed" href="../../img/m/touchicon.png"/>
+<link rel="stylesheet" href="../../css/m/main-min.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/m/gmu-min.css" />
+
+<script type="text/javascript" src="../../js/m/zepto-min.js"></script>
+<script language="javascript" src="../../js/m/m.zepto.cookie.js"></script>
+<script language="javascript" src="../../js/m/public.js?t=2"></script>
+<script type="text/javascript" src="../../js/m/gmu-min.js"></script>
+<!--
+<script type="text/javascript" src="/js/m/main-min.js"></script>
+-->
+</head>
+<style>
+    .u-box2 {
+        background-color: #fff;
+        border: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+        padding: 10px 10px ;
+    }
+    .u-box2 img{max-width: 290px;height: auto;}
+    .bigimg img{height: 174px;width: 174px;}
+    .down {
+        -webkit-transform: rotate(135deg);
+    }
+    .up {
+        -webkit-transform: rotate(-45deg);
+    }
+    .right {
+        -webkit-transform: rotate(45deg);
+    }
+    .left {
+        -webkit-transform: rotate(-135deg);
+    }
+    .aw, #tbh5v0 .dSliderFull .dSlider b {
+        border: #999999 solid;
+        border-width: 3px 3px 0 0;
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+    }
+    .productinfo-desc .goods-content-title{
+      font-size: 18px; 
+      /*margin: 10px 0; font-weight: bold;*/
+      margin-top: 30px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #ccc; color: #8B4513;
+    }
+</style>
+<body>
+
+<div class="g-doc"><div class='w'>
+    <header class="g-hd">
+    <div class="m-hd">
+        <section>
+            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+        </section>
+        <section>
+            <h1 class="title">商品详情</h1>
+        </section>
+        <section></section>
+    </div>
+</header>
+
+
+  <div class="g-bd">
+    <div class='m-proinfo-buy'>
+      <div class='bigimg'>
+        <img id="picbtn" src="http://pic.kuaishubao.com/m/picdata/goods/0/4/A450026050098_1.jpg" bigsrc="http://pic.kuaishubao.com/picdata/goods/0/4/A450026050098_1.jpg">
+        <h2>玩儿</h2>
+      </div>
+      <div class='price'>
+        <span>快书包价：</span> <b>¥29.70元</b> <del>¥39.80元</del>
+      </div>
+      <div class='number'>
+        <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
+          <input type="hidden" value="1" id="start_unit">
+        <span class='unit'>单位：本</span>
+      </div>
+              <div>
+        <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
+      </div>
+      <div class='btns f-clr'>
+        <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
+        <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
+        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/4/A450026050098_1.jpg','玩儿-郭德纲眼中的捧哏奇才，相声界公认的第一玩主于谦最新力作（分享自 @快书包）','','utf-8'));"><i></i></button>
+      </div>
+        
+    </div>
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
+      <style>
+          .productinfo-desc img{vertical-align: top;}
+      </style>
+    <div id="twxq" class='u-boxlist-w300' style="overflow: hidden;height: 0px;">
+      <div id="twxq2" class='u-box2 f-clr productinfo-desc' style="width: 300px;margin: 10px auto 0;">
+          <div class="goods-content-title" style="white-space:normal;">
+	商品参数
+</div>
+<div class="Goods-Content-Box goods-attr" style="white-space:normal;">
+	【作者】于谦<br />
+【出版社】中信出版社；2013年9月第1版<br />
+【装订】16开；平装<br />
+【页数】308页<br />
+【印刷】黑白彩色插页<br />
+【ISBN】9787508641737
+</div>
+<div class="goods-content-title" style="white-space:normal;">
+	内容看点
+</div>
+<span style="white-space:normal;">★于谦，人称谦儿哥，郭德纲眼中的捧哏奇才，相声界公认的第一玩主。大智若愚，脾气随和，三大爱好：抽烟、喝酒、烫头。</span><br style="white-space:normal;" />
+<br style="white-space:normal;" />
+<span style="white-space:normal;">★相声里的“于谦”曾经出国留学——虽说是索马里联邦共和国；他爱刷微博、四处招惹小姑娘——小姑娘1米89大个，体重200多斤，护心毛儿跟张飞似的。按照相声迷的说法，“于谦”一家子都为中国相声事业做出了巨大贡献：他儿子姓郭，父亲姓王，老爷子爱吃面馅的月饼；祖父威震北京，号“冷面杀手”，全称“朝鲜冷面杀手”，就上辣白菜就更了不得。<br />
+</span><br style="white-space:normal;" />
+<span style="white-space:normal;">★<span style="white-space:normal;">在相声段子里，他总是带着股逆来顺受的劲头，在现实生活中，他也没有“非要如此”的气质，但一讲到玩儿，他永远架子不倒，走到哪儿都带着一股“爷”的范儿，在他的人生态度里，干掉无趣，人无我有，人有我精，玩儿比天大。</span>水瓶座的人爱冲动，水瓶座的人做事没规划，所以，他才有了京郊60亩的动物园，养了大大小小数千只动物，才有了台上台下老北京式的各种“玩儿”。</span><span style="white-space:normal;">他最大的希望是老了能找到一处山明水秀的地方，把马带过去养，马也舒服，人也舒服，此生足矣。</span><br style="white-space:normal;" />
+<div class="goods-content-title" style="white-space:normal;">
+	作者
+</div>
+<b style="white-space:normal;"><span style="white-space:normal;">于谦</span></b><br style="white-space:normal;" />
+<span style="white-space:normal;">中国铁路文工团相声演员，德云社成员。1982年考入北京巿戏曲学校相声班学艺，在校期间曾跟随相声名家王世臣、罗荣寿、高凤山、赵世忠学习，1985年拜师石富宽先生。1995年毕业于北京电影学院影视导演戏。2002年与郭德纲合作表演相声至今，深受观众喜爱。</span><br style="white-space:normal;" />
+<div class="goods-content-title" style="white-space:normal;">
+	目录
+</div>
+<div class="Jginfo-catalog goods-catalog" style="white-space:normal;">
+	<br />
+序 他活得比我值！郭德纲<br />
+<br />
+<strong>鸟 鸣</strong><br />
+鸟儿还是待在树上好看<br />
+玩意儿终须落声嗨<br />
+吃喝玩儿乐小分队<br />
+差点儿被“团长”玩儿了<br />
+深山里的自在时光<br />
+出来玩儿就是心情决定一切<br />
+玩儿让我远离寂寞，忘掉不顺<br />
+<br />
+<strong>鸽 语</strong><br />
+老北京人的面子是金不换的<br />
+“过死”还是“过活”<br />
+<br />
+<strong>鱼 趣</strong><br />
+我的童年才是真正的童年<br />
+有困难要上，没有困难创造困难也要上<br />
+<br />
+<strong>鹰 翔</strong><br />
+只想当个把式伙计<br />
+架鹰的人得有范儿<br />
+玩儿的就是一个心气儿<br />
+熬鹰就得出尽狠招<br />
+人熬鹰，鹰也熬人<br />
+与尔同销万古愁<br />
+见了兔子也不能撒鹰<br />
+爷和孙子的两重境界<br />
+养君千日，终须一别<br />
+<br />
+<strong>人物儿&nbsp;</strong><br />
+玩儿不起的日子里<br />
+原来我根本还不会玩儿<br />
+玩儿这个事水也挺深<br />
+兴趣爱好已成痴<br />
+玩儿的回忆里也有悲伤<br />
+<br />
+<strong>狗 吠&nbsp;</strong><br />
+喜欢和爱是两码事<br />
+通灵之犬<br />
+<br />
+<strong>马 嘶&nbsp;</strong><br />
+这些爱好不丢人<br />
+马倌难当<br />
+动物园实在太闹心<br />
+动物搬家，元气大伤<br />
+要把“敌人”放进来<br />
+把一切看简单点儿<br />
+新疆买马记<br />
+赶马上架<br />
+两次坠马阴影<br />
+越玩儿摊子越大<br />
+<br />
+后 记 我就这么点儿梦想：玩儿<br />
+</div>
+<div class="goods-content-title" style="white-space:normal;">
+	媒体推荐
+</div>
+<strong style="white-space:normal;"> 
+<div style="text-align:center;">
+	<strong><a href="http://pic.kuaishubao.com/picdata/goods/0/4/A450026050098_xt_cj_2.jpg"><img data-url="http://pic.kuaishubao.com/m/picdata/goods/0/4/A450026050098_xt_cj_2.jpg"></a><br />
+<br />
+	<div style="text-align:left;">
+		<strong> 
+		<div style="display:inline !important;">
+			<strong>于谦：玩儿</strong> 
+		</div>
+</strong> 
+	</div>
+</strong> 
+</div>
+节选自2013年6月号《人物》<br />
+<br />
+</strong>于谦就喜欢这种生活，坐在院子里喝茶，看动物，能待上整整一天，“就算没人跟我聊天也没关系”。<br />
+<br />
+相声里的“于谦”曾经出国留学——虽说是索马里联邦共和国；他爱刷微博、四处招惹小姑娘——小姑娘1米89大个，体重200多斤，护心毛儿跟张飞似的。按照相声迷的说法，“于谦”一家子都为中国相声事业做出了巨大贡献：他儿子姓郭，父亲姓王，老爷子爱吃面馅的月饼；祖父威震北京，号“冷面杀手”，全称“朝鲜冷面杀手”，就上辣白菜就更了不得。<br />
+<br />
+搭档郭德纲说三句，于谦先生应一句。他总是站在场面桌后面，头发烫得蓬松，纹丝不乱。有时探着头听搭档挤对，嘿嘿咧嘴一笑，现出深深两道法令纹。<br />
+<br />
+在网络上，人们为他抱屈，“于谦的父亲怎么了？”“郭德纲怎么老损于谦？”可事实上，这位在舞台上能伸能屈的演员，把日子过得无比舒展。他会放风筝，懂品茶；养蛐蛐、逗鸟、遛狗、放羊、喂马；他在北京大兴有60亩地，打理得就像座动物园。大院子里长着百十来棵梨树，还在园子里种油菜、大白菜、豇豆、茄子，养鸡得蛋，试图自给自足。<br />
+<br />
+“他一天能赶八回饭局，只要沾着玩儿的，没有不喜欢的。”郭德纲曾对着电视镜头描述，“我们俩是鲜明的反差，他活得太值了！”<br />
+<br />
+<strong>一步踏入相声全面衰败的时代</strong><br />
+<br />
+从城里开车到于谦的“动物园”，需要一个多小时。此地成员至少包括一只白狐狸，由一头名叫“长毛”的狗率领的30多位同伴，50多匹马，新盖的红砖鸽舍里住着100多只鸽子，池塘里养着上千条锦鲤。<br />
+<br />
+于谦会像个大收藏家那样向人展示自己的珍宝：“啪”打开水族箱的灯，一条长着寿星公般额头的罗汉鱼正瞪视前方；温室里一棵树上，两只产自南美的松鼠猴正上蹿下跳，为了这两只小猴，于谦还特意申请了国家二类保护动物饲养繁殖许可证。<br />
+<br />
+“其实就是一个自己玩儿的地方。”在接受《人物》记者采访时，于谦哈哈一笑，他说他就喜欢这种生活，坐在院子里喝茶，看动物，能待上整整一天，“就算没人跟我聊天也没关系”。<br />
+<br />
+如果时间回到1990年左右，于谦很难想象自己会在未来过上如此惬意的生活。作为刚从北京市戏曲学校相声班毕业一年多的新人，他一步就踏入了相声全面衰败的时代——曲艺团没演出；他的搭档远赴日本学习经营管理；就连曾经以创作相声为生的老师们都纷纷改行，以写小品或影视剧为生。<br />
+<br />
+但他爱相声，也为了生计，接到演出机会还是不推辞。那时，刚刚出现的小品让人们感到新鲜，霹雳舞和摇滚也都传进内地，但凡出场，收获的全是尖叫和掌声。<br />
+<br />
+相声演员倒也能享受同等待遇——尖叫和掌声——但那是声音震天的起哄，根本不让演员张嘴。除非于谦灰溜溜地转身下台，观众才心满意足地停歇。<br />
+<br />
+<strong>因为被欺负，所以被喜欢</strong><br />
+<br />
+在相声段子里，于谦带着股逆来顺受的劲头。即便在生活里，人们也很难从于谦身上找到“非如此不可”的气质，前提是不触碰他的底线。<br />
+<br />
+郭德纲曾说于谦：“有的时候比如说说话我多多少少还要顾及一下场合、时间，合适不合适。于老师没有，此时此刻这个话不说出来就得死，他不管你多大领导在，他也不管你跟前合适不合适，他要不说出来，他活不了。他的人生很快乐，也很单纯。”<br />
+<br />
+一些曾经和于谦打过交道的人形容他“随和”。在歌手沙宝亮看来，他“身上软乎乎儿的，没什么刺”。<br />
+<br />
+直到2000年左右，团里找回于谦，请他为被借调来的郭德纲捧哏。他并不想去，说自己“对相声伤心了”。<br />
+<br />
+可于谦其实还爱相声。他自小就听收音机模仿相声大师。12岁退学去曲艺团学艺，当时的先生不看好他，说他“死羊眼，一张脸”，意思是眼睛不灵动，脸上没表情，勉强学艺也是块朽木。幸好班上的大师哥花了一个星期时间调教他，拿着练功用的板带，连打带骂地逼着他背下要领。这一下子，他开窍了。<br />
+<br />
+于谦说，相声这行就是个不断开窍的过程，开了一个窍，就爬上一个台阶。<br />
+<br />
+就在那些四面灌风的场院里，于谦发现自己曾经走在既正统又颇被束缚的表演路数里。他从郭德纲的表演里发现了许多过去曲艺团认为不能说、不屑于说，甚至认为过分传统早该被淘汰的东西，但郭德纲重新为这些元素赋予了活力。<br />
+<br />
+后来，郭德纲、于谦开始正式搭档。直到今天，44岁的于谦发觉自己“越演越多新鲜劲儿”。郭德纲则形容他是“行业里不可多得的捧哏奇才，大智若愚”。每次上台前半个小时，俩人才凑在一起。对话简单极了：<br />
+<br />
+“今天说什么段子啊？”<br />
+<br />
+“说这个。”郭德纲有时会掏出一张便签纸来，但上面也仅仅写了一些关键词。有时，就这么两三分钟一过，俩人就能上台。<br />
+<br />
+于谦在舞台上活得窝囊，他爸爸“王老爷子”同样命苦。有人总结过，有关老爷子的死，说法多样：有说是去探病的老郭探鼻息捂断气的；有说是老郭踩到了氧气管子；有说是孝子于谦自己踩的，老爷子就剩一口气，又说不出话来，用笔颤颤巍巍地在纸上写下几个字“滚！踩我氧气管子了”；还有说是去家门口加油站挖石油，拿打火机照了一下，享年83岁。<br />
+<br />
+真实生活里，于谦的父亲曾是油田地质勘探的领导。从粉丝到记者，很多人关心舞台下的老爷子，担心他会不会受不住台上的那些调侃。但于谦说，“我从来没考虑过这些事，这就是我们行内的传统。”<br />
+<br />
+他挺喜欢台上那个“于谦”：老实、厚道，代表观众说话、发泄、问问题。像所有普通人一样，那位看上去忠厚老实的中年人还有点小聪明、小幽默，会揪着搭档的一个话把儿毫不客气地反击回去。<br />
+<br />
+在大多数人看来，逗哏与捧哏是红花与绿叶的角色。但对于谦来说，他在捧哏的生涯里享受了巨大乐趣，“有很多的包袱，到最后是产生在我身上。当众把这个包袱剖开，抖给大家。在这点上，我觉得是捧哏过瘾的地方。所以捧哏这行干得好，你让他逗哏他绝对不去！”<br />
+<br />
+<strong>深不可测，深不可测</strong><br />
+<br />
+于谦分得清台上的角色和台下的自己，正如他分得清台上的生活与台下的生活。<br />
+<br />
+他和郭德纲曾对《人物》记者描述了对方在相声之外的爱好。于谦说，郭德纲走下舞台的爱好仍旧是相声、戏曲、大鼓。与之形成鲜明对比，郭德纲说，于谦“全部精力就是体现在一个玩儿上，他说相声也是，他有一半是为了自己，开心，快乐，台下也是一会儿没溜了耍闹”。<br />
+<br />
+于谦紧跟潮流，衣服有不少来自日本的潮牌，还擅长唱周杰伦的歌。于谦还是“老摇滚铁托”，喜欢唱崔健的《一块红布》和《新长征路上的摇滚》。<br />
+<br />
+他曾在天津搜罗到两张金银器世家“前门张”的盖板，一模一样。薄铜盖板上刻着八仙，连眼神都刻得好。于谦描述起来得意极了，“抖搂抖搂，纸脆似的，那次可是得着了！”可给这两张盖板配上合适的笼子太难，“得配俩一模一样的笼子，年份得差不多。还得找着像样的钩子，身份差不多，还得配罐子。凑一套笼子可不容易，有一点儿错都让人笑话。”<br />
+<br />
+家里也有名贵的鸟笼，搭配好罐子、钩子、盖板。但他和很多玩家一样，平日把鸟笼擦净，高高挂起。只有遛鸟前，才把鸟从普通笼子迁进名贵笼子，遛完再把鸟迁回去。但就是街上那么一小会儿时间，“往那儿一放，大家围过来欣赏，主人得意一番。谝去！”<br />
+<br />
+有时候仅仅是看着都让人欢喜。一次，相声演员孙越和于谦在上海淘了3个几十年的旧鸟笼。傍晚，俩人坐院子里聊天，夕阳照下来，水汽在笼子上氤氲，俩人感叹，“太漂亮了，这个照得！”<br />
+<br />
+于谦声称自己最大的爱好还是相声，对于舞台他丝毫不感到疲倦。相声演出繁多，话剧、电影邀约不断。不过，无论去哪一个城市出差，这位爱睡懒觉的演员总会大清早就爬起来，去逛逛当地的花鸟鱼虫市场。<br />
+<br />
+《人物》记者问他对“建功立业”、“争名逐利”之类的人生态度怎么看，于谦不肯直接回答，只说，“可能我这人的特点，我就觉得有个爱好，日子过得充实。”<br />
+<br />
+一次在新西兰的一家酒庄，于谦戴着蓝色的小帽，手里握着一杯红酒，悠闲地坐在露台的木椅上。在他面前，是整片绿色的山林、坡地和草原。<br />
+<br />
+有人问他此时的感受，他答，“要是有朝一日我的马都能在这儿养，马也舒服，养老也舒服，此生足矣。”<br />
+&nbsp; <span style="white-space:normal;"></span> 
+<div class="goods-content-title" style="outline-width:0px;white-space:normal;">
+	<br />
+</div>
+      </div>
+    </div>
+      <script>
+          //document.getElementById("buy_num").select();
+          //alert(document.body.scrollHeight)
+          function twxq_show(){
+              $("#twxq").animate({
+                  "height": $("#twxq2").height()
+              }, 500, "linear", function() {
+                         $("#twxq").height('');
+                        window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+                      }
+              );
+          }
+          function add_cart(gid, num, type, isimme)
+          {
+              type = typeof(type) == "undefined" ? 1 : type;
+              isimme = typeof(isimme) == "undefined" ? false : isimme;
+              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+              //alert($url);
+              $.get($url, function(){
+                  if (isimme){
+                      location.href="/m/buy/cart.php";
+                  }else{
+                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+                      var p=new RegExp("[0-9]{1,}");
+                      b = parseInt(p.exec(b));
+                      b = (b <= 9) ? b : '9+';
+                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+                      $("#addcart").prop("disabled",true)
+                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+                      $("#addcart").html('已加入购物车')
+                      show_cartnum();
+                  }
+              },'json');
+          }
+          $("img[data-url]").imglazyload();
+          var dialog1 = $.ui.dialog({
+              autoOpen: false,
+              closeBtn: false,
+              title: '',
+              width: '300px',
+              content: '<img id="picbig" style="width: 300px;" src="http://m.kuaishubao.com/m/g/'+$("#picbtn").attr("bigsrc")+'">'
+          });
+          if ($.support.touch){
+              $("#picbtn").tap(function(){dialog1.open()});
+              $("#picbig").tap(function(){dialog1.close()});
+              $("#twxqbtn").tap(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").tap(function(){
+                  add_cart('A450026050098', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").tap(function(){
+                  add_cart('A450026050098', $('#buy_num').val(), 1, true);
+              });
+          }else{
+              $("#picbtn").click(function(){dialog1.open()});
+              $("#picbig").click(function(){dialog1.close()});
+              $("#twxqbtn").click(function(){
+                  twxq_show();
+                  return false;
+              });
+              $("#addcart").click(function(){
+                  add_cart('A450026050098', $('#buy_num').val());
+                  try{
+                      show_cartnum();
+                  }catch (e){}
+              });
+              $("#buynow").click(function(){
+                  add_cart('A450026050098', $('#buy_num').val(), 1, true);
+              });
+          }
+		  
+// 收藏
+$('button[name="fav_bar"]').click(function() {
+	var _self = $(this);
+	$.ajax({
+		type	: 'post',
+		url		: '/member/fav_add_p.php',
+		data	: {
+			goods_id	: 'A450026050098'
+		},
+		success	: function(html) {
+			var content = '';
+			switch(html.errno) {
+				case 0 :			// 收藏成功
+				case 2 :			// 重复收藏
+					content = '商品收藏成功! 您已收藏' + html.msg + '个商品';
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+				case 3 :			// 未登录
+					top.location.href = '/m/member/login.php';
+					return;
+					break;
+				case 1 :			// 错误
+					content = html.msg;
+					return m_ksb_msg.show(content, _self, 3, 200);
+					break;
+			}
+		},
+		error	: function(html) {}
+	});
+});
+          function chk_buynum(v, s){
+              var p=new RegExp("[0-9]{1,}");
+              b = p.exec(v);
+              console.log((parseInt(b) < parseInt(s)));
+              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+              {
+                  return s;
+              }else{
+                  return b;
+              }
+          }
+          $("#buy_num").focus(function(){
+              $(this).attr("prevalue", $(this).val());
+          });
+          $("#buy_num").focusout(function(){
+              t = this;
+              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+              if (b != null && $(t).val() != v){
+                  $(t).val(v);
+              }else if(b == null){
+                  $(t).val($(t).attr("start_unit"));
+              }
+              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+              {
+                  $(t).attr("prevalue", v);
+                  //有变化，ajax调用
+                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
+                  count_money();
+              }
+          });
+		  
+      </script>
+  </div>
+    <div style="height: 50px;"></div>
+<div class="m-btngroup f-clr">
+    <a href="../member/login.php" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+    <a href="../member/reg.php" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+    <a href="../member/my.php" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+    <a href="../../member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+    
+</div>
+        <script>
+            login_check();
+        </script>
+<div class="g-ft">
+    <div class="u-box m-ft">
+        <div>
+            <a href="../../xian" class="help">返回首页</a>
+            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+        </div>
+        
+    </div>
+</div>
+
+<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
+    <div class="fixbtn" id="fixbtn"></div>
+    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
+        <ul class="f-clr off0" id="fixbtn_ul">
+            <a href="../../xian"><li class="home">首页</li></a>
+            <a href="../member/my.php"><li class="ksb">我的快书包</li></a>
+            <a href="../buy/cart.php"><li class="cart">购物车<i id="cart_num">0</i></li></a>
+            <a href="../class.php"><li class="cls">商品分类</li></a>
+        </ul>
+    </div>
+</div>
+
+
+<script>
+    fix_state = false
+    function fixbtn_show(now){
+        //alert(fix_state)
+        if ( fix_state){
+            hi = 0;
+        }else{
+            hi = $("#fixbtn_ul").height();
+        }
+        t = 300;
+        $("#fixbtn_div").animate({
+            "height": hi
+        }, t, "linear", function() {
+            if ( fix_state){
+                fix_state = false;
+            }else{
+                fix_state = true;
+            }
+        });
+    }
+    $("#fixbtn").click(function(){fixbtn_show();});
+
+    function show_cartnum(){
+        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+        var p=new RegExp("[0-9]{1,}");
+        b = parseInt(p.exec(b));
+
+        $("#cart_num").toggle(b > 0);
+        if (b > 0){
+            $("#cart_num").show()
+        }else{
+            $("#cart_num").hide()
+        }
+        if (b > 9) {
+            $("#cart_num").html('N');
+        } else {
+            $("#cart_num").html(b);
+        }
+    }
+    $(document).ready(function(){
+        show_cartnum();
+    })
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+
+    (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "10"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Piwik Code -->
+</div> </div>
+</body>
+</html>
