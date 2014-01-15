@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block script %}
-<script type="text/javascript" src="{{ static_url("javascript/float.js") }}"></script>
+<script type="text/javascript" src="{{ static_url("javascripts/float_number.js") }}"></script>
 {% end %}
 
 {% block header %}
@@ -40,4 +40,179 @@
 		<button id="nocorder_btn" class="u-btn-orange u-btn-fullwd u-txt-white18 f-mt10">返回首页</button>
 	</div>
 </div>
+
+<script>
+    try{
+        var mycart = {"gcart":{"gcart":{"A001352911575":1} ,"mcart":[]};
+    }catch(e){
+        var mycart = {};
+    }
+    var time_hand = null;
+    var c_total = 0;
+    var s_total = 0;
+    var total = 0;
+    var c_mfirst = 0;
+
+    function count_money()
+    {
+        //$("#Loading").hide();
+        c_total = 0;
+        $("li[goods]").each(function(){
+            g = $(this).attr("goods");
+            m = $("input[goods_id="+g+"]").val() * $(this).attr("price");
+            c_total += parseInt(m);
+            m = returnFloat2(m.div(100));
+            //$("#g_"+g).html("￥"+m);
+        });
+        /*
+         $("li[meals]").each(function(){
+         g = $(this).attr("meals");
+         m = $("#meal_num_"+g).val() * $(this).attr("price");
+         c_total += parseInt(m);
+         m = returnFloat2(m.div(100));
+         $("#m_"+g).html("￥"+m);
+         make_meal_goods_num(g);
+         });
+         */
+        show_total();
+        find_hg();
+        if(!is_have_goods()){
+            $("#corder_btn").hide();
+            $("#yescart").hide();
+            $("#nocart").show();
+        } else {
+            $("#corder_btn").show();
+            $("#yescart").show();
+            $("#nocart").hide();
+        }
+    }
+    function is_have_goods()
+    {
+        for(i in mycart)
+        {
+            if(!$.isEmptyObject(mycart[i])){
+                return true
+            }
+        }
+        return false;
+    }
+    function find_hg()
+    {
+        if(c_total <= 0 || !is_logined())
+        {
+            $("#Cart-Chaozhi").html('');
+            $("#Cart-Chaozhi").hide();
+            return;
+        }
+        $url = "/buy/cart_hg.php?from=m&shop_id=chd&price="+c_total;
+        $.get($url, function(data){
+            //alert('ok');
+            if (data != '' && data.isok == 1) {
+                $("#Cart-Chaozhi").html(data.hg);
+                $("#Cart-Chaozhi").show();
+            } else {
+                $("#Cart-Chaozhi").html('');
+                $("#Cart-Chaozhi").hide();
+            }
+        },'json');
+    }
+    function add_cart(gid, num, type){
+        type = typeof(type) == "undefined" ? 1 : type;
+
+        if (type == 1){
+            mycart['gcart'][gid] = num;
+            if (num == 0){delete  mycart['gcart'][gid];}
+        } else {
+            mycart['mcart'][gid] = num;
+            if (num == 0){delete  mycart['mcart'][gid];}
+        }
+
+        $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+        $.get($url, function(){
+            show_cartnum();
+        },'json');
+    }
+    function show_total(){
+        $("#c_total").html(returnFloat2(c_total.div(100)));
+        $("#s_total").html(returnFloat2(s_total.div(100)));
+        total = c_total + s_total;
+        $("#total").html("￥"+returnFloat2(total.div(100)));
+    }
+    function chk_buynum(v, s){
+        var p=new RegExp("[0-9]{1,}");
+        b = p.exec(v);
+        console.log((parseInt(b) < parseInt(s)));
+        if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+        {
+            return s;
+        }else{
+            return b;
+        }
+    }
+    $("input[goods_id]").focus(function(){
+        $(this).attr("prevalue", $(this).val());
+    });
+    $("input[goods_id]").focusout(function(){
+        t = this;
+        v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+        if (b != null && $(t).val() != v){
+            $(t).val(v);
+        }else if(b == null){
+            $(t).val($(t).attr("start_unit"));
+        }
+        if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+        {
+            $(t).attr("prevalue", v);
+            //有变化，ajax调用
+            add_cart($(t).attr("goods_id"), $(t).val(), 1);
+            count_money();
+        }
+    });
+    function remove_goods(goods_id){
+        $("li[goods="+goods_id+"]").animate({
+                    "height": 0
+                }, 500, "linear", function() {
+                    $("li[goods="+goods_id+"]").remove();
+                    add_cart(goods_id, 0, 1);
+                    count_money();
+                }
+        );
+    }
+
+    $(document).ready(function(){
+        count_money();
+    });
+
+    if ($.support.touch){
+        $("button[goods_id]").click(function(){
+            remove_goods($(this).attr("goods_id"));
+        });
+    }else{
+        $("button[goods_id]").click(function(){
+            remove_goods($(this).attr("goods_id"));
+        });
+    }
+    function commit_order_b()
+    {
+        if (!is_have_goods()) {
+            return false;
+        }
+        /*
+         if(!is_logined()){
+         return ksb_dialog.login_show(function(){count_money();});
+         }
+         */
+        $("input[name=oder]").val(JSON.stringify(mycart));
+        //alert($("input[name=oder]").val());
+        $("#corder").submit();
+        return false;
+    }
+
+    $("#corder_btn").click(function(){
+        commit_order_b();
+    })
+    $("#nocorder_btn").click(function(){
+        location.href = "/"
+    })
+</script>
 {% end %}

@@ -236,7 +236,7 @@ body {
 }
 .m-hd .city {
 	padding-left:16px;
-	background:url(/static/pic/shuidi.png) no-repeat;
+	background:url(/static/images/icons/shuidi.png) no-repeat;
 	background-size:12px 18px;
 	background-position-y:13px;
 	height:44px;
@@ -244,14 +244,14 @@ body {
 }
 .m-hd .return {
 	padding-left:16px;
-	background:url(/static/pic/arrow-left.png) no-repeat;
+	background:url(/static/images/icons/arrow-left.png) no-repeat;
 	background-size:12px 18px;
 	background-position-y:13px;
 	height:44px;
 	display:inline-block
 }
 .m-hd .cart {
-	background:url(/static/pic/cart.png) no-repeat;
+	background:url(/static/images/icons/cart.png) no-repeat;
 	background-size:19px 16px;
 	background-position:center;
 	width:40px;
@@ -261,7 +261,7 @@ body {
 	outline:0
 }
 .m-hd .icon-add {
-	background:url(/static/pic/add.png) no-repeat center;
+	background:url(/static/images/icons/add.png) no-repeat center;
 	background-size:18px;
 	width:40px;
 	height:44px;
@@ -380,7 +380,7 @@ body {
 .m-navicon2 li button {
 	width:65px;
 	height:65px;
-	background:url(/static/pic/myksb-icons.png) no-repeat;
+	background:url(/static/images/icons/myksb-icons.png) no-repeat;
 	overflow:hidden;
 	float:left;
 	margin:0 7px;
@@ -490,7 +490,7 @@ body {
 	box-shadow:0 2px rgba(0,0,0,0.07)
 }
 .m-zhuanti button {
-	background:url(/static/pic/zt-zbys.jpg) no-repeat;
+	background:url(/static/images/icons/zt-zbys.jpg) no-repeat;
 	width:144px;
 	height:59px;
 	background-size:contain;
@@ -498,16 +498,16 @@ body {
 	border:0
 }
 .m-zhuanti .zbys button {
-	background-image:url(/static/pic/zt-zbys.jpg)
+	background-image:url(/static/images/icons/zt-zbys.jpg)
 }
 .m-zhuanti .jksp button {
-	background-image:url(/static/pic/zt-jksp.jpg)
+	background-image:url(/static/images/icons/zt-jksp.jpg)
 }
 .m-zhuanti .jxlw button {
-	background-image:url(/static/pic/zt-jxlw.jpg)
+	background-image:url(/static/images/icons/zt-jxlw.jpg)
 }
 .m-zhuanti .sban button {
-	background-image:url(/static/pic/zt-sban.jpg)
+	background-image:url(/static/images/icons/zt-sban.jpg)
 }
 .m-zhuanti .first {
 	margin-left:0
@@ -634,7 +634,7 @@ body {
 	border:0;
 	width:16px;
 	height:22px;
-	background:url(/static/pic/btn-trash.png) no-repeat;
+	background:url(/static/images/icons/btn-trash.png) no-repeat;
 	text-indent:-9999px;
 	outline:0;
 	margin-top:3px
@@ -647,7 +647,7 @@ body {
 	margin:10px 0;
 	font-size:18px;
 	background-position:right center;
-	background:url(/static/pic/arrow-right.png) no-repeat right center
+	background:url(/static/images/icons/arrow-right.png) no-repeat right center
 }
 .m-list3c h2.noarrow {
 	background:0
@@ -772,7 +772,7 @@ body {
 	width:100%;
 	height:33px;
 	border:0;
-	background:url(/static/pic/fixbtn2.png) no-repeat center bottom;
+	background:url(/static/images/icons/fixbtn2.png) no-repeat center bottom;
 	background-size:100% 33px;
 	-webkit-tap-highlight-color:rgba(255,255,255,0)
 }
@@ -792,15 +792,15 @@ body {
 	padding-top:35px
 }
 .m-toolbar ul li.home {
-	background:url(/static/pic/toolbar-home.png) no-repeat center 4px;
+	background:url(/static/images/icons/toolbar-home.png) no-repeat center 4px;
 	background-size:38%
 }
 .m-toolbar ul li.ksb {
-	background:url(/static/pic/toolbar-ksb.png) no-repeat center top;
+	background:url(/static/images/icons/toolbar-ksb.png) no-repeat center top;
 	background-size:35%
 }
 .m-toolbar ul li.cart {
-	background:url(/static/pic/toolbar-cart.png) no-repeat center 5px;
+	background:url(/static/images/icons/toolbar-cart.png) no-repeat center 5px;
 	background-size:38%;
 	position:relative
 }
@@ -819,7 +819,7 @@ body {
 	font-size:10px
 }
 .m-toolbar ul li.cls {
-	background:url(/static/pic/toolbar-cls.png) no-repeat center 5px;
+	background:url(/static/images/icons/toolbar-cls.png) no-repeat center 5px;
 	background-size:33%
 }
 a.u-linkbtn {
@@ -828,7 +828,7 @@ a.u-linkbtn {
 }
 .u-logo {
 	text-indent:-9999px;
-	background:url(/static/pic/logo-ksb.png) no-repeat center
+	background:url(/static/images/icons/logo-ksb.png) no-repeat center
 }
 .u-bigicon {
 	width:60px;
@@ -852,7 +852,7 @@ a.u-linkbtn {
 }
 .u-bigicon button {
 	border:0;
-	background:url(/static/pic/icon-myksb.png) no-repeat;
+	background:url(/static/images/icons/icon-myksb.png) no-repeat;
 	background-size:40px;
 	width:40px;
 	height:40px;
@@ -862,16 +862,16 @@ a.u-linkbtn {
 	margin-left:8px
 }
 .u-bigicon-myksb button {
-	background-image:url(/static/pic/icon-myksb.png)
+	background-image:url(/static/images/icons/icon-myksb.png)
 }
 .u-bigicon-cls button {
-	background-image:url(/static/pic/icon-cls.png)
+	background-image:url(/static/images/icons/icon-cls.png)
 }
 .u-bigicon-cart button {
-	background-image:url(/static/pic/icon-cart.png)
+	background-image:url(/static/images/icons/icon-cart.png)
 }
 .u-bigicon-fav button {
-	background-image:url(/static/pic/icon-fav.png)
+	background-image:url(/static/images/icons/icon-fav.png)
 }
 .u-gradicon {
 	background-color:#fff;
@@ -907,7 +907,7 @@ a.u-linkbtn {
 }
 .u-gradicon button {
 	border:0;
-	background:url(/static/pic/icon2-ksb.png) no-repeat;
+	background:url(/static/images/icons/icon2-ksb.png) no-repeat;
 	background-size:contain;
 	width:40px;
 	height:40px;
@@ -923,7 +923,7 @@ a.u-linkbtn {
 }
 .u-gradicon-red button {
 	border:0;
-	background:url(/static/pic/icon2-heart.png) no-repeat;
+	background:url(/static/images/icons/icon2-heart.png) no-repeat;
 	background-size:40px;
 	width:40px;
 	height:40px;
@@ -1099,7 +1099,7 @@ a.u-linkbtn {
 	width:15px;
 	height:16px;
 	margin-right:10px;
-	background:url(/static/pic/iptbox.png) no-repeat 0 0;
+	background:url(/static/images/icons/iptbox.png) no-repeat 0 0;
 	-webkit-background-size:15px 78px;
 	background-size:15px 78px;
 	border:0
@@ -1112,7 +1112,7 @@ a.u-linkbtn {
 	width:15px;
 	height:16px;
 	margin-right:10px;
-	background:url(/static/pic/iptbox.png) no-repeat 0 -62px;
+	background:url(/static/images/icons/iptbox.png) no-repeat 0 -62px;
 	-webkit-background-size:15px 78px;
 	background-size:15px 78px;
 	border:0
@@ -1242,7 +1242,7 @@ a.u-linkbtn {
 	padding-top:83px
 }
 .m-choosecity .auto p {
-	background:url(/static/pic/city-shuidi.png) no-repeat center 20%;
+	background:url(/static/images/icons/city-shuidi.png) no-repeat center 20%;
 	background-size:20%;
 	padding-top:35px;
 	padding-bottom:15px
@@ -1251,31 +1251,31 @@ a.u-linkbtn {
 	padding-top:10px
 }
 .m-choosecity .bj div {
-	background:url(/static/pic/city-bj.png) no-repeat center 40%;
+	background:url(/static/images/icons/city-bj.png) no-repeat center 40%;
 	background-size:70%
 }
 .m-choosecity .shh div {
-	background:url(/static/pic/city-shh.png) no-repeat center 45%;
+	background:url(/static/images/icons/city-shh.png) no-repeat center 45%;
 	background-size:70%
 }
 .m-choosecity .shz div {
-	background:url(/static/pic/city-shz.png) no-repeat center 45%;
+	background:url(/static/images/icons/city-shz.png) no-repeat center 45%;
 	background-size:70%
 }
 .m-choosecity .hzh div {
-	background:url(/static/pic/city-hzh.png) no-repeat center 30%;
+	background:url(/static/images/icons/city-hzh.png) no-repeat center 30%;
 	background-size:70%
 }
 .m-choosecity .chsh div {
-	background:url(/static/pic/city-chsh.png) no-repeat center 30%;
+	background:url(/static/images/icons/city-chsh.png) no-repeat center 30%;
 	background-size:70%
 }
 .m-choosecity .chd div {
-	background:url(/static/pic/city-chd.png) no-repeat center 30%;
+	background:url(/static/images/icons/city-chd.png) no-repeat center 30%;
 	background-size:50%
 }
 .m-choosecity .xian div {
-	background:url(/static/pic/city-xian.png) no-repeat center 30%;
+	background:url(/static/images/icons/city-xian.png) no-repeat center 30%;
 	background-size:40%
 }
 .m-choosecls li {
@@ -1286,7 +1286,7 @@ a.u-linkbtn {
 	height:47px;
 	width:47px;
 	margin:23px 23px 10px;
-	background:url(/static/pic/cls-spr.png) no-repeat 0 0;
+	background:url(/static/images/icons/cls-spr.png) no-repeat 0 0;
 	background-size:cover
 }
 .m-choosecls .book div {
@@ -1436,14 +1436,14 @@ a.u-linkbtn {
 .m-proinfo-buy .btn-fav i {
 	width:24px;
 	height:24px;
-	background:url(/static/pic/btn-fav.png) no-repeat;
+	background:url(/static/images/icons/btn-fav.png) no-repeat;
 	background-size:contain;
 	margin-top:8px
 }
 .m-proinfo-buy .btn-share i {
 	width:24px;
 	height:24px;
-	background:url(/static/pic/btn-share-gray.png) no-repeat;
+	background:url(/static/images/icons/btn-share-gray.png) no-repeat;
 	background-size:contain;
 	margin-top:1px
 }
@@ -1464,7 +1464,7 @@ a.u-linkbtn {
 	padding-top:80px;
 	margin:50px 0;
 	text-align:center;
-	background:url(/static/pic/empty-cart.png) no-repeat center top;
+	background:url(/static/images/icons/empty-cart.png) no-repeat center top;
 	background-size:25%;
 	font-size:18px;
 	color:#666
@@ -1545,7 +1545,7 @@ a.u-linkbtn {
 	height:110px;
 	width:35px;
 	border:0;
-	background:url(/static/pic/arrow-right.png) no-repeat center
+	background:url(/static/images/icons/arrow-right.png) no-repeat center
 }
 .m-order-time,.m-order-pay {
 	width:280px;
@@ -1720,7 +1720,7 @@ a.u-linkbtn {
 	float:right;
 	width:40px;
 	height:108px;
-	background:url(/static/pic/arrow-right.png) no-repeat center;
+	background:url(/static/images/icons/arrow-right.png) no-repeat center;
 	margin-right:10px
 }
 .m-myorder .item .ft {

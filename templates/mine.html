@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascript/login.js") }}"></script>
+<script language="javascript">
+$(document).ready(function() {
+	if(is_logined()) {
+		$('#welcome_name').text($.cookie('ln'));
+	}
+	else {
+		alert(document.cookie);
+	}
+
+	$('.my-menu li button').click(function() {
+		top.location.href = $(this).parent().find('a').attr('href');
+	});
+
+});
+</script>
+<style type="text/css">
+/* 会员中心框 */
+.member-my-box {
+	background-color:#FFFFFF;
+	border:none;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	-moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	padding: 10px 5px ;
+	width:300px;
+	margin:10px auto;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+.member-welcome {height:70px; line-height:30px;}
+.my-menu {width:320px; height:auto; margin:0px 0px; padding:0px 0px; padding-top:10px;}
+.my-menu li {width:80px; height:94px; float:left; margin:2px 0px 5px 0px; overflow:hidden;}
+.my-menu li button {width:65px; height:65px; background:url(/static/images/icons/myksb-icons.png) no-repeat; overflow:hidden; float:left; margin:0px 7px; padding:0px 0px; border:0px;}
+.my-menu li a {width:75px; height:30px; text-align:center; line-height:30px; font-size:12px; color:#333333; float:left; margin:0px 2px;}
+.my-menu li a:hover, .my-menu li a:focus {text-decoration:none;}
+.my-menu li .my-menu-cart {background-position:0px 0px;}
+.my-menu li .my-menu-order {background-position:-65px 0px;}
+.my-menu li .my-menu-fav {background-position:-131px 0px;}
+.my-menu li .my-menu-address {background-position:-196px 0px;}
+.my-menu li .my-menu-pswd {background-position:0px -64px;}
+.my-menu li .my-menu-weibo {background-position:-66px -64px;}
+.my-menu li .my-menu-my {background-position:-130px -64px;}
+.my-menu li .my-menu-cls {background-position:-196px -64px;}
+.my-menu li .my-menu-index {background-position:0px -130px;}
+</style>
+{% end %}
+
+{% block header %}
+<section>
+    <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+</section>
+<section>
+    <h1 class="title">管理面板</h1>
+</section>
+<section><a href="/logout" name="member_logout" style="font-size:16px; color:#FFFFFF; line-height:44px;">退出</a></section>
+{% end %}
+
+{% block body %}
+<div class='member-my-box member-welcome'>
+    <div>亲爱的&nbsp;<span id="welcome_name"></span>&nbsp;用户，欢迎您来到快书包</div>
+    <div>账户余额：¥0.00</div>
+</div>
+
+<ul class="my-menu">
+    <li><button class="my-menu-cart"></button><a href="/m/buy/cart.php">我的购物车</a></li>
+    <li><button class="my-menu-order"></button><a href="/m/member/my_order_order.php">我的订单</a></li>
+    <li><button class="my-menu-fav"></button><a href="/m/member/my_order_fav.php">我的收藏</a></li>
+    <li><button class="my-menu-pswd"></button><a href="/m/member/my_info_password.php">修改登录密码</a></li>
+    <li><button class="my-menu-cls"></button><a href="/class">商品分类</a></li>
+    <li><button class="my-menu-index"></button><a href="/">首页</a></li>
+    <li><button class="my-menu-address"></button><a href="/m/member/my_account_address.php">收货地址管理</a></li>
+    <li><button class="my-menu-weibo"></button><a href="/member/other_login.php?from=1&client=1">关联微博</a></li>
+</ul>
+<div style="clear:both;"></div>
+{% end %}

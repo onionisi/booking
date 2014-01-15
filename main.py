@@ -72,10 +72,15 @@ class LogoutHandler(BaseHandler):
         self.write(message)
 
 class MineHandler(BaseHandler):
-    pass
+    def get(self):
+        if self.get_cookie("ln"):
+            self.render("mine.html")
+        else:
+            self.redirect('/login')
 
 class CartHandler(BaseHandler):
-    pass
+    def get(self):
+        self.render("cart.html")
 
 class Cshow_Handler(BaseHandler):
     def get(self):
@@ -91,6 +96,7 @@ class LoginHandler(BaseHandler):
     def post(self):
 
         args = self.request.arguments
+        print (args)
         name = self.get_argument("login_name")
         passwd = self.get_argument("password")
 
@@ -119,7 +125,6 @@ class Admin_Handler(BaseHandler):
         # check pic exgister
         if self.request.files == {} or 'pic' not in self.request.files:
             self.write('<script>alert("请选择图片")</script>')
-            return
 
         # check pic format
         image_type_list = ['image/gif', 'image/jpeg', 'image/pjpeg', 'image/bmp', 'image/png', 'image/x-png']
@@ -127,11 +132,9 @@ class Admin_Handler(BaseHandler):
 
         if send_file['content_type'] not in image_type_list:
             self.write('<script>alert("仅支持jpg,jpeg,bmp,gif,png格式的图片！")</script>')
-            return
         # check pic size 4M
         if len(send_file['body']) > 4 * 1024 * 1024:
             self.write('<script>alert("请上传4M以下的图片");</script>')
-            return
 
         # create temp file
         tmp_file = tempfile.NamedTemporaryFile(delete=True)
@@ -147,14 +150,12 @@ class Admin_Handler(BaseHandler):
             logging.info(self.request.headers)
             tmp_file.close()
             self.write('<script>alert("图片不合法！")</script>')
-            return
 
         # check pixel
         if image_one.columns() < 250 or image_one.rows() < 250 or \
                 image_one.columns() > 2000 or image_one.rows() > 2000:
             tmp_file.close()
             self.write('<script>alert("图片长宽在250px~2000px之间！")</script>')
-            return
 
         # saving two type
         image_path = "./static/pic/goods/"
@@ -189,7 +190,6 @@ class Admin_Handler(BaseHandler):
             self.db.goods.insert(item)
 
         self.redirect('/admin', permanent=True)
-        return
 
 class RegHandler(BaseHandler):
     def get(self):
