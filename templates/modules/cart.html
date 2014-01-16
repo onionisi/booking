@@ -1,0 +1,49 @@
+<li goods="A990034010540" price="5900" style="margin-bottom: 0px;height: 151px; overflow: hidden;">
+<div class='u-box m-cartitem f-clr' goods="A990034010540" style="overflow: hidden;margin-top: 10px;">
+    <a href="/goods?shop_id=chd&goods_id={{ str(each.get('_id', '') }}">
+        <!-- <img src="http://pic.kuaishubao.com/m/picdata/goods/a/c/A990034010540_2.jpg" width='94' height='94'> -->
+		<img src="{{ each.get('size1', '') }}" width='94' height='94'>
+        <h2>
+            {% if each['subname'] %}
+            <font style="color:red;">{{ each.get('subname', '') }}</font>
+            {% end %}
+            {{ each.get('name', '') }}
+        </h2>
+        <div class='price'>
+            {% if each['discount'] %}
+                <span>¥{{ each.get('discount', '') }}</span>
+            {% else %}
+                <span>¥{{ each.get('price', '') }}</span>
+            {% end %}
+        </div>
+    </a>
+    <div class='number' style="z-index: 10;">
+        <span>购买数量：</span>
+        <input type="number" value='1' start_unit="1" goods_id="A990034010540">
+        <button type='button' class='remove' goods_id="A990034010540">删除</button>
+    </div>
+</div>
+</li>
+
+
+<li>
+<a href="/goods?shop_id=chd&goods_id={{ str(each.get('_id', '') }}">
+	<div class='u-box m-proitem f-clr'>
+		<img src="{{ static_url("pic/empty.png") }}" data-url="{{ each.get('size1', '') }}">
+		<h2>
+            {% if 'subname' in each %}
+                <font style="color:red;">{{ each.get('subname', '') }}</font>
+            {% end %}
+                {{ each.get('name', '') }}
+        </h2>
+		<div class='price'>
+            {% if 'discount' in each %}
+                <span>¥{{ each.get('discount', '') }}</span>
+                <del>¥{{ each.get('price', '') }}</del>
+            {% else %}
+                <span>¥{{ each.get('price', '') }}</span>
+            {% end %}
+		</div>
+	</div>
+</a>
+</li>

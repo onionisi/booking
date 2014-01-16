@@ -7,13 +7,14 @@
 {% end %}
 
 {% block body %}
-    <div class="m-box m-search u-w300 f-clr" style="margin-top: 15px;">
-        <form id="searchfrom" method="get" action="http://m.kuaishubao.com/s/search.php">
-        <input type="text" name="wd" class="ipt f-fl" placeholder="请输入您想搜索的商品名称">
-        <input type="hidden" name="shop_id" value="chd">
-        <button type="submit" class="f-fr u-btn-orange u-btn-w70s14">搜索</button>
-        </form>
-    </div>
+    <!-- 搜索 -->
+    <!-- <div class="m-box m-search u-w300 f-clr" style="margin-top: 15px;"> -->
+    <!--     <form id="searchfrom" method="get" action="http://m.kuaishubao.com/s/search.php"> -->
+    <!--     <input type="text" name="wd" class="ipt f-fl" placeholder="请输入您想搜索的商品名称"> -->
+    <!--     <input type="hidden" name="shop_id" value="chd"> -->
+    <!--     <button type="submit" class="f-fr u-btn-orange u-btn-w70s14">搜索</button> -->
+    <!--     </form> -->
+    <!-- </div> -->
 
     <ul class="m-navicon2 f-clr f-mt10">
       <li><a href='/mine'><button class="my-menu-my"></button>我的快书包</a></li>
@@ -30,7 +31,6 @@
             <a href="/c_show?shop_id=chd&amp;class_id=110&amp;page=1"><li>食材</li></a>
             <a href="/c_show?shop_id=chd&amp;class_id=105&amp;page=1"><li>生活日用</li></a>
             <a href="/c_show?shop_id=chd&amp;class_id=113&amp;page=1"><li>蓝印花布</li></a>
-            <a href="/c_show?shop_id=chd&amp;class_id=111&amp;page=1"><li>GoPro及周边</li></a>
             <a href="/c_show?shop_id=chd&amp;class_id=112&amp;page=1"><li>数码文具</li></a>
             <a href="/c_show?shop_id=chd&amp;class_id=101&amp;page=1"><li>图书</li></a>
             <a href="/c_show?shop_id=chd&amp;class_id=102&amp;page=1"><li>杂志</li></a>
@@ -40,19 +40,27 @@
         </ul>
     </div>
 
-    <div class="u-box u-w300">
-        <div style="padding: 5px 5px;"><div class="slogan"><a title="今日限时低价 有机厨坊天然红薏仁粉" href="http:/m/g/g_info.php?shop_id=bj&amp;goods_id=A001352909026">【今日限时低价】有机厨坊天然红薏仁粉  限时价84元 立减14元</a></div></div>
-    </div>
+    <!-- 每日活动 -->
+    <!-- <div class="u-box u-w300"> -->
+    <!--     <div style="padding: 5px 5px;"><div class="slogan"><a title="今日限时低价 有机厨坊天然红薏仁粉" href="http:/m/g/g_info.php?shop_id=bj&amp;goods_id=A001352909026">【今日限时低价】有机厨坊天然红薏仁粉  限时价84元 立减14元</a></div></div> -->
+    <!-- </div> -->
 
     <div class='m-list3c m-list3c-pro f-clr'>
-        <a href="m/xinpin.php"><h2>最新上架</h2></a>
+        <!-- <a href="/xinpin"><h2>最新上架</h2></a> -->
+        <h2 class="noarrow">最新上架</h2>
         <ul>
+            {% for each in entry_new %}
+                {% module Index(each) %}
+            {% end %}
         </ul>
     </div>
 
     <div class='m-list3c m-list3c-pro f-clr'>
         <h2 class="noarrow">热销商品</h2>
         <ul>
+            {% for each in entry_hot %}
+                {% module Index(each) %}
+            {% end %}
         </ul>
     </div>
 {% end %}

@@ -1,8 +1,7 @@
 <li>
-<!-- <a href="/m/g/g_info.php?shop_id=chd&goods_id=A001352909121"> -->
-<a href="good_mask">
+<a href="/goods?shop_id=chd&goods_id={{ str(each.get('_id', '') }}">
 	<div class='u-box m-proitem f-clr'>
-		<img src="{{ static_url("pic/empty.png") }}" data-url="{{ each.get('size1', '') }}">
+		<img src="{{ static_url("images/icons/empty.png") }}" data-url="{{ each.get('size1', '') }}">
 		<h2>
             {% if 'subname' in each %}
                 <font style="color:red;">{{ each.get('subname', '') }}</font>

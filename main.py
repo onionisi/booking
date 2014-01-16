@@ -27,12 +27,17 @@ class Application(tornado.web.Application):
                 (r"/cart", CartHandler),
                 (r"/c_show", Cshow_Handler),
                 (r"/admin", Admin_Handler),
+                (r"/edit/([0-9a-z]{24})", Admin_Handler),
                 ]
         settings = dict(
                 title = u"NAME",
                 template_path = os.path.join(os.path.dirname(__file__), "templates"),
                 static_path = os.path.join(os.path.dirname(__file__), "static"),
-                ui_modules = {"Unit": UnitModule},
+                ui_modules = {
+                    "Good": GoodModule,
+                    "Index": IndexModule,
+                    "Cart": CartModule,
+                    },
                 #xsrf_cookies = True,
                 cookie_secret = uuid.uuid4(),
                 debug = True,
@@ -41,9 +46,17 @@ class Application(tornado.web.Application):
 
         self.db = MongoClient('localhost', 27017).test
 
-class UnitModule(tornado.web.UIModule):
+class GoodModule(tornado.web.UIModule):
     def render(self, each):
         return self.render_string("modules/good.html", each=each)
+
+class IndexModule(tornado.web.UIModule):
+    def render(self, each):
+        return self.render_string("modules/index.html", each=each)
+
+class CartModule(tornado.web.UIModule):
+    def render(self, each):
+        return self.render_string("modules/cart.html", each=each)
 
 class BaseHandler(tornado.web.RequestHandler):
     @property
@@ -57,7 +70,9 @@ class BaseHandler(tornado.web.RequestHandler):
 
 class HomeHandler(BaseHandler):
     def get(self):
-        self.render("index.html")
+        new = self.db.goods.find()
+        hot = self.db.goods.find()
+        self.render("index.html", entry_new=new, entry_hot=hot)
 
 class ClassHandler(BaseHandler):
     def get(self):
@@ -96,7 +111,6 @@ class LoginHandler(BaseHandler):
     def post(self):
 
         args = self.request.arguments
-        print (args)
         name = self.get_argument("login_name")
         passwd = self.get_argument("password")
 
@@ -119,7 +133,10 @@ class LoginHandler(BaseHandler):
 
 class Admin_Handler(BaseHandler):
     def get(self):
-        self.render("upload.html")
+        if self.get_cookie("ln") == 'admin':
+            self.render("upload.html")
+        else:
+            self.redirect('/login')
 
     def post(self, obj=None):
         # check pic exgister
@@ -158,7 +175,7 @@ class Admin_Handler(BaseHandler):
             self.write('<script>alert("图片长宽在250px~2000px之间！")</script>')
 
         # saving two type
-        image_path = "./static/pic/goods/"
+        image_path = "./static/images/goods/"
         image_format = send_file['filename'].split('.').pop().lower()
         thumbnail_174 = image_path + str(int(time.time())) + '_1.' + image_format
         image_one.quality(100)

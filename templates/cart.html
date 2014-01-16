@@ -6,9 +6,9 @@
 
 {% block header %}
 <section>
-	<a href="javascript:history.go(-1);">
-		<span class="return">返回</span>
-	</a>
+    <a href="javascript:history.go(-1);">
+        <span class="return">返回</span>
+    </a>
 </section>
 <section>我的订单</section>
 <section></section>
@@ -16,34 +16,37 @@
 
 {% block body %}
 <div id="yescart">
-	<div class="u-boxlist-w300" style="margin-top: 20px;">
-		<ul>
-		</ul>
-	</div>
-	<form id="corder" action="http://m.kuaishubao.com/buy/order.php" method="post">
-		<input type="hidden" name="from" value="m">
-		<input type="hidden" name="oder" value="">
-		<div class="m-cart">
-			<div id="Cart-Chaozhi" style="display: none;"></div>
-			<div class="u-box f-mt10 price-box">
-				当前购物车内商品总金额：<i class="u-price-red" id="total">￥105.00</i> <br>
-				包含：订单 <i class="u-price-red" id="c_total">105.00</i> + 特价换购 <i class="u-price-red" id="s_total">0.00</i>
-			</div>
-			<button id="corder_btn" class="u-btn-orange u-btn-fullwd u-txt-white18 f-mt10">去结算</button>
-		</div>
-	</form>
+    <div class="u-boxlist-w300" style="margin-top: 20px;">
+        <ul>
+            {% for each in entry_new %}
+                {% module Cart(each) %}
+            {% end %}
+        </ul>
+    </div>
+    <form id="corder" action="http://m.kuaishubao.com/buy/order.php" method="post">
+        <input type="hidden" name="from" value="m">
+        <input type="hidden" name="oder" value="">
+        <div class="m-cart">
+            <div id="Cart-Chaozhi" style="display: none;"></div>
+            <div class="u-box f-mt10 price-box">
+                当前购物车内商品总金额：<i class="u-price-red" id="total">￥00.00</i> <br>
+                包含：订单 <i class="u-price-red" id="c_total">00.00</i> + 特价换购 <i class="u-price-red" id="s_total">0.00</i>
+            </div>
+            <button id="corder_btn" class="u-btn-orange u-btn-fullwd u-txt-white18 f-mt10">去结算</button>
+        </div>
+    </form>
 </div>
 
 <div id="nocart" style="display: none;">
-	<div class="m-cart-empty">
-		<p>购物车内暂时没有商品<br> 您可以去首页挑选喜欢的商品</p>
-		<button id="nocorder_btn" class="u-btn-orange u-btn-fullwd u-txt-white18 f-mt10">返回首页</button>
-	</div>
+    <div class="m-cart-empty">
+        <p>购物车内暂时没有商品<br> 您可以去首页挑选喜欢的商品</p>
+        <button id="nocorder_btn" class="u-btn-orange u-btn-fullwd u-txt-white18 f-mt10">返回首页</button>
+    </div>
 </div>
 
 <script>
-    try{
-        var mycart = {"gcart":{"gcart":{"A001352911575":1} ,"mcart":[]};
+try{
+    var mycart = {"gcart":{"gcart":{"A001352911575":1} ,"mcart":[]};
     }catch(e){
         var mycart = {};
     }
@@ -58,21 +61,21 @@
         //$("#Loading").hide();
         c_total = 0;
         $("li[goods]").each(function(){
-            g = $(this).attr("goods");
-            m = $("input[goods_id="+g+"]").val() * $(this).attr("price");
-            c_total += parseInt(m);
-            m = returnFloat2(m.div(100));
-            //$("#g_"+g).html("￥"+m);
-        });
+                g = $(this).attr("goods");
+                m = $("input[goods_id="+g+"]").val() * $(this).attr("price");
+                c_total += parseInt(m);
+                m = returnFloat2(m.div(100));
+                //$("#g_"+g).html("￥"+m);
+                });
         /*
-         $("li[meals]").each(function(){
-         g = $(this).attr("meals");
-         m = $("#meal_num_"+g).val() * $(this).attr("price");
-         c_total += parseInt(m);
-         m = returnFloat2(m.div(100));
-         $("#m_"+g).html("￥"+m);
-         make_meal_goods_num(g);
-         });
+           $("li[meals]").each(function(){
+           g = $(this).attr("meals");
+           m = $("#meal_num_"+g).val() * $(this).attr("price");
+           c_total += parseInt(m);
+           m = returnFloat2(m.div(100));
+           $("#m_"+g).html("￥"+m);
+           make_meal_goods_num(g);
+           });
          */
         show_total();
         find_hg();
@@ -106,15 +109,15 @@
         }
         $url = "/buy/cart_hg.php?from=m&shop_id=chd&price="+c_total;
         $.get($url, function(data){
-            //alert('ok');
-            if (data != '' && data.isok == 1) {
+                //alert('ok');
+                if (data != '' && data.isok == 1) {
                 $("#Cart-Chaozhi").html(data.hg);
                 $("#Cart-Chaozhi").show();
-            } else {
+                } else {
                 $("#Cart-Chaozhi").html('');
                 $("#Cart-Chaozhi").hide();
-            }
-        },'json');
+                }
+                },'json');
     }
     function add_cart(gid, num, type){
         type = typeof(type) == "undefined" ? 1 : type;
@@ -129,8 +132,8 @@
 
         $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
         $.get($url, function(){
-            show_cartnum();
-        },'json');
+                show_cartnum();
+                },'json');
     }
     function show_total(){
         $("#c_total").html(returnFloat2(c_total.div(100)));
@@ -150,47 +153,47 @@
         }
     }
     $("input[goods_id]").focus(function(){
-        $(this).attr("prevalue", $(this).val());
-    });
+            $(this).attr("prevalue", $(this).val());
+            });
     $("input[goods_id]").focusout(function(){
-        t = this;
-        v = chk_buynum($(t).val(), $(t).attr("start_unit"));
-        if (b != null && $(t).val() != v){
+            t = this;
+            v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+            if (b != null && $(t).val() != v){
             $(t).val(v);
-        }else if(b == null){
+            }else if(b == null){
             $(t).val($(t).attr("start_unit"));
-        }
-        if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
-        {
+            }
+            if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+            {
             $(t).attr("prevalue", v);
             //有变化，ajax调用
             add_cart($(t).attr("goods_id"), $(t).val(), 1);
             count_money();
-        }
-    });
+            }
+            });
     function remove_goods(goods_id){
         $("li[goods="+goods_id+"]").animate({
-                    "height": 0
+                "height": 0
                 }, 500, "linear", function() {
-                    $("li[goods="+goods_id+"]").remove();
-                    add_cart(goods_id, 0, 1);
-                    count_money();
+                $("li[goods="+goods_id+"]").remove();
+                add_cart(goods_id, 0, 1);
+                count_money();
                 }
-        );
+                );
     }
 
     $(document).ready(function(){
-        count_money();
-    });
+            count_money();
+            });
 
     if ($.support.touch){
         $("button[goods_id]").click(function(){
-            remove_goods($(this).attr("goods_id"));
-        });
+                remove_goods($(this).attr("goods_id"));
+                });
     }else{
         $("button[goods_id]").click(function(){
-            remove_goods($(this).attr("goods_id"));
-        });
+                remove_goods($(this).attr("goods_id"));
+                });
     }
     function commit_order_b()
     {
@@ -198,9 +201,9 @@
             return false;
         }
         /*
-         if(!is_logined()){
-         return ksb_dialog.login_show(function(){count_money();});
-         }
+           if(!is_logined()){
+           return ksb_dialog.login_show(function(){count_money();});
+           }
          */
         $("input[name=oder]").val(JSON.stringify(mycart));
         //alert($("input[name=oder]").val());
@@ -209,10 +212,10 @@
     }
 
     $("#corder_btn").click(function(){
-        commit_order_b();
-    })
+            commit_order_b();
+            })
     $("#nocorder_btn").click(function(){
-        location.href = "/"
-    })
+            location.href = "/"
+            })
 </script>
 {% end %}
