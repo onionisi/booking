@@ -6,6 +6,7 @@ import tornado.ioloop
 import tornado.web
 
 from pymongo import MongoClient
+from pymongo.objectid import ObjectId
 from tornado.options import define, options
 
 import tempfile
@@ -28,6 +29,7 @@ class Application(tornado.web.Application):
                 (r"/c_show", Cshow_Handler),
                 (r"/admin", Admin_Handler),
                 (r"/edit/([0-9a-z]{24})", Admin_Handler),
+                (r"/goods", Goods_Handler),
                 ]
         settings = dict(
                 title = u"NAME",
@@ -70,9 +72,9 @@ class BaseHandler(tornado.web.RequestHandler):
 
 class HomeHandler(BaseHandler):
     def get(self):
-        new = self.db.goods.find()
-        hot = self.db.goods.find()
-        self.render("index.html", entry_new=new, entry_hot=hot)
+        entry_new = self.db.goods.find()
+        entry_hot = self.db.goods.find()
+        self.render("index.html", entry_new=entry_new, entry_hot=entry_hot)
 
 class ClassHandler(BaseHandler):
     def get(self):
@@ -96,6 +98,12 @@ class MineHandler(BaseHandler):
 class CartHandler(BaseHandler):
     def get(self):
         self.render("cart.html")
+
+class Goods_Handler(BaseHandler):
+    def get(self):
+        _id = self.get_argument("goods_id")
+        entry = self.db.goods.find_one({'_id':Object(_id)})
+        self.render("good.html", entry=entry)
 
 class Cshow_Handler(BaseHandler):
     def get(self):
@@ -132,23 +140,21 @@ class LoginHandler(BaseHandler):
         self.write(message)
 
 class Admin_Handler(BaseHandler):
-    def get(self):
+    def get(self, obj=None):
+        item = dict()
+        if obj:
+            item = self.db.goods.find_one({'_id':Object(obj)})
+
         if self.get_cookie("ln") == 'admin':
-            self.render("upload.html")
+            self.render("edit.html", entry=item)
         else:
             self.redirect('/login')
 
     def post(self, obj=None):
-        # check pic exgister
-        if self.request.files == {} or 'pic' not in self.request.files:
-            self.write('<script>alert("请选择图片")</script>')
+        message = dict()
 
-        # check pic format
-        image_type_list = ['image/gif', 'image/jpeg', 'image/pjpeg', 'image/bmp', 'image/png', 'image/x-png']
         send_file = self.request.files['pic'][0]
 
-        if send_file['content_type'] not in image_type_list:
-            self.write('<script>alert("仅支持jpg,jpeg,bmp,gif,png格式的图片！")</script>')
         # check pic size 4M
         if len(send_file['body']) > 4 * 1024 * 1024:
             self.write('<script>alert("请上传4M以下的图片");</script>')
@@ -161,12 +167,14 @@ class Admin_Handler(BaseHandler):
         # illegal pic can't open with Image
         try:
             image_one = Image(tmp_file.name)
-        except IOEturerror:
+        except IOError:
             logging.info(error)
             logging.info('+'*30 + '\n')
             logging.info(self.request.headers)
             tmp_file.close()
-            self.write('<script>alert("图片不合法！")</script>')
+            message['msg'] = u"kasjdflk 用户名已存在，请重新输入"
+            self.write(message)
+            # self.write('<script>alert("图片不合法！")</script>')
 
         # check pixel
         if image_one.columns() < 250 or image_one.rows() < 250 or \
@@ -177,19 +185,21 @@ class Admin_Handler(BaseHandler):
         # saving two type
         image_path = "./static/images/goods/"
         image_format = send_file['filename'].split('.').pop().lower()
-        thumbnail_174 = image_path + str(int(time.time())) + '_1.' + image_format
+        thumbnail_174 = image_path + str(int(time.time())) + '_174.' + image_format
         image_one.quality(100)
         image_one.scale('174x174')
         image_one.write(str(thumbnail_174))
 
-        thumbnail_94 = image_path + str(int(time.time())) + '_2.' + image_format
+        thumbnail_94 = image_path + str(int(time.time())) + '_94.' + image_format
         image_one.quality(100)
         image_one.scale('94x94')
         image_one.write(str(thumbnail_94))
 
         # close temp
         tmp_file.close()
-        self.write('<script>alert("文件上传成功")</script>')
+        message['msg'] = u"文件上传成功"
+        self.write(message)
+        # self.write('<script>alert("文件上传成功")</script>')
 
         # all arguments, post data
         item_keys = ['catalog', 'name', 'subname', 'price', 'discount']
@@ -198,8 +208,8 @@ class Admin_Handler(BaseHandler):
             item = self.db.goods.find_one({'_id':Object(obj)})
         for key in item_keys:
             item[key] = self.get_argument(key, None)
-            item['size1'] = thumbnail_174
-            item['size2'] = thumbnail_94
+            item['image1'] = thumbnail_174
+            item['image2'] = thumbnail_94
 
         if obj:
             self.db.goods.save(item)

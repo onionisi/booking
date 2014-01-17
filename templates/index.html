@@ -49,18 +49,18 @@
         <!-- <a href="/xinpin"><h2>最新上架</h2></a> -->
         <h2 class="noarrow">最新上架</h2>
         <ul>
-            {% for each in entry_new %}
-                {% module Index(each) %}
-            {% end %}
+        {% for each in entry_new %}
+            {% module Index(each) %}
+        {% end %}
         </ul>
     </div>
 
     <div class='m-list3c m-list3c-pro f-clr'>
         <h2 class="noarrow">热销商品</h2>
         <ul>
-            {% for each in entry_hot %}
-                {% module Index(each) %}
-            {% end %}
+        {% for each in entry_hot %}
+            {% module Index(each) %}
+        {% end %}
         </ul>
     </div>
 {% end %}

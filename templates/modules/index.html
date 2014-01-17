@@ -1,27 +1,23 @@
-<li>
-<a href="/goods?shop_id=chd&goods_id={{ str(each.get('_id', '') }}">
+<a href="/goods?shop_id=chd&goods_id={{ str(each['_id']) }}">
     <li>
     <div>
-        <!-- <img src="/img/m/icon/empty.png" data-url="http://pic.kuaishubao.com/m/picdata/goods/3/c/D940034959012_2.jpg" width='85' height='85'> -->
-		<img src="{{ static_url("images/icons/empty.png") }}" data-url="{{ each.get('size1', '') }}">
+		<!-- <img src="{{ static_url("images/icons/empty.png") }}" data-url="{{ each['image2'] }}" width='85' height='85'> -->
+		<img src="{{ each['image2'] }}" width='85' height='85'>
 
-        <!-- <h3><font style="color:red;">【预售】</font>快书包春节礼品册 328元套装（300册起订）</h3> -->
         <h3>
             {% if each['subname'] %}
-            <font style="color:red;">{{ each.get('subname', '') }}</font>
+            <font style="color:red;">{{ each['subname'] }}</font>
             {% end %}
-            {{ each.get('name', '') }}
+            {{ each['name'] }}
         </h3>
 
-        <!-- <p class='u-price-red'>¥328.00</p> -->
         <p class='u-price-red'>
             {% if each['discount'] %}
-                ¥{{ each.get('discount', '') }}
+                ¥{{ each['discount'] }}
             {% else %}
-                ¥{{ each.get('price', '') }}
+                ¥{{ each['price'] }}
             {% end %}
         </p>
     </div>
     </li>
 </a>
-</li>

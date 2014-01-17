@@ -1,20 +1,21 @@
 <li>
-<a href="/goods?shop_id=chd&goods_id={{ str(each.get('_id', '') }}">
+<a href="/goods?shop_id=chd&goods_id={{ str(each['_id']) }}">
 	<div class='u-box m-proitem f-clr'>
-		<img src="{{ static_url("images/icons/empty.png") }}" data-url="{{ each.get('size1', '') }}">
+		<img src="{{ static_url("images/icons/empty.png") }}" data-url="{{ each['image2'] }}">
 		<h2>
-            {% if 'subname' in each %}
-                <font style="color:red;">{{ each.get('subname', '') }}</font>
+            {% if each['subname'] %}
+                <font style="color:red;">{{ each['subname'] }}</font>
             {% end %}
-                {{ each.get('name', '') }}
+                {{ each['name'] }}
         </h2>
 		<div class='price'>
-            {% if 'discount' in each %}
-                <span>¥{{ each.get('discount', '') }}</span>
-                <del>¥{{ each.get('price', '') }}</del>
+            {% if each['discount'] %}
+                <span>¥{{ each['discount'] }}</span>
+                <del>¥{{ each['price'] }}</del>
             {% else %}
-                <span>¥{{ each.get('price', '') }}</span>
+                <span>¥{{ each['price'] }}</span>
             {% end %}
+
 		</div>
 	</div>
 </a>
