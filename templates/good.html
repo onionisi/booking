@@ -56,21 +56,21 @@
 {% block body %}
 <div class='m-proinfo-buy'>
     <div class='bigimg'>
-        <img id="picbtn" src="{{ each['image1'] }} "bigsrc="{{ each['image1'] }}">
+        <img id="picbtn" src="{{ entry['image1'] }} "bigsrc="{{ entry['image1'] }}">
 		<h2>
-            {% if each['subname'] %}
-                <font style="color:red;">{{ each['subname'] }}</font>
+            {% if entry['subname'] %}
+                <font style="color:red;">{{ entry['subname'] }}</font>
             {% end %}
-                {{ each['name'] }}
+                {{ entry['name'] }}
         </h2>
     </div>
     <div class='price'>
 		<div class='price'>
-            {% if each['discount'] %}
-                <span>本店价：</span> <b>¥{{ each['discount'] }}</b>
-                <del>¥{{ each['price'] }}</del>
+            {% if entry['discount'] %}
+                <span>本店价：</span> <b>¥{{ entry['discount'] }}</b>
+                <del>¥{{ entry['price'] }}</del>
             {% else %}
-                <span>本店价：</span> <b>¥{{ each['discount'] }}</b>
+                <span>本店价：</span> <b>¥{{ entry['discount'] }}</b>
             {% end %}
 		</div>
     <div class='number'>
@@ -78,7 +78,6 @@
         <input type="hidden" value="1" id="start_unit">
         <span class='unit'>单位：瓶</span>
     </div>
-    <div class="number"><span style="color: #FF0000">【买三赠一】买三瓶玫瑰膏即赠一瓶原品</span></div>
     <div>
         <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
     </div>
@@ -87,84 +86,87 @@
         <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
         <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/0/A001352911575_1.jpg','【年货特选】鹤年堂玫瑰膏 200ml-六百年老字号鹤年堂秘传养生佳品，美容祛斑，排毒养颜，调内分泌（分享自 @快书包）','','utf-8'));"><i></i></button>
     </div>
-
+    <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
+        <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
+    </div>
 </div>
-      <script>
+
+<script>
 //document.getElementById("buy_num").select();
 //alert(document.body.scrollHeight)
-      function twxq_show(){
-          $("#twxq").animate({
-                  "height": $("#twxq2").height()
-                  }, 500, "linear", function() {
-                  $("#twxq").height('');
-                  window.scrollTo(0, $("#twxqbtn").offset().top, 500)
-                  }
-                  );
-      }
-          function add_cart(gid, num, type, isimme)
-          {
-              type = typeof(type) == "undefined" ? 1 : type;
-              isimme = typeof(isimme) == "undefined" ? false : isimme;
-              $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
-              //alert($url);
-              $.get($url, function(){
-                  if (isimme){
-                      location.href="/m/buy/cart.php";
-                  }else{
-                      b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
-                      var p=new RegExp("[0-9]{1,}");
-                      b = parseInt(p.exec(b));
-                      b = (b <= 9) ? b : '9+';
-                      content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
-                      m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
-                      $("#addcart").prop("disabled",true)
-                      $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
-                      $("#addcart").html('已加入购物车')
-                      show_cartnum();
-                  }
-              },'json');
-          }
-          $("img[data-url]").imglazyload();
-          var dialog1 = $.ui.dialog({
-              autoOpen: false,
-              closeBtn: false,
-              title: '',
-              width: '300px',
-              content: '<img id="picbig" style="width: 300px;" src="'+$("#picbtn").attr("bigsrc")+'">'
-          });
-          if ($.support.touch){
-              $("#picbtn").tap(function(){dialog1.open()});
-              $("#picbig").tap(function(){dialog1.close()});
-              $("#twxqbtn").tap(function(){
-                  twxq_show();
-                  return false;
-              });
-              $("#addcart").tap(function(){
-                  add_cart('A001352911575', $('#buy_num').val());
-                  try{
-                      show_cartnum();
-                  }catch (e){}
-              });
-              $("#buynow").tap(function(){
-                  add_cart('A001352911575', $('#buy_num').val(), 1, true);
-              });
-          }else{
-              $("#picbtn").click(function(){dialog1.open()});
-              $("#picbig").click(function(){dialog1.close()});
-              $("#twxqbtn").click(function(){
-                  twxq_show();
-                  return false;
-              });
-              $("#addcart").click(function(){
-                  add_cart('A001352911575', $('#buy_num').val());
-                  try{
-                      show_cartnum();
-                  }catch (e){}
-              });
-              $("#buynow").click(function(){
-                  add_cart('A001352911575', $('#buy_num').val(), 1, true);
-              });
-          }
+function twxq_show(){
+    $("#twxq").animate({
+            "height": $("#twxq2").height()
+            }, 500, "linear", function() {
+            $("#twxq").height('');
+            window.scrollTo(0, $("#twxqbtn").offset().top, 500)
+            }
+            );
+}
+function add_cart(gid, num, type, isimme)
+{
+    type = typeof(type) == "undefined" ? 1 : type;
+    isimme = typeof(isimme) == "undefined" ? false : isimme;
+    $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+    //alert($url);
+    $.get($url, function(){
+        if (isimme){
+            location.href="/m/buy/cart.php";
+        }else{
+            b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+            var p=new RegExp("[0-9]{1,}");
+            b = parseInt(p.exec(b));
+            b = (b <= 9) ? b : '9+';
+            content = '<div style="height: 30px; width: 280px;background: #000000;opacity: 1;z-index: 10000">加入购物车成功! 您购物车中已经有'+b+'个商品</div>';
+            m_ksb_msg.show(content, $("#addcart").offset().top - 30, 5, 280);
+            $("#addcart").prop("disabled",true)
+            $("#addcart").attr("class","u-btn-white u-btn-fullwd u-txt-gray18");
+            $("#addcart").html('已加入购物车')
+            show_cartnum();
+        }
+    },'json');
+}
+$("img[data-url]").imglazyload();
+var dialog1 = $.ui.dialog({
+    autoOpen: false,
+    closeBtn: false,
+    title: '',
+    width: '300px',
+    content: '<img id="picbig" style="width: 300px;" src="'+$("#picbtn").attr("bigsrc")+'">'
+});
+if ($.support.touch){
+    $("#picbtn").tap(function(){dialog1.open()});
+    $("#picbig").tap(function(){dialog1.close()});
+    $("#twxqbtn").tap(function(){
+        twxq_show();
+        return false;
+    });
+    $("#addcart").tap(function(){
+        add_cart('A001352911575', $('#buy_num').val());
+        try{
+            show_cartnum();
+        }catch (e){}
+    });
+    $("#buynow").tap(function(){
+        add_cart('A001352911575', $('#buy_num').val(), 1, true);
+    });
+}else{
+    $("#picbtn").click(function(){dialog1.open()});
+    $("#picbig").click(function(){dialog1.close()});
+    $("#twxqbtn").click(function(){
+        twxq_show();
+        return false;
+    });
+    $("#addcart").click(function(){
+        add_cart('A001352911575', $('#buy_num').val());
+        try{
+            show_cartnum();
+        }catch (e){}
+    });
+    $("#buynow").click(function(){
+        add_cart('A001352911575', $('#buy_num').val(), 1, true);
+    });
+}
 
 // 收藏
 $('button[name="fav_bar"]').click(function() {
@@ -196,35 +198,35 @@ $('button[name="fav_bar"]').click(function() {
 		error	: function(html) {}
 	});
 });
-          function chk_buynum(v, s){
-              var p=new RegExp("[0-9]{1,}");
-              b = p.exec(v);
-              console.log((parseInt(b) < parseInt(s)));
-              if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
-              {
-                  return s;
-              }else{
-                  return b;
-              }
-          }
-          $("#buy_num").focus(function(){
-              $(this).attr("prevalue", $(this).val());
-          });
-          $("#buy_num").focusout(function(){
-              t = this;
-              v = chk_buynum($(t).val(), $(t).attr("start_unit"));
-              if (b != null && $(t).val() != v){
-                  $(t).val(v);
-              }else if(b == null){
-                  $(t).val($(t).attr("start_unit"));
-              }
-              if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
-              {
-                  $(t).attr("prevalue", v);
-                  //有变化，ajax调用
-                  add_cart($(t).attr("goods_id"), $(t).val(), 1);
-                  count_money();
-              }
-          });
-
-      </script>
+function chk_buynum(v, s){
+    var p=new RegExp("[0-9]{1,}");
+    b = p.exec(v);
+    console.log((parseInt(b) < parseInt(s)));
+    if (parseInt(b) < parseInt(s) || (v != '' && isNaN(parseInt(b))))
+    {
+        return s;
+    }else{
+        return b;
+    }
+}
+$("#buy_num").focus(function(){
+    $(this).attr("prevalue", $(this).val());
+});
+$("#buy_num").focusout(function(){
+    t = this;
+    v = chk_buynum($(t).val(), $(t).attr("start_unit"));
+    if (b != null && $(t).val() != v){
+        $(t).val(v);
+    }else if(b == null){
+        $(t).val($(t).attr("start_unit"));
+    }
+    if (v != $(t).attr("prevalue") && v != '' && !isNaN(parseInt(v)))
+    {
+        $(t).attr("prevalue", v);
+        //有变化，ajax调用
+        add_cart($(t).attr("goods_id"), $(t).val(), 1);
+        count_money();
+    }
+});
+</script>
+{% end %}

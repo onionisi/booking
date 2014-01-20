@@ -2,32 +2,9 @@ $(document).ready(function() {
     if($('#upload_ul').size() == 1) {
         $('#upload_form_submit_btn').click(function() {
             upload_form_do();
-            // UploadFile();
         });
     }
 });
-
-function UploadFile() {
-
-    var fileObj = document.getElementById("pic").files[0]; // 获取文件对象
-    var FileController = "/admin";                    // 接收上传文件的后台地址
-
-    // FormData 对象
-    var form = new FormData();
-    form.append("author", "hooyes");
-    // 可以增加表单数据
-    form.append("pic", fileObj);
-    // 文件对象
-
-    // XMLHttpRequest 对象
-    var xhr = new XMLHttpRequest();
-    xhr.open("post", FileController, true);
-    xhr.onload = function ()
-    {
-        alert("上传完成!");
-    };
-    xhr.send(form);
-}
 
 // 表单提交
 function upload_form_do() {
@@ -35,7 +12,6 @@ function upload_form_do() {
     var price = $('#price').val(), discount = $('#discount').val();
     var pic = document.getElementById("pic").files[0]; // 获取文件对象
 
-    var MAXSIZE = 4 * 1024 * 1024;
     var msg_top = $('#upload_form_submit_btn').offset().top - 80;
 
     // 参数检测
@@ -51,10 +27,10 @@ function upload_form_do() {
         m_ksb_msg.show('价格不能为空', msg_top);
         return false;
     }
-    if(pic == '' || pic == null) {
-        m_ksb_msg.show('图片不能为空', msg_top);
-        return false;
-    }
+    // if(pic == '' || pic == null) {
+    //     m_ksb_msg.show('图片不能为空', msg_top);
+    //     return false;
+    // }
 
     var form = new FormData();
     form.append("catalog", catalog);
@@ -66,9 +42,9 @@ function upload_form_do() {
 
     var xhr = new XMLHttpRequest();
     xhr.open("post", "/admin", true);
-    xhr.onload = function (html)
+    xhr.onload = function ()
     {
-        m_ksb_msg.show(html.msg);
+        m_ksb_msg.show('上传成功，请继续', msg_top);
     };
     xhr.send(form);
 	// $.ajax({
@@ -76,7 +52,6 @@ function upload_form_do() {
 	// 	url		: '/admin',
 	// 	data	: form,
 	// 	success	: function(html) {
-			// m_ksb_msg.show(html.msg);
 			// if(0 == html.errno) {
 			// 	if(typeof(referer) == 'undefined') {
 			// 		login_check();
@@ -93,6 +68,7 @@ function upload_form_do() {
 		// error	: function(html) {}
 	// });
 
+    // iframe style too
     // $('#editform').submit();
     // function callback(res){
     //     alert(res);
@@ -104,4 +80,31 @@ function upload_form_do() {
     //     callback(str);
     // });
     return false;
+}
+
+function validate_edit_logo(a){
+    var file = $('file').value;
+    if(!/.(gif|jpg|jpeg|png|gif|jpg|png)$/.test(file)){
+        alert("图片类型必须是.gif,jpeg,jpg,png中的一种")
+            if(a==1){
+                return false;
+            }
+    }else{
+        var image = new image();
+        image.src = file;
+        var height = image.height;
+        var width = image.width;
+        var filesize = image.filesize;
+        $('beforeend').src=file;
+        $('div_regi_right').setstyle('display', 'block');
+        if(width>80 && height>80 && filesize>102400){
+            alert('请上传80*80像素 或者大小小于100k的图片');
+            if(a==1){
+                return false;
+            }
+        }
+        if(a==1){
+            return true;
+        }
+    }
 }

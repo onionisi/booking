@@ -23,26 +23,3 @@
     </div>
 </div>
 </li>
-
-
-<li>
-<a href="/goods?shop_id=chd&goods_id={{ str(each.get('_id', '') }}">
-	<div class='u-box m-proitem f-clr'>
-		<img src="{{ static_url("pic/empty.png") }}" data-url="{{ each.get('size1', '') }}">
-		<h2>
-            {% if 'subname' in each %}
-                <font style="color:red;">{{ each.get('subname', '') }}</font>
-            {% end %}
-                {{ each.get('name', '') }}
-        </h2>
-		<div class='price'>
-            {% if 'discount' in each %}
-                <span>¥{{ each.get('discount', '') }}</span>
-                <del>¥{{ each.get('price', '') }}</del>
-            {% else %}
-                <span>¥{{ each.get('price', '') }}</span>
-            {% end %}
-		</div>
-	</div>
-</a>
-</li>

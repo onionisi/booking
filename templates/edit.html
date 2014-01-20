@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascripts/upload.js") }}"></script>
+{% end %}
+
+{% block header %}
+<section></section>
+<section>上新</section>
+<section></section>
+{% end %}
+
+{% block body %}
+<form id='editform' action='admin' enctype="multipart/form-data" method='post'>
+<div class='u-box m-ipt-group2'>
+    <ul id="upload_ul">
+        <li class='first'>
+        <input type="text" placeholder='分类' name="catalog" id="catalog" value="{{ entry.get('catalog', '') }}">
+        </li>
+
+        <li>
+        <input type="text" placeholder='主标题' name="name" id="name" value="{{ entry.get('name', '') }}">
+        </li>
+
+        <li>
+        <input type="txet" placeholder='活动标题' name="subname" id="subname" value="{{ entry.get('subname', '') }}">
+        </li>
+
+        <li>
+        <input type="text" placeholder='原价' name="price" id="price" value="{{ entry.get('price', '') }}">
+        </li>
+
+        <li>
+        <input type="text" placeholder='现价或折扣价' name="discount" id="discount" value="{{ entry.get('discount', '') }}">
+        </li>
+
+        <li>
+        <input type="file" placeholder='图片' name="pic" id="pic" value="{{ entry.get('pic', '') }}">
+        </li>
+
+        <!-- <textarea name="desc" rows="5" cols="40">{{ entry.get('disc', '') }}</textarea> -->
+    </ul>
+</div>
+
+<div class='m-login'>
+    <input class='u-btn-blue u-btn-fullwd u-txt-white18' id='upload_form_submit_btn' type='button' value='确定'/>
+</div>
+</form>
+
+<!-- <iframe id='frm' name='frm' style='display:none'></iframe> -->
+{% end %}
