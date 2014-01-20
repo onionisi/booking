@@ -17,11 +17,7 @@
 {% block body %}
 <div id="yescart">
     <div class="u-boxlist-w300" style="margin-top: 20px;">
-        <ul>
-            {% for each in entry_new %}
-                {% module Cart(each) %}
-            {% end %}
-        </ul>
+
     </div>
     <form id="corder" action="http://m.kuaishubao.com/buy/order.php" method="post">
         <input type="hidden" name="from" value="m">
@@ -46,10 +42,10 @@
 
 <script>
 try{
-    var mycart = {"gcart":{"gcart":{"A001352911575":1} ,"mcart":[]};
-    }catch(e){
-        var mycart = {};
-    }
+    var mycart = {"gcart":{"A001352911575":1} ,"mcart":[]};
+}catch(e){
+    var mycart = {};
+}
     var time_hand = null;
     var c_total = 0;
     var s_total = 0;

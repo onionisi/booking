@@ -97,13 +97,42 @@ class MineHandler(BaseHandler):
 
 class CartHandler(BaseHandler):
     def get(self):
-        self.render("cart.html")
+        if self.request.arguments:
+            cartn = self.get_cookie("cartn")
+            if cartn:
+                self.set_cookie("cartn", 1)
+            else:
+                self.set_cookie("cartn", int(cartn) + 1)
+
+            cart_dict = {}
+            _id = self.get_argument("goods_id")
+            num = self.get_argument("num")
+            cart_dict[_id] = num
+
+            carts = self.get_cookie("carts")
+            if carts:
+                self.set_cookie("carts", cart_dict)
+            else:
+                carts.update(cart_dict)
+                self.set_cookie("carts", carts)
+
+            message={}
+            message['msg']="already add it"
+            self.write(message)
+        else:
+            carts = self.get_cookie("carts")
+            if carts:
+                self.set_cookie("carts", cart_dict)
+                entry = self.db.goods.find_one({'_id':ObjectId(_id)})
+            else:
+                entry = {}
+            self.render("cart.html", entry=entry)
 
 class Goods_Handler(BaseHandler):
     def get(self):
         _id = self.get_argument("goods_id")
         entry = self.db.goods.find_one({'_id':ObjectId(_id)})
-        self.render("good.html", entry=entry)
+        self.render("good.html", _id=_id, entry=entry)
 
 class Cshow_Handler(BaseHandler):
     def get(self):

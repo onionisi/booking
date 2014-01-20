@@ -76,7 +76,7 @@
     <div class='number'>
         <span class='num'>数量：</span><input start_unit="1" id="buy_num" type="number" value='1' >
         <input type="hidden" value="1" id="start_unit">
-        <span class='unit'>单位：瓶</span>
+        <span class='unit'>单位：份</span>
     </div>
     <div>
         <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
@@ -84,7 +84,7 @@
     <div class='btns f-clr'>
         <button class='u-btn-grad btn-buy' id="buynow">立即购买</button>
         <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button>
-        <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/0/A001352911575_1.jpg','【年货特选】鹤年堂玫瑰膏 200ml-六百年老字号鹤年堂秘传养生佳品，美容祛斑，排毒养颜，调内分泌（分享自 @快书包）','','utf-8'));"><i></i></button>
+        <!-- <button class='u-btn-grad btn-share' onClick="void((function(s,d,e,r,l,p,t,z,c){var f='http://v.t.sina.com.cn/share/share.php?appkey=3632156374',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else a();})(screen,document,encodeURIComponent,'','','http://pic.kuaishubao.com/picdata/goods/0/0/A001352911575_1.jpg','【年货特选】鹤年堂玫瑰膏 200ml-六百年老字号鹤年堂秘传养生佳品，美容祛斑，排毒养颜，调内分泌（分享自 @快书包）','','utf-8'));"><i></i></button> -->
     </div>
     <div id="twxqbtn" style="margin: 0 auto; border:solid #fff;border-width:1px 0; width: 300px; text-align: center;height: 70px;line-height: 70px;position: relative;">
         <span style="font-size: 16px;color: #999999;">点击载入商品图文详情</span><b class="aw down" style="position: absolute;right:50px;top:30px;"></b>
@@ -94,6 +94,11 @@
 <script>
 //document.getElementById("buy_num").select();
 //alert(document.body.scrollHeight)
+function get_data(name)
+{
+    var reg = new RegExp("(^|\\?|&)"+ name +"=([^&]*)(\\s|&|$)", "i");
+    if (reg.test(location.href)) return unescape(RegExp.$2.replace(/\+/g, " ")); return "";
+};
 function twxq_show(){
     $("#twxq").animate({
             "height": $("#twxq2").height()
@@ -107,11 +112,10 @@ function add_cart(gid, num, type, isimme)
 {
     type = typeof(type) == "undefined" ? 1 : type;
     isimme = typeof(isimme) == "undefined" ? false : isimme;
-    $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
-    //alert($url);
+    $url = "/cart?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
     $.get($url, function(){
         if (isimme){
-            location.href="/m/buy/cart.php";
+            location.href="/cart";
         }else{
             b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
             var p=new RegExp("[0-9]{1,}");
@@ -134,6 +138,7 @@ var dialog1 = $.ui.dialog({
     width: '300px',
     content: '<img id="picbig" style="width: 300px;" src="'+$("#picbtn").attr("bigsrc")+'">'
 });
+var good_id = get_data('goods_id');
 if ($.support.touch){
     $("#picbtn").tap(function(){dialog1.open()});
     $("#picbig").tap(function(){dialog1.close()});
@@ -142,13 +147,13 @@ if ($.support.touch){
         return false;
     });
     $("#addcart").tap(function(){
-        add_cart('A001352911575', $('#buy_num').val());
+        add_cart(good_id, $('#buy_num').val());
         try{
             show_cartnum();
         }catch (e){}
     });
     $("#buynow").tap(function(){
-        add_cart('A001352911575', $('#buy_num').val(), 1, true);
+        add_cart(good_id, $('#buy_num').val(), 1, true);
     });
 }else{
     $("#picbtn").click(function(){dialog1.open()});
@@ -158,13 +163,13 @@ if ($.support.touch){
         return false;
     });
     $("#addcart").click(function(){
-        add_cart('A001352911575', $('#buy_num').val());
+        add_cart(good_id, $('#buy_num').val());
         try{
             show_cartnum();
         }catch (e){}
     });
     $("#buynow").click(function(){
-        add_cart('A001352911575', $('#buy_num').val(), 1, true);
+        add_cart(good_id, $('#buy_num').val(), 1, true);
     });
 }
 
@@ -175,7 +180,7 @@ $('button[name="fav_bar"]').click(function() {
 		type	: 'post',
 		url		: '/member/fav_add_p.php',
 		data	: {
-			goods_id	: 'A001352911575'
+			goods_id	: good_id
 		},
 		success	: function(html) {
 			var content = '';
@@ -186,7 +191,7 @@ $('button[name="fav_bar"]').click(function() {
 					return m_ksb_msg.show(content, _self, 3, 200);
 					break;
 				case 3 :			// 未登录
-					top.location.href = '/m/member/login.php';
+					top.location.href = '/login';
 					return;
 					break;
 				case 1 :			// 错误
