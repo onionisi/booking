@@ -49,8 +49,8 @@ class Application(tornado.web.Application):
         self.db = MongoClient('localhost', 27017).test
 
 class GoodModule(tornado.web.UIModule):
-    def render(self, each):
-        return self.render_string("modules/good.html", each=each)
+    def render(self, each, permit):
+        return self.render_string("modules/good.html", each=each, permit=permit)
 
 class IndexModule(tornado.web.UIModule):
     def render(self, each):
@@ -66,9 +66,7 @@ class BaseHandler(tornado.web.RequestHandler):
         return self.application.db
 
     def get_current_user(self):
-        user_id = self.get_secure_cookie("admin")
-        if not user_id: return None
-        return None
+        return self.get_cookie("ln")
 
 class HomeHandler(BaseHandler):
     def get(self):
@@ -90,7 +88,7 @@ class LogoutHandler(BaseHandler):
 
 class MineHandler(BaseHandler):
     def get(self):
-        if self.get_cookie("ln"):
+        if self.get_current_user():
             self.render("mine.html")
         else:
             self.redirect('/login')
@@ -138,7 +136,12 @@ class Cshow_Handler(BaseHandler):
     def get(self):
         class_id = self.get_argument("class_id")
         entry = self.db.goods.find()
-        self.render("c_show.html", entry=entry)
+        user = self.get_current_user()
+        if user == "admin":
+            permit = True
+        else:
+            permit = False
+        self.render("c_show.html", entry=entry, permit=permit)
 
 class LoginHandler(BaseHandler):
     def get(self):
@@ -174,7 +177,7 @@ class Admin_Handler(BaseHandler):
         if _id:
             item = self.db.goods.find_one({'_id':ObjectId(_id)})
 
-        if self.get_cookie("ln") == 'admin':
+        if self.get_current_user() == 'admin':
             self.render("edit.html", entry=item)
         else:
             self.redirect('/login')
