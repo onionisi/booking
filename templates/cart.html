@@ -17,9 +17,11 @@
 {% block body %}
 <div id="yescart">
     <div class="u-boxlist-w300" style="margin-top: 20px;">
-
+        {% for each in entry %}
+            {% module Cart(each) %}
+        {% end %}
     </div>
-    <form id="corder" action="http://m.kuaishubao.com/buy/order.php" method="post">
+    <form id="corder" action="/order" method="post">
         <input type="hidden" name="from" value="m">
         <input type="hidden" name="oder" value="">
         <div class="m-cart">
@@ -42,7 +44,7 @@
 
 <script>
 try{
-    var mycart = {"gcart":{"A001352911575":1} ,"mcart":[]};
+    var mycart = $.cookie('carts');
 }catch(e){
     var mycart = {};
 }
@@ -103,7 +105,7 @@ try{
             $("#Cart-Chaozhi").hide();
             return;
         }
-        $url = "/buy/cart_hg.php?from=m&shop_id=chd&price="+c_total;
+        $url = "/buy/cart_hg.php?from=m&shop_id=swust&price="+c_total;
         $.get($url, function(data){
                 //alert('ok');
                 if (data != '' && data.isok == 1) {
@@ -126,7 +128,7 @@ try{
             if (num == 0){delete  mycart['mcart'][gid];}
         }
 
-        $url = "/buy/cart_add.php?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
+        $url = "/cart?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
         $.get($url, function(){
                 show_cartnum();
                 },'json');

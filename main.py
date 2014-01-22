@@ -12,6 +12,7 @@ from tornado.options import define, options
 import tempfile
 import time
 import logging
+import urllib, ast
 from pgmagick import Image
 
 define("port", default=8888, help="run on the given port", type=int)
@@ -96,34 +97,32 @@ class MineHandler(BaseHandler):
 class CartHandler(BaseHandler):
     def get(self):
         if self.request.arguments:
-            cartn = self.get_cookie("cartn")
-            if cartn:
-                self.set_cookie("cartn", 1)
-            else:
-                self.set_cookie("cartn", int(cartn) + 1)
-
-            cart_dict = {}
             _id = self.get_argument("goods_id")
             num = self.get_argument("num")
-            cart_dict[_id] = num
+            entry = {}
+            entry[_id]=num
 
-            carts = self.get_cookie("carts")
-            if carts:
-                self.set_cookie("carts", cart_dict)
+            cartn = self.get_cookie("cartn")
+            if cartn:
+                tmp = self.get_cookie("carts")
+                carts = ast.literal_eval(urllib.unquote(tmp))
+                if _id in carts:
+                    carts[_id] += num
+                else:
+                    self.set_cookie("cartn", str(int(cartn) + 1))
+                    carts.update(entry)
+                self.write(carts)
             else:
-                carts.update(cart_dict)
-                self.set_cookie("carts", carts)
-
-            message={}
-            message['msg']="already add it"
-            self.write(message)
+                self.set_cookie("cartn", str(1))
+                self.write(entry)
         else:
-            carts = self.get_cookie("carts")
-            if carts:
-                self.set_cookie("carts", cart_dict)
-                entry = self.db.goods.find_one({'_id':ObjectId(_id)})
-            else:
-                entry = {}
+            entry = []
+            tmp = self.get_cookie("carts")
+            if tmp:
+                carts = eval(urllib.unquote(tmp))
+                for (k,v) in carts.items():
+                    each = self.db.goods.find_one({'_id':ObjectId(k)})
+                    entry.append(each)
             self.render("cart.html", entry=entry)
 
 class Goods_Handler(BaseHandler):

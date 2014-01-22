@@ -1,6 +1,6 @@
-<li goods="{{ str(each['_id'] }}" price="5900" style="margin-bottom: 0px;height: 151px; overflow: hidden;">
-<div class='u-box m-cartitem f-clr' goods="{{ str(each['_id'] }}" style="overflow: hidden;margin-top: 10px;">
-    <a href="/goods?shop_id=chd&goods_id={{ str(each['_id'] }}">
+<li goods="{{ str(each['_id']) }}" price="5900" style="margin-bottom: 0px;height: 151px; overflow: hidden;">
+<div class='u-box m-cartitem f-clr' goods="{{ str(each['_id']) }}" style="overflow: hidden;margin-top: 10px;">
+    <a href="/goods?shop_id=swust&goods_id={{ str(each['_id']) }}">
 		<img src="{{ each['image2'] }}" width='94' height='94'>
         <h2>
             {% if each['subname'] %}
@@ -18,8 +18,8 @@
     </a>
     <div class='number' style="z-index: 10;">
         <span>购买数量：</span>
-        <input type="number" value='1' start_unit="1" goods_id="{{ str(each['_id'] }}">
-        <button type='button' class='remove' goods_id="{{ str(each['_id'] }}">删除</button>
+        <input type="number" value='1' start_unit="1" goods_id="{{ str(each['_id']) }}">
+        <button type='button' class='remove' goods_id="{{ str(each['_id']) }}">删除</button>
     </div>
 </div>
 </li>
