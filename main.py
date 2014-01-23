@@ -6,7 +6,6 @@ import tornado.ioloop
 import tornado.web
 
 from pymongo import MongoClient
-from bson.objectid import ObjectId
 from tornado.options import define, options
 
 import tempfile
@@ -97,39 +96,45 @@ class MineHandler(BaseHandler):
 class CartHandler(BaseHandler):
     def get(self):
         if self.request.arguments:
-            _id = self.get_argument("goods_id")
-            num = self.get_argument("num")
+            gid = self.get_argument("goods_id")
+            num = int(self.get_argument("num"))
             entry = {}
-            entry[_id]=num
+            entry[gid]=num
+            gmcart = {'mcart':[]}
 
             cartn = self.get_cookie("cartn")
             if cartn:
                 tmp = self.get_cookie("carts")
                 carts = ast.literal_eval(urllib.unquote(tmp))
-                if _id in carts:
-                    carts[_id] += num
+                if gid in carts['gcart']:
+                    carts['gcart'][gid] = int(carts['gcart'][gid])
+                    carts['gcart'][gid] += num
                 else:
                     self.set_cookie("cartn", str(int(cartn) + 1))
-                    carts.update(entry)
+                    carts['gcart'].update(entry)
+                print(carts)
                 self.write(carts)
             else:
                 self.set_cookie("cartn", str(1))
-                self.write(entry)
+                gmcart['gcart'] = entry
+                print(gmcart)
+                self.write(gmcart)
         else:
             entry = []
             tmp = self.get_cookie("carts")
             if tmp:
-                carts = eval(urllib.unquote(tmp))
-                for (k,v) in carts.items():
-                    each = self.db.goods.find_one({'_id':ObjectId(k)})
+                carts = ast.literal_eval(urllib.unquote(tmp))
+                for (k,v) in carts['gcart'].items():
+                    each = self.db.goods.find_one({'_id':k})
                     entry.append(each)
             self.render("cart.html", entry=entry)
+            #self.render("cart1.html")
 
 class Goods_Handler(BaseHandler):
     def get(self):
-        _id = self.get_argument("goods_id")
-        entry = self.db.goods.find_one({'_id':ObjectId(_id)})
-        self.render("good.html", _id=_id, entry=entry)
+        gid = self.get_argument("goods_id")
+        entry = self.db.goods.find_one({'_id':gid})
+        self.render("good.html", entry=entry)
 
 class Cshow_Handler(BaseHandler):
     def get(self):
@@ -171,22 +176,31 @@ class LoginHandler(BaseHandler):
         self.write(message)
 
 class Admin_Handler(BaseHandler):
-    def get(self, _id=None):
-        item = dict()
-        if _id:
-            item = self.db.goods.find_one({'_id':ObjectId(_id)})
+    def get(self, gid=None):
+        good = dict()
+        if gid:
+            good = self.db.goods.find_one({'_id':gid})
 
         if self.get_current_user() == 'admin':
-            self.render("edit.html", entry=item)
+            self.render("edit.html", entry=good)
         else:
             self.redirect('/login')
 
-    def post(self, _id=None):
-        item_keys = ['catalog', 'name', 'subname', 'price', 'discount']
-        item = dict()
-        if _id:
-            item = self.db.goods.find_one({'_id':ObjectId(_id)})
+    def post(self, gid=None):
+        good_keys = ['catalog', 'name', 'subname', 'price', 'discount']
+        good = dict()
+        if gid:
+            good = self.db.goods.find_one({'_id':gid})
+        for key in good_keys:
+            good[key] = self.get_argument(key, None)
+
+        if gid:
+            self.db.goods.save(good)
         else:
+            #========= new id generate
+            gid = 'G'+(str(uuid.uuid4()).split('-'))[4].upper()
+
+            #========= image handler
             # check pic exgister
             if self.request.files == {} or 'pic' not in self.request.files:
                 self.write('<script>alert("请选择图片")</script>')
@@ -225,12 +239,12 @@ class Admin_Handler(BaseHandler):
             # saving two type
             image_path = "./static/images/goods/"
             image_format = send_file['filename'].split('.').pop().lower()
-            thumbnail_174 = image_path + str(int(time.time())) + '_174.' + image_format
+            thumbnail_174 = image_path + gid + '_174.' + image_format
             image_one.quality(100)
             image_one.scale('174x174')
             image_one.write(str(thumbnail_174))
 
-            thumbnail_94 = image_path + str(int(time.time())) + '_94.' + image_format
+            thumbnail_94 = image_path + gid + '_94.' + image_format
             image_one.quality(100)
             image_one.scale('94x94')
             image_one.write(str(thumbnail_94))
@@ -238,16 +252,11 @@ class Admin_Handler(BaseHandler):
             # close temp
             tmp_file.close()
 
-        for key in item_keys:
-            item[key] = self.get_argument(key, None)
+            good['_id'] = gid
+            good['image1'] = thumbnail_174
+            good['image2'] = thumbnail_94
 
-        if _id:
-            self.db.goods.save(item)
-        else:
-            item['image1'] = thumbnail_174
-            item['image2'] = thumbnail_94
-
-            self.db.goods.insert(item)
+            self.db.goods.insert(good)
 
         self.redirect('/admin', permanent=True)
 
@@ -276,7 +285,9 @@ class RegHandler(BaseHandler):
             passwd = self.get_argument("password")
             phone = self.get_argument("phone")
 
-            customer = { "name": name,
+            uid = 'G'+(str(uuid.uuid4()).split('-'))[4].upper()
+            customer = {"_id": uid,
+                        "name": name,
                         "passwd": passwd,
                         "phone": phone}
             if self.db.users.insert(customer):

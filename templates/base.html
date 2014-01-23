@@ -28,91 +28,91 @@
 
 <body>
 <div class="g-doc">
-	<div class="w">
-		<header class="g-hd">
-		<div class="m-hd">
-    		{% block header %}{% end %}
-		</div>
-		</header>
+    <div class="w">
+        <header class="g-hd">
+            <div class="m-hd">
+                {% block header %}{% end %}
+            </div>
+        </header>
 
-		<div class="g-bd">
-    		{% block body %}{% end %}
-		</div>
+        <div class="g-bd">
+            {% block body %}{% end %}
+        </div>
 
-		<div style="height: 50px;"></div>
-		<div class="m-btngroup f-clr">
-			<a href="/login" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
-			<a href="/register" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
-			<a href="/mine" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
-			<a href="/logout" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
-		</div>
+        <div style="height: 50px;"></div>
+        <div class="m-btngroup f-clr">
+            <a href="/login" class="u-btnbox u-btn-reg" id="foot_login">登录</a>
+            <a href="/register" class="u-btnbox u-btn-login" id="foot_reg">注册</a>
+            <a href="/mine" class="u-btnbox u-btn-reg" style="display: none;width: 180px;overflow: hidden;" id="foot_nickname"></a>
+            <a href="/logout" name="member_logout" class="u-btnbox u-btn-login" style="display: none;" id="foot_loginout">退出</a>
+        </div>
         <script>
-            login_check();
+login_check();
         </script>
 
-		<div class="g-ft">
-			<div class="u-box m-ft">
-				<div>
-					<a href="/" class="help">返回首页</a>
-				</div>
-			</div>
-		</div>
+        <div class="g-ft">
+            <div class="u-box m-ft">
+                <div>
+                    <a href="/" class="help">返回首页</a>
+                </div>
+            </div>
+        </div>
 
-		<div id="fixbtn_all" class="m-toolbar" style="width: 320px; position: fixed; bottom: 0px; z-index: 1000;">
-			<div id="fixbtn" class="fixbtn"></div>
-			<div id="fixbtn_div" style="height:0px; overflow: hidden;">
-				<ul id="fixbtn_ul" class="f-clr off0">
-					<a href="/"><li class="home">首页</li></a>
-					<a href="/mine"><li class="ksb">面板</li></a>
-					<a href="/cart"><li class="cart">订单<i id="cart_num">0</i></li></a>
-					<a href="/class"><li class="cls">分类</li></a>
-				</ul>
-			</div>
-		</div>
-<script>
-	fix_state = false
-	function fixbtn_show(now) {
-		if (fix_state) {
-			hi = 0;
-		} else {
-			hi = $("#fixbtn_ul").height();
-		}
-		t = 300;
-		$("#fixbtn_div").animate({
-				"height": hi
-		}, t, "linear", function() {
-			if ( fix_state ) {
-				fix_state = false;
-			}else{
-				fix_state = true;
-			}
-		});
-	}
-	$("#fixbtn").click(function(){fixbtn_show();});
+        <div id="fixbtn_all" class="m-toolbar" style="width: 320px; position: fixed; bottom: 0px; z-index: 1000;">
+            <div id="fixbtn" class="fixbtn"></div>
+            <div id="fixbtn_div" style="height:0px; overflow: hidden;">
+                <ul id="fixbtn_ul" class="f-clr off0">
+                    <a href="/"><li class="home">首页</li></a>
+                    <a href="/mine"><li class="ksb">面板</li></a>
+                    <a href="/cart"><li class="cart">订单<i id="cart_num">0</i></li></a>
+                    <a href="/class"><li class="cls">分类</li></a>
+                </ul>
+            </div>
+        </div>
+        <script>
+fix_state = false
+function fixbtn_show(now) {
+    if (fix_state) {
+        hi = 0;
+    } else {
+        hi = $("#fixbtn_ul").height();
+    }
+    t = 300;
+    $("#fixbtn_div").animate({
+            "height": hi
+            }, t, "linear", function() {
+            if ( fix_state ) {
+            fix_state = false;
+            }else{
+            fix_state = true;
+            }
+            });
+}
+$("#fixbtn").click(function(){fixbtn_show();});
 
-	function show_cartnum() {
-		b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
-		var p = new RegExp("[0-9]{1,}");
-		b = parseInt(p.exec(b));
+function show_cartnum() {
+    b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
+    var p = new RegExp("[0-9]{1,}");
+    b = parseInt(p.exec(b));
 
-		$("#cart_num").toggle(b > 0);
-		if (b > 0){
-			$("#cart_num").show()
-		}else{
-			$("#cart_num").hide()
-		}
-		if (b > 9) {
-			$("#cart_num").html('N');
-		} else {
-			$("#cart_num").html(b);
-		}
-	}
-	$(document).ready(function() {
-		show_cartnum();
-	})
-</script>
+    $("#cart_num").toggle(b > 0);
+    if (b > 0){
+        $("#cart_num").show()
+    }else{
+        $("#cart_num").hide()
+    }
+    if (b > 9) {
+        $("#cart_num").html('N');
+    } else {
+        $("#cart_num").html(b);
+    }
+}
+$(document).ready(function() {
+        show_cartnum();
+        })
+        </script>
 
-	</div>
+    </div>
 </div>
 
 </body>
