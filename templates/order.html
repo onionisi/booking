@@ -1,0 +1,313 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascripts/float_number.js") }}"></script>
+<script type="text/javascript" src="{{ static_url("javascripts/login.js") }}"></script>
+<script type="text/javascript" src="{{ static_url("javascripts/addrcode.js") }}"></script>
+{% end %}
+
+{% block header %}
+<section>
+    <a href="/chd"><span class="return">返回</span></a>
+</section>
+<section>
+    <h1 class="title">核对订单信息</h1>
+</section>
+<section></section>
+{% end %}
+
+<style>
+.down {
+    -webkit-transform: rotate(135deg);
+}
+.up {
+    -webkit-transform: rotate(-45deg);
+}
+.right {
+    -webkit-transform: rotate(45deg);
+}
+.left {
+    -webkit-transform: rotate(-135deg);
+}
+.aw, #tbh5v0 .dSliderFull .dSlider b {
+    border: #999999 solid;
+    border-width: 3px 3px 0 0;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+}
+.addv_invoice {}
+.addv_invoice h4{ margin-bottom: 18px;height: 30px; line-height: 30px; background-color: #ed1c24; color: #fff; font-size: 14px; padding-left: 10px; font-weight: bold;}
+.addv_invoice h4 span{color: #ffffcc; font-size: 12px; font-weight: normal;}
+.addv_invoice dt,.addv_invoice dd{display: inline-block; color: #303030;}
+.addv_invoice dt,.addv_invoice *dd{display: inline;}
+.addv_invoice dt{width: 95px; text-align: right; font-size: 12px; line-height: 32px;}
+.addv_invoice dd input{background-color: #e5e5e5;border-radius:2px;border: 0px;height: 25px;width: 160px;}
+.m-order-time .radio2, .m-order-pay .radio2{margin: 10px 0;
+    vertical-align: middle;
+    height: inherit;
+    line-height: 20px;}
+</style>
+
+<form action="/order_commit" method="post" id="order_com">
+    <input type="hidden" name="myaddr" value="{&quot;id&quot;:&quot;53134&quot;,&quot;uid&quot;:&quot;1082467&quot;,&quot;city_id&quot;:&quot;110101&quot;,&quot;address&quot;:&quot;123123&quot;,&quot;receiver&quot;:&quot;123&quot;,&quot;mobile&quot;:&quot;15581602043&quot;,&quot;user_mobile&quot;:&quot;15581602043&quot;,&quot;tel&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;rdc_id_1&quot;:&quot;BJERSHIBA&quot;,&quot;rdc_id_2&quot;:&quot;&quot;,&quot;is_exp&quot;:&quot;1&quot;,&quot;state&quot;:&quot;0&quot;}">
+    <input type="hidden" value="45485" name="order_id">
+    <input type="hidden" name="act" value="1">
+    <input type="hidden" name="from" value="m">
+    {% block body %}
+    <div class='m-order'>
+        <!-- 收货地址 -->
+        <a href="/m/member/my_account_address.php?order_id=45485">
+            <div class='m-order-addr u-box f-clr'>
+                <div class='f-fl cnt'>
+                    <p class='title'>收货地址</p>
+                    <div>123 <br>
+                        <span city_id="110101" format="ca"></span>123123 <br>
+                        15581602043&nbsp;<br>
+                    </div>
+                </div>
+                <div class='f-fr arrow-right'>
+                    <button type='button'></button>
+                </div>
+            </div>
+        </a>
+        <!-- 送货时间 -->
+        <div class='m-order-time u-box '>
+            <p class='title'>指定送货时间</p>
+            <div class='radio'><label><input type="radio" class='u-radio' name='send_type' checked="checked" value="1">现在就送，1小时内送达</label></div>
+            <div class='radio'><label><input  type="radio" class='u-radio' name='send_type' value="2">定时送 请指定一周内的具体时间段</label></div>
+            <div class='time f-clr'>
+                <div class='u-selectdiv f-fl'>
+                    <select name="appoint_date" class='u-select'>
+                        <i class='u-arrow-right'></i>
+                        <option value="2014-01-24">今天 周五</option>
+                        <option value="2014-01-25">1月25日 周六</option>
+                        <option value="2014-01-26">1月26日 周日</option>
+                        <option value="2014-01-27">1月27日 周一</option>
+                        <option value="2014-01-28">1月28日 周二</option>
+                    </select>
+                </div>
+
+                <div class='u-selectdiv f-fr'>
+                    <select name="appoint_time" class='u-select'>
+                        <option value="09">09:00-10:00</option>
+                        <option value="10">10:00-11:00</option>
+                        <option value="11">11:00-12:00</option>
+                        <option value="12">12:00-13:00</option>
+                        <option value="13">13:00-14:00</option>
+                        <option value="14">14:00-15:00</option>
+                        <option value="15">15:00-16:00</option>
+                        <option value="16">16:00-17:00</option>
+                        <option value="17">17:00-18:00</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 付款方式 -->
+        <div class='m-order-pay u-box'>
+            <p class='title'>付款方式</p>
+
+            <div class='yue'>
+                <p>您需要支付的款项为 <b id="mytotal">23.60 </b>元</p>
+                <div class='u-hr'></div>
+            </div>
+
+            <div>
+                剩余款项 <b id="hxzf">23.60</b>的支付方式为
+            </div>
+            <div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="1" checked="checked">货到付款（支持现金、刷卡）</label></div>
+            <div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="2">在线支付（支付宝）</label></div>
+
+        </div>
+
+
+        <div class='m-order-time u-box' style="display: none;" id="usepack">
+            <p class='title'>包装处理方式</p>
+            <div class='radio' style="font-size: 12px;"><label><input type="radio" class='u-radio' name='bagage' value="1">是的，用我购买的蓝印花布包袱皮做礼品包装</label></div>
+            <div class='radio' style="font-size: 12px;"><label><input type="radio" class='u-radio' name='bagage' checked="checked" value="2">不用了，请把蓝印花布叠好</label></div>
+        </div>
+        <!-- 留言 -->
+        <div class='m-order-msg u-box'>
+            <textarea name="message" placeholder='您有需要特殊交待的话，请给我们留言备注(200字以内)'></textarea>
+        </div>
+
+        <!-- 商品 -->
+        <div class="u-boxlist-w300">
+            <ul>
+                <li goods_id="A730036689555">
+                <div class="u-box m-proitem f-clr">
+                    <a href="/m/g/g_info.php?shop_id=chd&goods_id=A730036689555">
+                        <img src="http://pic.kuaishubao.com/m/picdata/goods/b/8/A730036689555_2.jpg" width="94" height="94">
+                        <h2>Mixx红薯奶酪饼干600g（32包）-2袋起售</h2>
+                    </a>
+                    <div class="number-price">
+                        <span class='num'>数量：2</span>
+                        <span class='pri'>¥23.60</span>
+                    </div>
+                </div>
+                </li>
+            </ul>
+        </div>
+
+        <script>
+try{
+    total_sum = 2360;
+    yue = 0;
+    syye = 0;
+    syyhq = 0;
+    shop_id = 'chd';
+    order_exp_fee = 0;
+    exp_fee1 = 0;
+    exp_fee2 = 0;
+    //myaddr = {"id":"53134","uid":"1082467","city_id":"110101","address":"123123","receiver":"123","mobile":"15581602043","user_mobile":"15581602043","tel":"","email":"","rdc_id_1":"BJERSHIBA","rdc_id_2":"","is_exp":"1","state":"0"};
+}catch (e){
+    //addr_json = {};
+    //myaddr = [];
+}
+$("li[goods_id]").each(function(){
+        g = $(this).attr('goods_id');
+        if (g == 'A740014232017' || g == 'A001352909228'){
+        $("#usepack").show();
+        }
+        });
+$("input[name=is_invoice]").click(function(){
+        if ($(this).attr("checked") || $(this).attr("checked")=="checked"){
+        //$("div.invoice-type").show();
+        //$("div.invoice-title").show();
+        $("#myinvoice1").show();
+        $("#myinvoice2").show();
+        $("div.tip").show();
+        }else{
+        $("#myinvoice1").hide();
+        $("#myinvoice2").hide();
+        $("div.invoice-type").hide();
+        $("div.invoice-title").hide();
+        $("div.addv_invoice").hide();
+        $("div.tip").hide();
+        $("input[name=invoice_type2]").prop("checked",false);
+        }
+        });
+
+$("input[name=invoice_type2]").click(function(){
+        if ($(this).val() == '1'){
+        $("div.invoice-type").show();
+        $("div.invoice-title").show();
+        $("div.addv_invoice").hide();
+        }else if($(this).val() == '2'){
+        $("div.invoice-type").hide();
+        $("div.invoice-title").hide();
+        $("div.addv_invoice").show();
+        }
+        });
+
+$("input[name=syyhq]").click(function(){
+        show_moeny();
+        });
+$("select[name=coupold]").change(function(){
+        show_moeny();
+        });
+$("input[name=yue]").click(function(){
+        show_moeny();
+        });
+
+$("input[name=exp_type]").click(function(){
+        show_chaoqu_info();
+        });
+function show_chaoqu_info(){
+    if($("input[name=exp_type]:checked").val() == 1){
+        total_sum = total_sum - order_exp_fee + exp_fee1
+            order_exp_fee = exp_fee1
+    }
+    if($("input[name=exp_type]:checked").val() == 2){
+        total_sum = total_sum - order_exp_fee + exp_fee2
+            order_exp_fee = exp_fee2
+    }
+    $("#expfee").html(returnFloat2(order_exp_fee.div(100))+"元");
+    show_moeny();
+}
+function show_moeny(){
+    var hxzf = total_sum;
+    if($("input[name=syyhq]").attr("checked") || $("input[name=syyhq]").attr("checked") == "checked"){
+        a = $("select[name=coupold]").find("option").filter(function(o) {return this.selected}).attr('data');
+        if (a != '0'){
+            syyhq = parseInt(a);
+            hxzf = hxzf-syyhq;
+        }else{
+            syyhq = 0;
+        }
+    }else{
+        syyhq = 0;
+    }
+    syye3 = 0;
+    if ($("input[name=yue]").attr('checked') || $("input[name=yue]").attr('checked') == 'checked'){
+        syye = yue+syyhq-total_sum;
+        yjsyye = 0;
+        if (syye >= 0){
+            yjsyye = total_sum - syye;
+            syye3 = hxzf;
+            hxzf = 0;
+        }else if(syye < 0){
+            syye2 = 0 - syye;
+            yjzf = yue + syyhq;
+            hxzf = syye2;
+            syye3 = yue;
+        }
+    }else{
+        syye = yue;
+    }
+    $("#hxzf").html(returnFloat2(hxzf.div(100)));
+    $("#yue_t").html(syye >= 0 ? returnFloat2(syye.div(100)) : '0.00');
+    $("#yhq_tips").html(returnFloat2(syyhq.div(100))+"元");
+    $("#yue_tips").html(returnFloat2(syye3.div(100))+"元");
+    $("#sjzje").html(returnFloat2(hxzf.div(100))+"元");
+    $("#mytotal").html(returnFloat2(total_sum.div(100))+"元");
+}
+        </script>
+        <!-- 价格合计 -->
+        <div class='m-order-price'>
+            <div class='u-box'>
+                <dl>
+                    <dt>商品总金额：</dt>
+                    <dd>23.60元</dd>
+                </dl>
+                <dl>
+                    <dt>运费：</dt>
+                    <dd id="expfee">0.00元</dd>
+                </dl>
+                <dl>
+                    <dt>优惠券：</dt>
+                    <dd id="yhq_tips">0.00元</dd>
+                </dl>
+                <dl>
+                    <dt>余额支付：</dt>
+                    <dd id="yue_tips">0.00元</dd>
+                </dl>
+                <dl>
+                    <dt>实际总金额：</dt>
+                    <dd id="sjzje">23.60元</dd>
+                </dl>
+            </div>
+
+        </div>
+
+        <div class="u-w300">
+            <button id="btn_commi" type="button" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18">提交订单</button>
+        </div>
+    </div>
+    {% end %}
+</div>
+</form>
+<script>
+$("#btn_commi").click(function(){
+        if($("input[name=myaddr]").val() == '[]' || $("input[name=myaddr]").val() == ''){
+        alert('请填写收货地址');
+        return false;
+        }
+        $("input[name=act]").val('1');
+        //alert($("input[name=myaddr]").val());
+        $("#order_com").submit();
+        return false;
+        });
+show_chaoqu_info();
+</script>

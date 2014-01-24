@@ -26,6 +26,7 @@ class Application(tornado.web.Application):
                 (r"/logout", LogoutHandler),
                 (r"/mine", MineHandler),
                 (r"/cart", CartHandler),
+                # (r"/order", OrderHandler),
                 (r"/c_show", Cshow_Handler),
                 (r"/admin", Admin_Handler),
                 (r"/edit/([0-9a-z]{24})", Admin_Handler),
@@ -93,6 +94,14 @@ class MineHandler(BaseHandler):
         else:
             self.redirect('/login')
 
+class OrderHandler(BaseHandler):
+    def get(self):
+        self.render("order.html")
+    def post(self):
+        print(self.get_request.arguments)
+        self.render("order.html")
+        pass
+
 class CartHandler(BaseHandler):
     def get(self):
         if self.request.arguments:
@@ -109,6 +118,8 @@ class CartHandler(BaseHandler):
                 if gid in carts['gcart']:
                     carts['gcart'][gid] = int(carts['gcart'][gid])
                     carts['gcart'][gid] += num
+                    if num == 0:
+                        self.set_cookie("cartn", str(int(cartn) - 1))
                 else:
                     self.set_cookie("cartn", str(int(cartn) + 1))
                     carts['gcart'].update(entry)
@@ -166,6 +177,7 @@ class LoginHandler(BaseHandler):
 
         if self.db.users.find_one(customer) or\
                 self.db.users.find_one(phone):
+            # TODO: need to use uid instead name
             self.set_cookie("ln", name)
             message['errno'] = 0
             message['msg'] = u"欢迎光临"

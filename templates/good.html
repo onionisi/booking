@@ -114,7 +114,7 @@ function add_cart(gid, num, type, isimme)
     isimme = typeof(isimme) == "undefined" ? false : isimme;
     $url = "/cart?goods_id="+gid+"&num="+num+"&type="+type+"&random="+Math.floor(Math.random() * ( 1000 + 1));
     $.get($url, function(data){
-        $.cookie('carts', (JSON.stringify(data)))
+        $.cookie('carts', JSON.stringify(data))
         if (isimme){
             location.href="/cart";
         }else{
