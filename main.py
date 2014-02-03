@@ -26,7 +26,7 @@ class Application(tornado.web.Application):
                 (r"/logout", LogoutHandler),
                 (r"/mine", MineHandler),
                 (r"/cart", CartHandler),
-                # (r"/order", OrderHandler),
+                (r"/order", OrderHandler),
                 (r"/c_show", Cshow_Handler),
                 (r"/admin", Admin_Handler),
                 (r"/edit/([0-9a-z]{24})", Admin_Handler),
@@ -98,7 +98,7 @@ class OrderHandler(BaseHandler):
     def get(self):
         self.render("order.html")
     def post(self):
-        print(self.get_request.arguments)
+        print(self.request.arguments)
         self.render("order.html")
         pass
 
