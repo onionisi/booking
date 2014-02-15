@@ -100,10 +100,27 @@ class MineHandler(BaseHandler):
 
 class PasswdHandler(BaseHandler):
     def get(self):
-        if self.get_current_user():
-            self.render("my_info_passwd.html")
+        name = self.get_current_user()
+        if name:
+            self.render("my_info_passwd.html", account=name)
         else:
             self.redirect('/login')
+    def post(self):
+        name = self.get_current_user()
+        old_passwd = self.get_argument("password")
+        new_passwd = self.get_argument("new_password")
+
+        customer = {"name": name, "passwd": old_passwd}
+        message = {}
+
+        if self.db.users.find_one(customer):
+            self.db.users.update(customer, {"$set": {"passwd": new_passwd}})
+            message['errno'] = 0
+        else:
+            message['errno'] = 1
+            message['msg'] = u"密码输入不正确"
+
+        self.write(message)
 
 class AddrHandler(BaseHandler):
     def get(self):
