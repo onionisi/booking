@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascripts/member.js") }}"></script>
+
+<style type="text/css">
+/* 会员中心框 */
+.member-my-box {
+	background-color:#FFFFFF;
+	border:none;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	-moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	padding: 10px 5px ;
+	width:300px;
+	margin:10px auto;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+.info_password_login_name {width:300px; text-align:left; font-size:16px; font-family:"微软雅黑"; margin:10px auto 0px auto;}
+</style>
+<style type="text/css"></style>
+{% end %}
+
+{% block header %}
+<section>
+	<a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+</section>
+<section>
+	<h1 class="title">修改登录密码</h1>
+</section>
+<section></section>
+{% end %}
+
+{% block body %}
+<form id="my_info_password_form" method="post" action="/my_info_password">
+	<div class="info_password_login_name">账户名：onionisi</div>
+	<div class="u-box m-ipt-group" style="margin-top:10px;">
+		<ul id="login_ul">
+			<li class="first">
+			<label for="">旧密码:</label>
+			<input type="password" placeholder="" name="password" id="password" value="">
+			</li>
+			<li>
+			<label for="">新密码:</label>
+			<input type="password" placeholder="" name="new_password" id="new_password" value="">
+			</li>
+			<li>
+			<label for="">确认密码:</label>
+			<input type="password" placeholder="" name="re_password" id="re_password" value="">
+			</li>
+		</ul>
+	</div>
+	<div class="m-login">
+		<button class="u-btn-blue u-btn-fullwd u-txt-white18">保存</button>
+	</div>
+</form>
+{% end %}

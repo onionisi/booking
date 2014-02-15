@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascripts/member.js") }}"></script>
+<script type="text/javascript" src="{{ static_url("javascripts/addrcode.js") }}"></script>
+<script language="javascript">
+var order_id = '';
+var shop_city = 'bj';
+var is_exp = '0';
+</script>
+<style type="text/css">
+.my_account_address_form {width:300px; margin:10px auto; font-size:12px; font-family:"微软雅黑";}
+.my_account_address_form input, .my_account_address_form textarea {width:300px; border:medium none; font-size:14px;
+	background-color:#FFFFFF;
+	border:none;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	-moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	margin-top:2px;
+	margin-bottom:5px;
+}
+.my_account_address_form input {height:28px;}
+.my_account_address_form textarea {height:56px;}
+#a, #b, #city_id {max-width:100px;}
+</style>
+{% end %}
+
+{% block head %}
+<section>
+	<a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+</section>
+<section>
+	<h1 class="title">添加收货地址</h1>
+</section>
+<section></section>
+{% end %}
+
+{% block body %}
+<form class="my_account_address_form" id="my_account_address_add_form" method="post" action="my_account_address_addp">
+	<input type="hidden" name="is_exp" id="is_exp" value="1">
+	收货人姓名：<br>
+	<input type="text" placeholder="" name="receiver" id="receiver" value="">
+	<br>
+
+	收货地址：<br>
+	<select name="a" id="a" style="display: none;"></select><select name="b" id="b"><option value="">请选择城市</option><option value="110100">北京市</option><option value="310100">上海市</option><option value="330100">杭州市</option><option value="430100">长沙市</option><option value="440300">深圳市</option><option value="510100">成都市</option><option value="610100">西安市</option></select><select name="city_id" id="city_id"></select>
+	<br>
+	<div style="text-align:right;"><a href="http://m.kuaishubao.com/doc/help/peisongchaxun.html" target="_blank">查看配送区域</a></div>
+	<br>
+
+	详细地址：<br>
+	<textarea name="address" id="address"></textarea>
+	<br>
+
+	收货人手机号：<br>
+	<input type="text" placeholder="" name="mobile" id="mobile" value="">
+	<br>
+
+	下单人手机号：<br>
+	<input type="text" placeholder="" name="user_mobile" id="user_mobile" value="">
+	<br>
+
+	邮箱：<br>
+	<input type="text" placeholder="" name="email" id="email" value="">
+	<br>
+</form>
+<div class="m-login">
+	<button class="u-btn-blue u-btn-fullwd u-txt-white18">保存收货人信息</button>
+</div>
+{% end %}

@@ -25,6 +25,10 @@ class Application(tornado.web.Application):
                 (r"/login", LoginHandler),
                 (r"/logout", LogoutHandler),
                 (r"/mine", MineHandler),
+                (r"/my_info_password", PasswdHandler),
+                (r"/my_account_address", AddrHandler),
+                (r"/my_account_address_add_form", Add2Handler),
+                (r"/my_order_fav", FavHandler),
                 (r"/cart", CartHandler),
                 (r"/order", OrderHandler),
                 (r"/c_show", Cshow_Handler),
@@ -91,6 +95,34 @@ class MineHandler(BaseHandler):
     def get(self):
         if self.get_current_user():
             self.render("mine.html")
+        else:
+            self.redirect('/login')
+
+class PasswdHandler(BaseHandler):
+    def get(self):
+        if self.get_current_user():
+            self.render("my_info_passwd.html")
+        else:
+            self.redirect('/login')
+
+class AddrHandler(BaseHandler):
+    def get(self):
+        if self.get_current_user():
+            self.render("my_account_address.html")
+        else:
+            self.redirect('/login')
+
+class Add2Handler(BaseHandler):
+    def get(self):
+        if self.get_current_user():
+            self.render("my_account_address_add_form.html")
+        else:
+            self.redirect('/login')
+
+class FavHandler(BaseHandler):
+    def get(self):
+        if self.get_current_user():
+            self.render("my_order_fav.html")
         else:
             self.redirect('/login')
 

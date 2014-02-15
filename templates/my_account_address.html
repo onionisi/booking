@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script type="text/javascript" src="{{ static_url("javascripts/addrcode.js") }}"></script>
+<script language="javascript">
+var shop_city = 'bj';
+try{
+	order_id = '';
+	addr_json = {"53134":{"id":"53134","uid":"1082467","city_id":"110101","address":"123123","receiver":"123","mobile":"15581602043","user_mobile":"15581602043","tel":"","email":"","rdc_id_1":"BJERSHIBA","rdc_id_2":"","is_exp":"1","state":"0"}};
+}catch (e){
+	addr_json = {};
+	order_id = '';
+}
+$(document).ready(function() {
+		var html = '';
+		for(var i in addr_json) {
+		html += '		<div class="member-my-box address-box" data="' + addr_json[i].id + '">\n';
+		html += '	<div class="address_name">' + addr_json[i].receiver + '</div>\n';
+		html += '	<div class="address_info"><span city_id="' + addr_json[i].city_id + '" format="ca"></span>' + addr_json[i].address + '</div>\n';
+		html += '	<div class="address_mobile">' + addr_json[i].mobile + '&nbsp;' + addr_json[i].tel + '</div>\n';
+		html += '	<div class="address_state">' + (addr_json[i].state == 1 ? '默认地址' : '') + '</div>\n';
+		html += '	<div style="clear:both;"></div>\n';
+		html += '</div>\n';
+		}
+		$('.u-w300').before(html);
+		span_city_id_tran();
+
+
+		// 其他站 隐藏1小时地址添加按钮
+		if(shop_city == 'qt') {
+		$('#add_address_btn_1').hide();
+		$('#add_address_msg_2').hide();
+		}
+
+});
+
+function saddr(id){
+	$("input[name=myaddr2]").val(JSON.stringify(addr_json[id]))
+		$("#saddr").submit();
+}
+</script>
+<style type="text/css">
+/* 会员中心框 */
+.member-my-box {
+	background-color:#FFFFFF;
+	border:none;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	-moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+	padding: 10px 5px ;
+	width:300px;
+	margin:10px auto;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+.address-box {font-size:14px; line-height:22px;}
+.address_name, .address_mobile, .address_state {height:22px;}
+.address_name, .address_info {width:280px; word-break:break-all; margin:0px auto;}
+.address_mobile {width:215px; float:left; margin-left:10px;}
+.address_state {width:65px; float:right; text-align:right; overflow:hidden; color:#999999; margin-right:10px;}
+</style>
+<style type="text/css"></style>
+{% end %}
+
+{% block header %}
+<section>
+	<a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+</section>
+<section>
+	<h1 class="title">收货地址管理</h1>
+</section>
+<section></section>
+{% end %}
+
+
+{% block body %}
+<div class="member-my-box address-box" data="53134">
+	<div class="address_name">123</div>
+	<div class="address_info"><span city_id="110101" format="ca" title="110101">北京市东城区</span>123123</div>
+	<div class="address_mobile">15581602043&nbsp;</div>
+	<div class="address_state"></div>
+	<div style="clear:both;"></div>
+</div>
+<div class="u-w300">
+	<button id="add_address_btn_1" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18" url_to="/my_account_address_add_form?order_id=">添加收货地址</button>
+</div>
+{% end %}

@@ -16,38 +16,46 @@
     <!--     </form> -->
     <!-- </div> -->
 
-    <ul class="m-navicon2 f-clr f-mt10">
-      <li><a href='/mine'><button class="my-menu-my"></button>我的面板</a></li>
-      <li><a href="/class"><button class="my-menu-cls"></button>商品分类</a></li>
-      <li><a href="/cart"><button class="my-menu-cart"></button>购物车</a></li>
-      <li><a href="/my_order_fav"><button class="my-menu-fav"></button>我的收藏</a></li>
-    </ul>
+    <!-- <ul class="m-navicon2 f-clr f-mt10"> -->
+    <!--   <li><a href='/mine'><button class="my-menu-my"></button>我的面板</a></li> -->
+      <!-- <li><a href="/class"><button class="my-menu-cls"></button>商品分类</a></li> -->
+      <!-- <li><a href="/cart"><button class="my-menu-cart"></button>购物车</a></li> -->
+      <!-- <li><a href="/my_order_fav"><button class="my-menu-fav"></button>我的收藏</a></li> -->
+    <!-- </ul> -->
 
-    <div class='m-clsgroup f-clr'>
-        <ul class='f-clr'>
-            <a href="/c_show?shop_id=swust&amp;class_id=109&amp;page=1"><li>营养健康</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=103&amp;page=1"><li>休闲食品</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=104&amp;page=1"><li>酒水饮品</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=110&amp;page=1"><li>食材</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=105&amp;page=1"><li>生活日用</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=113&amp;page=1"><li>蓝印花布</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=112&amp;page=1"><li>数码文具</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=101&amp;page=1"><li>图书</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=102&amp;page=1"><li>杂志</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=106&amp;page=1"><li>演出票</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=107&amp;page=1"><li>鲜花</li></a>
-            <a href="/c_show?shop_id=swust&amp;class_id=108&amp;page=1"><li>礼品卡/礼品册</li></a>
-        </ul>
-    </div>
+    <!-- <div class='m-clsgroup f-clr'> -->
+    <!--     <ul class='f-clr'> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=109&amp;page=1"><li>营养健康</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=103&amp;page=1"><li>休闲食品</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=104&amp;page=1"><li>酒水饮品</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=110&amp;page=1"><li>食材</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=105&amp;page=1"><li>生活日用</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=113&amp;page=1"><li>蓝印花布</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=112&amp;page=1"><li>数码文具</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=101&amp;page=1"><li>图书</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=102&amp;page=1"><li>杂志</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=106&amp;page=1"><li>演出票</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=107&amp;page=1"><li>鲜花</li></a> -->
+    <!--         <a href="/c_show?shop_id=swust&amp;class_id=108&amp;page=1"><li>礼品卡/礼品册</li></a> -->
+    <!--     </ul> -->
+    <!-- </div> -->
 
     <!-- 每日活动 -->
     <!-- <div class="u-box u-w300"> -->
     <!--     <div style="padding: 5px 5px;"><div class="slogan"><a title="今日限时低价 有机厨坊天然红薏仁粉" href="http:/m/g/g_info.php?shop_id=bj&amp;goods_id=A001352909026">【今日限时低价】有机厨坊天然红薏仁粉  限时价84元 立减14元</a></div></div> -->
     <!-- </div> -->
+	<div class="u-box u-w300">
+		<div style="padding: 5px 5px;">
+			<div class="slogan">
+				<p>【通知】</p>
+				<p>各位内测会员你们好</p>
+			</div>
+		</div>
+	</div>
 
     <div class='m-list3c m-list3c-pro f-clr'>
         <!-- <a href="/xinpin"><h2>最新上架</h2></a> -->
-        <h2 class="noarrow">最新上架</h2>
+        <h2 class="noarrow">今日供应</h2>
         <ul>
             {% for each in entry_new %}
                 {% module Index(each) %}
@@ -55,12 +63,12 @@
         </ul>
     </div>
 
-    <div class='m-list3c m-list3c-pro f-clr'>
-        <h2 class="noarrow">热销商品</h2>
-        <ul>
-            {% for each in entry_hot %}
-                {% module Index(each) %}
-            {% end %}
-        </ul>
-    </div>
+    <!-- <div class='m-list3c m-list3c-pro f-clr'> -->
+    <!--     <h2 class="noarrow">热销商品</h2> -->
+    <!--     <ul> -->
+    <!--         {% for each in entry_hot %} -->
+    <!--             {% module Index(each) %} -->
+    <!--         {% end %} -->
+    <!--     </ul> -->
+    <!-- </div> -->
 {% end %}

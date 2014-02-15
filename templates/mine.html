@@ -64,19 +64,19 @@ $(document).ready(function() {
 
 {% block body %}
 <div class='member-my-box member-welcome'>
-    <div>亲爱的&nbsp;<span id="welcome_name"></span>&nbsp;用户，欢迎您来到快书包</div>
+    <div>亲爱的&nbsp;<span id="welcome_name"></span>&nbsp;用户，欢迎您来到本店！</div>
     <div>账户余额：¥0.00</div>
 </div>
 
 <ul class="my-menu">
     <li><button class="my-menu-cart"></button><a href="/cart">我的购物车</a></li>
-    <li><button class="my-menu-order"></button><a href="/m/member/my_order_order.php">我的订单</a></li>
-    <li><button class="my-menu-fav"></button><a href="/m/member/my_order_fav.php">我的收藏</a></li>
-    <li><button class="my-menu-pswd"></button><a href="/m/member/my_info_password.php">修改登录密码</a></li>
-    <li><button class="my-menu-cls"></button><a href="/class">商品分类</a></li>
+    <!-- <li><button class="my-menu-order"></button><a href="/my_order_order">我的订单</a></li> -->
+    <!-- <li><button class="my-menu-fav"></button><a href="/my_order_fav">我的收藏</a></li> -->
+    <li><button class="my-menu-pswd"></button><a href="/my_info_password">修改登录密码</a></li>
+    <!-- <li><button class="my-menu-cls"></button><a href="/class">商品分类</a></li> -->
+    <li><button class="my-menu-address"></button><a href="/my_account_address">收货地址管理</a></li>
     <li><button class="my-menu-index"></button><a href="/">首页</a></li>
-    <li><button class="my-menu-address"></button><a href="/m/member/my_account_address.php">收货地址管理</a></li>
-    <li><button class="my-menu-weibo"></button><a href="/member/other_login.php?from=1&client=1">关联微博</a></li>
+    <!-- <li><button class="my-menu-weibo"></button><a href="javascript:void(0);">关联微博</a></li> -->
 </ul>
 <div style="clear:both;"></div>
 {% end %}
