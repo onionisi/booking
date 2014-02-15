@@ -1,0 +1,6 @@
+static/images/*
+test/*
+pic/*
+ex/*
+.*.swp
+.pyc
