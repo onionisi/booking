@@ -7,6 +7,7 @@ var shop_city = 'bj';
 try{
 	order_id = '';
 	addr_json = {"53134":{"id":"53134","uid":"1082467","city_id":"110101","address":"123123","receiver":"123","mobile":"15581602043","user_mobile":"15581602043","tel":"","email":"","rdc_id_1":"BJERSHIBA","rdc_id_2":"","is_exp":"1","state":"0"}};
+	//addr_json = {};
 }catch (e){
 	addr_json = {};
 	order_id = '';
@@ -77,13 +78,15 @@ function saddr(id){
 
 
 {% block body %}
+
 <div class="member-my-box address-box" data="53134">
-	<div class="address_name">123</div>
+	<div class="address_name">onion</div>
 	<div class="address_info"><span city_id="110101" format="ca" title="110101">北京市东城区</span>123123</div>
 	<div class="address_mobile">15581602043&nbsp;</div>
 	<div class="address_state"></div>
 	<div style="clear:both;"></div>
 </div>
+
 <div class="u-w300">
 	<button id="add_address_btn_1" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18" url_to="/my_account_address_add_form?order_id=">添加收货地址</button>
 </div>

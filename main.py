@@ -33,7 +33,7 @@ class Application(tornado.web.Application):
                 (r"/order", OrderHandler),
                 (r"/c_show", Cshow_Handler),
                 (r"/admin", Admin_Handler),
-                (r"/edit/([0-9a-z]{24})", Admin_Handler),
+                (r"/edit/(G[0-9A-Z]{12})", Admin_Handler),
                 (r"/goods", Goods_Handler),
                 ]
         settings = dict(
