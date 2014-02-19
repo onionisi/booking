@@ -55,8 +55,8 @@ class Application(tornado.web.Application):
         self.db = MongoClient('localhost', 27017).test
 
 class GoodModule(tornado.web.UIModule):
-    def render(self, each, permit):
-        return self.render_string("modules/good.html", each=each, permit=permit)
+    def render(self, each):
+        return self.render_string("modules/good.html", each=each)
 
 class IndexModule(tornado.web.UIModule):
     def render(self, each):
@@ -395,9 +395,11 @@ class RegHandler(BaseHandler):
             #     self.redirect('/')
 
             uid = 'G'+(str(uuid.uuid4()).split('-'))[4].upper()
+            reg_tm = time.time()
             customer = {"_id": uid,
                         "name": name,
-                        "passwd": passwd}
+                        "passwd": passwd,
+                        "when": reg_tm}
             if self.db.users.insert(customer):
                 message['errno'] = 0
             else:

@@ -83,8 +83,8 @@
     </div>
 	<div>
 		{% if permit %}
-		<p><a href="/edit/{{ each['_id'] }}"><font style="color:blue;">编辑</font></a></p>
-		<!-- <p><a href="/edit/{{ each['_id'] }}"><font style="color:blue;">删除</font></a></p> -->
+		<a href="/edit/{{ entry['_id'] }}"><button class='u-btn-blue u-btn-halfwd btn-addcart'>编辑</button></a>
+		<a href="/edit/{{ entry['_id'] }}"><button class='u-btn-red u-btn-halfwd btn-addcart'>删除</button></a>
 		{% end %}
 	</div>
     <!-- <div class='btns f-clr'> -->
