@@ -57,7 +57,7 @@
     {% block body %}
     <div class='m-order'>
         <!-- 收货地址 -->
-        <a href="/m/member/my_account_address.php?order_id=45485">
+        <a href="/my_account_address?order_id=45485">
             <div class='m-order-addr u-box f-clr'>
                 <div class='f-fl cnt'>
                     <p class='title'>收货地址</p>
@@ -74,7 +74,8 @@
         <!-- 送货时间 -->
         <div class='m-order-time u-box '>
             <p class='title'>指定送货时间</p>
-            <div class='radio'><label><input type="radio" class='u-radio' name='send_type' checked="checked" value="1">现在就送，1小时内送达</label></div>
+            <div class='radio'><label><input type="radio" class='u-radio'
+					name='send_type' checked="checked" value="1">现在就送，30分钟内送达</label></div>
             <div class='radio'><label><input  type="radio" class='u-radio' name='send_type' value="2">定时送 请指定一周内的具体时间段</label></div>
             <div class='time f-clr'>
                 <div class='u-selectdiv f-fl'>
@@ -133,22 +134,6 @@
         </div>
 
         <!-- 商品 -->
-        <div class="u-boxlist-w300">
-            <ul>
-                <li goods_id="A730036689555">
-                <div class="u-box m-proitem f-clr">
-                    <a href="/m/g/g_info.php?shop_id=chd&goods_id=A730036689555">
-                        <img src="http://pic.kuaishubao.com/m/picdata/goods/b/8/A730036689555_2.jpg" width="94" height="94">
-                        <h2>Mixx红薯奶酪饼干600g（32包）-2袋起售</h2>
-                    </a>
-                    <div class="number-price">
-                        <span class='num'>数量：2</span>
-                        <span class='pri'>¥23.60</span>
-                    </div>
-                </div>
-                </li>
-            </ul>
-        </div>
 
         <script>
 try{

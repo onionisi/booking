@@ -44,6 +44,7 @@ class Application(tornado.web.Application):
                     "Good": GoodModule,
                     "Index": IndexModule,
                     "Cart": CartModule,
+                    "Addr": AddrModule,
                     },
                 #xsrf_cookies = True,
                 cookie_secret = uuid.uuid4(),
@@ -64,6 +65,10 @@ class IndexModule(tornado.web.UIModule):
 class CartModule(tornado.web.UIModule):
     def render(self, each):
         return self.render_string("modules/cart.html", each=each)
+
+class AddrModule(tornado.web.UIModule):
+    def render(self, addr):
+        return self.render_string("modules/addr.html", addr=addr)
 
 class BaseHandler(tornado.web.RequestHandler):
     @property
@@ -124,8 +129,15 @@ class PasswdHandler(BaseHandler):
 
 class AddrHandler(BaseHandler):
     def get(self):
-        if self.get_current_user():
-            self.render("my_account_address.html")
+        name = self.get_current_user()
+        customer = {"name": name}
+        addrs = []
+        if name:
+            one = self.db.users.find_one(customer)
+            if 'addrs' in one:
+                addrs = one['addrs']
+                print addrs
+            self.render("my_account_address.html", addrs=addrs)
         else:
             self.redirect('/login')
 
@@ -135,6 +147,33 @@ class Add2Handler(BaseHandler):
             self.render("my_account_address_add_form.html")
         else:
             self.redirect('/login')
+    def post(self):
+        addr = self.get_argument("address")
+        zone = self.get_argument("city_id")
+        mobile = self.get_argument("mobile")
+        receiver = self.get_argument("receiver")
+        new_addr = { 'address':addr,
+                'zone':zone,
+                'mobile':mobile,
+                'receiver':receiver
+                }
+
+        name = self.get_current_user()
+        customer = {"name": name}
+        message = {}
+        addr = []
+
+        addrs = self.db.users.find_one(customer, {"addrs": 1})
+        if 'addrs' in addrs:
+            addrs['addrs'].append(new_addr)
+            self.db.users.update(customer, {"$set": {"addrs": addrs['addrs']}})
+        else:
+            addr.append(new_addr)
+            self.db.users.update(customer, {"$set": {"addrs": addr}})
+        
+        message['errno'] = 0
+        self.write(message)
+
 
 class FavHandler(BaseHandler):
     def get(self):
@@ -145,11 +184,16 @@ class FavHandler(BaseHandler):
 
 class OrderHandler(BaseHandler):
     def get(self):
-        self.render("order.html")
+        if self.get_current_user():
+            self.render("order.html")
+        else:
+            self.redirect('/login')
     def post(self):
         print(self.request.arguments)
-        self.render("order.html")
-        pass
+        if self.get_current_user():
+            self.render("order.html")
+        else:
+            self.redirect('/login')
 
 class CartHandler(BaseHandler):
     def get(self):
@@ -194,18 +238,18 @@ class Goods_Handler(BaseHandler):
     def get(self):
         gid = self.get_argument("goods_id")
         entry = self.db.goods.find_one({'_id':gid})
-        self.render("good.html", entry=entry)
-
-class Cshow_Handler(BaseHandler):
-    def get(self):
-        class_id = self.get_argument("class_id")
-        entry = self.db.goods.find()
         user = self.get_current_user()
         if user == "admin":
             permit = True
         else:
             permit = False
-        self.render("c_show.html", entry=entry, permit=permit)
+        self.render("good.html", entry=entry, permit=permit)
+
+class Cshow_Handler(BaseHandler):
+    def get(self):
+        class_id = self.get_argument("class_id")
+        entry = self.db.goods.find()
+        self.render("c_show.html", entry=entry)
 
 class LoginHandler(BaseHandler):
     def get(self):
@@ -220,12 +264,9 @@ class LoginHandler(BaseHandler):
 
         customer = {"name": name,
                     "passwd": passwd}
-        phone = {"phone": name,
-                    "passwd": passwd}
         message = {}
 
-        if self.db.users.find_one(customer) or\
-                self.db.users.find_one(phone):
+        if self.db.users.find_one(customer):
             # TODO: need to use uid instead name
             self.set_cookie("ln", name)
             message['errno'] = 0
@@ -329,6 +370,7 @@ class RegHandler(BaseHandler):
         args = self.request.arguments
         message = {}
         query = {}
+        # li = self.db.invites.find_one()
 
         if "login_name" in args and "password" not in args:
             name = self.get_argument("login_name")
@@ -344,13 +386,18 @@ class RegHandler(BaseHandler):
         elif "login_name" in args and "password" in args:
             name = self.get_argument("login_name")
             passwd = self.get_argument("password")
-            phone = self.get_argument("phone")
+            # phone = self.get_argument("phone")
+
+            # invite = self.get_argument("invite")
+            # if invite in li['invite']:
+            #     li = [i for i in li if i!=invite]
+            # else:
+            #     self.redirect('/')
 
             uid = 'G'+(str(uuid.uuid4()).split('-'))[4].upper()
             customer = {"_id": uid,
                         "name": name,
-                        "passwd": passwd,
-                        "phone": phone}
+                        "passwd": passwd}
             if self.db.users.insert(customer):
                 message['errno'] = 0
             else:

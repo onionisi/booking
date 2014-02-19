@@ -83,7 +83,7 @@ $(document).ready(function() {
 		$('#my_account_address_add_form').submit(function() {
 			var receiver	= $('#receiver').val();
 			var address		= $('#address').val();
-			var city_id		= $('#city_id').val();
+			var city_id		= $('#zone').val();
 			var mobile		= $('#mobile').val();
 			var user_mobile		= $('#user_mobile').val();
 			var email		= $('#email').val();
@@ -105,10 +105,10 @@ $(document).ready(function() {
 				m_ksb_msg.show('收货人手机号不能为空', $('.m-login button').offset().top - 100);
 				return false;
 			}
-			if(user_mobile == '' || user_mobile == null) {
-				m_ksb_msg.show('下单人手机号不能为空', $('.m-login button').offset().top - 100);
-				return false;
-			}
+			// if(user_mobile == '' || user_mobile == null) {
+			// 	m_ksb_msg.show('下单人手机号不能为空', $('.m-login button').offset().top - 100);
+			// 	return false;
+			// }
 //			if(email == '' || email == null) {
 //				m_ksb_msg.show('邮箱不能为空', '#email');
 //				return false;
@@ -122,9 +122,9 @@ $(document).ready(function() {
 					address		: address,
 					city_id		: city_id,
 					mobile		: mobile,
-					user_mobile		: user_mobile,
-					email		: email,
-					is_exp		: is_exp,
+					// user_mobile		: user_mobile,
+					// email		: email,
+					// is_exp		: is_exp,
 					state		: 0
 				},
 				success	: function(html) {

@@ -1,0 +1,12 @@
+<div class="member-my-box address-box">
+	<div class="address_name">{{ addr['receiver'] }}</div>
+	<div class="address_info">
+		{% if addr['zone'] == 'swust' %}
+		西南科技大学
+		{% end %}
+		{{ addr['address'] }}
+	</div>
+	<div class="address_mobile">{{ addr['mobile'] }}&nbsp;</div>
+	<div class="address_state"></div>
+	<div style="clear:both;"></div>
+</div>

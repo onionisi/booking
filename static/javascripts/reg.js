@@ -9,7 +9,8 @@ $(document).ready(function() {
 
 // 注册表单提交
 function reg_form_do() {
-	var login_name = $('#login_name').val(), password = $('#password').val(), repassword = $('#repassword').val(), phone = $('#phone').val();
+	var login_name = $('#login_name').val(), password = $('#password').val(), repassword = $('#repassword').val();
+	// var phone = $('#phone').val();
 
 	var msg_top = $('#reg_form_submit_btn').offset().top - 80;
 
@@ -19,11 +20,11 @@ function reg_form_do() {
 		return false;
 	}
 	if(login_name.length < 2) {
-		m_ksb_msg.show('您输入的登录账号长度不够，请保持至少4个字符(或者2个汉字)', msg_top);
+		m_ksb_msg.show('您输入的登录账号长度不够，请保持至少4个字符', msg_top);
 		return false;
 	}
 	if(login_name.length > 20) {
-		m_ksb_msg.show('您输入的登录账号太长了，请保持在20个字符(或者10个汉字)以内', msg_top);
+		m_ksb_msg.show('您输入的登录账号太长了，请保持在20个字符以内', msg_top);
 		return false;
 	}
 	// 用户名存在检测
@@ -62,28 +63,28 @@ function reg_form_do() {
 		m_ksb_msg.show('两次密码输入不一致', msg_top);
 		return false;
 	}
-	if(phone == '' || phone == null) {
-		m_ksb_msg.show('手机号码不能为空', msg_top);
-		return false;
-	}
+	// if(phone == '' || phone == null) {
+	// 	m_ksb_msg.show('手机号码不能为空', msg_top);
+	// 	return false;
+	// }
 	// if(phone.length > 100) {
 	// 	m_ksb_msg.show('邮件输入太长了', msg_top);
 	// 	return false;
 	// }
 	// var myreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
 	// if(!myreg.test(email)) {
-	var myreg = /^0?(13[0-9]|15[012356789]|18[0-9]|14[57])[0-9]{8}$/
-	if(!myreg.test(phone)) {
-		m_ksb_msg.show('请输入正确的手机号码', msg_top);
-		return false;
-	}
+	// var myreg = /^0?(13[0-9]|15[012356789]|18[0-9]|14[57])[0-9]{8}$/
+	// if(!myreg.test(phone)) {
+	// 	m_ksb_msg.show('请输入正确的手机号码', msg_top);
+	// 	return false;
+	// }
 	$.ajax({
 		type	: 'post',
 		url		: '/register',
 		data	: {
 			login_name	: login_name,
 			password	: password,
-			phone		: phone
+			// phone		: phone
 		},
 		success	: function(html) {
 			if(0 == html.errno) {

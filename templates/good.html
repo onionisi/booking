@@ -81,6 +81,12 @@
     <div>
         <button class='u-btn-orange u-btn-fullwd btn-addcart' id="addcart">加入购物车</button>
     </div>
+	<div>
+		{% if permit %}
+		<p><a href="/edit/{{ each['_id'] }}"><font style="color:blue;">编辑</font></a></p>
+		<!-- <p><a href="/edit/{{ each['_id'] }}"><font style="color:blue;">删除</font></a></p> -->
+		{% end %}
+	</div>
     <!-- <div class='btns f-clr'> -->
     <!--     <button class='u-btn-grad btn-buy' id="buynow">立即购买</button> -->
     <!--     <button name="fav_bar" class='u-btn-grad btn-fav'><i></i></button> -->

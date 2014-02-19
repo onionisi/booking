@@ -28,7 +28,7 @@ var is_exp = '0';
 </style>
 {% end %}
 
-{% block head %}
+{% block header %}
 <section>
 	<a href="javascript:history.go(-1);"><span class="return">返回</span></a>
 </section>
@@ -39,17 +39,27 @@ var is_exp = '0';
 {% end %}
 
 {% block body %}
-<form class="my_account_address_form" id="my_account_address_add_form" method="post" action="my_account_address_addp">
+<form class="my_account_address_form" id="my_account_address_add_form"
+	method="post" action="my_account_address_add_form">
 	<input type="hidden" name="is_exp" id="is_exp" value="1">
 	收货人姓名：<br>
 	<input type="text" placeholder="" name="receiver" id="receiver" value="">
 	<br>
 
 	收货地址：<br>
-	<select name="a" id="a" style="display: none;"></select><select name="b" id="b"><option value="">请选择城市</option><option value="110100">北京市</option><option value="310100">上海市</option><option value="330100">杭州市</option><option value="430100">长沙市</option><option value="440300">深圳市</option><option value="510100">成都市</option><option value="610100">西安市</option></select><select name="city_id" id="city_id"></select>
+	<!-- <select name="a" id="a" style="display: none;"></select> -->
+	<select name="zone" id="zone">
+		<option value="">请选择区域</option>
+		<option value="swust">西南科技大学</option>
+		<option value="mnu">绵阳师范学院</option>
+	</select>
+	<!-- <select name="city_id" id="city_id"></select> -->
 	<br>
-	<div style="text-align:right;"><a href="http://m.kuaishubao.com/doc/help/peisongchaxun.html" target="_blank">查看配送区域</a></div>
-	<br>
+	<!-- 收货地址：<br> -->
+	<!-- <select name="a" id="a" style="display: none;"></select><select name="b" id="b"><option value="">请选择城市</option><option value="110100">北京市</option><option value="310100">上海市</option><option value="330100">杭州市</option><option value="430100">长沙市</option><option value="440300">深圳市</option><option value="510100">成都市</option><option value="610100">西安市</option></select><select name="city_id" id="city_id"></select> -->
+	<!-- <br> -->
+	<!-- <div style="text-align:right;"><a href="http://m.kuaishubao.com/doc/help/peisongchaxun.html" target="_blank">查看配送区域</a></div> -->
+	<!-- <br> -->
 
 	详细地址：<br>
 	<textarea name="address" id="address"></textarea>
@@ -59,13 +69,13 @@ var is_exp = '0';
 	<input type="text" placeholder="" name="mobile" id="mobile" value="">
 	<br>
 
-	下单人手机号：<br>
-	<input type="text" placeholder="" name="user_mobile" id="user_mobile" value="">
-	<br>
+	<!-- 下单人手机号：<br> -->
+	<!-- <input type="text" placeholder="" name="user_mobile" id="user_mobile" value=""> -->
+	<!-- <br> -->
 
-	邮箱：<br>
-	<input type="text" placeholder="" name="email" id="email" value="">
-	<br>
+	<!-- 邮箱：<br> -->
+	<!-- <input type="text" placeholder="" name="email" id="email" value=""> -->
+	<!-- <br> -->
 </form>
 <div class="m-login">
 	<button class="u-btn-blue u-btn-fullwd u-txt-white18">保存收货人信息</button>
