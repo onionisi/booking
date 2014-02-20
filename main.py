@@ -218,8 +218,6 @@ class OrderHandler(BaseHandler):
                         'name': name}
 
                 self.db.order.insert(order)
-
-
             self.render("order.html", addr=addr[0])
         else:
             self.redirect('/login')
