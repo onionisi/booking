@@ -31,6 +31,8 @@ class Application(tornado.web.Application):
                 (r"/my_order_fav", FavHandler),
                 (r"/cart", CartHandler),
                 (r"/order", OrderHandler),
+                (r"/order_commit", CommitHandler),
+                (r"/succ", SuccHandler),
                 (r"/c_show", Cshow_Handler),
                 (r"/admin", Admin_Handler),
                 (r"/edit/(G[0-9A-Z]{12})", Admin_Handler),
@@ -184,14 +186,61 @@ class FavHandler(BaseHandler):
 
 class OrderHandler(BaseHandler):
     def get(self):
-        if self.get_current_user():
-            self.render("order.html")
+        name = self.get_current_user()
+        customer = {"name": name}
+        addr = []
+        if name:
+            one = self.db.users.find_one(customer)
+            if 'addrs' in one:
+                addr = one['addrs']
+            self.render("order.html", addr=addr[0])
         else:
             self.redirect('/login')
     def post(self):
+        self.clear_cookie("cartn")
+        self.clear_cookie("carts")
+        print "------------"
+        goods=self.request.arguments
+
+        print "------------"
+        oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
+
+        name = self.get_current_user()
+        customer = {"name": name}
+        addr = []
+        order = {}
+        if name:
+            one = self.db.users.find_one(customer)
+            if 'addrs' in one:
+                addr = one['addrs']
+                order = {'_id': oid,
+                        'good':goods,
+                        'name': name}
+
+                self.db.order.insert(order)
+
+
+            self.render("order.html", addr=addr[0])
+        else:
+            self.redirect('/login')
+
+class SuccHandler(BaseHandler):
+    def get(self):
+        self.render("order_succ.html")
+
+class CommitHandler(BaseHandler):
+    def post(self):
+        print "------------"
         print(self.request.arguments)
-        if self.get_current_user():
-            self.render("order.html")
+        print "------------"
+        name = self.get_current_user()
+        customer = {"name": name}
+        addr = []
+        if name:
+            one = self.db.users.find_one(customer)
+            if 'addrs' in one:
+                addr = one['addrs']
+            self.render("order.html", addr=addr[0])
         else:
             self.redirect('/login')
 

@@ -85,8 +85,8 @@ $(document).ready(function() {
 			var address		= $('#address').val();
 			var city_id		= $('#zone').val();
 			var mobile		= $('#mobile').val();
-			var user_mobile		= $('#user_mobile').val();
-			var email		= $('#email').val();
+			// var user_mobile		= $('#user_mobile').val();
+			// var email		= $('#email').val();
 			var is_exp		= $('#is_exp').val();
 			
 			if(receiver == '' || receiver == null) {

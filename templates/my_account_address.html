@@ -6,8 +6,8 @@
 var shop_city = 'bj';
 try{
 	order_id = '';
-	//addr_json = {"53134":{"id":"53134","uid":"1082467","city_id":"110101","address":"123123","receiver":"123","mobile":"15581602043","user_mobile":"15581602043","tel":"","email":"","rdc_id_1":"BJERSHIBA","rdc_id_2":"","is_exp":"1","state":"0"}};
-	addr_json={};
+	addr_json = {"53134":{"id":"53134","uid":"1082467","city_id":"110101","address":"123123","receiver":"123","mobile":"15581602043","user_mobile":"15581602043","tel":"","email":"","rdc_id_1":"BJERSHIBA","rdc_id_2":"","is_exp":"1","state":"0"}};
+	//addr_json={};
 }catch (e){
 	addr_json = {};
 	order_id = '';
@@ -79,9 +79,7 @@ function saddr(id){
 <section></section>
 {% end %}
 
-
 {% block body %}
-
 {% for addr in addrs %}
 {% module Addr(addr) %}
 {% end %}
@@ -89,4 +87,11 @@ function saddr(id){
 <div class="u-w300">
 	<button id="add_address_btn_1" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18" url_to="/my_account_address_add_form?order_id=">添加收货地址</button>
 </div>
+<div class="f-tac  tip">
+	温馨提示：目前暂时只支持一个收货地址，请勿重复添加，否则会导致订单异常，谢谢合作。<p></p>
+</div>
+
+<form method="post" action="/order?order_id=46438" id="saddr">
+	<input type="hidden" name="myaddr2" value="">
+</form>
 {% end %}

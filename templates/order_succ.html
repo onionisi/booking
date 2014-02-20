@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block header %}
+<section>
+	<a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+</section>
+<section>
+	<h1 class="title">成功提交订单</h1>
+</section>
+<section></section>
+{% end %}
+
+
+{% block body %}
+    <!-- 订单成功页 -->
+    <div class="m-pg-ordersucc">
+      <div class="u-box u-w300 f-tac">
+          <br>
+                    恭喜您！订单已支付成功<br> 我们会在半个小时内给您送达！
+                  <br><br>
+      </div>
+
+      <!-- <div class="u-box f-mt10 u-w300 f-tac"> -->
+      <!--   <br> -->
+      <!--   本次应付金额：<span class="u-price-red">85.00元 </span> -->
+      <!--   <br><br> -->
+      <!--   订单号码：D00464382467 -->
+      <!--   <br><br> -->
+      <!-- </div> -->
+
+      <!--       <div class="f-tac  tip"> -->
+      <!--               温馨提示：本次您是在线支付，需在24小时之内完成付款，否则订单将被自动取消。<p></p> -->
+      <!--           </div> -->
+      
+
+      <!-- <div class="f-mt20 u-w300 u-btns"> -->
+      <!--           <a href="http://m.kuaishubao.com/m/buy/pay_p.php?order_id=46438"><button class="u-btn u-btn-halfwd u-btn-orange u-txt-cfs18">支付宝支付</button></a> -->
+      <!-- </div> -->
+
+
+    </div>
+      <script>
+          $("button[data-url]").click(function(){
+              location.href = $(this).attr("data-url");
+          });
+      </script>
+    <!-- 订单成功页 -->
+
+{% end %}
