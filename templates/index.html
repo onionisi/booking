@@ -47,20 +47,26 @@
 	<div class="u-box u-w300">
 		<div style="padding: 5px 5px;">
 			<div class="slogan">
+				<p> 同学们请先行到面板管理添加收货地址，否则订单生成有问题</p>
+			</div>
+		</div>
+	</div>
+	<div class="u-box u-w300">
+		<div style="padding: 5px 5px;">
+			<div class="slogan">
 				<p>【通知】</p>
-				<p>各位童鞋，你们好，我店于2月20日正式开始alpha版本内测，内测注册需采用人肉邀请的方式，凡参与内测的盆友，都将可以每天免费享用我们的午餐一份(<font
-					style="color:red;">一荤一素/份</font>)。</p>
-				<p>内测期间每天都会有不同的两荤两素菜品于10:00在首页今日供应栏呈现，请一定要好意思，;-)</p>
-				<p>【送餐时间】11:00--14:00，<font style="color:red;">30分钟送达！</font></p>
+				<p>各位童鞋，你们好，我店于2月20日开始内测，注册采用人肉邀请的方式。参与内测的盆友，均可每天免费享用我们的午餐(<font
+					style="color:red;">任选两种菜品加入购物车下单即可</font>)。</p>
+				<p>内测期间每天都会有不同的菜品于10:00在首页呈现，请一定要好意思，;-)</p>
+				<p>【送餐时间】11:30--13:00，<font style="color:red;">30分钟送达！</font></p>
 
-				<p> 请同学们到面板管理先行添加收货地址，否则订单生成有问题</p>
 			</div>
 		</div>
 	</div>
 
     <div class='m-list3c m-list3c-pro f-clr'>
         <!-- <a href="/xinpin"><h2>最新上架</h2></a> -->
-        <h2 class="noarrow">今日供应</h2>
+        <!-- <h2 class="noarrow">今日供应</h2> -->
         <ul>
             {% for each in entry_new %}
                 {% module Index(each) %}
