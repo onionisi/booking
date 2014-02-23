@@ -28,6 +28,7 @@ class Application(tornado.web.Application):
                 (r"/my_info_password", PasswdHandler),
                 (r"/my_account_address", AddrHandler),
                 (r"/my_account_address_add_form", Add2Handler),
+                (r"/my_order_order", MyOrderHandler),
                 (r"/my_order_fav", FavHandler),
                 (r"/cart", CartHandler),
                 (r"/order", OrderHandler),
@@ -140,6 +141,15 @@ class AddrHandler(BaseHandler):
                 addrs = one['addrs']
                 print addrs
             self.render("my_account_address.html", addrs=addrs)
+        else:
+            self.redirect('/login')
+
+class MyOrderHandler(BaseHandler):
+    def get(self):
+        name = self.get_current_user()
+        customer = {"name": name}
+        if name:
+            self.render("my_order_order.html")
         else:
             self.redirect('/login')
 
