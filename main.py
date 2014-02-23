@@ -7,9 +7,9 @@ import tornado.web
 
 from pymongo import MongoClient
 from tornado.options import define, options
+from datetime import *
 
 import tempfile
-import time
 import logging
 import urllib, ast
 from pgmagick import Image
@@ -182,7 +182,7 @@ class Add2Handler(BaseHandler):
         else:
             addr.append(new_addr)
             self.db.users.update(customer, {"$set": {"addrs": addr}})
-        
+
         message['errno'] = 0
         self.write(message)
 
@@ -195,28 +195,17 @@ class FavHandler(BaseHandler):
             self.redirect('/login')
 
 class OrderHandler(BaseHandler):
-    def get(self):
-        name = self.get_current_user()
-        customer = {"name": name}
-        addr = []
-        if name:
-            one = self.db.users.find_one(customer)
-            if 'addrs' in one:
-                addr = one['addrs']
-            self.render("order.html", addr=addr[0])
-        else:
-            self.redirect('/login')
     def post(self):
         self.clear_cookie("cartn")
         self.clear_cookie("carts")
-        print "------------"
-        goods=self.request.arguments
 
-        print "------------"
+        tmp = ast.literal_eval(self.get_argument("oder"))
+        goods = tmp['gcart']
         oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
 
         name = self.get_current_user()
         customer = {"name": name}
+        now = datetime.now()
         addr = []
         order = {}
         if name:
@@ -224,11 +213,18 @@ class OrderHandler(BaseHandler):
             if 'addrs' in one:
                 addr = one['addrs']
                 order = {'_id': oid,
-                        'good':goods,
-                        'name': name}
+                        'time': now,
+                        'name': name,
+                        'good': goods}
 
                 self.db.order.insert(order)
-            self.render("order.html", addr=addr[0])
+
+            if addr:
+                song=addr[0]
+            else:
+                song=None
+
+            self.render("order.html", oid=oid, addr=song)
         else:
             self.redirect('/login')
 
@@ -452,11 +448,12 @@ class RegHandler(BaseHandler):
             #     self.redirect('/')
 
             uid = 'G'+(str(uuid.uuid4()).split('-'))[4].upper()
-            reg_tm = time.time()
+            now = datetime.now()
+            reg_tm = now.strftime('%Y-%m-%d %H:%M:%S')
             customer = {"_id": uid,
                         "name": name,
                         "passwd": passwd,
-                        "when": reg_tm}
+                        "date": reg_tm}
             if self.db.users.insert(customer):
                 message['errno'] = 0
             else:

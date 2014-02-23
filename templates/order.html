@@ -52,13 +52,13 @@
 
 <form action="/order_commit" method="post" id="order_com">
 	<input type="hidden" name="myaddr" value="{&quot;id&quot;:&quot;53134&quot;,&quot;uid&quot;:&quot;1082467&quot;,&quot;city_id&quot;:&quot;110101&quot;,&quot;address&quot;:&quot;123123&quot;,&quot;receiver&quot;:&quot;123&quot;,&quot;mobile&quot;:&quot;15581602043&quot;,&quot;user_mobile&quot;:&quot;15581602043&quot;,&quot;tel&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;rdc_id_1&quot;:&quot;BJERSHIBA&quot;,&quot;rdc_id_2&quot;:&quot;&quot;,&quot;is_exp&quot;:&quot;1&quot;,&quot;state&quot;:&quot;0&quot;}">
-	<input type="hidden" value="45485" name="order_id">
+    <input type="hidden" value="{{ oid }}" name="order_id">
 	<input type="hidden" name="act" value="1">
 	<input type="hidden" name="from" value="m">
 	{% block body %}
 	<div class='m-order'>
 		<!-- 收货地址 -->
-		<a href="/my_account_address?order_id=45485">
+        <a href="/my_account_address?order_id={{ oid }}">
 			<div class='m-order-addr u-box f-clr'>
 				<div class='f-fl cnt'>
 					<p class='title'>收货地址</p>
