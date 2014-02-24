@@ -45,6 +45,7 @@ class Application(tornado.web.Application):
                 static_path = os.path.join(os.path.dirname(__file__), "static"),
                 ui_modules = {
                     "Good": GoodModule,
+                    "Order": OrderModule,
                     "Index": IndexModule,
                     "Cart": CartModule,
                     "Addr": AddrModule,
@@ -60,6 +61,10 @@ class Application(tornado.web.Application):
 class GoodModule(tornado.web.UIModule):
     def render(self, each):
         return self.render_string("modules/good.html", each=each)
+
+class OrderModule(tornado.web.UIModule):
+    def render(self, each):
+        return self.render_string("modules/order.html", each=each)
 
 class IndexModule(tornado.web.UIModule):
     def render(self, each):
@@ -196,9 +201,6 @@ class FavHandler(BaseHandler):
 
 class OrderHandler(BaseHandler):
     def post(self):
-        self.clear_cookie("cartn")
-        self.clear_cookie("carts")
-
         tmp = ast.literal_eval(self.get_argument("oder"))
         goods = tmp['gcart']
         oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
@@ -230,6 +232,9 @@ class OrderHandler(BaseHandler):
 
 class SuccHandler(BaseHandler):
     def get(self):
+        self.clear_cookie("cartn")
+        self.clear_cookie("carts")
+
         self.render("order_succ.html")
 
 class CommitHandler(BaseHandler):

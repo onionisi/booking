@@ -1,52 +1,27 @@
-<!DOCTYPE html>
-<!-- saved from url=(0051)http://m.kuaishubao.com/m/member/my_order_order.php -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<title>快书包触屏版</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
-<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport">
-<meta content="yes" name="apple-mobile-web-app-capable">
-<meta content="black" name="apple-mobile-web-app-status-bar-style">
-<meta content="telephone=no" name="format-detection">
+{% extends "base.html" %}
 
-<link rel="shortcut icon" href="http://m.kuaishubao.com/favicon.ico">
-<link rel="apple-touch-icon" href="http://m.kuaishubao.com/img/m/touchicon.png">
-<link rel="apple-touch-icon-precomposed" href="http://m.kuaishubao.com/img/m/touchicon.png">
-<link rel="stylesheet" href="http://m.kuaishubao.com/css/m/main-min.css">
-<link rel="stylesheet" type="text/css" href="./my_order_order_files/gmu-min.css">
-
-<script type="text/javascript" defer="" async="" src="./my_order_order_files/piwik.js"></script><script type="text/javascript" src="./my_order_order_files/zepto-min.js"></script>
-<script language="javascript" src="./my_order_order_files/m.zepto.cookie.js"></script>
-<script language="javascript" src="./my_order_order_files/public.js"></script>
-<script type="text/javascript" src="./my_order_order_files/gmu-min.js"></script><style>.gmu-media-detect{-webkit-transition: width 0.001ms; width: 0; position: relative; bottom: -999999px;}
-@media screen and (width: 710px) { #gmu-media-detect0 { width: 100px; } }
-</style>
-<!--
-<script type="text/javascript" src="/js/m/main-min.js"></script>
--->
+{% block script %}
 <script language="javascript">
 $(document).ready(function() {
-	$("img[data-url]").imglazyload();
-});
+        $("img[data-url]").imglazyload();
+        });
 </script>
 <style type="text/css">
 /* 会员中心框 */
 .member-my-box {
-	background-color:#FFFFFF;
-	border:none;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	border-radius: 3px;
-	-webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
-	-moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
-	box-shadow: 0 2px rgba(0, 0, 0, 0.07);
-	padding: 10px 5px ;
-	width:300px;
-	margin:10px auto;
-	font-size:14px;
-	font-family:"微软雅黑";
+    background-color:#FFFFFF;
+    border:none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.07);
+    padding: 10px 5px ;
+    width:300px;
+    margin:10px auto;
+    font-size:14px;
+    font-family:"微软雅黑";
 }
 .my-order1, .my-order3 {width:290px; margin:0px auto; height:18px; line-height:18px; font-size:12px; font-family:"微软雅黑"; color:#333333;}
 .my-order2 {width:300px; height:104px; margin:5px auto; border-top:#e5e5e5 1px solid; border-bottom:#e5e5e5 1px solid; padding:2px 0px 2px 0px;}
@@ -57,230 +32,37 @@ $(document).ready(function() {
 .my-order-view {background:url(/img/m/icon/arrow-right.png) no-repeat; width:21px; height:17px; margin-top:43px;}
 .my-order-goods img {margin-right:4px; width:94px; height:94px;}
 </style>
-<style type="text/css"></style></head>
-<body ryt13415="1">
+<style type="text/css"></style>
+{% end %}
 
-<div class="g-doc">
-	<div class="w">
-		<header class="g-hd">
-    <div class="m-hd">
-        <section>
-            <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
-        </section>
-        <section>
-            <h1 class="title">我的订单</h1>
-        </section>
-        <section></section>
-    </div>
-</header>
+{% block header %}
+<section>
+    <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
+</section>
+<section>
+    <h1 class="title">我的订单</h1>
+</section>
+<section></section>
+{% end %}
 
-		
-					<div class="member-my-box">
-			<div class="my-order1">
-				<div class="my-order-id">订单编号：D00464382467</div>
-				<div class="my-order-state">					未确认
-											(您还未支付)
-									</div>
-			</div>
-			<div class="my-order2" url_to="/m/buy/order_show.php?order_id=46438">
-				<div class="my-order-goods">
-									<img src="./my_order_order_files/A990034010540_2.jpg">
-																<img src="./my_order_order_files/A770033657424_2.jpg">
-																</div>
-				<div class="my-order-view"></div>
-			</div>
-			<div class="my-order3">
-				<div class="my-order-money">总金额：¥85.00</div>
-				<div class="my-order-goods-sum">共2件商品</div>
-			</div>
-		</div>
-					<div class="member-my-box">
-			<div class="my-order1">
-				<div class="my-order-id">订单编号：D00455132467</div>
-				<div class="my-order-state">					未确认
-									</div>
-			</div>
-			<div class="my-order2" url_to="/m/buy/order_show.php?order_id=45513">
-				<div class="my-order-goods">
-									<img src="./my_order_order_files/A530025525481_2.jpg">
-																					</div>
-				<div class="my-order-view"></div>
-			</div>
-			<div class="my-order3">
-				<div class="my-order-money">总金额：¥49.00</div>
-				<div class="my-order-goods-sum">共1件商品</div>
-			</div>
-		</div>
-					<div class="member-my-box">
-			<div class="my-order1">
-				<div class="my-order-id">订单编号：D00455122467</div>
-				<div class="my-order-state">					未确认
-									</div>
-			</div>
-			<div class="my-order2" url_to="/m/buy/order_show.php?order_id=45512">
-				<div class="my-order-goods">
-									<img src="./my_order_order_files/A530025525481_2.jpg">
-																					</div>
-				<div class="my-order-view"></div>
-			</div>
-			<div class="my-order3">
-				<div class="my-order-money">总金额：¥49.00</div>
-				<div class="my-order-goods-sum">共1件商品</div>
-			</div>
-		</div>
-					<div class="member-my-box">
-			<div class="my-order1">
-				<div class="my-order-id">订单编号：D00455092467</div>
-				<div class="my-order-state">					未确认
-									</div>
-			</div>
-			<div class="my-order2" url_to="/m/buy/order_show.php?order_id=45509">
-				<div class="my-order-goods">
-									<img src="./my_order_order_files/D940034959012_2.jpg">
-																<img src="./my_order_order_files/A001352909569_2.jpg">
-																</div>
-				<div class="my-order-view"></div>
-			</div>
-			<div class="my-order3">
-				<div class="my-order-money">总金额：¥98400.00</div>
-				<div class="my-order-goods-sum">共2件商品</div>
-			</div>
-		</div>
-					<div class="member-my-box">
-			<div class="my-order1">
-				<div class="my-order-id">订单编号：D00454852467</div>
-				<div class="my-order-state">					未确认
-									</div>
-			</div>
-			<div class="my-order2" url_to="/m/buy/order_show.php?order_id=45485">
-				<div class="my-order-goods">
-									<img src="./my_order_order_files/A730036689555_2.jpg">
-																					</div>
-				<div class="my-order-view"></div>
-			</div>
-			<div class="my-order3">
-				<div class="my-order-money">总金额：¥23.60</div>
-				<div class="my-order-goods-sum">共1件商品</div>
-			</div>
-		</div>
-					<div class="member-my-box">
-			<div class="my-order1">
-				<div class="my-order-id">订单编号：D00447732467</div>
-				<div class="my-order-state">					未确认
-									</div>
-			</div>
-			<div class="my-order2" url_to="/m/buy/order_show.php?order_id=44773">
-				<div class="my-order-goods">
-									<img src="./my_order_order_files/A001352911575_2.jpg">
-																<img src="./my_order_order_files/A001352909569_2.jpg">
-																</div>
-				<div class="my-order-view"></div>
-			</div>
-			<div class="my-order3">
-				<div class="my-order-money">总金额：¥178.00</div>
-				<div class="my-order-goods-sum">共2件商品</div>
-			</div>
-		</div>
-
-		<div class="m-page-m1">
-		  <span class="prev-disable">上一页</span>&nbsp;&nbsp;1/2&nbsp;&nbsp;<a class="next" href="http://m.kuaishubao.com/m/member/my_order_order.php?page=2">下一页</a>
-		</div>
-
-<div style="height: 50px;"></div>
-<div class="m-btngroup f-clr">
-    <a href="http://m.kuaishubao.com/m/member/login.php" class="u-btnbox u-btn-reg" id="foot_login" style="display: none;">登录</a>
-    <a href="http://m.kuaishubao.com/m/member/reg.php" class="u-btnbox u-btn-login" id="foot_reg" style="display: none;">注册</a>
-    <a href="http://m.kuaishubao.com/m/member/my.php" class="u-btnbox u-btn-reg" style="width: 180px; overflow: hidden;" id="foot_nickname">onionisi</a>
-    <a href="http://m.kuaishubao.com/member/logout_p.php" name="member_logout" class="u-btnbox u-btn-login" style="" id="foot_loginout">退出</a>
-    
-</div>
-        <script>
-            login_check();
-        </script>
-<div class="g-ft">
-    <div class="u-box m-ft">
-        <div>
-            <a href="http://m.kuaishubao.com/chd" class="help">返回首页</a>
-            <a href="http://www.kuaishubao.com/index.php?from_m=m" class="about">切换PC版</a>
+{% block body %}
+<div class="member-my-box">
+    <div class="my-order1">
+        <div class="my-order-id">订单编号：D00464382467</div>
+        <div class="my-order-state">					未确认
+            (您还未支付)
         </div>
-        
+    </div>
+    <div class="my-order2" url_to="/m/buy/order_show.php?order_id=46438">
+        <div class="my-order-goods">
+            <img src="./my_order_order_files/A990034010540_2.jpg">
+            <img src="./my_order_order_files/A770033657424_2.jpg">
+        </div>
+        <div class="my-order-view"></div>
+    </div>
+    <div class="my-order3">
+        <div class="my-order-money">总金额：¥85.00</div>
+        <div class="my-order-goods-sum">共2件商品</div>
     </div>
 </div>
-
-<div class="m-toolbar" id="fixbtn_all" style="width: 320px; position: fixed;bottom: 0px;z-index: 1000;">
-    <div class="fixbtn" id="fixbtn"></div>
-    <div style="height:0px;overflow: hidden;" id="fixbtn_div">
-        <ul class="f-clr off0" id="fixbtn_ul">
-            <a href="http://m.kuaishubao.com/chd"><li class="home">首页</li></a>
-            <a href="http://m.kuaishubao.com/m/member/my.php"><li class="ksb">我的快书包</li></a>
-            <a href="http://m.kuaishubao.com/m/buy/cart.php"><li class="cart">购物车<i id="cart_num" style="display: none;">0</i></li></a>
-            <a href="http://m.kuaishubao.com/m/class.php"><li class="cls">商品分类</li></a>
-        </ul>
-    </div>
-</div>
-
-
-<script>
-    fix_state = false
-    function fixbtn_show(now){
-        //alert(fix_state)
-        if ( fix_state){
-            hi = 0;
-        }else{
-            hi = $("#fixbtn_ul").height();
-        }
-        t = 300;
-        $("#fixbtn_div").animate({
-            "height": hi
-        }, t, "linear", function() {
-            if ( fix_state){
-                fix_state = false;
-            }else{
-                fix_state = true;
-            }
-        });
-    }
-    $("#fixbtn").click(function(){fixbtn_show();});
-
-    function show_cartnum(){
-        b = ($.cookie('cartn') == null || $.cookie('cartn') == '') ? 0 : $.cookie('cartn');
-        var p=new RegExp("[0-9]{1,}");
-        b = parseInt(p.exec(b));
-
-        $("#cart_num").toggle(b > 0);
-        if (b > 0){
-            $("#cart_num").show()
-        }else{
-            $("#cart_num").hide()
-        }
-        if (b > 9) {
-            $("#cart_num").html('N');
-        } else {
-            $("#cart_num").html(b);
-        }
-    }
-    $(document).ready(function(){
-        show_cartnum();
-    })
-</script>
-
-<!-- Piwik -->
-<script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(["trackPageView"]);
-    _paq.push(["enableLinkTracking"]);
-
-    (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.internal.kuaishubao.com/";
-        _paq.push(["setTrackerUrl", u+"piwik.php"]);
-        _paq.push(["setSiteId", "10"]);
-        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-    })();
-</script>
-<!-- End Piwik Code -->
-
-	</div>
-</div>
-
-<div class="gmu-media-detect" id="gmu-media-detect0"></div></body></html>
+{% end %}
