@@ -3,18 +3,18 @@
 	<div class='u-box m-proitem f-clr'>
 		<img src="{{ static_url("images/icons/empty.png") }}" data-url="{{ each['image2'] }}">
 		<h2>
-            {% if each['subname'] %}
-                <font style="color:red;">{{ each['subname'] }}</font>
-            {% end %}
-                {{ each['name'] }}
-        </h2>
+			{% if each['subname'] %}
+			<font style="color:red;">{{ each['subname'] }}</font>
+			{% end %}
+			{{ each['name'] }}
+		</h2>
 		<div class='price'>
-            {% if each['discount'] %}
-                <span>¥{{ each['discount'] }}</span>
-                <del>¥{{ each['price'] }}</del>
-            {% else %}
-                <span>¥{{ each['price'] }}</span>
-            {% end %}
+			{% if each['discount'] %}
+			<span>¥{{ each['discount'] }}</span>
+			<del>¥{{ each['price'] }}</del>
+			{% else %}
+			<span>¥{{ each['price'] }}</span>
+			{% end %}
 		</div>
 	</div>
 </a>

@@ -1,0 +1,24 @@
+<div class="member-my-box">
+	<div class="my-order1">
+		<div class="my-order-id">订单编号：{{each['oid']}}</div>
+		<div class="my-order-state">
+			{% if each['commit'] %}
+			已确认
+			{% else %}
+			未确认
+			{% end %}
+		</div>
+	</div>
+	<div class="my-order2" url_to="/order_show?order_id={{each['oid']}}">
+		<div class="my-order-goods">
+			{% for pic in each['images'] %}
+			<img src="{{ pic }}">
+			{% end %}
+		</div>
+		<div class="my-order-view"></div>
+	</div>
+	<div class="my-order3">
+		<div class="my-order-money">总金额：¥{{ each['money'] }}</div>
+		<div class="my-order-goods-sum">共{{ each['count'] }}件商品</div>
+	</div>
+</div>

@@ -2,44 +2,20 @@
 
 {% block script %}
 <script type="text/javascript" src="{{ static_url("javascripts/addrcode.js") }}"></script>
-<script language="javascript">
-var shop_city = 'bj';
+<script type="text/javascript" language="javascript">
 try{
-	order_id = '';
-	//addr_json = {"53134":{"id":"53134","uid":"1082467","city_id":"110101","address":"123123","receiver":"123","mobile":"15581602043","user_mobile":"15581602043","tel":"","email":"","rdc_id_1":"BJERSHIBA","rdc_id_2":"","is_exp":"1","state":"0"}};
-	addr_json={};
+	order_id = '{{oid}}';
 }catch (e){
-	addr_json = {};
 	order_id = '';
 }
 $(document).ready(function() {
-		var html = '';
-		for(var i in addr_json) {
-		html += '		<div class="member-my-box address-box" data="' + addr_json[i].id + '">\n';
-		html += '	<div class="address_name">' + addr_json[i].receiver + '</div>\n';
-		html += '	<div class="address_info"><span city_id="' + addr_json[i].city_id + '" format="ca"></span>' + addr_json[i].address + '</div>\n';
-		html += '	<div class="address_mobile">' + addr_json[i].mobile + '&nbsp;' + addr_json[i].tel + '</div>\n';
-		html += '	<div class="address_state">' + (addr_json[i].state == 1 ? '默认地址' : '') + '</div>\n';
-		html += '	<div style="clear:both;"></div>\n';
-		html += '</div>\n';
-		}
-		$('.u-w300').before(html);
-		span_city_id_tran();
-
 		$("div[data]").click(function(){
 			saddr($(this).attr("data"));
 		});
-
-		// 其他站 隐藏1小时地址添加按钮
-		if(shop_city == 'qt') {
-		$('#add_address_btn_1').hide();
-		$('#add_address_msg_2').hide();
-		}
-
 });
 
 function saddr(id){
-	$("input[name=myaddr2]").val(JSON.stringify(addr_json[id]))
+	$("input[name=myaddr2]").val(id)
 		$("#saddr").submit();
 }
 </script>
@@ -81,17 +57,15 @@ function saddr(id){
 
 {% block body %}
 {% for addr in addrs %}
-{% module Addr(addr) %}
+	{% module Addr(addr, addrs.index(addr)) %}
 {% end %}
-
 <div class="u-w300">
-	<button id="add_address_btn_1" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18" url_to="/my_account_address_add_form?order_id=">添加收货地址</button>
-</div>
-<div class="f-tac  tip">
-	温馨提示：目前暂时只支持一个收货地址，请勿重复添加，否则会导致订单异常，谢谢合作。<p></p>
+	<button id="add_address_btn_1" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18" url_to="/my_account_address_add_form?order_id={{ oid }}">添加收货地址</button>
 </div>
 
-<form method="post" action="/order?order_id=46438" id="saddr">
+{% if oid %}
+<form method="post" action="/order_show?order_id={{oid}}" id="saddr">
 	<input type="hidden" name="myaddr2" value="">
 </form>
+{% end %}
 {% end %}

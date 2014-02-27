@@ -13,6 +13,7 @@ import tempfile
 import logging
 import urllib, ast
 from pgmagick import Image
+import collections
 
 define("port", default=8888, help="run on the given port", type=int)
 
@@ -32,8 +33,8 @@ class Application(tornado.web.Application):
                 (r"/my_order_fav", FavHandler),
                 (r"/cart", CartHandler),
                 (r"/order", OrderHandler),
+                (r"/order_show", Oshow_Handler),
                 (r"/order_commit", CommitHandler),
-                (r"/succ", SuccHandler),
                 (r"/c_show", Cshow_Handler),
                 (r"/admin", Admin_Handler),
                 (r"/edit/(G[0-9A-Z]{12})", Admin_Handler),
@@ -48,6 +49,8 @@ class Application(tornado.web.Application):
                     "Index": IndexModule,
                     "Cart": CartModule,
                     "Addr": AddrModule,
+                    "Order": OrderModule,
+                    "Orgd": OrgdModule,
                     },
                 #xsrf_cookies = True,
                 cookie_secret = uuid.uuid4(),
@@ -70,8 +73,16 @@ class CartModule(tornado.web.UIModule):
         return self.render_string("modules/cart.html", each=each)
 
 class AddrModule(tornado.web.UIModule):
-    def render(self, addr):
-        return self.render_string("modules/addr.html", addr=addr)
+    def render(self, addr, index):
+        return self.render_string("modules/addr.html", addr=addr, index=index)
+
+class OrderModule(tornado.web.UIModule):
+    def render(self, order):
+        return self.render_string("modules/order.html", each=order)
+
+class OrgdModule(tornado.web.UIModule):
+    def render(self, order):
+        return self.render_string("modules/orgd.html", each=order)
 
 class BaseHandler(tornado.web.RequestHandler):
     @property
@@ -132,6 +143,10 @@ class PasswdHandler(BaseHandler):
 
 class AddrHandler(BaseHandler):
     def get(self):
+        if self.request.arguments:
+            oid = self.get_argument("order_id")
+        else:
+            oid = None
         name = self.get_current_user()
         customer = {"name": name}
         addrs = []
@@ -139,8 +154,8 @@ class AddrHandler(BaseHandler):
             one = self.db.users.find_one(customer)
             if 'addrs' in one:
                 addrs = one['addrs']
-                print addrs
-            self.render("my_account_address.html", addrs=addrs)
+
+            self.render("my_account_address.html", addrs=addrs, oid=oid)
         else:
             self.redirect('/login')
 
@@ -148,15 +163,49 @@ class MyOrderHandler(BaseHandler):
     def get(self):
         name = self.get_current_user()
         customer = {"name": name}
+        entries = []
         if name:
-            self.render("my_order_order.html")
+            # TODO: just everyone last 10 record, del others
+            orders = self.db.order.find({'name':name})
+            for order in orders:
+                entry = {}
+                images = []
+                money = 0
+
+                goods = order['good']
+                count = len(goods)
+                for (k,v) in goods.items():
+                    each = self.db.goods.find_one({'_id':k})
+                    images.append(each['image2'])
+                    if each['discount']:
+                        money += float(each['discount'])*int(v)
+                    else:
+                        money += float(each['price'])*int(v)
+
+                entry['oid']=order['_id']
+                if 'time' in order:
+                    entry['commit']=True
+                else:
+                    entry['commit']=False
+
+                if count > 2:
+                    entry['images']=images[:2]
+                else:
+                    entry['images']=images
+
+                entry['money']=money
+                entry['count']=count
+
+                entries.append(entry)
+            self.render("my_order_order.html", orders=iter(entries))
         else:
             self.redirect('/login')
 
 class Add2Handler(BaseHandler):
     def get(self):
+        oid = self.get_argument("order_id")
         if self.get_current_user():
-            self.render("my_account_address_add_form.html")
+            self.render("my_account_address_add_form.html", oid=oid)
         else:
             self.redirect('/login')
     def post(self):
@@ -196,57 +245,112 @@ class FavHandler(BaseHandler):
 
 class OrderHandler(BaseHandler):
     def post(self):
-        self.clear_cookie("cartn")
-        self.clear_cookie("carts")
-
-        tmp = ast.literal_eval(self.get_argument("oder"))
-        goods = tmp['gcart']
-        oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
-
         name = self.get_current_user()
-        customer = {"name": name}
-        now = datetime.now()
-        addr = []
-        order = {}
-        if name:
-            one = self.db.users.find_one(customer)
-            if 'addrs' in one:
-                addr = one['addrs']
+        if not name:
+            self.redirect('/login')
+        else:
+            self.clear_cookie("cartn")
+            self.clear_cookie("carts")
+
+            all_args = self.request.arguments
+
+            if 'oder' in all_args:
+                tmp = ast.literal_eval(self.get_argument("oder"))
+                goods = tmp['gcart']
+                oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
+
                 order = {'_id': oid,
-                        'time': now,
                         'name': name,
                         'good': goods}
 
                 self.db.order.insert(order)
 
-            if addr:
-                song=addr[0]
-            else:
-                song=None
+            self.redirect('/order_show?order_id=%s' % oid)
 
-            self.render("order.html", oid=oid, addr=song)
-        else:
-            self.redirect('/login')
-
-class SuccHandler(BaseHandler):
+class Oshow_Handler(BaseHandler):
     def get(self):
-        self.render("order_succ.html")
+        name = self.get_current_user()
+        if not name:
+            self.redirect('/login')
+        else:
+            all_args = self.request.arguments
+            customer = self.db.users.find_one({"name": name})
+            entry=[]
+            money=0
+
+            if 'order_id' in all_args:
+                oid = self.get_argument("order_id")
+                addr_id = 0
+                addr = customer['addrs'][int(addr_id)]
+
+                order = self.db.order.find_one({'_id':oid})
+                goods = order['good']
+
+            for (k,v) in goods.items():
+                each = self.db.goods.find_one({'_id':k})
+                each['count'] = int(v)
+                entry.append(each)
+                if each['discount']:
+                    money += float(each['discount'])*int(v)
+                else:
+                    money += float(each['price'])*int(v)
+            self.render("order_show.html", entry=entry, money=money*100, oid=oid, addr=addr, addr_id=addr_id)
+
+    def post(self):
+        name = self.get_current_user()
+        if not name:
+            self.redirect('/login')
+        else:
+            all_args = self.request.arguments
+            customer = self.db.users.find_one({"name": name})
+            entry=[]
+            money=0
+
+            if 'order_id' in all_args:
+                oid = self.get_argument("order_id")
+                addr_id = self.get_argument("myaddr2")
+                addr = customer['addrs'][int(addr_id)]
+
+                order = self.db.order.find_one({'_id':oid})
+                goods = order['good']
+
+            for (k,v) in goods.items():
+                each = self.db.goods.find_one({'_id':k})
+                each['count'] = int(v)
+                entry.append(each)
+                if each['discount']:
+                    money += float(each['discount'])*int(v)
+                else:
+                    money += float(each['price'])*int(v)
+            self.render("order_show.html", entry=entry, money=money*100, oid=oid, addr=addr, addr_id=addr_id)
 
 class CommitHandler(BaseHandler):
     def post(self):
-        print "------------"
-        print(self.request.arguments)
-        print "------------"
         name = self.get_current_user()
-        customer = {"name": name}
-        addr = []
-        if name:
-            one = self.db.users.find_one(customer)
-            if 'addrs' in one:
-                addr = one['addrs']
-            self.render("order.html", addr=addr[0])
-        else:
+        if not name:
             self.redirect('/login')
+        else:
+            print ("------------")
+            print(self.request.arguments)
+            print ("------------")
+
+            all_args = self.request.arguments
+            customer = self.db.users.find_one({"name": name})
+
+            now = datetime.now()
+
+            customer = {"name": name}
+            orders = self.db.order.find(customer)
+
+            addrs = self.db.order.find_one(customer, {"addrs": 1})
+            if 'addrs' in addrs:
+                addrs['addrs'].append(new_addr)
+                self.db.order.update(customer, {"$set": {"addrs": addrs['addrs']}})
+            else:
+                addr.append(new_addr)
+                self.db.order.update(customer, {"$set": {"addrs": addr}})
+
+            self.render("order_succ.html", orders=orders)
 
 class CartHandler(BaseHandler):
     def get(self):
@@ -285,7 +389,6 @@ class CartHandler(BaseHandler):
                     each = self.db.goods.find_one({'_id':k})
                     entry.append(each)
             self.render("cart.html", entry=entry)
-            #self.render("cart1.html")
 
 class Goods_Handler(BaseHandler):
     def get(self):

@@ -1,0 +1,24 @@
+<li goods_id="{{ each['_id'] }}">
+<div class="u-box m-proitem f-clr">
+	<a href="/goods?shop_id=swust&goods_id={{ each['_id'] }}">
+		<img src="{{ each['image2'] }}" width='94' height='94'>
+		<h2>
+		{% if each['subname'] %}
+		<font style="color:red;">{{ each['subname'] }}</font>
+		{% end %}
+		{{ each['name'] }}
+		</h2>
+	</a>
+	<div
+		class="number-price">
+		<span class='num'>数量：{{ each['count'] }}</span>
+		<span class='pri'>¥
+			{% if each['discount'] %}
+			{{ float(each['discount'])*each['count'] }}
+			{% else %}
+			{{ float(each['price'])*each['count'] }}
+			{% end %}
+		</span>
+	</div>
+</div>
+</li>

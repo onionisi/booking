@@ -69,16 +69,16 @@ $(document).ready(function() {
 			}
 		});
 		
-		var init_city = (typeof(order_id) == 'undefined' || order_id == '' || order_id == 0) ? 0 : (typeof(shop_city) == 'undefined' ? 0 : shop_city);
-		var ao = new address_obj();
-		if(is_exp == '1') {
-			$('#a').show();
-			ao.select_init_3('a', 'b', 'city_id', init_city);
-		}
-		else {
-			$('#a').hide();
-			ao.select_init('b', 'city_id', init_city);
-		}
+		// var init_city = (typeof(order_id) == 'undefined' || order_id == '' || order_id == 0) ? 0 : (typeof(shop_city) == 'undefined' ? 0 : shop_city);
+		// var ao = new address_obj();
+		// if(is_exp == '1') {
+		// 	$('#a').show();
+		// 	ao.select_init_3('a', 'b', 'city_id', init_city);
+		// }
+		// else {
+		// 	$('#a').hide();
+		// 	ao.select_init('b', 'city_id', init_city);
+		// }
 		
 		$('#my_account_address_add_form').submit(function() {
 			var receiver	= $('#receiver').val();

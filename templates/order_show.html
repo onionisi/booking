@@ -11,12 +11,10 @@
 	<a href="/"><span class="return">返回</span></a>
 </section>
 <section>
-	<h1 class="title">核对收货地址</h1>
+	<h1 class="title">核对订单信息</h1>
 </section>
 <section></section>
-{% end %}
 
-{% block body %}
 <style>
 .down {
 	-webkit-transform: rotate(135deg);
@@ -49,16 +47,20 @@
 	height: inherit;
 	line-height: 20px;}
 </style>
+{% end %}
 
+{% block form %}
 <form action="/order_commit" method="post" id="order_com">
-	<input type="hidden" name="myaddr" value="{&quot;id&quot;:&quot;53134&quot;,&quot;uid&quot;:&quot;1082467&quot;,&quot;city_id&quot;:&quot;110101&quot;,&quot;address&quot;:&quot;123123&quot;,&quot;receiver&quot;:&quot;123&quot;,&quot;mobile&quot;:&quot;15581602043&quot;,&quot;user_mobile&quot;:&quot;15581602043&quot;,&quot;tel&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;,&quot;rdc_id_1&quot;:&quot;BJERSHIBA&quot;,&quot;rdc_id_2&quot;:&quot;&quot;,&quot;is_exp&quot;:&quot;1&quot;,&quot;state&quot;:&quot;0&quot;}">
-    <input type="hidden" value="{{ oid }}" name="order_id">
+	<input type="hidden" name="myaddr" value="{{ addr_id }}">
+	<input type="hidden" value="{{ oid }}" name="order_id">
 	<input type="hidden" name="act" value="1">
 	<input type="hidden" name="from" value="m">
-	{% block body %}
+{% end %}
+
+{% block body %}
 	<div class='m-order'>
 		<!-- 收货地址 -->
-        <a href="/my_account_address?order_id={{ oid }}">
+		<a href="/my_account_address?order_id={{ oid }}">
 			<div class='m-order-addr u-box f-clr'>
 				<div class='f-fl cnt'>
 					<p class='title'>收货地址</p>
@@ -66,9 +68,11 @@
 					<div>{{ addr['receiver'] }}<br>
 						{% if addr['zone'] == 'swust' %}
 						西南科技大学
+						{% elif addr['zone'] == 'mnu' %}
+						绵阳师范学院
 						{% end %}
 						{{ addr['address'] }}<br>
-						{{ addr['mobile'] }}&nbsp;<br>
+						{{ addr['mobile'] }}<br>
 					</div>
 					{% else %}
 					<div class='empty'>请添加收货地址 </div>
@@ -82,23 +86,21 @@
 		<!-- 送货时间 -->
 		<div class='m-order-time u-box '>
 			<p class='title'>指定送货时间</p>
-			<div class='radio'><label><input type="radio" class='u-radio'
-					name='send_type' checked="checked" value="1">现在就送，30分钟内送达</label></div>
-			<div class='radio'><label><input  type="radio" class='u-radio'
-					name='send_type' value="2">定时送 请指定具体时间段(暂未开放)</label></div>
+			<div class='radio'><label><input type="radio" class='u-radio' name='send_type' checked="checked" value="1">立即送 30分钟左右送达</label></div>
+			<div class='radio'><label><input  type="radio" class='u-radio' name='send_type' value="2">定时送 请指定具体时间段</label></div>
 			<div class='time f-clr'>
-				<!-- <div class='u-selectdiv f-fl'> -->
-				<!--     <select name="appoint_date" class='u-select'> -->
-				<!--         <i class='u-arrow-right'></i> -->
-				<!--         <option value="2014-01-24">今天 周五</option> -->
-				<!--         <option value="2014-01-25">1月25日 周六</option> -->
-				<!--         <option value="2014-01-26">1月26日 周日</option> -->
-				<!--         <option value="2014-01-27">1月27日 周一</option> -->
-				<!--         <option value="2014-01-28">1月28日 周二</option> -->
-				<!--     </select> -->
-				<!-- </div> -->
-
 				<div class='u-selectdiv f-fl'>
+				    <select name="appoint_date" class='u-select'>
+				        <i class='u-arrow-right'></i>
+				        <option value="2014-01-24">今天 周五</option>
+				        <option value="2014-01-25">1月25日 周六</option>
+				        <option value="2014-01-26">1月26日 周日</option>
+				        <option value="2014-01-27">1月27日 周一</option>
+				        <option value="2014-01-28">1月28日 周二</option>
+				    </select>
+				</div>
+
+				<div class='u-selectdiv f-fr'>
 					<select name="appoint_time" class='u-select'>
 						<option value="1130">11:00-11:30</option>
 						<option value="1200">11:30-12:00</option>
@@ -112,21 +114,21 @@
 		</div>
 
 		<!-- 付款方式 -->
-		<!-- <div class='m-order-pay u-box'> -->
-		<!-- 	<p class='title'>付款方式</p> -->
+		<div class='m-order-pay u-box'>
+			<p class='title'>付款方式</p>
 
-		<!-- 	<div class='yue'> -->
-		<!-- 		<p>您需要支付的款项为 <b id="mytotal">23.60 </b>元</p> -->
-		<!-- 		<div class='u-hr'></div> -->
-		<!-- 	</div> -->
+			<div class='yue'>
+				<p>您需要支付的款项为 <b id="mytotal"></b></p>
+				<div class='u-hr'></div>
+			</div>
 
-		<!-- 	<div> -->
-		<!-- 		剩余款项 <b id="hxzf">23.60</b>的支付方式为 -->
-		<!-- 	</div> -->
-		<!-- 	<div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="1" checked="checked">货到付款（支持现金、手机支付）</label></div> -->
-		<!-- 	<div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="2">在线支付（支付宝）</label></div> -->
+			<div>
+				剩余款项 <b id="hxzf"></b>的支付方式为
+			</div>
+			<div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="1" checked="checked">货到付款（支持现金、手机支付）</label></div>
+			<div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="2">在线支付（支付宝）</label></div>
 
-		<!-- </div> -->
+		</div>
 
 
 		<!-- <div class='m-order-time u-box' style="display: none;" id="usepack"> -->
@@ -134,24 +136,30 @@
 		<!--     <div class='radio' style="font-size: 12px;"><label><input type="radio" class='u-radio' name='bagage' value="1">是的，用我购买的蓝印花布包袱皮做礼品包装</label></div> -->
 		<!--     <div class='radio' style="font-size: 12px;"><label><input type="radio" class='u-radio' name='bagage' checked="checked" value="2">不用了，请把蓝印花布叠好</label></div> -->
 		<!-- </div> -->
+
 		<!-- 留言 -->
 		<div class='m-order-msg u-box'>
 			<textarea name="message" placeholder='您有需要特殊交待的话，请给我们留言备注(200字以内)'></textarea>
 		</div>
 
 		<!-- 商品 -->
+		<div class='u-boxlist-w300'>
+			<ul>
+				{% for each in entry %}
+				{% module Orgd(each) %}
+				{% end %}
+			</ul>
+		</div>
 
 		<script>
 try{
-	total_sum = 2360;
+	total_sum = {{ money }};
 	yue = 0;
 	syye = 0;
 	syyhq = 0;
-	shop_id = 'chd';
 	order_exp_fee = 0;
 	exp_fee1 = 0;
 	exp_fee2 = 0;
-	//myaddr = {"id":"53134","uid":"1082467","city_id":"110101","address":"123123","receiver":"123","mobile":"15581602043","user_mobile":"15581602043","tel":"","email":"","rdc_id_1":"BJERSHIBA","rdc_id_2":"","is_exp":"1","state":"0"};
 }catch (e){
 	//addr_json = {};
 	//myaddr = [];
@@ -162,35 +170,6 @@ try{
 //         $("#usepack").show();
 //         }
 //         });
-$("input[name=is_invoice]").click(function(){
-		if ($(this).attr("checked") || $(this).attr("checked")=="checked"){
-		//$("div.invoice-type").show();
-		//$("div.invoice-title").show();
-		$("#myinvoice1").show();
-		$("#myinvoice2").show();
-		$("div.tip").show();
-		}else{
-		$("#myinvoice1").hide();
-		$("#myinvoice2").hide();
-		$("div.invoice-type").hide();
-		$("div.invoice-title").hide();
-		$("div.addv_invoice").hide();
-		$("div.tip").hide();
-		$("input[name=invoice_type2]").prop("checked",false);
-		}
-		});
-
-$("input[name=invoice_type2]").click(function(){
-		if ($(this).val() == '1'){
-		$("div.invoice-type").show();
-		$("div.invoice-title").show();
-		$("div.addv_invoice").hide();
-		}else if($(this).val() == '2'){
-		$("div.invoice-type").hide();
-		$("div.invoice-title").hide();
-		$("div.addv_invoice").show();
-		}
-		});
 
 $("input[name=syyhq]").click(function(){
 		show_moeny();
@@ -253,57 +232,52 @@ function show_moeny(){
 	$("#yue_tips").html(returnFloat2(syye3.div(100))+"元");
 	$("#sjzje").html(returnFloat2(hxzf.div(100))+"元");
 	$("#mytotal").html(returnFloat2(total_sum.div(100))+"元");
+	$("#total").html(returnFloat2(total_sum.div(100))+"元");
 }
 		</script>
 		<!-- 价格合计 -->
-		<!-- <div class='m-order-price'> -->
-		<!-- 	<div class='u-box'> -->
-		<!-- 		<dl> -->
-		<!-- 			<dt>商品总金额：</dt> -->
-		<!-- 			<dd>23.60元</dd> -->
-		<!-- 		</dl> -->
-		<!-- 		<dl> -->
-		<!-- 			<dt>运费：</dt> -->
-		<!-- 			<dd id="expfee">0.00元</dd> -->
-		<!-- 		</dl> -->
-		<!-- 		<dl> -->
-		<!-- 			<dt>优惠券：</dt> -->
-		<!-- 			<dd id="yhq_tips">0.00元</dd> -->
-		<!-- 		</dl> -->
-		<!-- 		<dl> -->
-		<!-- 			<dt>余额支付：</dt> -->
-		<!-- 			<dd id="yue_tips">0.00元</dd> -->
-		<!-- 		</dl> -->
-		<!-- 		<dl> -->
-		<!-- 			<dt>实际总金额：</dt> -->
-		<!-- 			<dd id="sjzje">23.60元</dd> -->
-		<!-- 		</dl> -->
-		<!-- 	</div> -->
+		<div class='m-order-price'>
+			<div class='u-box'>
+				<dl>
+					<dt>商品总金额：</dt>
+					<dd id=total></dd>
+				</dl>
+				<dl>
+					<dt>运费：</dt>
+					<dd id="expfee"></dd>
+				</dl>
+				<dl>
+					<dt>优惠券：</dt>
+					<dd id="yhq_tips"></dd>
+				</dl>
+				<!-- <dl> -->
+				<!-- 	<dt>余额支付：</dt> -->
+				<!-- 	<dd id="yue_tips"></dd> -->
+				<!-- </dl> -->
+				<dl>
+					<dt>实际总金额：</dt>
+					<dd id="sjzje"></dd>
+				</dl>
+			</div>
 
-		<!-- </div> -->
+		</div>
 
 		<div class="u-w300">
-			<button type="button" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18"> <a href="/succ">提交订单</a></button>
+			<button id="btn_commi" type="button" class="u-btn-orange u-btn-fullwd btn-addcart u-txt-white18">提交订单</button>
 		</div>
 	</div>
-	{% end %}
-</div>
 </form>
 <script>
-//$("#btn_commi").click(function(){
-//		if($("input[name=myaddr]").val() == '[]' || $("input[name=myaddr]").val() == ''){
-//		alert('请填写收货地址');
-//		return false;
-//		}
-//		$("input[name=act]").val('1');
-//		//alert($("input[name=myaddr]").val());
-//		$("#order_com").submit();
-//		return false;
-//		});
-//		setTimeout(function(){
-//			location.href="/succ";
-//			},2000);
-//		});
-//show_chaoqu_info();
+$("#btn_commi").click(function(){
+		if($("input[name=myaddr]").val() == '[]' || $("input[name=myaddr]").val() == ''){
+		alert('请填写收货地址');
+		return false;
+		}
+		$("input[name=act]").val('1');
+		//alert($("input[name=myaddr]").val());
+		$("#order_com").submit();
+		return false;
+		});
+show_chaoqu_info();
 </script>
 {% end %}
