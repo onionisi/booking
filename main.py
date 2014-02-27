@@ -46,6 +46,7 @@ class Application(tornado.web.Application):
                 static_path = os.path.join(os.path.dirname(__file__), "static"),
                 ui_modules = {
                     "Good": GoodModule,
+                    "Order": OrderModule,
                     "Index": IndexModule,
                     "Cart": CartModule,
                     "Addr": AddrModule,
@@ -63,6 +64,10 @@ class Application(tornado.web.Application):
 class GoodModule(tornado.web.UIModule):
     def render(self, each):
         return self.render_string("modules/good.html", each=each)
+
+class OrderModule(tornado.web.UIModule):
+    def render(self, each):
+        return self.render_string("modules/order.html", each=each)
 
 class IndexModule(tornado.web.UIModule):
     def render(self, each):
@@ -245,6 +250,7 @@ class FavHandler(BaseHandler):
 
 class OrderHandler(BaseHandler):
     def post(self):
+<<<<<<< HEAD
         name = self.get_current_user()
         if not name:
             self.redirect('/login')
@@ -258,6 +264,11 @@ class OrderHandler(BaseHandler):
                 tmp = ast.literal_eval(self.get_argument("oder"))
                 goods = tmp['gcart']
                 oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
+=======
+        tmp = ast.literal_eval(self.get_argument("oder"))
+        goods = tmp['gcart']
+        oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
+>>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 
                 order = {'_id': oid,
                         'name': name,
@@ -296,6 +307,7 @@ class Oshow_Handler(BaseHandler):
                     money += float(each['price'])*int(v)
             self.render("order_show.html", entry=entry, money=money*100, oid=oid, addr=addr, addr_id=addr_id)
 
+<<<<<<< HEAD
     def post(self):
         name = self.get_current_user()
         if not name:
@@ -323,6 +335,14 @@ class Oshow_Handler(BaseHandler):
                 else:
                     money += float(each['price'])*int(v)
             self.render("order_show.html", entry=entry, money=money*100, oid=oid, addr=addr, addr_id=addr_id)
+=======
+class SuccHandler(BaseHandler):
+    def get(self):
+        self.clear_cookie("cartn")
+        self.clear_cookie("carts")
+
+        self.render("order_succ.html")
+>>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 
 class CommitHandler(BaseHandler):
     def post(self):

@@ -1,4 +1,5 @@
 <div class="member-my-box">
+<<<<<<< HEAD
 	<div class="my-order1">
 		<div class="my-order-id">订单编号：{{each['oid']}}</div>
 		<div class="my-order-state">
@@ -21,4 +22,23 @@
 		<div class="my-order-money">总金额：¥{{ each['money'] }}</div>
 		<div class="my-order-goods-sum">共{{ each['count'] }}件商品</div>
 	</div>
+=======
+    <div class="my-order1">
+        <div class="my-order-id">订单编号：{{ each['_id'] }}</div>
+        <div class="my-order-state">					未确认
+            (您还未支付)
+        </div>
+    </div>
+    <div class="my-order2" url_to="/order?order_id={{ each['_id'] }}">
+        <div class="my-order-goods">
+            <img src="./my_order_order_files/A990034010540_2.jpg">
+            <img src="./my_order_order_files/A770033657424_2.jpg">
+        </div>
+        <div class="my-order-view"></div>
+    </div>
+    <div class="my-order3">
+        <div class="my-order-money">总金额：¥85.00</div>
+        <div class="my-order-goods-sum">共2件商品</div>
+    </div>
+>>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 </div>
