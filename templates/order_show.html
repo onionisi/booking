@@ -87,7 +87,7 @@
 		<div class='m-order-time u-box '>
 			<p class='title'>指定送货时间</p>
 			<div class='radio'><label><input type="radio" class='u-radio' name='send_type' checked="checked" value="1">立即送 30分钟左右送达</label></div>
-			<div class='radio'><label><input  type="radio" class='u-radio' name='send_type' value="2">定时送 请指定具体时间段</label></div>
+			<div class='radio'><label><input type="radio" class='u-radio' name='send_type' value="2">定时送 请指定具体时间段</label></div>
 			<div class='time f-clr'>
 				<div class='u-selectdiv f-fl'>
 				    <select name="appoint_date" class='u-select'>
@@ -139,7 +139,7 @@
 
 		<!-- 留言 -->
 		<div class='m-order-msg u-box'>
-			<textarea name="message" placeholder='您有需要特殊交待的话，请给我们留言备注(200字以内)'></textarea>
+			<textarea name="message" placeholder='您有需要特殊交待的话，请给我们留言备注(50字以内)'></textarea>
 		</div>
 
 		<!-- 商品 -->
@@ -226,7 +226,7 @@ function show_moeny(){
 	}else{
 		syye = yue;
 	}
-	$("#hxzf").html(returnFloat2(hxzf.div(100)));
+	$("#hxzf").html(returnFloat2(hxzf.div(100))+"元");
 	$("#yue_t").html(syye >= 0 ? returnFloat2(syye.div(100)) : '0.00');
 	$("#yhq_tips").html(returnFloat2(syyhq.div(100))+"元");
 	$("#yue_tips").html(returnFloat2(syye3.div(100))+"元");
@@ -269,7 +269,7 @@ function show_moeny(){
 </form>
 <script>
 $("#btn_commi").click(function(){
-		if($("input[name=myaddr]").val() == '[]' || $("input[name=myaddr]").val() == ''){
+		if($("input[name=myaddr]").val() == 'None' || $("input[name=myaddr]").val() == ''){
 		alert('请填写收货地址');
 		return false;
 		}

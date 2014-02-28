@@ -3,13 +3,8 @@
 {% block script %}
 <script language="javascript">
 $(document).ready(function() {
-<<<<<<< HEAD
 		$("img[data-url]").imglazyload();
 		});
-=======
-        $("img[data-url]").imglazyload();
-        });
->>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 </script>
 <style type="text/css">
 /* 会员中心框 */
@@ -42,47 +37,16 @@ $(document).ready(function() {
 
 {% block header %}
 <section>
-<<<<<<< HEAD
 	<a href="javascript:history.go(-1);"><span class="return">返回</span></a>
 </section>
 <section>
 	<h1 class="title">我的订单</h1>
-=======
-    <a href="javascript:history.go(-1);"><span class="return">返回</span></a>
-</section>
-<section>
-    <h1 class="title">我的订单</h1>
->>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 </section>
 <section></section>
 {% end %}
-
-<<<<<<< HEAD
 
 {% block body %}
 {% for each in orders %}
 {% module Order(each) %}
 {% end %}
-=======
-{% block body %}
-<div class="member-my-box">
-    <div class="my-order1">
-        <div class="my-order-id">订单编号：D00464382467</div>
-        <div class="my-order-state">					未确认
-            (您还未支付)
-        </div>
-    </div>
-    <div class="my-order2" url_to="/m/buy/order_show.php?order_id=46438">
-        <div class="my-order-goods">
-            <img src="./my_order_order_files/A990034010540_2.jpg">
-            <img src="./my_order_order_files/A770033657424_2.jpg">
-        </div>
-        <div class="my-order-view"></div>
-    </div>
-    <div class="my-order3">
-        <div class="my-order-money">总金额：¥85.00</div>
-        <div class="my-order-goods-sum">共2件商品</div>
-    </div>
-</div>
->>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 {% end %}

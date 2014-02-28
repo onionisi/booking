@@ -250,7 +250,6 @@ class FavHandler(BaseHandler):
 
 class OrderHandler(BaseHandler):
     def post(self):
-<<<<<<< HEAD
         name = self.get_current_user()
         if not name:
             self.redirect('/login')
@@ -264,11 +263,6 @@ class OrderHandler(BaseHandler):
                 tmp = ast.literal_eval(self.get_argument("oder"))
                 goods = tmp['gcart']
                 oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
-=======
-        tmp = ast.literal_eval(self.get_argument("oder"))
-        goods = tmp['gcart']
-        oid = 'D'+(str(uuid.uuid4()).split('-'))[4].upper()
->>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 
                 order = {'_id': oid,
                         'name': name,
@@ -291,8 +285,12 @@ class Oshow_Handler(BaseHandler):
 
             if 'order_id' in all_args:
                 oid = self.get_argument("order_id")
-                addr_id = 0
-                addr = customer['addrs'][int(addr_id)]
+                if 'addrs' in customer:
+                    addr_id = 0
+                    addr = customer['addrs'][addr_id]
+                else:
+                    addr_id = None
+                    addr = None
 
                 order = self.db.order.find_one({'_id':oid})
                 goods = order['good']
@@ -307,7 +305,6 @@ class Oshow_Handler(BaseHandler):
                     money += float(each['price'])*int(v)
             self.render("order_show.html", entry=entry, money=money*100, oid=oid, addr=addr, addr_id=addr_id)
 
-<<<<<<< HEAD
     def post(self):
         name = self.get_current_user()
         if not name:
@@ -335,14 +332,6 @@ class Oshow_Handler(BaseHandler):
                 else:
                     money += float(each['price'])*int(v)
             self.render("order_show.html", entry=entry, money=money*100, oid=oid, addr=addr, addr_id=addr_id)
-=======
-class SuccHandler(BaseHandler):
-    def get(self):
-        self.clear_cookie("cartn")
-        self.clear_cookie("carts")
-
-        self.render("order_succ.html")
->>>>>>> c5b116803a1ebd9ffa96676794566fefe9c3ff5b
 
 class CommitHandler(BaseHandler):
     def post(self):
@@ -354,21 +343,56 @@ class CommitHandler(BaseHandler):
             print(self.request.arguments)
             print ("------------")
 
-            all_args = self.request.arguments
-            customer = self.db.users.find_one({"name": name})
+            # what and cost
+            dishes = []
+            cost = 0
+            oid = self.get_argument("order_id")
+            order = self.db.order.find_one({'_id':oid})
+            goods = order['good']
+            for (k,v) in goods.items():
+                each = self.db.goods.find_one({'_id':k})
+                dishes.append(each['name'])
+                if each['discount']:
+                    cost += float(each['discount'])*int(v)
+                else:
+                    cost += float(each['price'])*int(v)
 
-            now = datetime.now()
+            # who and where
+            addr_id = self.get_argument("myaddr")
+            customer = self.db.users.find_one({"name": order['name']})
+            addr = customer['addrs'][int(addr_id)]
 
-            customer = {"name": name}
-            orders = self.db.order.find(customer)
+            # TODO: when, need to fixup with datetime
+            send_t = self.get_argument("send_type")
+            if send_t == '1':
+                now = datetime.now()
+                time = now.strftime('%Y-%m-%d %H:%M:%S')
+            elif send_t == '2':
+                ap_date = self.get_argument("appoint_date")
+                ap_time = self.get_argument("appoint_time")
+                time = datetime.now()
 
-            addrs = self.db.order.find_one(customer, {"addrs": 1})
-            if 'addrs' in addrs:
-                addrs['addrs'].append(new_addr)
-                self.db.order.update(customer, {"$set": {"addrs": addrs['addrs']}})
-            else:
-                addr.append(new_addr)
-                self.db.order.update(customer, {"$set": {"addrs": addr}})
+            # pay
+            pay_t = self.get_argument("pay_type")
+            if pay_t == '1':
+                pay = "face"
+            elif pay_t == '2':
+                pay = "alipay"
+
+            msg = self.get_argument("message")
+
+            send = {'order':dishes,
+                    'cost':cost,
+                    'name':addr['receiver'],
+                    'phone':addr['mobile'],
+                    'addr':addr['address'],
+                    'time':time,
+                    'pay':pay
+                    }
+
+            save = {'time':time, 'pay':pay }
+            order.update(save)
+            self.db.order.update({'_id':oid}, order)
 
             self.render("order_succ.html", orders=orders)
 
@@ -578,6 +602,7 @@ class RegHandler(BaseHandler):
                         "passwd": passwd,
                         "date": reg_tm}
             if self.db.users.insert(customer):
+                self.set_cookie("ln", name)
                 message['errno'] = 0
             else:
                 message['errno'] = 1
