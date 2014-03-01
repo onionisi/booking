@@ -86,28 +86,25 @@
 		<!-- 送货时间 -->
 		<div class='m-order-time u-box '>
 			<p class='title'>指定送货时间</p>
-			<div class='radio'><label><input type="radio" class='u-radio' name='send_type' checked="checked" value="1">立即送 30分钟左右送达</label></div>
+			<div style="color: #ed1c24;font-size: 14px;">非常抱歉！现在不在立即送的配送时间范围(每天11:00--13:30的配送时间)，请选择定时送，谢谢合作。</div>
+			<!-- <div class='radio'><label><input type="radio" class='u-radio' name='send_type' checked="checked" value="1">立即送 30分钟左右送达</label></div> -->
 			<div class='radio'><label><input type="radio" class='u-radio' name='send_type' value="2">定时送 请指定具体时间段</label></div>
 			<div class='time f-clr'>
 				<div class='u-selectdiv f-fl'>
 				    <select name="appoint_date" class='u-select'>
 				        <i class='u-arrow-right'></i>
-				        <option value="2014-01-24">今天 周五</option>
-				        <option value="2014-01-25">1月25日 周六</option>
-				        <option value="2014-01-26">1月26日 周日</option>
-				        <option value="2014-01-27">1月27日 周一</option>
-				        <option value="2014-01-28">1月28日 周二</option>
+				        <option value="today">今天</option>
+				        <option value="tomrw">明天</option>
+				        <option value="after">后天</option>
 				    </select>
 				</div>
 
 				<div class='u-selectdiv f-fr'>
 					<select name="appoint_time" class='u-select'>
-						<option value="1130">11:00-11:30</option>
-						<option value="1200">11:30-12:00</option>
-						<option value="1230">12:00-12:30</option>
-						<option value="1300">12:30-13:00</option>
-						<option value="1330">13:00-13:30</option>
-						<option value="1400">13:30-14:00</option>
+						<option value="12:00">11:30-12:00</option>
+						<option value="12:30">12:00-12:30</option>
+						<option value="13:00">12:30-13:00</option>
+						<option value="13:30">13:00-13:30</option>
 					</select>
 				</div>
 			</div>
@@ -126,7 +123,7 @@
 				剩余款项 <b id="hxzf"></b>的支付方式为
 			</div>
 			<div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="1" checked="checked">货到付款（支持现金、手机支付）</label></div>
-			<div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="2">在线支付（支付宝）</label></div>
+			<div class='radio'><label><input type="radio" class="u-radio" name="pay_type" value="2">在线支付（支付宝）(<font style="color:red;">暂未开放)</font></label></div>
 
 		</div>
 

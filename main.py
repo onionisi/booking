@@ -15,6 +15,8 @@ import urllib, ast
 from pgmagick import Image
 import collections
 
+import launcher
+
 define("port", default=8888, help="run on the given port", type=int)
 
 class Application(tornado.web.Application):
@@ -273,6 +275,19 @@ class OrderHandler(BaseHandler):
             self.redirect('/order_show?order_id=%s' % oid)
 
 class Oshow_Handler(BaseHandler):
+    # def Checktime(self, ordertime):
+    #     flag=False
+    #     starttime=time.strptime(starttime,'%Y-%m-%d %H:%M:%S')
+    #     endtime=time.strptime(endtime,'%Y-%m-%d %H:%M:%S')
+    #     ordertime=time.strptime(str(ordertime),'%Y-%m-%d %H:%M:%S')
+
+    #     if int(time.mktime(starttime))<= int(time.mktime(weibotime)) and int(time.mktime(endtime))>=int(time.mktime(ordertime)):
+    #         flag=True
+    #     else:
+    #         flag=False
+
+    #     return flag
+
     def get(self):
         name = self.get_current_user()
         if not name:
@@ -370,7 +385,7 @@ class CommitHandler(BaseHandler):
             elif send_t == '2':
                 ap_date = self.get_argument("appoint_date")
                 ap_time = self.get_argument("appoint_time")
-                time = datetime.now()
+                time = ap_date + ap_time
 
             # pay
             pay_t = self.get_argument("pay_type")
@@ -390,11 +405,13 @@ class CommitHandler(BaseHandler):
                     'pay':pay
                     }
 
+            launch = launcher.Lancher()
+            launch.send_data(send)
             save = {'time':time, 'pay':pay }
             order.update(save)
             self.db.order.update({'_id':oid}, order)
 
-            self.render("order_succ.html", orders=orders)
+            self.render("order_succ.html")
 
 class CartHandler(BaseHandler):
     def get(self):
