@@ -14,29 +14,25 @@ class Lancher:
     def __init__(self):
         context = zmq.Context()
 
-        # sync = context.socket(zmq.PULL)
-        # sync.bind("tcp://*:5564")
-
-        self.socket = context.socket(zmq.PUB)
-        self.socket.bind("tcp://*:5565")
-
-        # socket.setsockopt(zmq.HWM, 1)
+        sync = context.socket(zmq.PUSH)
+        sync.bind("tcp://localhost:5565")
 
     def send_data(self, data):
-        # sync_request = sync.recv()
 
         message = message_pb2.Order()
-
+        # data
         message.name=data['name'].encode('utf8')
         message.phone=data['phone'].encode('utf8')
         message.addr=data['addr'].encode('utf8')
+        message.time=data['time']
+        message.cost=data['cost']
+        message.pay=data['pay']
+
         for each in data['order']:
             message.good.append(each.encode('utf8'))
 
+        # data type
+        store = "onionisi"
         msg_str=message.SerializeToString()
 
-        for i in xrange(2):
-            store = "onionisi"
-            print("+++++++++++++++")
-            self.socket.send_multipart([store, msg_str])
-            time.sleep(1)
+        self.socket.send_multipart([store, msg_str])

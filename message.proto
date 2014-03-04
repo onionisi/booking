@@ -1,0 +1,9 @@
+message Order {
+	required bytes name = 1;
+	required bytes phone = 2;	
+	required bytes addr = 3;	
+	required bytes time = 4;	
+	required bytes cost = 5;	
+	required bytes pay = 6;	
+	repeated bytes good = 7;
+}

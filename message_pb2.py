@@ -13,7 +13,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='message.proto',
   package='',
-  serialized_pb='\n\rmessage.proto\"@\n\x05Order\x12\x0c\n\x04name\x18\x01 \x02(\x0c\x12\r\n\x05phone\x18\x02 \x02(\x0c\x12\x0c\n\x04\x61\x64\x64r\x18\x03 \x02(\x0c\x12\x0c\n\x04good\x18\x04 \x03(\x0c')
+  serialized_pb='\n\rmessage.proto\"i\n\x05Order\x12\x0c\n\x04name\x18\x01 \x02(\x0c\x12\r\n\x05phone\x18\x02 \x02(\x0c\x12\x0c\n\x04\x61\x64\x64r\x18\x03 \x02(\x0c\x12\x0c\n\x04time\x18\x04 \x02(\x0c\x12\x0c\n\x04\x63ost\x18\x05 \x02(\x0c\x12\x0b\n\x03pay\x18\x06 \x02(\x0c\x12\x0c\n\x04good\x18\x07 \x03(\x0c')
 
 
 
@@ -47,8 +47,29 @@ _ORDER = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='good', full_name='Order.good', index=3,
-      number=4, type=12, cpp_type=9, label=3,
+      name='time', full_name='Order.time', index=3,
+      number=4, type=12, cpp_type=9, label=2,
+      has_default_value=False, default_value="",
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='cost', full_name='Order.cost', index=4,
+      number=5, type=12, cpp_type=9, label=2,
+      has_default_value=False, default_value="",
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='pay', full_name='Order.pay', index=5,
+      number=6, type=12, cpp_type=9, label=2,
+      has_default_value=False, default_value="",
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='good', full_name='Order.good', index=6,
+      number=7, type=12, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -63,7 +84,7 @@ _ORDER = _descriptor.Descriptor(
   is_extendable=False,
   extension_ranges=[],
   serialized_start=17,
-  serialized_end=81,
+  serialized_end=122,
 )
 
 DESCRIPTOR.message_types_by_name['Order'] = _ORDER

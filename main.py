@@ -382,27 +382,27 @@ class CommitHandler(BaseHandler):
             send_t = self.get_argument("send_type")
             if send_t == '1':
                 now = datetime.now()
-                time = now.strftime('%Y-%m-%d %H:%M:%S')
+                time = now.strftime('%Y-%m-%d %H:%M')
             elif send_t == '2':
                 ap_date = self.get_argument("appoint_date")
                 ap_time = self.get_argument("appoint_time")
-                time = ap_date + ap_time
+                time = ap_date + ' ' + ap_time
 
             # pay
             pay_t = self.get_argument("pay_type")
             if pay_t == '1':
                 pay = "face"
             elif pay_t == '2':
-                pay = "alipay"
+                pay = "alip"
 
             msg = self.get_argument("message")
 
             send = {'order':dishes,
-                    'cost':cost,
                     'name':addr['receiver'],
                     'phone':addr['mobile'],
                     'addr':addr['address'],
-                    'time':time,
+                    'time':(time.split())[1],
+                    'cost':str(cost),
                     'pay':pay
                     }
 
