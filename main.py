@@ -101,9 +101,10 @@ class BaseHandler(tornado.web.RequestHandler):
 
 class HomeHandler(BaseHandler):
     def get(self):
-        entry_new = self.db.goods.find()
-        entry_hot = self.db.goods.find()
-        self.render("index.html", entry_new=entry_new, entry_hot=entry_hot)
+        entry_all = self.db.goods.find()
+        entry_noon = self.db.goods.find({'catalog':'noon'})
+        entry_first = self.db.goods.find({'catalog':'first'})
+        self.render("index.html", entry_all=entry_all, entry_first=entry_first)
 
 class ClassHandler(BaseHandler):
     def get(self):
@@ -153,7 +154,7 @@ class AddrHandler(BaseHandler):
         if self.request.arguments:
             oid = self.get_argument("order_id")
         else:
-            oid = None
+            oid = ""
         name = self.get_current_user()
         customer = {"name": name}
         addrs = []
