@@ -8,14 +8,13 @@
 
 import zmq
 import message_pb2
-import time
 
 class Lancher:
     def __init__(self):
         context = zmq.Context()
 
-        sync = context.socket(zmq.PUSH)
-        sync.bind("tcp://localhost:5565")
+        self.front = context.socket(zmq.PUSH)
+        self.front.connect("tcp://localhost:5564")
 
     def send_data(self, data):
 
@@ -35,4 +34,4 @@ class Lancher:
         store = "onionisi"
         msg_str=message.SerializeToString()
 
-        self.socket.send_multipart([store, msg_str])
+        self.front.send_multipart([store, msg_str])
