@@ -41,6 +41,7 @@ class Application(tornado.web.Application):
                 (r"/admin", Admin_Handler),
                 (r"/edit/(G[0-9A-Z]{12})", Admin_Handler),
                 (r"/goods", Goods_Handler),
+                (r".*", ErrorHandler),
                 ]
         settings = dict(
                 title = u"洋蔥頭",
@@ -98,6 +99,15 @@ class BaseHandler(tornado.web.RequestHandler):
 
     def get_current_user(self):
         return self.get_cookie("ln")
+
+class ErrorHandler(BaseHandler):
+    def get(self):
+        self.write_error(404)
+    def write_error(self, status_code, **kwargs):
+        if status_code == 404:
+            self.render('null.html')
+        else:
+            self.write('error:' + str(status_code))
 
 class HomeHandler(BaseHandler):
     def get(self):

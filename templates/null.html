@@ -15,7 +15,7 @@
 $(document).ready(function(){
 		setTimeout(function(){
 			location.href="/";
-			},2000);
+			},3000);
 		});
 </script>
 {% end %}
@@ -23,8 +23,9 @@ $(document).ready(function(){
 {% block body %}
 <div class="g-bd">
 	<div class="m-order-time u-box " style="text-align: center;">
+		<img src="{{ static_url("images/broken_link.jpg") }}">
 		抱歉，您浏览的页面没有找到!<br><br>
-		请检查您输入的网址是否正确，此页面将在2秒后自动转入 <a href="/" style="color: #0a8cd2;">本站首页</a>
+		请检查您输入的地址是否正确，此页面将在3秒后自动转入 <a href="/" style="color: #0a8cd2;">本站首页</a>
 	</div>
 </div>
 {% end %}
