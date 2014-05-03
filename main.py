@@ -21,6 +21,23 @@ define("port", default=8888, help="run on the given port", type=int)
 
 class Application(tornado.web.Application):
     def __init__(self):
+        settings = dict(
+                title = u"洋蔥頭",
+                template_path = os.path.join(os.path.dirname(__file__), "templates"),
+                static_path = os.path.join(os.path.dirname(__file__), "static"),
+                ui_modules = {
+                    "Good": GoodModule,
+                    "Order": OrderModule,
+                    "Index": IndexModule,
+                    "Cart": CartModule,
+                    "Addr": AddrModule,
+                    "Order": OrderModule,
+                    "Orgd": OrgdModule,
+                    },
+                #xsrf_cookies = True,
+                cookie_secret = uuid.uuid4(),
+                debug = True,
+                )
         handlers = [
                 (r"/", HomeHandler),
                 (r"/class", ClassHandler),
@@ -41,25 +58,9 @@ class Application(tornado.web.Application):
                 (r"/admin", Admin_Handler),
                 (r"/edit/(G[0-9A-Z]{12})", Admin_Handler),
                 (r"/goods", Goods_Handler),
+                (r"/(google8fff75087c888930\.html)", tornado.web.StaticFileHandler, dict(path=settings['static_path'])),
                 (r".*", ErrorHandler),
                 ]
-        settings = dict(
-                title = u"洋蔥頭",
-                template_path = os.path.join(os.path.dirname(__file__), "templates"),
-                static_path = os.path.join(os.path.dirname(__file__), "static"),
-                ui_modules = {
-                    "Good": GoodModule,
-                    "Order": OrderModule,
-                    "Index": IndexModule,
-                    "Cart": CartModule,
-                    "Addr": AddrModule,
-                    "Order": OrderModule,
-                    "Orgd": OrgdModule,
-                    },
-                #xsrf_cookies = True,
-                cookie_secret = uuid.uuid4(),
-                debug = True,
-                )
         tornado.web.Application.__init__(self, handlers, **settings)
 
         self.db = MongoClient('localhost', 27017).test
